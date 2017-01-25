@@ -1,0 +1,6 @@
+!Texture
+Id: a57331ca-52a8-4e9d-9d77-38e0daeedb78
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/iron/iron_mtl.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

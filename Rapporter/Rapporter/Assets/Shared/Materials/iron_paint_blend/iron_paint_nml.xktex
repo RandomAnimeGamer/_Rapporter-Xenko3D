@@ -1,0 +1,7 @@
+!Texture
+Id: 5168a369-61c0-4d7e-b902-adf37d1fba98
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/iron_paint/iron_paint_nml.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Hint: NormalMap

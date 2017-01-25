@@ -1,0 +1,7 @@
+!Texture
+Id: 5cc7b684-cfad-4751-9c24-da32e2e2cdd8
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/iron_rust/iron_rust_nml.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Hint: NormalMap

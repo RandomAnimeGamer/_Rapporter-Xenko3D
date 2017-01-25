@@ -1,0 +1,6 @@
+!Texture
+Id: 93c1cf7d-9765-4a22-8513-380caf639374
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/wood_gloss/wood_gloss_spc.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

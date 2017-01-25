@@ -1,0 +1,12 @@
+!Model
+Id: 4c6d3f2c-7a17-42cd-a4f9-53e5dd5b3b36
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Models/GridBase10x10.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d38ed2aea9d7618e02a00a6fcf3b01f0:
+        Name: GridMTx10
+        MaterialInstance:
+            Material: 7a8461d8-e1d4-40b5-8648-4ad1d9772a07:Materials/GridMTx10
+Skeleton: null

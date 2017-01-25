@@ -1,0 +1,6 @@
+!Texture
+Id: 8fdc9d39-71c5-4717-9906-76faf77d6417
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/iron_blend/paint/iron_paint_msk.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

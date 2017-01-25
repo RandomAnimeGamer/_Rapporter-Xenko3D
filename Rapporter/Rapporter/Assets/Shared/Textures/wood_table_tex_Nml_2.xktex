@@ -1,0 +1,8 @@
+!Texture
+Id: 23fb1950-2ce5-4012-99ff-4521b72a71e5
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../Resources/Textures/wood_table_tex_Nml.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Hint: NormalMap
+Alpha: None

@@ -1,0 +1,5 @@
+C:\_Rapporter-Xenko3D\Rapporter\Rapporter\Bin\Windows\Debug\Rapporter.Game.dll
+C:\_Rapporter-Xenko3D\Rapporter\Rapporter\Bin\Windows\Debug\Rapporter.Game.pdb
+C:\_Rapporter-Xenko3D\Rapporter\Rapporter\Rapporter.Game\obj\Windows\Debug\Rapporter.Game.csprojResolveAssemblyReference.cache
+C:\_Rapporter-Xenko3D\Rapporter\Rapporter\Rapporter.Game\obj\Windows\Debug\Rapporter.Game.dll
+C:\_Rapporter-Xenko3D\Rapporter\Rapporter\Rapporter.Game\obj\Windows\Debug\Rapporter.Game.pdb

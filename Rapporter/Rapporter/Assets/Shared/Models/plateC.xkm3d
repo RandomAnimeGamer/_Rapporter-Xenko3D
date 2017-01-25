@@ -1,0 +1,12 @@
+!Model
+Id: f0806388-f8ec-4671-a54b-9e13a1b84828
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Stand/plateC.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    7f976df9321207671389e3331389e333:
+        Name: blinn2
+        MaterialInstance:
+            Material: 265b36d3-38a9-4d92-8003-7a439677db86:Materials/PolishedStone
+Skeleton: null

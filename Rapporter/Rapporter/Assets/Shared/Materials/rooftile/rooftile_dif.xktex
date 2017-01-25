@@ -1,0 +1,10 @@
+!Texture
+Id: 3758e879-47a3-4565-9c86-48f4c673002d
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/rooftile/rooftile_dif.png
+IsSizeInPercentage: false
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Alpha: None
+GenerateMipmaps: false
+PremultiplyAlpha: false

@@ -1,0 +1,24 @@
+!Model
+Id: c62bdd7a-cb6e-4239-b566-179083b5873c
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Models/MagazineModel.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    62b95c8c6d652a3c31424c6e31424c6e:
+        Name: bulletMT
+        MaterialInstance:
+            Material: d1990afc-7946-425b-bcf7-0041e5e408cb:Materials/MattBlack
+    77f0be4f0cd36cd479800d2579800d25:
+        Name: matteMT
+        MaterialInstance:
+            Material: 0b1f16bd-2bf3-4af0-a63d-c4dcc2578308:Materials/MattBlackMachinegun
+    b158ca41e15b46f8b2746c0a97fdd6ee:
+        Name: semiGlossMT
+        MaterialInstance:
+            Material: aa17ee77-9c2f-4e4e-a4eb-412211f7a7ef:Materials/BodyGray
+    98c4d20c91aa1618068f92bf068f92bf:
+        Name: glossMT
+        MaterialInstance:
+            Material: c490ef8f-01e6-418f-bee2-191088825957:Materials/BodyWhite
+Skeleton: null

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SiliconStudio.Core.Native</name>
+    </assembly>
+    <members>
+        <member name="M:SiliconStudio.Core.Native.NativeInvoke.Sleep(System.Int32)">
+            <summary>
+            Suspends current thread for <paramref name="ms"/> milliseconds.
+            </summary>
+            <param name="ms">Number of milliseconds to sleep.</param>
+        </member>
+        <member name="M:SiliconStudio.Core.NativeLibrary.PreloadLibrary(System.String)">
+            <summary>
+            Try to preload the library.
+            This is useful when we want to have AnyCPU .NET and CPU-specific native code.
+            Only available on Windows for now.
+            </summary>
+            <param name="libraryName">Name of the library.</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:SiliconStudio.Core.NativeLibrary.UnLoad(System.String)">
+            <summary>
+            UnLoad a specific native dynamic library loaded previously by <see cref="M:SiliconStudio.Core.NativeLibrary.LoadLibrary(System.String)" />.
+            </summary>
+            <param name="libraryName">Name of the library to unload.</param>
+        </member>
+        <member name="M:SiliconStudio.Core.NativeLibrary.UnLoadAll">
+            <summary>
+            UnLoad all native dynamic library loaded previously by <see cref="M:SiliconStudio.Core.NativeLibrary.LoadLibrary(System.String)"/>.
+            </summary>
+        </member>
+        <member name="T:SiliconStudio.Core.NativeLibraryInternal">
+            <summary>
+            Internally this file is used by the ExecServer project in order to copy native dlls to shadow copy folders.
+            </summary>
+        </member>
+    </members>
+</doc>

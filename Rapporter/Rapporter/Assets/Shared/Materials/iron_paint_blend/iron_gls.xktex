@@ -1,0 +1,6 @@
+!Texture
+Id: b6e1d56c-4a42-4e64-ba8f-3125a54c5030
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/iron/iron_gls.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

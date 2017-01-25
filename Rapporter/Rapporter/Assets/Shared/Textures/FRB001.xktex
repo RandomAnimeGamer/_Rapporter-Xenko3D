@@ -1,0 +1,6 @@
+!Texture
+Id: e039fdf7-a4f9-4130-b276-aae4b8c583ad
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../Resources/Textures/Bonfire/FRB001.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,12 @@
+!Model
+Id: 3e47eb99-c8fc-49da-acc8-1e2ad6aaa382
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Stand/standBowl.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    e274a7dc94edc1896586423665864236:
+        Name: blinn1
+        MaterialInstance:
+            Material: 265b36d3-38a9-4d92-8003-7a439677db86:Materials/PolishedStone
+Skeleton: null

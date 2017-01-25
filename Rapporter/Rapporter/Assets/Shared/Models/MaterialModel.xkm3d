@@ -1,0 +1,16 @@
+!Model
+Id: 0135ef01-336b-4913-8e25-c126361d5da4
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Models/MaterialModel.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    ebc0cfec026ffd470b819cfcb1ca2cbf:
+        Name: MaterialA
+        MaterialInstance:
+            Material: fbea33f1-ce9a-4e4f-b567-5c3d0c91b4ab:Materials/MaterialA
+    07d84ca53b7823d8fcdf7c46dab24576:
+        Name: MaterialB
+        MaterialInstance:
+            Material: 2fa9fdf7-c98b-47b8-87b1-e3dbf74d365f:Materials/MaterialB
+Skeleton: null

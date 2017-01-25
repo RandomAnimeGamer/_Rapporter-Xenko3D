@@ -1,0 +1,40 @@
+!Package
+Id: 8079bd9c-e363-4e14-b871-50f0e5e32fbe
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: Rapporter
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: Rapporter
+    Dependencies:
+        -   Name: Xenko
+            Version: 1.9.3-beta
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: Rapporter.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 89405c4c-d41a-4bbd-a72e-b452da4e5853
+                Location: Rapporter.Game/Rapporter.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: c1ecfe35-4aa0-4223-9c08-9b10fdd993f0
+                Location: Rapporter.Windows/Rapporter.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets: []

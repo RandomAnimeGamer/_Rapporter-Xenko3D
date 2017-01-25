@@ -1,0 +1,7 @@
+!Texture
+Id: 6aad6c43-820a-488b-abb5-7e44ed183453
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/brick/brick_nml.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Hint: NormalMap

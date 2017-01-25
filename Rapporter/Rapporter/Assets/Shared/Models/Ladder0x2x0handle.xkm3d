@@ -1,0 +1,12 @@
+!Model
+Id: 35a42fe5-908b-4f9b-8489-087ebaf312fe
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Models/Ladder0x2x0handle.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    2a4c62502d84612cd0bc56d6d0bc56d6:
+        Name: GridMT
+        MaterialInstance:
+            Material: 847e5c91-ade1-4cde-98db-20ad9cec10dd:Materials/GridMT
+Skeleton: null

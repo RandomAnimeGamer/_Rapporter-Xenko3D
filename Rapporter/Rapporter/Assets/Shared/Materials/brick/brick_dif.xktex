@@ -1,0 +1,6 @@
+!Texture
+Id: 83ab168b-cafe-479d-abbe-1564a3105eb8
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/brick/brick_dif.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

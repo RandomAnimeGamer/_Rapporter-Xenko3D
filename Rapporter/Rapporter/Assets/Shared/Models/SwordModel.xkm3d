@@ -1,0 +1,24 @@
+!Model
+Id: dd4e7ffe-78b0-445e-b20a-1fd9f0e793ed
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Models/SwordModel.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    7b8394fb681bf353e28097d3e28097d3:
+        Name: glowMT
+        MaterialInstance:
+            Material: 0005c48e-5362-4638-8441-59142abe5f67:Materials/Emissive
+    b158ca41e15b46f8b2746c0a97fdd6ee:
+        Name: semiGlossMT
+        MaterialInstance:
+            Material: aa17ee77-9c2f-4e4e-a4eb-412211f7a7ef:Materials/BodyGray
+    932c8dfbd8c08c2e58a6732158a67321:
+        Name: bladeMT
+        MaterialInstance:
+            Material: a0e05b95-cd18-4d6c-8080-c488c53c114b:Materials/Blade
+    98c4d20c91aa1618068f92bf068f92bf:
+        Name: glossMT
+        MaterialInstance:
+            Material: c490ef8f-01e6-418f-bee2-191088825957:Materials/BodyWhite
+Skeleton: null
