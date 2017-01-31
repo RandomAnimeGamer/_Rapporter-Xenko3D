@@ -1,0 +1,42 @@
+!Package
+Id: 2d04a3b8-4df5-49de-a8df-d8ee8f5699dc
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: PhysicsSample
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    Dependencies:
+        -   Name: Xenko
+            Version: 1.9.0-beta
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: PhysicsSample.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: dd6cb9fa-f161-4173-9206-748845388e8b
+                Location: PhysicsSample.Game/PhysicsSample.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 40bfef4a-9b69-48ca-bbaf-c8e1c9cc8294
+                Location: PhysicsSample.Windows/PhysicsSample.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - a5503cc7-b11b-4d6d-82a2-59fde5dfc204:Constraints
+    - b330da7c-a345-4dd4-a4f0-690cd5b0abd2:VolumeTrigger
+    - fc776f56-5054-464e-9ec4-ab704c9740df:Raycasting
