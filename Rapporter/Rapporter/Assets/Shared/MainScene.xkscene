@@ -102,7 +102,6 @@ Hierarchy:
         - c2697f02-c384-4541-8d3f-bba028daf5ad
         - 70790bf9-7183-4d58-8b2c-6ea53f5033fb
         - a4a2fb9f-b0fe-4a7e-a86e-796128e444ad
-        - bc159010-6027-49e3-bea3-37751ee0a15c
     Parts:
         -   Entity:
                 Id: 30508adf-3075-45b9-9a96-556dcb9af2bf
@@ -110,10 +109,11 @@ Hierarchy:
                 Components:
                     6f45240c33cc1572525e454256a46b5a: !TransformComponent
                         Id: 1f31e39f-3b68-4f94-97e4-4e4a14dcae6d
-                        Position: {X: -1.0, Y: 1.2, Z: 2.7}
+                        Position: {X: -1.0, Y: 2.39068866, Z: 2.7}
                         Rotation: {X: -0.08583164, Y: -0.1729874, Z: -0.0151344351, W: 0.981060266}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
+                        Children:
+                            914cb8fa54790e0dacc9fc0fd08f28c3: 3993bef4-6393-426f-8f16-b76583dc729c/14498731-4441-400a-9cb0-3b7a24ed8afa
                     f69bab88c406d30fb1b721a160bfde2a: !CameraComponent
                         Id: 243118bf-ff95-47fc-bef2-fdbd139e89dd
                         Projection: Perspective
@@ -123,8 +123,44 @@ Hierarchy:
                         TouchMovementSpeed: {X: 40.0, Y: 40.0, Z: 20.0}
                         SpeedFactor: 5.0
                         KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
-                        MouseRotationSpeed: {X: 90.0, Y: 60.0}
-                        TouchRotationSpeed: {X: 60.0, Y: 40.0}
+                        MouseRotationSpeed: {X: 3.0, Y: 3.0}
+                        TouchRotationSpeed: {X: 3.0, Y: 3.0}
+                    f8e21180fb784d05016cef45c5312de5: !RigidbodyComponent
+                        Id: c0bba2f4-ed93-44e2-9b12-d325a2db628b
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: -10.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            572d88e9988113b088d798eb87f4a154: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 2.0, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    b1456fd5a64e46f3165ca5ddfb67e6b1: !Rapporter.Jump,Rapporter.Game
+                        Id: 15f89761-55ef-4817-95ec-ff7b3599a079
+        -   Entity:
+                Id: 3993bef4-6393-426f-8f16-b76583dc729c
+                Name: DebugPhysicsShapes
+                Components:
+                    835485057c47f5b382bb9a7093036536: !TransformComponent
+                        Id: 14498731-4441-400a-9cb0-3b7a24ed8afa
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4e546428da4525266af55e7d4ca5893c: !Rapporter.DebugPhysicsShapes,Rapporter.Game
+                        Id: 401c79c9-04db-4f94-bcd7-7d941dec7789
         -   Entity:
                 Id: 70790bf9-7183-4d58-8b2c-6ea53f5033fb
                 Name: Skybox
@@ -152,25 +188,27 @@ Hierarchy:
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
+                        Children:
+                            82082d0bde508ee10c0d32d2c50f2c98: ece51b7e-fdd3-4862-b8ca-5a797efc13a9/f071a79a-d6d1-4029-b3cd-ff6db08160ff
                     17832042958eadd8b996c347b083a307: !ModelComponent
                         Id: af04dce2-8182-48af-add3-50b428a5ea83
                         Model: 9db97b16-1653-47fe-87f5-f43420c5d4b5:Ground
                         Materials: {}
-        -   Entity:
-                Id: bc159010-6027-49e3-bea3-37751ee0a15c
-                Name: Sphere
-                Components:
-                    88c94df9000eb1d03b1b0d7291c79941: !TransformComponent
-                        Id: 05e61e8b-a997-480f-a217-2bef33cc0381
-                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    0eebdb5a0399fcbfe3581e9383a6c719: !ModelComponent
-                        Id: 451f83bb-3a08-4f8d-82be-d504fe0268ea
-                        Model: 8c944d0b-efe3-42dc-a2ca-aa8a7975ef2b:Sphere
-                        Materials: {}
+                    743640cc331569c37b1a458810c7a4be: !StaticColliderComponent
+                        Id: 1effdb39-a12a-437a-92d0-6c764a3fbb88
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            36f2659e35e1b77c99a7b3970785b856: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 1.0, Z: 10.0}
+                                LocalOffset: {X: 0.0, Y: -1.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: c2697f02-c384-4541-8d3f-bba028daf5ad
                 Name: Directional light
@@ -195,3 +233,15 @@ Hierarchy:
                                 PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
                                 BiasParameters: {}
                         Intensity: 5.0
+        -   Entity:
+                Id: ece51b7e-fdd3-4862-b8ca-5a797efc13a9
+                Name: DebugPhysicsShapes
+                Components:
+                    c858a9b7b0a3ab401028eceb1c211158: !TransformComponent
+                        Id: f071a79a-d6d1-4029-b3cd-ff6db08160ff
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    62903a93b263526539969fbcf9c0b2cf: !Rapporter.DebugPhysicsShapes,Rapporter.Game
+                        Id: 61693535-5b15-4b20-b02f-4ea4ad558f45

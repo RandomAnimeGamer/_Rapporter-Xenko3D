@@ -24,6 +24,8 @@ namespace SiliconStudio.DataSerializers
 {
     // Assembly attributes that defines supported serializer (only generics one so that other assemblies can do generic instantiations by themselves)
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_BasicCameraControllerSerializer), typeof(Rapporter.BasicCameraController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_DebugPhysicsShapesSerializer), typeof(Rapporter.DebugPhysicsShapes), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_JumpSerializer), typeof(Rapporter.Jump), DataSerializerGenericMode.None, true, true, Profile = "Default")]
    	public static class Rapporter_GameSerializerFactory
 	{
 	    [SiliconStudio.Core.ModuleInitializer]
@@ -35,8 +37,8 @@ namespace SiliconStudio.DataSerializers
 
 			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_Xenko_EngineSerializerFactory).GetTypeInfo().Module);
 			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_Core_MathematicsSerializerFactory).GetTypeInfo().Module);
-			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_CoreSerializerFactory).GetTypeInfo().Module);
 			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_Xenko_PhysicsSerializerFactory).GetTypeInfo().Module);
+			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_CoreSerializerFactory).GetTypeInfo().Module);
 			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_Xenko_ParticlesSerializerFactory).GetTypeInfo().Module);
 			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_Xenko_SpriteStudio_RuntimeSerializerFactory).GetTypeInfo().Module);
 			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_Xenko_NativeSerializerFactory).GetTypeInfo().Module);
@@ -47,6 +49,8 @@ namespace SiliconStudio.DataSerializers
 				assemblySerializers.Profiles["Default"] = assemblySerializersProfile;
 
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb387d334, 0x081a82a5, 0xd7a79b1f, 0x04b56377), typeof(Rapporter.BasicCameraController), typeof(SiliconStudio.DataSerializers.Rapporter_BasicCameraControllerSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x2d184418, 0xc6fd7c15, 0x86fea326, 0xedd88efe), typeof(Rapporter.DebugPhysicsShapes), typeof(SiliconStudio.DataSerializers.Rapporter_DebugPhysicsShapesSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xc6ee40d8, 0x89605c78, 0xe57fa83d, 0x9b65b997), typeof(Rapporter.Jump), typeof(SiliconStudio.DataSerializers.Rapporter_JumpSerializer)));
 			}
 			{
 				var assemblySerializersProfile = new AssemblySerializersPerProfile();
@@ -127,6 +131,66 @@ namespace SiliconStudio.DataSerializers
             KeyboardRotationSpeedSerializer.Serialize(ref touchRotationSpeed, mode, stream);
             if (mode == ArchiveMode.Deserialize)
                 obj.TouchRotationSpeed = touchRotationSpeed;
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class Rapporter_DebugPhysicsShapesSerializer : ClassDataSerializer<Rapporter.DebugPhysicsShapes>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref Rapporter.DebugPhysicsShapes obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (Rapporter.DebugPhysicsShapes)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class Rapporter_JumpSerializer : ClassDataSerializer<Rapporter.Jump>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref Rapporter.Jump obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (Rapporter.Jump)parentObj;
+
 		}
 
 		internal static void ForceGenericInstantiation()
