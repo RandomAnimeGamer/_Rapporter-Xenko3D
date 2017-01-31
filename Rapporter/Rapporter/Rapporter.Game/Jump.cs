@@ -10,14 +10,24 @@ using SiliconStudio.Xenko.Physics;
 
 namespace Rapporter {
     public class Jump : SyncScript {
-        RigidbodyComponent r;
+        TransformComponent shizuku;
         public override void Start() {
-            r = Entity.Get<RigidbodyComponent>();
+            shizuku = Entity.Get<TransformComponent>();
         }
         public override void Update() {
             if (Input.IsKeyDown(Keys.Space)) {
-                r.ApplyForce(new Vector3(0,10,0));
+                shizuku.Position += new Vector3(0,1,0);
             }
+            Gravity();
+        }
+        void Gravity() {
+            if(!OnCollisionEnter()) {
+                shizuku.Position -= new Vector3(0, 0.1f, 0);
+            }
+        }
+        bool OnCollisionEnter() {
+            if(Input.IsKeyDown(Keys.LeftCtrl)) return false;
+            else return true;
         }
     }
 }
