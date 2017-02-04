@@ -102,7 +102,6 @@ Hierarchy:
         - c2697f02-c384-4541-8d3f-bba028daf5ad
         - 70790bf9-7183-4d58-8b2c-6ea53f5033fb
         - a4a2fb9f-b0fe-4a7e-a86e-796128e444ad
-        - f656927a-1a0b-42e0-9030-25eee57812dd
     Parts:
         -   Entity:
                 Id: 30508adf-3075-45b9-9a96-556dcb9af2bf
@@ -110,7 +109,7 @@ Hierarchy:
                 Components:
                     6f45240c33cc1572525e454256a46b5a: !TransformComponent
                         Id: 1f31e39f-3b68-4f94-97e4-4e4a14dcae6d
-                        Position: {X: -0.0487878323, Y: 1.45224392, Z: 4.67666}
+                        Position: {X: 0.0, Y: 3.0, Z: 2.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -118,6 +117,31 @@ Hierarchy:
                     f69bab88c406d30fb1b721a160bfde2a: !CameraComponent
                         Id: 243118bf-ff95-47fc-bef2-fdbd139e89dd
                         Projection: Perspective
+                    65f63116506815f440cb05f4f22af3e8: !RigidbodyComponent
+                        Id: e3cbb032-fa42-4e8b-8434-f63be81e1abc
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 10.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            9b6776c2c077a26a0bb811a1523c1973: !CapsuleColliderShapeDesc
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    a7883d46205c9ab4fd0ccdb116b434ef: !Rapporter.RigidbodyMove,Rapporter.Game
+                        Id: 7423fe61-f5fb-4a6c-a5e8-69fb483b74cb
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        SpeedFactor: 5.0
+                        MouseRotationSpeed: {X: 90.0, Y: 60.0}
         -   Entity:
                 Id: 3993bef4-6393-426f-8f16-b76583dc729c
                 Name: DebugPhysicsShapes
@@ -165,10 +189,10 @@ Hierarchy:
                         Materials: {}
                     743640cc331569c37b1a458810c7a4be: !StaticColliderComponent
                         Id: 1effdb39-a12a-437a-92d0-6c764a3fbb88
-                        CanSleep: false
+                        CanSleep: true
                         Restitution: 0.0
                         Friction: 0.5
-                        RollingFriction: 0.0
+                        RollingFriction: 1.0
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
@@ -214,47 +238,3 @@ Hierarchy:
                         Children: {}
                     62903a93b263526539969fbcf9c0b2cf: !Rapporter.DebugPhysicsShapes,Rapporter.Game
                         Id: 61693535-5b15-4b20-b02f-4ea4ad558f45
-        -   Entity:
-                Id: f656927a-1a0b-42e0-9030-25eee57812dd
-                Name: box
-                Components:
-                    24d01e28f32b722191bcdb9c6e25f40a: !TransformComponent
-                        Id: c9076b0c-2c35-4832-aab6-96849dabab1c
-                        Position: {X: 0.0, Y: 1.6940732, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    98121a9a831ae37c7c061a06a3d9d2c0: !ModelComponent
-                        Id: 47d513c4-0944-4d49-aa40-c89f625d90a0
-                        Model: 952fab63-c28f-458a-beae-b81fc223d7f0:box
-                        Materials: {}
-                    aa16a23311adde65ace7f09b77f52268: !RigidbodyComponent
-                        Id: cd7e52eb-5f11-4369-87d7-e4e2dc790130
-                        CanSleep: true
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        IsKinematic: false
-                        Mass: 1.0
-                        LinearDamping: 0.0
-                        AngularDamping: 0.0
-                        OverrideGravity: false
-                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
-                        NodeName: null
-                        ColliderShapes:
-                            eb708350b3edd13c1248fff0430a918d: !BoxColliderShapeDesc
-                                Is2D: false
-                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    c6d56192a4cbf94a8d001c07585129a6: !Rapporter.BasicCameraController,Rapporter.Game
-                        Id: 475cfa66-881b-406d-be99-6b3367868961
-                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
-                        TouchMovementSpeed: {X: 40.0, Y: 40.0, Z: 20.0}
-                        SpeedFactor: 5.0
-                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
-                        MouseRotationSpeed: {X: 90.0, Y: 60.0}
-                        TouchRotationSpeed: {X: 60.0, Y: 40.0}
