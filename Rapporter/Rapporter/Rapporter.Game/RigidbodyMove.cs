@@ -9,7 +9,7 @@ using SiliconStudio.Xenko.Engine;
 using SiliconStudio.Xenko.Physics;
 
 namespace Rapporter { public class RigidbodyMove : SyncScript {
-    RigidbodyComponent shizuku;
+    RigidbodyComponent shizuku; Vector3 torque;
     private const float MaximumPitch = MathUtil.PiOverTwo * 0.99f;
     private Vector3 upVector; private Vector3 translation;
     private float yaw; private float pitch;
@@ -25,13 +25,16 @@ namespace Rapporter { public class RigidbodyMove : SyncScript {
 
         // Move with keyboard
         if (Input.IsKeyDown(Keys.W)) translation.Z = -KeyboardMovementSpeed.Z;
-        else if (Input.IsKeyDown(Keys.S) || Input.IsKeyDown(Keys.Down)) { translation.Z = KeyboardMovementSpeed.Z; }
+        else if (Input.IsKeyDown(Keys.S)) translation.Z = KeyboardMovementSpeed.Z;
 
-        if (Input.IsKeyDown(Keys.A) || Input.IsKeyDown(Keys.Left)) { translation.X = -KeyboardMovementSpeed.X; }
-        else if (Input.IsKeyDown(Keys.D) || Input.IsKeyDown(Keys.Right)) { translation.X = KeyboardMovementSpeed.X; }
+        if (Input.IsKeyDown(Keys.A)) translation.X = -KeyboardMovementSpeed.X;
+        else if (Input.IsKeyDown(Keys.D)) translation.X = KeyboardMovementSpeed.X;
 
-        if (Input.IsKeyDown(Keys.Q)) { translation.Y = -KeyboardMovementSpeed.Y; }
-        else if (Input.IsKeyDown(Keys.E)) { translation.Y = KeyboardMovementSpeed.Y; }
+        if (Input.IsKeyDown(Keys.Q)) torque = new Vector3(torque.X, KeyboardRotationSpeed.X, torque.Z);
+        else if (Input.IsKeyDown(Keys.E)) torque = new Vector3(torque.X, -KeyboardRotationSpeed.X, torque.Z);
+
+//        if (Input.IsKeyDown(Keys.Q)) translation.Y = -KeyboardMovementSpeed.Y;
+//        else if (Input.IsKeyDown(Keys.E)) translation.Y = KeyboardMovementSpeed.Y;
 
 
         if (Input.IsKeyDown(Keys.LeftShift) || Input.IsKeyDown(Keys.RightShift)) translation *= SpeedFactor;// Alt speed
@@ -39,7 +42,7 @@ namespace Rapporter { public class RigidbodyMove : SyncScript {
         // Rotate with keyboard
 //        if (Input.IsKeyDown(Keys.NumPad2)) { pitch = KeyboardRotationSpeed.X; }
 //        else if (Input.IsKeyDown(Keys.NumPad8)) { pitch = -KeyboardRotationSpeed.X; }
-//
+
 //        if (Input.IsKeyDown(Keys.NumPad4)) { yaw = KeyboardRotationSpeed.Y; }
 //        else if (Input.IsKeyDown(Keys.NumPad6)) { yaw = -KeyboardRotationSpeed.Y; }
     }
@@ -71,9 +74,10 @@ namespace Rapporter { public class RigidbodyMove : SyncScript {
         // Move in local coordinates
         shizuku.LinearVelocity += Vector3.TransformCoordinate(translation, rotation);
         // Yaw around global up-vector, pitch and roll in local space
-//        shizuku.ApplyTorqueImpulse(new Vector3(yaw, 0, pitch) + upVector);
-  //          Quaternion.RotationMatrix(rotation) *
-  //          Quaternion.RotationAxis(right, pitch) *
+        shizuku.ApplyTorque(torque);
+//        Entity.Transform.Rotation =
+//            Quaternion.RotationMatrix(rotation) *
+//            Quaternion.RotationAxis(right, pitch) *
 //            Quaternion.RotationAxis(upVector, yaw);
     }
 } }
