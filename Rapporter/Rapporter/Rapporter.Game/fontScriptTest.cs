@@ -274,7 +274,6 @@ namespace Rapporter
         {
             return (float)Math.Cos(time) * 0.5f + 0.5f;
         }
-            
-        }
+         
     }
 }

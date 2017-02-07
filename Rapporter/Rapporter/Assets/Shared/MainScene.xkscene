@@ -129,6 +129,24 @@ Hierarchy:
                         JumpSpeed: 5.0
                         Gravity: -10.0
                         ColliderShapes: {}
+                    640cffb9ffb112cb275f081bc3da47f5: !Rapporter.Player.PlayerController,Rapporter.Game
+                        Id: 34b98750-6a5a-419d-8fb1-bbedb163c6eb
+                        MaxRunSpeed: 5.0
+                    c804ec6235abebb9f3da8911982a96ef: !Rapporter.Player.PlayerInput,Rapporter.Game
+                        Id: 3869a38e-4e8e-4df9-933b-24d86b98bee9
+                        DeadZone: 0.25
+                        Camera: null
+                        MouseSensitivity: 100.0
+                        KeysLeft:
+                            bd43325ce410ded75827dc888d456927: Left
+                        KeysRight:
+                            d00bdd21167ee38cf00d83836bd0b6b0: Right
+                        KeysUp:
+                            5cad3410d941c5ffae640071ab4251fe: Up
+                        KeysDown:
+                            a6818c386f3c1442f242b31ecf800c08: Down
+                        KeysReload:
+                            fafdb2ad2fca53c70c98c25df4e9eca1: Return
         -   Entity:
                 Id: 70790bf9-7183-4d58-8b2c-6ea53f5033fb
                 Name: Skybox
