@@ -14,3 +14,5 @@ Materials:
         MaterialInstance:
             Material: e441c908-1a9e-4b38-ae8e-874dea33f1ad:MaterialTestB
 Skeleton: null
+~SourceHashes:
+    3eb797c5e08bf84e1fa10b360a14feb6~../../Resources/Models/MaterialModel.fbx: 2af68f6f63000a4c8b6f9af14e7d0962

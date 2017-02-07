@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 895bec2b-4270-4640-8e6d-839f5f7f4b96:Materials/silver/silver
 Skeleton: null
+~SourceHashes:
+    c81b6c044ee2b349c8f7a50290cc0c06~../../../../Resources/Models/box.fbx: 63047528a4b8c7fc888656181dd4dc07

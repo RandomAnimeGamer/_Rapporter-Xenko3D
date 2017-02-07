@@ -22,3 +22,5 @@ Materials:
         MaterialInstance:
             Material: befa90d1-bb38-4b2c-a6c9-66b5e08251d7:Materials/MattBlackUpper
 Skeleton: 923c25a2-fd7b-465c-8a33-04023e1a40c1:Models/mannequinHandModel Skeleton
+~SourceHashes:
+    37f502b0ca4e4177d678a04817bc286f~../../../Resources/Models/mannequinHandModel.fbx: db1befd09793cb26baaafc47576b4e4f

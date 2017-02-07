@@ -107,15 +107,16 @@ namespace Rapporter
                     collision = await trigger.CollisionEnded();
                 }while(collision != firstCollision);
                 
-                if(TriggerEvent == EventKey<true>)
-                {
-                 UpdateAnimatedFontParameters();
-                 UpdateInput();
-                 UpdateCurrentScreenIndex();
-                }
+//                if(TriggerEvent == EventKey<true>)
+  //              {
+  //               UpdateAnimatedFontParameters();
+  //               UpdateInput();
+  //               UpdateCurrentScreenIndex();
+  //              }
                 
                 TriggerEvent.Broadcast(false);               
             }
+        }
             
             public override void Cancel()
         {

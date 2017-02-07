@@ -14,3 +14,5 @@ Materials:
         MaterialInstance:
             Material: 859ad71b-4a05-4002-9e9f-5ccfe1da5720:Materials/MaskD
 Skeleton: null
+~SourceHashes:
+    5b8129a72ac28651a3cf42abcb4c522e~../../../Resources/Models/XenkoCrate.fbx: 6e3a5526c1cdb7001c9b7ea51ac583a0

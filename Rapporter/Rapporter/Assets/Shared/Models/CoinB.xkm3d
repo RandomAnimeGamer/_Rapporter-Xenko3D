@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 4524ef9a-2109-467a-b208-9aee390eec6c:Materials/coinA
 Skeleton: null
+~SourceHashes:
+    758e0434c01867c17b64236bb10cbfbb~../../../Resources/Models/XenkoCoin.fbx: f00d518ee22cd1edef712f91c53faceb

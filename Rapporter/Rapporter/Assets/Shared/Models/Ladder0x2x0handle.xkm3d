@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 847e5c91-ade1-4cde-98db-20ad9cec10dd:Materials/GridMT
 Skeleton: null
+~SourceHashes:
+    8322da54f790c9355d48f98c045fab06~../../../Resources/Models/Ladder0x2x0handle.fbx: 170b48905407ded534d8b3034b225bab

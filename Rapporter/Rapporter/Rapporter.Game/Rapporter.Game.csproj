@@ -109,11 +109,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicCameraController.cs" />
+    <Compile Include="Core\InputManagerExtensions.cs" />
+    <Compile Include="Core\Utils.cs" />
     <Compile Include="DebugPhysicsShapes.cs" />
     <Compile Include="fontScriptTest.cs" />
-    <Compile Include="Movement.cs" />
+    <Compile Include="FpsCamera.cs" />
+    <Compile Include="Player\AnimationController.cs" />
+    <Compile Include="Player\PlayerController.cs" />
+    <Compile Include="Player\PlayerInput.cs" />
+    <Compile Include="Player\WeaponScript.cs" />
+    <Compile Include="Properties\AssemblyInfo (2).cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RigidbodyMove.cs" />
+    <Compile Include="Trigger\TriggerEvent.cs" />
+    <Compile Include="Trigger\TriggerGroup.cs" />
+    <Compile Include="Trigger\TriggerGroupException.cs" />
+    <Compile Include="Trigger\TriggerScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="$(SiliconStudioPackageProps)" Condition="Exists('$(SiliconStudioPackageProps)')" />
