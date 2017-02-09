@@ -108,11 +108,11 @@ namespace Rapporter
                 }while(collision != firstCollision);
                 
 //                if(TriggerEvent == EventKey<true>)
-  //              {
-  //               UpdateAnimatedFontParameters();
-  //               UpdateInput();
-  //               UpdateCurrentScreenIndex();
-  //              }
+//                {
+//                 UpdateAnimatedFontParameters();
+//                 UpdateInput();
+//                 UpdateCurrentScreenIndex();
+//                }
                 
                 TriggerEvent.Broadcast(false);               
             }

@@ -1,0 +1,40 @@
+!Package
+Id: f95dc29c-ca10-48c8-9b28-7800f40b9fdd
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: FirstPersonShooter2
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: FirstPersonShooter2
+    Dependencies:
+        -   Name: Xenko
+            Version: 1.9.0-beta
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: FirstPersonShooter2.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 9c37ff2f-71a7-4f3f-8984-b6d54c4d00bd
+                Location: FirstPersonShooter2.Game/FirstPersonShooter2.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 9144bdc7-f515-4b9c-874d-9b88283e989c
+                Location: FirstPersonShooter2.Windows/FirstPersonShooter2.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets: []

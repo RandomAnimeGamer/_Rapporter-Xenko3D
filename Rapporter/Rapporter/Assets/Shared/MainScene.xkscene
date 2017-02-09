@@ -6,9 +6,9 @@ SceneSettings:
     Id: 4ca7d9a0-d9a2-4080-b613-041c50fb9442
     GraphicsCompositor: !SceneGraphicsCompositorLayers
         Cameras:
-            510d3a0a0231c5c7957c8d6f3ca06ea8:
+            f24f6dc358230c0b9a22e08e54737dec:
                 Name: null
-                Camera: null
+                Camera: 66d1d403-7da1-4f86-b7f2-5088fd044ef6/0cb69f54-155d-4448-a524-3c07f2e87d4a
         Layers:
             d7bc3a6dc20fa9502f16e8e27bdee7ef:
                 Name: SceneGraphicsLayer
@@ -112,10 +112,11 @@ Hierarchy:
                 Components:
                     e70468eb645424ca09677d66d5aec274: !TransformComponent
                         Id: 142eefc2-9791-4184-8fd6-76cdfb7ccb61
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Position: {X: 2.908203, Y: 1.03004682, Z: 0.6885083}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
+                        Children:
+                            834341c85883b91ab5203bcf4f1de2f3: 66d1d403-7da1-4f86-b7f2-5088fd044ef6/a564822e-d2c4-4194-8c55-3c25a89229cc
                     9a264ad010f719ff81359763e795932f: !CharacterComponent
                         Id: 79502bba-74ce-4f40-bed0-ba1ab23bc5d5
                         CanSleep: false
@@ -128,25 +129,44 @@ Hierarchy:
                         MaxSlope: {Radians: 0.7853982}
                         JumpSpeed: 5.0
                         Gravity: -10.0
-                        ColliderShapes: {}
+                        ColliderShapes:
+                            d18a40355d75ba109ffeb84c1f8835e3: !CapsuleColliderShapeDesc
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     640cffb9ffb112cb275f081bc3da47f5: !Rapporter.Player.PlayerController,Rapporter.Game
                         Id: 34b98750-6a5a-419d-8fb1-bbedb163c6eb
-                        MaxRunSpeed: 5.0
+                        MaxRunSpeed: 9.0
                     c804ec6235abebb9f3da8911982a96ef: !Rapporter.Player.PlayerInput,Rapporter.Game
                         Id: 3869a38e-4e8e-4df9-933b-24d86b98bee9
                         DeadZone: 0.25
                         Camera: null
                         MouseSensitivity: 100.0
                         KeysLeft:
-                            bd43325ce410ded75827dc888d456927: Left
+                            bd43325ce410ded75827dc888d456927: Right
                         KeysRight:
-                            d00bdd21167ee38cf00d83836bd0b6b0: Right
+                            ddc0fdfa81551ff0061f91c05753f07a: Left
                         KeysUp:
                             5cad3410d941c5ffae640071ab4251fe: Up
                         KeysDown:
                             a6818c386f3c1442f242b31ecf800c08: Down
+                        KeysJump:
+                            ce8271d9880a0081a8b1201365674430: Space
                         KeysReload:
                             fafdb2ad2fca53c70c98c25df4e9eca1: Return
+        -   Folder: 
+            Entity:
+                Id: 66d1d403-7da1-4f86-b7f2-5088fd044ef6
+                Name: Camera
+                Components:
+                    2746543ee3fc953287d8eab1d68422bf: !TransformComponent
+                        Id: a564822e-d2c4-4194-8c55-3c25a89229cc
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c5c2a0c06d708e192fe6dbbeb4dd2452: !CameraComponent
+                        Id: 0cb69f54-155d-4448-a524-3c07f2e87d4a
+                        Projection: Perspective
         -   Entity:
                 Id: 70790bf9-7183-4d58-8b2c-6ea53f5033fb
                 Name: Skybox
@@ -234,7 +254,7 @@ Hierarchy:
                 Components:
                     8041df9b10357e358e5259a6dcfd7f26: !TransformComponent
                         Id: 57480f5b-e0ba-437f-a39e-f1f0a821e018
-                        Position: {X: -1.89119935, Y: 0.0, Z: 0.424259961}
+                        Position: {X: -27.04085, Y: 0.0, Z: 0.424259961}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 2.0, Y: 2.0, Z: 2.0}
                         Children: {}

@@ -1,0 +1,5 @@
+C:\_Rapporter-Xenko3D\FirstPersonShooter2\FirstPersonShooter2\Bin\Windows\Debug\FirstPersonShooter2.Game.dll
+C:\_Rapporter-Xenko3D\FirstPersonShooter2\FirstPersonShooter2\Bin\Windows\Debug\FirstPersonShooter2.Game.pdb
+C:\_Rapporter-Xenko3D\FirstPersonShooter2\FirstPersonShooter2\FirstPersonShooter2.Game\obj\Windows\Debug\FirstPersonShooter2.Game.csprojResolveAssemblyReference.cache
+C:\_Rapporter-Xenko3D\FirstPersonShooter2\FirstPersonShooter2\FirstPersonShooter2.Game\obj\Windows\Debug\FirstPersonShooter2.Game.dll
+C:\_Rapporter-Xenko3D\FirstPersonShooter2\FirstPersonShooter2\FirstPersonShooter2.Game\obj\Windows\Debug\FirstPersonShooter2.Game.pdb

@@ -437,7 +437,7 @@ namespace SiliconStudio.DataSerializers
 		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysRightSerializer;
 		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysUpSerializer;
 		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysDownSerializer;
-		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysReloadSerializer;
+		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysJumpSerializer;
 
 		public override void Initialize(SerializerSelector serializerSelector)
 		{
@@ -478,8 +478,8 @@ namespace SiliconStudio.DataSerializers
             KeysLeftSerializer.Serialize(ref keysUp, mode, stream);
             System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysDown = obj.KeysDown;
             KeysLeftSerializer.Serialize(ref keysDown, mode, stream);
-            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysReload = obj.KeysReload;
-            KeysLeftSerializer.Serialize(ref keysReload, mode, stream);
+            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysJump = obj.KeysJump;
+            KeysLeftSerializer.Serialize(ref keysJump, mode, stream);
 		}
 
 		internal static void ForceGenericInstantiation()

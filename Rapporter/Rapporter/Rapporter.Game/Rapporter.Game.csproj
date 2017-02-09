@@ -112,6 +112,7 @@
     <Compile Include="Core\InputManagerExtensions.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="DebugPhysicsShapes.cs" />
+    <Compile Include="EffectController.cs" />
     <Compile Include="fontScriptTest.cs" />
     <Compile Include="FpsCamera.cs" />
     <Compile Include="Player\AnimationController.cs" />
