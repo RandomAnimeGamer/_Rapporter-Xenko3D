@@ -1,0 +1,113 @@
+!PrefabAsset
+Id: e5d6d69d-4b6b-4c8b-a32f-dbafe29e0910
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - d1ac3dfb-53b7-4f54-b450-c6a37e2d06cf
+    Parts:
+        -   Entity:
+                Id: d1ac3dfb-53b7-4f54-b450-c6a37e2d06cf
+                Name: Mortal Kombat Jokes
+                Components:
+                    948cea45c88695afd181d15a32151006: !TransformComponent
+                        Id: 96630f9e-8104-4321-a61c-e168764247ed
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2680ffdc231f80622eef7f0ba2f073bf: !ParticleSystemComponent
+                        Id: a9101bd1-6399-4458-ab44-a60a1c2f17e7
+                        Control:
+                            ResetSeconds: 2.0
+                            Control: Play
+                            ThumbnailWarmupTime: 0.0
+                        Color: {R: 0.0499999523, G: 1.0, B: 0.0, A: 1.0}
+                        Speed: 5.7651
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                76c315b129a3f736ee01ef7a20ed2b0a:
+                                    ParticleLifetime: {X: 1.0, Y: 2.0}
+                                    RandomSeedMethod: Fixed
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: null
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ComputeColor: !ComputeTextureColor
+                                            FallbackValue:
+                                                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                            Scale: {X: 1.0, Y: 1.0}
+                                            Offset: {X: 0.0, Y: 0.0}
+                                            Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        47e9c1e6acd8722c8d5eec05fb0ee8a6: !SpawnerPerSecond
+                                            LoopCondition: OneShot
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 60.0
+                                    Initializers:
+                                        892c67b50ef6356b870890dc6ee0bdff: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize: {X: 0.2, Y: 0.2}
+                                        6dd8c831973f8eaa8a4bd284c03fc787: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 5.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            PositionMax: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            Interpolate: false
+                                        f3ca045ef1416d43de3f36996905f965: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: 0.35, Y: 1.0, Z: 0.35}
+                                            VelocityMax: {X: 0.35, Y: 3.0, Z: 0.35}
+                                        08108d7774cbbde8d2da997aa6fbf3d5: !InitialRotationSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            AngularRotation: {X: -30.0, Y: 30.0}
+                                    Updaters: {}

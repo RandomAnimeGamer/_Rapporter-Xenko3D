@@ -37,4 +37,5 @@ Profiles:
 ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
-RootAssets: []
+RootAssets:
+    - e5d6d69d-4b6b-4c8b-a32f-dbafe29e0910:Mortal Kombat Jokes

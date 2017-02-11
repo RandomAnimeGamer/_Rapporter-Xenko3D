@@ -12,6 +12,7 @@ namespace Rapporter.Player { public class PlayerInput : SyncScript {
     public static readonly EventKey<bool> ShootEventKey = new EventKey<bool>();                     // This can be made non-static and require specific binding to the scripts instead
     public static readonly EventKey<bool> ReloadEventKey = new EventKey<bool>();                    // This can be made non-static and require specific binding to the scripts instead
     public static readonly EventKey<bool> JumpEventKey = new EventKey<bool>();                      // This can be made non-static and require specific binding to the scripts instead
+    public static readonly EventKey<bool> ParticleEventKey = new EventKey<bool>();                  // This can be made non-static and require specific binding to the scripts instead
     public float DeadZone { get; set; } = 0.25f;
     public CameraComponent Camera { get; set; }
     public float MouseSensitivity { get; set; } = 100.0f;
@@ -20,6 +21,7 @@ namespace Rapporter.Player { public class PlayerInput : SyncScript {
     public List<Keys> KeysUp { get; } = new List<Keys>();
     public List<Keys> KeysDown { get; } = new List<Keys>();
     public List<Keys> KeysJump { get; } = new List<Keys>();
+    public List<Keys> ParticleTest { get; } = new List<Keys>();
 
     public override void Update() {
         {
@@ -35,6 +37,7 @@ namespace Rapporter.Player { public class PlayerInput : SyncScript {
             if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY;
             if (KeysDown.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitY;
             if(KeysJump.Any(key => Input.IsKeyDown(key))) jumpForce = 10;
+//            if(ParticleTest.Any(key => Input.IsKeyDown(key))) SpawnEvent("MuzzleFlash", Entity, Matrix.Identity);
 
             // Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
             var worldSpeed = (Camera != null)

@@ -25,6 +25,11 @@ namespace SiliconStudio.DataSerializers
     // Assembly attributes that defines supported serializer (only generics one so that other assemblies can do generic instantiations by themselves)
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_BasicCameraControllerSerializer), typeof(Rapporter.BasicCameraController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_DebugPhysicsShapesSerializer), typeof(Rapporter.DebugPhysicsShapes), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_TriggerScriptSerializer), typeof(Rapporter.TriggerScript), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterTrigger_TriggerGroupSerializer), typeof(Rapporter.Trigger.TriggerGroup), DataSerializerGenericMode.None, false, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<Rapporter.Trigger.TriggerEvent>), typeof(System.Collections.Generic.List<Rapporter.Trigger.TriggerEvent>), DataSerializerGenericMode.None, false, false, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterTrigger_TriggerEventSerializer), typeof(Rapporter.Trigger.TriggerEvent), DataSerializerGenericMode.None, false, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_EffectControllerSerializer), typeof(Rapporter.EffectController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_fontScriptTestSerializer), typeof(Rapporter.fontScriptTest), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_FpsCameraSerializer), typeof(Rapporter.FpsCamera), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_RigidbodyMoveSerializer), typeof(Rapporter.RigidbodyMove), DataSerializerGenericMode.None, true, true, Profile = "Default")]
@@ -42,6 +47,8 @@ namespace SiliconStudio.DataSerializers
 			var assemblySerializers = new AssemblySerializers(typeof(Rapporter_GameSerializerFactory).GetTypeInfo().Assembly);
 
 			// Register data contract aliases
+			assemblySerializers.DataContractAliases.Add(new KeyValuePair<string, Type>(@"TriggerEvent", typeof(Rapporter.Trigger.TriggerEvent)));
+			assemblySerializers.DataContractAliases.Add(new KeyValuePair<string, Type>(@"TriggerGroup", typeof(Rapporter.Trigger.TriggerGroup)));
 
 			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_Xenko_EngineSerializerFactory).GetTypeInfo().Module);
 			assemblySerializers.Modules.Add(typeof(SiliconStudio.DataSerializers.SiliconStudio_Core_MathematicsSerializerFactory).GetTypeInfo().Module);
@@ -59,6 +66,11 @@ namespace SiliconStudio.DataSerializers
 
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb387d334, 0x081a82a5, 0xd7a79b1f, 0x04b56377), typeof(Rapporter.BasicCameraController), typeof(SiliconStudio.DataSerializers.Rapporter_BasicCameraControllerSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x2d184418, 0xc6fd7c15, 0x86fea326, 0xedd88efe), typeof(Rapporter.DebugPhysicsShapes), typeof(SiliconStudio.DataSerializers.Rapporter_DebugPhysicsShapesSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd2cbc481, 0x427d5f23, 0xde02dead, 0x006e6fea), typeof(Rapporter.TriggerScript), typeof(SiliconStudio.DataSerializers.Rapporter_TriggerScriptSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x3cad9273, 0xb782d035, 0x1bf748e4, 0x63fb0bae), typeof(Rapporter.Trigger.TriggerGroup), typeof(SiliconStudio.DataSerializers.RapporterTrigger_TriggerGroupSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb139c3fe, 0x21480e62, 0xd02f4b59, 0x8c647534), typeof(System.Collections.Generic.List<Rapporter.Trigger.TriggerEvent>), typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<Rapporter.Trigger.TriggerEvent>)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd1f62297, 0x82a14b71, 0x019334a5, 0xa4ca7b47), typeof(Rapporter.Trigger.TriggerEvent), typeof(SiliconStudio.DataSerializers.RapporterTrigger_TriggerEventSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb7efd6b5, 0xa8206f45, 0xfcb563f3, 0x92ba06ff), typeof(Rapporter.EffectController), typeof(SiliconStudio.DataSerializers.Rapporter_EffectControllerSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x332adffe, 0x1b04aba6, 0x773392d8, 0x959ab0f1), typeof(Rapporter.fontScriptTest), typeof(SiliconStudio.DataSerializers.Rapporter_fontScriptTestSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xf218c95b, 0x03ef8936, 0x48caca76, 0xcf7ff1ed), typeof(Rapporter.FpsCamera), typeof(SiliconStudio.DataSerializers.Rapporter_FpsCameraSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x051a538e, 0x04aeb45c, 0x7ed64eeb, 0xe5702132), typeof(Rapporter.RigidbodyMove), typeof(SiliconStudio.DataSerializers.Rapporter_RigidbodyMoveSerializer)));
@@ -177,6 +189,163 @@ namespace SiliconStudio.DataSerializers
 			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
 			parentSerializer.Serialize(ref parentObj, mode, stream);
 			obj = (Rapporter.DebugPhysicsShapes)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class Rapporter_TriggerScriptSerializer : DataSerializer<Rapporter.TriggerScript>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+		private DataSerializer<Rapporter.Trigger.TriggerGroup> TriggerGroupSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+			TriggerGroupSerializer = MemberSerializer<Rapporter.Trigger.TriggerGroup>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref Rapporter.TriggerScript obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (Rapporter.TriggerScript)parentObj;
+
+            Rapporter.Trigger.TriggerGroup triggerGroup = mode == ArchiveMode.Serialize ? obj.TriggerGroup : default(Rapporter.Trigger.TriggerGroup);
+            TriggerGroupSerializer.Serialize(ref triggerGroup, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.TriggerGroup = triggerGroup;
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterTrigger_TriggerGroupSerializer : ClassDataSerializer<Rapporter.Trigger.TriggerGroup>
+	{
+		private DataSerializer<System.String> NameSerializer;
+		private DataSerializer<System.Collections.Generic.List<Rapporter.Trigger.TriggerEvent>> TriggerEventsSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Cache member serializers
+			NameSerializer = MemberSerializer<System.String>.Create(serializerSelector);
+			TriggerEventsSerializer = MemberSerializer<System.Collections.Generic.List<Rapporter.Trigger.TriggerEvent>>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref Rapporter.Trigger.TriggerGroup obj, ArchiveMode mode, SerializationStream stream)
+		{
+            System.String name = mode == ArchiveMode.Serialize ? obj.Name : default(System.String);
+            NameSerializer.Serialize(ref name, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.Name = name;
+            System.Collections.Generic.List<Rapporter.Trigger.TriggerEvent> triggerEvents = obj.TriggerEvents;
+            TriggerEventsSerializer.Serialize(ref triggerEvents, mode, stream);
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterTrigger_TriggerEventSerializer : ClassDataSerializer<Rapporter.Trigger.TriggerEvent>
+	{
+		private DataSerializer<System.String> NameSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Engine.Prefab> SourcePrefabSerializer;
+		private DataSerializer<System.Boolean> FollowEntitySerializer;
+		private DataSerializer<System.Single> DurationSerializer;
+		private DataSerializer<SiliconStudio.Core.Mathematics.Vector3> PositionSerializer;
+		private DataSerializer<SiliconStudio.Core.Mathematics.Quaternion> RotationSerializer;
+		private DataSerializer<SiliconStudio.Core.Mathematics.Vector3> ScaleSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Cache member serializers
+			NameSerializer = MemberSerializer<System.String>.Create(serializerSelector);
+			SourcePrefabSerializer = MemberSerializer<SiliconStudio.Xenko.Engine.Prefab>.Create(serializerSelector);
+			FollowEntitySerializer = MemberSerializer<System.Boolean>.Create(serializerSelector);
+			DurationSerializer = MemberSerializer<System.Single>.Create(serializerSelector);
+			PositionSerializer = MemberSerializer<SiliconStudio.Core.Mathematics.Vector3>.Create(serializerSelector);
+			RotationSerializer = MemberSerializer<SiliconStudio.Core.Mathematics.Quaternion>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref Rapporter.Trigger.TriggerEvent obj, ArchiveMode mode, SerializationStream stream)
+		{
+            System.String name = mode == ArchiveMode.Serialize ? obj.Name : default(System.String);
+            NameSerializer.Serialize(ref name, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.Name = name;
+            SiliconStudio.Xenko.Engine.Prefab sourcePrefab = mode == ArchiveMode.Serialize ? obj.SourcePrefab : default(SiliconStudio.Xenko.Engine.Prefab);
+            SourcePrefabSerializer.Serialize(ref sourcePrefab, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.SourcePrefab = sourcePrefab;
+            System.Boolean followEntity = mode == ArchiveMode.Serialize ? obj.FollowEntity : default(System.Boolean);
+            FollowEntitySerializer.Serialize(ref followEntity, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.FollowEntity = followEntity;
+            System.Single duration = mode == ArchiveMode.Serialize ? obj.Duration : default(System.Single);
+            DurationSerializer.Serialize(ref duration, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.Duration = duration;
+            SiliconStudio.Core.Mathematics.Vector3 position = mode == ArchiveMode.Serialize ? obj.Position : default(SiliconStudio.Core.Mathematics.Vector3);
+            PositionSerializer.Serialize(ref position, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.Position = position;
+            SiliconStudio.Core.Mathematics.Quaternion rotation = mode == ArchiveMode.Serialize ? obj.Rotation : default(SiliconStudio.Core.Mathematics.Quaternion);
+            RotationSerializer.Serialize(ref rotation, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.Rotation = rotation;
+            SiliconStudio.Core.Mathematics.Vector3 scale = mode == ArchiveMode.Serialize ? obj.Scale : default(SiliconStudio.Core.Mathematics.Vector3);
+            PositionSerializer.Serialize(ref scale, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.Scale = scale;
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class Rapporter_EffectControllerSerializer : ClassDataSerializer<Rapporter.EffectController>
+	{
+		private DataSerializer<Rapporter.TriggerScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<Rapporter.TriggerScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"Rapporter.TriggerScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref Rapporter.EffectController obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			Rapporter.TriggerScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (Rapporter.EffectController)parentObj;
 
 		}
 
@@ -438,6 +607,7 @@ namespace SiliconStudio.DataSerializers
 		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysUpSerializer;
 		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysDownSerializer;
 		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysJumpSerializer;
+		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> ParticleTestSerializer;
 
 		public override void Initialize(SerializerSelector serializerSelector)
 		{
@@ -480,6 +650,8 @@ namespace SiliconStudio.DataSerializers
             KeysLeftSerializer.Serialize(ref keysDown, mode, stream);
             System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysJump = obj.KeysJump;
             KeysLeftSerializer.Serialize(ref keysJump, mode, stream);
+            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> particleTest = obj.ParticleTest;
+            KeysLeftSerializer.Serialize(ref particleTest, mode, stream);
 		}
 
 		internal static void ForceGenericInstantiation()
