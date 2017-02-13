@@ -1,0 +1,24 @@
+!Model
+Id: e1c0e648-ef5b-487f-b7e4-103064c4be5c
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Rapporter/Dragon Killing Sword.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fc730324aefebc86bdbe9a7b77aae7c1:
+        Name: Metal
+        MaterialInstance:
+            Material: 9efc4a5d-2553-478e-9e36-6b31619ed15a:Models/Metal
+    1d5fa3f840adf4351063e0e236161608:
+        Name: Gold
+        MaterialInstance:
+            Material: 6296765a-235a-4d29-8ff2-f88bc3077d21:Models/Gold
+    c1a6e862f9e7bcbb2228050ba88f0810:
+        Name: Handle
+        MaterialInstance:
+            Material: 2ced944b-beb0-4129-bf4a-70dbabf5092e:Models/Handle
+    0b05109032bab8c5957ee0d627ea52ec:
+        Name: SwordInside
+        MaterialInstance:
+            Material: 37088cd1-b75a-4673-8b14-336db8935ba4:Models/SwordInside
+Skeleton: 19125aa0-0cb8-4f35-8409-c53300086d6b:Models/Dragon Killing Sword Skeleton

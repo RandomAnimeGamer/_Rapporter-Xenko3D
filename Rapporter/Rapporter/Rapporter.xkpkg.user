@@ -2,7 +2,7 @@
 Settings:
     Package/SceneSettings:
         33a5e934-2c5d-4dea-8b0d-2af04880cf6e:
-            CamPosition: {X: 1.83044946, Y: 1.479993, Z: -3.06070542}
+            CamPosition: {X: 7.33027172, Y: 3.61545038, Z: -12.0419874}
             CamPitchYaw: {X: -0.200057134, Y: 15.1585016}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
@@ -27,3 +27,7 @@ Settings:
             HiddenGizmos: []
             NavigationVisible: true
             NavigationWireframes: true
+    Templates/ModelFromFile/DefaultSkeleton: 00000000-0000-0000-0000-000000000000
+    Templates/ModelFromFile/ImportMaterials: true
+    Templates/ModelFromFile/ImportSkeleton: true
+    Templates/ModelFromFile/ImportTextures: true

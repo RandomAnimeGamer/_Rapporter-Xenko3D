@@ -1,0 +1,9 @@
+!Skeleton
+Id: 2139e189-1feb-4ac9-844c-52a8886e4c0c
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Rapporter/Crystals w Simple Material.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    0d0b7feeef27870cc55cc59fe24698cc: {Name: RootNode, Depth: 0}
+    8d88108b276a7c753b6854cb3bd60aa5: {Name: Cylinder, Depth: 1}

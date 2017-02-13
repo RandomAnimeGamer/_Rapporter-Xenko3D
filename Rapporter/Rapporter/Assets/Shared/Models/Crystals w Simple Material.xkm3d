@@ -1,0 +1,12 @@
+!Model
+Id: d61e331b-5464-4d2b-82e8-f08eed28d397
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Rapporter/Crystals w Simple Material.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c08b2655b90dd6e3d61209a2ab9fa84f:
+        Name: OrangeCrystal
+        MaterialInstance:
+            Material: 838a0fff-b1aa-4a6b-91b5-b702afd3f70c:Models/OrangeCrystal
+Skeleton: 2139e189-1feb-4ac9-844c-52a8886e4c0c:Models/Crystals w Simple Material Skeleton
