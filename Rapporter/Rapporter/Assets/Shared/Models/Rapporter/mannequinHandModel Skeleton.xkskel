@@ -2,7 +2,7 @@
 Id: 923c25a2-fd7b-465c-8a33-04023e1a40c1
 SerializedVersion: {Xenko: 1.7.8-beta}
 Tags: []
-Source: ../../../Resources/Models/mannequinHandModel.fbx
+Source: ../../../../Resources/Models/mannequinHandModel.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Nodes:
     2b83a4a0d5dde6216f7c2fe8b32bbfe2: {Name: RootNode, Depth: 0}
@@ -52,4 +52,4 @@ Nodes:
     03e237740e7e0f2dcb716c0f625130ef: {Name: MachinegunBone, Depth: 2}
     ad4be2b5f6a7fe7a48a3c9571d457d91: {Name: MagazineBone, Depth: 3}
 ~SourceHashes:
-    56ae679d6151dd7643453c051842f2c3~../../../Resources/Models/mannequinHandModel.fbx: db1befd09793cb26baaafc47576b4e4f
+    db3cb7252122bf5604ab6ab58d834cf4~../../../../Resources/Models/mannequinHandModel.fbx: db1befd09793cb26baaafc47576b4e4f

@@ -2,7 +2,7 @@
 Id: d4b0041d-f8a9-40e4-81b7-e0cebe45f057
 SerializedVersion: {Xenko: 1.7.8-beta}
 Tags: []
-Source: ../../../Resources/Models/mannequinModel.fbx
+Source: ../../../../Resources/Models/mannequinModel.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Nodes:
     2b83a4a0d5dde6216f7c2fe8b32bbfe2: {Name: RootNode, Depth: 0}
@@ -98,4 +98,4 @@ Nodes:
     f56e18ef821077a1cfc8beea9d7fb036: {Name: CATRigRArmIKTarget, Depth: 1}
     149861784d2d7288eb41824229d7a683: {Name: CATRigLArmIKTarget, Depth: 1}
 ~SourceHashes:
-    5a31e4bc518d3927f16603a29cd52c3e~../../../Resources/Models/mannequinModel.fbx: 41531d1299044bd0f0b265374610fb1d
+    a15e2b37fbfe46a34404d598a602adda~../../../../Resources/Models/mannequinModel.fbx: 41531d1299044bd0f0b265374610fb1d

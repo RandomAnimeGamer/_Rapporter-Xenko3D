@@ -2,10 +2,12 @@
 Id: 19125aa0-0cb8-4f35-8409-c53300086d6b
 SerializedVersion: {Xenko: 1.7.8-beta}
 Tags: []
-Source: Rapporter/Dragon Killing Sword.fbx
+Source: Dragon Killing Sword.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Nodes:
     94ed8f76ae7fc68f273f0112ea28d397: {Name: RootNode, Depth: 0}
     05b46aebae5f66e24540150026e9e0eb: {Name: Cylinder, Depth: 1}
     ed2f008b2b855262be19ba86b59a0cfc: {Name: Lamp, Depth: 1}
     5ad4f20c5eacae195d50acee725a48ed: {Name: Camera, Depth: 1}
+~SourceHashes:
+    7fd06c05454c9a152766174efcd3b258~Dragon Killing Sword.fbx: 0b339001130e96446fd2ed669dc95e16

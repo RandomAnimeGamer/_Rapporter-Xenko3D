@@ -21,6 +21,6 @@ Materials:
         Name: lambert1
         MaterialInstance:
             Material: befa90d1-bb38-4b2c-a6c9-66b5e08251d7:Materials/MattBlackUpper
-Skeleton: 4395e32b-a30c-45d7-82f4-43f16c4b3b5e:Models/HandModelLeft Skeleton
+Skeleton: 4395e32b-a30c-45d7-82f4-43f16c4b3b5e:Models/Rapporter/HandModelLeft Skeleton
 ~SourceHashes:
     f55880b0daeba0a3823a11816f4340b9~../../../Resources/Models/HandModelLeft.fbx: 335e0e2de46ea68c9918da4ae7680215

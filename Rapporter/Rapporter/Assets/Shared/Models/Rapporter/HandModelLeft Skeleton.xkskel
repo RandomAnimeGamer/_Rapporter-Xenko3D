@@ -2,7 +2,7 @@
 Id: 4395e32b-a30c-45d7-82f4-43f16c4b3b5e
 SerializedVersion: {Xenko: 1.7.8-beta}
 Tags: []
-Source: ../../../Resources/Models/HandModelLeft.fbx
+Source: ../../../../Resources/Models/HandModelLeft.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Nodes:
     2b83a4a0d5dde6216f7c2fe8b32bbfe2: {Name: RootNode, Depth: 0}
@@ -27,4 +27,4 @@ Nodes:
     78a8cf90d1739f16b9c67d3c05dcfcf1: {Name: CATRigLArmDigit53, Depth: 7}
     c1051fb7bb692408e4f30531eaacbfd8: {Name: handLeft, Depth: 2}
 ~SourceHashes:
-    bdf25c76abce7743e2d6d522c5cad208~../../../Resources/Models/HandModelLeft.fbx: 335e0e2de46ea68c9918da4ae7680215
+    70a8df66ae2bc89ea925eb83220b3403~../../../../Resources/Models/HandModelLeft.fbx: 335e0e2de46ea68c9918da4ae7680215

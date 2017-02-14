@@ -2,10 +2,12 @@
 Id: 9ad79f2e-bee5-4891-98d4-0950507d1040
 SerializedVersion: {Xenko: 1.7.8-beta}
 Tags: []
-Source: Rapporter/SimpleSword.fbx
+Source: SimpleSword.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Nodes:
     7e4a0dd229cb6259e717acf8d4317f28: {Name: RootNode, Depth: 0}
     8bf84855b9b38330f9652a81c7b06270: {Name: Cylinder, Depth: 1}
     b2d300f046d60e07c9c45c2ad6221fd7: {Name: Lamp, Depth: 1}
     997c6c69c93c659e8d6f13ba494d452e: {Name: Camera, Depth: 1}
+~SourceHashes:
+    533691b14daafce639e268bc38f94225~SimpleSword.fbx: 48bba2f6705e6af1680053206ec590ef

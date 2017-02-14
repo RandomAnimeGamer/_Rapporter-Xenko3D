@@ -2,9 +2,11 @@
 Id: bcc3156f-3b36-4d7c-b6b1-ef9dc438275c
 SerializedVersion: {Xenko: 1.7.8-beta}
 Tags: []
-Source: Rapporter/Portable Teleporter.fbx
+Source: Portable Teleporter.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Nodes:
     1524fc5a3c5930a7d285b5422fbdee4c: {Name: RootNode, Depth: 0}
     25073a497a76dcfb8a006409687df2e3: {Name: Sun, Depth: 1}
     e940b34e92a081ba9a7e78eda4e2fc1c: {Name: Cylinder, Depth: 1}
+~SourceHashes:
+    c13747bc1c15e4e90b94b5f969ebac91~Portable Teleporter.fbx: 35a75941af287c214de71cba96080779

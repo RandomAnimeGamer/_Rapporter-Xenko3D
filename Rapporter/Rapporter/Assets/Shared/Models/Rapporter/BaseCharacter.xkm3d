@@ -1,0 +1,14 @@
+!Model
+Id: 8388b6bc-b2c0-4f0e-95fb-0db9b5e76fbd
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: BaseCharacter.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    8a4a2416dcdcbff8b6d7818aaf01fe74:
+        Name: Character
+        MaterialInstance:
+            Material: 81012d5b-d89c-43bb-bdd4-1228b37bfa2d:Models/Rapporter/Character
+Skeleton: eda6de78-1706-45c9-a7bc-ad8e25e2ff50:Models/Rapporter/BaseCharacter Skeleton
+~SourceHashes:
+    c989f0af59a9ba1f83d3e33cdccb4d2d~BaseCharacter.fbx: 0d7acd274b755b8d8b5a3ae118c028e4

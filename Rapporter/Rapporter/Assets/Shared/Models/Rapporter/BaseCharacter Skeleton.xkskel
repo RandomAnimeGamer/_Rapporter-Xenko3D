@@ -2,8 +2,10 @@
 Id: eda6de78-1706-45c9-a7bc-ad8e25e2ff50
 SerializedVersion: {Xenko: 1.7.8-beta}
 Tags: []
-Source: Rapporter/BaseCharacter.fbx
+Source: BaseCharacter.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Nodes:
     cc4b1b32c9c72afe3da13397da7239aa: {Name: RootNode, Depth: 0}
     6cde2872e7f2c836db12db1bdfa5bb13: {Name: Bob, Depth: 1}
+~SourceHashes:
+    9aa2f3ab7dc0092e703d80d2c2eefd89~BaseCharacter.fbx: 0d7acd274b755b8d8b5a3ae118c028e4

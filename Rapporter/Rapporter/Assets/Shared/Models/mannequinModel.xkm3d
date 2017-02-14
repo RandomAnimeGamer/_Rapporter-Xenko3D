@@ -29,6 +29,6 @@ Materials:
         Name: lambert1
         MaterialInstance:
             Material: 9f9a17f3-a08f-4ad0-aa67-4ca9b5a355bb:Materials/LambertMT
-Skeleton: d4b0041d-f8a9-40e4-81b7-e0cebe45f057:Models/mannequinModel Skeleton
+Skeleton: d4b0041d-f8a9-40e4-81b7-e0cebe45f057:Models/Rapporter/mannequinModel Skeleton
 ~SourceHashes:
     a161fd0762736bde28075d27aa08e25f~../../../Resources/Models/mannequinModel.fbx: 41531d1299044bd0f0b265374610fb1d
