@@ -115,6 +115,7 @@
     <Compile Include="EffectController.cs" />
     <Compile Include="fontScriptTest.cs" />
     <Compile Include="FpsCamera.cs" />
+    <Compile Include="Jump_Collisions.cs" />
     <Compile Include="Player\AnimationController.cs" />
     <Compile Include="Player\PlayerController.cs" />
     <Compile Include="Player\PlayerInput.cs" />

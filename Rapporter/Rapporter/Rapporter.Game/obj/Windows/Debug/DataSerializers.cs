@@ -32,12 +32,13 @@ namespace SiliconStudio.DataSerializers
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_EffectControllerSerializer), typeof(Rapporter.EffectController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_fontScriptTestSerializer), typeof(Rapporter.fontScriptTest), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_FpsCameraSerializer), typeof(Rapporter.FpsCamera), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_Jump_CollisionsSerializer), typeof(Rapporter.Jump_Collisions), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<SiliconStudio.Xenko.Input.Keys>), typeof(System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>), DataSerializerGenericMode.None, false, false, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.EnumSerializer<SiliconStudio.Xenko.Input.Keys>), typeof(SiliconStudio.Xenko.Input.Keys), DataSerializerGenericMode.None, false, false, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Rapporter_RigidbodyMoveSerializer), typeof(Rapporter.RigidbodyMove), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterPlayer_AnimationControllerSerializer), typeof(Rapporter.Player.AnimationController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterPlayer_PlayerControllerSerializer), typeof(Rapporter.Player.PlayerController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterPlayer_PlayerInputSerializer), typeof(Rapporter.Player.PlayerInput), DataSerializerGenericMode.None, true, true, Profile = "Default")]
-    [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<SiliconStudio.Xenko.Input.Keys>), typeof(System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>), DataSerializerGenericMode.None, false, false, Profile = "Default")]
-    [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.EnumSerializer<SiliconStudio.Xenko.Input.Keys>), typeof(SiliconStudio.Xenko.Input.Keys), DataSerializerGenericMode.None, false, false, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterPlayer_WeaponScriptSerializer), typeof(Rapporter.Player.WeaponScript), DataSerializerGenericMode.None, true, true, Profile = "Default")]
    	public static class Rapporter_GameSerializerFactory
 	{
@@ -73,12 +74,13 @@ namespace SiliconStudio.DataSerializers
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb7efd6b5, 0xa8206f45, 0xfcb563f3, 0x92ba06ff), typeof(Rapporter.EffectController), typeof(SiliconStudio.DataSerializers.Rapporter_EffectControllerSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x332adffe, 0x1b04aba6, 0x773392d8, 0x959ab0f1), typeof(Rapporter.fontScriptTest), typeof(SiliconStudio.DataSerializers.Rapporter_fontScriptTestSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xf218c95b, 0x03ef8936, 0x48caca76, 0xcf7ff1ed), typeof(Rapporter.FpsCamera), typeof(SiliconStudio.DataSerializers.Rapporter_FpsCameraSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb938b770, 0x9cf4a84a, 0x71d65b2b, 0xac8830d0), typeof(Rapporter.Jump_Collisions), typeof(SiliconStudio.DataSerializers.Rapporter_Jump_CollisionsSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd4040867, 0xf10f81e8, 0x8b793bd8, 0xfd612480), typeof(System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>), typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<SiliconStudio.Xenko.Input.Keys>)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x3b55a4c0, 0x93225d33, 0xe5593eaa, 0xf80dbca0), typeof(SiliconStudio.Xenko.Input.Keys), typeof(SiliconStudio.Core.Serialization.Serializers.EnumSerializer<SiliconStudio.Xenko.Input.Keys>)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x051a538e, 0x04aeb45c, 0x7ed64eeb, 0xe5702132), typeof(Rapporter.RigidbodyMove), typeof(SiliconStudio.DataSerializers.Rapporter_RigidbodyMoveSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x66bbfcf6, 0xce49cc28, 0xd976abac, 0x8d9390a6), typeof(Rapporter.Player.AnimationController), typeof(SiliconStudio.DataSerializers.RapporterPlayer_AnimationControllerSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xf5770bfd, 0xe69d30a7, 0x5a45b17a, 0xbf96386f), typeof(Rapporter.Player.PlayerController), typeof(SiliconStudio.DataSerializers.RapporterPlayer_PlayerControllerSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x0ca7907e, 0x0fee09c1, 0x4cd5b715, 0x4c5acf5c), typeof(Rapporter.Player.PlayerInput), typeof(SiliconStudio.DataSerializers.RapporterPlayer_PlayerInputSerializer)));
-				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd4040867, 0xf10f81e8, 0x8b793bd8, 0xfd612480), typeof(System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>), typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<SiliconStudio.Xenko.Input.Keys>)));
-				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x3b55a4c0, 0x93225d33, 0xe5593eaa, 0xf80dbca0), typeof(SiliconStudio.Xenko.Input.Keys), typeof(SiliconStudio.Core.Serialization.Serializers.EnumSerializer<SiliconStudio.Xenko.Input.Keys>)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x46ce5c9b, 0xd0e36120, 0xce38c8ce, 0xaaa18efb), typeof(Rapporter.Player.WeaponScript), typeof(SiliconStudio.DataSerializers.RapporterPlayer_WeaponScriptSerializer)));
 			}
 			{
@@ -449,6 +451,75 @@ namespace SiliconStudio.DataSerializers
 
 namespace SiliconStudio.DataSerializers
 {
+	sealed class Rapporter_Jump_CollisionsSerializer : ClassDataSerializer<Rapporter.Jump_Collisions>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+		private DataSerializer<System.Boolean> jumpedSerializer;
+		private DataSerializer<System.Single> DeadZoneSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Engine.CameraComponent> CameraSerializer;
+		private DataSerializer<System.Single> MouseSensitivitySerializer;
+		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysLeftSerializer;
+		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysRightSerializer;
+		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysUpSerializer;
+		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysDownSerializer;
+		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> KeysJumpSerializer;
+		private DataSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>> ParticleTestSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+			jumpedSerializer = MemberSerializer<System.Boolean>.Create(serializerSelector);
+			DeadZoneSerializer = MemberSerializer<System.Single>.Create(serializerSelector);
+			CameraSerializer = MemberSerializer<SiliconStudio.Xenko.Engine.CameraComponent>.Create(serializerSelector);
+			KeysLeftSerializer = MemberSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref Rapporter.Jump_Collisions obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (Rapporter.Jump_Collisions)parentObj;
+
+            jumpedSerializer.Serialize(ref obj.jumped, mode, stream);
+            System.Single deadZone = mode == ArchiveMode.Serialize ? obj.DeadZone : default(System.Single);
+            DeadZoneSerializer.Serialize(ref deadZone, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.DeadZone = deadZone;
+            SiliconStudio.Xenko.Engine.CameraComponent camera = mode == ArchiveMode.Serialize ? obj.Camera : default(SiliconStudio.Xenko.Engine.CameraComponent);
+            CameraSerializer.Serialize(ref camera, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.Camera = camera;
+            System.Single mouseSensitivity = mode == ArchiveMode.Serialize ? obj.MouseSensitivity : default(System.Single);
+            DeadZoneSerializer.Serialize(ref mouseSensitivity, mode, stream);
+            if (mode == ArchiveMode.Deserialize)
+                obj.MouseSensitivity = mouseSensitivity;
+            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysLeft = obj.KeysLeft;
+            KeysLeftSerializer.Serialize(ref keysLeft, mode, stream);
+            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysRight = obj.KeysRight;
+            KeysLeftSerializer.Serialize(ref keysRight, mode, stream);
+            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysUp = obj.KeysUp;
+            KeysLeftSerializer.Serialize(ref keysUp, mode, stream);
+            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysDown = obj.KeysDown;
+            KeysLeftSerializer.Serialize(ref keysDown, mode, stream);
+            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> keysJump = obj.KeysJump;
+            KeysLeftSerializer.Serialize(ref keysJump, mode, stream);
+            System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys> particleTest = obj.ParticleTest;
+            KeysLeftSerializer.Serialize(ref particleTest, mode, stream);
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
 	sealed class Rapporter_RigidbodyMoveSerializer : ClassDataSerializer<Rapporter.RigidbodyMove>
 	{
 		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
@@ -599,6 +670,9 @@ namespace SiliconStudio.DataSerializers
 	sealed class RapporterPlayer_PlayerInputSerializer : ClassDataSerializer<Rapporter.Player.PlayerInput>
 	{
 		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<System.Boolean> jumpedSerializer;
+		private DataSerializer<System.Boolean> doneJumpingSerializer;
+		private DataSerializer<System.Int32> jumpCountSerializer;
 		private DataSerializer<System.Single> DeadZoneSerializer;
 		private DataSerializer<SiliconStudio.Xenko.Engine.CameraComponent> CameraSerializer;
 		private DataSerializer<System.Single> MouseSensitivitySerializer;
@@ -616,6 +690,8 @@ namespace SiliconStudio.DataSerializers
 			if (parentSerializer == null)
 				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
 			// Cache member serializers
+			jumpedSerializer = MemberSerializer<System.Boolean>.Create(serializerSelector);
+			jumpCountSerializer = MemberSerializer<System.Int32>.Create(serializerSelector);
 			DeadZoneSerializer = MemberSerializer<System.Single>.Create(serializerSelector);
 			CameraSerializer = MemberSerializer<SiliconStudio.Xenko.Engine.CameraComponent>.Create(serializerSelector);
 			KeysLeftSerializer = MemberSerializer<System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>>.Create(serializerSelector);
@@ -628,6 +704,9 @@ namespace SiliconStudio.DataSerializers
 			parentSerializer.Serialize(ref parentObj, mode, stream);
 			obj = (Rapporter.Player.PlayerInput)parentObj;
 
+            jumpedSerializer.Serialize(ref obj.jumped, mode, stream);
+            jumpedSerializer.Serialize(ref obj.doneJumping, mode, stream);
+            jumpCountSerializer.Serialize(ref obj.jumpCount, mode, stream);
             System.Single deadZone = mode == ArchiveMode.Serialize ? obj.DeadZone : default(System.Single);
             DeadZoneSerializer.Serialize(ref deadZone, mode, stream);
             if (mode == ArchiveMode.Deserialize)
