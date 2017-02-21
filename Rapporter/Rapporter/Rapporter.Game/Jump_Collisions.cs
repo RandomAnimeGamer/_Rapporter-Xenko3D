@@ -11,12 +11,12 @@ using SiliconStudio.Xenko.Physics;
 using Rapporter.Core;
 
 namespace Rapporter { public class Jump_Collisions : AsyncScript {
-    public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();       // This can be made non-static and require specific binding to the scripts instead
-    public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();     // This can be made non-static and require specific binding to the scripts instead
-    public static readonly EventKey<bool> ShootEventKey = new EventKey<bool>();                     // This can be made non-static and require specific binding to the scripts instead
-    public static readonly EventKey<bool> ReloadEventKey = new EventKey<bool>();                    // This can be made non-static and require specific binding to the scripts instead
-    public static readonly EventKey<bool> JumpEventKey = new EventKey<bool>();                      // This can be made non-static and require specific binding to the scripts instead
-    public static readonly EventKey<bool> ParticleEventKey = new EventKey<bool>();                  // This can be made non-static and require specific binding to the scripts instead
+    public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
+    public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
+    public static readonly EventKey<bool> ShootEventKey = new EventKey<bool>();
+    public static readonly EventKey<bool> ReloadEventKey = new EventKey<bool>();
+    public static readonly EventKey<bool> JumpEventKey = new EventKey<bool>();
+    public static readonly EventKey<bool> ParticleEventKey = new EventKey<bool>();
     public float DeadZone { get; set; } = 0.25f;
     public CameraComponent Camera { get; set; }
     public float MouseSensitivity { get; set; } = 100.0f;
