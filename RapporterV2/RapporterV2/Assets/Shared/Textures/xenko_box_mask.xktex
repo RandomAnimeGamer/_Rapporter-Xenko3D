@@ -1,0 +1,9 @@
+!Texture
+Id: 83067de5-6488-4443-bc7e-a6f1b9d43bea
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../Resources/Textures/xenko_box_mask_mark.png
+ColorKeyEnabled: true
+ColorKeyColor: {R: 0, G: 0, B: 0, A: 255}
+Alpha: Mask
+GenerateMipmaps: false

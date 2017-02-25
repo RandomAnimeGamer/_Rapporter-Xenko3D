@@ -60,20 +60,15 @@ namespace Rapporter.Player { public class PlayerInput : SyncScript {
         // Camera rotation
         //  Camera rotation is ALWAYS in camera space, so we don't need to account for View or Projection matrices
         {
-
+            var cameraDirection = new Vector2(0,0);
             // Mouse-based camera rotation.
             //  Only enabled after you click the screen to lock your cursor, pressing escape will cancel it.
-/*                if (Input.IsMouseButtonDown(MouseButton.Left))
-                Input.LockMousePosition(true);
-            if (Input.IsKeyPressed(Keys.Escape))
-                Input.UnlockMousePosition();*/
-//                if (Input.IsMousePositionLocked)
-//                {
-//                cameraDirection += new Vector2(Input.MouseDelta.X, -Input.MouseDelta.Y) * MouseSensitivity;
-//                }
+            if (Input.IsMouseButtonDown(MouseButton.Left)) Input.LockMousePosition(true);
+            if (Input.IsKeyPressed(Keys.Escape)) Input.UnlockMousePosition();
+            if (Input.IsMousePositionLocked) cameraDirection += new Vector2(Input.MouseDelta.X, -Input.MouseDelta.Y) * MouseSensitivity;
 
             // Broadcast the camera direction directly, as a screen-space Vector2
-//            CameraDirectionEventKey.Broadcast(cameraDirection);
+            CameraDirectionEventKey.Broadcast(cameraDirection);
         }
     }
     private void RaycastDown() {

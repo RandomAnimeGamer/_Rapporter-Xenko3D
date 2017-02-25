@@ -1,0 +1,10 @@
+!Animation
+Id: 61ac020e-f7b6-4d3a-a858-405a79a18213
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Animation/Gun_Idle.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: 696ba9c9-19d1-4115-a7e7-193871f0d960:Models/mannequinHandModel Skeleton
+RootMotion: false
+PreviewModel: 38269003-6890-4824-8f3b-9066f322e5d3:Models/mannequinHandModel

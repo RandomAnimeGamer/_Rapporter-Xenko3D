@@ -141,6 +141,8 @@ Hierarchy:
                     6271c0514b8ffc8676a84fd54eea80de: !Rapporter.Player.PlayerInput,Rapporter.Game
                         Id: 1b29918a-4e09-4d02-97d6-c590a417e386
                         jumped: false
+                        doneJumping: true
+                        jumpCount: 0
                         DeadZone: 0.25
                         Camera: 66d1d403-7da1-4f86-b7f2-5088fd044ef6/0cb69f54-155d-4448-a524-3c07f2e87d4a
                         MouseSensitivity: 100.0
@@ -155,6 +157,10 @@ Hierarchy:
                         KeysJump:
                             d2325627547b278a1302addc75a04418: Space
                         ParticleTest: {}
+                    196170c5c7c77ab01ec9b242dbe5abd2: !Rapporter.FpsCamera,Rapporter.Game
+                        Id: 97644998-0448-4b5a-b62e-71af21fc348e
+                        RotationSpeed: 2.355
+                        RotationAdaptationSpeed: 5.0
         -   Entity:
                 Id: 4a1c57d0-e449-44e5-be1e-5602e4244761
                 Name: box
