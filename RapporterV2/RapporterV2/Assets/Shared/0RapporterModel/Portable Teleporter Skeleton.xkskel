@@ -1,0 +1,13 @@
+!Skeleton
+Id: dd36a4e5-8b6d-443f-a84a-881e8dd0e02b
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Portable Teleporter.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    edc4a75ea7334635f2274fdf0630c8a9: {Name: RootNode, Depth: 0}
+    feff16373c1aa8c80f3fef72a34a2056: {Name: Sun, Depth: 1}
+    886071dc0e8d0461695c978daa7db8cd: {Name: Cylinder, Depth: 1}
+~SourceHashes:
+    ? 66408b76642662a5b824e50ffbbb409c~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Portable Teleporter.fbx
+    : 35a75941af287c214de71cba96080779

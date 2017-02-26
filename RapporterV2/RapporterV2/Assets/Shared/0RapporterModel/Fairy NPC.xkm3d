@@ -1,0 +1,18 @@
+!Model
+Id: 3a30768c-9e53-4854-97e6-bb790c5bd289
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Fairy NPC.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b48e201dbc7191861539a093ffedacb4:
+        Name: Wings
+        MaterialInstance:
+            Material: eea07843-e660-4dad-8e6f-4b2926b95488:0RapporterModel/Wings
+    c2a93a0e577361f562ce01c6653f7c35:
+        Name: Body
+        MaterialInstance:
+            Material: ceebee23-fcf0-4b6f-8ebd-6a02389727b0:0RapporterModel/Body
+Skeleton: 5868fe85-40a4-4c4a-813b-5f951a9633ca:0RapporterModel/Fairy NPC Skeleton
+~SourceHashes:
+    55ab8f21ab91f16c44e1fdc41e0c0cfa~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Fairy NPC.fbx: 816d89463221c999e181f17389df9f91

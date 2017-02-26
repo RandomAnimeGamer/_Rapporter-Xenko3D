@@ -1,0 +1,13 @@
+!Skeleton
+Id: 22f5f1f9-5466-4841-8ad5-f84b829639ec
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/SimpleSword.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    6849d754eb9e2cf38a66606afac19e49: {Name: RootNode, Depth: 0}
+    aca8001c5bb25624009c558b09854506: {Name: Cylinder, Depth: 1}
+    ac0a0f9a11dfb0a795fe55421cd54836: {Name: Lamp, Depth: 1}
+    87379078092ba720dc5d2c7555565f63: {Name: Camera, Depth: 1}
+~SourceHashes:
+    457e447cd250182d2386642658b556b7~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/SimpleSword.fbx: 48bba2f6705e6af1680053206ec590ef

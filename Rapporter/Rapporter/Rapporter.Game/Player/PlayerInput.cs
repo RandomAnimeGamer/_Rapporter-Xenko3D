@@ -52,7 +52,7 @@ namespace Rapporter.Player { public class PlayerInput : SyncScript {
             // Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
             var worldSpeed = (Camera != null)
                 ? Utils.LogicDirectionToWorldDirection(moveDirection, Camera, Vector3.UnitY) + new Vector3(0, jumpForce, 0)
-                : new Vector3(moveDirection.X, jumpForce, moveDirection.Y); // If we don't have the correct camera attached we can send the directions anyway, but they probably won't match
+                : new Vector3(moveDirection.X, jumpForce, moveDirection.Y); //No camera? No problem!
 
             MoveDirectionEventKey.Broadcast(worldSpeed);
         }

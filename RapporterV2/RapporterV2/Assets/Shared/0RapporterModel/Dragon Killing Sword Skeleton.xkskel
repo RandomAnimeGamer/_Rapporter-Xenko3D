@@ -1,0 +1,14 @@
+!Skeleton
+Id: 76682f42-5ba2-4886-a58b-dd587f79c837
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Dragon Killing Sword.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    93bbd0c147e4afe6b49b295d36c00223: {Name: RootNode, Depth: 0}
+    148d651e2e9fbde8c49e15df881c5ef9: {Name: Cylinder, Depth: 1}
+    c1f913460c9571945c169191bdc61d50: {Name: Lamp, Depth: 1}
+    dffb11af496e5af354c43007b6f4f141: {Name: Camera, Depth: 1}
+~SourceHashes:
+    ? acfcafeef6b8b37eda1bd9d6dc58731e~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Dragon Killing Sword.fbx
+    : 0b339001130e96446fd2ed669dc95e16

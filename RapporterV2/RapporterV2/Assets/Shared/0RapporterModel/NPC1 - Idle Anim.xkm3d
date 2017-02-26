@@ -1,0 +1,47 @@
+!Model
+Id: 2c51a00b-7dec-4c5f-883d-049aeca670ef
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Characters/NPC1 - Idle Anim.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    35fd2bca986be78369e26712e7746690:
+        Name: NPC1Skin
+        MaterialInstance:
+            Material: ba2f231e-66a3-4234-b075-031976e6c752:0RapporterModel/NPC1Skin
+    5155bfe37391076bd78af357e85306b7:
+        Name: NPC1Boots
+        MaterialInstance:
+            Material: 1c0675c6-60b1-4231-8959-e1bf61d37f97:0RapporterModel/NPC1Boots
+    714d5153637fa1d2b390df98630f3258:
+        Name: NPC1Pants
+        MaterialInstance:
+            Material: d2f621e6-bea1-4acf-b5bd-84d795d6cc26:0RapporterModel/NPC1Pants
+    c983bf35789d0549b3bb3809a421e050:
+        Name: NPC1Belt
+        MaterialInstance:
+            Material: c0015aa9-bed2-405b-8532-4a8355050ae9:0RapporterModel/NPC1Belt
+    655fbe4d3dab10700929ce6c300031de:
+        Name: NPC1DarkerBelt
+        MaterialInstance:
+            Material: 47ea373f-0a38-4dd3-83b0-249cee6974b5:0RapporterModel/NPC1DarkerBelt
+    1a4a14d74efb87aa4599aeb6ab86b0bd:
+        Name: NPC1Shirt
+        MaterialInstance:
+            Material: 954bb868-08c4-4422-8df9-03828859b24b:0RapporterModel/NPC1Shirt
+    0a1ef4418736a94b10338c0f8efa9669:
+        Name: NPC1DarkerShirt
+        MaterialInstance:
+            Material: de12a0d1-911b-444c-ba8e-2c1d9df864c4:0RapporterModel/NPC1DarkerShirt
+    e66df64610e19de0284326d639a82289:
+        Name: NPC1HairColor
+        MaterialInstance:
+            Material: a7db098c-e108-44f8-a278-187c41a62ebf:0RapporterModel/NPC1HairColor
+    6943219493c2f06e09d43f2cb56f8925:
+        Name: NPC1HairBand
+        MaterialInstance:
+            Material: b72598af-aa53-4af4-8638-7d53de2d48a4:0RapporterModel/NPC1HairBand
+Skeleton: 5f5e36d3-d4dd-490b-9e6f-86da03b822da:0RapporterModel/NPC1 - Idle Anim Skeleton
+~SourceHashes:
+    ? c22172a7b03f0307d7086733a132240f~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Characters/NPC1 - Idle Anim.fbx
+    : 2bee45f38129a8acb789b1e4593ec1da

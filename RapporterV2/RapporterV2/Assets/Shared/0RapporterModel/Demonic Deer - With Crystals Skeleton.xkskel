@@ -1,0 +1,24 @@
+!Skeleton
+Id: 730eab87-ef51-4a21-95a6-242e94cc1d0c
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Bosses/Demonic Deer - With Crystals.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    a1b7f43a55fceec111e3f127b4d7c2c0: {Name: RootNode, Depth: 0}
+    590176334d1c69835760259d4686dcd1: {Name: Cylinder.007, Depth: 1}
+    46b50aa9a94164287b94795968921533: {Name: Cylinder.006, Depth: 1}
+    ca13e2221bcaf0e8c5f29ae88dbe87e5: {Name: Cylinder.005, Depth: 1}
+    dee6a2432497ae2ffacafa5ba1b8df99: {Name: Cylinder.004, Depth: 1}
+    bb2a00a6cc7dcaa6bd40e6eaba01f4b2: {Name: Cylinder.003, Depth: 1}
+    abfa295dbc13d7f7374b5dca713d462a: {Name: Cylinder.002, Depth: 1}
+    94a8992f4869ee793c8172bd8a2f0a8b: {Name: Cylinder.001, Depth: 1}
+    98d13bc18529a4e7e6a2de3e4c18e6e5: {Name: Cylinder, Depth: 1}
+    a8987b563ee903f4c39caa49c251daec: {Name: Sun, Depth: 1}
+    cba128064d5812b290f6ceaa0517f53e: {Name: Body, Depth: 1}
+    ab42ff592ac1ccb79b3f6376c4c06f47: {Name: Horns, Depth: 1}
+    124c085e90637dafbd6fed9b40705196: {Name: Lamp, Depth: 1}
+    45ebde811cee4b21a328c3ccd5cd8e3e: {Name: Camera, Depth: 1}
+~SourceHashes:
+    ? 1553ae01c1d3fafe8ad944b71bc1f1ea~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Bosses/Demonic Deer - With Crystals.fbx
+    : 7459121bb0dc43161fc6ed7233afbceb

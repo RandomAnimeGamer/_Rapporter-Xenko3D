@@ -1,0 +1,12 @@
+!Skeleton
+Id: 9f15f036-536b-4923-85ab-5c7388d8b7fc
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Characters/BaseCharacter.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    79110d407014218feacf320985f7547f: {Name: RootNode, Depth: 0}
+    9e790d674a96b8ef352b56bb661f0dfd: {Name: Bob, Depth: 1}
+~SourceHashes:
+    ? d1a1851befb981f540621f23ec6067da~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Characters/BaseCharacter.fbx
+    : 0d7acd274b755b8d8b5a3ae118c028e4

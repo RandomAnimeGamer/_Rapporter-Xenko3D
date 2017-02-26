@@ -1,0 +1,59 @@
+!Skeleton
+Id: 5f5e36d3-d4dd-490b-9e6f-86da03b822da
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Characters/NPC1 - Idle Anim.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    1e6043e1c1e98e1516decbb3778fef52: {Name: RootNode, Depth: 0}
+    a20dd95b563236aad260d3380b203825: {Name: Camera.001, Depth: 1}
+    fbe1f99b2c795ddaa830ac3eb8d51389: {Name: Lamp.001, Depth: 1}
+    648af3bff07e2272d2589adb15c6eedc: {Name: Armature, Depth: 1}
+    e7adf908f9b563e2d33006077671be07: {Name: Root, Depth: 2}
+    73ae56d4aab8220b5f55be8574c76302: {Name: Base, Depth: 3}
+    dd7a2ea15c911197160fce06b5136340: {Name: Stomach, Depth: 4}
+    e0e4ec44ea7bc288074a52eda67afcbe: {Name: Chest, Depth: 5}
+    189e18392aba7d3b9c44bea357b6d7c6: {Name: Neck, Depth: 6}
+    b1020a974301fc2785ff173cfe91ef47: {Name: Head, Depth: 7}
+    62251ab97f9f6a9c03bda39469a6ec0a: {Name: Hair1, Depth: 8}
+    4736b502a9a601d82e7026c476036a7c: {Name: Hair2, Depth: 9}
+    ba1efe0e3b519be1a2e61108688fac0c: {Name: Hair3, Depth: 10}
+    a01884c2c30c44b37708070355dfcf79: {Name: Hair4, Depth: 11}
+    af0f0f19e829e35ebe316216744971f1: {Name: Hair5, Depth: 12}
+    ae1804bba2de8506405ad148fe93a75c: {Name: Hair5_end, Depth: 13}
+    8c7823c490aa7e1df2a40783b303cf74: {Name: Collar.L, Depth: 6}
+    105e80ce715016b892e3daf366b17524: {Name: Upper Arm.L, Depth: 7}
+    d31774117bc7aeeca26a6085a61e2cf9: {Name: Lower Arm.L, Depth: 8}
+    e7c9c81cb42c8d36b25d9be2368c9567: {Name: Palm.L, Depth: 9}
+    c6904b2b9eff36d0098f874ecbecd3e2: {Name: Fingers.L, Depth: 10}
+    13836f88d277596e09eb38efaeb917b3: {Name: Fingers.L_end, Depth: 11}
+    dc54ee694804a35274d315e99f8b9d1e: {Name: Collar.R, Depth: 6}
+    bec1c02e67caadf1b5bc711db2b4b913: {Name: Upper Arm.R, Depth: 7}
+    e7ebefec85c1300a56effaaf7b413921: {Name: Lower Arm.R, Depth: 8}
+    a279d7214a92f95c656c96c8cd358646: {Name: Palm.R, Depth: 9}
+    9e8558c72e6a80580378438cc6ed2d94: {Name: Fingers.R, Depth: 10}
+    63146dae1ac3898458d94a75166fa44b: {Name: Fingers.R_end, Depth: 11}
+    8402b7d99b9e282c846e4684678cdc4e: {Name: Pelvis, Depth: 4}
+    6fcdca22f1a795f72248110555ffb6fd: {Name: Thigh.L, Depth: 5}
+    4b91a060fc0ac6e1dc214afae5a52e8c: {Name: Lower Leg.L, Depth: 6}
+    d85eef2e52994f51a2e2794c4da9cba4: {Name: Foot.L, Depth: 7}
+    e8cd0417f1d1c3bab76e29e99ad68528: {Name: Toe.L, Depth: 8}
+    3c77e84b08d4466991ada9d59e2a26e2: {Name: Toe.L_end, Depth: 9}
+    ff2665e11b42266f0749be9265bcd634: {Name: Thigh.R, Depth: 5}
+    7bb1b722f956b071d184d6c17ae517ce: {Name: Lower Leg.R, Depth: 6}
+    1269a716c26d5173f77f9b7ac93e3878: {Name: Foot.R, Depth: 7}
+    32778fe3734dcbea2ca23f39a0cf49c8: {Name: Toe.R, Depth: 8}
+    288ab3fc784157e530f22b7089b5fc85: {Name: Toe.R_end, Depth: 9}
+    f1a6f12b57f0f2499ac5af554b5f44e1: {Name: IK Leg.L, Depth: 3}
+    c48bc2df3b5f00d43dd27ec678cbe1e4: {Name: IK Knee.L, Depth: 4}
+    a3f2bfb2d8b57fd5578e871c72a0c91b: {Name: IK Knee.L_end, Depth: 5}
+    e3d9af38033b9191341856eaac04b596: {Name: IK Leg.R, Depth: 3}
+    3b7b1b9d85c9fb50e7b8baa908e55e76: {Name: IK Knee.R, Depth: 4}
+    c0a8b0ceeb2a42139a647614e1c64d42: {Name: IK Knee.R_end, Depth: 5}
+    b90f8c78344f4b7827ea07a48184e81f: {Name: Bob, Depth: 1}
+    9c9604898edaeb8256d4806670be89b9: {Name: Cube, Depth: 1}
+    327906066ec812bb17d7f076e45478a0: {Name: Lamp, Depth: 1}
+    8f3aaaa95c30042b459106feb0943533: {Name: Camera, Depth: 1}
+~SourceHashes:
+    ? 1c1cf8337a22b2146d2b477f9f6f5106~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Characters/NPC1 - Idle Anim.fbx
+    : 2bee45f38129a8acb789b1e4593ec1da

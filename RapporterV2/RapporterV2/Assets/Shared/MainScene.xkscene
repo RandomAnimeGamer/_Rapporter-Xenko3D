@@ -134,6 +134,8 @@ Hierarchy:
         - 1c16ce32-59b1-4691-9465-974111982f67
         - 25bc5b70-bc98-4f51-b245-56c77af74122
         - 0ceaf263-3374-437f-9232-ef205569f93d
+        - 6ae0b824-4e8f-456f-89a8-329542af862e
+        - 903669e6-6a32-4905-9d1b-e89884bb12ae
     Parts:
         -   Entity:
                 Id: 0157316b-840c-4bb8-aed8-aaeee66c7b90
@@ -2222,45 +2224,25 @@ Hierarchy:
                 BasePartAsset: 63b8800d-ffaa-464a-af6e-408994a0e390:BlocksPrefabs/Wall0x2x5
                 BasePartId: fbdff817-df62-4a56-83f8-19a9d12589b8
                 InstanceId: 74348613-3aba-4a51-b0a7-444823069e62
-        -   Entity:
-                Id: 40e9eebd-1003-42bf-b06f-459a6d501c61
-                Name: EffectsFeedback
+        -   Folder: 
+            Entity:
+                Id: 40521b8f-5ebe-4241-b8a4-2d4456865f08
+                Name: testText
                 Components:
-                    321d321c570d3e43a2a274d71d7258f5: !TransformComponent
-                        Id: 1c321d32-0d57-433e-a2a2-74d71d7258f5
-                        Position: {X: 3.225738E-08, Y: 0.1441944, Z: -0.805615544}
-                        Rotation: {X: 0.707106769, Y: 3.80902549E-07, Z: -3.80902549E-07, W: 0.707106769}
+                    363dfd50bc1faf4cb198d55bc4959a6c: !TransformComponent
+                        Id: 50fd3d36-1fbc-4caf-b198-d55bc4959a6c
+                        Position: {X: 2.837469, Y: 5.619957, Z: -3.04115772}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    c743ceab56f65b45899acfd17ce4565d: !RapporterV2.EffectController,RapporterV2.Game
-                        Id: abce43c7-f656-455b-899a-cfd17ce4565d
-                        TriggerGroup:
-                            Name: Gunfire
-                            TriggerEvents:
-                                cc2e7fd643efee43a5334538e258744d:
-                                    Name: MuzzleFlash
-                                    SourcePrefab: 35fae8cc-ec56-4bf5-8470-14ea5c67b3a1:VFXPrefabs/vfx-RichMuzzleFlash
-                                    FollowEntity: true
-                                    Duration: 0.6
-                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                                    Rotation: {X: 1.0, Y: 0.0, Z: 0.0, W: -4.371139E-08}
-                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                                c2b4a07f896d1143868abfae468c8a51:
-                                    Name: BulletImpact
-                                    SourcePrefab: 9f2dfbd6-69d3-44cf-bce9-c3c3aac5a516:VFXPrefabs/vfx-RichBulletImpact
-                                    FollowEntity: false
-                                    Duration: 1.0
-                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                                    Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                                25a41a6e2c1e89449f410d4cd3a33c89:
-                                    Name: DamagedTrail
-                                    SourcePrefab: 3ccb43e2-f641-44ef-9d34-c59947fb9e22:VFXPrefabs/vfx-DamagedTrail
-                                    FollowEntity: true
-                                    Duration: 6.0
-                                    Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                                    Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                                    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                    3db80bf6f7a64d469c3a78e1338ba404: !SpriteComponent
+                        Id: f60bb83d-a6f7-464d-9c3a-78e1338ba404
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 8b7b9e9b-d102-461b-9b9c-1769d6add1ac:testText
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        PremultipliedAlpha: false
+                        IgnoreDepth: true
         -   Entity:
                 Id: 4151d9bb-8db5-4145-8329-24eecba83e56
                 Name: Stairs1x1x1_50
@@ -2498,7 +2480,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             363dfd50bc1faf4cb198d55bc4959a6c: db7c521d-deb0-4114-829d-3cfb7dd2aa07/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
-                            1fe64d64198b4543bfc6b549158775e4: b1c994b5-3745-4e14-84b3-543f53faa09d/644de61f-8b19-4345-bfc6-b549158775e4
+                            c157791954b1a97878b9c50ea77acfff: 9eb65c87-9a55-4114-a24f-075eb66bb03d/6f0eab98-4c1d-4331-8bd6-2cb8ac655c6d
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
@@ -2508,11 +2490,6 @@ Hierarchy:
                         RotationAdaptationSpeed: 5.0
                     e3f466ccb7fa4a4e816d3113bb7c953a: !RapporterV2.Player.WeaponScript,RapporterV2.Game
                         Id: cc66f4e3-fab7-4e4a-816d-3113bb7c953a
-                        MaxShootDistance: 50.0
-                        ShootImpulse: 12.0
-                        Cooldown: 0.4
-                        ReloadCooldown: 2.0
-                        RemainingBullets: a9b8bf4f-39f5-4569-88e0-3c68fdbb5be9/722ddea3-2ffa-4dc2-83c3-44dedd18fc64
         -   Entity:
                 Id: 4ac16211-9c81-4929-9df1-753678c4eb02
                 Name: Wall0x2x2
@@ -3829,6 +3806,35 @@ Hierarchy:
                 BasePartId: fbdff817-df62-4a56-83f8-19a9d12589b8
                 InstanceId: 11766c32-141c-4969-a136-8840fdc9f767
         -   Entity:
+                Id: 6ae0b824-4e8f-456f-89a8-329542af862e
+                Name: Crystals w Simple Material
+                Components:
+                    2430d8a6d8e6ccb1cb96c453dce6a06b: !TransformComponent
+                        Id: 237174a2-15cd-4747-ac0d-f66439689b99
+                        Position: {X: -4.90947342, Y: 0.0, Z: 3.53904438}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f6a1b0bbf98e9513f1efd77412d7457c: !ModelComponent
+                        Id: 94f84863-6cb1-4f8c-b2fa-c23235752a4e
+                        Model: d53d916e-8f56-4d61-9eb0-e3fb53dc72c1:0RapporterModel/Crystals w Simple Material
+                        Materials: {}
+                    db512fe18460a9d9c0b6c8bf5d196ed2: !StaticColliderComponent
+                        Id: 8ef1ae77-98ec-480a-b46e-1ec4a7f3b596
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            fba3909f103bd6f30a72462a684237cd: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
                 Id: 6b2b51ee-f746-45ba-8e54-a72c9dbb175c
                 Name: Wall0x2x2
                 Components:
@@ -4771,6 +4777,35 @@ Hierarchy:
                         Children:
                             db07bec9b88cb84e9f8d6d3511eb10f2: e5d56ea0-2edd-4eb2-9292-e0ca06ed3cdc/c9be07db-8cb8-4eb8-9f8d-6d3511eb10f2
         -   Entity:
+                Id: 903669e6-6a32-4905-9d1b-e89884bb12ae
+                Name: Fairy NPC
+                Components:
+                    bbfd2677022d1f6b2b518a015818438d: !TransformComponent
+                        Id: 3e822b97-abdd-4dd3-af57-63a7ee33e7ff
+                        Position: {X: -14.8152819, Y: 0.31036222, Z: -4.161766}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children:
+                            b50e9e42601ac911518e5fd86558878a: 40521b8f-5ebe-4241-b8a4-2d4456865f08/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
+                            5484720ebf891558d709861cf18e24aa: b1452dbc-43dc-43de-9931-57f673ee90de/d08c38b3-c63d-45b1-8631-773acc69026e
+                    378dd48fc0d29dc5cf29418bcab481b3: !ModelComponent
+                        Id: 625d6c66-7878-4fbc-9532-fd846d1d98f4
+                        Model: 3a30768c-9e53-4854-97e6-bb790c5bd289:0RapporterModel/Fairy NPC
+                        Materials: {}
+                    ce72966bcc44d45ead03c756d3c218b1: !StaticColliderComponent
+                        Id: 85647365-2e14-4644-a8f4-1e3e3cc3d1ce
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            23ec82893571daf29d2bcf285114afbb: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        -   Entity:
                 Id: 9066033d-cd2d-4aef-884f-60692f7ab751
                 Name: Stairs1x1x2
                 Components:
@@ -5053,8 +5088,8 @@ Hierarchy:
                     5cea3fc41b5e1c40865911bd77ee624c: !RapporterV2.Player.PlayerInput,RapporterV2.Game
                         Id: c43fea5c-5e1b-401c-8659-11bd77ee624c
                         DeadZone: 0.25
-                        Camera: 49a3257d-dfbc-4a64-a8eb-cb4dfe647e67/79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         MouseSensitivity: 100.0
+                        Camera: 49a3257d-dfbc-4a64-a8eb-cb4dfe647e67/79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         KeysLeft:
                             79c1d8abdc0cce2b4221ece447bdec9e: Left
                             0fe771bf0347303773c1aecc0768b5f3: A
@@ -5067,9 +5102,8 @@ Hierarchy:
                         KeysDown:
                             c710581bbfee7f9dbffa87d8b423a961: Down
                             9861448150847263e1dcce732406e8b4: S
-                        KeysReload:
-                            f7748360940667938216bda161f12ed0: E
-                            05744cc71fc6762cd1820202d01398ed: R
+                        KeysJump:
+                            599a608840115df62c6ae2cd4c191356: Space
         -   Entity:
                 Id: 9758b4f8-356a-4443-9a06-4001ccb9e7c4
                 Name: Wall0x2x5
@@ -5313,6 +5347,44 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             db07bec9b88cb84e9f8d6d3511eb10f2: ee8e307a-e2ed-47f6-a74d-913e898eb6d3/c9be07db-8cb8-4eb8-9f8d-6d3511eb10f2
+        -   Entity:
+                Id: 9eb65c87-9a55-4114-a24f-075eb66bb03d
+                Name: SimpleSword
+                Components:
+                    34cb23a94da00de633995e21b5394d17: !TransformComponent
+                        Id: 6f0eab98-4c1d-4331-8bd6-2cb8ac655c6d
+                        Position: {X: 0.085, Y: -0.0748001039, Z: -0.131120056}
+                        Rotation: {X: -0.299146235, Y: 0.0970058143, Z: 0.0305858124, W: 0.9487707}
+                        Scale: {X: 0.02, Y: 0.02, Z: 0.02}
+                        Children: {}
+                    850dd6532f476845aca2a1d9af86ec4a: !ModelComponent
+                        Id: 1e7bae7e-cebd-404b-801d-ce0d24252d50
+                        Model: ed226bcc-cc16-4179-b774-9083b0069a61:0RapporterModel/SimpleSword
+                        Materials: {}
+                    aa50dfe44a0d6008baf24342e1c4e8ce: !RigidbodyComponent
+                        Id: 053eac94-bfcf-4ad4-acae-21059ff620b1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            53a14c31181fa3997fb84e5da2694d80: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    d9f3cc2858a84c14cd513a4f328f73dc: !RapporterV2.Player.WeaponController,RapporterV2.Game
+                        Id: e9a185c7-563b-49ff-b752-7462477d2d1a
         -   Entity:
                 Id: a1d1566f-c60c-4f3c-a402-9f11250b4487
                 Name: GridBase10x10
@@ -5735,21 +5807,6 @@ Hierarchy:
                         Children:
                             4eecb3c27affe3478bcc584553d59e41: fbaa0ecf-b434-4a96-ae52-e5ae72ab5a64/c2b3ec4e-ff7a-47e3-8bcc-584553d59e41
         -   Entity:
-                Id: a9b8bf4f-39f5-4569-88e0-3c68fdbb5be9
-                Name: BulletCount
-                Components:
-                    3874058b00661242806d2e3f4afd55c1: !TransformComponent
-                        Id: 8b057438-6600-4212-806d-2e3f4afd55c1
-                        Position: {X: 0.000647656561, Y: 0.172030881, Z: -0.010609664}
-                        Rotation: {X: -0.385125518, Y: 1.66533454E-16, Z: -3.366874E-08, W: 0.9228642}
-                        Scale: {X: 0.04, Y: 0.04, Z: 0.04}
-                        Children: {}
-                    a3de2d72fa2fc24d83c344dedd18fc64: !SpriteComponent
-                        Id: 722ddea3-2ffa-4dc2-83c3-44dedd18fc64
-                        SpriteProvider: !SpriteFromSheet
-                            Sheet: ec420712-36a3-483b-ae4e-e99d22c3a955:Bullets
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-        -   Entity:
                 Id: aad66409-dd2e-4daf-be54-a7a93743df7e
                 Name: Box3x1x1
                 Components:
@@ -5860,26 +5917,32 @@ Hierarchy:
                 BasePartAsset: efbc4d71-cf4f-40ab-90fe-c0d5e1ec6a66:BlocksPrefabs/Stairs1x1x1_50
                 BasePartId: f3850a2a-b73a-4459-b5ea-63a5b41c3889
                 InstanceId: abfc93bb-ed75-4932-86a8-b36aeed15ef2
-        -   Entity:
-                Id: b14c069e-11b7-4a68-8a25-cddd3900c24c
-                Name: Gun
+        -   Folder: 
+            Entity:
+                Id: b1452dbc-43dc-43de-9931-57f673ee90de
+                Name: Triggered
                 Components:
-                    a9c79a3bf064f945b8cb4a186967953c: !TransformComponent
-                        Id: 3b9ac7a9-64f0-45f9-b8cb-4a186967953c
-                        Position: {X: 1.85080384E-15, Y: 0.0, Z: 0.0}
+                    51c060a2bbd25632815fab783d153c8d: !TransformComponent
+                        Id: d08c38b3-c63d-45b1-8631-773acc69026e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            321d321c570d3e43a2a274d71d7258f5: 40e9eebd-1003-42bf-b06f-459a6d501c61/1c321d32-0d57-433e-a2a2-74d71d7258f5
-                            3874058b00661242806d2e3f4afd55c1: a9b8bf4f-39f5-4569-88e0-3c68fdbb5be9/8b057438-6600-4212-806d-2e3f4afd55c1
-                    efd695c8917b8a42a02ea11321380575: !ModelComponent
-                        Id: c895d6ef-7b91-428a-a02e-a11321380575
-                        Model: c727b234-64d7-4dfc-ac76-9c6b9db76b05:Models/MachinegunModel
-                        Materials: {}
-                    39b0129ace88504c8b56a15efbeca890: !ModelNodeLinkComponent
-                        Id: 9a12b039-88ce-4c50-8b56-a15efbeca890
-                        Target: null
-                        NodeName: MachinegunBone
+                        Children: {}
+                    0c9441fa4df4c0780f472175d9a9535e: !StaticColliderComponent
+                        Id: c67fb9d0-a6e7-4628-8d17-c17e8a716774
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            238fb53af94f62880d4b10a2b2004510: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 5.0, Y: 5.0, Z: 5.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: b15b7234-4ad8-4471-8be0-108b62879051
                 Name: Wall0x2x5 (3)
@@ -5928,34 +5991,6 @@ Hierarchy:
                                 Size: {X: 1.0, Y: 1.0, Z: 1.0}
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-        -   Entity:
-                Id: b1c994b5-3745-4e14-84b3-543f53faa09d
-                Name: Hands
-                Components:
-                    1fe64d64198b4543bfc6b549158775e4: !TransformComponent
-                        Id: 644de61f-8b19-4345-bfc6-b549158775e4
-                        Position: {X: 0.0, Y: 0.0, Z: -0.0483629256}
-                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            a9c79a3bf064f945b8cb4a186967953c: b14c069e-11b7-4a68-8a25-cddd3900c24c/3b9ac7a9-64f0-45f9-b8cb-4a186967953c
-                            3d9c1cc499067d46a84e5274b42e9de3: f8d11307-4936-4ff1-ac36-fc502e352bbd/c41c9c3d-0699-467d-a84e-5274b42e9de3
-                    67e963ed191c3a429b961323f89766e4: !ModelComponent
-                        Id: ed63e967-1c19-423a-9b96-1323f89766e4
-                        Model: 38269003-6890-4824-8f3b-9066f322e5d3:Models/mannequinHandModel
-                        Materials: {}
-                    e7f9e12d8d35d348b360d0f05ad26c60: !AnimationComponent
-                        Id: 2de1f9e7-358d-48d3-b360-d0f05ad26c60
-                        Animations: {}
-                        PlayingAnimations: {}
-                    71355c7daba4f04b8dc4bb2c21b9cac6: !RapporterV2.Player.AnimationController,RapporterV2.Game
-                        Id: 7d5c3571-a4ab-4bf0-8dc4-bb2c21b9cac6
-                        AnimationComponent: b1c994b5-3745-4e14-84b3-543f53faa09d/2de1f9e7-358d-48d3-b360-d0f05ad26c60
-                        AnimationIdle: 61ac020e-f7b6-4d3a-a858-405a79a18213:Animations/Gun_Idle
-                        AnimationWalk: 65eea331-8860-4180-b238-3263af16c1a2:Animations/Gun_Run
-                        AnimationShoot: c0ec4164-8719-449e-b8bd-7bb395cdeb54:Animations/Gun_Shoot
-                        AnimationReload: d4a9b84c-6267-4939-b373-b23f2afe5f5b:Animations/Gun_Reload
-                        TimeFactor: 1.0
         -   Entity:
                 Id: b317a133-8ef0-427f-a966-61f6f75c687c
                 Name: Wall0x2x2Window (2)
@@ -6674,14 +6709,14 @@ Hierarchy:
                 Components:
                     363dfd50bc1faf4cb198d55bc4959a6c: !TransformComponent
                         Id: 50fd3d36-1fbc-4caf-b198-d55bc4959a6c
-                        Position: {X: 0.0, Y: 0.0, Z: -3.04115772}
+                        Position: {X: 0.0, Y: 0.0, Z: -0.121738508}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Scale: {X: 0.005, Y: 0.005, Z: 0.005}
                         Children: {}
                     3db80bf6f7a64d469c3a78e1338ba404: !SpriteComponent
                         Id: f60bb83d-a6f7-464d-9c3a-78e1338ba404
                         SpriteProvider: !SpriteFromTexture
-                            Texture: 5d838401-559f-4b3c-82b2-b6943156fc6f:Crosshair256
+                            Texture: 7ba15036-bf7f-4944-a8bd-fe28cb28bc17:crosshair
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                         PremultipliedAlpha: false
@@ -7558,24 +7593,6 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             db07bec9b88cb84e9f8d6d3511eb10f2: 141dcea6-59de-4225-b512-5603b3eff1d9/c9be07db-8cb8-4eb8-9f8d-6d3511eb10f2
-        -   Entity:
-                Id: f8d11307-4936-4ff1-ac36-fc502e352bbd
-                Name: MagazineModel
-                Components:
-                    3d9c1cc499067d46a84e5274b42e9de3: !TransformComponent
-                        Id: c41c9c3d-0699-467d-a84e-5274b42e9de3
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    14266246fced0e4486392429f9504708: !ModelComponent
-                        Id: 46622614-edfc-440e-8639-2429f9504708
-                        Model: cbd9db06-7cbf-4017-a656-b9ac4403e941:Models/MagazineModel
-                        Materials: {}
-                    1668c7b09aefcc42a71e4470c1bdf8e9: !ModelNodeLinkComponent
-                        Id: b0c76816-ef9a-42cc-a71e-4470c1bdf8e9
-                        Target: null
-                        NodeName: MagazineBone
         -   Entity:
                 Id: fa34da42-20c1-4e61-b904-e607a57c3be9
                 Name: Wall0x2x2

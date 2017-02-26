@@ -1,0 +1,19 @@
+!Model
+Id: 6f4cc910-4920-45c4-9e97-afd27d5f542e
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Forest Map/UPDATED - Forest Trees.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    ea3e31c3533da725b12ade6625bdcdbd:
+        Name: Re-ForestBark
+        MaterialInstance:
+            Material: 85da63a5-3c22-4133-a52f-6bf0da3fd4f9:0RapporterModel/Re-ForestBark
+    2d8f8d7fadc6fe775d9bb489e6f95d77:
+        Name: Re-ForestLeaves
+        MaterialInstance:
+            Material: 4c60dfd2-cd76-4767-88f9-99dea73036f8:0RapporterModel/Re-ForestLeaves
+Skeleton: 3372decc-97af-4dc8-84d1-903a86bb2780:0RapporterModel/UPDATED - Forest Trees Skeleton
+~SourceHashes:
+    ? 97b9b5b8560c4949c4ca3b9ba18dd1ba~../../../../../../Users/SpykeQ/Google Drive/Facepalm Studios/03. Art/Models/Forest Map/UPDATED - Forest Trees.FBX
+    : fadaa79fcffc6f191a40309c6cf601b6
