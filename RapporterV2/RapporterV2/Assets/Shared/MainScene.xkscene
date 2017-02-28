@@ -2238,7 +2238,7 @@ Hierarchy:
                     3db80bf6f7a64d469c3a78e1338ba404: !SpriteComponent
                         Id: f60bb83d-a6f7-464d-9c3a-78e1338ba404
                         SpriteProvider: !SpriteFromTexture
-                            Texture: 8b7b9e9b-d102-461b-9b9c-1769d6add1ac:testText
+                            Texture: dc14dfc3-e12f-4408-be23-a44de914481c:Textures/testText_2
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                         PremultipliedAlpha: false
@@ -6716,7 +6716,7 @@ Hierarchy:
                     3db80bf6f7a64d469c3a78e1338ba404: !SpriteComponent
                         Id: f60bb83d-a6f7-464d-9c3a-78e1338ba404
                         SpriteProvider: !SpriteFromTexture
-                            Texture: 7ba15036-bf7f-4944-a8bd-fe28cb28bc17:crosshair
+                            Texture: a5465fbe-63be-46d4-a877-132affab4d8f:Textures/crosshair_2
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                         PremultipliedAlpha: false

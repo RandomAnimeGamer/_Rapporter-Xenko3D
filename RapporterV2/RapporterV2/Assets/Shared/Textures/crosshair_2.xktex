@@ -1,0 +1,6 @@
+!Texture
+Id: a5465fbe-63be-46d4-a877-132affab4d8f
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: crosshair.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
