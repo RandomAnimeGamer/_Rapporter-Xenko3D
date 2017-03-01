@@ -2,8 +2,8 @@
 Settings:
     Package/SceneSettings:
         7f47b0a4-3430-4e87-aa6d-11964d81c086:
-            CamPosition: {X: -16.243885, Y: 4.71375561, Z: 15.0605927}
-            CamPitchYaw: {X: -1.07498515, Y: 5.16832542}
+            CamPosition: {X: -13.4593687, Y: 0.7400523, Z: -2.25747681}
+            CamPitchYaw: {X: -0.0183362439, Y: 0.514275849}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -25,6 +25,7 @@ Settings:
             ComponentGizmoSize: 1.0
             FixedSizeGizmos: false
             HiddenGizmos:
+                - Physics
                 - Transform
             NavigationVisible: true
             NavigationWireframes: true

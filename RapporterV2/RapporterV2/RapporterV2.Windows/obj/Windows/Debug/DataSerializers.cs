@@ -8,7 +8,7 @@ using SiliconStudio.Core.Serialization.Serializers;
 using SiliconStudio.DataSerializers;
 
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.6.1", FrameworkDisplayName=".NET Framework 4.6.1")]
+[assembly: System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.6.1", FrameworkDisplayName="")]
 
 [assembly: SiliconStudio.Core.Serialization.Serializers.AssemblySerializerFactory(Type = typeof(SiliconStudio.DataSerializers.RapporterV2SerializerFactory))]
 
