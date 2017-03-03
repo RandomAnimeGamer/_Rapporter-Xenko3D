@@ -1,0 +1,10 @@
+!Animation
+Id: 12f8832f-ce6a-4c47-975e-2cddd2b90698
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: NPC#2 - Walk Anim.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: null
+RootMotion: false
+PreviewModel: null

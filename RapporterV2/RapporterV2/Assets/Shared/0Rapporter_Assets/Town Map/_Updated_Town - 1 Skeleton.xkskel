@@ -1,0 +1,93 @@
+!Skeleton
+Id: 6d5970e0-ad03-4f56-bbf1-f59f8408dada
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: _Updated_Town - 1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    318d91ee5239788d2cf60adf5c0e45d9: {Name: RootNode, Depth: 0}
+    8042a393d66940fb0c6ccbf2412d8c08: {Name: Icosphere.013, Depth: 1}
+    73fba31529015797cb70b4fe6468f1ea: {Name: Icosphere.012, Depth: 1}
+    3c30096b8f782dd7e9e5bb9437c660f0: {Name: Icosphere.011, Depth: 1}
+    fe4534cfdc8b41601b4f5b060a3012e6: {Name: Icosphere.010, Depth: 1}
+    6d4873c88ab2d02d933e5385b15e8f9b: {Name: Icosphere.009, Depth: 1}
+    b71122785d692592c1336cb80ff6a3b6: {Name: Icosphere.006, Depth: 1}
+    63848592401b0dc6a54a9a8414c1bb6e: {Name: Icosphere.005, Depth: 1}
+    d123969d43a4c12d07253c545c2b01f4: {Name: Icosphere.004, Depth: 1}
+    2d9c54dc064c848c07a59a67d6c73bc7: {Name: Icosphere.003, Depth: 1}
+    041db040e7e3cf912002d23af66eaf45: {Name: Icosphere.002, Depth: 1}
+    2f9c09562c0415e89ad730b9529d53e8: {Name: Icosphere.001, Depth: 1}
+    497a18b12add3e18959e6ac52403d2cb: {Name: Icosphere, Depth: 1}
+    ccca2d07450ba10f1ca404a4f1e180e2: {Name: Tree2.021, Depth: 1}
+    a53f5662b635a04451471247a8364d95: {Name: Tree2.020, Depth: 1}
+    594c5e99931f9fb60ca1b9a8bc303d24: {Name: Rock2.008, Depth: 1}
+    091d8d69466783feacb56ff4b38646c1: {Name: Rock2.007, Depth: 1}
+    380d2d53ac5a8341eb0c33e2e17b0340: {Name: Rock2.006, Depth: 1}
+    c88f653f33350385ddc2d95a67001809: {Name: Rock2.005, Depth: 1}
+    fad494bf94a76c3f49900bf88c27bdc0: {Name: Rock2.004, Depth: 1}
+    0056ad7e149ddaea093ccd95b5451a8e: {Name: Rock2.003, Depth: 1}
+    d05b5bf3c2852ceb50fb3d17065983f3: {Name: Rock2.002, Depth: 1}
+    b7b9bac3a5e97a7e620084b117320524: {Name: Rock2.001, Depth: 1}
+    79a816d7f211b77c6d7cb4f58b1f2eb2: {Name: Rock2, Depth: 1}
+    ffd683a86234500582b87e0ad1f8d8b0: {Name: Rock1.023, Depth: 1}
+    3dfdc4430e3b4d13a74c126ba19bd1d1: {Name: Rock1.022, Depth: 1}
+    89280e3f6d7808a9d2c0a059c788bc8a: {Name: Rock1.021, Depth: 1}
+    bc9d44c41cd6a8b6ef4bcdc3edab046f: {Name: Rock1.020, Depth: 1}
+    c7e6c99e0efe31875f0b5f946daaafdc: {Name: Rock1.019, Depth: 1}
+    b43d05bb66e97e5284e9025d63e0839b: {Name: Rock1.018, Depth: 1}
+    975ad733ede0d30881ced926420cff08: {Name: Rock1.017, Depth: 1}
+    c4215606ab716ab73d9972a00bb768a3: {Name: Rock1.016, Depth: 1}
+    5e9c16c7b1292d56d736a1b2ae6ab106: {Name: Rock1.015, Depth: 1}
+    34d03bb869cd9d5bf96d8b534b759b18: {Name: Rock1.014, Depth: 1}
+    98cca2e5bc64aaac5b8c4acf360186be: {Name: Rock1.013, Depth: 1}
+    a1792d3665187f7fc4e007538ce38192: {Name: Rock1.012, Depth: 1}
+    eb71174e3e93be6c2e6f81828568916e: {Name: Rock1.011, Depth: 1}
+    2d6ba66f2e1dd032ecbcc76e5c008e5e: {Name: Rock1.010, Depth: 1}
+    df8a5e9728be4e630373f868a5be1073: {Name: Rock1.009, Depth: 1}
+    ab497f723bdfe3046b2b2526193a6059: {Name: Rock1.008, Depth: 1}
+    38fa8e21db1548337ee9ca76b5426a43: {Name: Rock1.007, Depth: 1}
+    49d3887b62d3cf84fec2650e3bcf5f37: {Name: Rock1.006, Depth: 1}
+    fd18c79a8cb29877c910e83f4d21d5fe: {Name: Rock1.005, Depth: 1}
+    f5574fb989c5b45272cdbd29c8a57e79: {Name: Rock1.004, Depth: 1}
+    5969513e26e76d78dce125e33f52cdfc: {Name: Rock1.003, Depth: 1}
+    6d095b733bb78bf47c90bc5eb4147c9f: {Name: Rock1.002, Depth: 1}
+    802165780a36081e19931d6c76266303: {Name: Rock1.001, Depth: 1}
+    d962244df15782bef46a21c03fe56def: {Name: Rock1, Depth: 1}
+    004e9b045ec20351b5a750e59066ddac: {Name: Tree2.019, Depth: 1}
+    6091b01f2dd3d8c6a91a0717ecdceff4: {Name: Tree2.018, Depth: 1}
+    ab140c0c84439c65d0d79be531757e25: {Name: Tree2.017, Depth: 1}
+    169796e70f156aea130ccec9d56dad46: {Name: Tree2.016, Depth: 1}
+    ccdef26bade394d38c6ce8c541be168b: {Name: Tree2.015, Depth: 1}
+    49e57c49929559c33798c3362349b1be: {Name: Tree2.014, Depth: 1}
+    a608e577c47e71ba814097c285f01a62: {Name: Tree2.013, Depth: 1}
+    35d192986c0ba366b54d69535db1b1f8: {Name: Tree2.012, Depth: 1}
+    08699e83525ae6d3a1661a315dc8e929: {Name: Tree2.011, Depth: 1}
+    227aa82a9ea40adeb2515aed0835d1e7: {Name: Tree2.010, Depth: 1}
+    49654ff6e969a1003e7921c9889cd14c: {Name: Tree2.009, Depth: 1}
+    1e44145d19839c03ef667d6dfd475dd8: {Name: Tree2.008, Depth: 1}
+    f798facdfa29968dd32b808f289e0c28: {Name: Tree2.007, Depth: 1}
+    667052239e5e9e83b94e23e4f7b9b077: {Name: Tree2.006, Depth: 1}
+    6d3bcd6505f06c44daa641f0f25ab80a: {Name: Tree2.005, Depth: 1}
+    1dc44a9231815a007e84a5856f222167: {Name: Tree2.004, Depth: 1}
+    3748d38b66ec530a33e034deaa86ce68: {Name: Tree2.003, Depth: 1}
+    1437948873951fcf02a5cca090413510: {Name: Tree2.002, Depth: 1}
+    8992ed7c632be49d2610d599d85d72f8: {Name: Tree2.001, Depth: 1}
+    01ce745c19e28ec5d08ed8184112251d: {Name: Tree2, Depth: 1}
+    2e74fec1051938c22d0432a99bdc93c6: {Name: House2.006, Depth: 1}
+    8a69233f4a5ab99eb9a375d2a2c7c9b5: {Name: House1.006, Depth: 1}
+    2692305f9380c7b09c669760d168f557: {Name: House1.005, Depth: 1}
+    88a889585e6b923982452c993c35b211: {Name: House2.005, Depth: 1}
+    8efeb2f692b78872cb69ab1791e4ce39: {Name: House2.004, Depth: 1}
+    5e422a6d6a3831d33d022d165d9f7061: {Name: House1.004, Depth: 1}
+    1adbf5821f92bc9b131b3c4fa7236f9a: {Name: House2.003, Depth: 1}
+    fc5c1f0a0034fa203c159343ea11391b: {Name: House1.003, Depth: 1}
+    de60aa814a3beab90975781b03660cfa: {Name: House2.002, Depth: 1}
+    2728de47c884d40a8f3c72c2bacc08fb: {Name: House1.002, Depth: 1}
+    53a22a10086fea94498f276ab82b3f61: {Name: House2.001, Depth: 1}
+    dba740cfec4d41232d20b473f0037005: {Name: House1.001, Depth: 1}
+    e41b9fac7e6885e420024de17bc145fa: {Name: House2, Depth: 1}
+    bc6b18f5850a415581ed01cff2bef5b0: {Name: House1, Depth: 1}
+    6142c5a79cfbbf3a991658da48b6bf56: {Name: Lamp, Depth: 1}
+    983b7f88c3dc63fca6526f38d4e8e05b: {Name: Camera, Depth: 1}
+~SourceHashes:
+    ed39c3875a0de575c45b53a1c4840a88~_Updated_Town - 1.fbx: bee5efe72d4a03671bb171edaadc3537

@@ -1,0 +1,22 @@
+!Model
+Id: fadc7dca-97e4-45f1-b08f-ee342f456116
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: SimpleSword.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    7943502cb17d3d87d608981ea247b72d:
+        Name: Metal
+        MaterialInstance:
+            Material: 8b8cdeee-135c-47c7-a4cd-225aef452a8b:0Rapporter_Assets/Metal_2
+    ac5f78bbe9f4eca3e114edc4a88961f2:
+        Name: Gold
+        MaterialInstance:
+            Material: f1e37e8c-c4f8-41d0-a154-8d6d629176eb:0Rapporter_Assets/Gold_2
+    9b0b84814e20d515a3c39a36b4117d84:
+        Name: Handle
+        MaterialInstance:
+            Material: 5d75950a-3c05-4338-8b24-8ea6d14b2213:0Rapporter_Assets/Handle_2
+Skeleton: dc83d19f-24a3-4e9d-8b85-0976132eb852:0Rapporter_Assets/SimpleSword Skeleton
+~SourceHashes:
+    a71b345d8585f68a91b06c12bb60d9da~SimpleSword.fbx: 48bba2f6705e6af1680053206ec590ef

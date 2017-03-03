@@ -1,0 +1,22 @@
+!Model
+Id: c8ec99d9-9f41-43dd-9cf4-acbaedea9eaf
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Demonic Deer - With Crystals.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    cc74ce8f88ae21fc86da6b1a532e8764:
+        Name: OrangeCrystal
+        MaterialInstance:
+            Material: 36560033-ab76-497c-ab01-09e3376f5cd3:0Rapporter_Assets/Bosses/Red Crystals
+    6042ad1a74ed400a971cf192c15654cd:
+        Name: DeerBody
+        MaterialInstance:
+            Material: e38cd3bc-0aa8-44fd-9cdd-cd744c67093b:0Rapporter_Assets/Bosses/DeerBody
+    b57dee1acf59ad18f012aec18ba53f12:
+        Name: Horns
+        MaterialInstance:
+            Material: 2dc51a00-5e50-4183-8c8c-5988089c97cf:0Rapporter_Assets/Bosses/Horns
+Skeleton: 33a8304f-b10e-4c73-9c8c-b6a7e10b489f:0Rapporter_Assets/Bosses/Demonic Deer - With Crystals Skeleton
+~SourceHashes:
+    8374fbb494c841d20af4c050b551e50c~Demonic Deer - With Crystals.fbx: 7459121bb0dc43161fc6ed7233afbceb

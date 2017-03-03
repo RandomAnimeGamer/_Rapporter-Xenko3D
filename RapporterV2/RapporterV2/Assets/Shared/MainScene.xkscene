@@ -134,8 +134,6 @@ Hierarchy:
         - 1c16ce32-59b1-4691-9465-974111982f67
         - 25bc5b70-bc98-4f51-b245-56c77af74122
         - 0ceaf263-3374-437f-9232-ef205569f93d
-        - 6ae0b824-4e8f-456f-89a8-329542af862e
-        - 903669e6-6a32-4905-9d1b-e89884bb12ae
     Parts:
         -   Entity:
                 Id: 0157316b-840c-4bb8-aed8-aaeee66c7b90
@@ -2224,25 +2222,6 @@ Hierarchy:
                 BasePartAsset: 63b8800d-ffaa-464a-af6e-408994a0e390:BlocksPrefabs/Wall0x2x5
                 BasePartId: fbdff817-df62-4a56-83f8-19a9d12589b8
                 InstanceId: 74348613-3aba-4a51-b0a7-444823069e62
-        -   Folder: 
-            Entity:
-                Id: 40521b8f-5ebe-4241-b8a4-2d4456865f08
-                Name: testText
-                Components:
-                    363dfd50bc1faf4cb198d55bc4959a6c: !TransformComponent
-                        Id: 50fd3d36-1fbc-4caf-b198-d55bc4959a6c
-                        Position: {X: 2.837469, Y: 5.619957, Z: -3.04115772}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    3db80bf6f7a64d469c3a78e1338ba404: !SpriteComponent
-                        Id: f60bb83d-a6f7-464d-9c3a-78e1338ba404
-                        SpriteProvider: !SpriteFromTexture
-                            Texture: dc14dfc3-e12f-4408-be23-a44de914481c:Textures/testText_2
-                            Center: {X: 0.0, Y: 0.0}
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                        PremultipliedAlpha: false
-                        IgnoreDepth: true
         -   Entity:
                 Id: 4151d9bb-8db5-4145-8329-24eecba83e56
                 Name: Stairs1x1x1_50
@@ -3806,35 +3785,6 @@ Hierarchy:
                 BasePartId: fbdff817-df62-4a56-83f8-19a9d12589b8
                 InstanceId: 11766c32-141c-4969-a136-8840fdc9f767
         -   Entity:
-                Id: 6ae0b824-4e8f-456f-89a8-329542af862e
-                Name: Crystals w Simple Material
-                Components:
-                    2430d8a6d8e6ccb1cb96c453dce6a06b: !TransformComponent
-                        Id: 237174a2-15cd-4747-ac0d-f66439689b99
-                        Position: {X: -4.90947342, Y: 0.0, Z: 3.53904438}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    f6a1b0bbf98e9513f1efd77412d7457c: !ModelComponent
-                        Id: 94f84863-6cb1-4f8c-b2fa-c23235752a4e
-                        Model: d53d916e-8f56-4d61-9eb0-e3fb53dc72c1:0RapporterModel/Crystals w Simple Material
-                        Materials: {}
-                    db512fe18460a9d9c0b6c8bf5d196ed2: !StaticColliderComponent
-                        Id: 8ef1ae77-98ec-480a-b46e-1ec4a7f3b596
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        ColliderShapes:
-                            fba3909f103bd6f30a72462a684237cd: !BoxColliderShapeDesc
-                                Is2D: false
-                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-        -   Entity:
                 Id: 6b2b51ee-f746-45ba-8e54-a72c9dbb175c
                 Name: Wall0x2x2
                 Components:
@@ -4777,35 +4727,6 @@ Hierarchy:
                         Children:
                             db07bec9b88cb84e9f8d6d3511eb10f2: e5d56ea0-2edd-4eb2-9292-e0ca06ed3cdc/c9be07db-8cb8-4eb8-9f8d-6d3511eb10f2
         -   Entity:
-                Id: 903669e6-6a32-4905-9d1b-e89884bb12ae
-                Name: Fairy NPC
-                Components:
-                    bbfd2677022d1f6b2b518a015818438d: !TransformComponent
-                        Id: 3e822b97-abdd-4dd3-af57-63a7ee33e7ff
-                        Position: {X: -14.8152819, Y: 0.31036222, Z: -4.161766}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
-                        Children:
-                            b50e9e42601ac911518e5fd86558878a: 40521b8f-5ebe-4241-b8a4-2d4456865f08/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
-                            5484720ebf891558d709861cf18e24aa: b1452dbc-43dc-43de-9931-57f673ee90de/d08c38b3-c63d-45b1-8631-773acc69026e
-                    378dd48fc0d29dc5cf29418bcab481b3: !ModelComponent
-                        Id: 625d6c66-7878-4fbc-9532-fd846d1d98f4
-                        Model: 3a30768c-9e53-4854-97e6-bb790c5bd289:0RapporterModel/Fairy NPC
-                        Materials: {}
-                    ce72966bcc44d45ead03c756d3c218b1: !StaticColliderComponent
-                        Id: 85647365-2e14-4644-a8f4-1e3e3cc3d1ce
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        ColliderShapes:
-                            23ec82893571daf29d2bcf285114afbb: !SphereColliderShapeDesc
-                                Is2D: false
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-        -   Entity:
                 Id: 9066033d-cd2d-4aef-884f-60692f7ab751
                 Name: Stairs1x1x2
                 Components:
@@ -5359,7 +5280,7 @@ Hierarchy:
                         Children: {}
                     850dd6532f476845aca2a1d9af86ec4a: !ModelComponent
                         Id: 1e7bae7e-cebd-404b-801d-ce0d24252d50
-                        Model: ed226bcc-cc16-4179-b774-9083b0069a61:0RapporterModel/SimpleSword
+                        Model: fadc7dca-97e4-45f1-b08f-ee342f456116:0Rapporter_Assets/SimpleSword
                         Materials: {}
                     aa50dfe44a0d6008baf24342e1c4e8ce: !RigidbodyComponent
                         Id: 053eac94-bfcf-4ad4-acae-21059ff620b1
@@ -5917,32 +5838,6 @@ Hierarchy:
                 BasePartAsset: efbc4d71-cf4f-40ab-90fe-c0d5e1ec6a66:BlocksPrefabs/Stairs1x1x1_50
                 BasePartId: f3850a2a-b73a-4459-b5ea-63a5b41c3889
                 InstanceId: abfc93bb-ed75-4932-86a8-b36aeed15ef2
-        -   Folder: 
-            Entity:
-                Id: b1452dbc-43dc-43de-9931-57f673ee90de
-                Name: Triggered
-                Components:
-                    51c060a2bbd25632815fab783d153c8d: !TransformComponent
-                        Id: d08c38b3-c63d-45b1-8631-773acc69026e
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    0c9441fa4df4c0780f472175d9a9535e: !StaticColliderComponent
-                        Id: c67fb9d0-a6e7-4628-8d17-c17e8a716774
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: true
-                        ColliderShapes:
-                            238fb53af94f62880d4b10a2b2004510: !BoxColliderShapeDesc
-                                Is2D: false
-                                Size: {X: 5.0, Y: 5.0, Z: 5.0}
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: b15b7234-4ad8-4471-8be0-108b62879051
                 Name: Wall0x2x5 (3)

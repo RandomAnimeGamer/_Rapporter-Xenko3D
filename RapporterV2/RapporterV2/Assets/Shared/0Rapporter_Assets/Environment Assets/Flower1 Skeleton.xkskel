@@ -1,0 +1,13 @@
+!Skeleton
+Id: 4eabbb25-ae06-4ca9-9f4f-d34fb67170ec
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Flower1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    c5b6cbe9113731610e1a9f9e09164aac: {Name: RootNode, Depth: 0}
+    99a99255cfcfa3cb2943041e515827ff: {Name: Cube, Depth: 1}
+    6b8999674e3aa04134db69a2085d4aa1: {Name: Lamp, Depth: 1}
+    e1abff10a81efa2c4b8a6e95a32df1d5: {Name: Camera, Depth: 1}
+~SourceHashes:
+    e93c86a1017df514db1e0927ec7c38ad~Flower1.fbx: 892da1f95cf417aad9d2eaf4832cb141

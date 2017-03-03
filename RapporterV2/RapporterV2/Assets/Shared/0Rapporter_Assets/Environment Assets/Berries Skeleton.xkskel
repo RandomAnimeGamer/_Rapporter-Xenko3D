@@ -1,0 +1,43 @@
+!Skeleton
+Id: 3d7d0247-53c7-4a76-97a6-36b038d199dd
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Berries.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    180018621921c3f8992e64152f098221: {Name: RootNode, Depth: 0}
+    a2a2a23d5cc31e054273139fefc054df: {Name: Berries, Depth: 1}
+    27c61b7dbe0e9ec8e60291d40b89f3f3: {Name: BerryGroup, Depth: 2}
+    913f5f7f82e50ef36334d073c934c5d0: {Name: Berry1, Depth: 3}
+    e800781cd1249ad6cdf8ce8d5cbed4b7: {Name: Berry2, Depth: 3}
+    80c9e59dfe37212db5afffb619f508d4: {Name: Berry3, Depth: 3}
+    14489d71572b93addc1012f3a954e975: {Name: Berry4, Depth: 3}
+    ce905cd9e14ac468ce2814c1fc628e78: {Name: Berry5, Depth: 3}
+    0da8ff1337a23611aab487dbeb13bd70: {Name: Berry006, Depth: 3}
+    d759e13096bb5165745ab22ffd608d0d: {Name: Berry007, Depth: 3}
+    e5957cbfe214f982302c5c0d00e5b997: {Name: Berry008, Depth: 3}
+    f05bd0feb79684f62ee80280143092e2: {Name: Berry009, Depth: 3}
+    084b63563a57cdf550ec401ae9045ae7: {Name: Berry010, Depth: 3}
+    c1b8a1f118b1d3fe2fd3e04df430af2b: {Name: Berry011, Depth: 3}
+    efb6649e6fe912223849b5df5e00a5da: {Name: Berry012, Depth: 3}
+    ddb2af50abcf0b651367407289590afd: {Name: Berry013, Depth: 3}
+    4c91693dfa6f5dc448293244e7e09659: {Name: Berry014, Depth: 3}
+    eb5c53a9c64cb59af4c74d628a6dbfb8: {Name: Berry015, Depth: 3}
+    052e663a8cb1014c7980a1408f917d8a: {Name: Berry016, Depth: 3}
+    4ace7dfb1f6097086aa7b22b63020cd7: {Name: Berry017, Depth: 3}
+    fec9e6d38a1762642b8651e8c121ee38: {Name: Berry018, Depth: 3}
+    d2007ce1b460cb0d944257da2e40431d: {Name: Berry019, Depth: 3}
+    bbfa9e9a09af0a66998dfcf3c6b2272c: {Name: Berry020, Depth: 3}
+    aa8536e438da6eeefa11e416a6308e24: {Name: Berry021, Depth: 3}
+    b31a8a0291a66951267203afc01a357a: {Name: Berry022, Depth: 3}
+    389645ac130152bc67dc61f9dd637595: {Name: Berry023, Depth: 3}
+    9242e33aa54d7ba71c3aebc1fd213191: {Name: Berry024, Depth: 3}
+    2ff8e207bdd985657722edcd6ec22264: {Name: Berry025, Depth: 3}
+    f9ce26a3e99ddd049d25b09ce1c9811b: {Name: Berry026, Depth: 3}
+    3ba729c8e1e83ce1effe05ed5b5fee25: {Name: Berry027, Depth: 3}
+    eb645891264a50e752e9370c71285cf9: {Name: Berry028, Depth: 3}
+    3cc8c34794959444fd262faa39b1425b: {Name: Berry029, Depth: 3}
+    41a59514f3091e685c6ad6f3ddd31fb1: {Name: Berry030, Depth: 3}
+    632685a1e75a689b5f17c2d5a304fdee: {Name: BerryStem, Depth: 2}
+~SourceHashes:
+    136cf69eb9b5a23b55f42427e8b75853~Berries.FBX: 2402fed7f32d93f3dfaa41f41f8f51eb

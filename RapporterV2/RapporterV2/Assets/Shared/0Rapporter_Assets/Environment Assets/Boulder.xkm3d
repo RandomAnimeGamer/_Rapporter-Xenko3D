@@ -1,0 +1,14 @@
+!Model
+Id: efce8264-2a18-4c8d-8df2-db73623ad62f
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Boulder.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4e95e504865f3b13bad75911c61dba7c:
+        Name: 07-Default
+        MaterialInstance:
+            Material: null
+Skeleton: 039f07ef-a03a-483f-9cc7-5e755dc8c12f:0Rapporter_Assets/Environment Assets/Boulder Skeleton
+~SourceHashes:
+    38f3ebf00e60a05be9582b37f74d2dce~Boulder.FBX: 3d3743ccfa17f4de7179a611a299e474

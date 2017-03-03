@@ -1,0 +1,13 @@
+!Skeleton
+Id: dc83d19f-24a3-4e9d-8b85-0976132eb852
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: SimpleSword.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    081f7ede15235ed66ccd72ca38c9e97d: {Name: RootNode, Depth: 0}
+    ce68085a84ccdbeaf0ae294cc585e299: {Name: Cylinder, Depth: 1}
+    18230240d7452afcb8a17e0ce023aa3b: {Name: Lamp, Depth: 1}
+    241fa740527f64cd631cc7eaac2ee411: {Name: Camera, Depth: 1}
+~SourceHashes:
+    f630bf152714d6b9646618f336352e0f~SimpleSword.fbx: 48bba2f6705e6af1680053206ec590ef

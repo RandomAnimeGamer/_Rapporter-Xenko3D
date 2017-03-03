@@ -1,0 +1,27 @@
+!MaterialAsset
+Id: d282bea6-0e74-47c1-9235-55f3a867ee97
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: aecd604a-9b9a-458a-9fb7-002f79ffbd05:0Rapporter_Assets/Town Map/Updated Magic Circle
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Emissive: !MaterialEmissiveMapFeature
+        EmissiveMap: !ComputeTextureColor
+            Texture: aecd604a-9b9a-458a-9fb7-002f79ffbd05:0Rapporter_Assets/Town Map/Updated Magic Circle
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+        Intensity: !ComputeFloat
+            Value: 200.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

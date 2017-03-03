@@ -1,0 +1,13 @@
+!Skeleton
+Id: db755e99-6362-4314-97b4-58bacb12dd20
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Rock1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    7dedae5ee27477cfa44776beb57f7f26: {Name: RootNode, Depth: 0}
+    72324fd663535290fd6f64cb627cb955: {Name: Rock1, Depth: 1}
+    3983f23b6464ac40584f0b75cf9a3de6: {Name: Lamp, Depth: 1}
+    fb7e9cc845059a54e8e3eb70f05f1b84: {Name: Camera, Depth: 1}
+~SourceHashes:
+    da29bd0583a8ad81a4dc38c90b643850~Rock1.fbx: 9877c4efbfbf590fbbbc97c37026be60

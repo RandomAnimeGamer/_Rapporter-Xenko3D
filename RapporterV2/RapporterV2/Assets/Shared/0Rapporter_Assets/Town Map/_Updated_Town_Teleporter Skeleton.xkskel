@@ -1,0 +1,16 @@
+!Skeleton
+Id: 14c8c0e2-4e50-4acb-a039-aae3ddb64e0a
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: _Updated_Town_Teleporter.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    1b87394491fb993d9809f9605b97aef0: {Name: RootNode, Depth: 0}
+    2d74b34f4d44d4a8f9437eedc7945656: {Name: Cylinder, Depth: 1}
+    54f0f3c0fea936b4cb22c737733a4953: {Name: Sun, Depth: 1}
+    6bed4f34f3c60a10207623043745249c: {Name: Circle, Depth: 1}
+    97429b4b15e7256f49d09b65d6adcc66: {Name: Camera.001, Depth: 1}
+    bbb71f9ca18911e9a8b464b542e5839d: {Name: Lamp, Depth: 1}
+    e9420bb3baceba5ff6a5af3b8508d3ec: {Name: Camera, Depth: 1}
+~SourceHashes:
+    bddb6364ef5b67832f67997f3161c7ff~_Updated_Town_Teleporter.FBX: 47cc23a9be23c5fa9fa7951d861cda75

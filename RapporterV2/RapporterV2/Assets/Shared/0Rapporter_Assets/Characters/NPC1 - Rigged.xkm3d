@@ -1,0 +1,46 @@
+!Model
+Id: a4ccee5f-3d9a-44aa-a2a2-62a22ecd786b
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: NPC1 - Rigged.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    febc28ff5f4b8afed1d7b872632b5896:
+        Name: NPC1Skin
+        MaterialInstance:
+            Material: 948bb294-163c-4fe2-8bf8-02ab68a4d2b2:0Rapporter_Assets/Characters/NPC1Skin
+    133198026ee8785101ff618677853292:
+        Name: NPC1Boots
+        MaterialInstance:
+            Material: bf18544b-8617-43e9-a2f3-8155d61a60e0:0Rapporter_Assets/Characters/NPC1Boots
+    2d8339531b166a863e560fd518a05d47:
+        Name: NPC1Pants
+        MaterialInstance:
+            Material: 37ba98e3-bb48-4728-9553-b03c23cfd77d:0Rapporter_Assets/Characters/NPC1Pants
+    3cf411f700d426cc2328493a63d4b2d9:
+        Name: NPC1Belt
+        MaterialInstance:
+            Material: b3193285-cd5a-4c8f-8313-b6813665cd4c:0Rapporter_Assets/Characters/NPC1Belt
+    810e4467ecb3c2f714d8c7de95222b71:
+        Name: NPC1DarkerBelt
+        MaterialInstance:
+            Material: 24f6d068-83fa-4dfd-b694-7f3835d427be:0Rapporter_Assets/Characters/NPC1DarkerBelt
+    f2767b47ff94353a1f98f31bad015f50:
+        Name: NPC1Shirt
+        MaterialInstance:
+            Material: b051918c-c8a8-4c76-aa73-b574b04e0b0e:0Rapporter_Assets/Characters/NPC1Shirt
+    be56050f3e90af9167ea89e40509096c:
+        Name: NPC1DarkerShirt
+        MaterialInstance:
+            Material: 32d0ffc1-f4c1-4e02-98fd-628af4c04e3f:0Rapporter_Assets/Characters/NPC1DarkerShirt
+    2a054acedae440128f6a558066d77a6c:
+        Name: NPC1HairColor
+        MaterialInstance:
+            Material: 53de8fa3-2bda-4e68-96b7-f70f41e81085:0Rapporter_Assets/Characters/NPC1HairColor
+    3eda911c2e10315b3d3aa215e0d3d15f:
+        Name: NPC1HairBand
+        MaterialInstance:
+            Material: 26175694-525e-4b51-a8db-57435c920036:0Rapporter_Assets/Characters/NPC1HairBand
+Skeleton: 96201797-a98f-4614-8494-6b96ecfe872d:0Rapporter_Assets/Characters/NPC1 - Rigged Skeleton
+~SourceHashes:
+    aef68c51821f644e1dcf64c5d88b4c61~NPC1 - Rigged.fbx: 2b1777c1f8ace60d470f333180e06b2b

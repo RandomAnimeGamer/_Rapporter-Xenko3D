@@ -1,0 +1,46 @@
+!Model
+Id: 082b84f8-1b53-4b3a-8100-920dbe3853b0
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Flower1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    a37a341a414cf36bf706aca672a884dd:
+        Name: Stem1
+        MaterialInstance:
+            Material: c38992f2-9052-4132-bf87-684200ed83ef:0Rapporter_Assets/Environment Assets/Stem1
+    22cd8b8962aa050c17943cc94bfb0ca2:
+        Name: Stem2
+        MaterialInstance:
+            Material: b1a43534-c909-4177-b4f2-32d48d866cd5:0Rapporter_Assets/Environment Assets/Stem2
+    7608ea85c88294d4048efec12e0535d5:
+        Name: Flower0
+        MaterialInstance:
+            Material: 7a8a64e7-6893-4364-b61e-a44473b95917:0Rapporter_Assets/Environment Assets/Flower0
+    b97c45d5e1860fc413857ad1a4c57fae:
+        Name: Flower1
+        MaterialInstance:
+            Material: 8c1bcb70-875b-44c1-8b2b-5325e1a4179f:0Rapporter_Assets/Environment Assets/Flower1
+    003859f0729fb4b34ded770869ef4aad:
+        Name: Flower2
+        MaterialInstance:
+            Material: cfafbdb3-a302-43b7-b3b9-caa47ee8b0b5:0Rapporter_Assets/Environment Assets/Flower2
+    ac71f888431030afab1eaef519ba6375:
+        Name: Flower3
+        MaterialInstance:
+            Material: 2c41ff98-9081-4220-9fd3-13386ccf6808:0Rapporter_Assets/Environment Assets/Flower3
+    38f3f6b3bcb188add5099c69156e56a0:
+        Name: Flower4
+        MaterialInstance:
+            Material: cfbde2ea-cf8a-4404-a454-f128ce3d3770:0Rapporter_Assets/Environment Assets/Flower4
+    9777f7cf2d60afb24db186354b6e2d10:
+        Name: Inside
+        MaterialInstance:
+            Material: e273bd33-d279-44f5-a17d-079fee934f3b:0Rapporter_Assets/Environment Assets/Inside
+    409b9ff061a1cfc221a41ebb42fefaaa:
+        Name: Material.001
+        MaterialInstance:
+            Material: 5922b361-8996-4d44-b88c-75f6ce4ce59f:0Rapporter_Assets/Environment Assets/Material.001
+Skeleton: 4eabbb25-ae06-4ca9-9f4f-d34fb67170ec:0Rapporter_Assets/Environment Assets/Flower1 Skeleton
+~SourceHashes:
+    b57d1cf7f22924ac5c16bc6162bceecc~Flower1.fbx: 892da1f95cf417aad9d2eaf4832cb141

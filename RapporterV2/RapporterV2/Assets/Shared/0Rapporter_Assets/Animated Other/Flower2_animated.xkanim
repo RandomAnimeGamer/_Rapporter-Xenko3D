@@ -1,0 +1,10 @@
+!Animation
+Id: f6fdccbc-ee20-4e8a-a113-4a57dfee29bc
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Flower2_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: 6eb627e2-0af4-4286-8e0e-d926ec3dd48e:0Rapporter_Assets/Environment Assets/Flower2 Skeleton
+RootMotion: false
+PreviewModel: null

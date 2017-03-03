@@ -1,0 +1,10 @@
+!Animation
+Id: 1411763d-5614-4432-8e4a-fe1eb59e8ae3
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: tree1Bounce_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: 35b4ede5-86a0-4b3d-a0a8-3bc89f6d2158:0Rapporter_Assets/Environment Assets/Tree1 Skeleton
+RootMotion: false
+PreviewModel: null

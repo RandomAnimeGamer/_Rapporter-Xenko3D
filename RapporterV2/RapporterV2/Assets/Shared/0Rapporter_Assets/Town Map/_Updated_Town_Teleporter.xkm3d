@@ -1,0 +1,18 @@
+!Model
+Id: d5a0b7c9-6eeb-47ec-ade5-46a1414fd5a5
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: _Updated_Town_Teleporter.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    f82aa72aad3a51b48124bfb6d5c3d883:
+        Name: 02-Default
+        MaterialInstance:
+            Material: e7550199-64bf-49bf-8440-087c0a173bac:0Rapporter_Assets/Town Map/02-Default
+    2cfaa4c1f3893f1c021708e1d7248d28:
+        Name: 01-Default
+        MaterialInstance:
+            Material: d282bea6-0e74-47c1-9235-55f3a867ee97:0Rapporter_Assets/Town Map/01-Default
+Skeleton: 14c8c0e2-4e50-4acb-a039-aae3ddb64e0a:0Rapporter_Assets/Town Map/_Updated_Town_Teleporter Skeleton
+~SourceHashes:
+    a38c963fe3c1ab73c3d99231018dd31a~_Updated_Town_Teleporter.FBX: 47cc23a9be23c5fa9fa7951d861cda75

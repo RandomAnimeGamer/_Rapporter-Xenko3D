@@ -1,0 +1,50 @@
+!Model
+Id: 97d8a782-ec75-4a5c-b906-f30e2b81ef84
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Town House.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    100cbb3527864e89bb5fd8185e76917d:
+        Name: WindowBars
+        MaterialInstance:
+            Material: ff626a2b-7f3e-4cc5-a161-217be4d90a86:0Rapporter_Assets/Town Map/WindowBars_2
+    8eb93afa7aa046baa19d2b3048f904f4:
+        Name: Window
+        MaterialInstance:
+            Material: 6ce964fd-dd7e-43d7-b88b-107a9ff83d49:0Rapporter_Assets/Town Map/Window_2
+    ea4fe2d19190a91b0b17607a7254b713:
+        Name: WindowOuter
+        MaterialInstance:
+            Material: 92e33369-423d-4526-8dfd-755528d7b67b:0Rapporter_Assets/Town Map/WindowOuter_2
+    5ae038bf4e6dfed60712fb689e0be980:
+        Name: DoorDetail
+        MaterialInstance:
+            Material: 49b18ef1-9446-43ce-98f0-8aa4d304fa33:0Rapporter_Assets/Town Map/DoorDetail_2
+    cbfd967eb22ecd8b58f1646876476558:
+        Name: DoorFrame
+        MaterialInstance:
+            Material: 116e7827-c7d6-4aa3-b7e0-9ab2a17abacd:0Rapporter_Assets/Town Map/DoorFrame_2
+    d31103eb47b220d571c5d33d8aaaa85e:
+        Name: Door
+        MaterialInstance:
+            Material: b477876c-58e2-4e53-b577-5ee9eb284795:0Rapporter_Assets/Town Map/Door_2
+    c76c47d7a6472f9e4f506767fe9529b2:
+        Name: UnderRoof
+        MaterialInstance:
+            Material: 5a8bd2b6-3b46-4d1b-a1e1-b8e112457197:0Rapporter_Assets/Town Map/UnderRoof_2
+    a59944c803392fc4eef15a7ecd96e2f1:
+        Name: RoofDetail
+        MaterialInstance:
+            Material: 59970ff6-7390-4a83-87c5-198eb6c333c4:0Rapporter_Assets/Town Map/RoofDetail_2
+    628d65466a42f6ff6c3baab31785b39a:
+        Name: House
+        MaterialInstance:
+            Material: c16d656c-8e30-4a10-a4d6-2e395bb70ec7:0Rapporter_Assets/Town Map/House_2
+    4fd470b0645783a647630eb8cedbbba1:
+        Name: Roof
+        MaterialInstance:
+            Material: be76b533-e2bf-4a34-b722-5ffc09687886:0Rapporter_Assets/Town Map/Roof_2
+Skeleton: 125b0cc9-f6b2-4c3b-a8ca-ccc31d04154c:0Rapporter_Assets/Town Map/Town House Skeleton
+~SourceHashes:
+    869e8344238065404eb09b49015bef51~Town House.fbx: 85b2c3eba1cb2c4d8fbc9a1ecdf66e33

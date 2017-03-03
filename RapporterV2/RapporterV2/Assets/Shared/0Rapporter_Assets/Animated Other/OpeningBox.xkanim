@@ -1,0 +1,10 @@
+!Animation
+Id: 7b66c91e-5ed1-4b12-8a00-223edc749bb7
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: OpeningBox.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: null
+RootMotion: false
+PreviewModel: null

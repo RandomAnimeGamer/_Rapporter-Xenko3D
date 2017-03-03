@@ -1,0 +1,14 @@
+!Model
+Id: 2c5251a2-c49f-4d8e-b7ce-656614c91753
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Bush1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c4a72a82cc5b27e5e045825528f80155:
+        Name: Bush1
+        MaterialInstance:
+            Material: 0c3cdea6-8366-4889-b23a-c9042fb58ebe:0Rapporter_Assets/Environment Assets/Grass2
+Skeleton: 00164d80-59cb-47b4-90d3-8cfa05aa9b41:0Rapporter_Assets/Environment Assets/Bush1 Skeleton
+~SourceHashes:
+    46c16e346c3f7e5a1d6bedae3713407a~Bush1.fbx: 59ebed518d8189ffe602acc54f374aa8

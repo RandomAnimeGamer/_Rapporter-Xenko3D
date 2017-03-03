@@ -1,0 +1,14 @@
+!Model
+Id: 1a14d1e7-84f5-4a2c-98aa-5023c9ef98c8
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Berries.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d3a2da1c83d38cf8c89806b199324a27:
+        Name: 07-Default
+        MaterialInstance:
+            Material: null
+Skeleton: 3d7d0247-53c7-4a76-97a6-36b038d199dd:0Rapporter_Assets/Environment Assets/Berries Skeleton
+~SourceHashes:
+    d748ab94fbedc6671df8c430d7738386~Berries.FBX: 2402fed7f32d93f3dfaa41f41f8f51eb

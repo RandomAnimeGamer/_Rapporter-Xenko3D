@@ -1,0 +1,14 @@
+!Model
+Id: e7c9d814-7d66-4325-84ae-7a5c7541d02e
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Portable Teleporter.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b5f672566f5928efa1785ff73eee248b:
+        Name: Material.001
+        MaterialInstance:
+            Material: a55f9b43-a291-4dd8-a799-c5b084ce8d46:0Rapporter_Assets/Green Crystal
+Skeleton: c28b03a1-12ab-4f2f-a15d-349e23beae1d:0Rapporter_Assets/Portable Teleporter Skeleton
+~SourceHashes:
+    023496957d5990f156cb41fc2883be12~Portable Teleporter.fbx: 35a75941af287c214de71cba96080779

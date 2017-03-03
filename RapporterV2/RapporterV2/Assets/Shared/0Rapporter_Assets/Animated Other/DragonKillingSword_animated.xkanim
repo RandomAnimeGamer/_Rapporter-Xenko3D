@@ -1,0 +1,10 @@
+!Animation
+Id: 3df9245c-48bc-4d59-927d-2e3441e80e2d
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: DragonKillingSword_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: ada9d43e-eb65-4020-addc-5cd7537446a2:0Rapporter_Assets/Dragon Killing Sword Skeleton
+RootMotion: false
+PreviewModel: null

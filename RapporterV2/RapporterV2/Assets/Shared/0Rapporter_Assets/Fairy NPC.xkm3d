@@ -1,0 +1,18 @@
+!Model
+Id: e8eb8f4e-4fcd-4091-bcbf-490149bf3e19
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Fairy NPC.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c4676f1ad26125cc9950135eee69838e:
+        Name: Wings
+        MaterialInstance:
+            Material: 4f00737d-f129-4803-ac9e-87088c23cc8e:0Rapporter_Assets/Wings
+    5b71eb9fc4f1bbea9dd2ecf2eb48419b:
+        Name: Body
+        MaterialInstance:
+            Material: e65c9911-f88c-4851-a8b3-3e133b455bbd:0Rapporter_Assets/Body
+Skeleton: a2960e88-99e3-4085-8407-11000d707bce:0Rapporter_Assets/Fairy NPC Skeleton
+~SourceHashes:
+    81f0d50a5c6b222cbc5d37a9963c656e~Fairy NPC.fbx: 816d89463221c999e181f17389df9f91

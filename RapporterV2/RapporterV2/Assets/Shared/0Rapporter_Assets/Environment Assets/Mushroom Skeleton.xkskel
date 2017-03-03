@@ -1,0 +1,13 @@
+!Skeleton
+Id: 395eac39-232b-4862-a3e3-2417375f9758
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Mushroom.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    9b15e024afe7ca2d1f691919ccb51c05: {Name: RootNode, Depth: 0}
+    47ec0b9fd52dbf1a4d8393f25f5999f5: {Name: Mushroom, Depth: 1}
+    e45c1085bb191534f108e0e9e49fe0f8: {Name: Lamp, Depth: 1}
+    5d1b71c627dbc5b9228e0a1897fde80d: {Name: Camera, Depth: 1}
+~SourceHashes:
+    62df62a9816047ba17bdcc2cf63f3740~Mushroom.fbx: 7ea43135f82685bca8275a8587dbb9d0

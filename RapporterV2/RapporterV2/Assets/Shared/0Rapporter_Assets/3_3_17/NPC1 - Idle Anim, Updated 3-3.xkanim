@@ -1,0 +1,10 @@
+!Animation
+Id: 3f383ce8-5a49-4cda-bbd5-59e301d3e3c7
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: NPC1 - Idle Anim, Updated 3-3.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: null
+RootMotion: false
+PreviewModel: null

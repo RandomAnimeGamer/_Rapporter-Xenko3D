@@ -1,0 +1,10 @@
+!Animation
+Id: 0b2cd574-5378-447d-99bb-982cb3606675
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: _Updated_Town_Teleporter.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: 14c8c0e2-4e50-4acb-a039-aae3ddb64e0a:0Rapporter_Assets/Town Map/_Updated_Town_Teleporter Skeleton
+RootMotion: false
+PreviewModel: null

@@ -1,0 +1,21 @@
+!Skeleton
+Id: 6222d912-a304-482f-83cb-e33c0918e3bf
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Fence.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    7adf83fc5b702ccccf56c5c6079499df: {Name: RootNode, Depth: 0}
+    fec138b4e3dfca936cac6185f54b9c47: {Name: Fence, Depth: 1}
+    b69ef4ed79401cd48a260848b706b5b2: {Name: FenceBeam1, Depth: 2}
+    62f955039f5119d13f2b86ae04fa4e30: {Name: FenceBeam2, Depth: 2}
+    ba9b157ebbdac99b97b88b89a22dcf47: {Name: FencePost1, Depth: 2}
+    e3e595c4850dcfa64a93c0b59031f8f6: {Name: FencePost2, Depth: 2}
+    b33b176937fa1ef78a06b93883c6730a: {Name: FencePost3, Depth: 2}
+    37f00402fc55ecc6fa2100b296873a9f: {Name: FencePost4, Depth: 2}
+    93d0dc7690a04c17711727d701d19c1a: {Name: FenceSpike1, Depth: 2}
+    cdf74726f5200ec447859b8ead626738: {Name: FenceSpike2, Depth: 2}
+    2bd1420068ba941139aa963eedbbf339: {Name: FenceSpike3, Depth: 2}
+    191ec059afcf10340a9f4ac2004ed34d: {Name: FenceSpike4, Depth: 2}
+~SourceHashes:
+    e28ff54a1ecb17a323e453dc15209fc8~Fence.FBX: 4c2736e34546c31d91320e04ca5f9fa7

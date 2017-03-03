@@ -1,0 +1,14 @@
+!Model
+Id: 4fa2c2a6-b3fc-4846-809c-0ece99d8f58d
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Rock1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    971a45a4a966e2e4bbf5326ad3ffa986:
+        Name: Rock
+        MaterialInstance:
+            Material: b852788b-5d17-499f-b846-7d2e4b788c63:0Rapporter_Assets/Environment Assets/Flower2Darkest (2)
+Skeleton: db755e99-6362-4314-97b4-58bacb12dd20:0Rapporter_Assets/Environment Assets/Rock1 Skeleton
+~SourceHashes:
+    9988d350b149b26299862708a7640979~Rock1.fbx: 9877c4efbfbf590fbbbc97c37026be60

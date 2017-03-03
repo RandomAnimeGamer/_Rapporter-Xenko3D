@@ -1,0 +1,34 @@
+!Model
+Id: 907ee570-56ed-415d-a9f4-6afdf6b6ae8d
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Flower2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d3f2c88712afad79ea74295388e4271c:
+        Name: Flower2Light
+        MaterialInstance:
+            Material: 1afbb821-a2c6-4163-a4db-020185533bd0:0Rapporter_Assets/Environment Assets/Flower2Light
+    097124c2d81aed90cb76d3f498e73c30:
+        Name: Flower2Mid
+        MaterialInstance:
+            Material: 5e4eef5c-51b2-42c8-b350-f8fc20195bd0:0Rapporter_Assets/Environment Assets/Flower2Mid
+    6b9fa4555b9e3ca920a988e1f6cba31b:
+        Name: Flower2Dark
+        MaterialInstance:
+            Material: 43ffc3dc-a711-4070-9252-8f916ea0eedc:0Rapporter_Assets/Environment Assets/Flower2Dark
+    01d0bfec6d722ce3d881d3d1815ad4c0:
+        Name: Flower2Darkest
+        MaterialInstance:
+            Material: 6e07c6fc-5916-482f-b083-614add3b41a3:0Rapporter_Assets/Environment Assets/Flower2Darkest
+    88a7c4b18dcc76d25d3982ee591120d8:
+        Name: Flower2Stem
+        MaterialInstance:
+            Material: 063d1b30-bfe3-41f0-aaf4-ce2eb458e2e2:0Rapporter_Assets/Environment Assets/Flower2Stem
+    31f7d151f66e337cf6ffb2fd55bc7859:
+        Name: Flower2Inside
+        MaterialInstance:
+            Material: f57fc626-86ba-4c19-96b3-283b20aedd71:0Rapporter_Assets/Environment Assets/Flower2Inside
+Skeleton: 6eb627e2-0af4-4286-8e0e-d926ec3dd48e:0Rapporter_Assets/Environment Assets/Flower2 Skeleton
+~SourceHashes:
+    a8dcff7a1a843eb7b80aac6a4332b1e2~Flower2.fbx: ee324786c7838fbb9a0ee13d4429ef13

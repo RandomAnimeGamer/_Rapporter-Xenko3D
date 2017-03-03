@@ -1,0 +1,10 @@
+!Animation
+Id: a605a7be-6016-47f9-b814-10d0e53f253d
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: animated_simpleSword.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: dc83d19f-24a3-4e9d-8b85-0976132eb852:0Rapporter_Assets/SimpleSword Skeleton
+RootMotion: false
+PreviewModel: null

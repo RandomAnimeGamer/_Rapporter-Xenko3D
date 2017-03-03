@@ -1,0 +1,20 @@
+!Skeleton
+Id: 0ad39401-c344-48dd-b876-3b9046f59b28
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Town House2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    75e9249d02e14ab386f3d4ad6f8fb115: {Name: RootNode, Depth: 0}
+    35669f6894a238dcd656eae88b85dea3: {Name: Circle.005, Depth: 1}
+    eeabf0793c5955d513f68dec6815a2ed: {Name: Circle.004, Depth: 1}
+    fe77413af162ad9ba5181fb60c7be061: {Name: Circle.003, Depth: 1}
+    4859e3dd06aac7024be287ba0169dc52: {Name: Circle.001, Depth: 1}
+    d1946892df875c2c083abb3a39ffc15d: {Name: Circle.000, Depth: 1}
+    63ddafc3ca1356b06a32ab045b4683de: {Name: Circle.002, Depth: 1}
+    43eea8d56be27381db6aa8e64a8ef2c8: {Name: Cube.001, Depth: 1}
+    17b6a0fdf6e3efb8247395dc5f7c0a14: {Name: Cube, Depth: 1}
+    62def740f5bb39b2cd9c855ca0b0ae72: {Name: Lamp, Depth: 1}
+    00b86964c2bf0da1e391d711eb3ca80c: {Name: Camera, Depth: 1}
+~SourceHashes:
+    f5911bf8d858d9caa5491e7d149684ec~Town House2.fbx: d9fabe07293e3c27046156e935c26d73

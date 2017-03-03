@@ -1,0 +1,26 @@
+!Model
+Id: 5dc40498-51d6-4c00-aa3b-45e40c4f0432
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Mushroom.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    ca318fccc3fc5005e18a6521371be1a3:
+        Name: Material.001
+        MaterialInstance:
+            Material: 3a08af7b-1bdf-4481-805c-44e0657ef8d6:0Rapporter_Assets/Environment Assets/Inside (2)
+    efae09fab6b26f3845d52ad7b28f0f77:
+        Name: Material.002
+        MaterialInstance:
+            Material: 3a08af7b-1bdf-4481-805c-44e0657ef8d6:0Rapporter_Assets/Environment Assets/Inside (2)
+    61f636f9871dca7e91be864c45a5cc51:
+        Name: Material.004
+        MaterialInstance:
+            Material: b9795532-8ee5-4b40-942b-8653f1ffbe17:0Rapporter_Assets/Environment Assets/Bark
+    c8954101bcee015b82c302885e924dec:
+        Name: Material.005
+        MaterialInstance:
+            Material: b9795532-8ee5-4b40-942b-8653f1ffbe17:0Rapporter_Assets/Environment Assets/Bark
+Skeleton: 395eac39-232b-4862-a3e3-2417375f9758:0Rapporter_Assets/Environment Assets/Mushroom Skeleton
+~SourceHashes:
+    91363aca48d76d76d20c762950e024e7~Mushroom.fbx: 7ea43135f82685bca8275a8587dbb9d0

@@ -1,0 +1,38 @@
+!Model
+Id: f01a0b27-3971-44bc-80f2-af920c242a2c
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Forest Details, Updated 3-3.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    eb2be26162e66ba6fd483df553e97e85:
+        Name: ForestGrass
+        MaterialInstance:
+            Material: 58a2cf89-83c0-4e9b-aad4-d025ac3b6d29:0Rapporter_Assets/3_3_17/ForestGrass
+    e5fe2f49caeaa8639fc1ef0d77743ce8:
+        Name: Mushroom2-TopLighter
+        MaterialInstance:
+            Material: 40dcfc92-4c68-47f2-b800-08eef467c447:0Rapporter_Assets/3_3_17/Mushroom2-TopLighter
+    c43a14f01b78a09f6788ffade6c10d10:
+        Name: Mushroom1-TopDarker
+        MaterialInstance:
+            Material: dd2f901c-1622-41b6-9076-8476225f170f:0Rapporter_Assets/3_3_17/Mushroom1-TopDarker
+    ff1e55366e1d5319da6a7bdd5b953c12:
+        Name: Mushroom2-BottomLighter
+        MaterialInstance:
+            Material: 42e48001-3eb9-4563-9b51-453101f4573c:0Rapporter_Assets/3_3_17/Mushroom2-BottomLighter
+    2b9baaee5998cafe09ccc40b530890e5:
+        Name: Mushroom1-Bottom
+        MaterialInstance:
+            Material: 1d655745-9a6d-41b8-8b11-175ee7b36334:0Rapporter_Assets/3_3_17/Mushroom1-Bottom
+    2061743034a3d01d3f3a32e65a843668:
+        Name: ForestBush
+        MaterialInstance:
+            Material: 591c50f7-cd2f-476b-97f7-7800a39c368d:0Rapporter_Assets/3_3_17/ForestBush
+    07d4b9c5f3bf650ddaf84957c07138b3:
+        Name: ForestRock
+        MaterialInstance:
+            Material: b8b5bc99-868c-4fa2-af56-fed39a4958c9:0Rapporter_Assets/3_3_17/ForestRock
+Skeleton: 83bb496a-0050-436f-a1c3-fd1f2601f6c5:0Rapporter_Assets/3_3_17/Forest Details, Updated 3-3 Skeleton
+~SourceHashes:
+    373eff43da77ebcef0d015c80d7a9e1b~Forest Details, Updated 3-3.fbx: 8f463aa03fc14cddb17750e738c97dd9

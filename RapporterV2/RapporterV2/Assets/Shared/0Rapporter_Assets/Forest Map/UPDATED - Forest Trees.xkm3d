@@ -1,0 +1,18 @@
+!Model
+Id: bd9ae034-98af-49d5-bfa5-25732680b0dc
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: UPDATED - Forest Trees.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d31bf274be686848e3d350014c7c300a:
+        Name: Re-ForestBark
+        MaterialInstance:
+            Material: 38920a2b-4b45-431a-a3c7-d7db1cec0a96:0Rapporter_Assets/Forest Map/Re-ForestBark
+    bc97029af024a5a0c95aa242d7c3d423:
+        Name: Re-ForestLeaves
+        MaterialInstance:
+            Material: f69bd85f-3875-4946-ba8c-9f11e0643634:0Rapporter_Assets/Forest Map/Re-ForestLeaves
+Skeleton: 022da0f7-57a0-4a78-8b44-291bfe3e632b:0Rapporter_Assets/Forest Map/UPDATED - Forest Trees Skeleton
+~SourceHashes:
+    148673e9b1aabb06e587a20049271fe9~UPDATED - Forest Trees.FBX: fadaa79fcffc6f191a40309c6cf601b6

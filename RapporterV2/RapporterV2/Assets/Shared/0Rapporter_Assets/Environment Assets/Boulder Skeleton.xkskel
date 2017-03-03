@@ -1,0 +1,11 @@
+!Skeleton
+Id: 039f07ef-a03a-483f-9cc7-5e755dc8c12f
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Boulder.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2aece1198d9843ae946e497ee48647e0: {Name: RootNode, Depth: 0}
+    542e47cccc0f43a3fcbced1fe278878f: {Name: Boulder, Depth: 1}
+~SourceHashes:
+    4b273b68b02d5a1b7524654d5c7ad780~Boulder.FBX: 3d3743ccfa17f4de7179a611a299e474

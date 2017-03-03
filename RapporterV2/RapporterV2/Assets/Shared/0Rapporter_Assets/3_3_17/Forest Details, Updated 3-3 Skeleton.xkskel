@@ -1,0 +1,21 @@
+!Skeleton
+Id: 83bb496a-0050-436f-a1c3-fd1f2601f6c5
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Forest Details, Updated 3-3.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    293dd7880f0cd28b95ddcf8d055b154a: {Name: RootNode, Depth: 0}
+    c6134e75c7ec64d52c2f9ad5b2d45348: {Name: Icosphere.011, Depth: 1}
+    0218c214aff4fa35ec2b8db4b9b53858: {Name: Icosphere.004, Depth: 1}
+    12d4820e82d7ac8aaa8a9be44d76c5a8: {Name: Icosphere.003, Depth: 1}
+    98f80873eca7271d3ab1595f394d4631: {Name: Icosphere.002, Depth: 1}
+    53a4bf8adad5c3e29d1dc8b310942553: {Name: Icosphere.001, Depth: 1}
+    1b95277bc203788ee93a1d38ba989d0d: {Name: Icosphere.000, Depth: 1}
+    e48cee970b2a148bcc90841df90b4591: {Name: Icosphere.020, Depth: 1}
+    f772b305fb0691ef6fc705d2464955ed: {Name: Lamp.002, Depth: 1}
+    eb191dcbf10218848f60ed6a4f41d5af: {Name: Lamp.001, Depth: 1}
+    2829d3275df0fdca1792e8f58eeea68f: {Name: Lamp, Depth: 1}
+    a0b1d3a0d1f9b4fa61e56493b97596b6: {Name: Camera, Depth: 1}
+~SourceHashes:
+    79a1a203a31417796a54056564abe6d1~Forest Details, Updated 3-3.fbx: 8f463aa03fc14cddb17750e738c97dd9

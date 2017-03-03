@@ -1,0 +1,14 @@
+!Model
+Id: ac6e0322-dd06-4059-9864-0b9891ac11b0
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Fence.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    85ff7fac8fd7f552a9e7b18644aa824f:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Skeleton: 6222d912-a304-482f-83cb-e33c0918e3bf:0Rapporter_Assets/Environment Assets/Fence Skeleton
+~SourceHashes:
+    819f9f616ae4863bb57aa8bdb4421ca2~Fence.FBX: 4c2736e34546c31d91320e04ca5f9fa7

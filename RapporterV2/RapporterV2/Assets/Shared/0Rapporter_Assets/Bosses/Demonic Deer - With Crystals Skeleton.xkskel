@@ -1,0 +1,23 @@
+!Skeleton
+Id: 33a8304f-b10e-4c73-9c8c-b6a7e10b489f
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Demonic Deer - With Crystals.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    eef7932d4efff80dffec7f87f42dfa08: {Name: RootNode, Depth: 0}
+    2db0a2567001dbb42605c989af7929a1: {Name: Cylinder.007, Depth: 1}
+    f4ed2fcb9cb96f1da67978897206a9ae: {Name: Cylinder.006, Depth: 1}
+    42a1ac13d81cd4094924b1dd15ce3f8f: {Name: Cylinder.005, Depth: 1}
+    190c2c08d3d3e1dd6ff8248dae6c5b60: {Name: Cylinder.004, Depth: 1}
+    c81e8760064171ae4c3910d5ea58d013: {Name: Cylinder.003, Depth: 1}
+    baabbd83f4664bf5d30afeab0376b28f: {Name: Cylinder.002, Depth: 1}
+    78bd67ec85704cb363542b31e4bd0894: {Name: Cylinder.001, Depth: 1}
+    9c9d2fd9e2a857f02623b9ddb63843af: {Name: Cylinder, Depth: 1}
+    52bdbff84332c44f20dce049e29790b0: {Name: Sun, Depth: 1}
+    ce5bb779e60e2e6030d1ba9571039f26: {Name: Body, Depth: 1}
+    714b2574dac84660ca268fae8832c8e6: {Name: Horns, Depth: 1}
+    20f2fb2dec4bbade2302971704f72cf6: {Name: Lamp, Depth: 1}
+    dae195a0fc86a35164323f1dac533898: {Name: Camera, Depth: 1}
+~SourceHashes:
+    c6ee56622e9df7131353ccdc3586d37d~Demonic Deer - With Crystals.fbx: 7459121bb0dc43161fc6ed7233afbceb

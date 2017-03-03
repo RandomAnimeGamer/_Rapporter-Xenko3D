@@ -1,0 +1,13 @@
+!Skeleton
+Id: ada9d43e-eb65-4020-addc-5cd7537446a2
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Dragon Killing Sword.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    85e41157494944f8cca5efb76c754fb2: {Name: RootNode, Depth: 0}
+    8aca8c52d087b5d84607e513a33b651c: {Name: Cylinder, Depth: 1}
+    72f5ef254030aa6d4bff52135ba6bd47: {Name: Lamp, Depth: 1}
+    57e719102a247f1566a2ff5de0c92ac5: {Name: Camera, Depth: 1}
+~SourceHashes:
+    98b4ec024c03202a2345c23afec3f59f~Dragon Killing Sword.fbx: 0b339001130e96446fd2ed669dc95e16

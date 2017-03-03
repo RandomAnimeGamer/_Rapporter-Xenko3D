@@ -1,0 +1,13 @@
+!Skeleton
+Id: 87a80819-4eff-4820-aecd-318af5d32708
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Grass.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    98d03ef69373a86c89f7f5713e1a9e1e: {Name: RootNode, Depth: 0}
+    325f94632dc2fad1674d26c8de9b9286: {Name: Cube, Depth: 1}
+    195a3ba326c8e5ab21d92f6ce1d15135: {Name: Lamp, Depth: 1}
+    20d0928256ded7511349cc013c7e0abd: {Name: Camera, Depth: 1}
+~SourceHashes:
+    92d80341a10aceb36390a8d331222af5~Grass.fbx: ba2624789baacb10f4e6a096b51f3ab7

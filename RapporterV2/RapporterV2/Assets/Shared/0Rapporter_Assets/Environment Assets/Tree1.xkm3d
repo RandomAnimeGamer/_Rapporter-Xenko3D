@@ -1,0 +1,18 @@
+!Model
+Id: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Tree1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    390a485e023c9473c0e1ff9a5636cb32:
+        Name: Bark
+        MaterialInstance:
+            Material: b9795532-8ee5-4b40-942b-8653f1ffbe17:0Rapporter_Assets/Environment Assets/Bark
+    3f4ee74730a817caeae90164f350bb72:
+        Name: Leaves
+        MaterialInstance:
+            Material: 0a7051be-62c1-429f-afed-4704e0903383:0Rapporter_Assets/Environment Assets/Leaves
+Skeleton: 35b4ede5-86a0-4b3d-a0a8-3bc89f6d2158:0Rapporter_Assets/Environment Assets/Tree1 Skeleton
+~SourceHashes:
+    f3075a47b8e2f977fecd6337a2d7323f~Tree1.fbx: 0a5a6af5ecb199190c0964c04d50409c

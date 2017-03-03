@@ -1,0 +1,14 @@
+!Model
+Id: 6aa67899-2708-4ae6-9999-2910f6d429cd
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Grass.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    85b9ca6e7b8ba1355b99b0a3a2a01f09:
+        Name: Grass1
+        MaterialInstance:
+            Material: 063d1b30-bfe3-41f0-aaf4-ce2eb458e2e2:0Rapporter_Assets/Environment Assets/Flower2Stem
+Skeleton: 87a80819-4eff-4820-aecd-318af5d32708:0Rapporter_Assets/Environment Assets/Grass Skeleton
+~SourceHashes:
+    420f3e238c2e66546984c0281ad06bf7~Grass.fbx: ba2624789baacb10f4e6a096b51f3ab7

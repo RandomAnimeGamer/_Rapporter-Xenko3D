@@ -1,0 +1,19 @@
+!Skeleton
+Id: f5d030b6-b489-4916-8097-7f6688c60e49
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Town Details, Updated 3-3.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    de140fd8a2c238687d2a948f00ce316a: {Name: RootNode, Depth: 0}
+    4302c4a432eda99f2f87a004a2654c36: {Name: Flowers.012, Depth: 1}
+    aa0480385fe5034b36afd4e7d2cbf73b: {Name: Flowers.011, Depth: 1}
+    95fa7ce15e255493ffc3cdb7e7255cae: {Name: Flowers.010, Depth: 1}
+    30b424504f59af1f416988a7d7dd3a48: {Name: Flowers.009, Depth: 1}
+    c74173e8604d166396795f11787087f1: {Name: Flowers.008, Depth: 1}
+    d99f2a42beb12bcb5c443ca9efc9788b: {Name: Cube.002, Depth: 1}
+    515b0518798f0e6e710e5da1146afb5a: {Name: Flowers, Depth: 1}
+    a96cd6c0998e0be1d43d3ddecdc6b2e4: {Name: Town Center Area, Depth: 1}
+    a20a9cdd1c774af726051ff4dd79a23e: {Name: Camera, Depth: 1}
+~SourceHashes:
+    f684745687a9e86784d38150326b69e3~Town Details, Updated 3-3.fbx: b2168c2bb8e7075a05ab6a273c28f6c2

@@ -1,0 +1,42 @@
+!Model
+Id: 6f0bf548-6bc1-4c6e-8c5b-96dd3c5b8703
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Town Details, Updated 3-3.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    13967d75e2ed55083df23cc1e3bf269f:
+        Name: Flower2Darkest
+        MaterialInstance:
+            Material: 2e60dc68-cb47-4eb5-9cb6-9d9fa44648ab:0Rapporter_Assets/3_3_17/Flower2Darkest
+    c3de05ac377a39fbcee2a5539371f3e8:
+        Name: Flower2Inside
+        MaterialInstance:
+            Material: df783c31-4ef9-44b0-a6a5-de7b7d72f0e2:0Rapporter_Assets/3_3_17/Flower2Inside
+    950fab2cad298cc1cfeae761bb7f77cb:
+        Name: Flower2Light
+        MaterialInstance:
+            Material: 9d4d7137-53e9-451b-aba8-8bf6fb506687:0Rapporter_Assets/3_3_17/Flower2Light
+    06aee8471766ab269ec38f9ca53bced4:
+        Name: Flower2Mid
+        MaterialInstance:
+            Material: ff72bc85-8bff-4b9f-98ed-f959bfe3ea06:0Rapporter_Assets/3_3_17/Flower2Mid
+    a01151ed80a1a63387388e673e7c37c9:
+        Name: Flower2Dark
+        MaterialInstance:
+            Material: ff4522f3-6b2a-4771-b3ed-e351fa75a941:0Rapporter_Assets/3_3_17/Flower2Dark
+    a4a9427e5c636c048aa067e5e5d0cc2a:
+        Name: DirtPath
+        MaterialInstance:
+            Material: 263e6f0e-4313-42ca-86b9-e9b6e67c3d0c:0Rapporter_Assets/3_3_17/DirtPath
+    a3c5451d9af83e6313734704d011f8e8:
+        Name: Flower2Stem
+        MaterialInstance:
+            Material: 739060e9-4c7c-460b-a90c-50dbe029f727:0Rapporter_Assets/3_3_17/Flower2Stem
+    be2fd33d6377bbff8b3ed39d3653f7e7:
+        Name: TownCenter
+        MaterialInstance:
+            Material: eacbb9b6-fab6-4202-8b25-e364e9ee725f:0Rapporter_Assets/3_3_17/TownCenter
+Skeleton: f5d030b6-b489-4916-8097-7f6688c60e49:0Rapporter_Assets/3_3_17/Town Details, Updated 3-3 Skeleton
+~SourceHashes:
+    3c03e51ae5591fc740b668f7f6d0396a~Town Details, Updated 3-3.fbx: b2168c2bb8e7075a05ab6a273c28f6c2
