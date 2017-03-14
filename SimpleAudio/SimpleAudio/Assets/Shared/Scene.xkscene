@@ -1,0 +1,81 @@
+!SceneAsset
+Id: 61414c85-1f0e-4338-bfca-72d9e68a557d
+SerializedVersion: {Xenko: 1.9.0-beta06}
+Tags: []
+SceneSettings:
+    Id: df51691c-bfdf-40f2-859c-c41a1396724a
+    GraphicsCompositor: !SceneGraphicsCompositorLayers
+        Cameras:
+            fdbe3601ec5a5442a2dec152f3d3f10e:
+                Name: null
+                Camera: 970d3c33-9819-4206-a101-d81f9259477f/bdf6144e-9398-4baa-9a86-07bd2e81c981
+        Layers: {}
+        Master:
+            Name: SceneGraphicsLayer
+            Output: !MasterRenderFrameProvider {}
+            Renderers:
+                211fa7fde5e21c48bb479c3450246993: !ClearRenderFrameRenderer
+                    Color: {R: 0.392156869, G: 0.58431375, B: 0.929411769, A: 1.0}
+                    Output: !CurrentRenderFrameProvider {}
+                7fbbdfc8f663864b8a7a8475e56c5bd3: !SceneCameraRenderer
+                    Mode: !CameraRendererModeForward {}
+                    Camera:
+                        Index: 0
+                    Output: !CurrentRenderFrameProvider {}
+                    Viewport: {X: 0.0, Y: 0.0, Width: 100.0, Height: 100.0}
+                    ForceAspectRatio: false
+    EditorSettings:
+        GridColor: {R: 0.7058824, G: 0.7058824, B: 0.7058824}
+        SceneUnit: 1.0
+        Mode: !SceneEditorGraphicsModeLDRSettings
+            BackgroundColor: {R: 0.196078435, G: 0.196078435, B: 0.196078435}
+Hierarchy:
+    RootPartIds:
+        - 970d3c33-9819-4206-a101-d81f9259477f
+        - dececd10-b6ea-46fa-8129-c8683f4a6974
+        - ea66315a-6e99-498e-b3b7-b20eff3d7a04
+    Parts:
+        -   Entity:
+                Id: 970d3c33-9819-4206-a101-d81f9259477f
+                Name: MainCamera
+                Components:
+                    ae90c2e75104724b8560bbfe351950b9: !TransformComponent
+                        Id: e7c290ae-0451-4b72-8560-bbfe351950b9
+                        Position: {X: 0.0, Y: 0.0, Z: 7.72791433}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4e14f6bd9893aa4b9a8607bd2e81c981: !CameraComponent
+                        Id: bdf6144e-9398-4baa-9a86-07bd2e81c981
+                        Projection: Orthographic
+                        FarClipPlane: 10.0
+        -   Entity:
+                Id: dececd10-b6ea-46fa-8129-c8683f4a6974
+                Name: SoundScript
+                Components:
+                    d8424fc9f444234180ea20a80f5473cb: !TransformComponent
+                        Id: c94f42d8-44f4-4123-80ea-20a80f5473cb
+                        Position: {X: 0.0, Y: 0.0, Z: 4.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f63a6482fa4594db3cf9c5d37cbb31e: !SimpleAudio.SoundScript,SimpleAudio.Game
+                        Id: 48a6638f-a42f-4d59-b3cf-9c5d37cbb31e
+                        SoundMusic: 019ac65c-9db0-4624-a52c-9d92423221b1:AmbientMusic
+                        SoundEffect: b0a6da93-030c-489a-87c5-375ae78abd89:SoundEffect
+                        Page: 5522459b-c298-49dd-9447-ed76624ac87d:Page
+        -   Entity:
+                Id: ea66315a-6e99-498e-b3b7-b20eff3d7a04
+                Name: UIText
+                Components:
+                    a27206de1b6d9e4aa0fef236140f092a: !TransformComponent
+                        Id: de0672a2-6d1b-4a9e-a0fe-f236140f092a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b98d88d85df5734b9b6b3ec597f8f469: !UIComponent
+                        Id: d8888db9-f55d-4b73-9b6b-3ec597f8f469
+                        Page: 5522459b-c298-49dd-9447-ed76624ac87d:Page
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}

@@ -2,6 +2,7 @@
 using System.Linq;
 using SiliconStudio.Core.Mathematics;
 using SiliconStudio.Xenko.Graphics;
+using SiliconStudio.Xenko.Audio;
 using SiliconStudio.Xenko.Physics;
 using SiliconStudio.Xenko.Engine;
 using SiliconStudio.Xenko.Engine.Events;
@@ -14,6 +15,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public float MouseSensitivity { get; set; } = 100.0f;
     public CameraComponent Camera { get; set; }
     public static readonly EventKey<Vector3> PlayerPos = new EventKey<Vector3>();
+    public static readonly EventKey<bool> swordMove = new EventKey<bool>();
     public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
     public static readonly EventKey<Vector3> MoveWeaponEventKey = new EventKey<Vector3>();
     public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
@@ -26,7 +28,23 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public List<Keys> KeysJump { get; } = new List<Keys>();
     private bool jumped=false, doneJumping=true, attacking=false; private int jumpCount=0, combo=0;
     private float jumpForce;
-    public override void Start() { simulation = this.GetSimulation(); }
+
+    public Sound SoundMusic;
+    private SoundInstance forest;
+    public Sound SoundEffect;
+    private SoundInstance move;
+
+    public override void Start() {
+        simulation = this.GetSimulation();
+        
+        forest = SoundMusic.CreateInstance();
+        move = SoundEffect.CreateInstance();
+        if (!IsLiveReloading) {
+            forest.IsLooping = true;
+            forest.Play();
+        }
+//        move.Stop();
+    }
     
     public override void Update() { { //Character movement
         if (Input.IsMouseButtonDown(MouseButton.Left)) RaycastAtk();
@@ -46,7 +64,16 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         var worldSpeed = (Camera != null)//Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
             ? Utils.LogicDirectionToWorldDirection(moveDirection, Camera, Vector3.UnitY) + new Vector3(0, jumpForce, 0)
             : new Vector3(moveDirection.X, jumpForce, moveDirection.Y);//No camera? No problem!
-
+        if(worldSpeed!=Vector3.Zero) {
+            if (!IsLiveReloading) {
+                move.IsLooping = true;
+                move.Volume=20;
+                move.Play();
+            }
+        }
+        else {
+            move.Stop();
+        }
         MoveDirectionEventKey.Broadcast(worldSpeed);
     } { //Camera rotation
         var cameraDirection = Vector2.Zero;
@@ -84,13 +111,13 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     }
     private void RaycastAtk() {
         var unprojectedNear = Entity.Transform.Position;
-        var unprojectedFar = new Vector2(0f,100f);
+        var unprojectedFar = new Vector2(0f,150f);
         
         var unprojectedFar2 = (Camera != null)
             ? Utils.LogicDirectionToWorldDirection(unprojectedFar, Camera, Vector3.UnitY)
             : new Vector3(unprojectedFar.X, 0, unprojectedFar.Y);//No camera? No problem!
             
-
+        swordMove.Broadcast(true);
         var result = simulation.Raycast(unprojectedNear, unprojectedNear + unprojectedFar2);
         if(result.Succeeded) { if(result.Collider != null) {
             var rigidBody = result.Collider as RigidbodyComponent;

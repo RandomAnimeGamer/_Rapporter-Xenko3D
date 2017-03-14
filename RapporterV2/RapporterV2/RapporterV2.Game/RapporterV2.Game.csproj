@@ -118,9 +118,11 @@
     <Compile Include="Player\PlayerInput.cs" />
     <Compile Include="Player\ScrollText.cs" />
     <Compile Include="Player\ScrollTextText.cs" />
+    <Compile Include="Player\SwordMove.cs" />
     <Compile Include="Player\WeaponController.cs" />
     <Compile Include="Player\WeaponScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sounds\SoundScript.cs" />
     <Compile Include="Trigger\TriggerEvent.cs" />
     <Compile Include="Trigger\TriggerGroup.cs" />
     <Compile Include="Trigger\TriggerGroupException.cs" />

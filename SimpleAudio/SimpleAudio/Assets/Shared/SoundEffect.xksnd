@@ -1,0 +1,6 @@
+!Sound
+Id: b0a6da93-030c-489a-87c5-375ae78abd89
+Tags: []
+Source: ../../Resources/wave.wav
+StreamFromDisk: false
+Spatialized: true
