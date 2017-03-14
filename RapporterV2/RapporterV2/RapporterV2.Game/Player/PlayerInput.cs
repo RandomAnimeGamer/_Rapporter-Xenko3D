@@ -18,6 +18,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
     public static readonly EventKey<int> AtkEventKey = new EventKey<int>();
     public static readonly EventReceiver<bool> AtkComp = new EventReceiver<bool>(WeaponScript.completed);
+    public static readonly EventReceiver<bool> NPC = new EventReceiver<bool>(NPCTalk.ttm);
     public List<Keys> KeysLeft { get; } = new List<Keys>();
     public List<Keys> KeysRight { get; } = new List<Keys>();
     public List<Keys> KeysUp { get; } = new List<Keys>();
@@ -32,12 +33,9 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         RaycastDown();
         if(KeysJump.Any(key => Input.IsKeyDown(key)) && jumped) { jumpForce = 5; jumped = false; doneJumping=false; }
         if(!doneJumping&&!jumped) { jumpCount++; jumpForce=5; if(jumpCount==7) { doneJumping=true; jumpCount=0; } }
+        if(doneJumping) jumpForce=-2;
 
-        var moveDirection = Input.GetLeftThumbAny(DeadZone);
-        var isDeadZoneLeft = moveDirection.Length() < DeadZone;
-        if (isDeadZoneLeft) moveDirection = Vector2.Zero;
-        else moveDirection.Normalize();
-
+        var moveDirection = Vector2.Zero;
         if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX;
         if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX;
         if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY;
@@ -49,42 +47,37 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
 
         MoveDirectionEventKey.Broadcast(worldSpeed);
     } { //Camera rotation
-        var cameraDirection = Input.GetRightThumbAny(DeadZone);
-        var isDeadZoneRight = cameraDirection.Length() < DeadZone;
-        if (isDeadZoneRight) cameraDirection = Vector2.Zero;
-        else cameraDirection.Normalize();
-
+        var cameraDirection = Vector2.Zero;
         if (Input.IsMouseButtonDown(MouseButton.Left)) Input.LockMousePosition(true);
         if (Input.IsKeyPressed(Keys.Escape)) Input.UnlockMousePosition();//Mouse-based camera rotation. Click = Activate, Esc = Cancel
         if (Input.IsMousePositionLocked) cameraDirection += new Vector2(Input.MouseDelta.X, -Input.MouseDelta.Y) * MouseSensitivity;
-
         CameraDirectionEventKey.Broadcast(cameraDirection);//Broadcast the camera direction directly, as a screen-space Vector2
-    } {//Attack Code
-            if (Input.HasMouse&&Input.IsMouseButtonDown(MouseButton.Left)) { if(!attacking) { AtkEventKey.Broadcast(combo); attacking=true; } }
-            var comp=false; AtkComp.TryReceive(out comp); if(comp==true) attacking=false;
-            if(attacking) {
-            
-            
-                var worldSpeed2 = (Camera != null)
-                    ? Utils.LogicDirectionToWorldDirection(new Vector2(0f, 0.1f), Camera, Vector3.UnitY)
-                    : new Vector3(0.1f, 0f, 0.1f);
-                MoveWeaponEventKey.Broadcast(worldSpeed2);
-                //MoveDirectionEventKey.Broadcast(worldSpeed2);
-            
-            
-                if(combo==2) { attacking = false; }
-                if(combo==1) { attacking = false; }
-                if(combo==0) {
-                    if(jumped) { combo=1; attacking = true; attacking = false; }
-                    else { attacking = false; }
-                }
+    }/* {//Attack Code
+        if(Input.HasMouse&&Input.IsMouseButtonDown(MouseButton.Left)){if(!attacking){ AtkEventKey.Broadcast(combo); attacking=true; }}
+        var comp=false; AtkComp.TryReceive(out comp); if(comp==true) attacking=false;
+        if(attacking) {
+        
+        
+            //var worldSpeed2 = (Camera != null)
+            //    ? Utils.LogicDirectionToWorldDirection(new Vector2(0f, 0.1f), Camera, Vector3.UnitY)
+            //    : new Vector3(0.1f, 0f, 0.1f);
+            //MoveWeaponEventKey.Broadcast(worldSpeed2);
+            //MoveDirectionEventKey.Broadcast(worldSpeed2);
+        
+        
+            if(combo==2) { attacking = false; }
+            if(combo==1) { attacking = false; }
+            if(combo==0) {
+                if(jumped) { combo=1; attacking = true; attacking = false; }
+                else { attacking = false; }
             }
-    } }
+        }
+    } */}
     private void RaycastDown() {
         var unprojectedNear = Entity.Transform.Position;
         var unprojectedFar = Entity.Transform.Position + new Vector3(0f, -0.2f, 0f);
         var result = simulation.Raycast(unprojectedNear, unprojectedFar);
 
-        if(result.Succeeded) { if (result.Collider != null) jumped = true; }
+        if(result.Succeeded) { if (result.Collider != null) { jumped = true; doneJumping=false; } }
     }
 } }

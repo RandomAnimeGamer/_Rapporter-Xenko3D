@@ -29,6 +29,7 @@ namespace SiliconStudio.DataSerializers
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<RapporterV2.Trigger.TriggerEvent>), typeof(System.Collections.Generic.List<RapporterV2.Trigger.TriggerEvent>), DataSerializerGenericMode.None, false, false, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerEventSerializer), typeof(RapporterV2.Trigger.TriggerEvent), DataSerializerGenericMode.None, false, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_AnimationControllerSerializer), typeof(RapporterV2.Player.AnimationController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_NPCTalkSerializer), typeof(RapporterV2.Player.NPCTalk), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_PlayerControllerSerializer), typeof(RapporterV2.Player.PlayerController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_PlayerInputSerializer), typeof(RapporterV2.Player.PlayerInput), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<SiliconStudio.Xenko.Input.Keys>), typeof(System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>), DataSerializerGenericMode.None, false, false, Profile = "Default")]
@@ -65,6 +66,7 @@ namespace SiliconStudio.DataSerializers
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xa3255dcc, 0x3c9e3f5d, 0x76156847, 0x4968b4c8), typeof(System.Collections.Generic.List<RapporterV2.Trigger.TriggerEvent>), typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<RapporterV2.Trigger.TriggerEvent>)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xec543b3a, 0x96bb5f76, 0x23ae3f6d, 0x497b982f), typeof(RapporterV2.Trigger.TriggerEvent), typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerEventSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x29609120, 0x7fbd9e9e, 0x5a5c9ebf, 0xcf423a0f), typeof(RapporterV2.Player.AnimationController), typeof(SiliconStudio.DataSerializers.RapporterV2Player_AnimationControllerSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x2847fe42, 0x2b7754f1, 0x556a3d07, 0x9421e296), typeof(RapporterV2.Player.NPCTalk), typeof(SiliconStudio.DataSerializers.RapporterV2Player_NPCTalkSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x1924f15e, 0xafa7ecf0, 0xff8c4719, 0x85de4847), typeof(RapporterV2.Player.PlayerController), typeof(SiliconStudio.DataSerializers.RapporterV2Player_PlayerControllerSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xe07e05c6, 0x188dcafa, 0x635ce8ac, 0x090e08d6), typeof(RapporterV2.Player.PlayerInput), typeof(SiliconStudio.DataSerializers.RapporterV2Player_PlayerInputSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd4040867, 0xf10f81e8, 0x8b793bd8, 0xfd612480), typeof(System.Collections.Generic.List<SiliconStudio.Xenko.Input.Keys>), typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<SiliconStudio.Xenko.Input.Keys>)));
@@ -309,6 +311,39 @@ namespace SiliconStudio.DataSerializers
             TimeFactorSerializer.Serialize(ref timeFactor, mode, stream);
             if (mode == ArchiveMode.Deserialize)
                 obj.TimeFactor = timeFactor;
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Player_NPCTalkSerializer : ClassDataSerializer<RapporterV2.Player.NPCTalk>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+		private DataSerializer<System.Boolean> talkToMeSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+			talkToMeSerializer = MemberSerializer<System.Boolean>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref RapporterV2.Player.NPCTalk obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Player.NPCTalk)parentObj;
+
+            talkToMeSerializer.Serialize(ref obj.talkToMe, mode, stream);
 		}
 
 		internal static void ForceGenericInstantiation()

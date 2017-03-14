@@ -134,6 +134,7 @@ Hierarchy:
         - 1c16ce32-59b1-4691-9465-974111982f67
         - 25bc5b70-bc98-4f51-b245-56c77af74122
         - 0ceaf263-3374-437f-9232-ef205569f93d
+        - c66515e6-ebea-403b-8aab-7bf6a5ce7f59
     Parts:
         -   Entity:
                 Id: 0157316b-840c-4bb8-aed8-aaeee66c7b90
@@ -2459,7 +2460,6 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             363dfd50bc1faf4cb198d55bc4959a6c: db7c521d-deb0-4114-829d-3cfb7dd2aa07/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
-                            c157791954b1a97878b9c50ea77acfff: 9eb65c87-9a55-4114-a24f-075eb66bb03d/6f0eab98-4c1d-4331-8bd6-2cb8ac655c6d
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
@@ -2467,8 +2467,6 @@ Hierarchy:
                         Id: 2200887e-b3b3-43f7-a068-6a19d7ecd8e1
                         RotationSpeed: 0.02355
                         RotationAdaptationSpeed: 5.0
-                    e3f466ccb7fa4a4e816d3113bb7c953a: !RapporterV2.Player.WeaponScript,RapporterV2.Game
-                        Id: cc66f4e3-fab7-4e4a-816d-3113bb7c953a
         -   Entity:
                 Id: 4ac16211-9c81-4929-9df1-753678c4eb02
                 Name: Wall0x2x2
@@ -4987,7 +4985,7 @@ Hierarchy:
                     87c25277a58ea44f81710ca69284e1dd: !CharacterComponent
                         Id: 7752c287-8ea5-4fa4-8171-0ca69284e1dd
                         CollisionGroup: KinematicFilter
-                        CanSleep: false
+                        CanSleep: true
                         Restitution: 0.0
                         Friction: 0.5
                         RollingFriction: 0.0
@@ -5012,19 +5010,16 @@ Hierarchy:
                         MouseSensitivity: 100.0
                         Camera: 49a3257d-dfbc-4a64-a8eb-cb4dfe647e67/79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         KeysLeft:
-                            79c1d8abdc0cce2b4221ece447bdec9e: Left
                             0fe771bf0347303773c1aecc0768b5f3: A
                         KeysRight:
-                            c252e2acf9e4758efd9baa879ef896f5: Right
                             924ede849ca80a1141ea7b4cc4c9d2dd: D
                         KeysUp:
-                            643ce2244c48c42beffae7d0a93fcca2: Up
                             84e9bdfa0c56e6e70fb52fb67fdf26c0: W
                         KeysDown:
-                            c710581bbfee7f9dbffa87d8b423a961: Down
                             9861448150847263e1dcce732406e8b4: S
                         KeysJump:
                             599a608840115df62c6ae2cd4c191356: Space
+                            5b19e6e116d73499de1ed6179c177f1d: Z
         -   Entity:
                 Id: 9758b4f8-356a-4443-9a06-4001ccb9e7c4
                 Name: Wall0x2x5
@@ -5268,44 +5263,6 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             db07bec9b88cb84e9f8d6d3511eb10f2: ee8e307a-e2ed-47f6-a74d-913e898eb6d3/c9be07db-8cb8-4eb8-9f8d-6d3511eb10f2
-        -   Entity:
-                Id: 9eb65c87-9a55-4114-a24f-075eb66bb03d
-                Name: SimpleSword
-                Components:
-                    34cb23a94da00de633995e21b5394d17: !TransformComponent
-                        Id: 6f0eab98-4c1d-4331-8bd6-2cb8ac655c6d
-                        Position: {X: 0.085, Y: -0.0748001039, Z: -0.131120056}
-                        Rotation: {X: -0.299146235, Y: 0.0970058143, Z: 0.0305858124, W: 0.9487707}
-                        Scale: {X: 0.02, Y: 0.02, Z: 0.02}
-                        Children: {}
-                    850dd6532f476845aca2a1d9af86ec4a: !ModelComponent
-                        Id: 1e7bae7e-cebd-404b-801d-ce0d24252d50
-                        Model: fadc7dca-97e4-45f1-b08f-ee342f456116:0Rapporter_Assets/SimpleSword
-                        Materials: {}
-                    aa50dfe44a0d6008baf24342e1c4e8ce: !RigidbodyComponent
-                        Id: 053eac94-bfcf-4ad4-acae-21059ff620b1
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        IsKinematic: true
-                        Mass: 1.0
-                        LinearDamping: 0.0
-                        AngularDamping: 0.0
-                        OverrideGravity: false
-                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
-                        NodeName: null
-                        ColliderShapes:
-                            53a14c31181fa3997fb84e5da2694d80: !BoxColliderShapeDesc
-                                Is2D: false
-                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    d9f3cc2858a84c14cd513a4f328f73dc: !RapporterV2.Player.WeaponController,RapporterV2.Game
-                        Id: e9a185c7-563b-49ff-b752-7462477d2d1a
         -   Entity:
                 Id: a1d1566f-c60c-4f3c-a402-9f11250b4487
                 Name: GridBase10x10
@@ -6212,6 +6169,35 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             db07bec9b88cb84e9f8d6d3511eb10f2: 8e712f42-8af0-4b6b-8f06-95ee1d21ab77/c9be07db-8cb8-4eb8-9f8d-6d3511eb10f2
+        -   Entity:
+                Id: c66515e6-ebea-403b-8aab-7bf6a5ce7f59
+                Name: Fairy NPC
+                Components:
+                    696d0b087204f05bf94defc130bfcad1: !TransformComponent
+                        Id: 1be5f707-32fa-4a34-9fb1-3b16a7b290ef
+                        Position: {X: -12.7824936, Y: -0.10292834, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.5, Y: 0.5, Z: 0.5}
+                        Children: {}
+                    7911176fa60131362e693239b1c2c692: !ModelComponent
+                        Id: 3652c8cf-57cd-4229-bb5b-28f770433f80
+                        Model: e8eb8f4e-4fcd-4091-bcbf-490149bf3e19:0Rapporter_Assets/Fairy NPC
+                        Materials: {}
+                    48dcd4c4e5ac97cd71a9e2709ef0d537: !StaticColliderComponent
+                        Id: d3b54629-d222-4cf6-b596-e79671aebced
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            354a5778b792bda2b196aebaa129d396: !CapsuleColliderShapeDesc
+                                Length: 3.0
+                                Radius: 6.0
+                                LocalOffset: {X: 0.0, Y: 3.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: c6eb677a-523f-49ed-80b0-965e3b2ffe28
                 Name: Wall0x2x2

@@ -113,6 +113,7 @@
     <Compile Include="EffectController.cs" />
     <Compile Include="FpsCamera.cs" />
     <Compile Include="Player\AnimationController.cs" />
+    <Compile Include="Player\NPCTalk.cs" />
     <Compile Include="Player\PlayerController.cs" />
     <Compile Include="Player\PlayerInput.cs" />
     <Compile Include="Player\WeaponController.cs" />
