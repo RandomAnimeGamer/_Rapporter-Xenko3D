@@ -116,6 +116,7 @@
     <Compile Include="Player\NPCTalk.cs" />
     <Compile Include="Player\PlayerController.cs" />
     <Compile Include="Player\PlayerInput.cs" />
+    <Compile Include="Player\ScrollText.cs" />
     <Compile Include="Player\WeaponController.cs" />
     <Compile Include="Player\WeaponScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

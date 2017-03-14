@@ -2,7 +2,7 @@
 Id: 1612379e-6ac4-4e96-832d-96da44623dbd
 SerializedVersion: {Xenko: 1.6.1-alpha01}
 Tags: []
-DefaultScene: 7f47b0a4-3430-4e87-aa6d-11964d81c086:MainScene
+DefaultScene: 76c4c59d-6079-492e-9d7a-66d4685e5d04:Forest Scene
 Defaults:
     - !SiliconStudio.Xenko.Graphics.RenderingSettings,SiliconStudio.Xenko.Graphics
         DefaultBackBufferWidth: 1280

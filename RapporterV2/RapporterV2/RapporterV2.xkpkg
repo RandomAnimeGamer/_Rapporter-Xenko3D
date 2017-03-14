@@ -37,4 +37,5 @@ Profiles:
 ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
-RootAssets: []
+RootAssets:
+    - 76c4c59d-6079-492e-9d7a-66d4685e5d04:Forest Scene

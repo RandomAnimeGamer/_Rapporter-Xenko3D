@@ -2,8 +2,35 @@
 Settings:
     Package/SceneSettings:
         7f47b0a4-3430-4e87-aa6d-11964d81c086:
-            CamPosition: {X: -13.273365, Y: 2.88461637, Z: 17.9638443}
-            CamPitchYaw: {X: -0.469523281, Y: 0.123343058}
+            CamPosition: {X: -14.8538866, Y: 2.37612176, Z: 19.18488}
+            CamPitchYaw: {X: -0.129183143, Y: -0.0186143629}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Transform
+            NavigationVisible: true
+            NavigationWireframes: true
+        6c242f2e-abaa-47f6-88e2-9e17443dda96:
+            CamPosition: {X: 9.795611, Y: 8.27769852, Z: 12.1160984}
+            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -27,8 +54,63 @@ Settings:
             HiddenGizmos:
                 - Physics
                 - Transform
-            NavigationVisible: true
-            NavigationWireframes: true
+            NavigationVisible: false
+            NavigationWireframes: false
+        2964ed07-9a1e-4ee9-a691-5bc9ab05b429:
+            CamPosition: {X: 4.0, Y: 4.0, Z: 4.0}
+            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        76c4c59d-6079-492e-9d7a-66d4685e5d04:
+            CamPosition: {X: -36.61261, Y: 6.984684, Z: 8.683646}
+            CamPitchYaw: {X: -0.1819832, Y: 5.47308254}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
     Templates/ModelFromFile/DefaultSkeleton: 00000000-0000-0000-0000-000000000000
     Templates/ModelFromFile/ImportMaterials: true
     Templates/ModelFromFile/ImportSkeleton: true

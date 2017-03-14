@@ -29,11 +29,11 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public override void Start() { simulation = this.GetSimulation(); }
     
     public override void Update() { { //Character movement
-        var jumpForce = 0;
+        float jumpForce = 0;
         RaycastDown();
         if(KeysJump.Any(key => Input.IsKeyDown(key)) && jumped) { jumpForce = 5; jumped = false; doneJumping=false; }
         if(!doneJumping&&!jumped) { jumpCount++; jumpForce=5; if(jumpCount==7) { doneJumping=true; jumpCount=0; } }
-        if(doneJumping) jumpForce=-2;
+        if(doneJumping) jumpForce=-0.2f;
 
         var moveDirection = Vector2.Zero;
         if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX;

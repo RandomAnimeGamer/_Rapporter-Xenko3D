@@ -23,6 +23,7 @@ namespace SiliconStudio.Core.Serialization.Serializers
 namespace SiliconStudio.DataSerializers
 {
     // Assembly attributes that defines supported serializer (only generics one so that other assemblies can do generic instantiations by themselves)
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Player_ScrollTextSerializer), typeof(Player.ScrollText), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_FpsCameraSerializer), typeof(RapporterV2.FpsCamera), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_TriggerScriptSerializer), typeof(RapporterV2.TriggerScript), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerGroupSerializer), typeof(RapporterV2.Trigger.TriggerGroup), DataSerializerGenericMode.None, false, true, Profile = "Default")]
@@ -60,6 +61,7 @@ namespace SiliconStudio.DataSerializers
 				var assemblySerializersProfile = new AssemblySerializersPerProfile();
 				assemblySerializers.Profiles["Default"] = assemblySerializersProfile;
 
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb41fac00, 0xe398770f, 0x16cb5995, 0x9ec41c96), typeof(Player.ScrollText), typeof(SiliconStudio.DataSerializers.Player_ScrollTextSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb561e011, 0xc6fcfefa, 0xe33fcc13, 0x5d12644b), typeof(RapporterV2.FpsCamera), typeof(SiliconStudio.DataSerializers.RapporterV2_FpsCameraSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x3c939d77, 0xf13b65c6, 0x61d39e7a, 0x4a8618cc), typeof(RapporterV2.TriggerScript), typeof(SiliconStudio.DataSerializers.RapporterV2_TriggerScriptSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x28d24634, 0xd72d3da2, 0xf58b93bb, 0xe8172d32), typeof(RapporterV2.Trigger.TriggerGroup), typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerGroupSerializer)));
@@ -97,6 +99,41 @@ namespace SiliconStudio.DataSerializers
 }
 
 
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class Player_ScrollTextSerializer : ClassDataSerializer<Player.ScrollText>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<SiliconStudio.Core.Mathematics.Vector3> startAtSerializer;
+		private DataSerializer<SiliconStudio.Core.Mathematics.Vector3> stopAtSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+			startAtSerializer = MemberSerializer<SiliconStudio.Core.Mathematics.Vector3>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref Player.ScrollText obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (Player.ScrollText)parentObj;
+
+            startAtSerializer.Serialize(ref obj.startAt, mode, stream);
+            startAtSerializer.Serialize(ref obj.stopAt, mode, stream);
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
 
 namespace SiliconStudio.DataSerializers
 {

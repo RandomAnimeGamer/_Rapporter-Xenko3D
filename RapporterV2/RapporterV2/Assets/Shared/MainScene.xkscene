@@ -2460,6 +2460,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             363dfd50bc1faf4cb198d55bc4959a6c: db7c521d-deb0-4114-829d-3cfb7dd2aa07/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
+                            0d7a224a44f619910c4523c84b2f1f5b: f0943def-e0f0-4f42-a94d-24c1977083d6/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
@@ -5719,6 +5720,31 @@ Hierarchy:
                 BasePartAsset: 210b86d1-bad9-4d35-a864-43f618a77c9f:BlocksPrefabs/Box3x1x1
                 BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
                 InstanceId: d7263b43-ec60-4832-ae58-e472c90be77d
+        -   Folder: 
+            Entity:
+                Id: ac54e0f9-c96a-4e05-abe3-b37ffb4f23ee
+                Name: collider
+                Components:
+                    2f2b87d1fde4b63a0e76598903a2c945: !TransformComponent
+                        Id: 51c2782d-3fb8-4b37-8b6b-809ed2537714
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9dbefdd4799b0e402c46ada196ecb599: !StaticColliderComponent
+                        Id: d3d6b3f5-b3f7-40f4-bcc2-9127289aed4b
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            902b9b3aefa2aa166b9799aee056fee5: !SphereColliderShapeDesc
+                                Is2D: false
+                                Radius: 1.5
+                                LocalOffset: {X: 0.0, Y: 3.0, Z: 0.0}
         -   Entity:
                 Id: ad427ca1-3f6c-4f89-8f40-6999ec04b7c9
                 Name: Wall0x2x5Window
@@ -6178,7 +6204,8 @@ Hierarchy:
                         Position: {X: -12.7824936, Y: -0.10292834, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.5, Y: 0.5, Z: 0.5}
-                        Children: {}
+                        Children:
+                            acc7599510493a1a823ea4a177ada6c7: ac54e0f9-c96a-4e05-abe3-b37ffb4f23ee/51c2782d-3fb8-4b37-8b6b-809ed2537714
                     7911176fa60131362e693239b1c2c692: !ModelComponent
                         Id: 3652c8cf-57cd-4229-bb5b-28f770433f80
                         Model: e8eb8f4e-4fcd-4091-bcbf-490149bf3e19:0Rapporter_Assets/Fairy NPC
@@ -7257,6 +7284,23 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             c444819e77a60441a6144bd7bd8a4a23: a5c3dc1b-7abf-4fb1-b947-fd16a1e142ff/9e8144c4-a677-4104-a614-4bd7bd8a4a23
+        -   Folder: 
+            Entity:
+                Id: f0943def-e0f0-4f42-a94d-24c1977083d6
+                Name: TextBox
+                Components:
+                    5d078a23bd86614fa7a7e61e1900b6b2: !TransformComponent
+                        Id: b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
+                        Position: {X: 0.0, Y: -0.028, Z: -0.122}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.012, Y: 0.005, Z: 0.01}
+                        Children: {}
+                    e4382f7d901618ef150bc3064e9e439f: !SpriteComponent
+                        Id: 91bf69da-2362-468f-931d-40c7efc4c514
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 8c7db67c-457c-438b-aab8-49ab866b5c7b:0Rapporter_Assets/TextBox
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         -   Entity:
                 Id: f1bf040d-7b6b-4f88-86a7-df4c15ee7713
                 Name: Wall0x2x5
