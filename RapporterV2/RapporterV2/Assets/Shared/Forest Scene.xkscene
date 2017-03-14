@@ -32,33 +32,7 @@ SceneSettings:
             Renderers:
                 d13ab0aa37e1f6428504650b9881767d: !SceneEffectRenderer
                     Input: !ImageEffectRendererInput.LayerInput {}
-                    Effect: !PostProcessingEffects
-                        Camera:
-                            Index: 0
-                        AmbientOcclusion:
-                            Enabled: false
-                        DepthOfField:
-                            Enabled: false
-                            DOFAreas: {X: 0.5, Y: 6.0, Z: 50.0, W: 200.0}
-                        BrightFilter:
-                            Color: {R: 1.0, G: 1.0, B: 1.0}
-                        Bloom:
-                            Distortion: {X: 1.0, Y: 1.0}
-                            Afterimage:
-                                Enabled: false
-                        LightStreak:
-                            Attenuation: 0.7
-                        LensFlare: {}
-                        ColorTransforms:
-                            Transforms:
-                                bc00954153e63a428044431fab00a364: !ToneMap
-                                    Operator: !ToneMapHejl2Operator {}
-                                8b44981055b3fd47a403376d66d2b86b: !FilmGrain
-                                    Enabled: false
-                                a73316aed74ee5458222d974aabf74f9: !Vignetting
-                                    Enabled: false
-                                    Color: {R: 0.0, G: 0.0, B: 0.0}
-                        Antialiasing: !FXAAEffect {}
+                    Effect: null
                     Output: !CurrentRenderFrameProvider {}
     EditorSettings:
         GridColor: {R: 0.7058824, G: 0.7058824, B: 0.7058824}
@@ -99,18 +73,18 @@ SceneSettings:
 Hierarchy:
     RootPartIds:
         - 54ae5828-6e50-4b94-b578-584c4ec71295
-        - 9f48d668-3c89-4bfc-80f0-18ccbd87063e
         - 7449c2da-618d-452f-8a47-259dc253560e
         - b2cf1b01-e35a-4647-9a33-3576cbe499ca
         - 273674c7-a23e-488f-aeaa-7bb0541ad674
+        - 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
+        - 03822c2d-7ea4-44f6-a200-5c06abc99ad5
+        - abf0e468-d54f-4237-92b7-c852eb55dc19
+        - 9f48d668-3c89-4bfc-80f0-18ccbd87063e
         - c091cc5e-59f9-48bf-a45e-d9f6dfac4619
         - 4fd0b937-0925-4c60-b790-4ea7d9422e11
         - 40ebeb44-2e53-4545-b675-908a175b71f4
         - 44f7245d-29ba-430d-bdbd-e230d5f57f49
         - 3d3abc51-6e2f-419b-b44a-ddb52bb5124a
-        - abf0e468-d54f-4237-92b7-c852eb55dc19
-        - 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
-        - 03822c2d-7ea4-44f6-a200-5c06abc99ad5
     Parts:
         -   Entity:
                 Id: 03822c2d-7ea4-44f6-a200-5c06abc99ad5
@@ -118,7 +92,7 @@ Hierarchy:
                 Components:
                     3f055b016ffe47d0ae8665732b7180ac: !TransformComponent
                         Id: f635d28b-86c5-48be-9754-d91af6367d5f
-                        Position: {X: -22.7962189, Y: 0.5945625, Z: 18.8110027}
+                        Position: {X: -22.7962189, Y: 0.189635009, Z: 18.8110027}
                         Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -138,12 +112,12 @@ Hierarchy:
                                 CurrentTime: 0:00:00:00.0000000
         -   Entity:
                 Id: 08dc62c7-0920-4a91-96bd-4e9281abc869
-                Name: Tree1 (17)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -2.4808104, Y: 0.0, Z: -2.35501838}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -168,12 +142,12 @@ Hierarchy:
                 InstanceId: 072423d1-9a5e-410f-ad0f-a92e42f88d64
         -   Entity:
                 Id: 0b174730-5307-4b06-bb0c-121a0308804b
-                Name: Tree1 (25)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -1.99388289, Y: 0.0, Z: 8.415627}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -198,7 +172,7 @@ Hierarchy:
                 InstanceId: c2570ca1-2f15-4f17-9867-13ad37c14453
         -   Entity:
                 Id: 0b24f720-919c-4cd5-822c-15fc2b3fcdad
-                Name: Tree1 (18)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -228,12 +202,12 @@ Hierarchy:
                 InstanceId: 5aebff08-6497-4d3f-acd3-4807289ad49f
         -   Entity:
                 Id: 0b991944-2abc-4288-bedf-4f6340739f50
-                Name: Tree1 (13)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 2.51460314, Y: 0.0, Z: -4.830532}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -258,7 +232,7 @@ Hierarchy:
                 InstanceId: b21be4c2-3023-4133-9eb8-fbd3f0c7cef3
         -   Entity:
                 Id: 0be28bb5-7fd7-40e2-88ab-6a29c763ee50
-                Name: Tree1 (28)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -288,7 +262,7 @@ Hierarchy:
                 InstanceId: 3cade64a-f7cb-4ff3-a2ff-d739836b1197
         -   Entity:
                 Id: 0c3ba891-af1e-455f-94fc-15813ea099ab
-                Name: Tree1 (33)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -318,7 +292,7 @@ Hierarchy:
                 InstanceId: b84baa9b-2d9c-4c7e-b3d1-63f97b0ad677
         -   Entity:
                 Id: 10749eeb-514e-4f5c-b092-c0f850d7c6da
-                Name: Tree1 (7)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -348,7 +322,7 @@ Hierarchy:
                 InstanceId: 23e236da-4a8f-45c6-a995-34a3484c68ce
         -   Entity:
                 Id: 10ae5444-6970-43cb-952a-d175c1ee5a99
-                Name: Tree1 (2)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -378,7 +352,7 @@ Hierarchy:
                 InstanceId: 57d25e6a-b2ec-463d-9322-78f7bd5df532
         -   Entity:
                 Id: 13734b12-ffe7-434c-882a-e293d051e0e0
-                Name: Tree1 (24)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -408,7 +382,7 @@ Hierarchy:
                 InstanceId: a8032e30-a0f9-4183-b2e1-838220120607
         -   Entity:
                 Id: 1501d3be-c287-4fa3-97d1-436d44b29d2a
-                Name: Tree1 (12)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -438,12 +412,12 @@ Hierarchy:
                 InstanceId: 4beaa5a9-759a-4c9c-a681-837ef275539a
         -   Entity:
                 Id: 19648355-bb7e-4ee7-800b-2bf910c4dbfe
-                Name: Tree1 (9)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 6.131133, Y: 0.0, Z: -1.79302609}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -468,7 +442,7 @@ Hierarchy:
                 InstanceId: 97ba839e-413a-4b59-ac7b-64ce5c2b6ab2
         -   Entity:
                 Id: 19c20f7c-baca-4a5f-8aea-5107d36eadb4
-                Name: Tree1 (32)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -498,12 +472,12 @@ Hierarchy:
                 InstanceId: b28f7b71-a48f-4535-bf4e-9b7430cfbfe9
         -   Entity:
                 Id: 1a0b0037-e2d7-4862-90d8-3bc4cd95aff3
-                Name: Tree1 (10)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 5.613058, Y: 0.0, Z: -2.943666}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -559,7 +533,7 @@ Hierarchy:
                 InstanceId: 399d0f26-0b99-47c2-a80b-7d328dca08a5
         -   Entity:
                 Id: 1d7ccf02-838a-47bb-9c6f-e684f4d1fc96
-                Name: Tree1 (2)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -589,7 +563,7 @@ Hierarchy:
                 InstanceId: 00a4dfc5-b2f7-4d3d-84b2-2909a4c5f240
         -   Entity:
                 Id: 1e69a65f-d404-4458-bb2f-1aa4d99602d8
-                Name: Tree1 (25)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -623,10 +597,11 @@ Hierarchy:
                 Components:
                     176f4beabf990db15b5ed24f7d0d244e: !TransformComponent
                         Id: 84158005-66b7-42ef-b78a-8e9b614a7c11
-                        Position: {X: -17.5638237, Y: 0.0, Z: -7.191139}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Position: {X: -27.2250957, Y: -0.02, Z: 0.15}
+                        Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
                         Scale: {X: 0.2, Y: 0.2, Z: 0.2}
-                        Children: {}
+                        Children:
+                            5497a87f594f7fc305642e53188bf414: 94131ce5-8fa3-41cc-a327-4e11e1450ace/712c6eaf-42f4-4719-a4f8-74f1234e9236
                     260da84b0a356e77eb5978122637939c: !ModelComponent
                         Id: 330cf175-b42c-49db-9bb9-c7d3268613b4
                         Model: a4ccee5f-3d9a-44aa-a2a2-62a22ecd786b:0Rapporter_Assets/Characters/NPC1 - Rigged
@@ -641,9 +616,26 @@ Hierarchy:
                                 RepeatMode: LoopInfinite
                                 BlendOperation: LinearBlend
                                 CurrentTime: 0:00:00:00.0000000
+                    1e0d3f28632ed214fd6e22ccb84b7d1a: !StaticColliderComponent
+                        Id: 8c93cc2c-3f61-4522-a20a-79d01649acea
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            03f976b6bd68ecf5ba6d85c145491578: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 15.0, Z: 25.0}
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 5.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    d3fc23a30be9bda4898c86539c507234: !RapporterV2.Player.NPCTalk,RapporterV2.Game
+                        Id: 317b64ac-39cb-4986-b4ee-4469d3e283cc
         -   Entity:
                 Id: 1fe9fdf3-0918-4b82-88dd-96f8f357ea5d
-                Name: Tree1 (10)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -673,7 +665,7 @@ Hierarchy:
                 InstanceId: a61ceb94-af32-404b-bd70-8dddde7e85e1
         -   Entity:
                 Id: 2437881a-a76e-47cd-a1a0-5447f88c61b9
-                Name: Tree1 (4)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -715,19 +707,19 @@ Hierarchy:
                     4198cc1d926fd047a67ae5f4f8bb2804: !SkyboxComponent
                         Id: 1dcc9841-6f92-47d0-a67a-e5f4f8bb2804
                         Skybox: b875f418-c603-4935-a4a0-2b56d32690fe:Skybox
-                        Intensity: 3.0
+                        Intensity: 0.5
                     ac01fe8ecaadef41b216daac5718fc50: !LightComponent
                         Id: 8efe01ac-adca-41ef-b216-daac5718fc50
                         Type: !LightSkybox {}
-                        Intensity: 0.25
+                        Intensity: 0.05
         -   Entity:
                 Id: 2a120333-d140-41af-ad2e-a44961a1c388
-                Name: Tree1 (12)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 3.74675536, Y: 0.0, Z: -4.830532}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -752,7 +744,7 @@ Hierarchy:
                 InstanceId: d685b96b-137c-44eb-b0af-47cd0717aa11
         -   Entity:
                 Id: 2b15ba9a-ba36-4e03-b361-619cc726956a
-                Name: Tree1 (2)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -782,7 +774,7 @@ Hierarchy:
                 InstanceId: 86c9f052-7f05-4f13-98c3-3154a12c71bc
         -   Entity:
                 Id: 2e8281a3-ff14-4b24-ab65-344ec8bdbea7
-                Name: Tree1 (7)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -843,7 +835,7 @@ Hierarchy:
                 InstanceId: 423e0970-8470-4a5e-93b7-286758b12b3c
         -   Entity:
                 Id: 32793ca8-e740-4c1b-944d-6537fea47682
-                Name: Tree1 (5)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -873,7 +865,7 @@ Hierarchy:
                 InstanceId: e78b80d1-3741-4e84-9aba-5b8e1acaab57
         -   Entity:
                 Id: 36bc8c6c-e8fc-478c-b2a0-2ee48e91d66e
-                Name: Tree1 (22)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -903,7 +895,7 @@ Hierarchy:
                 InstanceId: 989f7969-290a-414e-a6ae-c4e26d77eb41
         -   Entity:
                 Id: 37a36822-96a5-4c80-b47e-0ab80315f803
-                Name: Tree1 (33)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -933,7 +925,7 @@ Hierarchy:
                 InstanceId: ca601551-a16e-4272-af41-415001afc44f
         -   Entity:
                 Id: 3abea64d-4a0d-4ae7-beaf-5b8daca5622f
-                Name: Tree1 (18)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -963,12 +955,12 @@ Hierarchy:
                 InstanceId: fb539fd4-5d35-43ca-b553-ab4e1b5c1afe
         -   Entity:
                 Id: 3af47c11-d7f9-4614-954f-88e400ece295
-                Name: Tree1 (29)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 1.89042652, Y: 0.0, Z: 9.73889}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -993,12 +985,12 @@ Hierarchy:
                 InstanceId: a9e52855-c683-4c7b-baac-53ccf0ddd01e
         -   Entity:
                 Id: 3cc3c7d1-2eb6-4b32-ba59-60f7c317980d
-                Name: Tree1 (16)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -1.41547632, Y: 0.0, Z: -3.659212}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -1021,7 +1013,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 99dd8e75-df5b-411b-82b1-9df834dcd054
-        -   Folder: 
+        -   Folder: Trees
             Entity:
                 Id: 3d3abc51-6e2f-419b-b44a-ddb52bb5124a
                 Name: Forest Trees 5
@@ -1060,7 +1052,7 @@ Hierarchy:
                             7f3cb9712420fee51357b1797261f193: 82f6b68e-f7c7-459f-beca-5cab8d81cc2b/6c1be2da-4214-4d32-a6a5-65732f80fd02
         -   Entity:
                 Id: 3de4042d-a663-451a-a6b7-8bda35d7b143
-                Name: Tree1 (6)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1088,7 +1080,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 24aa7a89-d1f6-4a46-882b-b56cef2f0308
-        -   Folder: 
+        -   Folder: Trees
             Entity:
                 Id: 40ebeb44-2e53-4545-b675-908a175b71f4
                 Name: Forest Trees3
@@ -1117,7 +1109,7 @@ Hierarchy:
                             c02c9ecc8f998dbac9908f5be4e6f5f0: af990570-7dd3-49e8-8f26-c29b6d30b7ed/6c1be2da-4214-4d32-a6a5-65732f80fd02
         -   Entity:
                 Id: 43689f53-ff68-4fe4-91dc-5ea930d27f86
-                Name: Tree1 (13)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1145,7 +1137,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: a2ce7822-5b96-4056-8c6e-f7f9e42639e9
-        -   Folder: 
+        -   Folder: Trees
             Entity:
                 Id: 44f7245d-29ba-430d-bdbd-e230d5f57f49
                 Name: Forest Trees 4
@@ -1191,12 +1183,12 @@ Hierarchy:
                             e072c59e16f21eb2d9ddc75237f321df: 97b14324-5a1a-4608-a811-134e701c758b/6c1be2da-4214-4d32-a6a5-65732f80fd02
         -   Entity:
                 Id: 4664c86a-748c-41b5-825f-81da008a3df2
-                Name: Tree1 (30)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 3.47187161, Y: 0.0, Z: 9.73889}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -1221,7 +1213,7 @@ Hierarchy:
                 InstanceId: 5074a077-0e09-4ee3-8f20-2adc85a167c8
         -   Entity:
                 Id: 4a521f88-8ca6-4dd2-8130-9c863830e50b
-                Name: Tree1 (21)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1251,7 +1243,7 @@ Hierarchy:
                 InstanceId: 3eeac97f-31fd-4cdd-806a-2d110d28a45f
         -   Entity:
                 Id: 4d8860fb-abf4-484c-a221-964781fdd6a5
-                Name: Tree1 (32)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1281,12 +1273,12 @@ Hierarchy:
                 InstanceId: 72eb5f4f-ced8-4173-91b8-2903462c8430
         -   Entity:
                 Id: 4df5884d-1e96-437d-966d-fba34c99c9c5
-                Name: Tree1 (21)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -4.977425, Y: 0.0, Z: 3.76773214}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -1309,7 +1301,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 495c2121-0c5e-4517-8ae4-7e6ed5ee5c56
-        -   Entity:
+        -   Folder: Trees
+            Entity:
                 Id: 4fd0b937-0925-4c60-b790-4ea7d9422e11
                 Name: Forest Trees2
                 Components:
@@ -1347,13 +1340,29 @@ Hierarchy:
                             a8bd11816c75aa91a4b8bc76fe9c3c5a: c8775831-23c6-4774-a41c-8d81b9f7d04e/6c1be2da-4214-4d32-a6a5-65732f80fd02
                             edf3dea8eade234f1ea0af7339f6ab24: 9a6554aa-2075-458f-82b3-78f9ca06172b/6c1be2da-4214-4d32-a6a5-65732f80fd02
                             8b356696458fe7f3f2956bff69aea650: 66960cc4-88e5-4031-889f-f4b856f65cf1/6c1be2da-4214-4d32-a6a5-65732f80fd02
-        -   Entity:
+        -   Folder: 
+            Entity:
+                Id: 50df4ae6-9eed-451a-a8ff-71651d2303ac
+                Name: SimpleSword
+                Components:
+                    c8f45a57ec5ab706e8e5ebfd1b02e532: !TransformComponent
+                        Id: 080642a3-3b14-4605-9c88-4236796a9622
+                        Position: {X: 0.1, Y: -0.05, Z: -0.11}
+                        Rotation: {X: -0.08682408, Y: 0.00759612443, Z: 0.08682408, W: 0.9924039}
+                        Scale: {X: 0.01, Y: 0.01, Z: 0.01}
+                        Children: {}
+                    43e6cf26177dc823cf6a49b0c87f7da7: !ModelComponent
+                        Id: e917707f-7f00-4951-8fd3-2e9aa64e4f6e
+                        Model: fadc7dca-97e4-45f1-b08f-ee342f456116:0Rapporter_Assets/SimpleSword
+                        Materials: {}
+        -   Folder: 
+            Entity:
                 Id: 54ae5828-6e50-4b94-b578-584c4ec71295
                 Name: PlayerCharacter
                 Components:
                     458ac2590f953f4fb47242e21b3e420f: !TransformComponent
                         Id: 59c28a45-950f-4f3f-b472-42e21b3e420f
-                        Position: {X: -32.66364, Y: 2.623771, Z: 0.150197029}
+                        Position: {X: -37.9699249, Y: 2.623771, Z: 0.150197029}
                         Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -1398,7 +1407,7 @@ Hierarchy:
                             5b19e6e116d73499de1ed6179c177f1d: Z
         -   Entity:
                 Id: 54faa231-cf60-4977-b438-4d1ef46b4d56
-                Name: Tree1 (19)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1428,12 +1437,12 @@ Hierarchy:
                 InstanceId: efc753f1-b25d-420c-aaa6-b5b4975d5b53
         -   Entity:
                 Id: 576c17be-e6dc-43cd-8baa-1013cd034951
-                Name: Tree1 (32)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -1.41547632, Y: 0.0, Z: -5.12167931}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -1458,12 +1467,12 @@ Hierarchy:
                 InstanceId: c319adf6-ea7e-4a57-b27b-847c20b3e50b
         -   Entity:
                 Id: 58fedc75-1d9e-4b0f-9082-6e4b12726879
-                Name: Tree1 (11)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 4.926602, Y: 0.0, Z: -4.136733}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -1488,7 +1497,7 @@ Hierarchy:
                 InstanceId: 059d11b0-2792-4d54-b5b6-248222db5bf5
         -   Entity:
                 Id: 5a06da39-ccd7-4a67-9c91-d8f1487e53cb
-                Name: Tree1 (17)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1549,12 +1558,12 @@ Hierarchy:
                 InstanceId: 36d6046a-0fa5-4b58-9d9f-7773b15fd0db
         -   Entity:
                 Id: 5c9cae7e-3f2e-4c43-a202-f7add698f72b
-                Name: Tree1 (20)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -5.92616034, Y: 0.0, Z: 2.37511158}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -1579,7 +1588,7 @@ Hierarchy:
                 InstanceId: f3332b97-9ee2-4511-af42-32833f0469cc
         -   Entity:
                 Id: 5cf262ca-9cd5-4a94-9bc8-032e797e24d8
-                Name: Tree1 (12)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1609,7 +1618,7 @@ Hierarchy:
                 InstanceId: 56270d28-7f09-4580-86b6-d8aa729701b1
         -   Entity:
                 Id: 5fe9e0fe-71ac-45d9-a949-32f70d245007
-                Name: Tree1 (25)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1639,7 +1648,7 @@ Hierarchy:
                 InstanceId: effe7cab-c38b-4945-a057-70bf185e9df6
         -   Entity:
                 Id: 60621952-3f49-4b47-85a6-c1d8fe888f8c
-                Name: Tree1 (10)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1669,7 +1678,7 @@ Hierarchy:
                 InstanceId: 27e36814-d692-4a8e-b231-34b28fd13e6d
         -   Entity:
                 Id: 647784f5-8488-4db8-b268-4395f6387f06
-                Name: Tree1 (15)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1697,9 +1706,28 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: c5ce81d0-46f9-4b32-9e58-22ca0d75e96e
+        -   Folder: 
+            Entity:
+                Id: 64b7072e-9801-4186-8af4-afc367c6386e
+                Name: TextBoxText
+                Components:
+                    589d3ebde8d8b6c7a47160bba1b3beee: !TransformComponent
+                        Id: 086904d1-6b27-4517-a07d-9cbf2e386a5f
+                        Position: {X: 0.0, Y: -0.078, Z: -0.122}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.01, Y: 0.01, Z: 0.01}
+                        Children: {}
+                    0350fefadcb9d18ce5b294eb0ad720a1: !SpriteComponent
+                        Id: dee65dc6-4801-4cc0-8ff1-843513c9f999
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: f4757f19-94da-4490-b7aa-a0be48789fae:0Rapporter_Assets/TextBoxText
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    a54ecd264f008cca382be5bd2f26fb5c: !RapporterV2.Player.ScrollTextText,RapporterV2.Game
+                        Id: 9b71e6d1-2d29-46c8-96fa-574c49382c65
         -   Entity:
                 Id: 66960cc4-88e5-4031-889f-f4b856f65cf1
-                Name: Tree1 (17)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1729,7 +1757,7 @@ Hierarchy:
                 InstanceId: 7bc9ddd4-a340-4497-a487-2167edbaddd2
         -   Entity:
                 Id: 683ae1d6-7fb4-437c-97c6-320b0a90ec25
-                Name: Tree1 (6)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1759,7 +1787,7 @@ Hierarchy:
                 InstanceId: 602a604f-12d7-4e81-bd05-629797b84a2a
         -   Entity:
                 Id: 68fa96cb-a6b7-43b5-8b63-48d862f392ff
-                Name: Tree1 (3)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1789,7 +1817,7 @@ Hierarchy:
                 InstanceId: 395146e0-7ce0-4d4d-beed-4d7604a26667
         -   Entity:
                 Id: 6baa7821-20d6-456c-aa21-8de6404b9698
-                Name: Tree1 (20)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1819,12 +1847,12 @@ Hierarchy:
                 InstanceId: 04c95f0e-6cc1-4b10-ac82-54a1540232e7
         -   Entity:
                 Id: 6c8e8e99-1201-401f-94cf-444c04fea3c5
-                Name: Tree1 (27)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -1.27506971, Y: 0.0, Z: 11.0849829}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -1849,7 +1877,7 @@ Hierarchy:
                 InstanceId: 9201f9c9-b270-4ef3-8537-56dfbb9933cc
         -   Entity:
                 Id: 6ce71fe3-3c6a-4557-9784-c585ca33838b
-                Name: Tree1 (3)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1879,7 +1907,7 @@ Hierarchy:
                 InstanceId: dd7f2c83-3037-47d2-8bdf-394032c48d58
         -   Entity:
                 Id: 6d64d0fd-7158-42f9-be51-7044a7bfe53b
-                Name: Tree1 (6)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1909,7 +1937,7 @@ Hierarchy:
                 InstanceId: 480a5f6c-ded5-448d-b446-2a959c77725d
         -   Entity:
                 Id: 6f60f800-5d40-4bc3-987d-d39b6adf95a3
-                Name: Tree1 (29)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1939,7 +1967,7 @@ Hierarchy:
                 InstanceId: 7221e767-7fd2-46f4-9d6a-5901f27ebe6f
         -   Entity:
                 Id: 6fa793c4-bc89-4a8a-af64-e0ff6c61e4a6
-                Name: Tree1 (13)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1969,7 +1997,7 @@ Hierarchy:
                 InstanceId: 0551bac8-61a1-4d8f-bc05-a0e3bb333648
         -   Entity:
                 Id: 70eac616-38bd-4f14-a8fb-89217d423db6
-                Name: Tree1 (19)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -1999,12 +2027,12 @@ Hierarchy:
                 InstanceId: 7858be7b-954d-4e95-ab51-51e8d28d2382
         -   Entity:
                 Id: 7419871e-0b6b-4646-bdd9-fb7a689f162a
-                Name: Tree1 (19)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -4.76774, Y: 0.0, Z: -0.855195165}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -2043,14 +2071,15 @@ Hierarchy:
                         Type: !LightAmbient
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
+                        Intensity: 0.1
         -   Entity:
                 Id: 75550bac-19ae-48ee-8c9b-e63516fce62a
-                Name: Tree1 (24)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -2.775054, Y: 0.0, Z: 6.867683}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -2075,7 +2104,7 @@ Hierarchy:
                 InstanceId: 6b2e9ad4-1c33-4ca8-84ab-ddfce8b1169d
         -   Entity:
                 Id: 7609c85f-4789-4560-a67b-af4b18aa6ed5
-                Name: Tree1 (4)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2105,7 +2134,7 @@ Hierarchy:
                 InstanceId: 3cbf63f8-161a-40ad-a3ce-adab3e9e2adf
         -   Entity:
                 Id: 76740e35-0f2e-4259-aec8-092c700b7df8
-                Name: Tree1 (19)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2166,7 +2195,7 @@ Hierarchy:
                 InstanceId: 8a3fafdb-6281-418e-8288-2fc7d6533ea6
         -   Entity:
                 Id: 79ad2cea-1cc9-4688-8396-1c3f897892f8
-                Name: Tree1 (7)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2196,7 +2225,7 @@ Hierarchy:
                 InstanceId: 6595290a-2c59-4430-bf4b-820b23d0b8eb
         -   Entity:
                 Id: 7b47b753-dc1c-4524-974a-373d17fc80f6
-                Name: Tree1 (15)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2226,12 +2255,12 @@ Hierarchy:
                 InstanceId: 748efebb-debe-4454-887a-ec701b0efe60
         -   Entity:
                 Id: 7c6b2d19-f8f3-4348-9afe-937240788f24
-                Name: Tree1 (33)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -2.695396, Y: 0.0, Z: -5.883311}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -2256,7 +2285,7 @@ Hierarchy:
                 InstanceId: f301d5d2-5391-4bca-8b7a-31e57580fe29
         -   Entity:
                 Id: 7d394180-457c-4391-9821-dbde4896f03f
-                Name: Tree1 (2)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2286,7 +2315,7 @@ Hierarchy:
                 InstanceId: 2db9fa3f-d9ae-4aaf-a3a4-fd694bbd07c2
         -   Entity:
                 Id: 7fd53303-b286-4b47-ba68-ff31e5eeef67
-                Name: Tree1 (11)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2316,7 +2345,7 @@ Hierarchy:
                 InstanceId: d08e550d-39fd-4266-8f66-f1c90df4bbe7
         -   Entity:
                 Id: 82f6b68e-f7c7-459f-beca-5cab8d81cc2b
-                Name: Tree1 (16)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2346,12 +2375,12 @@ Hierarchy:
                 InstanceId: 01374568-a53b-4ae0-b285-2ca37f369647
         -   Entity:
                 Id: 8521dd36-607e-4b1e-86b5-4e3e3b885645
-                Name: Tree1 (7)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 6.168857, Y: 0.0, Z: 6.74702168}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -2376,7 +2405,7 @@ Hierarchy:
                 InstanceId: 13644bef-e52a-412b-84fc-3c6ae92642f1
         -   Entity:
                 Id: 85660e4a-4533-4206-a13d-9dbbe7741ded
-                Name: Tree1 (30)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2406,12 +2435,12 @@ Hierarchy:
                 InstanceId: 927f7197-c211-4bc4-85ab-248a3b73f470
         -   Entity:
                 Id: 85f00566-594a-45e5-b19f-aa6ececcaa95
-                Name: Tree1 (8)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 7.02744246, Y: 0.0, Z: -0.5041467}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -2436,7 +2465,7 @@ Hierarchy:
                 InstanceId: adeeef0d-387d-4815-8cc5-cc5a67127579
         -   Entity:
                 Id: 87bce4a9-8dfd-4bc4-ba45-a0e78298cec9
-                Name: Tree1 (3)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2466,7 +2495,7 @@ Hierarchy:
                 InstanceId: d714795c-c513-4f1c-83be-7c220b7f9f4b
         -   Entity:
                 Id: 896595ed-e7ae-4d67-b910-61a9b728d70e
-                Name: Tree1 (9)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2496,7 +2525,7 @@ Hierarchy:
                 InstanceId: 50d2a617-2023-4fc4-8ae1-2d776f2ed1e5
         -   Entity:
                 Id: 8a9bc222-e843-4d8e-aefa-372b7138ec0d
-                Name: Tree1 (5)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2526,7 +2555,7 @@ Hierarchy:
                 InstanceId: 300c7afa-c16b-48cc-93b1-cc82deb4c978
         -   Entity:
                 Id: 8abb099a-cb84-4d13-9558-d4a10e67a254
-                Name: Tree1 (12)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2556,7 +2585,7 @@ Hierarchy:
                 InstanceId: 8235d954-8f1a-4397-8940-679b8a9e2506
         -   Entity:
                 Id: 8c7380ed-4c6f-4a1a-be1e-f622523673c9
-                Name: Tree1 (13)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2586,12 +2615,12 @@ Hierarchy:
                 InstanceId: 767afeaf-b81d-48de-aca9-1fc57d9666ae
         -   Entity:
                 Id: 8cc96b82-8153-407b-b14e-bd51e08c5780
-                Name: Tree1 (15)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -0.08605349, Y: 0.0, Z: -3.659212}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -2614,9 +2643,35 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8f7c8af3-b017-4b38-aa1c-6185561ad084
+        -   Folder: 
+            Entity:
+                Id: 94131ce5-8fa3-41cc-a327-4e11e1450ace
+                Name: collider
+                Components:
+                    36784c813f4f34e90e76abc962fca878: !TransformComponent
+                        Id: 712c6eaf-42f4-4719-a4f8-74f1234e9236
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4a0ed7e437bf36adb5228b410d93af5a: !StaticColliderComponent
+                        Id: d2cdca75-07be-4e4d-aab7-21a472babbb4
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            75d464ed64c1e3f444095db0fa69a13a: !CapsuleColliderShapeDesc
+                                Length: 5.0
+                                Radius: 5.0
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: 94bb9121-6744-4e24-837f-85e2a1d009e3
-                Name: Tree1 (27)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2646,7 +2701,7 @@ Hierarchy:
                 InstanceId: 7a5a000d-6a64-4bd0-b44b-8cf9d81af79b
         -   Entity:
                 Id: 951441db-848d-4ac9-89ee-babe71ad084c
-                Name: Tree1 (28)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2676,7 +2731,7 @@ Hierarchy:
                 InstanceId: e1226b57-63e7-4cd0-a7fd-857e20d80a98
         -   Entity:
                 Id: 95412c05-3752-440e-8817-feb98874309f
-                Name: Tree1 (18)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2706,7 +2761,7 @@ Hierarchy:
                 InstanceId: 8ebebb69-1c22-48e1-b92c-3cab4cfe79c5
         -   Entity:
                 Id: 963f74ce-b4c6-43fc-82fd-e321f6fbb414
-                Name: Tree1 (24)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2736,7 +2791,7 @@ Hierarchy:
                 InstanceId: d9654582-3a0c-441d-836f-7c000e558984
         -   Entity:
                 Id: 97b14324-5a1a-4608-a811-134e701c758b
-                Name: Tree1 (14)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2766,12 +2821,12 @@ Hierarchy:
                 InstanceId: 6a57b01e-51fb-4cb3-a0e3-bda08c3585da
         -   Entity:
                 Id: 97b3de63-e5f1-4415-8326-640922801d09
-                Name: Tree1 (14)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 1.38412416, Y: 0.0, Z: -3.659212}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -2796,7 +2851,7 @@ Hierarchy:
                 InstanceId: a97696f6-de64-4fc8-acda-c8a065488ad2
         -   Entity:
                 Id: 9951e5ce-a0dc-4383-80f6-fa42af8aaf60
-                Name: Tree1 (31)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2826,7 +2881,7 @@ Hierarchy:
                 InstanceId: e67a0413-a1f9-4541-8fd1-2afca2669317
         -   Entity:
                 Id: 9a6554aa-2075-458f-82b3-78f9ca06172b
-                Name: Tree1 (16)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2856,7 +2911,7 @@ Hierarchy:
                 InstanceId: c6367df6-8afa-426c-9e8f-7dc2c5ae1621
         -   Entity:
                 Id: 9ae2ee71-f8ae-4620-a697-eb4b34595ea7
-                Name: Tree1 (26)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2886,7 +2941,7 @@ Hierarchy:
                 InstanceId: 8a1139b9-db5e-4b5e-aaeb-f733b767c950
         -   Entity:
                 Id: 9dbcdf23-c2f5-43f9-aca0-73c451166ff2
-                Name: Tree1 (35)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -2914,7 +2969,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 97782813-df3c-4354-9482-edbb665d1f97
-        -   Entity:
+        -   Folder: 
+            Entity:
                 Id: 9f48d668-3c89-4bfc-80f0-18ccbd87063e
                 Name: GridBase10x10
                 Components:
@@ -2946,12 +3002,12 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: 9fa40ac9-7985-4217-aa33-4a4f4c4bca7a
-                Name: Tree1 (31)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 4.15813828, Y: 0.0, Z: 10.6750765}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -2976,7 +3032,7 @@ Hierarchy:
                 InstanceId: 47c22923-3f6c-4f54-acfe-b2b3ec64da3f
         -   Entity:
                 Id: a0d3d9e9-0623-4e6e-a8e6-9e6074706c23
-                Name: Tree1 (8)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3006,12 +3062,12 @@ Hierarchy:
                 InstanceId: 56734ad9-ce13-41c8-a441-2e7a024c2c92
         -   Entity:
                 Id: a12942f2-2849-4db5-ac97-25b2627d3254
-                Name: Tree1 (26)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -0.850922465, Y: 0.0, Z: 9.533234}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -3045,7 +3101,9 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             363dfd50bc1faf4cb198d55bc4959a6c: decaad78-dacc-4c5c-830b-cc153a9975c1/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
-                            0d7a224a44f619910c4523c84b2f1f5b: cdbc3426-5587-4adb-80ef-24b2f22a873c/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
+                            781c44f00eb28243e4f5ec00ad2e50b6: 64b7072e-9801-4186-8af4-afc367c6386e/086904d1-6b27-4517-a07d-9cbf2e386a5f
+                            dad82773875f3e7cd7b7dc8eb60a98fc: cdbc3426-5587-4adb-80ef-24b2f22a873c/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
+                            28097a95bee916404575756d37490096: 50df4ae6-9eed-451a-a8ff-71651d2303ac/080642a3-3b14-4605-9c88-4236796a9622
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
@@ -3055,7 +3113,7 @@ Hierarchy:
                         RotationAdaptationSpeed: 5.0
         -   Entity:
                 Id: a43386d5-b922-41d6-911d-59fd1741c44a
-                Name: Tree1 (30)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3086,7 +3144,7 @@ Hierarchy:
         -   Folder: 
             Entity:
                 Id: a4f1712b-a173-44cf-a622-732b3bd7931e
-                Name: Tree1 (29)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3147,7 +3205,7 @@ Hierarchy:
                 InstanceId: 15864624-7bd5-4782-94a0-37c4a1b0fcfe
         -   Entity:
                 Id: a8d819a1-ade5-4f66-af34-a69594ac97de
-                Name: Tree1 (25)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3177,7 +3235,7 @@ Hierarchy:
                 InstanceId: 9cbff3cf-c379-428e-a42c-e3a27cd2c117
         -   Entity:
                 Id: ab28383d-0ae8-4961-b430-37711705e8aa
-                Name: Tree1 (21)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3205,7 +3263,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: e3950d76-f34e-4fcd-ab02-86234740821b
-        -   Entity:
+        -   Folder: 
+            Entity:
                 Id: abf0e468-d54f-4237-92b7-c852eb55dc19
                 Name: Demonic Deer - With Crystals
                 Components:
@@ -3219,9 +3278,31 @@ Hierarchy:
                         Id: e8b8cea4-b3bf-4e0e-a8b6-d44b587ce06e
                         Model: c8ec99d9-9f41-43dd-9cf4-acbaedea9eaf:0Rapporter_Assets/Bosses/Demonic Deer - With Crystals
                         Materials: {}
+                    3606b5ddd27e751e912b7f2f8f785a87: !RigidbodyComponent
+                        Id: 68515022-d0c5-4ccb-9394-4c5508319888
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            1d08fde4068e57b47583e2003ac1c4ca: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 8.0, Y: 5.0, Z: 8.0}
+                                LocalOffset: {X: 0.0, Y: 3.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: add5d6f5-cfc4-4ad6-b9e5-999de7644030
-                Name: Tree1 (17)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3251,7 +3332,7 @@ Hierarchy:
                 InstanceId: 044f59d4-b076-4dc7-8e68-6af0a8f91f39
         -   Entity:
                 Id: ae38a5e3-c8d5-4f77-86ac-7e40ff725dcb
-                Name: Tree1 (11)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3281,7 +3362,7 @@ Hierarchy:
                 InstanceId: d0df75dd-3dd9-401a-9592-cbef5112e69d
         -   Entity:
                 Id: af990570-7dd3-49e8-8f26-c29b6d30b7ed
-                Name: Tree1 (7)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3311,12 +3392,12 @@ Hierarchy:
                 InstanceId: f2c05e85-7dfa-4568-a1a3-9e5d770ba525
         -   Entity:
                 Id: b0c81c2f-7fc8-49f1-aaae-5e2973a76428
-                Name: Tree1 (18)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -3.93024921, Y: 0.0, Z: -2.35501838}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -3341,7 +3422,7 @@ Hierarchy:
                 InstanceId: bdedadaa-830b-4eab-ae31-2d57851dae51
         -   Entity:
                 Id: b279498d-bdc7-499d-beab-8d564007d199
-                Name: Tree1 (8)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3393,10 +3474,10 @@ Hierarchy:
                                 DepthRange: {}
                                 PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
                                 BiasParameters: {}
-                        Intensity: 5.0
+                        Intensity: 0.5
         -   Entity:
                 Id: b524da9a-44da-48df-9a00-4ae8090c0050
-                Name: Tree1 (23)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3426,7 +3507,7 @@ Hierarchy:
                 InstanceId: e4319186-5b93-492d-8806-cb7691bc2017
         -   Entity:
                 Id: b91b511d-5ce2-4486-b3c8-6901e3d2734f
-                Name: Tree1 (36)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3456,7 +3537,7 @@ Hierarchy:
                 InstanceId: 3841e9cb-8d9b-49a9-94ab-cdc22d838ac8
         -   Entity:
                 Id: babb2450-460a-4465-9bcf-af0334fbf3e9
-                Name: Tree1 (4)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3486,7 +3567,7 @@ Hierarchy:
                 InstanceId: 2019b0d5-0053-4aeb-b9ea-7874866b17cb
         -   Entity:
                 Id: bae3936a-771e-42d8-9d5f-81695070c7dc
-                Name: Tree1 (22)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3516,7 +3597,7 @@ Hierarchy:
                 InstanceId: 4ecf1489-2a92-4c5d-a910-37e222c4948e
         -   Entity:
                 Id: bbdbf28f-0647-4c62-a569-7dc9a02e0840
-                Name: Tree1 (8)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3546,7 +3627,7 @@ Hierarchy:
                 InstanceId: dc81283b-2101-4d6b-a027-55a9c48ae1ae
         -   Entity:
                 Id: bc353a67-e013-47b2-82fe-1042d52be9fd
-                Name: Tree1 (27)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3576,7 +3657,7 @@ Hierarchy:
                 InstanceId: 2d5cdae4-12c4-45d4-bf2f-6e8ebd2de893
         -   Entity:
                 Id: bd5d068a-ad01-4866-9fba-ac58d5d3a63e
-                Name: Tree1 (23)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3606,7 +3687,7 @@ Hierarchy:
                 InstanceId: 47859978-dba0-4445-ac93-2ec4be1ea9db
         -   Entity:
                 Id: bd83dc04-a01f-47be-b500-69c3395a0c65
-                Name: Tree1 (4)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3636,12 +3717,12 @@ Hierarchy:
                 InstanceId: dcc70a1d-1a55-4390-a587-75248a37f599
         -   Entity:
                 Id: bd8bd1c6-c850-4f6a-8207-d16d4735b740
-                Name: Tree1 (34)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -4.329644, Y: 0.0, Z: -5.883311}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -3664,7 +3745,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: fbabd3ac-675d-490f-93bd-62a6fc523904
-        -   Entity:
+        -   Folder: Trees
+            Entity:
                 Id: c091cc5e-59f9-48bf-a45e-d9f6dfac4619
                 Name: Forest Trees
                 Components:
@@ -3710,7 +3792,7 @@ Hierarchy:
                             b8aa7c28a97bd51a89425a3c71892dd0: 9fa40ac9-7985-4217-aa33-4a4f4c4bca7a/6c1be2da-4214-4d32-a6a5-65732f80fd02
         -   Entity:
                 Id: c27a61b0-3a2e-4c2a-8d8d-363fd64c8727
-                Name: Tree1 (21)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3740,7 +3822,7 @@ Hierarchy:
                 InstanceId: 2bd69441-1390-403f-9017-74f51142856d
         -   Entity:
                 Id: c4be241d-e282-405d-ac80-6574bd3dbbd9
-                Name: Tree1 (9)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3770,7 +3852,7 @@ Hierarchy:
                 InstanceId: e9e1343f-e5ce-4522-ab88-467c89b0f3ab
         -   Entity:
                 Id: c5521808-8db8-4b94-a3a7-c7d42b8f33c5
-                Name: Tree1 (3)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3800,7 +3882,7 @@ Hierarchy:
                 InstanceId: d0dea6c3-314d-46eb-9285-80d6c96d17ce
         -   Entity:
                 Id: c8775831-23c6-4774-a41c-8d81b9f7d04e
-                Name: Tree1 (15)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3830,7 +3912,7 @@ Hierarchy:
                 InstanceId: 407a9cd1-d66a-4f6f-a4a7-ef145e603212
         -   Entity:
                 Id: c971dbdb-6b63-4f6c-b02e-78d7659c787f
-                Name: Tree1 (14)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3860,7 +3942,7 @@ Hierarchy:
                 InstanceId: 8e80f785-f0a0-41af-a2fe-82e4df361e23
         -   Entity:
                 Id: ca8e2740-5a54-44c0-9236-45323a3bec46
-                Name: Tree1 (14)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3890,7 +3972,7 @@ Hierarchy:
                 InstanceId: 93c8c368-f98d-4ca4-a1d3-e903aacf3ca4
         -   Entity:
                 Id: cbaebb7d-ac5a-44e6-bd91-4e7a9e3d688f
-                Name: Tree1 (31)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -3920,12 +4002,12 @@ Hierarchy:
                 InstanceId: ac5da1ae-cf1c-441a-a54e-3e33d55dfbca
         -   Entity:
                 Id: cc6286a7-4836-4977-a24f-84e0a8d30a78
-                Name: Tree1 (6)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 6.167508, Y: 0.0, Z: 5.605385}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -3950,12 +4032,12 @@ Hierarchy:
                 InstanceId: 9d7b6485-2a57-4278-ab93-003cefc0bb5f
         -   Entity:
                 Id: cca17b37-41a3-4ccb-8745-a567c6703fb1
-                Name: Tree1 (22)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -4.36619663, Y: 0.0, Z: 5.16419172}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -3985,7 +4067,7 @@ Hierarchy:
                 Components:
                     5d078a23bd86614fa7a7e61e1900b6b2: !TransformComponent
                         Id: b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
-                        Position: {X: 0.0, Y: -0.028, Z: -0.122}
+                        Position: {X: 0.0, Y: -0.078, Z: -0.122}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.012, Y: 0.005, Z: 0.01}
                         Children: {}
@@ -3995,9 +4077,11 @@ Hierarchy:
                             Texture: 8c7db67c-457c-438b-aab8-49ab866b5c7b:0Rapporter_Assets/TextBox
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    ba9722341a4c9a6889e6846d98e8730c: !RapporterV2.Player.ScrollText,RapporterV2.Game
+                        Id: 55ac0239-3c92-4471-a84f-80c134c6d90b
         -   Entity:
                 Id: cea55e88-4530-4310-8e84-24627249ac98
-                Name: Tree1 (11)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4027,7 +4111,7 @@ Hierarchy:
                 InstanceId: 8a93e381-d6ca-4ee4-b69f-6b0c0b600cde
         -   Entity:
                 Id: d095e31f-2d70-43b3-82a8-020af034d9e6
-                Name: Tree1 (26)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4057,7 +4141,7 @@ Hierarchy:
                 InstanceId: 6b71acee-6cb1-48e2-9084-f3e37372ee5f
         -   Entity:
                 Id: d1f12aa5-2af6-44fb-9ee3-11c73032db75
-                Name: Tree1 (20)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4087,12 +4171,12 @@ Hierarchy:
                 InstanceId: 01cf4054-90b1-42d3-9930-d59e0d244224
         -   Entity:
                 Id: d2451aec-4afe-4fec-bfd4-ada51aed2f7c
-                Name: Tree1 (5)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 6.940337, Y: 0.0, Z: 4.06026554}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -4117,12 +4201,12 @@ Hierarchy:
                 InstanceId: 365b82e7-242f-46ea-8152-9220df9b4fbe
         -   Entity:
                 Id: d2a5bde6-b71d-4fa4-82a6-80b2705e9175
-                Name: Tree1 (23)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: -4.36619663, Y: 0.0, Z: 6.867683}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -4147,7 +4231,7 @@ Hierarchy:
                 InstanceId: e6e645ce-f663-4f0c-ba7a-ab8485f21cee
         -   Entity:
                 Id: d350e28a-60f0-4c7d-97cc-9b2e9105e5bf
-                Name: Tree1 (2)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4177,7 +4261,7 @@ Hierarchy:
                 InstanceId: 7da4f341-4c50-4094-b0be-f16202a532f0
         -   Entity:
                 Id: d7f8ec73-2d87-4fef-a9c1-66449ef90f6b
-                Name: Tree1 (10)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4207,7 +4291,7 @@ Hierarchy:
                 InstanceId: 42f3b315-25ac-4ed5-8d39-3413865c0361
         -   Entity:
                 Id: deb87f0a-fcc4-4691-851b-c4069765af6c
-                Name: Tree1 (20)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4255,7 +4339,7 @@ Hierarchy:
                         IgnoreDepth: true
         -   Entity:
                 Id: e1336d4f-68f3-4788-be6a-04732918f241
-                Name: Tree1 (4)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4285,7 +4369,7 @@ Hierarchy:
                 InstanceId: 66dc0c05-e8f7-4735-935c-1e8a387eb02b
         -   Entity:
                 Id: e1710591-e823-4804-9deb-cf8286f64a83
-                Name: Tree1 (3)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4315,7 +4399,7 @@ Hierarchy:
                 InstanceId: 86e78c0b-a2e9-4c0d-b127-4773272074ac
         -   Entity:
                 Id: e3b85084-0996-4c6f-882e-a6f80e4e8923
-                Name: Tree1 (16)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4345,7 +4429,7 @@ Hierarchy:
                 InstanceId: e60c9e17-5b66-481b-9d5a-9e0da0401e30
         -   Entity:
                 Id: e6248c10-a592-4869-8417-5a1914af112e
-                Name: Tree1 (5)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4375,7 +4459,7 @@ Hierarchy:
                 InstanceId: 3ab7e71e-0509-42cf-be83-6bd830caceab
         -   Entity:
                 Id: e6650507-0ee1-48f8-8081-8fb65a394194
-                Name: Tree1 (22)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4405,7 +4489,7 @@ Hierarchy:
                 InstanceId: efe36af5-65fe-40e5-a7db-9dc2a4050768
         -   Entity:
                 Id: ea76361f-1cfe-4d28-97da-ba179ffb9856
-                Name: Tree1 (23)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4435,7 +4519,7 @@ Hierarchy:
                 InstanceId: 24ff4292-9cea-4932-b32b-3786c9885001
         -   Entity:
                 Id: ecd85ea7-8e95-4bac-8f84-fbdf81c02535
-                Name: Tree1 (9)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4465,7 +4549,7 @@ Hierarchy:
                 InstanceId: c4cfe12e-eae5-4d4c-b00e-713f14fa7120
         -   Entity:
                 Id: f14edd66-717d-42cb-b173-4fb4eebccae6
-                Name: Tree1 (34)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4495,7 +4579,7 @@ Hierarchy:
                 InstanceId: 8b76c485-04aa-4818-9d2d-45f75e4f8e50
         -   Entity:
                 Id: f3ec74fb-09f3-4413-af76-cf54fb5911d1
-                Name: Tree1 (5)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4525,7 +4609,7 @@ Hierarchy:
                 InstanceId: 64111508-be78-4463-b0d4-5f9efb317c24
         -   Entity:
                 Id: f44bb925-ae23-474b-a45b-52ffdfe1b801
-                Name: Tree1 (6)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4555,7 +4639,7 @@ Hierarchy:
                 InstanceId: 7b5dcaff-5d4b-4b54-aa19-9b21b2d6bda7
         -   Entity:
                 Id: f4735561-d15a-4e5f-bd35-1f004e44f23d
-                Name: Tree1 (24)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4585,12 +4669,12 @@ Hierarchy:
                 InstanceId: 365c029f-b01b-4bd6-a68f-c08fb661405b
         -   Entity:
                 Id: f8297eef-68d7-4ed9-8b88-433aaa2b4337
-                Name: Tree1 (28)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
                         Position*: {X: 0.4015577, Y: 0.0, Z: 10.370945}
-                        Rotation: {X: 0.0, Y: 0.309017, Z: 0.0, W: 0.95105654}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     75b4d709559b3b9e50de430b7d6e96a2: !ModelComponent
@@ -4615,7 +4699,7 @@ Hierarchy:
                 InstanceId: 26a8476e-39dc-4d7c-83e4-040373c44900
         -   Entity:
                 Id: fa497f44-2457-4236-9919-c306bf6eb2b3
-                Name: Tree1 (26)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02
@@ -4645,7 +4729,7 @@ Hierarchy:
                 InstanceId: e71e514b-b1cc-4db9-941f-65b69ab68405
         -   Entity:
                 Id: fecb3a6c-a7e4-4484-8e08-39780468e9f4
-                Name: Tree1 (37)
+                Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 6c1be2da-4214-4d32-a6a5-65732f80fd02

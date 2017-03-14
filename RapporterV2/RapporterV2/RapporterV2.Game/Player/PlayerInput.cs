@@ -13,26 +13,28 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public float DeadZone { get; set; } = 0.25f;
     public float MouseSensitivity { get; set; } = 100.0f;
     public CameraComponent Camera { get; set; }
+    public static readonly EventKey<Vector3> PlayerPos = new EventKey<Vector3>();
     public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
     public static readonly EventKey<Vector3> MoveWeaponEventKey = new EventKey<Vector3>();
     public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
     public static readonly EventKey<int> AtkEventKey = new EventKey<int>();
     public static readonly EventReceiver<bool> AtkComp = new EventReceiver<bool>(WeaponScript.completed);
-    public static readonly EventReceiver<bool> NPC = new EventReceiver<bool>(NPCTalk.ttm);
     public List<Keys> KeysLeft { get; } = new List<Keys>();
     public List<Keys> KeysRight { get; } = new List<Keys>();
     public List<Keys> KeysUp { get; } = new List<Keys>();
     public List<Keys> KeysDown { get; } = new List<Keys>();
     public List<Keys> KeysJump { get; } = new List<Keys>();
     private bool jumped=false, doneJumping=true, attacking=false; private int jumpCount=0, combo=0;
-    
+    private float jumpForce;
     public override void Start() { simulation = this.GetSimulation(); }
     
     public override void Update() { { //Character movement
-        float jumpForce = 0;
+        if (Input.IsMouseButtonDown(MouseButton.Left)) RaycastAtk();
+        PlayerPos.Broadcast(Entity.Transform.Position);
+        jumpForce = 0;
         RaycastDown();
         if(KeysJump.Any(key => Input.IsKeyDown(key)) && jumped) { jumpForce = 5; jumped = false; doneJumping=false; }
-        if(!doneJumping&&!jumped) { jumpCount++; jumpForce=5; if(jumpCount==7) { doneJumping=true; jumpCount=0; } }
+        if(!doneJumping&&!jumped) { jumpCount++; jumpForce=4; if(jumpCount==4) { doneJumping=true; jumpCount=0; } }
         if(doneJumping) jumpForce=-0.2f;
 
         var moveDirection = Vector2.Zero;
@@ -79,5 +81,25 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         var result = simulation.Raycast(unprojectedNear, unprojectedFar);
 
         if(result.Succeeded) { if (result.Collider != null) { jumped = true; doneJumping=false; } }
+    }
+    private void RaycastAtk() {
+        var unprojectedNear = Entity.Transform.Position;
+        var unprojectedFar = new Vector2(0f,100f);
+        
+        var unprojectedFar2 = (Camera != null)
+            ? Utils.LogicDirectionToWorldDirection(unprojectedFar, Camera, Vector3.UnitY)
+            : new Vector3(unprojectedFar.X, 0, unprojectedFar.Y);//No camera? No problem!
+            
+
+        var result = simulation.Raycast(unprojectedNear, unprojectedNear + unprojectedFar2);
+        if(result.Succeeded) { if(result.Collider != null) {
+            var rigidBody = result.Collider as RigidbodyComponent;
+            if (rigidBody != null) {
+                var forward = Entity.Transform.WorldMatrix.Forward;
+                rigidBody.Activate();
+                rigidBody.ApplyImpulse(forward * 5.0f);
+                rigidBody.ApplyTorqueImpulse(forward * 5.0f + new Vector3(0, 1, 0));
+            }
+        } }
     }
 } }

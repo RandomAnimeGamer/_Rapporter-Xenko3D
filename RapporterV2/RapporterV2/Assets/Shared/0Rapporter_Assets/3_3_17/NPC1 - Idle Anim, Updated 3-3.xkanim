@@ -5,6 +5,6 @@ Tags: []
 Source: NPC1 - Idle Anim, Updated 3-3.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 RepeatMode: LoopInfinite
-Skeleton: null
+Skeleton: 96201797-a98f-4614-8494-6b96ecfe872d:0Rapporter_Assets/Characters/NPC1 - Rigged Skeleton
 RootMotion: false
 PreviewModel: null

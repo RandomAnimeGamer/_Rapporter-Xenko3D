@@ -2,7 +2,7 @@
 Settings:
     Package/SceneSettings:
         7f47b0a4-3430-4e87-aa6d-11964d81c086:
-            CamPosition: {X: -14.8538866, Y: 2.37612176, Z: 19.18488}
+            CamPosition: {X: -14.8616, Y: 2.42996716, Z: 19.5993042}
             CamPitchYaw: {X: -0.129183143, Y: -0.0186143629}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
@@ -57,8 +57,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         2964ed07-9a1e-4ee9-a691-5bc9ab05b429:
-            CamPosition: {X: 4.0, Y: 4.0, Z: 4.0}
-            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
+            CamPosition: {X: 0.1520438, Y: 2.78069425, Z: 0.8327465}
+            CamPitchYaw: {X: -0.01870051, Y: 1.45082533}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -80,14 +80,40 @@ Settings:
             ComponentGizmoSize: 1.0
             FixedSizeGizmos: false
             HiddenGizmos:
-                - Physics
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: -36.61261, Y: 6.984684, Z: 8.683646}
-            CamPitchYaw: {X: -0.1819832, Y: 5.47308254}
+            CamPosition: {X: 1.32953048, Y: 2.47629833, Z: 1.29209828}
+            CamPitchYaw: {X: -0.5999708, Y: 6.236108}
             CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: false
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        79c9bf9f-3058-43a7-ba9a-ef6f147a2a79:
+            CamPosition: {X: 0.0, Y: 0.0, Z: 500.0}
+            CamPitchYaw: {X: 0.0, Y: 0.0}
+            CamProjection: Orthographic
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
             CamNearClipPlane: 0.1
@@ -109,6 +135,7 @@ Settings:
             FixedSizeGizmos: false
             HiddenGizmos:
                 - Transform
+                - Physics
             NavigationVisible: false
             NavigationWireframes: false
     Templates/ModelFromFile/DefaultSkeleton: 00000000-0000-0000-0000-000000000000
