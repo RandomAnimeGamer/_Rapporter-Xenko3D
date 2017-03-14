@@ -15,10 +15,9 @@ namespace RapporterV2.Player { public class NPCTalk : AsyncScript {
         var trigger = Entity.Get<PhysicsComponent>();
         while(Game.IsRunning) {
             await trigger.NewCollision();//wait for entities coming in
-            //do some shit when the collision happens
-            
+            talkToMe=true; ttm.Broadcast(talkToMe);
             await trigger.CollisionEnded();//now wait for entities exiting
-            //undo that shit as necessary
+            talkToMe=false; ttm.Broadcast(talkToMe);
         }
     }
 } }
