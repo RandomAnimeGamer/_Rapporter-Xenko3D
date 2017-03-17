@@ -632,9 +632,7 @@ namespace SiliconStudio.DataSerializers
 	sealed class RapporterV2Player_WeaponScriptSerializer : ClassDataSerializer<RapporterV2.Player.WeaponScript>
 	{
 		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
-		private DataSerializer<System.Single> MaxShootDistanceSerializer;
-		private DataSerializer<System.Single> ShootImpulseSerializer;
-		private DataSerializer<System.Single> CooldownSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Engine.CameraComponent> CameraSerializer;
 
 		public override void Initialize(SerializerSelector serializerSelector)
 		{
@@ -643,7 +641,7 @@ namespace SiliconStudio.DataSerializers
 			if (parentSerializer == null)
 				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
 			// Cache member serializers
-			MaxShootDistanceSerializer = MemberSerializer<System.Single>.Create(serializerSelector);
+			CameraSerializer = MemberSerializer<SiliconStudio.Xenko.Engine.CameraComponent>.Create(serializerSelector);
 		}
 
 		public override void Serialize(ref RapporterV2.Player.WeaponScript obj, ArchiveMode mode, SerializationStream stream)
@@ -653,18 +651,10 @@ namespace SiliconStudio.DataSerializers
 			parentSerializer.Serialize(ref parentObj, mode, stream);
 			obj = (RapporterV2.Player.WeaponScript)parentObj;
 
-            System.Single maxShootDistance = mode == ArchiveMode.Serialize ? obj.MaxShootDistance : default(System.Single);
-            MaxShootDistanceSerializer.Serialize(ref maxShootDistance, mode, stream);
+            SiliconStudio.Xenko.Engine.CameraComponent camera = mode == ArchiveMode.Serialize ? obj.Camera : default(SiliconStudio.Xenko.Engine.CameraComponent);
+            CameraSerializer.Serialize(ref camera, mode, stream);
             if (mode == ArchiveMode.Deserialize)
-                obj.MaxShootDistance = maxShootDistance;
-            System.Single shootImpulse = mode == ArchiveMode.Serialize ? obj.ShootImpulse : default(System.Single);
-            MaxShootDistanceSerializer.Serialize(ref shootImpulse, mode, stream);
-            if (mode == ArchiveMode.Deserialize)
-                obj.ShootImpulse = shootImpulse;
-            System.Single cooldown = mode == ArchiveMode.Serialize ? obj.Cooldown : default(System.Single);
-            MaxShootDistanceSerializer.Serialize(ref cooldown, mode, stream);
-            if (mode == ArchiveMode.Deserialize)
-                obj.Cooldown = cooldown;
+                obj.Camera = camera;
 		}
 
 		internal static void ForceGenericInstantiation()

@@ -5,63 +5,48 @@ using SiliconStudio.Xenko.Engine;
 using SiliconStudio.Xenko.Engine.Events;
 using SiliconStudio.Xenko.Physics;
 using SiliconStudio.Xenko.Rendering.Sprites;
+using RapporterV2.Core;
 
-namespace RapporterV2.Player {
-    public struct WeaponFiredResult {
-        public bool         DidFire;
-        public bool         DidHit;
-        public HitResult    HitResult;
-    }
-    public class WeaponScript : SyncScript {
-        private readonly EventReceiver<int> AtkEvent = new EventReceiver<int>(PlayerInput.AtkEventKey);
-        public static readonly EventKey<bool> completed = new EventKey<bool>();
-        private int combo=3;//3 is null state
+namespace RapporterV2.Player { public class WeaponScript : SyncScript {
+    private readonly EventReceiver<int> AtkEvent = new EventReceiver<int>(PlayerInput.AtkEventKey);
+    private readonly EventReceiver<bool> resetPos = new EventReceiver<bool>(PlayerInput.ResetEvent);
+    private readonly EventReceiver<bool> resetT = new EventReceiver<bool>(PlayerInput.ResetTime);
+    public static readonly EventKey<bool> completed = new EventKey<bool>();
+    public CameraComponent Camera { get; set; }
+    private int buffer=0, combo=0;//0 is null state
+    private bool reset=false, T=false;
 
-        public static readonly EventKey<WeaponFiredResult> WeaponFired = new EventKey<WeaponFiredResult>();
-//        private readonly EventReceiver<bool> shootEvent = new EventReceiver<bool>(PlayerInput.ShootEventKey);
+    private float Cooldown = 1f;
+    private float cooldownRemaining = 0f;
 
-        public float MaxShootDistance { get; set; } = 100f;
-        public float ShootImpulse { get; set; } = 5f;
-        public float Cooldown { get; set; } = 0.3f;
-        private float cooldownRemaining = 0;
+    public override void Update() {
+        resetPos.TryReceive(out reset);//try to receive a position reset
+        resetT.TryReceive(out T);
+        AtkEvent.TryReceive(out buffer);//try to receive a combo number, 0 is NaN state
 
-//        public override void Update() {
-//            bool didShoot;
-//            shootEvent.TryReceive(out didShoot);
+        if(T) cooldownRemaining = 10f;
+        if(reset) Entity.Transform.Position = new Vector3(.08f, -.05f, -.11f);
+        if(buffer!=0) { combo=buffer; }//buffer for a combo number
 
-/*            cooldownRemaining = (cooldownRemaining > 0) ? (cooldownRemaining - this.GetSimulation().FixedTimeStep) : 0f;
-            if (cooldownRemaining > 0) return; // Can't shoot yet
-            if (!didShoot) return;
-
-            cooldownRemaining = Cooldown;
-
-            var raycastStart = Entity.Transform.WorldMatrix.TranslationVector;
-            var forward = Entity.Transform.WorldMatrix.Forward;
-            var raycastEnd = raycastStart + forward * MaxShootDistance;
-
-            var result = this.GetSimulation().Raycast(raycastStart, raycastEnd);
-
-            var weaponFired = new WeaponFiredResult { HitResult = result, DidFire = true, DidHit = false };
-
-            if (result.Succeeded && result.Collider != null) {
-                weaponFired.DidHit = true;
-                var rigidBody = result.Collider as RigidbodyComponent;
-                if (rigidBody != null) {
-                    rigidBody.Activate();
-                    rigidBody.ApplyImpulse(forward * ShootImpulse);
-                    rigidBody.ApplyTorqueImpulse(forward * ShootImpulse + new Vector3(0, 1, 0));
-                }
-            }
-
-            WeaponFired.Broadcast(weaponFired);// Broadcast the fire event
-        }*/
-    
-        public override void Update() {
-            AtkEvent.TryReceive(out combo);
-            if(combo==0) { completed.Broadcast(false); }//decrement x&y rateX:Y=2:1, move z ^ then V where z is like x^2 graph, rotate y until 180
-            if(combo==1) { completed.Broadcast(false); }//reverse combo 1
-            if(combo==2) { completed.Broadcast(false); }//move z back a bit, rotate so all axes are 0, then move z forward, then reverse the process
-            if(combo==3) { completed.Broadcast(false); }
+        var pos = Vector3.Zero;//translation vector
+        if(combo==1&&cooldownRemaining > 0f) {//decrement x&y rateX:Y=2:1, move z ^ then V where z is like x^2 graph, rotate y until 180
+            pos.X -= .02f; pos.Y -= .01f;
+            cooldownRemaining -= 1f;
+            if(cooldownRemaining > 10f) pos.Z += .01f;
+            else if(cooldownRemaining < 10) pos.Z-= .01f;
+            else pos.Z += 0f;
+            Vector3 Rotations = new Vector3(0f, 0f, 50f); Entity.Get<RigidbodyComponent>().ApplyTorque(Rotations);
         }
+        //reverse combo 1
+        if(combo==2) { completed.Broadcast(false); }//move z back a bit, rotate so all axes are 0, then move z forward, then reverse the process
+        if(combo==3) { completed.Broadcast(false); }
+        
+        
+        var worldSpeed = (Camera != null)//Convert translation vector to world if applicable
+        ? Utils.LogicDirectionToWorldDirection(new Vector2(pos.X, pos.Z), Camera, Vector3.UnitY) + new Vector3(0, pos.Y, 0)
+        : new Vector3(pos.X, pos.Y, pos.Z);//No camera? No problem!
+        Entity.Transform.Position += worldSpeed;//apply modified vector to translation
+        
+        if(cooldownRemaining <= 0f) completed.Broadcast(true);
     }
-}
+} }

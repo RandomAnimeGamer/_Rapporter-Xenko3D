@@ -631,7 +631,7 @@ Hierarchy:
                                 Size: {X: 10.0, Y: 15.0, Z: 25.0}
                                 LocalOffset: {X: 0.0, Y: 5.0, Z: 5.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    d3fc23a30be9bda4898c86539c507234: !RapporterV2.Player.NPCTalk,RapporterV2.Game
+                    d7779b3c021d5550a29af687ae41f7c2: !RapporterV2.Player.NPCTalk,RapporterV2.Game
                         Id: 317b64ac-39cb-4986-b4ee-4469d3e283cc
         -   Entity:
                 Id: 1fe9fdf3-0918-4b82-88dd-96f8f357ea5d
@@ -1348,19 +1348,38 @@ Hierarchy:
                     c8f45a57ec5ab706e8e5ebfd1b02e532: !TransformComponent
                         Id: 080642a3-3b14-4605-9c88-4236796a9622
                         Position: {X: 0.08, Y: -0.05, Z: -0.11}
-                        Rotation: {X: -0.08682408, Y: 0.00759612443, Z: 0.08682408, W: 0.9924039}
+                        Rotation: {X: -0.258819044, Y: 2.74039835E-09, Z: 7.342876E-10, W: 0.9659258}
                         Scale: {X: 0.01, Y: 0.01, Z: 0.01}
                         Children: {}
                     43e6cf26177dc823cf6a49b0c87f7da7: !ModelComponent
                         Id: e917707f-7f00-4951-8fd3-2e9aa64e4f6e
                         Model: fadc7dca-97e4-45f1-b08f-ee342f456116:0Rapporter_Assets/SimpleSword
                         Materials: {}
-                    b5cd2685eec3720e0b2f9f196db3f71d: !RapporterV2.Player.SwordMove,RapporterV2.Game
-                        Id: 2b3edb39-0b1a-4d97-889b-a833a8b4b58f
-                        buffer: false
-                        ready: true
-                        moving: false
-                        count: 0
+                    e6eec3c19ded7e7408ec19917fe38231: !RapporterV2.Player.WeaponScript,RapporterV2.Game
+                        Id: 3549f797-39fc-40c5-bf42-c48e38a31788
+                        Cooldown: 0.3
+                    f6eb9a9611e00d328bce5ae896db089e: !RigidbodyComponent
+                        Id: 4e6fc688-74e0-4d49-bd60-9c7a3f26f261
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            0a90955417a7afb9c61716c536cfb5c4: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 11.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 3.8, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Folder: 
             Entity:
                 Id: 54ae5828-6e50-4b94-b578-584c4ec71295
@@ -1392,10 +1411,10 @@ Hierarchy:
                                 Radius: 0.4
                                 LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    3f1a23a17e66d8489193aa2eca6779e1: !RapporterV2.Player.PlayerController,RapporterV2.Game
+                    98499a4276e4706e9f753e3de5681def: !RapporterV2.Player.PlayerController,RapporterV2.Game
                         Id: a1231a3f-667e-48d8-9193-aa2eca6779e1
                         MaxRunSpeed: 9.0
-                    5cea3fc41b5e1c40865911bd77ee624c: !RapporterV2.Player.PlayerInput,RapporterV2.Game
+                    674f7a6bfac319dbaaf92baf76291852: !RapporterV2.Player.PlayerInput,RapporterV2.Game
                         Id: c43fea5c-5e1b-401c-8659-11bd77ee624c
                         SoundMusic: f486c8ca-e028-43f0-9519-52be86c02cd3:0Rapporter_Assets/Sound/Forest
                         SoundEffect: 7fe482dc-f199-4a66-8395-4fe032795ff1:0Rapporter_Assets/Sound/plant-foliage-rustle-foley-moves__by__bathroomcrooner
@@ -1731,7 +1750,7 @@ Hierarchy:
                             Texture: f4757f19-94da-4490-b7aa-a0be48789fae:0Rapporter_Assets/TextBoxText
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                    a54ecd264f008cca382be5bd2f26fb5c: !RapporterV2.Player.ScrollTextText,RapporterV2.Game
+                    0aa1980f74f3b740808d33d3fc13c2d5: !RapporterV2.Player.ScrollTextText,RapporterV2.Game
                         Id: 9b71e6d1-2d29-46c8-96fa-574c49382c65
         -   Entity:
                 Id: 66960cc4-88e5-4031-889f-f4b856f65cf1
@@ -3115,7 +3134,7 @@ Hierarchy:
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
-                    7e880022b3b3f743a0686a19d7ecd8e1: !RapporterV2.FpsCamera,RapporterV2.Game
+                    2c870e70cd0968f46fd9071638e5582c: !RapporterV2.FpsCamera,RapporterV2.Game
                         Id: 2200887e-b3b3-43f7-a068-6a19d7ecd8e1
                         RotationSpeed: 0.02355
                         RotationAdaptationSpeed: 5.0
@@ -4085,7 +4104,7 @@ Hierarchy:
                             Texture: 8c7db67c-457c-438b-aab8-49ab866b5c7b:0Rapporter_Assets/TextBox
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                    ba9722341a4c9a6889e6846d98e8730c: !RapporterV2.Player.ScrollText,RapporterV2.Game
+                    9729ff092ba52e81a6b5054a1c9c26d2: !RapporterV2.Player.ScrollText,RapporterV2.Game
                         Id: 55ac0239-3c92-4471-a84f-80c134c6d90b
         -   Entity:
                 Id: cea55e88-4530-4310-8e84-24627249ac98
