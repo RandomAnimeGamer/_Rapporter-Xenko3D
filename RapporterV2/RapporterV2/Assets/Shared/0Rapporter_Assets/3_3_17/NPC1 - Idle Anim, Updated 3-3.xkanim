@@ -1,10 +1,17 @@
 !Animation
 Id: 3f383ce8-5a49-4cda-bbd5-59e301d3e3c7
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 1.10.0-alpha01}
 Tags: []
 Source: NPC1 - Idle Anim, Updated 3-3.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
 Skeleton: 96201797-a98f-4614-8494-6b96ecfe872d:0Rapporter_Assets/Characters/NPC1 - Rigged Skeleton
 RootMotion: false
 PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:30:00.0000000

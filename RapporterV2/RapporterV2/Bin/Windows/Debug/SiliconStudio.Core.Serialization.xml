@@ -976,23 +976,16 @@
             </summary>
             <value>The type.</value>
         </member>
-        <member name="M:SiliconStudio.Core.Serialization.Contents.ReferenceSerializer.IsReferenceType(System.Type)">
-            <summary>
-            Determines whether the type has a <see cref="T:SiliconStudio.Core.Serialization.Contents.ReferenceSerializer`1"/>.
-            </summary>
-            <param name="type"></param>
-            <returns>True if <see cref="!:type"/> has a <see cref="T:SiliconStudio.Core.Serialization.Contents.ReferenceSerializer`1"/>, false otherwise</returns>
-        </member>
-        <member name="T:SiliconStudio.Core.Serialization.Contents.IReferenceSerializer">
-            <summary>
-            Used to detect whether a serializer is a reference serializer.
-            </summary>
-        </member>
         <member name="T:SiliconStudio.Core.Serialization.Contents.ReferenceSerializer`1">
-            <summary>0
+            <summary>
             Serialize object with its underlying Id and Location, and use <see cref="T:SiliconStudio.Core.Serialization.Contents.ContentManager"/> to generate a separate chunk.
             </summary>
             <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:SiliconStudio.Core.Serialization.Contents.ReferenceSerializerAttribute">
+            <summary>
+            Used to detect whether a type is using <see cref="!:ReferenceSerializer"/>.
+            </summary>
         </member>
         <member name="T:SiliconStudio.Core.Serialization.Contents.ChunkReference">
             <summary>
@@ -1264,7 +1257,7 @@
         <member name="M:SiliconStudio.Core.Storage.FileOdbBackend.CreateStream">
             <inheritdoc/>
         </member>
-        <member name="M:SiliconStudio.Core.Storage.FileOdbBackend.MoveToDatabase(System.String,SiliconStudio.Core.Storage.ObjectId)">
+        <member name="M:SiliconStudio.Core.Storage.FileOdbBackend.MoveToDatabase(System.String,SiliconStudio.Core.Storage.ObjectId,System.Boolean)">
             <inheritdoc/>
         </member>
         <member name="M:SiliconStudio.Core.Storage.FileOdbBackend.Delete(SiliconStudio.Core.Storage.ObjectId)">

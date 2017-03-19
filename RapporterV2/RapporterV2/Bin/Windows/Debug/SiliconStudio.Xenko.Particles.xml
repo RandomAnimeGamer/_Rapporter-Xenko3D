@@ -1130,7 +1130,7 @@
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderHexagon.PreUpdate">
             <inheritdoc />
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderHexagon.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@)">
+        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderHexagon.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@,SiliconStudio.Core.Mathematics.Matrix@)">
             <inheritdoc />
         </member>
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderHexagon.GetParticleRotation(SiliconStudio.Xenko.Particles.Particle,SiliconStudio.Xenko.Particles.ParticleFieldAccessor{System.Single},SiliconStudio.Xenko.Particles.ParticleFieldAccessor{System.Single})">
@@ -1166,7 +1166,7 @@
         <member name="P:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderOrientedQuad.QuadsPerParticle">
             <inheritdoc />
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderOrientedQuad.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@)">
+        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderOrientedQuad.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@,SiliconStudio.Core.Mathematics.Matrix@)">
             <inheritdoc />
         </member>
         <member name="T:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderQuad">
@@ -1188,7 +1188,7 @@
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderQuad.PreUpdate">
             <inheritdoc />
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderQuad.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@)">
+        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderQuad.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@,SiliconStudio.Core.Mathematics.Matrix@)">
             <inheritdoc />
         </member>
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderQuad.GetParticleRotation(SiliconStudio.Xenko.Particles.Particle,SiliconStudio.Xenko.Particles.ParticleFieldAccessor{SiliconStudio.Core.Mathematics.Quaternion},SiliconStudio.Xenko.Particles.ParticleFieldAccessor{System.Single})">
@@ -1251,7 +1251,7 @@
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderRibbon.SetRequiredQuads(System.Int32,System.Int32,System.Int32)">
             <inheritdoc />
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderRibbon.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@)">
+        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderRibbon.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@,SiliconStudio.Core.Mathematics.Matrix@)">
             <inheritdoc />
         </member>
         <member name="T:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderRibbon.Ribbonizer">
@@ -1291,7 +1291,7 @@
             Simple interpolation using Catmull-Rom
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderRibbon.Ribbonizer.Ribbonize(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,System.Int32)">
+        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderRibbon.Ribbonizer.Ribbonize(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,System.Int32,SiliconStudio.Core.Mathematics.Matrix@)">
             <summary>
             Constructs the ribbon by outputting vertex stream based on the positions and sizes specified previously
             </summary>
@@ -1359,7 +1359,7 @@
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderTrail.SetRequiredQuads(System.Int32,System.Int32,System.Int32)">
             <inheritdoc />
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderTrail.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@)">
+        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderTrail.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@,SiliconStudio.Core.Mathematics.Matrix@)">
             <inheritdoc />
         </member>
         <member name="T:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderTrail.Ribbonizer">
@@ -1499,7 +1499,7 @@
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderBillboard.PreUpdate">
             <inheritdoc />
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderBillboard.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@)">
+        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderBillboard.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@,SiliconStudio.Core.Mathematics.Matrix@)">
             <inheritdoc />
         </member>
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilderBillboard.GetParticleRotation(SiliconStudio.Xenko.Particles.Particle,SiliconStudio.Xenko.Particles.ParticleFieldAccessor{System.Single},SiliconStudio.Xenko.Particles.ParticleFieldAccessor{System.Single})">
@@ -1526,7 +1526,7 @@
             Indicates that the required vertex layout has changed and <see cref="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilder.UpdateVertexBuilder(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleVertexBuilder)"/> should be called
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilder.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@)">
+        <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilder.BuildVertexBuffer(SiliconStudio.Xenko.Particles.VertexLayouts.ParticleBufferState@,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Quaternion@,System.Single,SiliconStudio.Xenko.Particles.Sorters.ParticleList@,SiliconStudio.Core.Mathematics.Matrix@)">
             <summary>
             Builds the actual vertex buffer for the current frame using the particle data
             </summary>
@@ -1537,6 +1537,7 @@
             <param name="spaceRotation">Rotation of the target draw space in regard to the particle data (world or local)</param>
             <param name="spaceScale">Uniform scale of the target draw space in regard to the particle data (world or local)</param>
             <param name="sorter">Particle enumerator which can be iterated and returns sported particles</param>
+            <param name="viewProj">The View-Projection matrix which is used for some shape builders</param>
             <returns></returns>
         </member>
         <member name="M:SiliconStudio.Xenko.Particles.ShapeBuilders.ShapeBuilder.PrepareVertexLayout(SiliconStudio.Xenko.Particles.ParticlePoolFieldsList)">
@@ -2904,7 +2905,7 @@
             <see cref="M:SiliconStudio.Xenko.Particles.ParticleEmitter.PrepareForDraw(System.Boolean@,System.Int32@,System.Int32@)"/> prepares and updates the Material, ShapeBuilder and VertexBuilder if necessary
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.Particles.ParticleEmitter.BuildVertexBuffer(System.IntPtr,SiliconStudio.Core.Mathematics.Matrix@)">
+        <member name="M:SiliconStudio.Xenko.Particles.ParticleEmitter.BuildVertexBuffer(System.IntPtr,SiliconStudio.Core.Mathematics.Matrix@,SiliconStudio.Core.Mathematics.Matrix@)">
             <summary>
             Build the vertex buffer from particle data
             </summary>

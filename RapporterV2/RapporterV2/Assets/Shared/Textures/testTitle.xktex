@@ -1,0 +1,6 @@
+!Texture
+Id: 56c508a1-12ba-4842-8997-36027e6cc581
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: testTitle.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

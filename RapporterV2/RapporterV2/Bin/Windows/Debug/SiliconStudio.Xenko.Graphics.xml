@@ -248,7 +248,7 @@
         </member>
         <member name="T:SiliconStudio.Xenko.Graphics.CommandList">
             <summary>
-            Performs resource bindings and primitive-based rendering. See <see cref="!:The+GraphicsDevice+class"/> to learn more about the class.
+            Performs resource bindings and primitive-based rendering. See the <see cref="T:SiliconStudio.Xenko.Graphics.GraphicsDevice"/> class to learn more about the class.
             </summary>
         </member>
         <member name="P:SiliconStudio.Xenko.Graphics.CommandList.Viewport">
@@ -256,6 +256,12 @@
                 Gets the first viewport.
             </summary>
             <value>The first viewport.</value>
+        </member>
+        <member name="P:SiliconStudio.Xenko.Graphics.CommandList.Scissor">
+            <summary>
+                Gets the first scissor.
+            </summary>
+            <value>The first scissor.</value>
         </member>
         <member name="P:SiliconStudio.Xenko.Graphics.CommandList.DepthStencilBuffer">
             <summary>
@@ -285,21 +291,40 @@
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetViewport(SiliconStudio.Xenko.Graphics.Viewport)">
             <summary>
-            Sets the viewport for the first render target.
-            </summary>
-            <value>The viewport.</value>
-        </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetViewport(System.Int32,SiliconStudio.Xenko.Graphics.Viewport)">
-            <summary>
-            Sets the viewport for the specified render target.
+            Sets a viewport.
             </summary>
             <value>The viewport.</value>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetViewports(SiliconStudio.Xenko.Graphics.Viewport[])">
             <summary>
-            Sets the viewport for the specified render target.
+            Sets the viewports.
             </summary>
             <value>The viewport.</value>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetViewports(System.Int32,SiliconStudio.Xenko.Graphics.Viewport[])">
+            <summary>
+            Sets the viewports.
+            </summary>
+            <value>The viewport.</value>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetScissorRectangle(SiliconStudio.Core.Mathematics.Rectangle)">
+            <summary>
+            Binds a single scissor rectangle to the rasterizer stage. See <see cref="!:Render+states"/> to learn how to use it.
+            </summary>
+            <param name="rectangle">The scissor rectangle.</param>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetScissorRectangles(SiliconStudio.Core.Mathematics.Rectangle[])">
+            <summary>
+            Binds a set of scissor rectangles to the rasterizer stage. See <see cref="!:Render+states"/> to learn how to use it.
+            </summary>
+            <param name="scissorRectangles">The set of scissor rectangles to bind.</param>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetScissorRectangles(System.Int32,SiliconStudio.Core.Mathematics.Rectangle[])">
+            <summary>
+            Binds a set of scissor rectangles to the rasterizer stage. See <see cref="!:Render+states"/> to learn how to use it.
+            </summary>
+            <param name="scissorCount">The number of scissor rectangles to bind.</param>
+            <param name="scissorRectangles">The set of scissor rectangles to bind.</param>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetRenderTargetAndViewport(SiliconStudio.Xenko.Graphics.Texture,SiliconStudio.Xenko.Graphics.Texture)">
             <summary>
@@ -313,6 +338,15 @@
                 <p>Bind one or more render targets atomically and the depth-stencil buffer to the output-merger stage. See <see cref="!:Textures+and+render+targets"/> to learn how to use it.</p>
             </summary>
             <param name="renderTargetViews">A set of render target views to bind.</param>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetRenderTargetsAndViewport(SiliconStudio.Xenko.Graphics.Texture,System.Int32,SiliconStudio.Xenko.Graphics.Texture[])">
+            <summary>
+            Binds a depth-stencil buffer and a set of render targets to the output-merger stage. See <see cref="!:Textures+and+render+targets"/> to learn how to use it.
+            </summary>
+            <param name="depthStencilView">A view of the depth-stencil buffer to bind.</param>
+            <param name="renderTargetViewCount">The number of render target in <paramref name="renderTargetViews"/>.</param>
+            <param name="renderTargetViews">A set of render target views to bind.</param>
+            <exception cref="T:System.ArgumentNullException">renderTargetViews</exception>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetRenderTargetsAndViewport(SiliconStudio.Xenko.Graphics.Texture,SiliconStudio.Xenko.Graphics.Texture[])">
             <summary>
@@ -334,6 +368,15 @@
                 <p>Bind one or more render targets atomically and the depth-stencil buffer to the output-merger stage. See <see cref="!:Textures+and+render+targets"/> to learn how to use it.</p>
             </summary>
             <param name="renderTargetViews">A set of render target views to bind.</param>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetRenderTargets(SiliconStudio.Xenko.Graphics.Texture,System.Int32,SiliconStudio.Xenko.Graphics.Texture[])">
+            <summary>
+            Binds a depth-stencil buffer and a set of render targets to the output-merger stage. See <see cref="!:Textures+and+render+targets"/> to learn how to use it.
+            </summary>
+            <param name="depthStencilView">A view of the depth-stencil buffer to bind.</param>
+            <param name="renderTargetViewCount">The number of render target in <paramref name="renderTargetViews"/>.</param>
+            <param name="renderTargetViews">A set of render target views to bind.</param>
+            <exception cref="T:System.ArgumentNullException">renderTargetViews</exception>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetRenderTargets(SiliconStudio.Xenko.Graphics.Texture,SiliconStudio.Xenko.Graphics.Texture[])">
             <summary>
@@ -365,21 +408,6 @@
             <param name="renderTargetCount">The number of render targets.</param>
             <param name="renderTargets">The render targets.</param>
             <exception cref="T:System.ArgumentNullException">renderTargetViews</exception>
-        </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetScissorRectangles(System.Int32,System.Int32,System.Int32,System.Int32)">
-            <summary>
-            Binds a single scissor rectangle to the rasterizer stage. See <see cref="!:Render+states"/> to learn how to use it.
-            </summary>
-            <param name="left">The left.</param>
-            <param name="top">The top.</param>
-            <param name="right">The right.</param>
-            <param name="bottom">The bottom.</param>
-        </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetScissorRectangles(SiliconStudio.Core.Mathematics.Rectangle[])">
-            <summary>
-            Binds a set of scissor rectangles to the rasterizer stage. See <see cref="!:Render+states"/> to learn how to use it.
-            </summary>
-            <param name="scissorRectangles">The set of scissor rectangles to bind.</param>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.CommandList.SetStreamTargets(SiliconStudio.Xenko.Graphics.Buffer[])">
             <summary>
@@ -1243,9 +1271,12 @@
         </member>
         <member name="F:SiliconStudio.Xenko.Graphics.RenderingSettings.PreferredGraphicsPlatform">
             <summary>
-            Gets or sets the display orientation.
+            Gets or sets the target graphics platform.
             </summary>
-            <userdoc>The display orientations this game support.</userdoc>
+            <userdoc>
+            The project will be built for the specified graphics platform.
+            Leave as Default to let the engine choose the most appropriate platform depending on the hardware.
+            </userdoc>
         </member>
         <member name="T:SiliconStudio.Xenko.Graphics.Data.BufferData">
             <summary>
@@ -4410,12 +4441,6 @@
             This class is able to create constant buffers, indexelementCountrtex buffers, structured buffer, raw buffers, argument buffers.
             </remarks>
         </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.Buffer.#ctor(SiliconStudio.Xenko.Graphics.GraphicsDevice)">
-            <summary>
-            Initializes a new instance of the <see cref="T:SiliconStudio.Xenko.Graphics.Buffer" /> class.
-            </summary>
-            <param name="device">The <see cref="T:SiliconStudio.Xenko.Graphics.GraphicsDevice"/>.</param>
-        </member>
         <member name="M:SiliconStudio.Xenko.Graphics.Buffer.InitializeFromImpl(SiliconStudio.Xenko.Graphics.BufferDescription,SiliconStudio.Xenko.Graphics.BufferFlags,SiliconStudio.Xenko.Graphics.PixelFormat,System.IntPtr)">
             <summary>
             Initializes a new instance of the <see cref="T:SiliconStudio.Xenko.Graphics.Buffer" /> class.
@@ -4888,6 +4913,12 @@
             <param name="value">The value to initialize the Vertex buffer.</param>
             <param name="usage">The usage of this resource.</param>
             <returns>A Vertex buffer</returns>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.Buffer.#ctor(SiliconStudio.Xenko.Graphics.GraphicsDevice)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SiliconStudio.Xenko.Graphics.Buffer" /> class.
+            </summary>
+            <param name="device">The <see cref="T:SiliconStudio.Xenko.Graphics.GraphicsDevice"/>.</param>
         </member>
         <member name="P:SiliconStudio.Xenko.Graphics.Buffer.Description">
             <summary>

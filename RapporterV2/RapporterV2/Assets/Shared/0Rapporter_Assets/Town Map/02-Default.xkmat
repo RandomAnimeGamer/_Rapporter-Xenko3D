@@ -5,7 +5,7 @@ Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeColor
-            Value: {R: 0.007843138, G: 0.349019617, B: 0.6117647, A: 1.0}
+            Value: {R: 0.285075, G: 0.6608558, B: 0.95025, A: 1.0}
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}
     Specular: !MaterialSpecularMapFeature
         SpecularMap: !ComputeColor
@@ -16,11 +16,6 @@ Attributes:
         Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
         Visibility: !MaterialSpecularMicrofacetVisibilityImplicit {}
         NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionBlinnPhong {}
-    Transparency: !MaterialTransparencyBlendFeature
-        Alpha: !ComputeFloat
-            Value: 1.0
-        Tint: !ComputeColor
-            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
     Overrides:
         UVScale: {X: 1.0, Y: 1.0}
 Layers: {}

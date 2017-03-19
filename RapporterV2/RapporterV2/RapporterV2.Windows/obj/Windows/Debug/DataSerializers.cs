@@ -25,7 +25,7 @@ namespace SiliconStudio.DataSerializers
     // Assembly attributes that defines supported serializer (only generics one so that other assemblies can do generic instantiations by themselves)
    	public static class RapporterV2SerializerFactory
 	{
-	    [SiliconStudio.Core.ModuleInitializer]
+	    [SiliconStudio.Core.ModuleInitializer(-1000)]
         internal static void Initialize()
         {
 			var assemblySerializers = new AssemblySerializers(typeof(RapporterV2SerializerFactory).GetTypeInfo().Assembly);

@@ -46,8 +46,8 @@
         </member>
         <member name="T:SiliconStudio.Core.Annotations.CanBeNullAttribute">
             <summary>
-            Indicates that the value of the marked element could be <c>null</c> sometimes,
-            so the check for <c>null</c> is necessary before its usage.
+            Indicates that the value of the marked element could be <c>null</c> sometimes, so the check for <c>null</c>
+            is necessary before its usage.
             </summary>
             <example>
             <code>
@@ -78,6 +78,22 @@
         <member name="P:SiliconStudio.Core.Annotations.CategoryOrderAttribute.Expand">
             <summary>
             Gets or sets whether to expand the category in the UI.
+            </summary>
+        </member>
+        <member name="T:SiliconStudio.Core.Annotations.ItemCanBeNullAttribute">
+            <summary>
+            Can be appplied to symbols of types derived from <see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            as well as to symbols of <see cref="T:System.Threading.Tasks.Task"/> and <see cref="T:System.Lazy`1"/> classes
+            to indicate that the value of a collection item, of the Task.Result property or of the Lazy.Value property
+            can be <c>null</c>.
+            </summary>
+        </member>
+        <member name="T:SiliconStudio.Core.Annotations.ItemNotNullAttribute">
+            <summary>
+            Can be appplied to symbols of types derived from <see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            as well as to symbols of <see cref="T:System.Threading.Tasks.Task"/> and <see cref="T:System.Lazy`1"/> classes
+            to indicate that the value of a collection item, of the Task.Result property or of the Lazy.Value property
+            can never be <c>null</c>.
             </summary>
         </member>
         <member name="T:SiliconStudio.Core.Annotations.MemberCollectionAttribute">
@@ -871,7 +887,23 @@
             containing the keys in the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt;.
             </returns>
         </member>
-        <!-- Badly formed XML comment ignored for member "P:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.Item(`0)" -->
+        <member name="P:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.Item(`0)">
+            <summary>
+            Gets or sets the value associated with the specified key.
+            </summary>
+            <param name="key">
+            The key of the value to get or set.
+            </param>
+            <returns>
+            The value associated with the specified key. If the specified key is not
+            found, a get operation throws a System.Collections.Generic.KeyNotFoundException,
+            and a set operation creates a new element with the specified key.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">key is null.</exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            The property is retrieved and key does not exist in the collection.
+            </exception>
+        </member>
         <member name="M:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.Add(`0,`1)">
             <summary>
             Adds an element with the specified key and value into the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt;.
@@ -884,7 +916,11 @@
             </param>
             <exception cref="T:System.ArgumentNullException">key is null.</exception>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.Clear" -->
+        <member name="M:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.Clear">
+            <summary>
+            Removes all elements from the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt;.
+            </summary>
+        </member>
         <member name="M:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.ContainsKey(`0)">
             <summary>
             Determines whether the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt;
@@ -899,7 +935,20 @@
             </returns>
             <exception cref="T:System.ArgumentNullException">key is null.</exception>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.ContainsValue(`1)" -->
+        <member name="M:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.ContainsValue(`1)">
+            <summary>
+            Determines whether the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt;
+            contains an element with the specified value.
+            </summary>
+            <param name="value">
+            The value to locate in the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt;.
+            The value can be null for reference types.
+            </param>
+            <returns>
+            true if the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt; contains
+            an element with the specified value; otherwise, false.
+            </returns>
+        </member>
         <!-- Badly formed XML comment ignored for member "M:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)" -->
         <member name="M:SiliconStudio.Core.Collections.MultiValueSortedDictionary`2.GetEnumerator">
             <summary>
@@ -914,7 +963,7 @@
             <summary>
             Removes the element with the specified key from the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt;.
             </summary>
-            <param name="dictionary">
+            <param name="item">
             The key of the element to remove.
             </param>
             <returns>
@@ -927,7 +976,7 @@
             <summary>
             Removes the elements with the specified key from the KoderHack.MultiValueSortedDictionary&lt;TKey,TValue&gt;.
             </summary>
-            <param name="dictionary">
+            <param name="key">
             The key of the element to remove.
             </param>
             <returns>
@@ -963,7 +1012,7 @@
             <param name="key">
             The key of the value to get.
             </param>
-            <param name="dictionary">
+            <param name="values">
             When this method returns, the values associated with the specified key, if
             the key is found; otherwise null.
             </param>
@@ -3537,6 +3586,11 @@
         <member name="M:SiliconStudio.Core.PropertyContainerClass.System#Collections#Generic#IDictionary{SiliconStudio#Core#PropertyKey,System#Object}#Add(SiliconStudio.Core.PropertyKey,System.Object)">
             <inheritdoc />
         </member>
+        <member name="T:SiliconStudio.Core.Reflection.AssemblyScanAttribute">
+            <summary>
+            This attribute can be either used on class or interfaces to scan for types inheriting from them, or on an attribute to scan for types having this specific attribute.
+            </summary>
+        </member>
         <member name="T:SiliconStudio.Core.Reflection.IObjectFactory">
             <summary>
             Interface of a factory that can create instances of a type.
@@ -3715,6 +3769,11 @@
             Unregisters the specified assembly.
             </summary>
             <param name="assembly">The assembly.</param>
+        </member>
+        <member name="T:SiliconStudio.Core.Reflection.AssemblyRegistry.ScanTypes">
+            <summary>
+            List types that matches a given <see cref="T:SiliconStudio.Core.Reflection.AssemblyScanAttribute"/> for a given assembly.
+            </summary>
         </member>
         <member name="T:SiliconStudio.Core.Reflection.NamespaceDoc">
             <summary>
@@ -4563,7 +4622,6 @@
             Initializes a new instance of the <see cref="T:SiliconStudio.Core.Serialization.BinarySerializationWriter"/> class.
             </summary>
             <param name="outputStream">The output stream.</param>
-            <param name="streamTags">The stream streamTags.</param>
         </member>
         <member name="M:SiliconStudio.Core.Serialization.BinarySerializationWriter.Serialize(System.Boolean@)">
             <inheritdoc />
@@ -4741,6 +4799,11 @@
             <param name="objectType"></param>
             <param name="serializerType"></param>
         </member>
+        <member name="F:SiliconStudio.Core.Serialization.AssemblySerializers.DataContractAlias.IsAlias">
+            <summary>
+            True if generated from a <see cref="T:SiliconStudio.Core.DataAliasAttribute"/>, false if generated from a <see cref="T:SiliconStudio.Core.DataContractAttribute"/>.
+            </summary>
+        </member>
         <member name="T:SiliconStudio.Core.Serialization.IDataSerializerGenericInstantiation">
             <summary>
             Allows enumeration of required data serializers.
@@ -4837,7 +4900,7 @@
         </member>
         <member name="M:SiliconStudio.Core.Serialization.SerializationStream.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="!:SerializationStreamBase"/> class.
+            Initializes a new instance of the <see cref="T:SiliconStudio.Core.Serialization.SerializationStream"/> class.
             </summary>
         </member>
         <member name="P:SiliconStudio.Core.Serialization.SerializationStream.Context">
@@ -5129,6 +5192,7 @@
             Reads the specified number of bytes.
             </summary>
             <param name="stream">The stream.</param>
+            <param name="count"></param>
             <returns>A byte array containing the data read from the stream.</returns>
         </member>
         <member name="M:SiliconStudio.Core.Serialization.SerializerExtensions.Write(SiliconStudio.Core.Serialization.SerializationStream,System.Boolean)">
@@ -5911,12 +5975,27 @@
             <param name="index">The index.</param>
             <returns>The item from a list at a specified index. If index is out of the list, returns null..</returns>
         </member>
+        <member name="M:SiliconStudio.Core.Extensions.CollectionExtensions.IndexOf``1(System.Collections.Generic.IReadOnlyList{``0},``0)">
+            <summary>
+            Determines the index of a specific item in the <see cref="T:System.Collections.Generic.IReadOnlyList`1"/>.
+            </summary>
+            <param name="list">The list.</param>
+            <param name="item">The object to locate in the <see cref="T:System.Collections.Generic.IReadOnlyList`1"/>.</param>
+            <returns>The index of item if found in the list; otherwise, -1.</returns>
+        </member>
         <member name="M:SiliconStudio.Core.Extensions.EnumerableExtensions.IsNullOrEmpty(System.Collections.IEnumerable)">
             <summary>
             Tells whether a sequence is null or empty.
             </summary>
             <param name="source">The source sequence.</param>
             <returns>Returns true if the sequence is null or empty, false if it is not null and contains at least one element.</returns>
+        </member>
+        <member name="M:SiliconStudio.Core.Extensions.EnumerableExtensions.IsNullOrEmpty(System.String)">
+            <summary>
+            Indicates whether the specified string is null or an empty string.
+            </summary>
+            <param name="value">The string to test.</param>
+            <returns><c>true</c> if the value parameter is null or an empty string (""); otherwise, <c>false</c>.</returns>
         </member>
         <member name="M:SiliconStudio.Core.Extensions.EnumerableExtensions.ForEach``1(System.Collections.IEnumerable,System.Action{``0})">
             <summary>
@@ -6285,11 +6364,58 @@
             </summary>
             <param name="style">The style.</param>
         </member>
+        <member name="M:SiliconStudio.Core.DataStyleAttribute.#ctor(SiliconStudio.Core.ScalarStyle)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SiliconStudio.Core.DataStyleAttribute"/> class.
+            </summary>
+            <param name="style">The style.</param>
+        </member>
         <member name="P:SiliconStudio.Core.DataStyleAttribute.Style">
             <summary>
             Gets the style.
             </summary>
             <value>The style.</value>
+        </member>
+        <member name="P:SiliconStudio.Core.DataStyleAttribute.ScalarStyle">
+            <summary>
+            Gets the style.
+            </summary>
+            <value>The style.</value>
+        </member>
+        <member name="T:SiliconStudio.Core.ScalarStyle">
+            <summary>
+            Specifies the style used for textual serialization of scalars.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.ScalarStyle.Any">
+            <summary>
+            Let the emitter choose the style.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.ScalarStyle.Plain">
+            <summary>
+            The plain scalar style.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.ScalarStyle.SingleQuoted">
+            <summary>
+            The single-quoted scalar style.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.ScalarStyle.DoubleQuoted">
+            <summary>
+            The double-quoted scalar style.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.ScalarStyle.Literal">
+            <summary>
+            The literal scalar style.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.ScalarStyle.Folded">
+            <summary>
+            The folded scalar style.
+            </summary>
         </member>
         <member name="T:SiliconStudio.Core.ServiceRegistry">
             <summary>
@@ -6811,6 +6937,11 @@
             Gets or sets a value indicating whether this <see cref="T:SiliconStudio.Core.DataContractAttribute"/> is implicitly inherited by all its descendant classes.
             </summary>
             <value><c>true</c> if inherited; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:SiliconStudio.Core.DataContractAttribute.DefaultMemberMode">
+            <summary>
+            The default member mode.
+            </summary>
         </member>
         <member name="T:SiliconStudio.Core.Threading.ConcurrentCollector`1">
             <summary>

@@ -1,10 +1,17 @@
 !Animation
 Id: c0ec4164-8719-449e-b8bd-7bb395cdeb54
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 1.10.0-alpha01}
 Tags: []
 Source: ../../../Resources/Animation/Shoot.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
 Skeleton: 696ba9c9-19d1-4115-a7e7-193871f0d960:Models/mannequinHandModel Skeleton
 RootMotion: false
 PreviewModel: 38269003-6890-4824-8f3b-9066f322e5d3:Models/mannequinHandModel
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:30:00.0000000

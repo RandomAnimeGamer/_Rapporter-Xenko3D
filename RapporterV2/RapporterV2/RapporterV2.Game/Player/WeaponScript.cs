@@ -15,38 +15,47 @@ namespace RapporterV2.Player { public class WeaponScript : SyncScript {
     public CameraComponent Camera { get; set; }
     private int buffer=0, combo=0;//0 is null state
     private bool reset=false, T=false;
+//    private Vector3 posVect = new Vector3(.08f, -.05f, -.11f);
+    private RigidbodyComponent r;
 
-    private float Cooldown = 1f;
+    private float Cooldown = 10f;
     private float cooldownRemaining = 0f;
 
+//    public override void Start() { r = Entity.Get<RigidbodyComponent>(); }
     public override void Update() {
-        resetPos.TryReceive(out reset);//try to receive a position reset
-        resetT.TryReceive(out T);
+//        resetPos.TryReceive(out reset);//try to receive a position reset
+//        resetT.TryReceive(out T);
         AtkEvent.TryReceive(out buffer);//try to receive a combo number, 0 is NaN state
 
-        if(T) cooldownRemaining = 10f;
-        if(reset) Entity.Transform.Position = new Vector3(.08f, -.05f, -.11f);
-        if(buffer!=0) { combo=buffer; }//buffer for a combo number
+//        if(T) cooldownRemaining = 10f;
+//        if(reset) Entity.Transform.Position = posVect;
+//        if(buffer!=0) { combo=buffer; }//buffer for a combo number
 
-        var pos = Vector3.Zero;//translation vector
-        if(combo==1&&cooldownRemaining > 0f) {//decrement x&y rateX:Y=2:1, move z ^ then V where z is like x^2 graph, rotate y until 180
-            pos.X -= .02f; pos.Y -= .01f;
-            cooldownRemaining -= 1f;
-            if(cooldownRemaining > 10f) pos.Z += .01f;
-            else if(cooldownRemaining < 10) pos.Z-= .01f;
-            else pos.Z += 0f;
-            Vector3 Rotations = new Vector3(0f, 0f, 50f); Entity.Get<RigidbodyComponent>().ApplyTorque(Rotations);
+//        var pos = Vector3.Zero;//translation vector
+        if(combo==1&&cooldownRemaining > 0f) {//decrement x&y rateX:Y=4:1, move z ^ then V where z is like x^2 graph, rotate y and z
+            Entity.Get<AnimationComponent>().Play("slash");
+//            pos.X -= .02f; pos.Y -= .005f;
+//            cooldownRemaining -= 1f;
+//            if(cooldownRemaining > 5f) pos.Z += .02f;
+//            else if(cooldownRemaining < 5f) pos.Z -= .02f;
+//            else pos.Z += 0f;
         }
-        //reverse combo 1
-        if(combo==2) { completed.Broadcast(false); }//move z back a bit, rotate so all axes are 0, then move z forward, then reverse the process
-        if(combo==3) { completed.Broadcast(false); }
+        if(combo==2) {//reverse combo 1
+            Entity.Get<AnimationComponent>().Play("slash");
+//            pos.X += .015f; pos.Y += .005f;
+//            cooldownRemaining -= 1f;
+//            if(cooldownRemaining > 5f) pos.Z += .01f;
+//            else if(cooldownRemaining < 5f) pos.Z -= .01f;
+//            else pos.Z += 0f;
+        }
+        if(combo==3) { completed.Broadcast(false); }//move z back a bit, rotate so all axes are 0, then move z forward, then reverse the process
         
         
-        var worldSpeed = (Camera != null)//Convert translation vector to world if applicable
-        ? Utils.LogicDirectionToWorldDirection(new Vector2(pos.X, pos.Z), Camera, Vector3.UnitY) + new Vector3(0, pos.Y, 0)
-        : new Vector3(pos.X, pos.Y, pos.Z);//No camera? No problem!
-        Entity.Transform.Position += worldSpeed;//apply modified vector to translation
+//        var worldSpeed = (Camera != null)//Convert translation vector to world if applicable
+//        ? Utils.LogicDirectionToWorldDirection(new Vector2(pos.X, pos.Z), Camera, Vector3.UnitY) + new Vector3(0, pos.Y, 0)
+//        : new Vector3(pos.X, pos.Y, pos.Z);//No camera? No problem!
+//        Entity.Transform.Position += worldSpeed;//apply modified vector to translation
         
-        if(cooldownRemaining <= 0f) completed.Broadcast(true);
+        if(cooldownRemaining <= 0f) { cooldownRemaining=0f; completed.Broadcast(true); }
     }
 } }

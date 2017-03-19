@@ -84,8 +84,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: 1.32953048, Y: 2.47629833, Z: 1.29209828}
-            CamPitchYaw: {X: -0.5999708, Y: 6.236108}
+            CamPosition: {X: -34.0018272, Y: 9.464283, Z: -0.874234557}
+            CamPitchYaw: {X: -0.99054116, Y: 7.431692}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -136,6 +136,34 @@ Settings:
             HiddenGizmos:
                 - Transform
                 - Physics
+            NavigationVisible: false
+            NavigationWireframes: false
+        420df9fa-5ea2-4e45-ba9e-f040e1b7ffff:
+            CamPosition: {X: 0.6037698, Y: 15.22339, Z: 22.8124237}
+            CamPitchYaw: {X: -0.5140208, Y: -0.249691635}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
+                - Transform
             NavigationVisible: false
             NavigationWireframes: false
     Templates/ModelFromFile/DefaultSkeleton: 00000000-0000-0000-0000-000000000000

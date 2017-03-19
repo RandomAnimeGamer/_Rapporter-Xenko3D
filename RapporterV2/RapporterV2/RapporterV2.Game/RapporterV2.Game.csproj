@@ -108,10 +108,12 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animation.cs" />
     <Compile Include="Core\InputManagerExtensions.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="EffectController.cs" />
     <Compile Include="FpsCamera.cs" />
+    <Compile Include="loadScene.cs" />
     <Compile Include="Player\AnimationController.cs" />
     <Compile Include="Player\NPCTalk.cs" />
     <Compile Include="Player\PlayerController.cs" />
