@@ -14,4 +14,6 @@ Skeleton: 96201797-a98f-4614-8494-6b96ecfe872d:0Rapporter_Assets/Characters/NPC1
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:01.3750000
+~SourceHashes:
+    5c2000b0f88aec8b212512aea7b1e3ef~NPC1 - Walk Anim (1).fbx: 4f13006c7fc22707fbd3cdc9ef98d403

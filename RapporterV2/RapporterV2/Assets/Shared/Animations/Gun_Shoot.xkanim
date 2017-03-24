@@ -14,4 +14,6 @@ Skeleton: 696ba9c9-19d1-4115-a7e7-193871f0d960:Models/mannequinHandModel Skeleto
 RootMotion: false
 PreviewModel: 38269003-6890-4824-8f3b-9066f322e5d3:Models/mannequinHandModel
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:00.3670000
+~SourceHashes:
+    bb6c56fcb2aea6b43f3df98850df49e9~../../../Resources/Animation/Shoot.fbx: 3b2f08678734ad938000bdbb87f41236

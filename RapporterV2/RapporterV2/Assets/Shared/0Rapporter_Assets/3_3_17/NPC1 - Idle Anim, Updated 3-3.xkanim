@@ -14,4 +14,6 @@ Skeleton: 96201797-a98f-4614-8494-6b96ecfe872d:0Rapporter_Assets/Characters/NPC1
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:02.0000000
+~SourceHashes:
+    5b4f8b787a0aa7e5342548b700efbade~NPC1 - Idle Anim, Updated 3-3.fbx: 81e9a47bd15f4e8f25139e2e67870fb2

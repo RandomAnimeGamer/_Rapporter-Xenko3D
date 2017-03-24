@@ -14,4 +14,6 @@ Skeleton: dc83d19f-24a3-4e9d-8b85-0976132eb852:0Rapporter_Assets/SimpleSword Ske
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:03.3330000
+~SourceHashes:
+    c736659db333f87467f19f15b5a14f82~animated_simpleSword.FBX: 2256e88339369f9e3f46ad93b9bc7977

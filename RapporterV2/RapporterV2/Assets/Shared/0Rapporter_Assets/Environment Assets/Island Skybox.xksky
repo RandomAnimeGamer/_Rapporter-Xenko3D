@@ -1,0 +1,5 @@
+!SkyboxAsset
+Id: b1edd151-be2e-4e3c-a8e8-e4d557304dcc
+Tags: []
+Model: !SkyboxCubeMapModel
+    CubeMap: 917c91b5-80bd-4d3f-8d66-7725e81064d9:0Rapporter_Assets/Environment Assets/Islands

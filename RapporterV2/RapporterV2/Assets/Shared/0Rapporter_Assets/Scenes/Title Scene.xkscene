@@ -123,3 +123,4 @@ Hierarchy:
                         Projection: Perspective
                     6847bad0962ec84ca04ab9db26dfd490: !RapporterV2.loadScene,RapporterV2.Game
                         Id: d7709b02-c7cd-4e31-b3db-503d9078907b
+                        SoundMusic: null

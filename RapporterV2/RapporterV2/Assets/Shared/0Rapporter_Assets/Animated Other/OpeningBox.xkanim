@@ -14,4 +14,6 @@ Skeleton: null
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:03.3330000
+~SourceHashes:
+    9b94b9fa821e85eab3f7fa42c028d764~OpeningBox.FBX: c525b25ac7be4f6fc08af28089056190

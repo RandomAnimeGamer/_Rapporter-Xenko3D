@@ -14,4 +14,6 @@ Skeleton: 00164d80-59cb-47b4-90d3-8cfa05aa9b41:0Rapporter_Assets/Environment Ass
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:03.3330000
+~SourceHashes:
+    c38ce4f3ba66b3301f996c1b775b3a46~Bush_animated.FBX: 89b15ee472de5d9cfa0c02675e094c08
