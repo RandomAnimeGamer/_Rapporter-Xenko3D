@@ -3379,7 +3379,7 @@ Hierarchy:
                         Children: {}
                     4198cc1d926fd047a67ae5f4f8bb2804: !SkyboxComponent
                         Id: 1dcc9841-6f92-47d0-a67a-e5f4f8bb2804
-                        Skybox: b875f418-c603-4935-a4a0-2b56d32690fe:Skybox
+                        Skybox: cf502374-828e-4e44-9fc5-7e4b7de8a136:0Rapporter_Assets/Environment Assets/Skyboxes/Stormy Clouds Skybox
                         Intensity: 0.5
                     ac01fe8ecaadef41b216daac5718fc50: !LightComponent
                         Id: 8efe01ac-adca-41ef-b216-daac5718fc50
@@ -4038,7 +4038,7 @@ Hierarchy:
                             ebb5ae7e955222ed4bf959b8195288d1: !ColliderShapeAssetDesc
                                 Shape: ee9a8e97-858d-41f9-af7c-0666c0d89c3a:0Rapporter_Assets/Environment Assets/Tree2 Collider
             Base:
-                BasePartAsset: de84fd98-9002-4809-9cfd-5395f9384508:0Rapporter_Assets/Scenes/Tree2
+                BasePartAsset: de84fd98-9002-4809-9cfd-5395f9384508:0Rapporter_Assets/Environment Assets/Tree2 Prefab
                 BasePartId: bfe961e8-2bab-407f-92c7-cdf920a01173
                 InstanceId: 706b7b2b-2224-4243-8393-c036f38be93e
         -   Entity:
