@@ -5,15 +5,15 @@ Tags: []
 DefaultScene: 420df9fa-5ea2-4e45-ba9e-f040e1b7ffff:0Rapporter_Assets/Scenes/Scene
 Defaults:
     - !SiliconStudio.Xenko.Graphics.RenderingSettings,SiliconStudio.Xenko.Graphics
-        DefaultBackBufferWidth: 1024
-        DefaultBackBufferHeight: 576
+        DefaultBackBufferWidth: 1280
+        DefaultBackBufferHeight: 720
         AdaptBackBufferToScreen: false
-        DefaultGraphicsProfile: Level_11_0
+        DefaultGraphicsProfile: Level_10_0
         ColorSpace: Linear
         DisplayOrientation: LandscapeRight
-        PreferredGraphicsPlatform: Direct3D11
+        PreferredGraphicsPlatform: Default
     - !SiliconStudio.Xenko.Assets.EditorSettings,SiliconStudio.Xenko.Assets
-        RenderingMode: LDR
+        RenderingMode: HDR
     - !SiliconStudio.Xenko.Assets.Textures.TextureSettings,SiliconStudio.Xenko.Assets
         TextureQuality: Fast
     - !SiliconStudio.Xenko.Physics.PhysicsSettings,SiliconStudio.Xenko.Physics

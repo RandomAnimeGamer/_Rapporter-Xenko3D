@@ -15,6 +15,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public float MouseSensitivity { get; set; } = 100.0f;
     public CameraComponent Camera { get; set; }
     public static readonly EventKey<Vector3> PlayerPos = new EventKey<Vector3>();
+    public static readonly EventKey<bool> swordMove = new EventKey<bool>();
     public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
     public static readonly EventKey<Vector3> MoveWeaponEventKey = new EventKey<Vector3>();
     public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
@@ -43,8 +44,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
             forest.IsLooping = true;
 //            forest.Play();
         }
-        move.Stop();
-        Input.LockMousePosition(true);
+//        move.Stop();
     }
     
     public override void Update() { { //Character movement
@@ -94,5 +94,25 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         var result = simulation.Raycast(unprojectedNear, unprojectedFar);
 
         if(result.Succeeded) { if (result.Collider != null) { jumped = true; doneJumping=false; } }
+    }
+    private void RaycastAtk() {
+        var unprojectedNear = Entity.Transform.Position;
+        var unprojectedFar = new Vector2(0f,150f);
+        
+        var unprojectedFar2 = (Camera != null)
+            ? Utils.LogicDirectionToWorldDirection(unprojectedFar, Camera, Vector3.UnitY)
+            : new Vector3(unprojectedFar.X, 0, unprojectedFar.Y);//No camera? No problem!
+            
+        swordMove.Broadcast(true);
+        var result = simulation.Raycast(unprojectedNear, unprojectedNear + unprojectedFar2);
+        if(result.Succeeded) { if(result.Collider != null) {
+            var rigidBody = result.Collider as RigidbodyComponent;
+            if (rigidBody != null) {
+                var forward = Entity.Transform.WorldMatrix.Forward;
+                rigidBody.Activate();
+                rigidBody.ApplyImpulse(forward * 5.0f);
+                rigidBody.ApplyTorqueImpulse(forward * 5.0f + new Vector3(0, 1, 0));
+            }
+        } }
     }
 } }

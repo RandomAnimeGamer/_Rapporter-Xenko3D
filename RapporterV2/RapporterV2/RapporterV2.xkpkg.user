@@ -84,8 +84,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: 0.0192685686, Y: 6.345096, Z: 8.798882}
-            CamPitchYaw: {X: -0.532044053, Y: 12.2818489}
+            CamPosition: {X: -34.0018272, Y: 9.464283, Z: -0.874234557}
+            CamPitchYaw: {X: -0.99054116, Y: 7.431692}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -139,8 +139,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         420df9fa-5ea2-4e45-ba9e-f040e1b7ffff:
-            CamPosition: {X: -1.814889, Y: 1.55565929, Z: 5.30244064}
-            CamPitchYaw: {X: -0.187190518, Y: -0.360596627}
+            CamPosition: {X: 0.6037698, Y: 15.22339, Z: 22.8124237}
+            CamPitchYaw: {X: -0.5140208, Y: -0.249691635}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
