@@ -88,7 +88,14 @@ Hierarchy:
         - 7c55839d-c943-4e44-bb7b-f72c457563a9
         - ce285550-3174-4116-9439-0fc69462a4ec
         - 38c74b38-e242-4828-a36a-0205d83bbff3
-        - 7500882d-b3d2-41a3-a475-919793eacaeb
+        - b059fbbc-803b-4b2c-88d7-256a04f0a588
+        - c8ff3c6b-90cb-4362-8157-dd303a9938d1
+        - ac68f334-e16c-443e-b688-8ced7cd7c9f0
+        - 9ed5b247-0b1f-4022-a2ba-a52ea8c7e3a6
+        - 7687b8d9-95c7-472c-8596-0a894b75d6db
+        - 568a3e7f-6102-4785-a1b6-fa2549396ec1
+        - e3987bea-5080-4e53-908e-722dcfb059c3
+        - d75effcb-f673-4d17-9b58-182b629c0065
     Parts:
         -   Entity:
                 Id: 03822c2d-7ea4-44f6-a200-5c06abc99ad5
@@ -528,6 +535,38 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 399d0f26-0b99-47c2-a80b-7d328dca08a5
+        -   Entity:
+                Id: 1cd5cf13-b769-41f0-8f8c-a64bf37bc6e5
+                Name: tree2_flattop
+                Components:
+                    5dc1187f09407bce92ce4f5ae70f3f3e: !TransformComponent
+                        Id: c5043875-cce3-45db-bec3-31231ddf8d93
+                        Position*: {X: -3.50731754, Y: 0.0, Z: -7.73825836}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    52fe6e282944d356ef61a472d6df902f: !ModelComponent
+                        Id: 6bfec353-320c-478f-9396-8b3540e9cd47
+                        Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
+                        Materials: {}
+                    7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
+                        Id: a99417c0-ec71-4f4c-9de8-011735448ea2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ff1796140f80a24d42dbea1679cdd807: !ColliderShapeAssetDesc
+                                Shape: cfdb0243-8c0e-44e4-bae0-911303e74fb8:0Rapporter_Assets/Environment Assets/Trees/Tree2_flattop Collider
+                            09640d85fbe4ac0f631bd54acd6207e2: !ColliderShapeAssetDesc
+                                Shape: null
+            Base:
+                BasePartAsset: 46aaabf1-9948-4237-ada4-70f7d32f48fb:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop Prefab
+                BasePartId: 311a093f-2b70-4b20-8363-a9eac0bf0b5a
+                InstanceId: fab63296-0ea6-4ea1-ac7c-54d0a23ea736
         -   Entity:
                 Id: 1d7ccf02-838a-47bb-9c6f-e684f4d1fc96
                 Name: Tree1
@@ -1051,6 +1090,36 @@ Hierarchy:
                             831d477370f62d0aeccda9a1f8cbb529: 7b47b753-dc1c-4524-974a-373d17fc80f6/5f9815ab-e465-42c2-8712-af0df1c80fb1
                             7f3cb9712420fee51357b1797261f193: 82f6b68e-f7c7-459f-beca-5cab8d81cc2b/f1822071-cb49-4138-bc90-67d98680d36f
         -   Entity:
+                Id: 3dcbc928-96cc-4be3-a9df-80bc220a9998
+                Name: Tree2
+                Components:
+                    3180849c06e87d468e7444d2a0b40894: !TransformComponent
+                        Id: 264fd3f5-251a-40a1-a5b2-ec7c30c7318c
+                        Position*: {X: 0.988265157, Y: 0.0, Z: -0.05334814}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3b8f815585510f42d4fd83b8a32cfb08: !ModelComponent
+                        Id: 4ce398fc-2605-4901-9078-ade5954ba7e3
+                        Model: 1ba31899-5183-4e6c-bce7-d5672b98389e:0Rapporter_Assets/Environment Assets/Tree2
+                        Materials: {}
+                    a6d1ff5f3764443e68a68ffec2a95e9a: !StaticColliderComponent
+                        Id: 7061dddf-5697-4d66-8f1c-3bbc7a761bbd
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ebb5ae7e955222ed4bf959b8195288d1: !ColliderShapeAssetDesc
+                                Shape: ee9a8e97-858d-41f9-af7c-0666c0d89c3a:0Rapporter_Assets/Environment Assets/Tree2 Collider
+            Base:
+                BasePartAsset: de84fd98-9002-4809-9cfd-5395f9384508:0Rapporter_Assets/Environment Assets/Tree2 Prefab
+                BasePartId: bfe961e8-2bab-407f-92c7-cdf920a01173
+                InstanceId: 8067ac4a-def0-440c-9d43-b578f61f0b69
+        -   Entity:
                 Id: 3de4042d-a663-451a-a6b7-8bda35d7b143
                 Name: Tree1
                 Components:
@@ -1463,6 +1532,17 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: efc753f1-b25d-420c-aaa6-b5b4975d5b53
+        -   Entity:
+                Id: 568a3e7f-6102-4785-a1b6-fa2549396ec1
+                Name: Bush1_2 Prefab_test
+                Components:
+                    2d331fdaa3e5d1f67f2c42e6b5606395: !TransformComponent
+                        Id: 6d7dd059-6dcf-4ac2-9abe-333c0a469517
+                        Position: {X: 40.57303, Y: 0.0, Z: -21.5558472}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            ae5fed8cff9d5c7e6536f24fa0004348: 8868f6c1-a4f5-4959-bd65-0e547e5c6e1b/92c2d3cf-b142-448d-8209-61114a82ab8f
         -   Entity:
                 Id: 576c17be-e6dc-43cd-8baa-1013cd034951
                 Name: Tree1
@@ -2099,16 +2179,6 @@ Hierarchy:
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
                         Intensity: 0.1
         -   Entity:
-                Id: 7500882d-b3d2-41a3-a475-919793eacaeb
-                Name: Bush1_2 Prefab_test
-                Components:
-                    040fd806a95748a826b1ff7ab280420f: !TransformComponent
-                        Id: e8241dba-b1dc-424b-a133-279b8ae8d638
-                        Position: {X: 1.0741818, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-        -   Entity:
                 Id: 75550bac-19ae-48ee-8c9b-e63516fce62a
                 Name: Tree1
                 Components:
@@ -2198,6 +2268,17 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 5aa46bfd-70f4-4f96-ba25-58181febe205
+        -   Entity:
+                Id: 7687b8d9-95c7-472c-8596-0a894b75d6db
+                Name: tree2_flattop Prefab
+                Components:
+                    8024817f40ff9c43eb0fe29cd801b814: !TransformComponent
+                        Id: cf2633a4-0d4e-4c68-a962-7847bd24a365
+                        Position: {X: -27.6159725, Y: 0.0, Z: -10.7952709}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            acb934f68461ca51915b6c3567ba5778: 1cd5cf13-b769-41f0-8f8c-a64bf37bc6e5/c5043875-cce3-45db-bec3-31231ddf8d93
         -   Entity:
                 Id: 773037f2-1bc5-475f-83f0-692b932adcfd
                 Name: Tree1
@@ -2543,12 +2624,42 @@ Hierarchy:
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: d714795c-c513-4f1c-83be-7c220b7f9f4b
         -   Entity:
+                Id: 8868f6c1-a4f5-4959-bd65-0e547e5c6e1b
+                Name: Bush1_2
+                Components:
+                    1673a34aaafce62bceb73fb36f064b22: !TransformComponent
+                        Id: 92c2d3cf-b142-448d-8209-61114a82ab8f
+                        Position*: {X: -29.88184, Y: 0.0, Z: 0.502905846}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.431246, Z: 2.14789963}
+                        Children: {}
+                    2c0ef3ab10cb76035ecfc59cada3c36b: !ModelComponent
+                        Id: 487907ea-705f-4723-8498-1f2662b3b193
+                        Model: 2c5251a2-c49f-4d8e-b7ce-656614c91753:0Rapporter_Assets/Environment Assets/Bush1_2
+                        Materials: {}
+                    43cc93a9fa050cb99a7343a3c749eaff: !StaticColliderComponent
+                        Id: ba630f19-e983-4025-9690-01e4ce143c3b
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            7ee91aa6f8978bed3f59855aa25249a2: !ColliderShapeAssetDesc
+                                Shape: 976b3eee-fea9-4817-85fb-a4a1a880ed77:0Rapporter_Assets/Environment Assets/Bush1_2 Collider
+            Base:
+                BasePartAsset: f87d6145-36cd-4974-a8bd-eaace6f9556e:0Rapporter_Assets/Environment Assets/Trees/Bush1_2 Prefab_test
+                BasePartId: 358acbec-71a9-4d94-907f-f1c9c8f78e9e
+                InstanceId: afbc7347-b68a-4c5f-b958-e6c80cb89909
+        -   Entity:
                 Id: 896595ed-e7ae-4d67-b910-61a9b728d70e
                 Name: Tree1
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 853d2ad2-c41a-4d17-ba5e-467a3387db31
-                        Position*: {X: -11.2492638, Y: 0.0, Z: 8.726019}
+                        Position*: {X: -40.1395645, Y: 0.0, Z: 8.726019}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -2608,7 +2719,7 @@ Hierarchy:
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 356459c0-933a-407b-b64b-12baa26c88dc
-                        Position*: {X: -7.361226, Y: 0.0, Z: 13.014286}
+                        Position*: {X: 27.8529472, Y: 0.0, Z: 13.014286}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -2928,6 +3039,38 @@ Hierarchy:
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: e67a0413-a1f9-4541-8fd1-2afca2669317
         -   Entity:
+                Id: 99f3396b-a918-4a3f-a60a-70d598d92803
+                Name: tree2_flattop
+                Components:
+                    5dc1187f09407bce92ce4f5ae70f3f3e: !TransformComponent
+                        Id: 391531ee-091c-4a03-9e19-69f531205b46
+                        Position: {X: -18.985218, Y: 0.0, Z: 12.5865364}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    52fe6e282944d356ef61a472d6df902f: !ModelComponent
+                        Id: fda197f1-c065-426e-be1f-8d999680ada7
+                        Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
+                        Materials: {}
+                    7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
+                        Id: 076e385f-df4d-4dbd-8a33-21c3bb619841
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ff1796140f80a24d42dbea1679cdd807: !ColliderShapeAssetDesc
+                                Shape: cfdb0243-8c0e-44e4-bae0-911303e74fb8:0Rapporter_Assets/Environment Assets/Trees/Tree2_flattop Collider
+                            09640d85fbe4ac0f631bd54acd6207e2: !ColliderShapeAssetDesc
+                                Shape: null
+            Base:
+                BasePartAsset: 46aaabf1-9948-4237-ada4-70f7d32f48fb:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop Prefab
+                BasePartId: 311a093f-2b70-4b20-8363-a9eac0bf0b5a
+                InstanceId: bd6e599c-70c3-49f5-ae75-2ca8bc92eefe
+        -   Entity:
                 Id: 9a6554aa-2075-458f-82b3-78f9ca06172b
                 Name: Tree1
                 Components:
@@ -3017,6 +3160,17 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 97782813-df3c-4354-9482-edbb665d1f97
+        -   Entity:
+                Id: 9ed5b247-0b1f-4022-a2ba-a52ea8c7e3a6
+                Name: tree2_flattop Prefab
+                Components:
+                    61f07e4b75594fe295e957ddd74d0e78: !TransformComponent
+                        Id: 34b84ec5-96e1-49a5-96e7-dbc21483f67e
+                        Position: {X: 41.4085, Y: 0.0, Z: -20.83432}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a371f2ebe0165bf562316347b2a13568: 99f3396b-a918-4a3f-a60a-70d598d92803/391531ee-091c-4a03-9e19-69f531205b46
         -   Entity:
                 Id: 9f48d668-3c89-4bfc-80f0-18ccbd87063e
                 Name: GridBase10x10
@@ -3346,6 +3500,17 @@ Hierarchy:
                     6507628f9266015b7314c4998ca37bc9: !RapporterV2.Player.Enemy,RapporterV2.Game
                         Id: 347e542f-f810-4e53-9e78-2d4fc4f6c05a
         -   Entity:
+                Id: ac68f334-e16c-443e-b688-8ced7cd7c9f0
+                Name: tree2_flattop Prefab
+                Components:
+                    7663f988dd90f7137654a7d362ba2787: !TransformComponent
+                        Id: 79533192-49b8-41b3-96e2-cdcf07f87acf
+                        Position: {X: 22.4847679, Y: 0.0, Z: 7.686552}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            ed244b5a1117b9241c03911e6e75196f: b6d64b71-fffd-4b5f-9901-0417f41e3acd/5ffa9df3-0530-4911-a7c2-05c8541dc0a2
+        -   Entity:
                 Id: add5d6f5-cfc4-4ad6-b9e5-999de7644030
                 Name: Tree1
                 Components:
@@ -3436,6 +3601,17 @@ Hierarchy:
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: f2c05e85-7dfa-4568-a1a3-9e5d770ba525
         -   Entity:
+                Id: b059fbbc-803b-4b2c-88d7-256a04f0a588
+                Name: Tree2 Prefab
+                Components:
+                    ae055debd459bebcbb5ddaaf1824fca3: !TransformComponent
+                        Id: c6fcd0bf-3131-453e-8219-b565306d0505
+                        Position: {X: 0.0, Y: 0.025947012, Z: 6.376013}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            832d90c85b63298b5c95fd68aad5eb73: f2c3e4df-9789-45d2-80e4-ba1a2e91dd41/41546e07-ba85-4e09-b0b9-7d9def7657c6
+        -   Entity:
                 Id: b0c81c2f-7fc8-49f1-aaae-5e2973a76428
                 Name: Tree1
                 Components:
@@ -3471,7 +3647,7 @@ Hierarchy:
                 Components:
                     5cfb0a8d82b126f8aba3d6246ca9ab2f: !TransformComponent
                         Id: 082bc203-f526-47cd-9ce0-6289852e70bd
-                        Position*: {X: -11.9211063, Y: 0.0, Z: 7.902134}
+                        Position*: {X: -31.4215336, Y: 0.0, Z: -7.838605}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -3521,6 +3697,36 @@ Hierarchy:
                                 BiasParameters: {}
                         Intensity: 0.5
         -   Entity:
+                Id: b43d016d-b504-4b56-96ee-4c88ad1f467a
+                Name: Tree2
+                Components:
+                    3180849c06e87d468e7444d2a0b40894: !TransformComponent
+                        Id: 3565cd7e-8088-4e68-968b-d57e5faeaba0
+                        Position*: {X: -0.00676357746, Y: 0.0, Z: -0.536585569}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3b8f815585510f42d4fd83b8a32cfb08: !ModelComponent
+                        Id: 0eebafe6-b5df-420b-891e-277a48fdd03b
+                        Model: 1ba31899-5183-4e6c-bce7-d5672b98389e:0Rapporter_Assets/Environment Assets/Tree2
+                        Materials: {}
+                    a6d1ff5f3764443e68a68ffec2a95e9a: !StaticColliderComponent
+                        Id: b1d25fd2-8f67-4abf-bcf2-0164ee281067
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ebb5ae7e955222ed4bf959b8195288d1: !ColliderShapeAssetDesc
+                                Shape: ee9a8e97-858d-41f9-af7c-0666c0d89c3a:0Rapporter_Assets/Environment Assets/Tree2 Collider
+            Base:
+                BasePartAsset: de84fd98-9002-4809-9cfd-5395f9384508:0Rapporter_Assets/Environment Assets/Tree2 Prefab
+                BasePartId: bfe961e8-2bab-407f-92c7-cdf920a01173
+                InstanceId: 518a1090-fb91-44a3-ac35-47b980282a02
+        -   Entity:
                 Id: b524da9a-44da-48df-9a00-4ae8090c0050
                 Name: Tree1
                 Components:
@@ -3550,6 +3756,38 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: e4319186-5b93-492d-8806-cb7691bc2017
+        -   Entity:
+                Id: b6d64b71-fffd-4b5f-9901-0417f41e3acd
+                Name: tree2_flattop
+                Components:
+                    5dc1187f09407bce92ce4f5ae70f3f3e: !TransformComponent
+                        Id: 5ffa9df3-0530-4911-a7c2-05c8541dc0a2
+                        Position*: {X: -18.985218, Y: 0.0, Z: 15.6277}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    52fe6e282944d356ef61a472d6df902f: !ModelComponent
+                        Id: bcc7efa0-0626-47d6-8765-47f5eecff248
+                        Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
+                        Materials: {}
+                    7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
+                        Id: 9babf0d4-7363-484b-832b-d3e6eb1ef683
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ff1796140f80a24d42dbea1679cdd807: !ColliderShapeAssetDesc
+                                Shape: cfdb0243-8c0e-44e4-bae0-911303e74fb8:0Rapporter_Assets/Environment Assets/Trees/Tree2_flattop Collider
+                            09640d85fbe4ac0f631bd54acd6207e2: !ColliderShapeAssetDesc
+                                Shape: null
+            Base:
+                BasePartAsset: 46aaabf1-9948-4237-ada4-70f7d32f48fb:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop Prefab
+                BasePartId: 311a093f-2b70-4b20-8363-a9eac0bf0b5a
+                InstanceId: 3c5c75ce-6796-4873-a504-deafbc3a3cc4
         -   Entity:
                 Id: b91b511d-5ce2-4486-b3c8-6901e3d2734f
                 Name: Tree1
@@ -3956,6 +4194,38 @@ Hierarchy:
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 407a9cd1-d66a-4f6f-a4a7-ef145e603212
         -   Entity:
+                Id: c8ff3c6b-90cb-4362-8157-dd303a9938d1
+                Name: tree2_flattop
+                Components:
+                    5dc1187f09407bce92ce4f5ae70f3f3e: !TransformComponent
+                        Id: 3217d20c-dd4f-45c8-a29d-8ff8d0cb2ca8
+                        Position: {X: -18.985218, Y: 0.0, Z: 12.5865364}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    52fe6e282944d356ef61a472d6df902f: !ModelComponent
+                        Id: e546e967-5587-4fc6-ba65-0c0e87a17092
+                        Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
+                        Materials: {}
+                    7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
+                        Id: 8e48e410-e7f5-4d4a-ab1c-7e02b4d3593a
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ff1796140f80a24d42dbea1679cdd807: !ColliderShapeAssetDesc
+                                Shape: cfdb0243-8c0e-44e4-bae0-911303e74fb8:0Rapporter_Assets/Environment Assets/Trees/Tree2_flattop Collider
+                            09640d85fbe4ac0f631bd54acd6207e2: !ColliderShapeAssetDesc
+                                Shape: null
+            Base:
+                BasePartAsset: 46aaabf1-9948-4237-ada4-70f7d32f48fb:0Rapporter_Assets/Scenes/tree2_flattop
+                BasePartId: 311a093f-2b70-4b20-8363-a9eac0bf0b5a
+                InstanceId: 89f8886d-6c02-4bc3-a4ae-62479f9773c4
+        -   Entity:
                 Id: c971dbdb-6b63-4f6c-b02e-78d7659c787f
                 Name: Tree1
                 Components:
@@ -4129,7 +4399,7 @@ Hierarchy:
                 Components:
                     1673a34aaafce62bceb73fb36f064b22: !TransformComponent
                         Id: 8ccc7585-9bce-4c34-bbeb-ab22f072a2f2
-                        Position*: {X: -25.6154842, Y: 0.0, Z: 8.965929}
+                        Position*: {X: -17.795742, Y: 0.0, Z: 7.9015336}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -4339,7 +4609,7 @@ Hierarchy:
                 Components:
                     1673a34aaafce62bceb73fb36f064b22: !TransformComponent
                         Id: 6d5439c4-b69c-40f3-ba0d-3b8b7a75d79e
-                        Position*: {X: -22.8048115, Y: 0.0, Z: 12.9478531}
+                        Position*: {X: -1.28601265, Y: 0.0, Z: 12.3688736}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -4363,6 +4633,17 @@ Hierarchy:
                 BasePartAsset: c8d542d1-ebfd-4a59-abe3-45328bb4ec1f:0Rapporter_Assets/Environment Assets/Bush1_2 Prefab
                 BasePartId: e0bd4a79-3641-493c-b848-f4ad2c35c976
                 InstanceId: 200ec5e1-2a2b-4886-9be6-760d570148b0
+        -   Entity:
+                Id: d75effcb-f673-4d17-9b58-182b629c0065
+                Name: Tree2 Prefab
+                Components:
+                    ed764fe4297875cfff612ed9f76705c3: !TransformComponent
+                        Id: e5e78ffe-9357-484a-b722-9b2b9ca84bfe
+                        Position: {X: -11.6092186, Y: 0.0, Z: 8.265148}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            bdb95261f912f72500375bf995c9ca22: 3dcbc928-96cc-4be3-a9df-80bc220a9998/264fd3f5-251a-40a1-a5b2-ec7c30c7318c
         -   Entity:
                 Id: d7f8ec73-2d87-4fef-a9c1-66449ef90f6b
                 Name: Tree1
@@ -4501,6 +4782,17 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 86e78c0b-a2e9-4c0d-b127-4773272074ac
+        -   Entity:
+                Id: e3987bea-5080-4e53-908e-722dcfb059c3
+                Name: Tree2 Prefab
+                Components:
+                    f3c8cd75cd37a1d5d0b0e77050827bdd: !TransformComponent
+                        Id: 62895708-7cdf-4d9e-9aca-b2007d7a8468
+                        Position: {X: -6.63771963, Y: 0.0, Z: 14.2015114}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            2eb8a1a66ed0f8569848e3b21c8189d8: b43d016d-b504-4b56-96ee-4c88ad1f467a/3565cd7e-8088-4e68-968b-d57e5faeaba0
         -   Entity:
                 Id: e3b85084-0996-4c6f-882e-a6f80e4e8923
                 Name: Tree1
@@ -4681,6 +4973,36 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8b76c485-04aa-4818-9d2d-45f75e4f8e50
+        -   Entity:
+                Id: f2c3e4df-9789-45d2-80e4-ba1a2e91dd41
+                Name: Tree2
+                Components:
+                    3180849c06e87d468e7444d2a0b40894: !TransformComponent
+                        Id: 41546e07-ba85-4e09-b0b9-7d9def7657c6
+                        Position: {X: -31.0779972, Y: 0.0, Z: 1.17967415}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3b8f815585510f42d4fd83b8a32cfb08: !ModelComponent
+                        Id: 7a5d5bef-3e5a-4c6d-a0ee-417a2086dda4
+                        Model: 1ba31899-5183-4e6c-bce7-d5672b98389e:0Rapporter_Assets/Environment Assets/Tree2
+                        Materials: {}
+                    a6d1ff5f3764443e68a68ffec2a95e9a: !StaticColliderComponent
+                        Id: 5f2f6ae3-14f4-4ec4-95a2-ab4c4747a094
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ebb5ae7e955222ed4bf959b8195288d1: !ColliderShapeAssetDesc
+                                Shape: ee9a8e97-858d-41f9-af7c-0666c0d89c3a:0Rapporter_Assets/Environment Assets/Tree2 Collider
+            Base:
+                BasePartAsset: de84fd98-9002-4809-9cfd-5395f9384508:0Rapporter_Assets/Environment Assets/Tree2 Prefab
+                BasePartId: bfe961e8-2bab-407f-92c7-cdf920a01173
+                InstanceId: 09341555-305c-4f24-bc69-1cba7a41f18a
         -   Entity:
                 Id: f3ec74fb-09f3-4413-af76-cf54fb5911d1
                 Name: Tree1
