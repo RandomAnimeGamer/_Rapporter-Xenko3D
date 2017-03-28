@@ -1,0 +1,16 @@
+!Model
+Id: e314151c-848a-4ce8-8d34-5ebc20637e5f
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../../../../../../Users/Jessica/Documents/ASU/Capstone_gaming/Models/VariationModels/tree1_squat.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    8492ba23a33764799212bb2de314d841:
+        Name: Bark
+        MaterialInstance:
+            Material: dbd1cec5-166a-4e4f-8afd-eb981306b3ed:0Rapporter_Assets/Environment Assets/Trees/Bark
+    bf91476fac588c32e962eff82d307c93:
+        Name: Leaves
+        MaterialInstance:
+            Material: b4f3ce1d-29a1-4915-b433-ceae23ab4f3f:0Rapporter_Assets/Environment Assets/Trees/Leaves
+Skeleton: 0f810a09-89d6-4746-b3b8-747c69fdf889:0Rapporter_Assets/Environment Assets/Trees/tree1_squat Skeleton

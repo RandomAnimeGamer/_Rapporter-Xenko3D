@@ -1,0 +1,11 @@
+!Skeleton
+Id: 0f810a09-89d6-4746-b3b8-747c69fdf889
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../../../../Users/Jessica/Documents/ASU/Capstone_gaming/Models/VariationModels/tree1_squat.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    93aa6eed182f98b8f83eac20d45861d0: {Name: RootNode, Depth: 0}
+    cba80d5d167c4da90832cc61702efed2: {Name: Pine Tree, Depth: 1}
+    8a2c95d0e18207b6fe74af099e303c96: {Name: Lamp, Depth: 1}
+    abf205c49aa69b5efca081a5f16666f9: {Name: Camera, Depth: 1}
