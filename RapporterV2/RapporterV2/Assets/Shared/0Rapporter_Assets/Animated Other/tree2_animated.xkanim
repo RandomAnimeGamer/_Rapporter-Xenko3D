@@ -14,4 +14,6 @@ Skeleton: 3858991f-bee6-4a8d-a66c-615194e722ff:0Rapporter_Assets/Environment Ass
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:03.3330000
+~SourceHashes:
+    b60a9ef7b00e6020fe0ae6b66a0d69a3~tree2_animated.FBX: 3d6f63f6b7c9aa6e9d5ab9c53f618e40

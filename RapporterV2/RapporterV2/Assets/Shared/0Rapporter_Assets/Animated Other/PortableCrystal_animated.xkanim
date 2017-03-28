@@ -14,4 +14,6 @@ Skeleton: c28b03a1-12ab-4f2f-a15d-349e23beae1d:0Rapporter_Assets/Portable Telepo
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:03.3330000
+~SourceHashes:
+    ef4864aabce570c230dba280bd9d6d6d~PortableCrystal_animated.FBX: 2ec8cba8785ea7676dc4307231f6d28c

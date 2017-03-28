@@ -14,4 +14,6 @@ Skeleton: null
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:01.2500000
+~SourceHashes:
+    dad8b9a9410ea49ce2a309d9f1448dc2~NPC#2 - Walk Anim.fbx: b44044029c21d05e0d5acb068d8d8589

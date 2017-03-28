@@ -14,4 +14,6 @@ Skeleton: 14c8c0e2-4e50-4acb-a039-aae3ddb64e0a:0Rapporter_Assets/Town Map/_Updat
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:02.0000000
+~SourceHashes:
+    50a77b33fd1f47e9fe42c73bb77fbfbf~_Updated_Town_Teleporter.FBX: 47cc23a9be23c5fa9fa7951d861cda75

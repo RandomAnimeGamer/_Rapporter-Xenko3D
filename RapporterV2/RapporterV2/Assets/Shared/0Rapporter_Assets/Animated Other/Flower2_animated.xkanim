@@ -14,4 +14,6 @@ Skeleton: 6eb627e2-0af4-4286-8e0e-d926ec3dd48e:0Rapporter_Assets/Environment Ass
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:02.3330000
+~SourceHashes:
+    f4fd1bf6cbb219f584d34f9d765ab686~Flower2_animated.FBX: 7da59cd9c67cd867abc1f0142803d300

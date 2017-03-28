@@ -1,0 +1,5 @@
+!SkyboxAsset
+Id: 7e53706d-b53e-4acb-a09b-4eb55879809d
+Tags: []
+Model: !SkyboxCubeMapModel
+    CubeMap: 5f48b942-5af2-478f-a7d7-ec0d4df34ab1:0Rapporter_Assets/Environment Assets/Skyboxes/Multicloud

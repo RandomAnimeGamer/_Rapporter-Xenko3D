@@ -14,4 +14,6 @@ Skeleton: null
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:02.0000000
+~SourceHashes:
+    ee84d21c230da2693161f9bb8e82c442~NPC1 - Talking Anim.fbx: 0b79a88fd4079e59e679cceaad9acab2
