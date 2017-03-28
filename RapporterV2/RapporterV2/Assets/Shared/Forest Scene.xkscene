@@ -599,9 +599,6 @@ Hierarchy:
                         Id: 330cf175-b42c-49db-9bb9-c7d3268613b4
                         Model: a4ccee5f-3d9a-44aa-a2a2-62a22ecd786b:0Rapporter_Assets/Characters/NPC1 - Rigged
                         Materials: {}
-                    0f580a024c3b160a6d22229aa128beae: !AnimationComponent
-                        Id: a527ac77-afa0-4a71-9014-1b3aa6482f22
-                        Animations: {}
                     1e0d3f28632ed214fd6e22ccb84b7d1a: !StaticColliderComponent
                         Id: 8c93cc2c-3f61-4522-a20a-79d01649acea
                         CanSleep: false
@@ -617,6 +614,12 @@ Hierarchy:
                                 Size: {X: 10.0, Y: 15.0, Z: 25.0}
                                 LocalOffset: {X: 0.0, Y: 5.0, Z: 5.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    42db5932e59aee46e17ca957c2d18804: !AnimationComponent
+                        Id: 17d4d692-91e9-4bc7-831d-4f8386ea1ebe
+                        Animations:
+                            b3f8b58fe01a713613cbc54ff235ab59~idle: 3f383ce8-5a49-4cda-bbd5-59e301d3e3c7:0Rapporter_Assets/3_3_17/NPC1 - Idle Anim, Updated 3-3
+                    f7ef081499eb507415a51e555fdd8da6: !RapporterV2.Player.NPCTalk,RapporterV2.Game
+                        Id: a05b8dc7-f218-4fec-8880-acd0113e3561
         -   Entity:
                 Id: 1fe9fdf3-0918-4b82-88dd-96f8f357ea5d
                 Name: Tree1
@@ -1329,9 +1332,9 @@ Hierarchy:
                 Components:
                     c8f45a57ec5ab706e8e5ebfd1b02e532: !TransformComponent
                         Id: 080642a3-3b14-4605-9c88-4236796a9622
-                        Position: {X: 0.08, Y: -0.05, Z: -0.11}
-                        Rotation: {X: -0.258819044, Y: 2.74039835E-09, Z: 7.342876E-10, W: 0.9659258}
-                        Scale: {X: 0.01, Y: 0.01, Z: 0.01}
+                        Position: {X: 0.6, Y: -0.3, Z: -0.8}
+                        Rotation: {X: 0.1736483, Y: -2.79396772E-09, Z: -4.926523E-10, W: -0.9848077}
+                        Scale: {X: 0.08, Y: 0.08, Z: 0.08}
                         Children: {}
                     43e6cf26177dc823cf6a49b0c87f7da7: !ModelComponent
                         Id: e917707f-7f00-4951-8fd3-2e9aa64e4f6e
@@ -1359,17 +1362,20 @@ Hierarchy:
                                 Size: {X: 1.0, Y: 11.0, Z: 1.0}
                                 LocalOffset: {X: 0.0, Y: 3.8, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    f6f1e97bd9e76e8f2dd31453b16e8879: !AnimationComponent
-                        Id: ff92416c-a09d-4611-8058-8ff700628774
-                        Animations:
-                            da43f4471d7942c50517ed006e655702~slash: a605a7be-6016-47f9-b814-10d0e53f253d:0Rapporter_Assets/Animated Other/animated_simpleSword
+                    52b02d710f19eb1984fef7b49398c777: !RapporterV2.Player.WeaponScript,RapporterV2.Game
+                        Id: e5b2e595-800d-4ebd-aa66-cbe53fbf8bb8
+                        Camera: a2bac0e8-723a-495d-a05f-f239366654d3/79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
+                    b98cd45293dc121440153f518c943e70: !RapporterV2.Player.WeaponController,RapporterV2.Game
+                        Id: 9f0c1f0f-c04d-4e71-a7ac-a2c0e256d6f1
+                    e8bdc478d49d40fdff5f82333b6aa3ea: !RapporterV2.Player.WeaponCollide,RapporterV2.Game
+                        Id: b6a7b2b5-ea88-4d5d-acca-5b2587dcab39
         -   Entity:
                 Id: 54ae5828-6e50-4b94-b578-584c4ec71295
                 Name: PlayerCharacter
                 Components:
                     458ac2590f953f4fb47242e21b3e420f: !TransformComponent
                         Id: 59c28a45-950f-4f3f-b472-42e21b3e420f
-                        Position: {X: -37.9699249, Y: 2.623771, Z: 0.150197029}
+                        Position: {X: -2.02173758, Y: 2.623771, Z: 0.150197029}
                         Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -1398,7 +1404,7 @@ Hierarchy:
                         MaxRunSpeed: 5.0
                     36a827baf601c0d74bbbef15b64932f7: !RapporterV2.Player.PlayerInput,RapporterV2.Game
                         Id: 6b8c8c62-9754-47e4-804a-d3371ab3b0b7
-                        SoundMusic: f486c8ca-e028-43f0-9519-52be86c02cd3:0Rapporter_Assets/Sound/Forest
+                        SoundMusic: 9149eb92-81a7-4366-bd5d-fcb6b431bcc2:0Rapporter_Assets/Sound/Boss_fight
                         SoundEffect: 7fe482dc-f199-4a66-8395-4fe032795ff1:0Rapporter_Assets/Sound/plant-foliage-rustle-foley-moves__by__bathroomcrooner
                         DeadZone: 0.25
                         MouseSensitivity: 1.0
@@ -1413,6 +1419,8 @@ Hierarchy:
                             a6ee54071e0a1db87b1163d7de9aebf6: S
                         KeysJump:
                             2cc7eee4e446e46274bf786c297ff430: Space
+                    f7a378025317fadc71afed35d0362628: !RapporterV2.DebugPhysicsShapes,RapporterV2.Game
+                        Id: 8a6cf07c-ec8b-4955-88f1-90d630b47e3b
         -   Entity:
                 Id: 54faa231-cf60-4977-b438-4d1ef46b4d56
                 Name: Tree1
@@ -1729,6 +1737,8 @@ Hierarchy:
                             Texture: f4757f19-94da-4490-b7aa-a0be48789fae:0Rapporter_Assets/TextBoxText
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    9bbe4bb57eb84e6879f292f850806af6: !RapporterV2.Player.ScrollTextText,RapporterV2.Game
+                        Id: 5e7089d3-33e8-4e98-90c7-b0f116b15c7f
         -   Entity:
                 Id: 66960cc4-88e5-4031-889f-f4b856f65cf1
                 Name: Tree1
@@ -3281,7 +3291,7 @@ Hierarchy:
                         CanSleep: false
                         Restitution: 0.0
                         Friction: 0.5
-                        RollingFriction: 0.0
+                        RollingFriction: 1.0
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
@@ -3293,11 +3303,13 @@ Hierarchy:
                         Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
                         NodeName: null
                         ColliderShapes:
-                            1d08fde4068e57b47583e2003ac1c4ca: !BoxColliderShapeDesc
-                                Is2D: false
-                                Size: {X: 8.0, Y: 5.0, Z: 8.0}
-                                LocalOffset: {X: 0.0, Y: 3.0, Z: 0.0}
+                            1d08fde4068e57b47583e2003ac1c4ca: !CapsuleColliderShapeDesc
+                                Length: 1.0
+                                Radius: 4.0
+                                LocalOffset: {X: 0.0, Y: 4.5, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    5399633552ff6ad647e24d2b3600112e: !RapporterV2.Player.Enemy,RapporterV2.Game
+                        Id: 4cc5be1b-5920-46d1-a719-100cb6a09311
         -   Entity:
                 Id: add5d6f5-cfc4-4ad6-b9e5-999de7644030
                 Name: Tree1
@@ -4074,6 +4086,8 @@ Hierarchy:
                             Texture: 8c7db67c-457c-438b-aab8-49ab866b5c7b:0Rapporter_Assets/TextBox
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    2fb7c9f8216827ea42af955b2b180ac0: !RapporterV2.Player.ScrollText,RapporterV2.Game
+                        Id: 42f1661a-73fe-4883-a470-67edbfd0a4b2
         -   Entity:
                 Id: cea55e88-4530-4310-8e84-24627249ac98
                 Name: Tree1
