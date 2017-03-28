@@ -15,7 +15,6 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public float MouseSensitivity { get; set; } = 100.0f;
     public CameraComponent Camera { get; set; }
     public static readonly EventKey<Vector3> PlayerPos = new EventKey<Vector3>();
-    public static readonly EventKey<bool> swordMove = new EventKey<bool>();
     public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
     public static readonly EventKey<Vector3> MoveWeaponEventKey = new EventKey<Vector3>();
     public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
@@ -44,7 +43,8 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
             forest.IsLooping = true;
 //            forest.Play();
         }
-//        move.Stop();
+        move.Stop();
+        Input.LockMousePosition(true);
     }
     
     public override void Update() { { //Character movement
@@ -56,10 +56,10 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         if(doneJumping) jumpForce=-0.2f;
 
         var moveDirection = Vector2.Zero;
-        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX;
-        if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX;
-        if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY;
-        if (KeysDown.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitY;
+        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX * 2;
+        if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX * 2;
+        if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY * 2;
+        if (KeysDown.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitY * 2;
         
         var worldSpeed = (Camera != null)//Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
             ? Utils.LogicDirectionToWorldDirection(moveDirection, Camera, Vector3.UnitY) + new Vector3(0, jumpForce, 0)
@@ -94,25 +94,5 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         var result = simulation.Raycast(unprojectedNear, unprojectedFar);
 
         if(result.Succeeded) { if (result.Collider != null) { jumped = true; doneJumping=false; } }
-    }
-    private void RaycastAtk() {
-        var unprojectedNear = Entity.Transform.Position;
-        var unprojectedFar = new Vector2(0f,150f);
-        
-        var unprojectedFar2 = (Camera != null)
-            ? Utils.LogicDirectionToWorldDirection(unprojectedFar, Camera, Vector3.UnitY)
-            : new Vector3(unprojectedFar.X, 0, unprojectedFar.Y);//No camera? No problem!
-            
-        swordMove.Broadcast(true);
-        var result = simulation.Raycast(unprojectedNear, unprojectedNear + unprojectedFar2);
-        if(result.Succeeded) { if(result.Collider != null) {
-            var rigidBody = result.Collider as RigidbodyComponent;
-            if (rigidBody != null) {
-                var forward = Entity.Transform.WorldMatrix.Forward;
-                rigidBody.Activate();
-                rigidBody.ApplyImpulse(forward * 5.0f);
-                rigidBody.ApplyTorqueImpulse(forward * 5.0f + new Vector3(0, 1, 0));
-            }
-        } }
     }
 } }
