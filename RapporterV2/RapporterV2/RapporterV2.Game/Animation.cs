@@ -7,16 +7,8 @@ using SiliconStudio.Core.Mathematics;
 using SiliconStudio.Xenko.Input;
 using SiliconStudio.Xenko.Engine;
 
-namespace RapporterV2
-{
-    public class Animation : SyncScript
-    {
-
-        public override void Update()
-        {
-            if (Input.IsKeyPressed(Keys.LeftCtrl)) {
-                Entity.Get<AnimationComponent>().Play("Magic");
-            }
+namespace RapporterV2 { public class Animation : SyncScript {
+        public override void Update() {
+            if (Input.IsKeyPressed(Keys.LeftCtrl)) { Entity.Get<AnimationComponent>().Play("Magic"); }
         }
-    }
-}
+} }

@@ -48,6 +48,7 @@ SceneSettings:
                     Enabled: false
                     DOFAreas: {X: 0.5, Y: 6.0, Z: 50.0, W: 200.0}
                 BrightFilter:
+                    Enabled: false
                     Color: {R: 1.0, G: 1.0, B: 1.0}
                 Bloom:
                     Enabled: false
@@ -60,16 +61,18 @@ SceneSettings:
                 LensFlare:
                     Enabled: false
                 ColorTransforms:
+                    Enabled: false
                     Transforms:
-                        07ad277eed98ce4f92e93c18850ee158: !ToneMap
+                        61ce2eb0a0e6dfc7c78b43f80d0cc57d: !ToneMap
                             Operator: !ToneMapHejl2Operator {}
-                        94c6a372b2eb724daf6a78e06fc1f8eb: !FilmGrain
+                        ccea2a8d38e86b191fcc77b209922eb8: !FilmGrain
                             Enabled: false
-                        36686152e2eb1e48ac13e5375320fa92: !Vignetting
+                        7ca8152bb14de104e8d08877a6818c2b: !Vignetting
                             Enabled: false
                             Color: {R: 0.0, G: 0.0, B: 0.0}
                 Antialiasing: !FXAAEffect
                     Enabled: false
+                    InputLuminanceInAlpha: false
 Hierarchy:
     RootPartIds:
         - 54ae5828-6e50-4b94-b578-584c4ec71295
@@ -87,8 +90,7 @@ Hierarchy:
         - 3d3abc51-6e2f-419b-b44a-ddb52bb5124a
         - 7c55839d-c943-4e44-bb7b-f72c457563a9
         - ce285550-3174-4116-9439-0fc69462a4ec
-        - 38c74b38-e242-4828-a36a-0205d83bbff3
-        - 7500882d-b3d2-41a3-a475-919793eacaeb
+        - d40c0c7c-ff89-40cd-bb1a-928d6bd63a67
     Parts:
         -   Entity:
                 Id: 03822c2d-7ea4-44f6-a200-5c06abc99ad5
@@ -605,7 +607,9 @@ Hierarchy:
                         Materials: {}
                     0f580a024c3b160a6d22229aa128beae: !AnimationComponent
                         Id: a527ac77-afa0-4a71-9014-1b3aa6482f22
-                        Animations: {}
+                        Animations:
+                            95f0dbdca04c8d0a200351c9248e1b3c~idle: 3f383ce8-5a49-4cda-bbd5-59e301d3e3c7:0Rapporter_Assets/3_3_17/NPC1 - Idle Anim, Updated 3-3
+                            1ec946c020bb433c55e4f882381c390f~talk: b5043d61-1309-4771-8a60-044ac6a4bf87:0Rapporter_Assets/3_3_17/NPC1 - Talking Anim
                     1e0d3f28632ed214fd6e22ccb84b7d1a: !StaticColliderComponent
                         Id: 8c93cc2c-3f61-4522-a20a-79d01649acea
                         CanSleep: false
@@ -623,6 +627,10 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     70e83e12c54097da430fa0642e3fc3a1: !RapporterV2.Player.NPCTalk,RapporterV2.Game
                         Id: 9fdd2ab4-74bc-4f64-8938-9b1019ee697e
+                    d80f88ed0bd84c0028d03dacba23dad2: !RapporterV2.Animations.NPC1_Animations,RapporterV2.Game
+                        Id: d7c91d4a-4346-4384-9a38-1d288c3e77e6
+                        talk:
+                            Key: {}
         -   Entity:
                 Id: 1fe9fdf3-0918-4b82-88dd-96f8f357ea5d
                 Name: Tree1
@@ -696,7 +704,7 @@ Hierarchy:
                         Children: {}
                     4198cc1d926fd047a67ae5f4f8bb2804: !SkyboxComponent
                         Id: 1dcc9841-6f92-47d0-a67a-e5f4f8bb2804
-                        Skybox: cf502374-828e-4e44-9fc5-7e4b7de8a136:0Rapporter_Assets/Environment Assets/Skyboxes/Stormy Clouds Skybox
+                        Skybox: b875f418-c603-4935-a4a0-2b56d32690fe:Skybox
                         Intensity: 0.5
                     ac01fe8ecaadef41b216daac5718fc50: !LightComponent
                         Id: 8efe01ac-adca-41ef-b216-daac5718fc50
@@ -912,17 +920,6 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: ca601551-a16e-4272-af41-415001afc44f
-        -   Entity:
-                Id: 38c74b38-e242-4828-a36a-0205d83bbff3
-                Name: Bush1_2 Prefab
-                Components:
-                    155db1c9392ff7d902ffa5ecdc4d982a: !TransformComponent
-                        Id: ee2ae150-4c9d-422f-93b0-7f6827e4da6d
-                        Position: {X: 2.386478, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children:
-                            266c5529911ca5ba8c6f3300d601b310: d40c0c7c-ff89-40cd-bb1a-928d6bd63a67/6d5439c4-b69c-40f3-ba0d-3b8b7a75d79e
         -   Entity:
                 Id: 3abea64d-4a0d-4ae7-beaf-5b8daca5622f
                 Name: Tree1
@@ -1741,7 +1738,7 @@ Hierarchy:
                         Id: 086904d1-6b27-4517-a07d-9cbf2e386a5f
                         Position: {X: 0.0, Y: -0.078, Z: -0.122}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.01, Y: 0.01, Z: 0.01}
+                        Scale: {X: 0.008, Y: 0.008, Z: 0.006}
                         Children: {}
                     0350fefadcb9d18ce5b294eb0ad720a1: !SpriteComponent
                         Id: dee65dc6-4801-4cc0-8ff1-843513c9f999
@@ -2099,16 +2096,6 @@ Hierarchy:
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
                         Intensity: 0.1
         -   Entity:
-                Id: 7500882d-b3d2-41a3-a475-919793eacaeb
-                Name: Bush1_2 Prefab_test
-                Components:
-                    040fd806a95748a826b1ff7ab280420f: !TransformComponent
-                        Id: e8241dba-b1dc-424b-a133-279b8ae8d638
-                        Position: {X: 1.0741818, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-        -   Entity:
                 Id: 75550bac-19ae-48ee-8c9b-e63516fce62a
                 Name: Tree1
                 Components:
@@ -2288,7 +2275,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 748efebb-debe-4454-887a-ec701b0efe60
-        -   Entity:
+        -   Folder: Forest Details
+            Entity:
                 Id: 7c55839d-c943-4e44-bb7b-f72c457563a9
                 Name: Forest Details, Updated 3-3
                 Components:
@@ -4113,7 +4101,7 @@ Hierarchy:
                         Id: b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
                         Position: {X: 0.0, Y: -0.078, Z: -0.122}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.012, Y: 0.005, Z: 0.01}
+                        Scale: {X: 0.008, Y: 0.003, Z: 0.006}
                         Children: {}
                     e4382f7d901618ef150bc3064e9e439f: !SpriteComponent
                         Id: 91bf69da-2362-468f-931d-40c7efc4c514
@@ -4123,7 +4111,8 @@ Hierarchy:
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                     d9abb95ac6971c20fc44c0298eea5b14: !RapporterV2.Player.ScrollText,RapporterV2.Game
                         Id: 7416567f-3ae1-4af7-a54d-005e45032756
-        -   Entity:
+        -   Folder: Forest Details
+            Entity:
                 Id: ce285550-3174-4116-9439-0fc69462a4ec
                 Name: Bush1_2
                 Components:
@@ -4333,7 +4322,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 7da4f341-4c50-4094-b0be-f16202a532f0
-        -   Entity:
+        -   Folder: Forest Details
+            Entity:
                 Id: d40c0c7c-ff89-40cd-bb1a-928d6bd63a67
                 Name: Bush1_2
                 Components:
