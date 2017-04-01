@@ -42,6 +42,7 @@ namespace RapporterV2.Player { public class WeaponScript : SyncScript {
             else if(cooldownRemaining < 3f) pos.Z += .1f;
             else pos.Z += 0f;
             if(cooldownRemaining > 4f) Entity.Transform.RotationEulerXYZ -= new Vector3(.1f, 0f, 0f);
+            atking.Broadcast(true);
         }
         if(combo==2&&cooldownRemaining > 0f) {//reverse combo 1
             atking.Broadcast(true);
@@ -52,6 +53,7 @@ namespace RapporterV2.Player { public class WeaponScript : SyncScript {
             else if(cooldownRemaining < 3f) pos.Z += .1f;
             else pos.Z += 0f;
             pos.Y += .05f; pos.X += .15f;
+            atking.Broadcast(true);
         }
         if(combo==3&&cooldownRemaining > 0f) {
             atking.Broadcast(true);
@@ -63,12 +65,12 @@ namespace RapporterV2.Player { public class WeaponScript : SyncScript {
                 pos.Z -= .5f;
             }
             cooldownRemaining -= 1f;
+            atking.Broadcast(true);
         }//move z back a bit, rotate so all axes are 0, then move z forward, then reverse the process
         
         
         var worldSpeed = pos;//keep this here in case we need to modify this variable
         Entity.Transform.Position += worldSpeed;//apply modified vector to translation
-        atking.Broadcast(false);
 
         if(cooldownRemaining <= 0f) { cooldownRemaining=0f; completed.Broadcast(true); }
     }

@@ -1,0 +1,6 @@
+!Texture
+Id: f4ec0372-beef-4041-bb29-a83f69d19841
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: forest.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

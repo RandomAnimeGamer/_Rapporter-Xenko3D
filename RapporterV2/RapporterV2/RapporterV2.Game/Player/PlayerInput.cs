@@ -83,7 +83,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         CameraDirectionEventKey.Broadcast(cameraDirection);//Broadcast the camera direction directly, as a screen-space Vector2
     } {//Attack Code
         var comp=false; AtkComp.TryReceive(out comp);
-        if(Input.HasMouse&&Input.IsMouseButtonDown(MouseButton.Left)&&comp) {
+        if(Input.HasMouse&&Input.IsMouseButtonPressed(MouseButton.Left)&&comp) {
             combo++; if(combo>3) { combo=1; ResetEvent.Broadcast(true); }
             ResetTime.Broadcast(true); AtkEventKey.Broadcast(combo); attacking=true;
         }

@@ -51,7 +51,7 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
     } }
     public void DamageCheck() {
         var dmg=false; var v=false; damage.TryReceive(out dmg); valid.TryReceive(out v);
-        if(dmg) { Entity.Transform.Position += new Vector3(0f,1f,0f);
+        if(dmg&&v) { Entity.Transform.Position += new Vector3(0f,1f,0f);
             HP-=50; if(HP<0) { HP=0; } CheckDeath(); }
     }
     public void CheckDeath() {
