@@ -1,0 +1,34 @@
+!PrefabAsset
+Id: 585acf46-0b1f-4ca8-8ec1-e5f696baac90
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - d13d0650-e3b0-48d8-bc3a-2de6ecbc4d66
+    Parts:
+        -   Entity:
+                Id: d13d0650-e3b0-48d8-bc3a-2de6ecbc4d66
+                Name: OceanBoundary
+                Components:
+                    3a7129c6c99fe941872de7346e37fcd1: !TransformComponent
+                        Id: c4eac99f-bfa6-4a91-be85-ddd4ed89e8fc
+                        Position: {X: -2.27636051, Y: -8.116638, Z: -3.42376852}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 2.08379126, Y: 0.618674, Z: 1.0}
+                        Children: {}
+                    96f8314f96d5543918e98fd684cd5ef6: !ModelComponent
+                        Id: b7a8d18d-8d24-4a71-9653-3e0649d98cd6
+                        Model: e73e7154-86cc-4cde-9698-8d22a317873f:0Rapporter_Assets/Environment Assets/OtherAssets/OceanBoundary
+                        Materials: {}
+                    78f3bbb58e68edcb87150120f3e627f8: !StaticColliderComponent
+                        Id: 3bdfa9fb-b913-4071-a254-a61a4add9bc3
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            890b4617d046d705db5df51b50ffd60e: !ColliderShapeAssetDesc
+                                Shape: dd75aed8-c0f6-4f50-bdbc-c88a12662ad1:0Rapporter_Assets/Environment Assets/OtherAssets/OceanBoundary Collider

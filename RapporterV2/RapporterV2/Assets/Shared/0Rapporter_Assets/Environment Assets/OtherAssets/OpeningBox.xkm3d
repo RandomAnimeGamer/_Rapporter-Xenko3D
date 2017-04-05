@@ -1,0 +1,12 @@
+!Model
+Id: bae5ef07-d7e5-4bda-8aa8-31e599e49df4
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: OpeningBox.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    7ec3a5d402219ad952a45c59e3162112:
+        Name: Material
+        MaterialInstance:
+            Material: e1765c25-24ea-4588-b365-b4e43b30786f:0Rapporter_Assets/Environment Assets/OtherAssets/Material_2
+Skeleton: e91d27c7-db13-4faa-8aa2-e95abce10fd1:0Rapporter_Assets/Environment Assets/OtherAssets/OpeningBox Skeleton

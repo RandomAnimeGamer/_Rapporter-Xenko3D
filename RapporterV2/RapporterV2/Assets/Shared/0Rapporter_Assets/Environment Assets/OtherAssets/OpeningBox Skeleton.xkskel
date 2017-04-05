@@ -1,0 +1,15 @@
+!Skeleton
+Id: e91d27c7-db13-4faa-8aa2-e95abce10fd1
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: OpeningBox.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    115de30556e395f1c97c0b41a34b3504: {Name: RootNode, Depth: 0}
+    08c1e713b7be9e7edf97a7a3dcba07bd: {Name: Box, Depth: 1}
+    7538a6e1f46a996deb8c049ce1536c5c: {Name: Bottom, Depth: 2}
+    3e245a5bb1a5192ba3455a30a7f076b5: {Name: sideBack, Depth: 2}
+    eca0345a9b547b591e362ffb7d61194e: {Name: sideFront, Depth: 2}
+    11903c38b0d33b5fa2f6bcf5a69d63ef: {Name: sideLeft, Depth: 2}
+    8461286c918ef70301bab36d89843972: {Name: sideRight, Depth: 2}
+    7b215d39104b4a66d310d3e14a89f8b7: {Name: Top, Depth: 2}

@@ -1,0 +1,21 @@
+!Model
+Id: 07abc919-8fc3-440b-92db-c7838b5c3575
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Square Water - Animated.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+ScaleImport: 0.25
+Materials:
+    78815f172bd97f9ab1d7d44e4af86d76:
+        Name: Ground
+        MaterialInstance:
+            Material: 1009d7bc-c95c-471e-b94b-bb6eb1e28a7c:0Rapporter_Assets/Environment Assets/OtherAssets/Ground
+    347ba7920041c4a5dbfa5654780f079e:
+        Name: Ground2
+        MaterialInstance:
+            Material: 26a461e2-ccdc-482a-bad1-527bcca2c425:0Rapporter_Assets/Environment Assets/OtherAssets/Ground2
+    37d475a64a5062418337cfbcbb417359:
+        Name: Water
+        MaterialInstance:
+            Material: 7df791b3-92d3-4507-8ba0-f6ff2fd3356a:0Rapporter_Assets/Environment Assets/OtherAssets/Water
+Skeleton: 22385479-143d-44c3-bc96-b89e820ee598:0Rapporter_Assets/Environment Assets/OtherAssets/Square Water - Animated Skeleton

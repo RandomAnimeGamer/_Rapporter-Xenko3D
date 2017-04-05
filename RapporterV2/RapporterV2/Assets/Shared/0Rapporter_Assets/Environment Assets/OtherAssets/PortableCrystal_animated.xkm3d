@@ -1,0 +1,12 @@
+!Model
+Id: 399646f6-48cf-4769-ab68-48a12960ec8a
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: PortableCrystal_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c33d72df1b06f4c5bfc9ea6188de81ca:
+        Name: Material.001
+        MaterialInstance:
+            Material: 4e3c29eb-a198-4dab-8883-39c13f8819cf:0Rapporter_Assets/Environment Assets/OtherAssets/Material.001_3
+Skeleton: 86146f77-ccec-4426-80b9-69f5878aeac5:0Rapporter_Assets/Environment Assets/OtherAssets/PortableCrystal_animated Skeleton

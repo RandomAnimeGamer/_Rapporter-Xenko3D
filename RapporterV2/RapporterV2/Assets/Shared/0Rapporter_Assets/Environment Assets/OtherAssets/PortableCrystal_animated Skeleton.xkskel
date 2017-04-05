@@ -1,0 +1,10 @@
+!Skeleton
+Id: 86146f77-ccec-4426-80b9-69f5878aeac5
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: PortableCrystal_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    f38cdfea0b25f50caecba6ec9d1861af: {Name: RootNode, Depth: 0}
+    e0517113c200c071529dcfb5848540e3: {Name: Sun, Depth: 1}
+    1226e358878777b822db7bb7cabac388: {Name: Cylinder, Depth: 1}

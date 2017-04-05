@@ -1,0 +1,12 @@
+!Skeleton
+Id: 0c2bb42f-6a9b-42de-88a5-71bb2c8f8e45
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Bear Trap - Animated.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    04a70b456343ac0ceb8d89bc72305aec: {Name: RootNode, Depth: 0}
+    052842edf4c58a739ee2571164f71f52: {Name: Cylinder.001, Depth: 1}
+    aba12c5711ceceef56006069c7f0a2be: {Name: Cylinder, Depth: 1}
+    d21c4e6348c6d137f38a78ea1a3a6819: {Name: Lamp, Depth: 1}
+    9028c0fce7960b49abd8504af26efce5: {Name: Camera, Depth: 1}

@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 45b798bb-875c-40ed-874a-3c65e4c492a4
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - bec623bc-513f-45ac-8e16-2a46cf14a8e9
+    Parts:
+        -   Entity:
+                Id: bec623bc-513f-45ac-8e16-2a46cf14a8e9
+                Name: Flower1_animated
+                Components:
+                    aee3b5d4109797b8d3a07f4b29688f64: !TransformComponent
+                        Id: fc686329-8ae3-4d40-a25b-fda3a6c7f40e
+                        Position: {X: -66.2994156, Y: 0.25405243, Z: -3.461751}
+                        Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    577d532a3f9888e738fd00179d8afb60: !ModelComponent
+                        Id: 6053d308-1ce9-49f1-9881-aaf26b9f476e
+                        Model: 94f04733-a711-4c94-8d13-1cf6913573ea:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1_animated
+                        Materials: {}

@@ -1,0 +1,12 @@
+!Model
+Id: ab7550e5-8e7f-402b-ae89-49f939ef815e
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Rock2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6d7c8915b18c978ae3bc1c3827eacfdc:
+        Name: Rock
+        MaterialInstance:
+            Material: d0c793ad-4da3-4e6c-b256-21e437766462:0Rapporter_Assets/Environment Assets/OtherAssets/Rock
+Skeleton: 607eedc7-dd08-494b-a912-5e2aaa79f38a:0Rapporter_Assets/Environment Assets/OtherAssets/Rock2 Skeleton
