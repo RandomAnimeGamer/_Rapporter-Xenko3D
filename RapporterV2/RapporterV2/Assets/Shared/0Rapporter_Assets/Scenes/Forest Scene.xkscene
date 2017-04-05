@@ -107,6 +107,8 @@ Hierarchy:
                         Id: e1907cdf-572b-48b9-a9e3-1e4107b8437f
                         Model: d5a0b7c9-6eeb-47ec-ade5-46a1414fd5a5:0Rapporter_Assets/Town Map/_Updated_Town_Teleporter
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     99829373c4c5122c44b09fa9ebde3c40: !AnimationComponent
                         Id: 6360812d-185a-4eb7-b78a-ac27621eca21
                         Animations:
@@ -125,6 +127,8 @@ Hierarchy:
                         Id: c4859c41-5bcf-45e7-9498-0a1ac6f56040
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 983fe31e-a640-4b54-954e-951bed986c66
                         CanSleep: false
@@ -155,6 +159,8 @@ Hierarchy:
                         Id: 36a40504-380a-4698-abeb-9c729c33fc81
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 34b667c9-81c8-4e18-9578-5dbf7dfa62d3
                         CanSleep: false
@@ -185,6 +191,8 @@ Hierarchy:
                         Id: 68a6528a-8d96-41be-bb07-31a5a099789f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6b0430c0-e6c7-486b-ac6d-5e8bb4f0c3fa
                         CanSleep: false
@@ -215,6 +223,8 @@ Hierarchy:
                         Id: f1a25761-5731-4ba8-b78f-fd803c2fe10e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4f3347cc-9499-4f34-a251-77bb042cbde2
                         CanSleep: false
@@ -245,6 +255,8 @@ Hierarchy:
                         Id: 092e2975-b031-4f34-9d30-c8436ee50cec
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 7feb8e58-2c6d-485f-a6e9-572bef76c27a
                         CanSleep: false
@@ -275,6 +287,8 @@ Hierarchy:
                         Id: a2578976-8b42-490a-83ac-a39dfe09eb74
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ae789ef1-88b3-4828-93c5-dc24d4c3d129
                         CanSleep: false
@@ -305,6 +319,8 @@ Hierarchy:
                         Id: cda8420b-95b4-42e4-90ac-50133b4f9e0d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e00e2cba-1971-4a88-936f-e8ee718d8107
                         CanSleep: false
@@ -335,6 +351,8 @@ Hierarchy:
                         Id: 3f2c4a08-8e83-42f8-9901-fee98c9e9cbc
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 16190b32-9399-4d21-84cb-d2cd10e02d4a
                         CanSleep: false
@@ -365,6 +383,8 @@ Hierarchy:
                         Id: b3750478-0501-4e5c-a76e-137a0ab22982
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f21d0326-0de1-41c0-9ffd-7bb096c31898
                         CanSleep: false
@@ -395,6 +415,8 @@ Hierarchy:
                         Id: 7510f175-0a47-4db1-9db2-d83cffc520cd
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8541e197-9bc9-4dfb-98d7-0ce639373ea9
                         CanSleep: false
@@ -425,6 +447,8 @@ Hierarchy:
                         Id: 6e2f07fa-ac77-478c-be23-6dcf1fab54a6
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4a881374-687b-4aa6-8677-622aed5d3b77
                         CanSleep: false
@@ -455,6 +479,8 @@ Hierarchy:
                         Id: 7ba5b19f-6acf-4384-81ff-75e5f7959674
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d29f03f2-4ff0-441c-a143-0a6b823fbdea
                         CanSleep: false
@@ -485,6 +511,8 @@ Hierarchy:
                         Id: 6c5c6774-f92a-446c-b276-84fccce0af06
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 322a015d-6913-49d6-9e3c-c7280b84e987
                         CanSleep: false
@@ -515,6 +543,8 @@ Hierarchy:
                         Id: 9b2f36de-a785-4944-a502-bfd061989149
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: aa2d73de-82db-4ff7-98a8-3c85e064c6ad
                         CanSleep: false
@@ -545,6 +575,8 @@ Hierarchy:
                         Id: b0ec10ff-a102-4893-9b81-bf3a90352ef7
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: b4743012-4ef7-4164-8a45-a4d168c68e67
                         CanSleep: false
@@ -575,6 +607,8 @@ Hierarchy:
                         Id: 3538c7a8-bbd4-41e1-98cf-a19de365054c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4043c1aa-8ad2-4b3c-96cc-c66e347f5c2e
                         CanSleep: false
@@ -606,6 +640,8 @@ Hierarchy:
                         Id: 330cf175-b42c-49db-9bb9-c7d3268613b4
                         Model: a4ccee5f-3d9a-44aa-a2a2-62a22ecd786b:0Rapporter_Assets/Characters/NPC1 - Rigged
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     0f580a024c3b160a6d22229aa128beae: !AnimationComponent
                         Id: a527ac77-afa0-4a71-9014-1b3aa6482f22
                         Animations:
@@ -644,6 +680,8 @@ Hierarchy:
                         Id: 13a3d97e-9532-45c1-a348-bed80934b0f2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e81f73a3-0595-4e66-9134-a2dc30db5583
                         CanSleep: false
@@ -674,6 +712,8 @@ Hierarchy:
                         Id: fa8350c4-95d4-497f-a18c-a5c6e86a711a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: fe6cec6b-b88f-4e2e-b2d2-16545637c6cd
                         CanSleep: false
@@ -723,6 +763,8 @@ Hierarchy:
                         Id: a171fbab-1c5e-4f7b-95fd-105510316e41
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 22a678a6-8e1b-467e-88eb-a56d77f8880d
                         CanSleep: false
@@ -753,6 +795,8 @@ Hierarchy:
                         Id: f9f0ed0b-1c50-4dc0-a6e7-7f59c9acbe4f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 3379a228-c0e9-4b1e-a4fb-88b76e46d8a0
                         CanSleep: false
@@ -783,6 +827,8 @@ Hierarchy:
                         Id: c40b4499-b7e5-4efc-b11f-0260b425039b
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 72dc7e82-4419-4b62-974d-c83e17d1a011
                         CanSleep: false
@@ -813,6 +859,8 @@ Hierarchy:
                         Id: c45b60de-f24e-42bc-b0d0-9a8f942ea763
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: aca5a3da-d2dc-4c96-a717-984cfe0a4a94
                         CanSleep: false
@@ -843,6 +891,8 @@ Hierarchy:
                         Id: c3c47999-04fc-42c9-843a-4fb5bf2f1a6a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 911d7e5e-230c-4a8d-95fb-67d12bedb7b5
                         CanSleep: false
@@ -873,6 +923,8 @@ Hierarchy:
                         Id: a2575fb4-1b0b-47c5-8144-19406ec0bfb2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e4913cc0-f442-473e-8efc-3f734a7bf255
                         CanSleep: false
@@ -903,6 +955,8 @@ Hierarchy:
                         Id: 8fda4ae5-b937-4d72-a402-527c9f6a6485
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ff1a70a9-7e98-4e4c-8fa7-e738bfe998f4
                         CanSleep: false
@@ -933,6 +987,8 @@ Hierarchy:
                         Id: 80b0531e-6ff8-4f93-822d-668cf34b4211
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9c3c35eb-8796-4fc6-a7be-3b708781e764
                         CanSleep: false
@@ -963,6 +1019,8 @@ Hierarchy:
                         Id: dbe91aae-d245-494f-a45f-fec1f8ae515b
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e8762bcd-6075-4b0c-8727-41ce0d06734b
                         CanSleep: false
@@ -981,11 +1039,11 @@ Hierarchy:
                 InstanceId: a9e52855-c683-4c7b-baac-53ccf0ddd01e
         -   Entity:
                 Id: 3b5932f4-b3bb-488c-868c-33551b41adea
-                Name: Simple Particle System
+                Name: evil
                 Components:
                     d3dec6336f391c77ac1a3038e9af7d7d: !TransformComponent
                         Id: a4b020a7-395c-4a88-af4b-1ed01485ac40
-                        Position: {X: 0.0, Y: -15.379837, Z: 0.0}
+                        Position: {X: 0.0, Y: -16.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -995,14 +1053,15 @@ Hierarchy:
                             ResetSeconds: 2.0
                             Control: Play
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                        Speed: 1.67114
+                        Speed: 1.0
                         ParticleSystem:
                             Settings: {}
                             BoundingShape: null
                             Emitters:
                                 1cdb7d14857893c3eea2ea797ec1d71f:
-                                    MaxParticlesOverride: 250
+                                    MaxParticlesOverride: 100
                                     ParticleLifetime: {X: 5.0, Y: 10.0}
+                                    RandomSeedMethod: Fixed
                                     ShapeBuilder: !ShapeBuilderBillboard
                                         SamplerPosition: null
                                         SamplerSize: null
@@ -1023,7 +1082,7 @@ Hierarchy:
                                             LoopCondition: LoopingNoDelay
                                             Delay: {X: 0.0, Y: 0.0}
                                             Duration: {X: 5.0, Y: 10.0}
-                                            SpawnCount: 1000.0
+                                            SpawnCount: 150.0
                                     Initializers:
                                         8979504537a425d1aed4af0b43740c2c: !InitialSizeSeed
                                             InheritPosition: true
@@ -1103,6 +1162,8 @@ Hierarchy:
                         Id: 8586b801-2a5a-4b4f-adb2-302939b46968
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 797a6b8a-6527-4ace-8e2e-cea25209c980
                         CanSleep: false
@@ -1170,6 +1231,8 @@ Hierarchy:
                         Id: 74d11303-ab4a-40fc-b0c4-bbf46290fbec
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8be7b5a1-94d9-4e4b-9b61-0d9b36233daf
                         CanSleep: false
@@ -1227,6 +1290,8 @@ Hierarchy:
                         Id: f564e508-a59f-4fcb-8663-3503fe0233f2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 0156e388-1c26-4f7a-bcb7-8b653882df48
                         CanSleep: false
@@ -1301,6 +1366,8 @@ Hierarchy:
                         Id: c5ec30b7-47eb-4f8b-906e-d9855c77f87c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 1de1b24f-62f8-4619-bf10-de524b3b91b3
                         CanSleep: false
@@ -1331,6 +1398,8 @@ Hierarchy:
                         Id: 09db16e2-c6e5-4666-a94c-c682f9f4bdac
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d78f865f-4a7c-4b1e-923e-37762729b14b
                         CanSleep: false
@@ -1361,6 +1430,8 @@ Hierarchy:
                         Id: 38ef135e-6820-4269-a72f-e479de89af77
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 153946fa-f46b-443d-aa16-4541e87d271d
                         CanSleep: false
@@ -1391,6 +1462,8 @@ Hierarchy:
                         Id: deca9c12-cb3b-4752-8898-33f072b7f568
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: a67c7f48-da6e-4b4c-8d14-cc998fc2c465
                         CanSleep: false
@@ -1460,6 +1533,8 @@ Hierarchy:
                         Id: e917707f-7f00-4951-8fd3-2e9aa64e4f6e
                         Model: fadc7dca-97e4-45f1-b08f-ee342f456116:0Rapporter_Assets/SimpleSword
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     f6eb9a9611e00d328bce5ae896db089e: !RigidbodyComponent
                         Id: 4e6fc688-74e0-4d49-bd60-9c7a3f26f261
                         CanSleep: false
@@ -1553,6 +1628,8 @@ Hierarchy:
                         Id: c8619db3-ce05-40bb-8505-7ab31fb35b04
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: fdebbdce-b637-438a-9c9f-a086b1f80378
                         CanSleep: false
@@ -1583,6 +1660,8 @@ Hierarchy:
                         Id: e2486c99-c825-4b45-a72a-de2ebc8a228c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 3ab42ae3-1ff4-4fdd-a5a3-ba484d1eac62
                         CanSleep: false
@@ -1613,6 +1692,8 @@ Hierarchy:
                         Id: 5bf03d77-d7f2-41b9-9ffd-1afef9299a0a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4b3f3a8e-b01d-4769-b408-e578f2d1d521
                         CanSleep: false
@@ -1643,6 +1724,8 @@ Hierarchy:
                         Id: 059b9af9-ee9b-435d-9d60-8fcdcd256ac3
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9dd7b166-7078-4d97-adf2-532dfd4fe9fe
                         CanSleep: false
@@ -1673,6 +1756,8 @@ Hierarchy:
                         Id: be601bfc-85c4-456e-a7f9-e2f204fb9b48
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09*: !StaticColliderComponent
                         Id: 0fa101f4-0c8c-43e4-bc93-f331271d44d6
                         CanSleep: false
@@ -1703,6 +1788,8 @@ Hierarchy:
                         Id: 44209c0b-e942-4682-9f54-9a9815fde079
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 59e91fcc-6f5c-4342-8361-9dbc9e8ca418
                         CanSleep: false
@@ -1733,6 +1820,8 @@ Hierarchy:
                         Id: ed370483-23f0-479f-8c54-b198def0624f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 793125d6-de0e-4138-8150-b95dac2e3070
                         CanSleep: false
@@ -1763,6 +1852,8 @@ Hierarchy:
                         Id: 614abcd8-9a83-4fa0-a2c9-e90641279cb5
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 3e4a5b23-b6f3-4513-a7ec-b9d3f410cf53
                         CanSleep: false
@@ -1793,6 +1884,8 @@ Hierarchy:
                         Id: 7a32dab4-b621-409c-8f89-66f5e666be91
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 31e53435-8bac-434b-b961-b1993d5134ad
                         CanSleep: false
@@ -1823,6 +1916,8 @@ Hierarchy:
                         Id: b8fa888f-f31c-4416-bc54-d5a1b0c929cb
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6096fc93-38e0-4937-8117-51e8bb9dfe1f
                         CanSleep: false
@@ -1871,6 +1966,8 @@ Hierarchy:
                         Id: 9fa1ef63-2f2f-44ec-9b7a-95187e1045ff
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 06aba92d-7960-4999-a9bc-26136ed8105a
                         CanSleep: false
@@ -1901,6 +1998,8 @@ Hierarchy:
                         Id: 30fd0e9b-91e5-492e-ba00-6f4aa4591b1d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 02dfd7d7-86b8-4545-8eaf-45c7cb74dba1
                         CanSleep: false
@@ -1931,6 +2030,8 @@ Hierarchy:
                         Id: 7fd77c24-1755-48b2-b92a-65df636160e5
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 19d97e4b-3867-41fd-ab78-845857a05007
                         CanSleep: false
@@ -1961,6 +2062,8 @@ Hierarchy:
                         Id: 243b3fc0-1901-43cd-8980-b57b59e4c10a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d100b0ae-ca4b-439b-9b77-29b6bbb20249
                         CanSleep: false
@@ -1991,6 +2094,8 @@ Hierarchy:
                         Id: f249b86b-4d89-4976-9740-7d3d01519ae4
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: b9e23913-c38e-4436-ab35-5bf80c710454
                         CanSleep: false
@@ -2021,6 +2126,8 @@ Hierarchy:
                         Id: accc0927-481f-4553-a496-70eed02843c2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f1ac2bb6-58c4-4a42-8a41-f716da95f16c
                         CanSleep: false
@@ -2051,6 +2158,8 @@ Hierarchy:
                         Id: bc21f422-391b-4cea-a1b4-76443aabe483
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 47626057-cbb1-4498-ad62-ae4e8e313074
                         CanSleep: false
@@ -2081,6 +2190,8 @@ Hierarchy:
                         Id: db337e19-baa7-4259-9a43-17277a558ef2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4d5e5ffe-7e2a-4303-b265-ed34cf1fce5a
                         CanSleep: false
@@ -2111,6 +2222,8 @@ Hierarchy:
                         Id: 443efbe7-4593-45e3-889a-add68cf3af13
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: aab52fbc-4f43-457b-97ad-1acc8483f1c5
                         CanSleep: false
@@ -2141,6 +2254,8 @@ Hierarchy:
                         Id: 2568c987-d814-45cf-9e25-a5d696bb1acc
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4192ea59-9cea-4b24-8396-6adec5abbd7d
                         CanSleep: false
@@ -2171,6 +2286,8 @@ Hierarchy:
                         Id: 74d627ae-b46b-4df1-afb0-553ebeb03358
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8731c98b-4979-4208-b55b-59e9d7d2e24e
                         CanSleep: false
@@ -2218,6 +2335,8 @@ Hierarchy:
                         Id: a97b8d5c-2c72-44a6-90f7-a59dd6609f80
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 95aa8a17-1b69-44cc-a523-2f7c722ca8fb
                         CanSleep: false
@@ -2248,6 +2367,8 @@ Hierarchy:
                         Id: e39b2a9a-d187-4964-813a-76cecacc354e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6d582470-4340-421c-ab7b-3fb9be9cd616
                         CanSleep: false
@@ -2278,6 +2399,8 @@ Hierarchy:
                         Id: be3e033e-d9a1-4094-b478-9a8d1c6be5c9
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 95019852-c8eb-4a96-850d-725fc39254d4
                         CanSleep: false
@@ -2308,6 +2431,8 @@ Hierarchy:
                         Id: 1938a66f-2fef-44a1-8248-e662989a7a38
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 27ec9c58-3bf8-4bf0-b138-0a0cf7e43d4e
                         CanSleep: false
@@ -2338,6 +2463,8 @@ Hierarchy:
                         Id: 78684935-d386-45a3-9a3f-88182cc64652
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e25965b0-6e20-43c7-9f07-42051b53185a
                         CanSleep: false
@@ -2368,6 +2495,8 @@ Hierarchy:
                         Id: 86c45acf-bef9-40e1-87d4-5894025d70aa
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 24d4a98d-2d67-4c3b-85a0-94e8a9d8f90f
                         CanSleep: false
@@ -2399,6 +2528,8 @@ Hierarchy:
                         Id: bec09092-fc8a-46f8-9463-b36a21bc33b8
                         Model: f01a0b27-3971-44bc-80f2-af920c242a2c:0Rapporter_Assets/3_3_17/Forest Details, Updated 3-3
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
         -   Entity:
                 Id: 7c6b2d19-f8f3-4348-9afe-937240788f24
                 Name: Tree1
@@ -2413,6 +2544,8 @@ Hierarchy:
                         Id: 953558a1-21bd-4a75-a63c-517582529585
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 33d7f2bd-d4e5-4546-b5c5-0d5ce55074f2
                         CanSleep: false
@@ -2443,6 +2576,8 @@ Hierarchy:
                         Id: a3daf296-f292-48ba-9d69-1c1cbb93584d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 7fc65df9-8df6-4d45-a39b-4fa0c40cf8bc
                         CanSleep: false
@@ -2473,6 +2608,8 @@ Hierarchy:
                         Id: 8acf0f6c-c61c-4cdc-bd3a-f40af7783d14
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d47e4872-6d32-4a00-8606-9132d28cbef6
                         CanSleep: false
@@ -2503,6 +2640,8 @@ Hierarchy:
                         Id: a6e7b584-8b10-4d28-95c0-bac2683299c4
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 66755a3e-b968-4b08-9e47-ffbf0bf97e9e
                         CanSleep: false
@@ -2533,6 +2672,8 @@ Hierarchy:
                         Id: 9ab06a05-1066-4c17-8af4-6be3067486c0
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6364c9d3-ecf6-4b38-8cce-9caf9666541a
                         CanSleep: false
@@ -2563,6 +2704,8 @@ Hierarchy:
                         Id: 80917873-cbc2-4683-a609-ef88262c1358
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 50af9ab2-0021-41a0-8b5a-649a043c4b28
                         CanSleep: false
@@ -2593,6 +2736,8 @@ Hierarchy:
                         Id: c67727f0-421d-4a43-b5aa-e2a3dac0e991
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 49b4f665-930c-4cae-af61-e37db3873965
                         CanSleep: false
@@ -2623,6 +2768,8 @@ Hierarchy:
                         Id: 7155bf42-bc0b-451a-934c-08dc8bdf8e0c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: c3ca74f2-6fb3-4a9e-8423-ae26ece1ebe4
                         CanSleep: false
@@ -2653,6 +2800,8 @@ Hierarchy:
                         Id: 1f9dde94-a448-4bb0-a9b1-2687a849b39d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 559158c0-c254-4970-b404-0f3c6aaa568e
                         CanSleep: false
@@ -2683,6 +2832,8 @@ Hierarchy:
                         Id: 5b36594a-4888-40cc-b8c1-4a3a20aceef9
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 44f4e1cb-436d-4401-a7dc-1bd5161b1f18
                         CanSleep: false
@@ -2713,6 +2864,8 @@ Hierarchy:
                         Id: 9197e70e-95aa-41d4-bb68-800d4b7867f7
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: da4b4b61-4d83-4f87-9e73-329e3f95b1c5
                         CanSleep: false
@@ -2743,6 +2896,8 @@ Hierarchy:
                         Id: 0a96d5ed-82f3-4445-b708-4535737f0812
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 51958eca-45ae-42fb-8692-80f25bc0de3f
                         CanSleep: false
@@ -2773,6 +2928,8 @@ Hierarchy:
                         Id: 2b7505e8-763c-4146-8d18-64df40ad2031
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8e8b5a56-dd9a-4939-abfb-4c6c1a86889c
                         CanSleep: false
@@ -2828,6 +2985,8 @@ Hierarchy:
                         Id: f3103332-ed8a-403a-9802-4351aea6e7a8
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 431ba297-ab8a-4d47-95eb-aa6e90318e41
                         CanSleep: false
@@ -2858,6 +3017,8 @@ Hierarchy:
                         Id: 90c7d2be-6a57-4513-b73f-f1f301936462
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6c82a2c4-3c70-4073-94de-7ec4eea7e796
                         CanSleep: false
@@ -2888,6 +3049,8 @@ Hierarchy:
                         Id: 15319e43-1b60-4352-9b61-4b0c5038a628
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6847fcda-ca9d-44d3-83f0-4c818b1b297b
                         CanSleep: false
@@ -2918,6 +3081,8 @@ Hierarchy:
                         Id: aa2e4e6e-8147-4a38-8a46-b9bb1ad0cd7b
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ad3c950f-42c3-4c4f-8693-ad4374d6f6fd
                         CanSleep: false
@@ -2948,6 +3113,8 @@ Hierarchy:
                         Id: d7703845-10ba-4b64-a927-7268714c899a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f13f1ab8-d47d-4051-9082-36ba749a4aff
                         CanSleep: false
@@ -2978,6 +3145,8 @@ Hierarchy:
                         Id: cabfd320-1d57-4eb0-af1d-47d815c69023
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 00d986a8-1c09-43a5-8c47-da388d6e0ea6
                         CanSleep: false
@@ -3008,6 +3177,8 @@ Hierarchy:
                         Id: bdc376f5-53e9-4d1d-8b0e-8d03bfbfb139
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 788765aa-d107-41d3-98b5-69aeb789e00a
                         CanSleep: false
@@ -3038,6 +3209,8 @@ Hierarchy:
                         Id: f0c76073-f502-42ae-a3b5-760ecd6eb332
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 69cf49d8-0c86-40c1-87d2-57cb840062de
                         CanSleep: false
@@ -3068,6 +3241,8 @@ Hierarchy:
                         Id: 03364b98-0814-472f-86ac-a18ea5db2ba3
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: dbef2e08-0d5c-4a76-9b42-5e8c35a371e7
                         CanSleep: false
@@ -3098,6 +3273,8 @@ Hierarchy:
                         Id: ab0f7f07-0af3-4743-ad77-7a3e930c87bc
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 48d39e4c-b2ea-4d60-a649-7215d1e3da22
                         CanSleep: false
@@ -3129,6 +3306,8 @@ Hierarchy:
                         Model: c66c23e1-94e7-4fbc-85f9-1188a26f1968:Models/GridBase10x10
                         Materials:
                             856f42b3bdc12ea3cf067cdff22a1c7c~0: 0c3cdea6-8366-4889-b23a-c9042fb58ebe:0Rapporter_Assets/Environment Assets/Grass2
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     30d6050e0245da902285c0b33d8f696b: !StaticColliderComponent
                         Id: 84690d83-deda-406f-ab2b-105fe81d6e95
                         CanSleep: false
@@ -3158,6 +3337,8 @@ Hierarchy:
                         Id: d2338996-ad03-4bfb-9a9a-7c935178da51
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: bbffd8ec-5684-450d-ba4d-cfce8962d145
                         CanSleep: false
@@ -3188,6 +3369,8 @@ Hierarchy:
                         Id: 21e54c22-9351-4cc7-9a89-4ffafb060789
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 58dbb2a7-2c7b-49f1-a58e-726be5e3a106
                         CanSleep: false
@@ -3218,6 +3401,8 @@ Hierarchy:
                         Id: a7b51862-4871-45a5-b829-939befd90e95
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e1c375e5-7658-42a6-abbd-1998ee2c798f
                         CanSleep: false
@@ -3269,6 +3454,8 @@ Hierarchy:
                         Id: ffe10309-1ca9-4bf1-8f84-7cd2b94ce5be
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 156a44b9-6094-49b6-bd6c-e940f659946e
                         CanSleep: false
@@ -3299,6 +3486,8 @@ Hierarchy:
                         Id: cc349fcb-f5b8-42d8-8d41-b3ccd9f60c14
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 1a350055-8045-439c-a7ee-172cabc0249f
                         CanSleep: false
@@ -3329,6 +3518,8 @@ Hierarchy:
                         Id: dbaef828-2020-43fb-bdbf-e799629910af
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 7be7fed7-eb3b-4b5c-8956-7951aef15dce
                         CanSleep: false
@@ -3359,6 +3550,8 @@ Hierarchy:
                         Id: 8e96932d-6e87-400f-9d13-bab7a287ff45
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 2a2574dd-af5a-4333-bdeb-be19fbf0058c
                         CanSleep: false
@@ -3389,6 +3582,8 @@ Hierarchy:
                         Id: af7110df-370a-4bf8-b9c6-486e61c24c1e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 734dbfe6-d2f1-4d3d-b278-d685283dfc26
                         CanSleep: false
@@ -3419,6 +3614,8 @@ Hierarchy:
                         Id: e8b8cea4-b3bf-4e0e-a8b6-d44b587ce06e
                         Model: c8ec99d9-9f41-43dd-9cf4-acbaedea9eaf:0Rapporter_Assets/Bosses/Demonic Deer - With Crystals
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     3606b5ddd27e751e912b7f2f8f785a87: !RigidbodyComponent
                         Id: 68515022-d0c5-4ccb-9394-4c5508319888
                         CanSleep: false
@@ -3456,6 +3653,8 @@ Hierarchy:
                         Id: c250d4c5-f92f-478c-bf85-8e919a59537b
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 3db89a62-bcd8-42be-a26c-80341eb43469
                         CanSleep: false
@@ -3486,6 +3685,8 @@ Hierarchy:
                         Id: 5935efd6-5239-4405-a1e0-4c1537316c44
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 629c794e-e57d-4949-b239-c9a81fa17f19
                         CanSleep: false
@@ -3516,6 +3717,8 @@ Hierarchy:
                         Id: f4a93657-d27b-4b81-bd14-00309dadc30e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 1517b98c-4f24-4718-a48c-3031ebe9f048
                         CanSleep: false
@@ -3546,6 +3749,8 @@ Hierarchy:
                         Id: c4ed2926-3713-4211-a044-cab9dbd60a48
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ab56af79-dabb-45ee-b351-cd7cbfc0945c
                         CanSleep: false
@@ -3576,6 +3781,8 @@ Hierarchy:
                         Id: 7cc577f1-6340-4aed-8124-fe2965f6e19f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 37246b8e-310d-4904-acf7-0a9123bc8d6c
                         CanSleep: false
@@ -3631,6 +3838,8 @@ Hierarchy:
                         Id: be6a05d1-27a0-4942-a205-f185cdd1a773
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 5abafef3-d757-47a4-8435-82bf0df96fb5
                         CanSleep: false
@@ -3661,6 +3870,8 @@ Hierarchy:
                         Id: ece9bc85-8ef3-4eb6-8e3a-02538ebee8b9
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f84508b5-3903-4f71-9a44-25f041329ef9
                         CanSleep: false
@@ -3691,6 +3902,8 @@ Hierarchy:
                         Id: 2bd8f141-35ba-445a-8a1f-ef1607668ef0
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 999969c9-575d-4116-9588-5074579ed37e
                         CanSleep: false
@@ -3721,6 +3934,8 @@ Hierarchy:
                         Id: d0a98fae-cf85-4147-8342-8188e7494e0e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f9e1c7cd-0d2e-4314-a051-764fbc5ae242
                         CanSleep: false
@@ -3751,6 +3966,8 @@ Hierarchy:
                         Id: f6d78b50-682a-4132-b223-a8afbb86b768
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8b411148-2edb-412f-b927-01f60a47361f
                         CanSleep: false
@@ -3781,6 +3998,8 @@ Hierarchy:
                         Id: 0e4457c8-5501-439b-84c6-53cabbefc398
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 84620606-a1ed-453d-b344-677bcc958fd4
                         CanSleep: false
@@ -3811,6 +4030,8 @@ Hierarchy:
                         Id: c8f53cab-c846-4343-9213-9741b33ecdc9
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 5ef1ecd6-d0fe-4ae5-8a39-728d2eb18d84
                         CanSleep: false
@@ -3841,6 +4062,8 @@ Hierarchy:
                         Id: e5bb3737-d31f-4ad6-90c0-9b3182d52efd
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9fa1e6d9-2e9c-4753-9adc-b8d4364cd1e1
                         CanSleep: false
@@ -3871,6 +4094,8 @@ Hierarchy:
                         Id: 8951f9ea-f221-478f-ab83-1d3e9b3ac62c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e8ca95b4-7ed9-4371-add1-2f5066cab6e5
                         CanSleep: false
@@ -3946,6 +4171,8 @@ Hierarchy:
                         Id: d69f6ac4-da6a-4928-a83f-0fe14857f97c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: cd4258bd-7f89-4e61-891f-b21e721fa09d
                         CanSleep: false
@@ -3976,6 +4203,8 @@ Hierarchy:
                         Id: 0f086a1a-2c10-4592-af21-d5eb7ae50bbc
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: fab98669-ff72-48af-bea4-bdf0d31e740a
                         CanSleep: false
@@ -4006,6 +4235,8 @@ Hierarchy:
                         Id: ff3521fe-046e-4099-abee-a0237edac906
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 28347eb5-1225-48fa-911b-03394895baa5
                         CanSleep: false
@@ -4036,6 +4267,8 @@ Hierarchy:
                         Id: 4e8f23aa-5afd-43d8-bac3-36a6991bb95c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 51733afb-352a-4ec2-b039-c6e9c6221469
                         CanSleep: false
@@ -4066,6 +4299,8 @@ Hierarchy:
                         Id: ba71451e-be4c-466a-814d-cdc31033ac3d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 72784f42-069e-4d13-b4cc-87c455f679c5
                         CanSleep: false
@@ -4096,6 +4331,8 @@ Hierarchy:
                         Id: 01f5e531-31ac-471e-b0b0-d4d9a604a188
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 0d0bd3d8-d0e4-44b0-af80-0356407921b2
                         CanSleep: false
@@ -4126,6 +4363,8 @@ Hierarchy:
                         Id: e0934de5-160f-4a41-921d-f80ca2e77dd5
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e7fc2ccd-f0be-464a-98cd-90ae20d56f3c
                         CanSleep: false
@@ -4156,6 +4395,8 @@ Hierarchy:
                         Id: 7d73b246-6a1c-49f2-98b8-b0ec346bc694
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8711af6a-9ad0-4203-a213-c78d4ebcd4c0
                         CanSleep: false
@@ -4186,6 +4427,8 @@ Hierarchy:
                         Id: 80f08d46-ac63-4b12-8842-832c775fcffd
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ec9ef0d8-c20b-4cc5-a035-a318f86d513a
                         CanSleep: false
@@ -4235,6 +4478,8 @@ Hierarchy:
                         Id: 9e6f5e32-ed52-4738-bfd7-1f3542b640d1
                         Model: 2c5251a2-c49f-4d8e-b7ce-656614c91753:0Rapporter_Assets/Environment Assets/Bush1_2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     43cc93a9fa050cb99a7343a3c749eaff: !StaticColliderComponent
                         Id: 1bc8ff84-5f02-4f3b-ac93-e6fb4dabba57
                         CanSleep: false
@@ -4265,6 +4510,8 @@ Hierarchy:
                         Id: 96e8a925-bfbb-4228-95d3-d5918af6b32d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 06d2734a-6890-4da8-9b60-89035a704d27
                         CanSleep: false
@@ -4295,6 +4542,8 @@ Hierarchy:
                         Id: 8cb65831-0316-46b3-8cad-da2c29acfae5
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 88c9e7c1-d600-4928-956e-5f175e9b34c1
                         CanSleep: false
@@ -4325,6 +4574,8 @@ Hierarchy:
                         Id: 3628fb09-8484-4472-8fb7-0a23b1a08344
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 56637f0b-3af3-4969-b00f-61597273b4a6
                         CanSleep: false
@@ -4355,6 +4606,8 @@ Hierarchy:
                         Id: b2e606d8-85f5-463a-a1b7-0899f1aea27d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9c679870-dfee-46e3-b1b6-fa2e3352a69a
                         CanSleep: false
@@ -4385,6 +4638,8 @@ Hierarchy:
                         Id: cb5c12e1-2c9c-401d-afd0-9574af3fd55f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 03cca9f5-f2f5-41f6-9ce1-7aa2314a7216
                         CanSleep: false
@@ -4415,6 +4670,8 @@ Hierarchy:
                         Id: e859c50a-7ed9-4edf-b73e-55ca4ab30dbd
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 48d7ba33-642b-4fdc-8ec1-82a538f922f9
                         CanSleep: false
@@ -4446,6 +4703,8 @@ Hierarchy:
                         Id: c99dbb87-1f20-441c-b898-5db37cb8bc10
                         Model: 2c5251a2-c49f-4d8e-b7ce-656614c91753:0Rapporter_Assets/Environment Assets/Bush1_2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     43cc93a9fa050cb99a7343a3c749eaff: !StaticColliderComponent
                         Id: 1e8f1581-52f4-4d84-8542-c4f783e325f4
                         CanSleep: false
@@ -4476,6 +4735,8 @@ Hierarchy:
                         Id: e28fb38b-3d3d-4820-a64b-05715387f799
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 440484bf-491a-4f0c-bb72-7bf1580ba150
                         CanSleep: false
@@ -4506,6 +4767,8 @@ Hierarchy:
                         Id: 794e7b48-0f31-45a4-b411-f0877c5740e1
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9d15d491-ed73-4377-9f10-da69698cf61b
                         CanSleep: false
@@ -4554,6 +4817,8 @@ Hierarchy:
                         Id: f756b274-0f38-4a66-93de-d9c8bda7858d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: c6faeaba-27a4-4611-a51a-a17699977dd7
                         CanSleep: false
@@ -4584,6 +4849,8 @@ Hierarchy:
                         Id: d13f29ba-4cb8-42fd-ad08-3df6d362e90a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 172503cb-8edc-4289-9868-f91ee960990c
                         CanSleep: false
@@ -4614,6 +4881,8 @@ Hierarchy:
                         Id: 52952c23-8b8d-42e0-b859-5664d183c08f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f7a11a05-2131-4147-b893-8108ce9ac17f
                         CanSleep: false
@@ -4644,6 +4913,8 @@ Hierarchy:
                         Id: 325e38e8-e8f4-4f68-865c-9eb58bf3b67d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 5603bdd8-1528-4e5e-bf8e-6e0cd3bc109d
                         CanSleep: false
@@ -4674,6 +4945,8 @@ Hierarchy:
                         Id: bd6581fd-b41e-4c8f-b0d7-5a7252a0b499
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d1246ef0-93f0-424c-89c5-7c319d198a0c
                         CanSleep: false
@@ -4704,6 +4977,8 @@ Hierarchy:
                         Id: b3f2dd92-c40a-4240-b5ae-31d3e6901414
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 2c79a6c1-c7de-4cd5-8ebe-85494712cc20
                         CanSleep: false
@@ -4734,6 +5009,8 @@ Hierarchy:
                         Id: 3ce7763e-8a92-40c8-ab81-f563b6a90757
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8ed7462e-e414-4463-b848-05310275e4b6
                         CanSleep: false
@@ -4764,6 +5041,8 @@ Hierarchy:
                         Id: 6516b492-eea4-4c8a-9eb2-5773cec79e54
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 2c3f933a-790f-4db0-8821-75ceb1fb1cca
                         CanSleep: false
@@ -4794,6 +5073,8 @@ Hierarchy:
                         Id: 01ea689b-582e-405b-bb86-3d50ab8f10d7
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 17a60144-52a3-47a8-903c-27c447cf5656
                         CanSleep: false
@@ -4824,6 +5105,8 @@ Hierarchy:
                         Id: 82e6c28e-0449-433f-b068-471d597279c3
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 96554076-dfe7-4767-a266-b0a78ead0771
                         CanSleep: false
@@ -4854,6 +5137,8 @@ Hierarchy:
                         Id: ea3ac20e-b5a2-47b3-a625-f7cbfa6fd6f1
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 37978c35-ac81-4b47-a32f-310a256a8bac
                         CanSleep: false
@@ -4884,6 +5169,8 @@ Hierarchy:
                         Id: 3b0b0aea-d7ab-4116-8fea-ca4aeb35c264
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: b0a1511c-5940-4c18-b424-31af7e0beacc
                         CanSleep: false
@@ -4914,6 +5201,8 @@ Hierarchy:
                         Id: 28abf7d8-0645-4f57-b052-6f71b9d37334
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 55e8dba5-7de9-4bae-b9f0-de8141362932
                         CanSleep: false
@@ -4944,6 +5233,8 @@ Hierarchy:
                         Id: b43b253e-68b7-4dc0-9af3-965669fda986
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e7d8a795-59cf-414a-a1d1-3ddb95f5711b
                         CanSleep: false
