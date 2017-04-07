@@ -5,8 +5,8 @@ Tags: []
 DefaultScene: 420df9fa-5ea2-4e45-ba9e-f040e1b7ffff:0Rapporter_Assets/Scenes/Title Scene
 Defaults:
     - !SiliconStudio.Xenko.Graphics.RenderingSettings,SiliconStudio.Xenko.Graphics
-        DefaultBackBufferWidth: 1024
-        DefaultBackBufferHeight: 576
+        DefaultBackBufferWidth: 512
+        DefaultBackBufferHeight: 288
         AdaptBackBufferToScreen: false
         DefaultGraphicsProfile: Level_10_0
         ColorSpace: Linear
