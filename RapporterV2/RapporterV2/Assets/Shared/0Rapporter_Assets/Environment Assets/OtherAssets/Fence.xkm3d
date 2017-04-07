@@ -1,0 +1,12 @@
+!Model
+Id: 28dbe668-70e8-47fe-8de5-a2b25cc5008e
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Fence.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    900add76f8486a1f64fa3fd388b3c969:
+        Name: Material
+        MaterialInstance:
+            Material: cfd72baf-745f-43c7-90aa-b06c355bbaf5:0Rapporter_Assets/Environment Assets/OtherAssets/DoorFrame
+Skeleton: 59d3f8ce-435a-45a9-90f9-dd1ab5d4d932:0Rapporter_Assets/Environment Assets/OtherAssets/Fence Skeleton

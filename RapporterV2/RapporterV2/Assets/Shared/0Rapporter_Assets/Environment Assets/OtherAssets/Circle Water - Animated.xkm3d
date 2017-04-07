@@ -1,0 +1,21 @@
+!Model
+Id: 4df8cdfb-8bf5-42ab-bbb6-0ba23d3f6b72
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Circle Water - Animated.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+ScaleImport: 0.25
+Materials:
+    3f7139b2032e0e18f1e77240dca5e728:
+        Name: Ground
+        MaterialInstance:
+            Material: 9a89068a-faac-429d-8825-adb202118588:0Rapporter_Assets/Environment Assets/OtherAssets/Ground_2
+    c073c5f0ef0c249febabea90c443a081:
+        Name: Ground2
+        MaterialInstance:
+            Material: ccdae307-37a0-4084-aa0a-9d8d5085b1fc:0Rapporter_Assets/Environment Assets/OtherAssets/Ground2_2
+    486112b7451c9553c0d5e9e41afdaf96:
+        Name: Water
+        MaterialInstance:
+            Material: 4873d5f3-dd38-42c2-b3ac-fc75352c4a92:0Rapporter_Assets/Environment Assets/OtherAssets/Water_2
+Skeleton: d70477c5-7b24-417b-9369-c30afbc8f0a3:0Rapporter_Assets/Environment Assets/OtherAssets/Circle Water - Animated Skeleton

@@ -1,0 +1,16 @@
+!Model
+Id: a9136a3e-fbbd-4774-b4e4-a889f7d7d479
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Fairy_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    39e1b1cbaeaeb5b838bed04d4af7a3d1:
+        Name: Wings
+        MaterialInstance:
+            Material: c68c8b39-bf1f-43a6-b126-8a570c1d06c0:0Rapporter_Assets/Environment Assets/OtherAssets/Wings
+    81fe1f951d3498218813d6ff4a569713:
+        Name: Body
+        MaterialInstance:
+            Material: 660a192c-4698-411a-b13f-73266c5ab35c:0Rapporter_Assets/Environment Assets/OtherAssets/Body
+Skeleton: 8ad99656-a584-4ec1-925b-74bd188eac57:0Rapporter_Assets/Environment Assets/OtherAssets/Fairy_animated Skeleton

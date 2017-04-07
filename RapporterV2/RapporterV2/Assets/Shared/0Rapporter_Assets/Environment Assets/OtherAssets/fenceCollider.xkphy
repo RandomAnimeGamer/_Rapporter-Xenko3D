@@ -1,0 +1,20 @@
+!ColliderShapeAsset
+Id: 51b09c03-1616-4429-b496-670851c90d6b
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+ColliderShapes:
+    2aa479e130e60fd7eb512180fc2cd000: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        SimpleWrap: true
+        Scaling: {X: 1.938, Y: 1.938, Z: 1.938}
+        Depth: 10
+        PosSampling: 10
+        AngleSampling: 10
+        PosRefine: 5
+        AngleRefine: 5
+        Alpha: 0.01
+        Threshold: 0.01

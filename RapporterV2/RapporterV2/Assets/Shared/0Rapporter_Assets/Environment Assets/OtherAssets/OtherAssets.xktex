@@ -1,0 +1,7 @@
+!Texture
+Id: 3d7269f9-0449-49ec-9e69-de86cd23d63f
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../OtherAssets
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+PremultiplyAlpha: false

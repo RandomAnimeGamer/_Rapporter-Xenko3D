@@ -1,0 +1,13 @@
+!Skeleton
+Id: 8ad99656-a584-4ec1-925b-74bd188eac57
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Fairy_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    5580b3bffaed4bf98ac038225477a8c6: {Name: RootNode, Depth: 0}
+    eeccd0c6c0d7e15c7aad5022c05512f3: {Name: Sphere, Depth: 1}
+    47776c9b559f7e23818ed4ea661d1499: {Name: Lamp, Depth: 1}
+    73069b0a463e1ac3f5a6f5d1e07812b9: {Name: Camera, Depth: 1}
+    78aeef7f5c1e235bcba3e50f5b220638: {Name: PhysCamera001, Depth: 1}
+    ef3d150fe31f13c73c0f37bc8827ea5c: {Name: PhysCamera001.Target, Depth: 1}

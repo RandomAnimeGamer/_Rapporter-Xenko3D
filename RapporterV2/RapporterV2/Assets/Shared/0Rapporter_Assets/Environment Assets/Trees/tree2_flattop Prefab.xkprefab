@@ -1,0 +1,36 @@
+!PrefabAsset
+Id: 46aaabf1-9948-4237-ada4-70f7d32f48fb
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - 311a093f-2b70-4b20-8363-a9eac0bf0b5a
+    Parts:
+        -   Entity:
+                Id: 311a093f-2b70-4b20-8363-a9eac0bf0b5a
+                Name: tree2_flattop
+                Components:
+                    5dc1187f09407bce92ce4f5ae70f3f3e: !TransformComponent
+                        Id: ba539fe6-96a4-49a7-a037-7fb940f22575
+                        Position: {X: -18.985218, Y: 0.0, Z: 12.5865364}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    52fe6e282944d356ef61a472d6df902f: !ModelComponent
+                        Id: c03760c2-c152-48da-9b22-74474713d324
+                        Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
+                        Materials: {}
+                    7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
+                        Id: f78989f1-aa2b-46f6-b835-5ee82bb7e343
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ff1796140f80a24d42dbea1679cdd807: !ColliderShapeAssetDesc
+                                Shape: cfdb0243-8c0e-44e4-bae0-911303e74fb8:0Rapporter_Assets/Environment Assets/Trees/Tree2_flattop Collider
+                            09640d85fbe4ac0f631bd54acd6207e2: !ColliderShapeAssetDesc
+                                Shape: null

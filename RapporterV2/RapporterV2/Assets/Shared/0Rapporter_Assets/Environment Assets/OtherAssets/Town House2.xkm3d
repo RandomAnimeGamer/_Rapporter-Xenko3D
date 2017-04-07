@@ -1,0 +1,48 @@
+!Model
+Id: 1c190784-69b1-423d-b59a-8b09c409b255
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Town House2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1bb1690c6019a7e6d84df2d854f27c7c:
+        Name: WindowBars
+        MaterialInstance:
+            Material: 683d3a6a-3f7d-4f90-a7c9-963e33c78c6c:0Rapporter_Assets/Environment Assets/OtherAssets/WindowBars_2
+    bcde0ea6949472223d044c3c16903472:
+        Name: Window
+        MaterialInstance:
+            Material: bd4a0394-2895-4cfc-bce2-4626c766e106:0Rapporter_Assets/Environment Assets/OtherAssets/Window_2
+    00367b3605ff66dd884491e4a09480b7:
+        Name: WindowOuter
+        MaterialInstance:
+            Material: 34a546a8-1735-4bef-a040-b47b91b0c6f9:0Rapporter_Assets/Environment Assets/OtherAssets/WindowOuter_2
+    1f1809fa37b2bf526d8f351def591071:
+        Name: DoorDetail
+        MaterialInstance:
+            Material: 07f3bbeb-8cbb-40cf-8875-28ff8393d58b:0Rapporter_Assets/Environment Assets/OtherAssets/DoorDetail_2
+    63823927c195e7c5f3f0fb7f32fef64f:
+        Name: DoorFrame
+        MaterialInstance:
+            Material: 07c4e008-61fe-4dbd-a730-b0b5f23260c0:0Rapporter_Assets/Environment Assets/OtherAssets/DoorFrame_2
+    d7e6916d370b1a82ddafb9079286627e:
+        Name: Door
+        MaterialInstance:
+            Material: 303441df-4ce0-4cb0-93dc-4e3fffeb0c03:0Rapporter_Assets/Environment Assets/OtherAssets/Door_2
+    ac654fed9b5c6b7ed8e84c25c9be2c21:
+        Name: UnderRoof
+        MaterialInstance:
+            Material: 105b755f-924d-4265-a7e7-de2bcff3d425:0Rapporter_Assets/Environment Assets/OtherAssets/UnderRoof_2
+    35422c11d6cfe4ac5e02ff72f52f41c9:
+        Name: RoofDetail
+        MaterialInstance:
+            Material: eb29182a-649c-49ad-8a2c-658a8cc3ad36:0Rapporter_Assets/Environment Assets/OtherAssets/RoofDetail_2
+    4c480ae5cf2145eac2a1c6839fee5216:
+        Name: House
+        MaterialInstance:
+            Material: 52e017ce-b943-44b2-a443-0e859caa8fa8:0Rapporter_Assets/Environment Assets/OtherAssets/House_2
+    dd3ecfc884efd7a63426a7b643821067:
+        Name: Roof
+        MaterialInstance:
+            Material: 57a7a7e0-50c6-447f-8441-ab9d03f8beb5:0Rapporter_Assets/Environment Assets/OtherAssets/Roof_2
+Skeleton: 53290550-70ed-4c0a-abac-76623d2408cb:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2 Skeleton

@@ -1,0 +1,36 @@
+!PrefabAsset
+Id: 615882de-ad29-4676-85a8-cda1de124b6f
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - 080e8235-4f60-48a0-91fe-16b07972fad6
+    Parts:
+        -   Entity:
+                Id: 080e8235-4f60-48a0-91fe-16b07972fad6
+                Name: Bear Trap - Animated
+                Components:
+                    1f0acce3b578595179e587806c244f32: !TransformComponent
+                        Id: d4f10e37-a626-4330-9fc9-084cbb12e76f
+                        Position: {X: -63.49521, Y: -0.670580447, Z: 22.0570412}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5e73b16940175fa2435dde465ea3eff7: !ModelComponent
+                        Id: 5612760b-07c1-4b82-a164-1ce1c5521b92
+                        Model: 1550136f-d2d5-4397-b532-240e18643c59:0Rapporter_Assets/Environment Assets/OtherAssets/Bear Trap - Animated
+                        Materials: {}
+                    e51efe9e880ec527668dd6fd715da16b: !StaticColliderComponent
+                        Id: 51023efc-1a7c-4786-bdfd-5f2b81121cd0
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            351f8edfccf1177a07158237e1d9c7eb: !ColliderShapeAssetDesc
+                                Shape: 37708d48-f593-447d-823b-d7eeb64a7edd:0Rapporter_Assets/Environment Assets/OtherAssets/bearTrapCollider
+                            6accedd8ec65021de13caf0d81a054d3: !ColliderShapeAssetDesc
+                                Shape: null

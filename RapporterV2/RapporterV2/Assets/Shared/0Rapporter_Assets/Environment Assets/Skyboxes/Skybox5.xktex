@@ -1,0 +1,6 @@
+!Texture
+Id: 0b39bb0b-452e-4b89-b9f9-356661e38445
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: Skybox5.dds
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

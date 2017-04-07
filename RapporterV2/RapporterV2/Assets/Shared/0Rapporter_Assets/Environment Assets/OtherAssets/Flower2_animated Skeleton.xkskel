@@ -1,0 +1,11 @@
+!Skeleton
+Id: c0acdc63-5fc8-4cbc-9ba4-1657d7c9b5cb
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Flower2_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    cc89f680da3448f09ce72dc650f16036: {Name: RootNode, Depth: 0}
+    9108bd5c541ebc52d9c13c974698a6ea: {Name: Sphere, Depth: 1}
+    2351a18576478bc21ea62ea5d9564912: {Name: Lamp, Depth: 1}
+    ef6bde773e7ba2bee70f0119170344cb: {Name: Camera, Depth: 1}

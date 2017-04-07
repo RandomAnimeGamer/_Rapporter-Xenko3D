@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 6058e329-6ccd-4d7e-a8c7-41568da2bbf3
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - dab7618a-98a6-4068-8c8b-fa495cc79b68
+    Parts:
+        -   Entity:
+                Id: dab7618a-98a6-4068-8c8b-fa495cc79b68
+                Name: Mushroom
+                Components:
+                    5795c1508b0a131741031f45c361717d: !TransformComponent
+                        Id: a31f5cc0-1483-462c-92f1-3d8b91a85570
+                        Position: {X: -64.02681, Y: -1.63427484, Z: -2.29938173}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a5f04ba09d89fb9d41941029bbb2075c: !ModelComponent
+                        Id: a941c571-532e-4b97-ab4e-ecc02391a03c
+                        Model: 426a97f7-52df-4038-90f6-8eb01f779e37:0Rapporter_Assets/Environment Assets/OtherAssets/Mushroom
+                        Materials: {}

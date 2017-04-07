@@ -1,0 +1,34 @@
+!PrefabAsset
+Id: d86bbb26-3628-4ae2-914d-7a991e80ea44
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - 617a0560-70e4-4975-9452-484e0b9afcfd
+    Parts:
+        -   Entity:
+                Id: 617a0560-70e4-4975-9452-484e0b9afcfd
+                Name: Town House2
+                Components:
+                    bdba2364368be819bbb3d209d348381f: !TransformComponent
+                        Id: bf3c8d21-30c1-4df8-a1df-fd24626c7d2a
+                        Position: {X: -76.99388, Y: 0.608276963, Z: 5.355608}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    87bba27b3fa12cb05e5f57909081b69a: !ModelComponent
+                        Id: 57b7748e-8a5d-4849-85fe-e5a75d051afb
+                        Model: 1c190784-69b1-423d-b59a-8b09c409b255:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2
+                        Materials: {}
+                    f8a9685ffaaad0a22f5a67ebdd80b087: !StaticColliderComponent
+                        Id: 8f4aeb20-e88d-4f3d-9e2b-a1b697596077
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2bbf4e454386dda3250beb1a412ae8db: !ColliderShapeAssetDesc
+                                Shape: d16395d4-d084-44ec-894b-3770c3796b24:0Rapporter_Assets/Environment Assets/OtherAssets/TownHouse2 Collider

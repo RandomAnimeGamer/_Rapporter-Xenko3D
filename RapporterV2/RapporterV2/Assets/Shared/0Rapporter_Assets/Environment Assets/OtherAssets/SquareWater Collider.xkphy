@@ -1,0 +1,20 @@
+!ColliderShapeAsset
+Id: 165ba907-7a41-4728-a049-cb8ffa3ff1fc
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+ColliderShapes:
+    b3c9212281c1aec811fdce4b7920f7c1: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: 07abc919-8fc3-440b-92db-c7838b5c3575:0Rapporter_Assets/Environment Assets/OtherAssets/squareWater
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        SimpleWrap: true
+        Scaling: {X: 1.0, Y: 1.0, Z: 1.0}
+        Depth: 10
+        PosSampling: 10
+        AngleSampling: 10
+        PosRefine: 5
+        AngleRefine: 5
+        Alpha: 0.01
+        Threshold: 0.01

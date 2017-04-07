@@ -1,0 +1,20 @@
+!ColliderShapeAsset
+Id: b1095be8-6342-44d0-adb5-50d46f05c400
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+ColliderShapes:
+    bf55918f955b14fe1dbece1961980d69: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: 2d0a3e34-68d7-4e28-80db-e56fb6d33203:0Rapporter_Assets/Environment Assets/OtherAssets/Town House
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        SimpleWrap: true
+        Scaling: {X: 1.0, Y: 1.0, Z: 1.0}
+        Depth: 10
+        PosSampling: 10
+        AngleSampling: 10
+        PosRefine: 5
+        AngleRefine: 5
+        Alpha: 0.01
+        Threshold: 0.01

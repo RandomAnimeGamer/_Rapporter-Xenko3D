@@ -1,0 +1,11 @@
+!Skeleton
+Id: 607eedc7-dd08-494b-a912-5e2aaa79f38a
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Rock2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    a0c1e9acbeb5b8e2cf15ec26ff54daeb: {Name: RootNode, Depth: 0}
+    812f1651a609bcfd5033bc5990075323: {Name: Rock2, Depth: 1}
+    d014cee374d57c887031ba64ee3c6a82: {Name: Lamp, Depth: 1}
+    37bed7191420d94072bd4ea9a7e55918: {Name: Camera, Depth: 1}

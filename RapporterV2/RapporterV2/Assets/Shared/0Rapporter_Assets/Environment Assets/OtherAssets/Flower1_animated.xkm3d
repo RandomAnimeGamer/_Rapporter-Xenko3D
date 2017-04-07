@@ -1,0 +1,44 @@
+!Model
+Id: 94f04733-a711-4c94-8d13-1cf6913573ea
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Flower1_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    4163c752ca3dd9dcedc4baaf8f60fff3:
+        Name: Stem1
+        MaterialInstance:
+            Material: b06ee582-b131-48f2-ba88-ef9f5cb9bf29:0Rapporter_Assets/Environment Assets/OtherAssets/Stem1
+    5fd77605fd7c446a70d8663fcf23dd7b:
+        Name: Stem2
+        MaterialInstance:
+            Material: 3a58cd1e-f3fe-4712-afbc-5ac2e76e300c:0Rapporter_Assets/Environment Assets/OtherAssets/Stem2
+    9c2e90ee00ebc48782b686efdbc2bc53:
+        Name: Flower0
+        MaterialInstance:
+            Material: 2bb76469-6d0f-4610-9c9d-ac553f73d216:0Rapporter_Assets/Environment Assets/OtherAssets/Flower0
+    ca3c1367173fe58a275b9182cccab304:
+        Name: Flower1
+        MaterialInstance:
+            Material: 3816bc68-2b9a-4344-8365-03afee1c9156:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1
+    15f12ae51a8147b828c0d8015b1e1b53:
+        Name: Flower2
+        MaterialInstance:
+            Material: 3214fdd4-82e6-4912-b309-7ef21f15ab16:0Rapporter_Assets/Environment Assets/OtherAssets/Flower2
+    b86a9f594dc475b064cfc7f1e0f87b38:
+        Name: Flower3
+        MaterialInstance:
+            Material: 088e443b-69fc-481b-a0c3-15ce4472b677:0Rapporter_Assets/Environment Assets/OtherAssets/Flower3
+    ba52a02f398cb4e6261d63b1a9404e7d:
+        Name: Flower4
+        MaterialInstance:
+            Material: 78f4b9aa-fe89-400d-84c0-d05d4ee0e63b:0Rapporter_Assets/Environment Assets/OtherAssets/Flower4
+    46db3b42042bf488f10ac6e8cbfce40b:
+        Name: Inside
+        MaterialInstance:
+            Material: d5f92fe5-1be2-43e9-8747-708588affcaa:0Rapporter_Assets/Environment Assets/OtherAssets/Inside
+    435c20cab55a43afd109ad62ba84961f:
+        Name: Material.001
+        MaterialInstance:
+            Material: 24403eff-6ea2-4eb2-bd34-094dc62ca173:0Rapporter_Assets/Environment Assets/OtherAssets/Material.001
+Skeleton: 51c427db-126a-4591-aec1-c9e1b74f3e1b:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1_animated Skeleton

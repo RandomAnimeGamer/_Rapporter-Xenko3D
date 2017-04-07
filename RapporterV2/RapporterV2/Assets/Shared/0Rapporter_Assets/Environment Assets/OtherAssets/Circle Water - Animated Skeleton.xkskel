@@ -1,0 +1,13 @@
+!Skeleton
+Id: d70477c5-7b24-417b-9369-c30afbc8f0a3
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Circle Water - Animated.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    3114aa09c849872cbf69352221ccd8e9: {Name: RootNode, Depth: 0}
+    52072e34d703eef3a785068129d3e659: {Name: Circle.001, Depth: 1}
+    34caea08d081ef14a5e0db74475bc2db: {Name: Circle, Depth: 1}
+    c2a6ec42f77bd755807f2314ed6463fd: {Name: Sun, Depth: 1}
+    9651fededf66c44fd118f06c1dc99d3f: {Name: Lamp, Depth: 1}
+    2bddafd1340b598510dae3bd4ffdf2e1: {Name: Camera, Depth: 1}

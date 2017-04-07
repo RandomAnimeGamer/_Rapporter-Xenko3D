@@ -1,0 +1,25 @@
+!Model
+Id: 426a97f7-52df-4038-90f6-8eb01f779e37
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Mushroom.fbx
+PivotPosition: {X: 0.0, Y: -1.532, Z: 0.0}
+ScaleImport: 0.05
+Materials:
+    e7002d7072dc7ef8e9c9386c47dcd795:
+        Name: Material.001
+        MaterialInstance:
+            Material: 0f3155ad-f69b-4566-91ec-bbecff9f7319:0Rapporter_Assets/Environment Assets/OtherAssets/Material.001_2
+    75dfb55fc4fa9ad529b6e51e8757e940:
+        Name: Material.002
+        MaterialInstance:
+            Material: 7d62134f-822f-4afa-ae41-a30a16a4ed4b:0Rapporter_Assets/Environment Assets/OtherAssets/Material.002
+    4992b2f627825c3a84d737d51b3daf00:
+        Name: Material.004
+        MaterialInstance:
+            Material: 36fd4b24-7ea6-4734-b266-0aac79ef27f7:0Rapporter_Assets/Environment Assets/OtherAssets/Material.004
+    2aa0f8ae2787a6156eb85b3f0b202989:
+        Name: Material.005
+        MaterialInstance:
+            Material: 50c95c88-09e5-462e-9360-5c85c5d28099:0Rapporter_Assets/Environment Assets/OtherAssets/Material.005
+Skeleton: 3cf34e0a-cf75-4415-b9bf-788dfc071090:0Rapporter_Assets/Environment Assets/OtherAssets/Mushroom Skeleton

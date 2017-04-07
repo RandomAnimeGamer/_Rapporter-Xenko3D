@@ -1,0 +1,20 @@
+!ColliderShapeAsset
+Id: 37708d48-f593-447d-823b-d7eeb64a7edd
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+ColliderShapes:
+    55d527bb057ab3de54014e025a1b4dec: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: 1550136f-d2d5-4397-b532-240e18643c59:0Rapporter_Assets/Environment Assets/OtherAssets/Bear Trap - Animated
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        SimpleWrap: true
+        Scaling: {X: 1.0, Y: 1.0, Z: 1.0}
+        Depth: 10
+        PosSampling: 10
+        AngleSampling: 10
+        PosRefine: 5
+        AngleRefine: 5
+        Alpha: 0.01
+        Threshold: 0.01

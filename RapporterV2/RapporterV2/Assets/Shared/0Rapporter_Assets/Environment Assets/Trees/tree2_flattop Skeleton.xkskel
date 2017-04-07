@@ -1,0 +1,11 @@
+!Skeleton
+Id: 5fd75f76-6fa0-4343-8a35-d5e832b95af7
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../../../../Users/Jessica/Documents/ASU/Capstone_gaming/Models/VariationModels/tree2_flattop.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    f2f4e93735fd3c7eda3dbf30a3381310: {Name: RootNode, Depth: 0}
+    2c26fa4a35a9887950134ecf19191156: {Name: Tree2, Depth: 1}
+    65e65a031d03625cf5c34c9efef2d1d2: {Name: Lamp, Depth: 1}
+    b3b5c46bb092fa43ccb17e9233ed93a7: {Name: Camera, Depth: 1}
