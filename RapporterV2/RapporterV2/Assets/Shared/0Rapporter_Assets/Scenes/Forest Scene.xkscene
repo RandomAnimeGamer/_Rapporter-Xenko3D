@@ -73,34 +73,21 @@ SceneSettings:
 Hierarchy:
     RootPartIds:
         - 54ae5828-6e50-4b94-b578-584c4ec71295
-        - 7449c2da-618d-452f-8a47-259dc253560e
-        - b2cf1b01-e35a-4647-9a33-3576cbe499ca
-        - 273674c7-a23e-488f-aeaa-7bb0541ad674
         - 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
-        - 03822c2d-7ea4-44f6-a200-5c06abc99ad5
         - abf0e468-d54f-4237-92b7-c852eb55dc19
-        - 9f48d668-3c89-4bfc-80f0-18ccbd87063e
+        - 09143bb7-f329-43c6-b6d7-386e8c6925e9
+        - ab344601-0807-4702-85ad-b93a4cb29df4
+        - 0ec0d2ad-3ae5-43df-8dc5-5c9ae47e1556
+        - 74f5fde4-c70d-4d62-9068-8e9eb3b4a738
+        - 0bf74d98-8d04-472f-bd7a-cfefcbf701e3
+        - 4a7f1b29-7799-4c7a-9645-267c45577d2d
+        - e198d378-4615-4b8a-b8e8-84a016aa7d54
+        - 186b6be5-68d6-48ed-965b-70b09087e73c
         - c091cc5e-59f9-48bf-a45e-d9f6dfac4619
         - 4fd0b937-0925-4c60-b790-4ea7d9422e11
         - 40ebeb44-2e53-4545-b675-908a175b71f4
         - 44f7245d-29ba-430d-bdbd-e230d5f57f49
         - 3d3abc51-6e2f-419b-b44a-ddb52bb5124a
-        - 7c55839d-c943-4e44-bb7b-f72c457563a9
-        - ce285550-3174-4116-9439-0fc69462a4ec
-        - 38c74b38-e242-4828-a36a-0205d83bbff3
-        - 568a3e7f-6102-4785-a1b6-fa2549396ec1
-        - 09143bb7-f329-43c6-b6d7-386e8c6925e9
-        - d18bc381-fb86-495f-8727-f336a8bfdf65
-        - 923dc50b-5380-4194-a9cf-b8f2a66109fa
-        - 66242df4-6db9-4399-a267-77d532eed17c
-        - ab344601-0807-4702-85ad-b93a4cb29df4
-        - 31ff7b06-1fb3-4308-8ae1-09be9b8a66a3
-        - 9592f747-3fb8-4f0b-a0be-c62c5251110a
-        - 5900ea1c-eb6e-4760-8820-fb9a7179226e
-        - 0bf74d98-8d04-472f-bd7a-cfefcbf701e3
-        - 4a7f1b29-7799-4c7a-9645-267c45577d2d
-        - e198d378-4615-4b8a-b8e8-84a016aa7d54
-        - 186b6be5-68d6-48ed-965b-70b09087e73c
         - 7687b8d9-95c7-472c-8596-0a894b75d6db
         - 9ed5b247-0b1f-4022-a2ba-a52ea8c7e3a6
         - ac68f334-e16c-443e-b688-8ced7cd7c9f0
@@ -108,8 +95,21 @@ Hierarchy:
         - c8ff3c6b-90cb-4362-8157-dd303a9938d1
         - d75effcb-f673-4d17-9b58-182b629c0065
         - e3987bea-5080-4e53-908e-722dcfb059c3
-        - 0ec0d2ad-3ae5-43df-8dc5-5c9ae47e1556
-        - 74f5fde4-c70d-4d62-9068-8e9eb3b4a738
+        - 7c55839d-c943-4e44-bb7b-f72c457563a9
+        - ce285550-3174-4116-9439-0fc69462a4ec
+        - 38c74b38-e242-4828-a36a-0205d83bbff3
+        - 568a3e7f-6102-4785-a1b6-fa2549396ec1
+        - 66242df4-6db9-4399-a267-77d532eed17c
+        - 31ff7b06-1fb3-4308-8ae1-09be9b8a66a3
+        - 9592f747-3fb8-4f0b-a0be-c62c5251110a
+        - 5900ea1c-eb6e-4760-8820-fb9a7179226e
+        - 7449c2da-618d-452f-8a47-259dc253560e
+        - b2cf1b01-e35a-4647-9a33-3576cbe499ca
+        - 273674c7-a23e-488f-aeaa-7bb0541ad674
+        - 9f48d668-3c89-4bfc-80f0-18ccbd87063e
+        - d18bc381-fb86-495f-8727-f336a8bfdf65
+        - 923dc50b-5380-4194-a9cf-b8f2a66109fa
+        - 03822c2d-7ea4-44f6-a200-5c06abc99ad5
     Parts:
         -   Entity:
                 Id: 01f00d14-5105-4643-85c1-051bfc54cf00
@@ -125,6 +125,8 @@ Hierarchy:
                         Id: b302263f-1a2c-4990-a800-bf63c883617e
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: e31e86ed-e3af-4dea-b248-a002957f7aaa
                         CanSleep: false
@@ -156,6 +158,8 @@ Hierarchy:
                         Id: 906a7a4c-04c6-47bc-86d4-ba3615195ec1
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 6a5a3e18-3e89-4fd7-b629-04adc98c69c7
                         CanSleep: false
@@ -172,7 +176,8 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 09fbe019-fbbd-4cec-bc43-96d942020709
-        -   Entity:
+        -   Folder: Environment
+            Entity:
                 Id: 03822c2d-7ea4-44f6-a200-5c06abc99ad5
                 Name: _Updated_Town_Teleporter
                 Components:
@@ -186,6 +191,8 @@ Hierarchy:
                         Id: e1907cdf-572b-48b9-a9e3-1e4107b8437f
                         Model: d5a0b7c9-6eeb-47ec-ade5-46a1414fd5a5:0Rapporter_Assets/Town Map/_Updated_Town_Teleporter
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     99829373c4c5122c44b09fa9ebde3c40: !AnimationComponent
                         Id: 6360812d-185a-4eb7-b78a-ac27621eca21
                         Animations:
@@ -205,6 +212,8 @@ Hierarchy:
                         Id: f2d4574f-3bc0-461a-ae88-9f09750ecab3
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: a3865689-4f0f-4b52-88b7-06663435457c
                         CanSleep: false
@@ -235,6 +244,8 @@ Hierarchy:
                         Id: c4859c41-5bcf-45e7-9498-0a1ac6f56040
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 983fe31e-a640-4b54-954e-951bed986c66
                         CanSleep: false
@@ -251,7 +262,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 072423d1-9a5e-410f-ad0f-a92e42f88d64
-        -   Entity:
+        -   Folder: THE GREAT PAPYRUS
+            Entity:
                 Id: 09143bb7-f329-43c6-b6d7-386e8c6925e9
                 Name: Bear Trap - Animated
                 Components:
@@ -265,6 +277,8 @@ Hierarchy:
                         Id: a055e96a-4034-4429-a20a-a083b6dfbf16
                         Model: 1550136f-d2d5-4397-b532-240e18643c59:0Rapporter_Assets/Environment Assets/OtherAssets/Bear Trap - Animated
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     e51efe9e880ec527668dd6fd715da16b: !StaticColliderComponent
                         Id: 13390624-5743-4103-8213-47fd6fd37fea
                         CanSleep: false
@@ -297,6 +311,8 @@ Hierarchy:
                         Id: 36a40504-380a-4698-abeb-9c729c33fc81
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 34b667c9-81c8-4e18-9578-5dbf7dfa62d3
                         CanSleep: false
@@ -327,6 +343,8 @@ Hierarchy:
                         Id: 68a6528a-8d96-41be-bb07-31a5a099789f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6b0430c0-e6c7-486b-ac6d-5e8bb4f0c3fa
                         CanSleep: false
@@ -357,6 +375,8 @@ Hierarchy:
                         Id: f1a25761-5731-4ba8-b78f-fd803c2fe10e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4f3347cc-9499-4f34-a251-77bb042cbde2
                         CanSleep: false
@@ -387,6 +407,8 @@ Hierarchy:
                         Id: 092e2975-b031-4f34-9d30-c8436ee50cec
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 7feb8e58-2c6d-485f-a6e9-572bef76c27a
                         CanSleep: false
@@ -418,6 +440,8 @@ Hierarchy:
                         Id: b3b61b73-c748-4043-8ce9-8a4472750aad
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ad0fcda0-8d89-488c-a378-195729bb4d17
                         CanSleep: false
@@ -434,7 +458,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 2af65dc7-bb89-4555-a8b9-dc534474aadd
-        -   Folder: FenceFolder
+        -   Folder: Environment/Obstacles/FenceFolder
             Entity:
                 Id: 0bf74d98-8d04-472f-bd7a-cfefcbf701e3
                 Name: WestFence
@@ -477,6 +501,8 @@ Hierarchy:
                         Id: a2578976-8b42-490a-83ac-a39dfe09eb74
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ae789ef1-88b3-4828-93c5-dc24d4c3d129
                         CanSleep: false
@@ -493,7 +519,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: b84baa9b-2d9c-4c7e-b3d1-63f97b0ad677
-        -   Entity:
+        -   Folder: THE GREAT PAPYRUS
+            Entity:
                 Id: 0ec0d2ad-3ae5-43df-8dc5-5c9ae47e1556
                 Name: OceanBoundary
                 Components:
@@ -507,6 +534,8 @@ Hierarchy:
                         Id: 98f0b0d4-436c-433d-aaff-9ea3ff5a93a2
                         Model: e73e7154-86cc-4cde-9698-8d22a317873f:0Rapporter_Assets/Environment Assets/OtherAssets/OceanBoundary
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     78f3bbb58e68edcb87150120f3e627f8: !StaticColliderComponent
                         Id: b1339969-2d38-445f-865b-d9bac637cd43
                         CanSleep: false
@@ -520,7 +549,7 @@ Hierarchy:
                             890b4617d046d705db5df51b50ffd60e: !ColliderShapeAssetDesc
                                 Shape: dd75aed8-c0f6-4f50-bdbc-c88a12662ad1:0Rapporter_Assets/Environment Assets/OtherAssets/OceanBoundary Collider
             Base:
-                BasePartAsset: 585acf46-0b1f-4ca8-8ec1-e5f696baac90:0Rapporter_Assets/Scenes/OceanBoundary
+                BasePartAsset: 585acf46-0b1f-4ca8-8ec1-e5f696baac90:0Rapporter_Assets/Environment Assets/OtherAssets/OceanBoundary Prefab
                 BasePartId: d13d0650-e3b0-48d8-bc3a-2de6ecbc4d66
                 InstanceId: e675bb33-eb5d-4c4e-8c7a-3d916b777476
         -   Entity:
@@ -537,6 +566,8 @@ Hierarchy:
                         Id: cda8420b-95b4-42e4-90ac-50133b4f9e0d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e00e2cba-1971-4a88-936f-e8ee718d8107
                         CanSleep: false
@@ -567,6 +598,8 @@ Hierarchy:
                         Id: 3f2c4a08-8e83-42f8-9901-fee98c9e9cbc
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 16190b32-9399-4d21-84cb-d2cd10e02d4a
                         CanSleep: false
@@ -598,6 +631,8 @@ Hierarchy:
                         Id: d9dc73c4-c79a-4f5f-a637-6be5c0ff3e15
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 9e3c375b-b836-4b32-85ba-4a3357481ade
                         CanSleep: false
@@ -629,6 +664,8 @@ Hierarchy:
                         Id: f6921c28-2bb6-48d8-861f-c8a6be191549
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 6782e540-2a9b-4f50-aeff-7bc7df48b6aa
                         CanSleep: false
@@ -659,6 +696,8 @@ Hierarchy:
                         Id: b3750478-0501-4e5c-a76e-137a0ab22982
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f21d0326-0de1-41c0-9ffd-7bb096c31898
                         CanSleep: false
@@ -689,6 +728,8 @@ Hierarchy:
                         Id: 7510f175-0a47-4db1-9db2-d83cffc520cd
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8541e197-9bc9-4dfb-98d7-0ce639373ea9
                         CanSleep: false
@@ -705,7 +746,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 4beaa5a9-759a-4c9c-a681-837ef275539a
-        -   Folder: FenceFolder
+        -   Folder: Environment/Obstacles/FenceFolder
             Entity:
                 Id: 186b6be5-68d6-48ed-965b-70b09087e73c
                 Name: SouthFence
@@ -753,6 +794,8 @@ Hierarchy:
                         Id: 6e2f07fa-ac77-478c-be23-6dcf1fab54a6
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4a881374-687b-4aa6-8677-622aed5d3b77
                         CanSleep: false
@@ -783,6 +826,8 @@ Hierarchy:
                         Id: 7ba5b19f-6acf-4384-81ff-75e5f7959674
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d29f03f2-4ff0-441c-a143-0a6b823fbdea
                         CanSleep: false
@@ -813,6 +858,8 @@ Hierarchy:
                         Id: 6c5c6774-f92a-446c-b276-84fccce0af06
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 322a015d-6913-49d6-9e3c-c7280b84e987
                         CanSleep: false
@@ -844,6 +891,8 @@ Hierarchy:
                         Id: 625d1b0b-f77c-4e42-b4e3-a022b5cd8e07
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 2b5a3011-bef6-4375-aa7f-1fb04e4509b5
                         CanSleep: false
@@ -874,6 +923,8 @@ Hierarchy:
                         Id: 9b2f36de-a785-4944-a502-bfd061989149
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: aa2d73de-82db-4ff7-98a8-3c85e064c6ad
                         CanSleep: false
@@ -905,6 +956,8 @@ Hierarchy:
                         Id: c13aec28-4637-4b7b-a134-cfd7c9461fec
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 5506387f-170c-4a8b-a6a0-13dc6e24d5a1
                         CanSleep: false
@@ -935,6 +988,8 @@ Hierarchy:
                         Id: 6bfec353-320c-478f-9396-8b3540e9cd47
                         Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
                         Id: a99417c0-ec71-4f4c-9de8-011735448ea2
                         CanSleep: false
@@ -967,6 +1022,8 @@ Hierarchy:
                         Id: b0ec10ff-a102-4893-9b81-bf3a90352ef7
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: b4743012-4ef7-4164-8a45-a4d168c68e67
                         CanSleep: false
@@ -997,6 +1054,8 @@ Hierarchy:
                         Id: 3538c7a8-bbd4-41e1-98cf-a19de365054c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4043c1aa-8ad2-4b3c-96cc-c66e347f5c2e
                         CanSleep: false
@@ -1028,6 +1087,8 @@ Hierarchy:
                         Id: 330cf175-b42c-49db-9bb9-c7d3268613b4
                         Model: a4ccee5f-3d9a-44aa-a2a2-62a22ecd786b:0Rapporter_Assets/Characters/NPC1 - Rigged
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     0f580a024c3b160a6d22229aa128beae: !AnimationComponent
                         Id: a527ac77-afa0-4a71-9014-1b3aa6482f22
                         Animations: {}
@@ -1062,6 +1123,8 @@ Hierarchy:
                         Id: 13a3d97e-9532-45c1-a348-bed80934b0f2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e81f73a3-0595-4e66-9134-a2dc30db5583
                         CanSleep: false
@@ -1093,6 +1156,8 @@ Hierarchy:
                         Id: 58ef2d6e-4db0-431b-972c-577926811c57
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 003f9709-d976-4c81-a86c-0fa8d37d6e28
                         CanSleep: false
@@ -1124,6 +1189,8 @@ Hierarchy:
                         Id: f6c79ba9-885a-46d6-a85a-8e29e49466ab
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: abe1d8d9-8e50-4773-a35d-bf1a480ad060
                         CanSleep: false
@@ -1154,6 +1221,8 @@ Hierarchy:
                         Id: fa8350c4-95d4-497f-a18c-a5c6e86a711a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: fe6cec6b-b88f-4e2e-b2d2-16545637c6cd
                         CanSleep: false
@@ -1185,6 +1254,8 @@ Hierarchy:
                         Id: b97a9166-7df4-4097-9751-e65abcc60e4b
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: bda1ec00-348e-4587-be6c-36c8ab523958
                         CanSleep: false
@@ -1201,7 +1272,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 66451d6e-85fc-4bbd-8b6d-bb511fda9e22
-        -   Folder: Lights
+        -   Folder: Environment/Lights
             Entity:
                 Id: 273674c7-a23e-488f-aeaa-7bb0541ad674
                 Name: Skybox
@@ -1234,6 +1305,8 @@ Hierarchy:
                         Id: a171fbab-1c5e-4f7b-95fd-105510316e41
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 22a678a6-8e1b-467e-88eb-a56d77f8880d
                         CanSleep: false
@@ -1264,6 +1337,8 @@ Hierarchy:
                         Id: f9f0ed0b-1c50-4dc0-a6e7-7f59c9acbe4f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 3379a228-c0e9-4b1e-a4fb-88b76e46d8a0
                         CanSleep: false
@@ -1294,6 +1369,8 @@ Hierarchy:
                         Id: c40b4499-b7e5-4efc-b11f-0260b425039b
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 72dc7e82-4419-4b62-974d-c83e17d1a011
                         CanSleep: false
@@ -1325,6 +1402,8 @@ Hierarchy:
                         Id: 59794226-cf8b-40c8-b4a9-a1f42d529d77
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 2cc4dc5f-ac56-4eaa-be41-34e43b52834c
                         CanSleep: false
@@ -1341,7 +1420,8 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: ba858a20-4764-4123-a69e-e9ab990894a4
-        -   Entity:
+        -   Folder: Environment/Forest Details
+            Entity:
                 Id: 31ff7b06-1fb3-4308-8ae1-09be9b8a66a3
                 Name: Flower1_animated
                 Components:
@@ -1355,8 +1435,10 @@ Hierarchy:
                         Id: 1e011648-c6ff-4499-9e1c-c744e1c58fa7
                         Model: 94f04733-a711-4c94-8d13-1cf6913573ea:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1_animated
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
             Base:
-                BasePartAsset: 45b798bb-875c-40ed-874a-3c65e4c492a4:0Rapporter_Assets/Scenes/Flower1_animated
+                BasePartAsset: 45b798bb-875c-40ed-874a-3c65e4c492a4:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1 prefab
                 BasePartId: bec623bc-513f-45ac-8e16-2a46cf14a8e9
                 InstanceId: d47eb6b4-75a0-43aa-a9e9-827b8d2f6fec
         -   Folder: null
@@ -1374,6 +1456,8 @@ Hierarchy:
                         Id: d4bd4c01-4dca-4bce-ae72-a35f33921319
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 3c674b6a-5fdd-42f7-b040-24e4fdba1bc0
                         CanSleep: false
@@ -1404,6 +1488,8 @@ Hierarchy:
                         Id: c45b60de-f24e-42bc-b0d0-9a8f942ea763
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: aca5a3da-d2dc-4c96-a717-984cfe0a4a94
                         CanSleep: false
@@ -1434,6 +1520,8 @@ Hierarchy:
                         Id: c3c47999-04fc-42c9-843a-4fb5bf2f1a6a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 911d7e5e-230c-4a8d-95fb-67d12bedb7b5
                         CanSleep: false
@@ -1465,6 +1553,8 @@ Hierarchy:
                         Id: 1ca585cb-1871-4326-a0c0-aa41c4fc283d
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 58baac5e-934c-4eb1-9392-1774611af26b
                         CanSleep: false
@@ -1496,6 +1586,8 @@ Hierarchy:
                         Id: 114b1e8a-b53b-46ed-9a2b-8469625dcd03
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 2d843254-d3fe-49ce-8c8e-55d4d9f5f0bd
                         CanSleep: false
@@ -1526,6 +1618,8 @@ Hierarchy:
                         Id: a2575fb4-1b0b-47c5-8144-19406ec0bfb2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e4913cc0-f442-473e-8efc-3f734a7bf255
                         CanSleep: false
@@ -1556,6 +1650,8 @@ Hierarchy:
                         Id: 8fda4ae5-b937-4d72-a402-527c9f6a6485
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ff1a70a9-7e98-4e4c-8fa7-e738bfe998f4
                         CanSleep: false
@@ -1587,6 +1683,8 @@ Hierarchy:
                         Id: da71d1b4-dc33-441d-87d3-15d5b593b3a7
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 1a2683d1-6e26-49e5-a419-8bb887c55ca9
                         CanSleep: false
@@ -1603,7 +1701,8 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 536108c5-4e8a-47de-abc9-7205b7066b25
-        -   Entity:
+        -   Folder: Environment/Forest Details
+            Entity:
                 Id: 38c74b38-e242-4828-a36a-0205d83bbff3
                 Name: Bush1_2 Prefab
                 Components:
@@ -1628,6 +1727,8 @@ Hierarchy:
                         Id: 80b0531e-6ff8-4f93-822d-668cf34b4211
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9c3c35eb-8796-4fc6-a7be-3b708781e764
                         CanSleep: false
@@ -1658,6 +1759,8 @@ Hierarchy:
                         Id: dbe91aae-d245-494f-a45f-fec1f8ae515b
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e8762bcd-6075-4b0c-8727-41ce0d06734b
                         CanSleep: false
@@ -1689,6 +1792,8 @@ Hierarchy:
                         Id: 20ac53cc-bac7-4628-a194-23bc628e381d
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ea200d29-0eeb-48c7-ba55-cad2ef2c03c3
                         CanSleep: false
@@ -1720,6 +1825,8 @@ Hierarchy:
                         Id: 74447700-1395-4cfa-9b6d-fab104ffd673
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 5cabad22-31e7-48b6-9622-587fe93884f7
                         CanSleep: false
@@ -1751,6 +1858,8 @@ Hierarchy:
                         Id: 9076f422-623a-4145-8f31-669d5c0a6534
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 22ef9ce3-8358-41de-95ae-360a2e872710
                         CanSleep: false
@@ -1781,6 +1890,8 @@ Hierarchy:
                         Id: 8586b801-2a5a-4b4f-adb2-302939b46968
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 797a6b8a-6527-4ace-8e2e-cea25209c980
                         CanSleep: false
@@ -1797,7 +1908,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 99dd8e75-df5b-411b-82b1-9df834dcd054
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 3d3abc51-6e2f-419b-b44a-ddb52bb5124a
                 Name: Forest Trees 5
@@ -1848,6 +1959,8 @@ Hierarchy:
                         Id: 4ce398fc-2605-4901-9078-ade5954ba7e3
                         Model: 1ba31899-5183-4e6c-bce7-d5672b98389e:0Rapporter_Assets/Environment Assets/Tree2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     a6d1ff5f3764443e68a68ffec2a95e9a: !StaticColliderComponent
                         Id: 7061dddf-5697-4d66-8f1c-3bbc7a761bbd
                         CanSleep: false
@@ -1878,6 +1991,8 @@ Hierarchy:
                         Id: 74d11303-ab4a-40fc-b0c4-bbf46290fbec
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8be7b5a1-94d9-4e4b-9b61-0d9b36233daf
                         CanSleep: false
@@ -1894,7 +2009,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 24aa7a89-d1f6-4a46-882b-b56cef2f0308
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 40ebeb44-2e53-4545-b675-908a175b71f4
                 Name: Forest Trees3
@@ -1936,6 +2051,8 @@ Hierarchy:
                         Id: eaf844c0-bd3e-45e6-864d-dbd33472ec2d
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: da4d25dc-99c3-4f0d-a7dc-0d58174e847c
                         CanSleep: false
@@ -1966,6 +2083,8 @@ Hierarchy:
                         Id: f564e508-a59f-4fcb-8663-3503fe0233f2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 0156e388-1c26-4f7a-bcb7-8b653882df48
                         CanSleep: false
@@ -1982,7 +2101,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: a2ce7822-5b96-4056-8c6e-f7f9e42639e9
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 44f7245d-29ba-430d-bdbd-e230d5f57f49
                 Name: Forest Trees 4
@@ -2041,6 +2160,8 @@ Hierarchy:
                         Id: 41e7c740-a844-4ec6-81e7-26cd431f877b
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 7c97115d-5349-467a-90af-8cd8829f8779
                         CanSleep: false
@@ -2071,6 +2192,8 @@ Hierarchy:
                         Id: c5ec30b7-47eb-4f8b-906e-d9855c77f87c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 1de1b24f-62f8-4619-bf10-de524b3b91b3
                         CanSleep: false
@@ -2102,6 +2225,8 @@ Hierarchy:
                         Id: 2e0723f2-7c8e-47ab-85d7-2a3e46c06624
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: d07ee3dd-2d6d-44b3-b2af-e9c0006fb8d9
                         CanSleep: false
@@ -2132,6 +2257,8 @@ Hierarchy:
                         Id: 09db16e2-c6e5-4666-a94c-c682f9f4bdac
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d78f865f-4a7c-4b1e-923e-37762729b14b
                         CanSleep: false
@@ -2148,7 +2275,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 3eeac97f-31fd-4cdd-806a-2d110d28a45f
-        -   Folder: FenceFolder
+        -   Folder: Environment/Obstacles/FenceFolder
             Entity:
                 Id: 4a7f1b29-7799-4c7a-9645-267c45577d2d
                 Name: NorthFence
@@ -2207,6 +2334,8 @@ Hierarchy:
                         Id: a607bedd-08fd-403f-b6ec-1ae5afc192c3
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ddc7de75-1dc7-4324-97c9-2998378a8186
                         CanSleep: false
@@ -2237,6 +2366,8 @@ Hierarchy:
                         Id: 450eaee8-c923-4956-bb74-f36cec710243
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 37e75097-2a46-4e07-bb9d-c3643c38313e
                         CanSleep: false
@@ -2267,6 +2398,8 @@ Hierarchy:
                         Id: 38ef135e-6820-4269-a72f-e479de89af77
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 153946fa-f46b-443d-aa16-4541e87d271d
                         CanSleep: false
@@ -2297,6 +2430,8 @@ Hierarchy:
                         Id: deca9c12-cb3b-4752-8898-33f072b7f568
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: a67c7f48-da6e-4b4c-8d14-cc998fc2c465
                         CanSleep: false
@@ -2327,6 +2462,8 @@ Hierarchy:
                         Id: d5215920-9a5f-4701-9007-8ce52ab6cf85
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 190f3c39-ae60-4f53-be6d-0b348f40d3d2
                         CanSleep: false
@@ -2343,7 +2480,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 8f6001ec-3ca5-438e-869c-0de77c59f722
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 4fd0b937-0925-4c60-b790-4ea7d9422e11
                 Name: Forest Trees2
@@ -2396,6 +2533,8 @@ Hierarchy:
                         Id: a7605141-f6f0-4561-95dd-7cb499efd6c1
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 2ef190a6-30e7-4add-b0e9-1942f71c7886
                         CanSleep: false
@@ -2426,6 +2565,8 @@ Hierarchy:
                         Id: e917707f-7f00-4951-8fd3-2e9aa64e4f6e
                         Model: fadc7dca-97e4-45f1-b08f-ee342f456116:0Rapporter_Assets/SimpleSword
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     f6eb9a9611e00d328bce5ae896db089e: !RigidbodyComponent
                         Id: 4e6fc688-74e0-4d49-bd60-9c7a3f26f261
                         CanSleep: false
@@ -2468,6 +2609,8 @@ Hierarchy:
                         Id: adbcbbf7-b81b-400e-a3b4-55b9a2a8f1b4
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 8fa398a3-473a-4554-b6f8-8b0407ca6644
                         CanSleep: false
@@ -2550,6 +2693,8 @@ Hierarchy:
                         Id: c8619db3-ce05-40bb-8505-7ab31fb35b04
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: fdebbdce-b637-438a-9c9f-a086b1f80378
                         CanSleep: false
@@ -2566,7 +2711,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: efc753f1-b25d-420c-aaa6-b5b4975d5b53
-        -   Entity:
+        -   Folder: Environment/Forest Details
+            Entity:
                 Id: 568a3e7f-6102-4785-a1b6-fa2549396ec1
                 Name: Bush1_2 Prefab_test
                 Components:
@@ -2591,6 +2737,8 @@ Hierarchy:
                         Id: e2486c99-c825-4b45-a72a-de2ebc8a228c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 3ab42ae3-1ff4-4fdd-a5a3-ba484d1eac62
                         CanSleep: false
@@ -2621,6 +2769,8 @@ Hierarchy:
                         Id: 5bf03d77-d7f2-41b9-9ffd-1afef9299a0a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4b3f3a8e-b01d-4769-b408-e578f2d1d521
                         CanSleep: false
@@ -2637,7 +2787,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 059d11b0-2792-4d54-b5b6-248222db5bf5
-        -   Entity:
+        -   Folder: Environment/Forest Details
+            Entity:
                 Id: 5900ea1c-eb6e-4760-8820-fb9a7179226e
                 Name: Flower1 prefab
                 Components:
@@ -2662,6 +2813,8 @@ Hierarchy:
                         Id: 059b9af9-ee9b-435d-9d60-8fcdcd256ac3
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9dd7b166-7078-4d97-adf2-532dfd4fe9fe
                         CanSleep: false
@@ -2692,6 +2845,8 @@ Hierarchy:
                         Id: be601bfc-85c4-456e-a7f9-e2f204fb9b48
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09*: !StaticColliderComponent
                         Id: 0fa101f4-0c8c-43e4-bc93-f331271d44d6
                         CanSleep: false
@@ -2722,6 +2877,8 @@ Hierarchy:
                         Id: 44209c0b-e942-4682-9f54-9a9815fde079
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 59e91fcc-6f5c-4342-8361-9dbc9e8ca418
                         CanSleep: false
@@ -2752,6 +2909,8 @@ Hierarchy:
                         Id: ed370483-23f0-479f-8c54-b198def0624f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 793125d6-de0e-4138-8150-b95dac2e3070
                         CanSleep: false
@@ -2783,6 +2942,8 @@ Hierarchy:
                         Id: b578b4e4-dc3c-4078-8449-876d71b750aa
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 03a015b3-1e64-4659-9f6b-55f253025eba
                         CanSleep: false
@@ -2813,6 +2974,8 @@ Hierarchy:
                         Id: 614abcd8-9a83-4fa0-a2c9-e90641279cb5
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 3e4a5b23-b6f3-4513-a7ec-b9d3f410cf53
                         CanSleep: false
@@ -2843,6 +3006,8 @@ Hierarchy:
                         Id: 7a32dab4-b621-409c-8f89-66f5e666be91
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 31e53435-8bac-434b-b961-b1993d5134ad
                         CanSleep: false
@@ -2873,6 +3038,8 @@ Hierarchy:
                         Id: b8fa888f-f31c-4416-bc54-d5a1b0c929cb
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6096fc93-38e0-4937-8117-51e8bb9dfe1f
                         CanSleep: false
@@ -2907,7 +3074,8 @@ Hierarchy:
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                     72e2fb5e9d29cab22521f71172745815: !RapporterV2.Player.ScrollTextText,RapporterV2.Game
                         Id: e3bc7ee2-1870-49a3-9990-5032b920ae4a
-        -   Entity:
+        -   Folder: Environment/Forest Details
+            Entity:
                 Id: 66242df4-6db9-4399-a267-77d532eed17c
                 Name: Flower2_animated
                 Components:
@@ -2921,6 +3089,8 @@ Hierarchy:
                         Id: 585f21b1-3e78-4da8-b305-fc044fe84f33
                         Model: 7e45e47c-0712-4652-9869-c42e2bb5bed2:0Rapporter_Assets/Environment Assets/OtherAssets/Flower2_animated
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     925a134dd913755ebdf8cfb31b88e670: ~(Deleted)
             Base:
                 BasePartAsset: c38c8864-2ea0-40fc-b6ce-782f5a63b989:0Rapporter_Assets/Environment Assets/OtherAssets/Flower2 prefab
@@ -2940,6 +3110,8 @@ Hierarchy:
                         Id: 9fa1ef63-2f2f-44ec-9b7a-95187e1045ff
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 06aba92d-7960-4999-a9bc-26136ed8105a
                         CanSleep: false
@@ -2970,6 +3142,8 @@ Hierarchy:
                         Id: 30fd0e9b-91e5-492e-ba00-6f4aa4591b1d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 02dfd7d7-86b8-4545-8eaf-45c7cb74dba1
                         CanSleep: false
@@ -3000,6 +3174,8 @@ Hierarchy:
                         Id: 7fd77c24-1755-48b2-b92a-65df636160e5
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 19d97e4b-3867-41fd-ab78-845857a05007
                         CanSleep: false
@@ -3031,6 +3207,8 @@ Hierarchy:
                         Id: ff58cd27-b8d3-4213-9752-38ff69b89041
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: eb850bbd-5304-4911-8fef-85e06f019c18
                         CanSleep: false
@@ -3062,6 +3240,8 @@ Hierarchy:
                         Id: 80db1dae-30ed-4594-bf98-1c98151c79e9
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 1160e3d1-ddf3-4212-a5a4-da3bfef75051
                         CanSleep: false
@@ -3093,6 +3273,8 @@ Hierarchy:
                         Id: 024b015a-7950-4a0e-b7fc-e461088fbad0
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: a6e82ec9-2f42-4510-84e1-4d971d89e508
                         CanSleep: false
@@ -3123,6 +3305,8 @@ Hierarchy:
                         Id: 243b3fc0-1901-43cd-8980-b57b59e4c10a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d100b0ae-ca4b-439b-9b77-29b6bbb20249
                         CanSleep: false
@@ -3153,6 +3337,8 @@ Hierarchy:
                         Id: a27dcad5-5df7-43df-bcd0-4049a736c148
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ea84e9c9-3be5-4b06-a79b-8a599f51579c
                         CanSleep: false
@@ -3184,6 +3370,8 @@ Hierarchy:
                         Id: a991d118-24a7-490b-b174-56f1643ee0e6
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: b5ee73e7-1ea8-4461-9d6d-affaefa2175e
                         CanSleep: false
@@ -3214,6 +3402,8 @@ Hierarchy:
                         Id: f249b86b-4d89-4976-9740-7d3d01519ae4
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: b9e23913-c38e-4436-ab35-5bf80c710454
                         CanSleep: false
@@ -3244,6 +3434,8 @@ Hierarchy:
                         Id: accc0927-481f-4553-a496-70eed02843c2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f1ac2bb6-58c4-4a42-8a41-f716da95f16c
                         CanSleep: false
@@ -3274,6 +3466,8 @@ Hierarchy:
                         Id: bc21f422-391b-4cea-a1b4-76443aabe483
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 47626057-cbb1-4498-ad62-ae4e8e313074
                         CanSleep: false
@@ -3305,6 +3499,8 @@ Hierarchy:
                         Id: f7b9c116-3ba9-43a6-93a0-43d9bd5b8d0b
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 4829b974-dca3-4b5e-b90b-2631c3913c9e
                         CanSleep: false
@@ -3336,6 +3532,8 @@ Hierarchy:
                         Id: a1e9d804-41a7-471b-9b43-5cf98aca2a14
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ba64578c-2d59-49f2-a7d6-ab4857dd32db
                         CanSleep: false
@@ -3366,6 +3564,8 @@ Hierarchy:
                         Id: db337e19-baa7-4259-9a43-17277a558ef2
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4d5e5ffe-7e2a-4303-b265-ed34cf1fce5a
                         CanSleep: false
@@ -3396,6 +3596,8 @@ Hierarchy:
                         Id: 443efbe7-4593-45e3-889a-add68cf3af13
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: aab52fbc-4f43-457b-97ad-1acc8483f1c5
                         CanSleep: false
@@ -3426,6 +3628,8 @@ Hierarchy:
                         Id: 2568c987-d814-45cf-9e25-a5d696bb1acc
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 4192ea59-9cea-4b24-8396-6adec5abbd7d
                         CanSleep: false
@@ -3456,6 +3660,8 @@ Hierarchy:
                         Id: 74d627ae-b46b-4df1-afb0-553ebeb03358
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8731c98b-4979-4208-b55b-59e9d7d2e24e
                         CanSleep: false
@@ -3472,7 +3678,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 30fb1d44-de39-4952-9564-facdaa3fbb6c
-        -   Folder: Lights
+        -   Folder: Environment/Lights
             Entity:
                 Id: 7449c2da-618d-452f-8a47-259dc253560e
                 Name: Ambient light
@@ -3489,7 +3695,8 @@ Hierarchy:
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
                         Intensity: 0.1
-        -   Entity:
+        -   Folder: THE GREAT PAPYRUS
+            Entity:
                 Id: 74f5fde4-c70d-4d62-9068-8e9eb3b4a738
                 Name: squareWater
                 Components:
@@ -3503,6 +3710,8 @@ Hierarchy:
                         Id: 879aeb4b-ab89-4386-a51a-e952d19e3302
                         Model: 07abc919-8fc3-440b-92db-c7838b5c3575:0Rapporter_Assets/Environment Assets/OtherAssets/squareWater
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     d8ef78b34ffd1c530d6140347b6f6d84: !StaticColliderComponent
                         Id: 383859e6-ac28-47d1-a750-a51471cc409c
                         CanSleep: false
@@ -3516,7 +3725,7 @@ Hierarchy:
                             978a67d6bc7963078dbba1ef415d4c3f: !ColliderShapeAssetDesc
                                 Shape: 165ba907-7a41-4728-a049-cb8ffa3ff1fc:0Rapporter_Assets/Environment Assets/OtherAssets/SquareWater Collider
             Base:
-                BasePartAsset: 93ff1659-78d9-4bc2-821e-b4ad9b9ad47a:0Rapporter_Assets/Scenes/squareWater
+                BasePartAsset: 93ff1659-78d9-4bc2-821e-b4ad9b9ad47a:0Rapporter_Assets/Environment Assets/OtherAssets/squareWater Prefab
                 BasePartId: 4022d25e-a43b-42cb-8da6-f8d47dbf9d58
                 InstanceId: b336c4b9-3121-4e4c-90d1-22f1577a09fa
         -   Entity:
@@ -3533,6 +3742,8 @@ Hierarchy:
                         Id: a97b8d5c-2c72-44a6-90f7-a59dd6609f80
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 95aa8a17-1b69-44cc-a523-2f7c722ca8fb
                         CanSleep: false
@@ -3563,6 +3774,8 @@ Hierarchy:
                         Id: e39b2a9a-d187-4964-813a-76cecacc354e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6d582470-4340-421c-ab7b-3fb9be9cd616
                         CanSleep: false
@@ -3594,6 +3807,8 @@ Hierarchy:
                         Id: b38f4bfa-c745-42f1-87d1-afcf5dbe2bf5
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 87d62e37-e3e3-4a0f-b1cb-07dff9722c52
                         CanSleep: false
@@ -3624,6 +3839,8 @@ Hierarchy:
                         Id: be3e033e-d9a1-4094-b478-9a8d1c6be5c9
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 95019852-c8eb-4a96-850d-725fc39254d4
                         CanSleep: false
@@ -3640,7 +3857,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 5aa46bfd-70f4-4f96-ba25-58181febe205
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 7687b8d9-95c7-472c-8596-0a894b75d6db
                 Name: tree2_flattop Prefab
@@ -3666,6 +3883,8 @@ Hierarchy:
                         Id: 1938a66f-2fef-44a1-8248-e662989a7a38
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 27ec9c58-3bf8-4bf0-b138-0a0cf7e43d4e
                         CanSleep: false
@@ -3696,6 +3915,8 @@ Hierarchy:
                         Id: 78684935-d386-45a3-9a3f-88182cc64652
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e25965b0-6e20-43c7-9f07-42051b53185a
                         CanSleep: false
@@ -3727,6 +3948,8 @@ Hierarchy:
                         Id: 8c0d136b-fa2a-4e07-92d5-0ef82c362d21
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 7fa9cd86-bed6-4cc3-8e0b-bd00143575bd
                         CanSleep: false
@@ -3757,6 +3980,8 @@ Hierarchy:
                         Id: 86c45acf-bef9-40e1-87d4-5894025d70aa
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 24d4a98d-2d67-4c3b-85a0-94e8a9d8f90f
                         CanSleep: false
@@ -3773,7 +3998,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 748efebb-debe-4454-887a-ec701b0efe60
-        -   Entity:
+        -   Folder: Environment/Forest Details
+            Entity:
                 Id: 7c55839d-c943-4e44-bb7b-f72c457563a9
                 Name: Forest Details, Updated 3-3
                 Components:
@@ -3787,6 +4013,8 @@ Hierarchy:
                         Id: bec09092-fc8a-46f8-9463-b36a21bc33b8
                         Model: f01a0b27-3971-44bc-80f2-af920c242a2c:0Rapporter_Assets/3_3_17/Forest Details, Updated 3-3
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
         -   Entity:
                 Id: 7c6b2d19-f8f3-4348-9afe-937240788f24
                 Name: Tree1
@@ -3801,6 +4029,8 @@ Hierarchy:
                         Id: 953558a1-21bd-4a75-a63c-517582529585
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 33d7f2bd-d4e5-4546-b5c5-0d5ce55074f2
                         CanSleep: false
@@ -3831,6 +4061,8 @@ Hierarchy:
                         Id: a3daf296-f292-48ba-9d69-1c1cbb93584d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 7fc65df9-8df6-4d45-a39b-4fa0c40cf8bc
                         CanSleep: false
@@ -3862,6 +4094,8 @@ Hierarchy:
                         Id: d4ff1369-acf7-4f47-9ca7-1d5433b19cc3
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: db892034-d20d-4035-8d22-cda59bcb3ae0
                         CanSleep: false
@@ -3893,6 +4127,8 @@ Hierarchy:
                         Id: 5f2afa42-6507-4793-991d-d4605625fbf4
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ec604639-021d-4bba-8407-ad619cf980ae
                         CanSleep: false
@@ -3924,6 +4160,8 @@ Hierarchy:
                         Id: f2c975a4-59b9-410d-99f7-86d23e7cc5fb
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 5c608c02-e853-454b-a153-04a93262555d
                         CanSleep: false
@@ -3954,6 +4192,8 @@ Hierarchy:
                         Id: 8acf0f6c-c61c-4cdc-bd3a-f40af7783d14
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d47e4872-6d32-4a00-8606-9132d28cbef6
                         CanSleep: false
@@ -3985,6 +4225,8 @@ Hierarchy:
                         Id: 6fae49fe-4728-4924-bda4-039dfde47554
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ea0564b1-44a9-43fa-989b-f0e6f1ed2928
                         CanSleep: false
@@ -4015,6 +4257,8 @@ Hierarchy:
                         Id: a6e7b584-8b10-4d28-95c0-bac2683299c4
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 66755a3e-b968-4b08-9e47-ffbf0bf97e9e
                         CanSleep: false
@@ -4045,6 +4289,8 @@ Hierarchy:
                         Id: 9ab06a05-1066-4c17-8af4-6be3067486c0
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6364c9d3-ecf6-4b38-8cce-9caf9666541a
                         CanSleep: false
@@ -4075,6 +4321,8 @@ Hierarchy:
                         Id: 80917873-cbc2-4683-a609-ef88262c1358
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 50af9ab2-0021-41a0-8b5a-649a043c4b28
                         CanSleep: false
@@ -4105,6 +4353,8 @@ Hierarchy:
                         Id: c67727f0-421d-4a43-b5aa-e2a3dac0e991
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 49b4f665-930c-4cae-af61-e37db3873965
                         CanSleep: false
@@ -4136,6 +4386,8 @@ Hierarchy:
                         Id: 68dd5e81-8277-49fe-b891-a56654509887
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 25efc775-7c4d-4676-9f10-4744bc511943
                         CanSleep: false
@@ -4167,6 +4419,8 @@ Hierarchy:
                         Id: 2595f3ed-8f89-49a5-992e-cd1061eef1ca
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 4695b5a3-b02f-4ebe-af93-6ad06f7403f1
                         CanSleep: false
@@ -4197,6 +4451,8 @@ Hierarchy:
                         Id: 7155bf42-bc0b-451a-934c-08dc8bdf8e0c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: c3ca74f2-6fb3-4a9e-8423-ae26ece1ebe4
                         CanSleep: false
@@ -4227,6 +4483,8 @@ Hierarchy:
                         Id: 487907ea-705f-4723-8498-1f2662b3b193
                         Model: 2c5251a2-c49f-4d8e-b7ce-656614c91753:0Rapporter_Assets/Environment Assets/Bush1_2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     43cc93a9fa050cb99a7343a3c749eaff: !StaticColliderComponent
                         Id: ba630f19-e983-4025-9690-01e4ce143c3b
                         CanSleep: false
@@ -4257,6 +4515,8 @@ Hierarchy:
                         Id: 1f9dde94-a448-4bb0-a9b1-2687a849b39d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 559158c0-c254-4970-b404-0f3c6aaa568e
                         CanSleep: false
@@ -4287,6 +4547,8 @@ Hierarchy:
                         Id: 5b36594a-4888-40cc-b8c1-4a3a20aceef9
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 44f4e1cb-436d-4401-a7dc-1bd5161b1f18
                         CanSleep: false
@@ -4317,6 +4579,8 @@ Hierarchy:
                         Id: 9197e70e-95aa-41d4-bb68-800d4b7867f7
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: da4b4b61-4d83-4f87-9e73-329e3f95b1c5
                         CanSleep: false
@@ -4348,6 +4612,8 @@ Hierarchy:
                         Id: dbec3e86-3c14-42d0-b34b-b3e2ef48e27d
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 36b6bb4f-30a3-47a0-84d7-731f7dcd0e5a
                         CanSleep: false
@@ -4378,6 +4644,8 @@ Hierarchy:
                         Id: 0a96d5ed-82f3-4445-b708-4535737f0812
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 51958eca-45ae-42fb-8692-80f25bc0de3f
                         CanSleep: false
@@ -4408,6 +4676,8 @@ Hierarchy:
                         Id: 2b7505e8-763c-4146-8d18-64df40ad2031
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8e8b5a56-dd9a-4939-abfb-4c6c1a86889c
                         CanSleep: false
@@ -4438,6 +4708,8 @@ Hierarchy:
                         Id: 719c73e2-aeec-4c50-af6b-6d4a7a224778
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: c7ad93a6-fdf4-4836-a2d0-afd548d948e9
                         CanSleep: false
@@ -4454,7 +4726,8 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 3cf64de8-b9f5-435a-9e93-5bafd9512d43
-        -   Entity:
+        -   Folder: Environment
+            Entity:
                 Id: 923dc50b-5380-4194-a9cf-b8f2a66109fa
                 Name: Town House2
                 Components:
@@ -4468,6 +4741,8 @@ Hierarchy:
                         Id: 082d5f2b-9b5b-4f79-9d22-27991fd53dbe
                         Model: 1c190784-69b1-423d-b59a-8b09c409b255:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     f8a9685ffaaad0a22f5a67ebdd80b087: !StaticColliderComponent
                         Id: 122573ea-a466-4dd3-85b3-2fa58e108680
                         CanSleep: false
@@ -4523,6 +4798,8 @@ Hierarchy:
                         Id: f3103332-ed8a-403a-9802-4351aea6e7a8
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 431ba297-ab8a-4d47-95eb-aa6e90318e41
                         CanSleep: false
@@ -4553,6 +4830,8 @@ Hierarchy:
                         Id: 2cb7fb09-6913-42cf-b69e-b4bf87bad8e9
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: d648be1f-1fec-4220-96c4-7af67e776266
                         CanSleep: false
@@ -4583,6 +4862,8 @@ Hierarchy:
                         Id: 90c7d2be-6a57-4513-b73f-f1f301936462
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6c82a2c4-3c70-4073-94de-7ec4eea7e796
                         CanSleep: false
@@ -4613,6 +4894,8 @@ Hierarchy:
                         Id: 15319e43-1b60-4352-9b61-4b0c5038a628
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 6847fcda-ca9d-44d3-83f0-4c818b1b297b
                         CanSleep: false
@@ -4629,7 +4912,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8ebebb69-1c22-48e1-b92c-3cab4cfe79c5
-        -   Entity:
+        -   Folder: Environment/Forest Details
+            Entity:
                 Id: 9592f747-3fb8-4f0b-a0be-c62c5251110a
                 Name: Mushroom
                 Components:
@@ -4643,8 +4927,10 @@ Hierarchy:
                         Id: c16e096c-75b7-4deb-b1d8-9cb85d676462
                         Model: 426a97f7-52df-4038-90f6-8eb01f779e37:0Rapporter_Assets/Environment Assets/OtherAssets/Mushroom
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
             Base:
-                BasePartAsset: 6058e329-6ccd-4d7e-a8c7-41568da2bbf3:0Rapporter_Assets/Scenes/Mushroom
+                BasePartAsset: 6058e329-6ccd-4d7e-a8c7-41568da2bbf3:0Rapporter_Assets/Environment Assets/OtherAssets/Mushroom prefab
                 BasePartId: dab7618a-98a6-4068-8c8b-fa495cc79b68
                 InstanceId: ca23fcd9-ff10-47db-9047-83cb2912e92e
         -   Entity:
@@ -4661,6 +4947,8 @@ Hierarchy:
                         Id: aa2e4e6e-8147-4a38-8a46-b9bb1ad0cd7b
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ad3c950f-42c3-4c4f-8693-ad4374d6f6fd
                         CanSleep: false
@@ -4692,6 +4980,8 @@ Hierarchy:
                         Id: a104843d-2d5a-4097-bae2-4c61ddc5f230
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 88317316-dced-46ce-b90a-28851aa44591
                         CanSleep: false
@@ -4722,6 +5012,8 @@ Hierarchy:
                         Id: 729a6845-2098-46d1-896b-0c2740280adc
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 51517c81-9511-446d-9646-6255c8f036d7
                         CanSleep: false
@@ -4752,6 +5044,8 @@ Hierarchy:
                         Id: d7703845-10ba-4b64-a927-7268714c899a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f13f1ab8-d47d-4051-9082-36ba749a4aff
                         CanSleep: false
@@ -4782,6 +5076,8 @@ Hierarchy:
                         Id: cabfd320-1d57-4eb0-af1d-47d815c69023
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 00d986a8-1c09-43a5-8c47-da388d6e0ea6
                         CanSleep: false
@@ -4813,6 +5109,8 @@ Hierarchy:
                         Id: 67367277-362f-410b-a961-cad192412dcd
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 70836fd3-17dc-4731-b303-44b2107d628c
                         CanSleep: false
@@ -4843,6 +5141,8 @@ Hierarchy:
                         Id: 80b8861e-eeec-423d-9fd9-ba53ea03dbfe
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 39ec935b-1175-4da1-a914-eb3c5be79432
                         CanSleep: false
@@ -4874,6 +5174,8 @@ Hierarchy:
                         Id: 6c4ca4ac-2dd6-47fc-93f2-eb3026d6ad17
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 828d71f5-30c2-43f3-833a-e909bb5b3a2c
                         CanSleep: false
@@ -4904,6 +5206,8 @@ Hierarchy:
                         Id: bdc376f5-53e9-4d1d-8b0e-8d03bfbfb139
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 788765aa-d107-41d3-98b5-69aeb789e00a
                         CanSleep: false
@@ -4934,6 +5238,8 @@ Hierarchy:
                         Id: fda197f1-c065-426e-be1f-8d999680ada7
                         Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
                         Id: 076e385f-df4d-4dbd-8a33-21c3bb619841
                         CanSleep: false
@@ -4966,6 +5272,8 @@ Hierarchy:
                         Id: f0c76073-f502-42ae-a3b5-760ecd6eb332
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 69cf49d8-0c86-40c1-87d2-57cb840062de
                         CanSleep: false
@@ -4997,6 +5305,8 @@ Hierarchy:
                         Id: 3c5969e6-b23e-44de-9dfe-d331f3cd34fc
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: cd0b1e8b-6f54-433c-aaa4-0699748812f5
                         CanSleep: false
@@ -5027,6 +5337,8 @@ Hierarchy:
                         Id: 03364b98-0814-472f-86ac-a18ea5db2ba3
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: dbef2e08-0d5c-4a76-9b42-5e8c35a371e7
                         CanSleep: false
@@ -5057,6 +5369,8 @@ Hierarchy:
                         Id: 23749734-f996-42f8-876a-4d54e35d359e
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: a4ba3d4a-050e-41e3-be21-15b7b6fb3bdc
                         CanSleep: false
@@ -5087,6 +5401,8 @@ Hierarchy:
                         Id: ab0f7f07-0af3-4743-ad77-7a3e930c87bc
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 48d39e4c-b2ea-4d60-a649-7215d1e3da22
                         CanSleep: false
@@ -5103,7 +5419,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 97782813-df3c-4354-9482-edbb665d1f97
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 9ed5b247-0b1f-4022-a2ba-a52ea8c7e3a6
                 Name: tree2_flattop Prefab
@@ -5115,7 +5431,8 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             a371f2ebe0165bf562316347b2a13568: 99f3396b-a918-4a3f-a60a-70d598d92803/391531ee-091c-4a03-9e19-69f531205b46
-        -   Entity:
+        -   Folder: Environment
+            Entity:
                 Id: 9f48d668-3c89-4bfc-80f0-18ccbd87063e
                 Name: GridBase10x10
                 Components:
@@ -5130,6 +5447,8 @@ Hierarchy:
                         Model: c66c23e1-94e7-4fbc-85f9-1188a26f1968:Models/GridBase10x10
                         Materials:
                             856f42b3bdc12ea3cf067cdff22a1c7c~0: 0c3cdea6-8366-4889-b23a-c9042fb58ebe:0Rapporter_Assets/Environment Assets/Grass2
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     30d6050e0245da902285c0b33d8f696b: !StaticColliderComponent
                         Id: 84690d83-deda-406f-ab2b-105fe81d6e95
                         CanSleep: false
@@ -5159,6 +5478,8 @@ Hierarchy:
                         Id: 30746219-bef0-4bb2-8bd2-f6fac555f0ee
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 20b60aa8-ce2c-45cd-be4c-4528a4d3baea
                         CanSleep: false
@@ -5189,6 +5510,8 @@ Hierarchy:
                         Id: d2338996-ad03-4bfb-9a9a-7c935178da51
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: bbffd8ec-5684-450d-ba4d-cfce8962d145
                         CanSleep: false
@@ -5219,6 +5542,8 @@ Hierarchy:
                         Id: 21e54c22-9351-4cc7-9a89-4ffafb060789
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 58dbb2a7-2c7b-49f1-a58e-726be5e3a106
                         CanSleep: false
@@ -5249,6 +5574,8 @@ Hierarchy:
                         Id: a7b51862-4871-45a5-b829-939befd90e95
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e1c375e5-7658-42a6-abbd-1998ee2c798f
                         CanSleep: false
@@ -5282,6 +5609,7 @@ Hierarchy:
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
+                        FarClipPlane: 250.0
                     2eb2688001c3198386a7f98e83551672: !RapporterV2.FpsCamera,RapporterV2.Game
                         Id: ca405849-d93e-45e7-ac87-6e40ddacbcf4
                         RotationSpeed: 2.355
@@ -5300,6 +5628,8 @@ Hierarchy:
                         Id: ffe10309-1ca9-4bf1-8f84-7cd2b94ce5be
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 156a44b9-6094-49b6-bd6c-e940f659946e
                         CanSleep: false
@@ -5330,6 +5660,8 @@ Hierarchy:
                         Id: cc349fcb-f5b8-42d8-8d41-b3ccd9f60c14
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 1a350055-8045-439c-a7ee-172cabc0249f
                         CanSleep: false
@@ -5360,6 +5692,8 @@ Hierarchy:
                         Id: 6f01d891-91c7-4b41-a05d-56dcf69bd3a6
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 1d017a05-7c16-4938-aba9-b297ded23b42
                         CanSleep: false
@@ -5390,6 +5724,8 @@ Hierarchy:
                         Id: dbaef828-2020-43fb-bdbf-e799629910af
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 7be7fed7-eb3b-4b5c-8956-7951aef15dce
                         CanSleep: false
@@ -5420,6 +5756,8 @@ Hierarchy:
                         Id: 8e96932d-6e87-400f-9d13-bab7a287ff45
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 2a2574dd-af5a-4333-bdeb-be19fbf0058c
                         CanSleep: false
@@ -5450,6 +5788,8 @@ Hierarchy:
                         Id: a167bf20-f96b-44c3-8a8e-4f6c68a9305d
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: dc23a143-4163-40e3-90af-c5041da54f65
                         CanSleep: false
@@ -5480,6 +5820,8 @@ Hierarchy:
                         Id: af7110df-370a-4bf8-b9c6-486e61c24c1e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 734dbfe6-d2f1-4d3d-b278-d685283dfc26
                         CanSleep: false
@@ -5496,7 +5838,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: e3950d76-f34e-4fcd-ab02-86234740821b
-        -   Entity:
+        -   Folder: THE GREAT PAPYRUS
+            Entity:
                 Id: ab344601-0807-4702-85ad-b93a4cb29df4
                 Name: Circle Water - Animated
                 Components:
@@ -5510,6 +5853,8 @@ Hierarchy:
                         Id: 5f5f6a4f-7e59-4f43-af34-f121ae762654
                         Model: 4df8cdfb-8bf5-42ab-bbb6-0ba23d3f6b72:0Rapporter_Assets/Environment Assets/OtherAssets/Circle Water - Animated
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     a21077db3a443bfcc049968053900763: !StaticColliderComponent
                         Id: 1b4b8eb3-ec0a-455b-818b-ace548c51369
                         CanSleep: false
@@ -5523,12 +5868,12 @@ Hierarchy:
                             42364c2217b36d740e725c5d8f54ee9e: !ColliderShapeAssetDesc
                                 Shape: e71b61d1-d9c9-4e59-9065-c9b1feadd2e2:0Rapporter_Assets/Environment Assets/OtherAssets/circleWater collider
             Base:
-                BasePartAsset: 3cfdee6d-fde2-4005-a155-de38dbe7876c:0Rapporter_Assets/Scenes/Circle Water - Animated
+                BasePartAsset: 3cfdee6d-fde2-4005-a155-de38dbe7876c:0Rapporter_Assets/Environment Assets/OtherAssets/Circle Water prefab
                 BasePartId: 4ac4bbb3-d93c-4367-ad82-e784c1d8c540
                 InstanceId: 4a64180e-5d01-41f7-872f-735cd86a0b4c
         -   Entity:
                 Id: abf0e468-d54f-4237-92b7-c852eb55dc19
-                Name: Demonic Deer - With Crystals
+                Name: Demonic Deer
                 Components:
                     748770b1846d64b136c67b68c1ae9f89: !TransformComponent
                         Id: 7dc6ed28-6798-4fad-a096-1aaf762a91d5
@@ -5540,6 +5885,8 @@ Hierarchy:
                         Id: e8b8cea4-b3bf-4e0e-a8b6-d44b587ce06e
                         Model: c8ec99d9-9f41-43dd-9cf4-acbaedea9eaf:0Rapporter_Assets/Bosses/Demonic Deer - With Crystals
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     3606b5ddd27e751e912b7f2f8f785a87: !RigidbodyComponent
                         Id: 68515022-d0c5-4ccb-9394-4c5508319888
                         CanSleep: false
@@ -5577,6 +5924,8 @@ Hierarchy:
                         Id: e4677f47-8d61-4b6d-9766-a05789e31265
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 5730f87a-e539-4c84-b92f-aad4db84763e
                         CanSleep: false
@@ -5593,7 +5942,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 576d7caa-21d0-4aef-bb2a-4880d6356810
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: ac68f334-e16c-443e-b688-8ced7cd7c9f0
                 Name: tree2_flattop Prefab
@@ -5620,6 +5969,8 @@ Hierarchy:
                         Id: 2f522e22-7401-415c-b5da-db883fa3d892
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 9513add0-7583-4346-a6cd-d1c178f17fc0
                         CanSleep: false
@@ -5650,6 +6001,8 @@ Hierarchy:
                         Id: c250d4c5-f92f-478c-bf85-8e919a59537b
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 3db89a62-bcd8-42be-a26c-80341eb43469
                         CanSleep: false
@@ -5680,6 +6033,8 @@ Hierarchy:
                         Id: 5935efd6-5239-4405-a1e0-4c1537316c44
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 629c794e-e57d-4949-b239-c9a81fa17f19
                         CanSleep: false
@@ -5710,6 +6065,8 @@ Hierarchy:
                         Id: f4a93657-d27b-4b81-bd14-00309dadc30e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 1517b98c-4f24-4718-a48c-3031ebe9f048
                         CanSleep: false
@@ -5726,7 +6083,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: f2c05e85-7dfa-4568-a1a3-9e5d770ba525
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: b059fbbc-803b-4b2c-88d7-256a04f0a588
                 Name: Tree2 Prefab
@@ -5752,6 +6109,8 @@ Hierarchy:
                         Id: c4ed2926-3713-4211-a044-cab9dbd60a48
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ab56af79-dabb-45ee-b351-cd7cbfc0945c
                         CanSleep: false
@@ -5782,6 +6141,8 @@ Hierarchy:
                         Id: 7cc577f1-6340-4aed-8124-fe2965f6e19f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 37246b8e-310d-4904-acf7-0a9123bc8d6c
                         CanSleep: false
@@ -5798,7 +6159,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 036792f5-fc90-4e48-82fa-7df3a9e687c1
-        -   Folder: Lights
+        -   Folder: Environment/Lights
             Entity:
                 Id: b2cf1b01-e35a-4647-9a33-3576cbe499ca
                 Name: Directional light
@@ -5837,6 +6198,8 @@ Hierarchy:
                         Id: 0eebafe6-b5df-420b-891e-277a48fdd03b
                         Model: 1ba31899-5183-4e6c-bce7-d5672b98389e:0Rapporter_Assets/Environment Assets/Tree2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     a6d1ff5f3764443e68a68ffec2a95e9a: !StaticColliderComponent
                         Id: b1d25fd2-8f67-4abf-bcf2-0164ee281067
                         CanSleep: false
@@ -5867,6 +6230,8 @@ Hierarchy:
                         Id: be6a05d1-27a0-4942-a205-f185cdd1a773
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 5abafef3-d757-47a4-8435-82bf0df96fb5
                         CanSleep: false
@@ -5898,6 +6263,8 @@ Hierarchy:
                         Id: 7368cf51-5d0c-4c27-bf4e-b29150649be6
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 60d05bf4-b210-4693-a439-66320f2ee095
                         CanSleep: false
@@ -5928,6 +6295,8 @@ Hierarchy:
                         Id: bcc7efa0-0626-47d6-8765-47f5eecff248
                         Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
                         Id: 9babf0d4-7363-484b-832b-d3e6eb1ef683
                         CanSleep: false
@@ -5960,6 +6329,8 @@ Hierarchy:
                         Id: ece9bc85-8ef3-4eb6-8e3a-02538ebee8b9
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f84508b5-3903-4f71-9a44-25f041329ef9
                         CanSleep: false
@@ -5990,6 +6361,8 @@ Hierarchy:
                         Id: 2bd8f141-35ba-445a-8a1f-ef1607668ef0
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 999969c9-575d-4116-9588-5074579ed37e
                         CanSleep: false
@@ -6020,6 +6393,8 @@ Hierarchy:
                         Id: d0a98fae-cf85-4147-8342-8188e7494e0e
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f9e1c7cd-0d2e-4314-a051-764fbc5ae242
                         CanSleep: false
@@ -6050,6 +6425,8 @@ Hierarchy:
                         Id: 72e65110-9341-45fe-b6dd-e9b17f4f3b22
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 73191b54-1bb6-4e33-8008-9af2cdc4f4c1
                         CanSleep: false
@@ -6080,6 +6457,8 @@ Hierarchy:
                         Id: f6d78b50-682a-4132-b223-a8afbb86b768
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8b411148-2edb-412f-b927-01f60a47361f
                         CanSleep: false
@@ -6110,6 +6489,8 @@ Hierarchy:
                         Id: 0e4457c8-5501-439b-84c6-53cabbefc398
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 84620606-a1ed-453d-b344-677bcc958fd4
                         CanSleep: false
@@ -6140,6 +6521,8 @@ Hierarchy:
                         Id: 81701fb4-c946-4339-bc2d-a3b86a26724a
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: a8052ef6-b0e9-4725-be84-ce9409c5c32e
                         CanSleep: false
@@ -6170,6 +6553,8 @@ Hierarchy:
                         Id: c8f53cab-c846-4343-9213-9741b33ecdc9
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 5ef1ecd6-d0fe-4ae5-8a39-728d2eb18d84
                         CanSleep: false
@@ -6200,6 +6585,8 @@ Hierarchy:
                         Id: e5bb3737-d31f-4ad6-90c0-9b3182d52efd
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9fa1e6d9-2e9c-4753-9adc-b8d4364cd1e1
                         CanSleep: false
@@ -6230,6 +6617,8 @@ Hierarchy:
                         Id: 8951f9ea-f221-478f-ab83-1d3e9b3ac62c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e8ca95b4-7ed9-4371-add1-2f5066cab6e5
                         CanSleep: false
@@ -6246,7 +6635,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: fbabd3ac-675d-490f-93bd-62a6fc523904
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: c091cc5e-59f9-48bf-a45e-d9f6dfac4619
                 Name: Forest Trees
@@ -6306,6 +6695,8 @@ Hierarchy:
                         Id: b2361924-a45a-41e8-bd52-241ebcf7a268
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: f937b4f5-9de5-44dc-b07e-a3123c84cf97
                         CanSleep: false
@@ -6336,6 +6727,8 @@ Hierarchy:
                         Id: 25819ca2-495f-4953-9557-41308fb438a7
                         Model: 94f04733-a711-4c94-8d13-1cf6913573ea:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1_animated
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
             Base:
                 BasePartAsset: 45b798bb-875c-40ed-874a-3c65e4c492a4:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1 prefab
                 BasePartId: bec623bc-513f-45ac-8e16-2a46cf14a8e9
@@ -6354,6 +6747,8 @@ Hierarchy:
                         Id: d69f6ac4-da6a-4928-a83f-0fe14857f97c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: cd4258bd-7f89-4e61-891f-b21e721fa09d
                         CanSleep: false
@@ -6385,6 +6780,8 @@ Hierarchy:
                         Id: c1ada964-b506-45f6-8f92-e62df1761c97
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 0c8f2ce7-36b5-4251-98a2-883cf1b37161
                         CanSleep: false
@@ -6415,6 +6812,8 @@ Hierarchy:
                         Id: 88a09487-15f4-422f-8335-aa6073ba535d
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 679a7c52-ae56-4492-a619-d7682ef5ce85
                         CanSleep: false
@@ -6445,6 +6844,8 @@ Hierarchy:
                         Id: 0f086a1a-2c10-4592-af21-d5eb7ae50bbc
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: fab98669-ff72-48af-bea4-bdf0d31e740a
                         CanSleep: false
@@ -6475,6 +6876,8 @@ Hierarchy:
                         Id: ff3521fe-046e-4099-abee-a0237edac906
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 28347eb5-1225-48fa-911b-03394895baa5
                         CanSleep: false
@@ -6506,6 +6909,8 @@ Hierarchy:
                         Id: 8e60d48e-c9f2-4f4a-8994-b148aeda9aa6
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 75c23f79-d241-4c53-ab65-03fb16ab06e2
                         CanSleep: false
@@ -6536,6 +6941,8 @@ Hierarchy:
                         Id: 4e8f23aa-5afd-43d8-bac3-36a6991bb95c
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 51733afb-352a-4ec2-b039-c6e9c6221469
                         CanSleep: false
@@ -6552,7 +6959,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 407a9cd1-d66a-4f6f-a4a7-ef145e603212
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: c8ff3c6b-90cb-4362-8157-dd303a9938d1
                 Name: tree2_flattop
@@ -6567,6 +6974,8 @@ Hierarchy:
                         Id: e546e967-5587-4fc6-ba65-0c0e87a17092
                         Model: 6cdc52e7-1d81-4972-bdaa-bedd258a7463:0Rapporter_Assets/Environment Assets/Trees/tree2_flattop
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     7d1cf857c9790bdb0f187bd64f981f1f: !StaticColliderComponent
                         Id: 8e48e410-e7f5-4d4a-ab1c-7e02b4d3593a
                         CanSleep: false
@@ -6599,6 +7008,8 @@ Hierarchy:
                         Id: ba71451e-be4c-466a-814d-cdc31033ac3d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 72784f42-069e-4d13-b4cc-87c455f679c5
                         CanSleep: false
@@ -6629,6 +7040,8 @@ Hierarchy:
                         Id: 01f5e531-31ac-471e-b0b0-d4d9a604a188
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 0d0bd3d8-d0e4-44b0-af80-0356407921b2
                         CanSleep: false
@@ -6660,6 +7073,8 @@ Hierarchy:
                         Id: 349e2015-06b9-404e-9ae1-5b1b443e0d99
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 1fc53d14-35e8-465f-8f53-4b13deb19611
                         CanSleep: false
@@ -6690,6 +7105,8 @@ Hierarchy:
                         Id: e0934de5-160f-4a41-921d-f80ca2e77dd5
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e7fc2ccd-f0be-464a-98cd-90ae20d56f3c
                         CanSleep: false
@@ -6720,6 +7137,8 @@ Hierarchy:
                         Id: 7d73b246-6a1c-49f2-98b8-b0ec346bc694
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8711af6a-9ad0-4203-a213-c78d4ebcd4c0
                         CanSleep: false
@@ -6750,6 +7169,8 @@ Hierarchy:
                         Id: 80f08d46-ac63-4b12-8842-832c775fcffd
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: ec9ef0d8-c20b-4cc5-a035-a318f86d513a
                         CanSleep: false
@@ -6784,7 +7205,8 @@ Hierarchy:
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                     d9abb95ac6971c20fc44c0298eea5b14: !RapporterV2.Player.ScrollText,RapporterV2.Game
                         Id: 7416567f-3ae1-4af7-a54d-005e45032756
-        -   Entity:
+        -   Folder: Environment/Forest Details
+            Entity:
                 Id: ce285550-3174-4116-9439-0fc69462a4ec
                 Name: Bush1_2
                 Components:
@@ -6798,6 +7220,8 @@ Hierarchy:
                         Id: 9e6f5e32-ed52-4738-bfd7-1f3542b640d1
                         Model: 2c5251a2-c49f-4d8e-b7ce-656614c91753:0Rapporter_Assets/Environment Assets/Bush1_2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     43cc93a9fa050cb99a7343a3c749eaff: !StaticColliderComponent
                         Id: 1bc8ff84-5f02-4f3b-ac93-e6fb4dabba57
                         CanSleep: false
@@ -6828,6 +7252,8 @@ Hierarchy:
                         Id: 61596b15-39f6-4dca-b010-41ea6b361c44
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 05370c09-6d1e-44e0-b39f-d67fd890a543
                         CanSleep: false
@@ -6858,6 +7284,8 @@ Hierarchy:
                         Id: 96e8a925-bfbb-4228-95d3-d5918af6b32d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 06d2734a-6890-4da8-9b60-89035a704d27
                         CanSleep: false
@@ -6889,6 +7317,8 @@ Hierarchy:
                         Id: e47be24c-e870-4a55-b238-501fde3e1c32
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: c7b5968d-3851-4c28-94c0-06df072927d5
                         CanSleep: false
@@ -6920,6 +7350,8 @@ Hierarchy:
                         Id: 7661e069-42a8-4e18-b17e-49dbe6a464e6
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 6a5eb263-97cf-47bc-9b09-736b4a29d418
                         CanSleep: false
@@ -6950,6 +7382,8 @@ Hierarchy:
                         Id: 8cb65831-0316-46b3-8cad-da2c29acfae5
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 88c9e7c1-d600-4928-956e-5f175e9b34c1
                         CanSleep: false
@@ -6966,7 +7400,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 6b71acee-6cb1-48e2-9084-f3e37372ee5f
-        -   Entity:
+        -   Folder: Environment
+            Entity:
                 Id: d18bc381-fb86-495f-8727-f336a8bfdf65
                 Name: Town House
                 Components:
@@ -6980,6 +7415,8 @@ Hierarchy:
                         Id: 34b39fe3-1469-4ab7-bd9f-95a967856dee
                         Model: 2d0a3e34-68d7-4e28-80db-e56fb6d33203:0Rapporter_Assets/Environment Assets/OtherAssets/Town House
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     1feeb07c068bbadbb26f6c543997df87: !StaticColliderComponent
                         Id: 0217ad4e-15de-4fc4-9f4c-d83de241ef0c
                         CanSleep: false
@@ -7010,6 +7447,8 @@ Hierarchy:
                         Id: 3628fb09-8484-4472-8fb7-0a23b1a08344
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 56637f0b-3af3-4969-b00f-61597273b4a6
                         CanSleep: false
@@ -7040,6 +7479,8 @@ Hierarchy:
                         Id: b2e606d8-85f5-463a-a1b7-0899f1aea27d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9c679870-dfee-46e3-b1b6-fa2e3352a69a
                         CanSleep: false
@@ -7070,6 +7511,8 @@ Hierarchy:
                         Id: cb5c12e1-2c9c-401d-afd0-9574af3fd55f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 03cca9f5-f2f5-41f6-9ce1-7aa2314a7216
                         CanSleep: false
@@ -7100,6 +7543,8 @@ Hierarchy:
                         Id: e859c50a-7ed9-4edf-b73e-55ca4ab30dbd
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 48d7ba33-642b-4fdc-8ec1-82a538f922f9
                         CanSleep: false
@@ -7130,6 +7575,8 @@ Hierarchy:
                         Id: c99dbb87-1f20-441c-b898-5db37cb8bc10
                         Model: 2c5251a2-c49f-4d8e-b7ce-656614c91753:0Rapporter_Assets/Environment Assets/Bush1_2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     43cc93a9fa050cb99a7343a3c749eaff: !StaticColliderComponent
                         Id: 1e8f1581-52f4-4d84-8542-c4f783e325f4
                         CanSleep: false
@@ -7161,6 +7608,8 @@ Hierarchy:
                         Id: 1151677c-dc8d-4b31-bc2e-3390b64f2627
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ab247890-d630-4916-bac3-a4bbd456fc90
                         CanSleep: false
@@ -7177,7 +7626,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 8401fdfc-1603-41e8-a13d-510fc93cf1e7
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: d75effcb-f673-4d17-9b58-182b629c0065
                 Name: Tree2 Prefab
@@ -7204,6 +7653,8 @@ Hierarchy:
                         Id: f8adc1f7-dc3d-4e3e-88cb-5e78326c9931
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 7b20b1b7-daa9-4cc0-bb02-ac26f47b9dda
                         CanSleep: false
@@ -7234,6 +7685,8 @@ Hierarchy:
                         Id: e28fb38b-3d3d-4820-a64b-05715387f799
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 440484bf-491a-4f0c-bb72-7bf1580ba150
                         CanSleep: false
@@ -7265,6 +7718,8 @@ Hierarchy:
                         Id: 1268fec2-b5cf-4d7b-8215-66407f254c0a
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 48696b26-9a93-4b44-ab0b-3e5a933d6a53
                         CanSleep: false
@@ -7295,6 +7750,8 @@ Hierarchy:
                         Id: 1087a9ae-534e-4ace-ae90-459520ab9d1d
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 8284a9bd-ee72-4a26-86c9-c604b67a95c2
                         CanSleep: false
@@ -7325,6 +7782,8 @@ Hierarchy:
                         Id: 8918a289-7765-42b8-bf51-02ccf5107c19
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 5ac3f4a2-0439-44ae-8936-84307d4d5a1a
                         CanSleep: false
@@ -7355,6 +7814,8 @@ Hierarchy:
                         Id: f4cca69a-f7e9-454b-be36-364a49bd70a2
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 3e2a6b9f-9ae9-43bb-b67b-6d49022141a0
                         CanSleep: false
@@ -7385,6 +7846,8 @@ Hierarchy:
                         Id: 794e7b48-0f31-45a4-b411-f0877c5740e1
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 9d15d491-ed73-4377-9f10-da69698cf61b
                         CanSleep: false
@@ -7434,6 +7897,8 @@ Hierarchy:
                         Id: a1174c3f-6209-41f1-96ee-4d3574cd3d99
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: e62deac3-b7a1-4104-a8e7-093d083e0e26
                         CanSleep: false
@@ -7464,6 +7929,8 @@ Hierarchy:
                         Id: f756b274-0f38-4a66-93de-d9c8bda7858d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: c6faeaba-27a4-4611-a51a-a17699977dd7
                         CanSleep: false
@@ -7494,6 +7961,8 @@ Hierarchy:
                         Id: d13f29ba-4cb8-42fd-ad08-3df6d362e90a
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 172503cb-8edc-4289-9868-f91ee960990c
                         CanSleep: false
@@ -7510,7 +7979,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 86e78c0b-a2e9-4c0d-b127-4773272074ac
-        -   Folder: FenceFolder
+        -   Folder: Environment/Obstacles/FenceFolder
             Entity:
                 Id: e198d378-4615-4b8a-b8e8-84a016aa7d54
                 Name: EastFence
@@ -7554,6 +8023,8 @@ Hierarchy:
                         Id: dffba33b-1018-475c-83cb-d6eb7ecd8114
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: fd980bee-9421-48be-81d9-e067e4117561
                         CanSleep: false
@@ -7584,6 +8055,8 @@ Hierarchy:
                         Id: 87236c11-c919-4c7f-b7ae-f961b777f6e2
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 40c8773e-9edc-4987-a482-01a4700e45f3
                         CanSleep: false
@@ -7615,6 +8088,8 @@ Hierarchy:
                         Id: 16b7a68a-9a7d-45e4-9630-f5cc9e0f6a66
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: a278d91b-8a09-4427-8371-f6ab4cf69bbd
                         CanSleep: false
@@ -7631,7 +8106,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 17829a43-3abd-40da-b3af-fccc4555fb78
-        -   Folder: Trees
+        -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: e3987bea-5080-4e53-908e-722dcfb059c3
                 Name: Tree2 Prefab
@@ -7657,6 +8132,8 @@ Hierarchy:
                         Id: 52952c23-8b8d-42e0-b859-5664d183c08f
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: f7a11a05-2131-4147-b893-8108ce9ac17f
                         CanSleep: false
@@ -7687,6 +8164,8 @@ Hierarchy:
                         Id: 325e38e8-e8f4-4f68-865c-9eb58bf3b67d
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 5603bdd8-1528-4e5e-bf8e-6e0cd3bc109d
                         CanSleep: false
@@ -7717,6 +8196,8 @@ Hierarchy:
                         Id: bd6581fd-b41e-4c8f-b0d7-5a7252a0b499
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: d1246ef0-93f0-424c-89c5-7c319d198a0c
                         CanSleep: false
@@ -7748,6 +8229,8 @@ Hierarchy:
                         Id: 130591cc-b4bb-4f33-99b2-f9760ad18014
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 0b0ff748-6150-4a6b-9014-5ee45fb5f571
                         CanSleep: false
@@ -7779,6 +8262,8 @@ Hierarchy:
                         Id: 1e57354b-7818-413b-96c0-69fd780cf3ab
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 1c21e19e-1df9-4d87-9527-69f2f70a437a
                         CanSleep: false
@@ -7809,6 +8294,8 @@ Hierarchy:
                         Id: b3f2dd92-c40a-4240-b5ae-31d3e6901414
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 2c79a6c1-c7de-4cd5-8ebe-85494712cc20
                         CanSleep: false
@@ -7840,6 +8327,8 @@ Hierarchy:
                         Id: dc991061-7e07-41c0-80bd-05f81197ee88
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: c804d675-b709-4e75-946f-e683cb7be561
                         CanSleep: false
@@ -7870,6 +8359,8 @@ Hierarchy:
                         Id: 3ce7763e-8a92-40c8-ab81-f563b6a90757
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 8ed7462e-e414-4463-b848-05310275e4b6
                         CanSleep: false
@@ -7900,6 +8391,8 @@ Hierarchy:
                         Id: e890f77f-3065-444f-863e-a6c2a912ce78
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ad16ef3d-d722-4532-9547-7ccbb05d637c
                         CanSleep: false
@@ -7931,6 +8424,8 @@ Hierarchy:
                         Id: b0379b90-25a0-4c9d-b861-62205be69e3f
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 80e1df75-409d-45c6-b216-e0f149748441
                         CanSleep: false
@@ -7961,6 +8456,8 @@ Hierarchy:
                         Id: 60df9f7d-ea31-481f-9a31-04e3ab054478
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: fdba4bb5-c8a2-4c1f-8767-cae25b3b90b4
                         CanSleep: false
@@ -7991,6 +8488,8 @@ Hierarchy:
                         Id: 6516b492-eea4-4c8a-9eb2-5773cec79e54
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 2c3f933a-790f-4db0-8821-75ceb1fb1cca
                         CanSleep: false
@@ -8022,6 +8521,8 @@ Hierarchy:
                         Id: ce9e5079-48aa-4af8-9121-6c92dd5cb295
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ae729b4d-3c6d-416b-930a-2febdd9cf0bc
                         CanSleep: false
@@ -8052,6 +8553,8 @@ Hierarchy:
                         Id: 7a5d5bef-3e5a-4c6d-a0ee-417a2086dda4
                         Model: 1ba31899-5183-4e6c-bce7-d5672b98389e:0Rapporter_Assets/Environment Assets/Tree2
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     a6d1ff5f3764443e68a68ffec2a95e9a: !StaticColliderComponent
                         Id: 5f2f6ae3-14f4-4ec4-95a2-ab4c4747a094
                         CanSleep: false
@@ -8082,6 +8585,8 @@ Hierarchy:
                         Id: 01ea689b-582e-405b-bb86-3d50ab8f10d7
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 17a60144-52a3-47a8-903c-27c447cf5656
                         CanSleep: false
@@ -8112,6 +8617,8 @@ Hierarchy:
                         Id: 82e6c28e-0449-433f-b068-471d597279c3
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 96554076-dfe7-4767-a266-b0a78ead0771
                         CanSleep: false
@@ -8142,6 +8649,8 @@ Hierarchy:
                         Id: ea3ac20e-b5a2-47b3-a625-f7cbfa6fd6f1
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 37978c35-ac81-4b47-a32f-310a256a8bac
                         CanSleep: false
@@ -8173,6 +8682,8 @@ Hierarchy:
                         Id: 622100a8-493c-4bda-bc23-cecd6d578600
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 5d87058d-fb3f-43d7-ac83-2f47e0767607
                         CanSleep: false
@@ -8204,6 +8715,8 @@ Hierarchy:
                         Id: e1125d23-eacb-43da-9e9a-986c763006fc
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 14275cb4-2e30-47b4-bbae-8c610f70f547
                         CanSleep: false
@@ -8234,6 +8747,8 @@ Hierarchy:
                         Id: 3b0b0aea-d7ab-4116-8fea-ca4aeb35c264
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: b0a1511c-5940-4c18-b424-31af7e0beacc
                         CanSleep: false
@@ -8264,6 +8779,8 @@ Hierarchy:
                         Id: 001e9bb0-e8ec-499b-bba7-4d94ce16d9b6
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 0b1c4865-ec1f-4d0c-8772-e59c329c46e5
                         CanSleep: false
@@ -8294,6 +8811,8 @@ Hierarchy:
                         Id: 93df3b0c-f0e0-4342-bebd-20f0c12a2598
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: cb9e0df0-7cdc-4400-8280-10a2dd8ee49d
                         CanSleep: false
@@ -8324,6 +8843,8 @@ Hierarchy:
                         Id: 28abf7d8-0645-4f57-b052-6f71b9d37334
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: 55e8dba5-7de9-4bae-b9f0-de8141362932
                         CanSleep: false
@@ -8354,6 +8875,8 @@ Hierarchy:
                         Id: b43b253e-68b7-4dc0-9af3-965669fda986
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     8c785809ecfeea01f67f639be85eda09: !StaticColliderComponent
                         Id: e7d8a795-59cf-414a-a1d1-3ddb95f5711b
                         CanSleep: false
@@ -8385,6 +8908,8 @@ Hierarchy:
                         Id: 8adf87a2-26bc-4407-8ac8-7f1eec2fa438
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: d9609fc2-0735-4958-a316-1212eb2f39c8
                         CanSleep: false
@@ -8416,6 +8941,8 @@ Hierarchy:
                         Id: d118754f-66c4-48dc-8586-4ca4441d7095
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster*: false
+                        IsShadowReceiver*: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: 1bc76446-fb59-40da-a284-f5b472a725e7
                         CanSleep: false
