@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using SiliconStudio.Core;
 using SiliconStudio.Core.Mathematics;
 using SiliconStudio.Xenko.Engine;
