@@ -123,6 +123,7 @@
     <Compile Include="Player\PlayerInput.cs" />
     <Compile Include="Player\ScrollText.cs" />
     <Compile Include="Player\ScrollTextText.cs" />
+    <Compile Include="Player\WalkAnim.cs" />
     <Compile Include="Player\WeaponCollide.cs" />
     <Compile Include="Player\WeaponController.cs" />
     <Compile Include="Player\WeaponScript.cs" />

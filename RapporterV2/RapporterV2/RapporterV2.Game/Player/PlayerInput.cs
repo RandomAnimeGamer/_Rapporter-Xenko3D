@@ -21,13 +21,15 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public static readonly EventKey<int> AtkEventKey = new EventKey<int>();
     public static readonly EventKey<bool> ResetEvent = new EventKey<bool>();
     public static readonly EventKey<bool> ResetTime = new EventKey<bool>();
+    public static readonly EventKey<bool> grounded = new EventKey<bool>();
+    public static readonly EventReceiver<bool> lok = new EventReceiver<bool>(WalkAnim.walking);
     public static readonly EventReceiver<bool> AtkComp = new EventReceiver<bool>(WeaponScript.completed);
     public List<Keys> KeysLeft { get; } = new List<Keys>();
     public List<Keys> KeysRight { get; } = new List<Keys>();
     public List<Keys> KeysUp { get; } = new List<Keys>();
     public List<Keys> KeysDown { get; } = new List<Keys>();
     public List<Keys> KeysJump { get; } = new List<Keys>();
-    private bool jumped=false, doneJumping=true, attacking=false; private int jumpCount=0, combo=0; private float jumpForce;
+    private bool jumped=false, doneJumping=true, attacking=false, lockin=false; private int jumpCount=0, combo=0; private float jumpForce;
 
     public Sound SoundMusic;
     private SoundInstance forest;
@@ -35,31 +37,38 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     private SoundInstance move;
 
     public override void Start() {
+        lockin = true;
+        
         simulation = this.GetSimulation();
         
         forest = SoundMusic.CreateInstance();
         move = SoundEffect.CreateInstance();
         if (!IsLiveReloading) {
             forest.IsLooping = true;
-//            forest.Play();
+            forest.Play();
         }
         move.Stop();
         Input.LockMousePosition(true);
     }
     
     public override void Update() { { //Character movement
+        var locks = true; lok.TryReceive(out locks); if(!locks) { lockin = false; }
         PlayerPos.Broadcast(Entity.Transform.Position);
         jumpForce = 0;
         RaycastDown();
-        if(KeysJump.Any(key => Input.IsKeyDown(key)) && jumped) { jumpForce = 2; jumped = false; doneJumping=false; }
-        if(!doneJumping&&!jumped) { jumpCount++; jumpForce=4; if(jumpCount==5) { doneJumping=true; jumpCount=0; } }
-        if(doneJumping) jumpForce=-0.2f;
+        if(!lockin) {
+            if(KeysJump.Any(key => Input.IsKeyDown(key)) && jumped) { jumpForce = 2; jumped = false; doneJumping=false; }//sfx
+            if(!doneJumping&&!jumped) { jumpCount++; jumpForce=4; if(jumpCount==5) { doneJumping=true; jumpCount=0; } }
+            if(doneJumping) jumpForce=-0.2f;
+        }
 
         var moveDirection = Vector2.Zero;
-        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX * 2;
-        if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX * 2;
-        if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY * 2;
-        if (KeysDown.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitY * 2;
+        if(!lockin) {
+            if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX * 2;
+            if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX * 2;
+            if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY * 2;
+            if (KeysDown.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitY * 2;
+        }
         
         var worldSpeed = (Camera != null)//Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
             ? Utils.LogicDirectionToWorldDirection(moveDirection, Camera, Vector3.UnitY) + new Vector3(0, jumpForce, 0)
@@ -68,7 +77,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
             if (!IsLiveReloading) {
                 move.IsLooping = true;
                 move.Volume=20;
-//                move.Play();
+                move.Play();
             }
         }
         else {
@@ -86,6 +95,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         if(Input.HasMouse&&Input.IsMouseButtonPressed(MouseButton.Left)&&comp) {
             combo++; if(combo>3) { combo=1; ResetEvent.Broadcast(true); }
             ResetTime.Broadcast(true); AtkEventKey.Broadcast(combo); attacking=true;
+            //sfx
         }
     } }
     private void RaycastDown() {
@@ -93,6 +103,6 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         var unprojectedFar = Entity.Transform.Position + new Vector3(0f, -0.2f, 0f);
         var result = simulation.Raycast(unprojectedNear, unprojectedFar);
 
-        if(result.Succeeded) { if (result.Collider != null) { jumped = true; doneJumping=false; } }
+        if(result.Succeeded) { if (result.Collider != null) { jumped = true; doneJumping=false; grounded.Broadcast(true); } }
     }
 } }
