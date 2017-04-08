@@ -13,7 +13,7 @@ namespace RapporterV2.Player { public class ScrollText : SyncScript {
     public static readonly EventReceiver<int> NPC = new EventReceiver<int>(NPCTalk.ttm);
     public static readonly EventReceiver<Vector3> P1 = new EventReceiver<Vector3>(PlayerInput.PlayerPos);
     private Vector3 startAt = new Vector3(0,-0.078f,-0.122f);
-    private Vector3 stopAt = new Vector3(0,-0.028f,-0.122f);
+    private Vector3 stopAt = new Vector3(0,-0.038f,-0.122f);
     private int talk;
     private int talkBuffer;
     public override void Update() {
