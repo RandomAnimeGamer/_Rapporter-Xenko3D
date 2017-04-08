@@ -9,18 +9,21 @@ using SiliconStudio.Xenko.Engine;
 using SiliconStudio.Xenko.Engine.Events;
 using RapporterV2.Player;
 
-namespace Quest { public class QuestManager : SyncScript {
+namespace RapporterV2.Quest { public class QuestManager : SyncScript {
     int main = 0, sword = 0, move = 0, jump = 0;//0=not taken, 1=taken/incomplete, 2=complete
     int count = 0; List<String> quests = new List<String>();//maximum of 5? each quest be its own object off-screen?
-    public readonly EventReceiver<bool> mainSt = new EventReceiver<bool>(NPCTalk.main);
-/*    public readonly EventReceiver<bool> swordSt = new EventReceiver<bool>();
-    public readonly EventReceiver<bool> moveSt = new EventReceiver<bool>();
-    public readonly EventReceiver<bool> jumpSt = new EventReceiver<bool>();*/
+    public static readonly EventReceiver<bool> mainSt = new EventReceiver<bool>(NPCTalk.main);
+/*    public static readonly EventReceiver<bool> swordSt = new EventReceiver<bool>();
+    public static readonly EventReceiver<bool> moveSt = new EventReceiver<bool>();
+    public static readonly EventReceiver<bool> jumpSt = new EventReceiver<bool>();*/
     
-    public readonly EventReceiver<bool> mainComp = new EventReceiver<bool>(Enemy.main);
-/*    public readonly EventReceiver<bool> swordComp = new EventReceiver<bool>();
-    public readonly EventReceiver<bool> moveComp = new EventReceiver<bool>();
-    public readonly EventReceiver<bool> jumpComp = new EventReceiver<bool>();*/
+    public static readonly EventReceiver<bool> mainComp = new EventReceiver<bool>(Enemy.main);
+/*    public static readonly EventReceiver<bool> swordComp = new EventReceiver<bool>();
+    public static readonly EventReceiver<bool> moveComp = new EventReceiver<bool>();
+    public static readonly EventReceiver<bool> jumpComp = new EventReceiver<bool>();*/
+    
+    public static readonly EventKey<int> countKey = new EventKey<int>();
+    public static readonly EventKey<bool> mainMove = new EventKey<bool>();
     
     public override void Start() {
     }

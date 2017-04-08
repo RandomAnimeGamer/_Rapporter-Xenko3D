@@ -3059,6 +3059,22 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8f7c8af3-b017-4b38-aa1c-6185561ad084
+        -   Entity:
+                Id: 8e85da0d-1f20-4165-9c05-c497d914b187
+                Name: QuestBox Text, Defeat Deer
+                Components:
+                    b45c3b8e5c66b5c5080837f335e97865: !TransformComponent
+                        Id: fabb6f48-c595-4b03-9d1b-b65fb7da6bcb
+                        Position: {X: -0.079, Y: 0.02, Z: -0.122}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.007, Y: 0.007, Z: 1.0}
+                        Children: {}
+                    62a9186439f3796df88a65e8c4112300: !SpriteComponent
+                        Id: 17bd36f4-ba52-41f2-84eb-b06b2b24114c
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 503f9d1e-2b2c-4e60-b80f-66da3b054440:0Rapporter_Assets/QuestAssets/QuestBox Text, Defeat Deer
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         -   Folder: Environment
             Entity:
                 Id: 923dc50b-5380-4194-a9cf-b8f2a66109fa
@@ -3266,6 +3282,22 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: d9654582-3a0c-441d-836f-7c000e558984
+        -   Entity:
+                Id: 976dcaab-6f1f-49f7-acaf-a8c9dc8ab41a
+                Name: QuestBox
+                Components:
+                    55db1f4d91161832e97e846c148d159f: !TransformComponent
+                        Id: e2ec8a59-14ad-482c-8451-ebc292486399
+                        Position: {X: -0.08, Y: 0.025, Z: -0.122}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.005, Y: 0.005, Z: 0.01}
+                        Children: {}
+                    1c590e1ce008a8b71db0d37edee894c8: !SpriteComponent
+                        Id: f0ce8275-8469-4e51-9bd9-b4f3cf3c3a55
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 0ebfe65f-5c72-44a7-af1d-0ea6b7d93774:0Rapporter_Assets/QuestAssets/QuestBox
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         -   Entity:
                 Id: 97b14324-5a1a-4608-a811-134e701c758b
                 Name: Tree1
@@ -3600,6 +3632,8 @@ Hierarchy:
                             363dfd50bc1faf4cb198d55bc4959a6c: decaad78-dacc-4c5c-830b-cc153a9975c1/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
                             781c44f00eb28243e4f5ec00ad2e50b6: 64b7072e-9801-4186-8af4-afc367c6386e/086904d1-6b27-4517-a07d-9cbf2e386a5f
                             dad82773875f3e7cd7b7dc8eb60a98fc: cdbc3426-5587-4adb-80ef-24b2f22a873c/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
+                            c6c3c0283a526b29b10b9b16c7c43e12: 976dcaab-6f1f-49f7-acaf-a8c9dc8ab41a/e2ec8a59-14ad-482c-8451-ebc292486399
+                            41dd2e753acaf60b48f6eeb1d54ef8bf: 8e85da0d-1f20-4165-9c05-c497d914b187/fabb6f48-c595-4b03-9d1b-b65fb7da6bcb
                             c1081eb1d63c8ce07f04ad16ca6cf991: 50df4ae6-9eed-451a-a8ff-71651d2303ac/080642a3-3b14-4605-9c88-4236796a9622
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
@@ -4719,7 +4753,7 @@ Hierarchy:
                 Components:
                     5d078a23bd86614fa7a7e61e1900b6b2: !TransformComponent
                         Id: b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
-                        Position: {X: 0.0, Y: -0.078, Z: -0.122}
+                        Position: {X: 0.0, Y: -0.038, Z: -0.122}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.008, Y: 0.003, Z: 0.01}
                         Children: {}
