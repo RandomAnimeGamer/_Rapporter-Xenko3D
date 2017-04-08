@@ -37,39 +37,8 @@ SceneSettings:
     EditorSettings:
         GridColor: {R: 0.7058824, G: 0.7058824, B: 0.7058824}
         SceneUnit: 1.0
-        Mode: !SceneEditorGraphicsModeHDRSettings
-            BackgroundColor: {R: 0.470588237, G: 0.470588237, B: 0.470588237}
-            PostProcessingEffects:
-                Camera:
-                    Index: 0
-                AmbientOcclusion:
-                    Enabled: false
-                DepthOfField:
-                    Enabled: false
-                    DOFAreas: {X: 0.5, Y: 6.0, Z: 50.0, W: 200.0}
-                BrightFilter:
-                    Color: {R: 1.0, G: 1.0, B: 1.0}
-                Bloom:
-                    Enabled: false
-                    Distortion: {X: 1.0, Y: 1.0}
-                    Afterimage:
-                        Enabled: false
-                LightStreak:
-                    Enabled: false
-                    Attenuation: 0.7
-                LensFlare:
-                    Enabled: false
-                ColorTransforms:
-                    Transforms:
-                        07ad277eed98ce4f92e93c18850ee158: !ToneMap
-                            Operator: !ToneMapHejl2Operator {}
-                        94c6a372b2eb724daf6a78e06fc1f8eb: !FilmGrain
-                            Enabled: false
-                        36686152e2eb1e48ac13e5375320fa92: !Vignetting
-                            Enabled: false
-                            Color: {R: 0.0, G: 0.0, B: 0.0}
-                Antialiasing: !FXAAEffect
-                    Enabled: false
+        Mode: !SceneEditorGraphicsModeLDRSettings
+            BackgroundColor: {R: 0.196078435, G: 0.196078435, B: 0.196078435}
 Hierarchy:
     RootPartIds:
         - 54ae5828-6e50-4b94-b578-584c4ec71295
@@ -522,9 +491,9 @@ Hierarchy:
                 Components:
                     3a7129c6c99fe941872de7346e37fcd1: !TransformComponent
                         Id: c24d791e-85a4-4c26-93d1-f75c24c0c19b
-                        Position: {X: -2.27636051, Y: -8.116638, Z: -3.42376852}
+                        Position*: {X: -25.3613434, Y: -8.116638, Z: -3.42376852}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 2.08379126, Y: 0.618674, Z: 1.0}
+                        Scale*: {X: 1.48295379, Y: 0.618674, Z: 1.0}
                         Children: {}
                     96f8314f96d5543918e98fd684cd5ef6: !ModelComponent
                         Id: 98f0b0d4-436c-433d-aaff-9ea3ff5a93a2
@@ -1247,7 +1216,6 @@ Hierarchy:
                         Children: {}
                     4198cc1d926fd047a67ae5f4f8bb2804: !SkyboxComponent
                         Id: 1dcc9841-6f92-47d0-a67a-e5f4f8bb2804
-                        Skybox: ae072483-d7f0-4fe4-bb0e-eafe8f7af41d:0Rapporter_Assets/Environment Assets/Skyboxes/Skybox
                         Intensity: 0.5
                     ac01fe8ecaadef41b216daac5718fc50: !LightComponent
                         Id: 8efe01ac-adca-41ef-b216-daac5718fc50
@@ -5342,9 +5310,9 @@ Hierarchy:
                 Components:
                     317c2c3fded52066a347f17803b3976f: !TransformComponent
                         Id: fd60b836-81bd-42ba-b914-5d93655028ec
-                        Position: {X: -1.9214263, Y: 0.0, Z: 0.0467562675}
+                        Position: {X: -25.6373749, Y: 0.0, Z: 0.0467562675}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 21.3660755, Y: 10.0, Z: 10.0}
+                        Scale: {X: 16.8690243, Y: 10.0, Z: 10.0}
                         Children: {}
                     44115b51d1f09129d1e193a780755561: !ModelComponent
                         Id: c0c68cea-e7f1-44ef-8cc3-5ce1f8b60b8a
@@ -6068,7 +6036,6 @@ Hierarchy:
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
                             Shadow:
-                                Enabled: true
                                 Filter: !LightShadowMapFilterTypePcf
                                     FilterSize: Filter5x5
                                 Size: XLarge

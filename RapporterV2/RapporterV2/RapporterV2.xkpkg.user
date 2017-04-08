@@ -1,5 +1,6 @@
 !SettingsFile
 Settings:
+    Package/Game/Effect/EffectCompilation: Local
     Package/SceneSettings:
         7f47b0a4-3430-4e87-aa6d-11964d81c086:
             CamPosition: {X: -14.8616, Y: 2.42996716, Z: 19.5993042}
@@ -84,8 +85,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: -74.54183, Y: 72.55026, Z: -26.51334}
-            CamPitchYaw: {X: -0.684879541, Y: 4.608436}
+            CamPosition: {X: -103.51915, Y: 40.04179, Z: 5.219197}
+            CamPitchYaw: {X: -0.691423953, Y: 4.84375572}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
