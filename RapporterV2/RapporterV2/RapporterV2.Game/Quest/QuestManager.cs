@@ -7,18 +7,18 @@ using SiliconStudio.Core.Mathematics;
 using SiliconStudio.Xenko.Input;
 using SiliconStudio.Xenko.Engine;
 using SiliconStudio.Xenko.Engine.Events;
+using RapporterV2.Player;
 
 namespace Quest { public class QuestManager : SyncScript {
     int main = 0, sword = 0, move = 0, jump = 0;//0=not taken, 1=taken/incomplete, 2=complete
-    int count = 0;//maximum of 5? each quest be its own object off-screen?
-    
-/*    public readonly EventReceiver<bool> mainSt = new EventReceiver<bool>();
-    public readonly EventReceiver<bool> swordSt = new EventReceiver<bool>();
+    int count = 0; List<String> quests = new List<String>();//maximum of 5? each quest be its own object off-screen?
+    public readonly EventReceiver<bool> mainSt = new EventReceiver<bool>(NPCTalk.main);
+/*    public readonly EventReceiver<bool> swordSt = new EventReceiver<bool>();
     public readonly EventReceiver<bool> moveSt = new EventReceiver<bool>();
-    public readonly EventReceiver<bool> jumpSt = new EventReceiver<bool>();
+    public readonly EventReceiver<bool> jumpSt = new EventReceiver<bool>();*/
     
-    public readonly EventReceiver<bool> mainComp = new EventReceiver<bool>();
-    public readonly EventReceiver<bool> swordComp = new EventReceiver<bool>();
+    public readonly EventReceiver<bool> mainComp = new EventReceiver<bool>(Enemy.main);
+/*    public readonly EventReceiver<bool> swordComp = new EventReceiver<bool>();
     public readonly EventReceiver<bool> moveComp = new EventReceiver<bool>();
     public readonly EventReceiver<bool> jumpComp = new EventReceiver<bool>();*/
     
@@ -26,36 +26,62 @@ namespace Quest { public class QuestManager : SyncScript {
     }
 
     public override void Update() {
-/*        if(main==0) { var maSt = false; mainSt.TryReceive(out maSt);
+        /*TO-DO:
+        Add class that handles new quests and transforms. Maybe even convert the list to a list of objects
+        that the class handles.
+        */
+    
+    
+        //Quest Acceptance
+        if(main==0) { var maSt = false; mainSt.TryReceive(out maSt);
             if(maSt) {
-                //add quest to arraylist
+                quests.Add("main");
                 main=1; count++;
             }
         }
-        if(sword==0) { var swSt = false; swordSt.TryReceive(out swSt);
+/*        if(sword==0) { var swSt = false; swordSt.TryReceive(out swSt);
             if(swSt) {
-                //add quest to arraylist
+                quests.Add("sword");
                 sword=1; count++;
             }
         }
         if(move==0) { var moSt = false; moveSt.TryReceive(out moSt);
             if(moSt) {
-                //add quest to arraylist
+                quests.Add("move");
                 move=1; count++;
             }
         }
         if(jump==0) { var juSt = false; jumpSt.TryReceive(out juSt);
             if(juSt) {
-                //add quest to arraylist
+                quests.Add("jump");
                 jump=1; count++;
             }
+        }*/
+
+        //Quest Completion
+        if(main==1) { var maCo = false; mainComp.TryReceive(out maCo);
+            if(maCo) {
+                quests.Remove("main");
+                main=2; count--;
+            }
         }
-
-        var maCo = false; mainComp.TryReceive(out maCo);
-        var swCo = false; swordComp.TryReceive(out swCo);
-        var moCo = false; moveComp.TryReceive(out moCo);
-        var juCo = false; jumpComp.TryReceive(out juCo);*/
-
-        
+/*        if(sword==1) { var swCo = false; swordComp.TryReceive(out swCo);
+            if(swCo) {
+                quests.Remove("sword");
+                sword=2; count--;
+            }
+        }
+        if(move==1) { var moCo = false; moveComp.TryReceive(out moCo);
+            if(moCo) {
+                quests.Remove("move");
+                move=2; count--;
+            }
+        }
+        if(jump==1) { var juCo = false; jumpComp.TryReceive(out juCo);
+            if(juCo) {
+                quests.Remove("jump");
+                jump=2; count--;
+            }
+        }*/
     }
 } }
