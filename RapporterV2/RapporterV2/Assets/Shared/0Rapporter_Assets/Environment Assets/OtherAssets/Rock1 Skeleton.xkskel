@@ -9,3 +9,5 @@ Nodes:
     a1a1c603388974890df3fc969d8a41c8: {Name: Rock1, Depth: 1}
     3968f52471f4e2826723e3d7066cc213: {Name: Lamp, Depth: 1}
     43579daa83c5ebd8210f475068070d24: {Name: Camera, Depth: 1}
+~SourceHashes:
+    a0af0899680e18eddfabcc5f075f690c~Rock1.fbx: 9877c4efbfbf590fbbbc97c37026be60

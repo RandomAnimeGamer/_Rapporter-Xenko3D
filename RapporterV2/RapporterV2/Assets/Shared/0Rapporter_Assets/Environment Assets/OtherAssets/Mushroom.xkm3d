@@ -23,3 +23,5 @@ Materials:
         MaterialInstance:
             Material: 50c95c88-09e5-462e-9360-5c85c5d28099:0Rapporter_Assets/Environment Assets/OtherAssets/Material.005
 Skeleton: 3cf34e0a-cf75-4415-b9bf-788dfc071090:0Rapporter_Assets/Environment Assets/OtherAssets/Mushroom Skeleton
+~SourceHashes:
+    6df7e9c640b85e4bac4f155cf1e7bc41~Mushroom.fbx: 7ea43135f82685bca8275a8587dbb9d0

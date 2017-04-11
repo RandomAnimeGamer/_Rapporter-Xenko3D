@@ -13,3 +13,5 @@ Nodes:
     11903c38b0d33b5fa2f6bcf5a69d63ef: {Name: sideLeft, Depth: 2}
     8461286c918ef70301bab36d89843972: {Name: sideRight, Depth: 2}
     7b215d39104b4a66d310d3e14a89f8b7: {Name: Top, Depth: 2}
+~SourceHashes:
+    e19fbe73e6a1abc265c69d07f751f5cc~OpeningBox.FBX: c525b25ac7be4f6fc08af28089056190

@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: e1765c25-24ea-4588-b365-b4e43b30786f:0Rapporter_Assets/Environment Assets/OtherAssets/Material_2
 Skeleton: e91d27c7-db13-4faa-8aa2-e95abce10fd1:0Rapporter_Assets/Environment Assets/OtherAssets/OpeningBox Skeleton
+~SourceHashes:
+    30db09b28fda6fea77cd577a3bf02b91~OpeningBox.FBX: c525b25ac7be4f6fc08af28089056190

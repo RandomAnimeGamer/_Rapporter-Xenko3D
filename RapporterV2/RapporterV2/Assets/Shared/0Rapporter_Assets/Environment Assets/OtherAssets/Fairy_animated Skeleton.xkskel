@@ -11,3 +11,5 @@ Nodes:
     73069b0a463e1ac3f5a6f5d1e07812b9: {Name: Camera, Depth: 1}
     78aeef7f5c1e235bcba3e50f5b220638: {Name: PhysCamera001, Depth: 1}
     ef3d150fe31f13c73c0f37bc8827ea5c: {Name: PhysCamera001.Target, Depth: 1}
+~SourceHashes:
+    1bcbf1807f8080e84465ec870b9e5dec~Fairy_animated.FBX: 101138f254315abbe7f9d66721bfeb87

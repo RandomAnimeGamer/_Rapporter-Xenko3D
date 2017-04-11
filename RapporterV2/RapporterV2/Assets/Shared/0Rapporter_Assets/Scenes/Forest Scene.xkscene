@@ -43,6 +43,7 @@ Hierarchy:
     RootPartIds:
         - 54ae5828-6e50-4b94-b578-584c4ec71295
         - 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
+        - 4482291b-7382-4439-9b10-0aa5b535a7ea
         - abf0e468-d54f-4237-92b7-c852eb55dc19
         - 09143bb7-f329-43c6-b6d7-386e8c6925e9
         - ab344601-0807-4702-85ad-b93a4cb29df4
@@ -79,7 +80,7 @@ Hierarchy:
                 Components:
                     3f055b016ffe47d0ae8665732b7180ac: !TransformComponent
                         Id: f635d28b-86c5-48be-9754-d91af6367d5f
-                        Position: {X: -68.27596, Y: 0.380163431, Z: 18.8110027}
+                        Position: {X: -47.70922, Y: 0.380163431, Z: 18.8110027}
                         Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -327,9 +328,9 @@ Hierarchy:
                 Components:
                     3a7129c6c99fe941872de7346e37fcd1: !TransformComponent
                         Id: c24d791e-85a4-4c26-93d1-f75c24c0c19b
-                        Position*: {X: -25.3613434, Y: -8.116638, Z: -3.42376852}
+                        Position*: {X: -16.2122955, Y: -8.116638, Z: -3.42376852}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale*: {X: 1.48295379, Y: 0.618674, Z: 1.0}
+                        Scale*: {X: 1.160494, Y: 0.618674, Z: 1.0}
                         Children: {}
                     96f8314f96d5543918e98fd684cd5ef6: !ModelComponent
                         Id: 98f0b0d4-436c-433d-aaff-9ea3ff5a93a2
@@ -673,6 +674,26 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 16b14862-dcd1-41de-aeee-68dd0e82fc0f
+        -   Folder: mainq dup
+            Entity:
+                Id: 1f18c285-288f-4f42-ad86-973e077cf04b
+                Name: QuestBox Text, Defeat Deer
+                Components:
+                    b45c3b8e5c66b5c5080837f335e97865: !TransformComponent
+                        Id: b13e1f83-61d4-486e-864a-e33ac654d6bd
+                        Position: {X: -0.121, Y: 0.028, Z: -0.123}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.007, Y: 0.007, Z: 1.0}
+                        Children: {}
+                    62a9186439f3796df88a65e8c4112300: !SpriteComponent
+                        Id: 0b062fcf-915c-4ccd-8152-f9adc78d40bb
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 503f9d1e-2b2c-4e60-b80f-66da3b054440:0Rapporter_Assets/QuestAssets/QuestBox Text, Defeat Deer
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    c11aa42e68a59cea832f29cfe0e14bfd: !RapporterV2.Quest.ScrollQuestText,RapporterV2.Game
+                        Id: c8ad2bd0-f308-40d6-a74a-78cf6c8517d1
+                        q: 2.0
         -   Entity:
                 Id: 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
                 Name: NPC1 - Rigged
@@ -900,7 +921,7 @@ Hierarchy:
                 Components:
                     aee3b5d4109797b8d3a07f4b29688f64: !TransformComponent
                         Id: bc191daf-3ead-4eee-ab50-fab878689ce3
-                        Position: {X: -66.2994156, Y: 0.25405243, Z: -3.461751}
+                        Position*: {X: -45.8585663, Y: 0.25405243, Z: -10.78063}
                         Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
                         Scale: {X: 0.1, Y: 0.1, Z: 0.1}
                         Children: {}
@@ -1310,6 +1331,47 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: a2ce7822-5b96-4056-8c6e-f7f9e42639e9
+        -   Entity:
+                Id: 4482291b-7382-4439-9b10-0aa5b535a7ea
+                Name: NPC#2 - Rig
+                Components:
+                    bedb903109dc2e3f9ec65dba0896b519: !TransformComponent
+                        Id: 635e8284-aec0-45ed-b8fa-ce313cae8ce4
+                        Position: {X: -34.6884956, Y: -0.02, Z: -8.046581}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children:
+                            d3ef354e666585fc8444dca71c9f131e: ce913727-14ca-4ba2-9ea2-e65b960c1116/48dc72ed-8ac2-44fc-8ca7-6651a091a2f0
+                    11d56880d2aab406a7668bbe1be803e7: !ModelComponent
+                        Id: b471f2a6-77af-464b-b57e-dd63efea5b33
+                        Model: 41aea8a7-1f12-4e25-ad1c-75ed8bc1f150:0Rapporter_Assets/3_3_17/NPC#2 - Rig
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    5a00dea717bedaa8f0731a865c61bb1f: !AnimationComponent
+                        Id: a69a885f-8ded-44a8-8a1e-ab12298abcd4
+                        Animations:
+                            912b92dd98670554a998b8c48769005c~idle: f619bfa7-8c96-4e25-b2d7-c0e268517ea9:0Rapporter_Assets/3_3_17/NPC#2 - Idle Anim
+                            d6fa86494383974d03c3c21edb7f7fb4~talk: 9e34c7f9-bc0b-4f14-9e56-8fc7afcd6bb6:0Rapporter_Assets/3_3_17/NPC#2 - Talking Anim
+                    59cc4f8537eb6c0b1d1197cef2a68a99: !StaticColliderComponent
+                        Id: 9cdb0ae6-70bf-4546-a9b3-10fce0580d2e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            03f976b6bd68ecf5ba6d85c145491578: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 15.0, Z: 25.0}
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 5.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    e0f801424bdca60596909228a92885cd: !RapporterV2.Player.NPCTalk2,RapporterV2.Game
+                        Id: 3a1a1591-288a-4aed-a6df-17f0ab643e9e
+                    40e43a0bfbb26ec90026dec7f655e963: !RapporterV2.Animations.NPC2_Animations,RapporterV2.Game
+                        Id: a3985668-dfc2-4444-abbe-6d3afb791e26
         -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 44f7245d-29ba-430d-bdbd-e230d5f57f49
@@ -1616,6 +1678,8 @@ Hierarchy:
                             2cc7eee4e446e46274bf786c297ff430: Space
                     a3b03f72556f8919de5f0678ee4920fe: !RapporterV2.DebugPhysicsShapes,RapporterV2.Game
                         Id: 34927009-64b8-42d5-9d4c-eebaebfd4e1b
+                    13a50c162c912a54d0caeed56bce6bb9: !RapporterV2.Quest.QuestManager,RapporterV2.Game
+                        Id: ecae009e-7326-40df-8ba1-15f76b665212
         -   Entity:
                 Id: 54faa231-cf60-4977-b438-4d1ef46b4d56
                 Name: Tree1
@@ -1960,7 +2024,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: c5ce81d0-46f9-4b32-9e58-22ca0d75e96e
-        -   Entity:
+        -   Folder: npc1diag
+            Entity:
                 Id: 64b7072e-9801-4186-8af4-afc367c6386e
                 Name: TextBoxText
                 Components:
@@ -1985,7 +2050,7 @@ Hierarchy:
                 Components:
                     a7f2166ed0dc55f765f819952fe98bc9: !TransformComponent
                         Id: fa347f95-0d6d-46a3-8a87-7ec7c3c7505d
-                        Position: {X: -67.6887, Y: 0.0, Z: -3.1313746}
+                        Position*: {X: -47.24785, Y: 0.0, Z: -10.4502544}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.25, Y: 0.25, Z: 0.25}
                         Children: {}
@@ -2376,7 +2441,7 @@ Hierarchy:
                 Components:
                     572041f82d503b5cf780b90ad7799ced: !TransformComponent
                         Id: 9c223310-33bc-4c94-bba1-4a4473bb0e6e
-                        Position: {X: 42.00061, Y: -2.04165339, Z: 19.4695969}
+                        Position*: {X: 22.1233711, Y: -2.04165339, Z: 33.2387962}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -3059,13 +3124,14 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8f7c8af3-b017-4b38-aa1c-6185561ad084
-        -   Entity:
+        -   Folder: mainq
+            Entity:
                 Id: 8e85da0d-1f20-4165-9c05-c497d914b187
                 Name: QuestBox Text, Defeat Deer
                 Components:
                     b45c3b8e5c66b5c5080837f335e97865: !TransformComponent
                         Id: fabb6f48-c595-4b03-9d1b-b65fb7da6bcb
-                        Position: {X: -0.079, Y: 0.02, Z: -0.122}
+                        Position: {X: -0.121, Y: 0.028, Z: -0.123}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.007, Y: 0.007, Z: 1.0}
                         Children: {}
@@ -3075,6 +3141,9 @@ Hierarchy:
                             Texture: 503f9d1e-2b2c-4e60-b80f-66da3b054440:0Rapporter_Assets/QuestAssets/QuestBox Text, Defeat Deer
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    c11aa42e68a59cea832f29cfe0e14bfd: !RapporterV2.Quest.ScrollQuestText,RapporterV2.Game
+                        Id: 8c435c9a-6350-4566-b5be-1a71a51b6a67
+                        q: 1.0
         -   Folder: Environment
             Entity:
                 Id: 923dc50b-5380-4194-a9cf-b8f2a66109fa
@@ -3082,7 +3151,7 @@ Hierarchy:
                 Components:
                     bdba2364368be819bbb3d209d348381f: !TransformComponent
                         Id: 3fde0561-bcb9-4d5c-a12e-0d7aa0bc05a9
-                        Position*: {X: -76.99388, Y: 0.608276963, Z: -19.0699081}
+                        Position*: {X: -56.42714, Y: 0.608276963, Z: -19.0699081}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -3236,7 +3305,7 @@ Hierarchy:
                 Components:
                     5795c1508b0a131741031f45c361717d: !TransformComponent
                         Id: 1168116b-ad29-488d-a34f-2833a3b384b4
-                        Position: {X: -64.02681, Y: -1.63427484, Z: -2.29938173}
+                        Position*: {X: -43.58596, Y: -1.63427484, Z: -9.618261}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -3282,15 +3351,16 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: d9654582-3a0c-441d-836f-7c000e558984
-        -   Entity:
+        -   Folder: mainq
+            Entity:
                 Id: 976dcaab-6f1f-49f7-acaf-a8c9dc8ab41a
                 Name: QuestBox
                 Components:
                     55db1f4d91161832e97e846c148d159f: !TransformComponent
                         Id: e2ec8a59-14ad-482c-8451-ebc292486399
-                        Position: {X: -0.08, Y: 0.025, Z: -0.122}
+                        Position: {X: -0.12, Y: 0.04, Z: -0.124}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.005, Y: 0.005, Z: 0.01}
+                        Scale: {X: 0.005, Y: 0.002, Z: 0.01}
                         Children: {}
                     1c590e1ce008a8b71db0d37edee894c8: !SpriteComponent
                         Id: f0ce8275-8469-4e51-9bd9-b4f3cf3c3a55
@@ -3298,6 +3368,11 @@ Hierarchy:
                             Texture: 0ebfe65f-5c72-44a7-af1d-0ea6b7d93774:0Rapporter_Assets/QuestAssets/QuestBox
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    317f9a8e81cc6a31dc107bb7fd22182f: !RapporterV2.Quest.ScrollQuest,RapporterV2.Game
+                        Id: b5377c6a-b3f5-4082-8e24-b9baff402afb
+                        moving: 0.0
+                        old: 0.0
+                        quest: 1.0
         -   Entity:
                 Id: 97b14324-5a1a-4608-a811-134e701c758b
                 Name: Tree1
@@ -3497,9 +3572,9 @@ Hierarchy:
                 Components:
                     317c2c3fded52066a347f17803b3976f: !TransformComponent
                         Id: fd60b836-81bd-42ba-b914-5d93655028ec
-                        Position: {X: -25.6373749, Y: 0.0, Z: 0.0467562675}
+                        Position: {X: -15.247591, Y: 0.0, Z: 0.0467562675}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 16.8690243, Y: 10.0, Z: 10.0}
+                        Scale: {X: 11.1239223, Y: 10.0, Z: 10.0}
                         Children: {}
                     44115b51d1f09129d1e193a780755561: !ModelComponent
                         Id: c0c68cea-e7f1-44ef-8cc3-5ce1f8b60b8a
@@ -3630,14 +3705,17 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             363dfd50bc1faf4cb198d55bc4959a6c: decaad78-dacc-4c5c-830b-cc153a9975c1/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
-                            781c44f00eb28243e4f5ec00ad2e50b6: 64b7072e-9801-4186-8af4-afc367c6386e/086904d1-6b27-4517-a07d-9cbf2e386a5f
-                            dad82773875f3e7cd7b7dc8eb60a98fc: cdbc3426-5587-4adb-80ef-24b2f22a873c/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
-                            c6c3c0283a526b29b10b9b16c7c43e12: 976dcaab-6f1f-49f7-acaf-a8c9dc8ab41a/e2ec8a59-14ad-482c-8451-ebc292486399
-                            41dd2e753acaf60b48f6eeb1d54ef8bf: 8e85da0d-1f20-4165-9c05-c497d914b187/fabb6f48-c595-4b03-9d1b-b65fb7da6bcb
                             c1081eb1d63c8ce07f04ad16ca6cf991: 50df4ae6-9eed-451a-a8ff-71651d2303ac/080642a3-3b14-4605-9c88-4236796a9622
+                            94f84d4849e24573e714e709d9c836ba: 64b7072e-9801-4186-8af4-afc367c6386e/086904d1-6b27-4517-a07d-9cbf2e386a5f
+                            7b2f25d4d07885310cdf23dea8d8b524: cdbc3426-5587-4adb-80ef-24b2f22a873c/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
+                            ea04fb8223ae1e79b3fdb7b2f2e254ac: 8e85da0d-1f20-4165-9c05-c497d914b187/fabb6f48-c595-4b03-9d1b-b65fb7da6bcb
+                            8a35c216a0af17a50748a9698cce5b0d: 976dcaab-6f1f-49f7-acaf-a8c9dc8ab41a/e2ec8a59-14ad-482c-8451-ebc292486399
+                            b34420aba24cacd7a824add15bbde269: 1f18c285-288f-4f42-ad86-973e077cf04b/b13e1f83-61d4-486e-864a-e33ac654d6bd
+                            52fb30c87ebdb85171e3c179990dcd96: bdb4f1ac-c017-4600-a146-dd64cf584344/23715ace-7168-40ff-b3b7-2a7a10bf6338
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
+                        NearClipPlane: 0.05
                         FarClipPlane: 250.0
                     2eb2688001c3198386a7f98e83551672: !RapporterV2.FpsCamera,RapporterV2.Game
                         Id: ca405849-d93e-45e7-ac87-6e40ddacbcf4
@@ -3810,7 +3888,7 @@ Hierarchy:
                 Components:
                     4ea3725a7e644d734dbcfaba847097f1: !TransformComponent
                         Id: a9378336-a7f4-4d55-b847-75aefeb0b5fa
-                        Position: {X: -67.48362, Y: 3.12597871, Z: 5.0}
+                        Position*: {X: -55.6973, Y: 3.12597871, Z: 5.0}
                         Rotation: {X: 1.0, Y: 7.54979E-08, Z: 7.54979E-08, W: 5.69993331E-15}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -3877,7 +3955,9 @@ Hierarchy:
                         Id: 347e542f-f810-4e53-9e78-2d4fc4f6c05a
                     ecae2ddba944ea3e1e72cd24edadbe46: !AnimationComponent
                         Id: ff38e834-88f1-48f7-ad46-dd3b9e9e1be3
-                        Animations: {}
+                        Animations:
+                            0c7c56a7b91e5c12b210be069fcc8f65~damaged: null
+                            ea4b6ae70a71b90b0ac2d58232bb1b33~attack: null
         -   Entity:
                 Id: add5d6f5-cfc4-4ad6-b9e5-999de7644030
                 Name: Tree1
@@ -4394,6 +4474,28 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: fbabd3ac-675d-490f-93bd-62a6fc523904
+        -   Folder: mainq dup
+            Entity:
+                Id: bdb4f1ac-c017-4600-a146-dd64cf584344
+                Name: QuestBox
+                Components:
+                    55db1f4d91161832e97e846c148d159f: !TransformComponent
+                        Id: 23715ace-7168-40ff-b3b7-2a7a10bf6338
+                        Position: {X: -0.12, Y: 0.04, Z: -0.124}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.005, Y: 0.002, Z: 0.01}
+                        Children: {}
+                    1c590e1ce008a8b71db0d37edee894c8: !SpriteComponent
+                        Id: 361adf72-2481-452c-93c0-03b634f4f47b
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 0ebfe65f-5c72-44a7-af1d-0ea6b7d93774:0Rapporter_Assets/QuestAssets/QuestBox
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    317f9a8e81cc6a31dc107bb7fd22182f: !RapporterV2.Quest.ScrollQuest,RapporterV2.Game
+                        Id: e83635aa-f6ff-430d-bb02-e73105357139
+                        moving: 0.0
+                        old: 0.0
+                        quest: 2.0
         -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: c091cc5e-59f9-48bf-a45e-d9f6dfac4619
@@ -4445,7 +4547,7 @@ Hierarchy:
                 Components:
                     aee3b5d4109797b8d3a07f4b29688f64: !TransformComponent
                         Id: 863c4299-fc7d-4180-b95c-439b024dee7c
-                        Position*: {X: -64.83161, Y: 0.25405243, Z: -0.168873072}
+                        Position*: {X: -44.3907623, Y: 0.25405243, Z: -7.48775244}
                         Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
                         Scale: {X: 0.1, Y: 0.1, Z: 0.1}
                         Children: {}
@@ -4747,13 +4849,14 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 9f0aaa04-47a7-4ccc-a08e-19c010846256
-        -   Entity:
+        -   Folder: npc1diag
+            Entity:
                 Id: cdbc3426-5587-4adb-80ef-24b2f22a873c
                 Name: TextBox
                 Components:
                     5d078a23bd86614fa7a7e61e1900b6b2: !TransformComponent
                         Id: b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
-                        Position: {X: 0.0, Y: -0.038, Z: -0.122}
+                        Position: {X: 0.0, Y: -0.078, Z: -0.122}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.008, Y: 0.003, Z: 0.01}
                         Children: {}
@@ -4798,6 +4901,31 @@ Hierarchy:
                 BasePartAsset: c8d542d1-ebfd-4a59-abe3-45328bb4ec1f:0Rapporter_Assets/Environment Assets/Bush1_2 Prefab
                 BasePartId: e0bd4a79-3641-493c-b848-f4ad2c35c976
                 InstanceId: 33be4d8d-9b4b-4e7f-888c-ed7da3b2f55b
+        -   Entity:
+                Id: ce913727-14ca-4ba2-9ea2-e65b960c1116
+                Name: collider
+                Components:
+                    36784c813f4f34e90e76abc962fca878: !TransformComponent
+                        Id: 48dc72ed-8ac2-44fc-8ca7-6651a091a2f0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4a0ed7e437bf36adb5228b410d93af5a: !StaticColliderComponent
+                        Id: 76fbd3d4-194b-4951-8862-8814d34db00e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            75d464ed64c1e3f444095db0fa69a13a: !CapsuleColliderShapeDesc
+                                Length: 5.0
+                                Radius: 5.0
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: cea55e88-4530-4310-8e84-24627249ac98
                 Name: Tree1
@@ -4869,7 +4997,7 @@ Hierarchy:
                 Components:
                     17f01c03077d43ac3ccdf227ed38cb09: !TransformComponent
                         Id: 3f5e709c-8007-4597-a7bf-9955d834b5db
-                        Position: {X: -80.9038544, Y: -0.753999, Z: 25.67897}
+                        Position*: {X: -60.3371124, Y: -0.753999, Z: 25.67897}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -5143,6 +5271,7 @@ Hierarchy:
                         Children: {}
                     3db80bf6f7a64d469c3a78e1338ba404: !SpriteComponent
                         Id: f60bb83d-a6f7-464d-9c3a-78e1338ba404
+                        Enabled: false
                         SpriteProvider: !SpriteFromTexture
                             Texture: a5465fbe-63be-46d4-a877-132affab4d8f:Textures/crosshair_2
                             Center: {X: 0.0, Y: 0.0}

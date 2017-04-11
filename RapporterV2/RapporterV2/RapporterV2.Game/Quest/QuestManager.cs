@@ -13,18 +13,20 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
     int main = 0, sword = 0, move = 0, jump = 0;//0=not taken, 1=taken/incomplete, 2=complete
     int count = 0; List<String> quests = new List<String>();//maximum of 5? each quest be its own object off-screen?
     public static readonly EventReceiver<bool> mainSt = new EventReceiver<bool>(NPCTalk.main);
-/*    public static readonly EventReceiver<bool> swordSt = new EventReceiver<bool>();
-    public static readonly EventReceiver<bool> moveSt = new EventReceiver<bool>();
+    public static readonly EventReceiver<bool> swordSt = new EventReceiver<bool>(NPCTalk2.main);
+/*    public static readonly EventReceiver<bool> moveSt = new EventReceiver<bool>();
     public static readonly EventReceiver<bool> jumpSt = new EventReceiver<bool>();*/
-    
+
     public static readonly EventReceiver<bool> mainComp = new EventReceiver<bool>(Enemy.main);
 /*    public static readonly EventReceiver<bool> swordComp = new EventReceiver<bool>();
     public static readonly EventReceiver<bool> moveComp = new EventReceiver<bool>();
     public static readonly EventReceiver<bool> jumpComp = new EventReceiver<bool>();*/
-    
+
     public static readonly EventKey<int> countKey = new EventKey<int>();
-    public static readonly EventKey<bool> mainMove = new EventKey<bool>();
-    
+    public static readonly EventKey<Vector2> mainMove = new EventKey<Vector2>();//always broadcast (1, count)
+    public static readonly EventKey<Vector2> swordMove = new EventKey<Vector2>();//always broadcast (1, count)
+    public static readonly EventKey<int> completed = new EventKey<int>();//always quest #
+
     public override void Start() {
     }
 
@@ -33,22 +35,25 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
         Add class that handles new quests and transforms. Maybe even convert the list to a list of objects
         that the class handles.
         */
-    
-    
+
+
         //Quest Acceptance
         if(main==0) { var maSt = false; mainSt.TryReceive(out maSt);
             if(maSt) {
-                quests.Add("main");
-                main=1; count++;
+                quests.Add("main"); main=1; count++;
+				mainMove.Broadcast(new Vector2(1, count-quests.IndexOf("main")));
             }
         }
-/*        if(sword==0) { var swSt = false; swordSt.TryReceive(out swSt);
+        if(main==1) mainMove.Broadcast(new Vector2(1, count-quests.IndexOf("main")));
+        
+        if(sword==0) { var swSt = false; swordSt.TryReceive(out swSt);
             if(swSt) {
-                quests.Add("sword");
-                sword=1; count++;
+                quests.Add("sword"); sword=1; count++;
+                swordMove.Broadcast(new Vector2(1, count-quests.IndexOf("sword")));
             }
         }
-        if(move==0) { var moSt = false; moveSt.TryReceive(out moSt);
+        if(sword==1) swordMove.Broadcast(new Vector2(1, count-quests.IndexOf("sword")));
+/*        if(move==0) { var moSt = false; moveSt.TryReceive(out moSt);
             if(moSt) {
                 quests.Add("move");
                 move=1; count++;
@@ -64,8 +69,7 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
         //Quest Completion
         if(main==1) { var maCo = false; mainComp.TryReceive(out maCo);
             if(maCo) {
-                quests.Remove("main");
-                main=2; count--;
+                quests.Remove("main"); main=2; count--; completed.Broadcast(1);
             }
         }
 /*        if(sword==1) { var swCo = false; swordComp.TryReceive(out swCo);

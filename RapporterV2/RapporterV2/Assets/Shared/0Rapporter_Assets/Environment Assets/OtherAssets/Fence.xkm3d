@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: cfd72baf-745f-43c7-90aa-b06c355bbaf5:0Rapporter_Assets/Environment Assets/OtherAssets/DoorFrame
 Skeleton: 59d3f8ce-435a-45a9-90f9-dd1ab5d4d932:0Rapporter_Assets/Environment Assets/OtherAssets/Fence Skeleton
+~SourceHashes:
+    f99652b4cc1fab508dbb30dcc3b3458d~Fence.FBX: 4c2736e34546c31d91320e04ca5f9fa7

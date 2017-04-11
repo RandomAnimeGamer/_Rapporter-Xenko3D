@@ -20,7 +20,7 @@ namespace RapporterV2.Player { public class NPCTalk : AsyncScript {
             var firstCollision = await trigger.NewCollision();//wait for entities coming in
             talkToMe=1; ttm.Broadcast(talkToMe); main.Broadcast(true);
             var collision = await trigger.CollisionEnded();
-            talkToMe=2; ttm.Broadcast(talkToMe);
+            talkToMe=2; ttm.Broadcast(talkToMe); main.Broadcast(false);
         }
     }
 } }

@@ -110,6 +110,7 @@
   <ItemGroup>
     <Compile Include="Animation.cs" />
     <Compile Include="Animations\NPC1_Animations.cs" />
+    <Compile Include="Animations\NPC2_Animations.cs" />
     <Compile Include="Core\InputManagerExtensions.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="DebugPhysicsShapes.cs" />
@@ -119,6 +120,7 @@
     <Compile Include="Player\AnimationController.cs" />
     <Compile Include="Player\Enemy.cs" />
     <Compile Include="Player\NPCTalk.cs" />
+    <Compile Include="Player\NPCTalk2.cs" />
     <Compile Include="Player\PlayerController.cs" />
     <Compile Include="Player\PlayerInput.cs" />
     <Compile Include="Player\ScrollText.cs" />

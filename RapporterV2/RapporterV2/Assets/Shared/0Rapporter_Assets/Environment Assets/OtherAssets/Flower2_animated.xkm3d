@@ -30,3 +30,5 @@ Materials:
         MaterialInstance:
             Material: a963f256-39ae-4ca9-b81b-12ef1041ccd1:0Rapporter_Assets/Environment Assets/OtherAssets/Flower2Inside
 Skeleton: c0acdc63-5fc8-4cbc-9ba4-1657d7c9b5cb:0Rapporter_Assets/Environment Assets/OtherAssets/Flower2_animated Skeleton
+~SourceHashes:
+    9da4ac8b56eeded52e982bcbeb52132e~Flower2_animated.FBX: 7da59cd9c67cd867abc1f0142803d300
