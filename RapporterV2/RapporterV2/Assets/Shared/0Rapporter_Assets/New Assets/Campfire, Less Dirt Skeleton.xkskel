@@ -1,0 +1,14 @@
+!Skeleton
+Id: 5112dfa7-2cc2-4613-bbd9-7b23930c936e
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Campfire, Less Dirt.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    e8a5b86dd22ff725aed77bfde47cd0ec: {Name: RootNode, Depth: 0}
+    3a3837e58b19e8d2e3c3e4af9bd8c603: {Name: Circle, Depth: 1}
+    49345c312b0b11b60e1e2818aa3854ab: {Name: Cube.001, Depth: 1}
+    54c0ef24b2257fed8cedf6a6b6e51544: {Name: Lamp, Depth: 1}
+    32396165efd38381e5c205da3efb1bd8: {Name: Camera, Depth: 1}
+~SourceHashes:
+    4d187d67f1ff33dbbadbd55ad248a7b7~Campfire, Less Dirt.fbx: 0aa50c5050d7dc6847b558f9615558e6

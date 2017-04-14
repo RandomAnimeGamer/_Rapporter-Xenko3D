@@ -1,0 +1,38 @@
+!Model
+Id: c12b2805-1093-43b4-8d4c-6d829102e7fd
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: NPC#3 - Rig.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    2ca08258dc2ec37eeb0c76ec198d995e:
+        Name: Character
+        MaterialInstance:
+            Material: 1f2fba18-a46a-4ebe-839b-b4a8c3a64568:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/Character
+    66492de9cfaf4c6da78bdf181dc5f77b:
+        Name: NPC3Pants
+        MaterialInstance:
+            Material: 32309e25-57e4-41a2-a7aa-192d857b226d:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC3Pants
+    fd70c60ce4713c9a64fe160f79769ece:
+        Name: NPC3Boots
+        MaterialInstance:
+            Material: 3521d561-f9cd-47ac-b374-5ce74fcf7c89:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC3Boots
+    34f96bfc5df9b72ff5185a45742326fb:
+        Name: NPC3Belt
+        MaterialInstance:
+            Material: 5c003b6e-7aa9-448f-bc31-33a458dec663:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC3Belt
+    4a2920ebbd79c029a17dee2f58287af5:
+        Name: NPC3Shirt
+        MaterialInstance:
+            Material: 7ed9a2d8-fdf2-4db6-9eea-61fb6bd4f0ed:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC3Shirt
+    175b86902daf7dd596ed2623091f6f5a:
+        Name: NPC3ArmBand
+        MaterialInstance:
+            Material: 1caf7489-fedf-4842-85e9-506e9e89e975:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC3ArmBand
+    d472058625692555cf729db640fbd71c:
+        Name: NPC3Hair
+        MaterialInstance:
+            Material: b687fcfd-2d03-4ca5-9df2-ba2ac9854b41:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC3Hair
+Skeleton: 3c900277-ee43-4fd1-a8ef-ed4269380080:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#3 - Rig Skeleton
+~SourceHashes:
+    fabba8eb9794dbb6d229c47660facd73~NPC#3 - Rig.fbx: 6e205e983cdef859fcb156c77ce0389e

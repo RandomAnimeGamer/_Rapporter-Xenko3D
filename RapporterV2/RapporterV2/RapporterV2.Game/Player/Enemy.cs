@@ -10,22 +10,21 @@ using SiliconStudio.Xenko.Engine;
 using SiliconStudio.Xenko.Engine.Events;
 
 namespace RapporterV2.Player { public class Enemy : SyncScript {
-    private Simulation simulation;
+    private Simulation simulation; AnimationComponent anim; RigidbodyComponent r;
 //    public CameraComponent Camera { get; set; }
 //    public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
 //    public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
-    AnimationComponent anim;
     public static readonly EventKey<bool> main = new EventKey<bool>();
     public static readonly EventReceiver<bool> damage = new EventReceiver<bool>(WeaponCollide.die);
     public static readonly EventReceiver<bool> valid = new EventReceiver<bool>(WeaponScript.atking);
     private bool attacking=false; private int HP=100;
 
     public override void Start() {
-        simulation = this.GetSimulation(); anim = Entity.Get<AnimationComponent>();
+        simulation = this.GetSimulation(); anim = Entity.Get<AnimationComponent>(); r = Entity.Get<RigidbodyComponent>();
     }
     
     public override void Update() { { //Character movement
-
+        if(!anim.IsPlaying("Idle")&&!anim.IsPlaying("Death")&&!anim.IsPlaying("Hurt")) anim.Play("Idle");
         var moveDirection = Vector2.Zero;
         DamageCheck();
 //        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX;
@@ -54,9 +53,19 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
     public void DamageCheck() {
         var dmg=false; var v=false; damage.TryReceive(out dmg); valid.TryReceive(out v);
         if(dmg&&v) { //Entity.Transform.Position += new Vector3(0f,1f,0f); anim.Play("damaged");
-            HP-=50; if(HP<0) { HP=0; } CheckDeath(); }
+            anim.Play("Hurt");
+            HP-=25; if(HP<0) { HP=0; } CheckDeath(); }
     }
     public void CheckDeath() {
-        if(HP<=0) { Entity.Transform.Position += new Vector3(0f,1f,0f); main.Broadcast(true); }
+        if(HP<=0) { anim.Play("Death"); main.Broadcast(true);
+        var particles = Content.Load<Prefab>("0Rapporter_Assets/Particles/Death");
+        // Instantiate a prefab
+        var instance = particles.Instantiate();
+        var death = instance[0];
+        // Add the bullet to the scene
+        SceneSystem.SceneInstance.Scene.Entities.Add(death);
+        death.Transform.Position = Entity.Transform.Position;
+        Entity.Transform.Position -= new Vector3(0f,10f,0f);
+        }
     }
 } }

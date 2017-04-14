@@ -1,0 +1,6 @@
+!Texture
+Id: 5ee99ed4-b219-4fcd-8823-5ed58345cb47
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: Health Bar Green.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

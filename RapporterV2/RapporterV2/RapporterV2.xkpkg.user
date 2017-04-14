@@ -1,6 +1,7 @@
 !SettingsFile
 Settings:
-    Package/Game/Effect/EffectCompilation: Local
+    Package/Game/Effect/EffectCompilation: None
+    Package/Game/Effect/RecordUsedEffects: false
     Package/SceneSettings:
         7f47b0a4-3430-4e87-aa6d-11964d81c086:
             CamPosition: {X: -14.8616, Y: 2.42996716, Z: 19.5993042}
@@ -85,8 +86,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: -3.85492873, Y: 2.50948262, Z: 1.85092413}
-            CamPitchYaw: {X: -0.5204775, Y: -0.9095654}
+            CamPosition: {X: 0.02261598, Y: 3.44662952, Z: 3.13809061}
+            CamPitchYaw: {X: -0.428199559, Y: 19.8924446}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -255,6 +256,34 @@ Settings:
         f87d6145-36cd-4974-a8bd-eaace6f9556e:
             CamPosition: {X: -28.80424, Y: 0.996942759, Z: 13.5426617}
             CamPitchYaw: {X: -0.565799356, Y: 0.9945184}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        82022151-858f-4fb3-81c6-48aaba4d2dd1:
+            CamPosition: {X: -4.6372714, Y: 3.93612671, Z: -1.55623114}
+            CamPitchYaw: {X: -0.254431039, Y: -1.43111157}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0

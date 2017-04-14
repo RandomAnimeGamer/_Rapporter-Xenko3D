@@ -1,0 +1,47 @@
+!Skeleton
+Id: 0853eed1-a051-46ae-86b0-47bd88da9d2b
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Wolf - Rigged.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    8920ebfd5d99425d946690fbd231b270: {Name: RootNode, Depth: 0}
+    72336b6bde94b1960c5c9cc702b0c00f: {Name: Armature, Depth: 1}
+    cecdbfefdfb587a44abfc986c4c5f76e: {Name: BodyEnd, Depth: 2}
+    83d2d48cad3a134df39d47bfa8322542: {Name: Tail1, Depth: 3}
+    f36375cbc3b2298829e23772313db094: {Name: Tail2, Depth: 4}
+    35043eb31d94b64d880f13f0411dcb69: {Name: Tail3, Depth: 5}
+    23182c228757ea6e55c147ae6b073e0e: {Name: Tail3_end, Depth: 6}
+    d22eb3b7d02f93d773fd8c7d83cf6747: {Name: BodyMid, Depth: 3}
+    8c87449c31df2b952cbe50e5d1c7c596: {Name: BodyUpper, Depth: 4}
+    1516225fbbe65df5c5749126c2b37b2e: {Name: Neck, Depth: 5}
+    f315e3655ea0f43056ed991da94eca62: {Name: Head, Depth: 6}
+    50d17fb446f3e921e67440c1135b5286: {Name: Ear1.L, Depth: 7}
+    18f9f30b9c3c177c253d094dbc9ed226: {Name: Ear2.L, Depth: 8}
+    82620822cd9b20b237b097770f35cf71: {Name: Ear2.L_end, Depth: 9}
+    11f372fb5e626a496aee5f8e3dae930a: {Name: Ear1.R, Depth: 7}
+    a0ebec5dcb408eca1961090b15137954: {Name: Ear2.R, Depth: 8}
+    202c179ec3944c6a39541d1aaa2d4fa7: {Name: Ear2.R_end, Depth: 9}
+    f8c097c898e994b1f3803926288079d9: {Name: UpperLegFront.L, Depth: 2}
+    e364a3a36ffa52c84dd2610d66ddfd74: {Name: LowerLegFront.L, Depth: 3}
+    488b701209aeb829258a0fc4e40f8547: {Name: FootFront.L, Depth: 4}
+    30392f4f24a0ed8b0bb9914f26c1a3b3: {Name: FootFront.L_end, Depth: 5}
+    0ef5cc5c65a3ef9691ad88b1ded90117: {Name: UpperLegBack.L, Depth: 2}
+    2868e5b57a8e782d3bc37f3c1f44bc1f: {Name: MidLegBack.L, Depth: 3}
+    d8038daa339254554a11b6a54cdd2cc0: {Name: LowerLegBack.L, Depth: 4}
+    7f26d42580589875a3fee8f52dd43661: {Name: FootBack.L, Depth: 5}
+    e301192ef017c4344db3b046998bec33: {Name: FootBack.L_end, Depth: 6}
+    9ffc37897a2cc5b41f5e6a4b07cc3644: {Name: UpperLegFront.R, Depth: 2}
+    99fb758597e9ffa42f74f177158a1132: {Name: LowerLegFront.R, Depth: 3}
+    03996e7a130de9f015b976eaf0507ecd: {Name: FootFront.R, Depth: 4}
+    75e7768eef4b08beb2372bc751b93f2b: {Name: FootFront.R_end, Depth: 5}
+    0d718126c179ecf11dfe684c9d63d118: {Name: UpperLegBack.R, Depth: 2}
+    a158c06735235c6106563458e7751a88: {Name: MidLegBack.R, Depth: 3}
+    d98d8829397c1498ec65d537b87148ed: {Name: LowerLegBack.R, Depth: 4}
+    ab1d4679de827d0fdc9420c1e0e487f6: {Name: FootBack.R, Depth: 5}
+    6f9bf5619bf094e99d3d950dd3d2315e: {Name: FootBack.R_end, Depth: 6}
+    147900538d325dc3a33dca5c36082492: {Name: Cylinder, Depth: 1}
+    07731d07449924b1ece482565a8e89a1: {Name: Lamp, Depth: 1}
+    15f33435256ef33db1c835de1509c602: {Name: Camera, Depth: 1}
+~SourceHashes:
+    8a7d8ec314821ef3d05e508f1ef9d87a~Wolf - Rigged.fbx: 862c37f4fa0afe0e80ed2fbfcc274c10

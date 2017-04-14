@@ -1,0 +1,18 @@
+!Model
+Id: 9b9b41df-42b8-43ea-b005-65b7902c9f9e
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Tree1, Tall_Fat2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    26e396838442c2c92747c0e729d630b0:
+        Name: Tall&Fat,Bark2
+        MaterialInstance:
+            Material: 8de4c26b-4cf1-4a3f-a84a-84670c38d57e:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tall&Fat,Bark2
+    27fab27008589b31d5a75be001364392:
+        Name: Tall&Fat,Leaves2
+        MaterialInstance:
+            Material: 718fd824-2757-44b8-8521-586a3e8d3eff:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tall&Fat,Leaves2
+Skeleton: 0284a7ea-012b-48ed-a4d4-c0cd3592be60:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree1, Tall_Fat2 Skeleton
+~SourceHashes:
+    c822d9ff1f26b1019a0ae858ca042350~Tree1, Tall_Fat2.fbx: f74be32031de336a3da71ba92c09806b

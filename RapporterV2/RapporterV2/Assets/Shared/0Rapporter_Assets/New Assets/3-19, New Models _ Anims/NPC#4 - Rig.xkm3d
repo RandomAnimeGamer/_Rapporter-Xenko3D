@@ -1,0 +1,30 @@
+!Model
+Id: 9d863682-75af-4ef7-9102-3c4fc6222479
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: NPC#4 - Rig.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    628372ffb6d4627b75b2b7a4bf71070f:
+        Name: NPC4Skin
+        MaterialInstance:
+            Material: 17f50dba-1204-4e4a-81d6-78db885e0e14:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC4Skin
+    cfe3307f64458d1a7a8ce0443f8a450f:
+        Name: NPC4Tank
+        MaterialInstance:
+            Material: d2d1809e-dda7-4ae2-9339-4f832b8734b1:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC4Tank
+    b14cae8f7a3748d207615d8f89387cb8:
+        Name: NPC4Pants
+        MaterialInstance:
+            Material: f38b5bf5-0c15-4607-9c67-b61ee8f71610:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC4Pants
+    2b77aa2379f0c25cddcaac0cb2010f5c:
+        Name: NPC4Shoes
+        MaterialInstance:
+            Material: 78fec94d-09db-4fae-827d-0f79e87669a3:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC4Shoes
+    59555ef070b43696cf59a6d44d95901f:
+        Name: NPC4Hair
+        MaterialInstance:
+            Material: 56726ea5-7c3b-4495-87bc-c41565b224d5:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC4Hair
+Skeleton: 0aac6bdf-6f38-4ed8-85df-efd3e66fa6f2:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#4 - Rig Skeleton
+~SourceHashes:
+    b91fc0020b05fc99cac8b16403369791~NPC#4 - Rig.fbx: 7f06e844a6f2bb3be0881070d8e95826

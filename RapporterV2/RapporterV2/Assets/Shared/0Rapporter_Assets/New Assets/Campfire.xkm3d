@@ -1,0 +1,26 @@
+!Model
+Id: c18dfa14-6618-492a-b402-5378372c76a6
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Campfire.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    7b25b25e36640dff6631e422bba851ba:
+        Name: Dirt
+        MaterialInstance:
+            Material: d7c3bf66-5389-4bcb-a05f-ef687b0d1331:0Rapporter_Assets/New Assets/Dirt_2
+    794b34664df75d7e66368d1db3f9f098:
+        Name: Dirt2
+        MaterialInstance:
+            Material: 0ee0e3c7-87e4-4713-badb-fde847096dff:0Rapporter_Assets/New Assets/Dirt2
+    2bf090d44c722ff9b8a301a62d709580:
+        Name: Dirt3
+        MaterialInstance:
+            Material: 84f8489d-b80f-4bd1-b241-1251864a6413:0Rapporter_Assets/New Assets/Dirt3
+    4f587ed5db1f418455253b37f16c6f48:
+        Name: Wood
+        MaterialInstance:
+            Material: 36a5f007-f7f7-4363-951b-df26f612c2e0:0Rapporter_Assets/New Assets/Wood_2
+Skeleton: 01433eeb-bb8a-465d-b7bf-ac5ac64f18e6:0Rapporter_Assets/New Assets/Campfire Skeleton
+~SourceHashes:
+    d075f006dec73a8fa7012ed598f99d4d~Campfire.fbx: 37a851ee1c22a5427fb1068f1f393260

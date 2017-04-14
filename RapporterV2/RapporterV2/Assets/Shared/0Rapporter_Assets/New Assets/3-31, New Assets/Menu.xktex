@@ -1,0 +1,6 @@
+!Texture
+Id: dc3c2159-43db-4540-b87f-b497a6c31b37
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: Menu.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

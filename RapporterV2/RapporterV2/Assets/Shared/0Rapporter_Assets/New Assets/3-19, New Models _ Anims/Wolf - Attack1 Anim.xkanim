@@ -1,0 +1,19 @@
+!Animation
+Id: 7cf7ecd7-bba3-4ce8-946a-30ebd6a4ffc5
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Wolf - Attack1 Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: null
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.2500000
+~SourceHashes:
+    60c3a57d928a8a9e8b1c48c6f208dd72~Wolf - Attack1 Anim.fbx: 48c4a5b100a4408cfd316177ebec50f2

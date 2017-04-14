@@ -1,0 +1,22 @@
+!Model
+Id: 9454805f-3dc4-45f3-9e33-6c2f9038032b
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Updated, Square Water.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    0d3c5b5039370f5bfde12e090d012ad7:
+        Name: Ground
+        MaterialInstance:
+            Material: 493d4d89-944f-4ec5-915b-83162adfc959:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Ground
+    f29b9305ad61dd36447ab888727e7012:
+        Name: Ground2
+        MaterialInstance:
+            Material: f043a804-1e46-4639-9ff3-21e617745fbb:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Ground2
+    efcc17ac2ab1f45ae352f064f2822fc1:
+        Name: Water
+        MaterialInstance:
+            Material: 9b4e87cc-db0e-4281-a35d-5bed70c775a7:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Water
+Skeleton: 790fa911-ea92-4027-ad3b-38ed9773710b:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Updated, Square Water Skeleton
+~SourceHashes:
+    de9abd4749f781db6906f42da1a8938c~Updated, Square Water.fbx: 7576f426de49f6aae08b5e201a75f14f

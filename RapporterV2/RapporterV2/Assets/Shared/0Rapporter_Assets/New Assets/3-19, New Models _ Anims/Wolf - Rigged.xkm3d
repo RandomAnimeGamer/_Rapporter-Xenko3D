@@ -1,0 +1,18 @@
+!Model
+Id: d1991e46-70d3-45d4-b421-e7fbe2918d6a
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Wolf - Rigged.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    051eff84bc8068110461352035956af0:
+        Name: WolfBody
+        MaterialInstance:
+            Material: a7fa59af-dc05-4bf5-a12e-43d83bd46d24:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/WolfBody
+    877eeceaa16af2f1de438c0c2ffee858:
+        Name: Material.001
+        MaterialInstance:
+            Material: 0a335fec-8038-4569-8429-a92859733384:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/Material.001
+Skeleton: 0853eed1-a051-46ae-86b0-47bd88da9d2b:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/Wolf - Rigged Skeleton
+~SourceHashes:
+    9a74a1e8f5a75ac83d49e4431bbc28fd~Wolf - Rigged.fbx: 862c37f4fa0afe0e80ed2fbfcc274c10

@@ -1,0 +1,18 @@
+!Model
+Id: edb23448-f483-47d2-bff2-475d833c71fb
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Tree2, Tall_Skinny2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    eaa7caa12cded48b969333c71e6a55fd:
+        Name: Tall&SkinnyBark2
+        MaterialInstance:
+            Material: e6d0b5af-313a-4cba-bddd-9b1988fd129f:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tall&SkinnyBark2
+    18c306072969abeb8e33d884486ebf65:
+        Name: Tall&SkinnyLeaves2
+        MaterialInstance:
+            Material: 80e207b0-8497-46a5-ab2b-27f43b4f496c:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tall&SkinnyLeaves2
+Skeleton: f61d7a7f-4729-4aa3-8dda-a56420e97049:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, Tall_Skinny2 Skeleton
+~SourceHashes:
+    cc651e03460ad7538249cf865e81e37f~Tree2, Tall_Skinny2.fbx: bbcd619739cb0248af240240f1045287

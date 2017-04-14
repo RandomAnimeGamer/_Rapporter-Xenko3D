@@ -1,0 +1,19 @@
+!Animation
+Id: fc53661d-ee67-42c7-8b5e-67c1219ab3ae
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Demonic Deer - Idle Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 8b432a74-d756-41ff-867b-247fe3c9caef:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Rigged Skeleton
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:06.2920000
+~SourceHashes:
+    26466c2a6a0b995734f5f1b1b8245271~Demonic Deer - Idle Anim.fbx: 2336d268de99eb57544b33170254ed22

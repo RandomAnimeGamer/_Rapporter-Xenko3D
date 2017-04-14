@@ -1,0 +1,22 @@
+!Model
+Id: 398c16af-7ae7-43b5-ab4b-27d03c99f286
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Updated, Circle Water.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    7b063a5982bcf9df6dc8898f7a89d5cf:
+        Name: Ground
+        MaterialInstance:
+            Material: 081b020a-575f-4f31-929b-5385374540f4:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Ground_2
+    2d097cff891e664902072139cb184965:
+        Name: Ground2
+        MaterialInstance:
+            Material: ab9e058f-8e84-43a4-8ab8-4df3aef716c8:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Ground2_2
+    6678752af0ff2e133e4162738361d1ce:
+        Name: Water
+        MaterialInstance:
+            Material: 39bc9732-fd0e-41b6-93fc-147d4bf37e40:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Water_2
+Skeleton: e65e5272-b3f9-4c12-9fe0-c0ca077654fb:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Updated, Circle Water Skeleton
+~SourceHashes:
+    0d0ca720b47344f560c970a2a0c35ec2~Updated, Circle Water.fbx: 990c2a5a9724b26489867d274e0cbee7

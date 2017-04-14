@@ -1,0 +1,18 @@
+!Model
+Id: 057ee3b6-58d6-4b0d-821b-5c56ec6c90de
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Tree1, Short_Fat2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d92a9e11e227945edf9d0d79b8fe4262:
+        Name: Short&Fat,Bark2
+        MaterialInstance:
+            Material: 5c5fdd7f-5354-4af8-977c-d237e1d3ab68:0Rapporter_Assets/New Assets/4-5, Tree Variations/Short&Fat,Bark2
+    ae82d08408d79fa8c763227e28902b09:
+        Name: Short&Fat,Leaves2
+        MaterialInstance:
+            Material: 0d9aaf1c-3c06-4fa4-968d-dd137f27803f:0Rapporter_Assets/New Assets/4-5, Tree Variations/Short&Fat,Leaves2
+Skeleton: 07804d53-9cf2-4fe5-a068-3f33f87461f7:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree1, Short_Fat2 Skeleton
+~SourceHashes:
+    2ff923d8abc0c4aecbb05b6a9e2d1977~Tree1, Short_Fat2.fbx: e3f5cbeded64da04b770f8656caf4220

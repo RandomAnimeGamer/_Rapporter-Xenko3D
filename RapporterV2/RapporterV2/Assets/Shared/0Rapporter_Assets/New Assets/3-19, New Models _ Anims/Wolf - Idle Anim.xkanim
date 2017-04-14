@@ -1,0 +1,19 @@
+!Animation
+Id: 5b6b652a-ca89-433e-80b8-bb32ac622cb8
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Wolf - Idle Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: null
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:00.0420000
+~SourceHashes:
+    aab75b50a0cd24c50d2cd4afa2de3197~Wolf - Idle Anim.fbx: 72a100d1845077058769950dd6911033

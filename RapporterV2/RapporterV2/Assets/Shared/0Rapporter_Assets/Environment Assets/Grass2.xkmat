@@ -5,7 +5,7 @@ Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeColor
-            Value: {R: 0.3288655, G: 0.5815, B: 0.279846877, A: 1.0}
+            Value: {R: 0.385537475, G: 0.894, B: 0.415228844, A: 1.0}
     DiffuseModel: !MaterialDiffuseCelShadingModelFeature
         FakeNDotL: 0.0
         RampFunction: !MaterialCelShadingLightDefault

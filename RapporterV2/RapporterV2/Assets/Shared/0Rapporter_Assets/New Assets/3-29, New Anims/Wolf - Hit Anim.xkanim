@@ -1,0 +1,19 @@
+!Animation
+Id: 07ff340c-5a90-4e95-acf2-64c3ab308556
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Wolf - Hit Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:00:01.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: null
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.0000000
+~SourceHashes:
+    635dd91ea918ff6f51987e7b5587bc15~Wolf - Hit Anim.fbx: 62a7f3469b5e688a01b9d5d6ad293287

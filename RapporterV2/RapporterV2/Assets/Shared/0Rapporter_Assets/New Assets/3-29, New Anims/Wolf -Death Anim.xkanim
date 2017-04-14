@@ -1,0 +1,19 @@
+!Animation
+Id: ff5387e2-bd13-4832-a658-b8d45c12ef28
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Wolf -Death Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:00:01.6670000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: null
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.6670000
+~SourceHashes:
+    a00d96f7dcbcaa2b3d2baf9236c153b1~Wolf -Death Anim.fbx: 049c71b2547fe7d70cee561a39b09bf6

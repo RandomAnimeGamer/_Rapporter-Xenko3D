@@ -1,0 +1,19 @@
+!Animation
+Id: 3c0145f6-c359-4ef2-b62c-3fdeb2e5e7ba
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Demonic Deer - Walk Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 8b432a74-d756-41ff-867b-247fe3c9caef:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Rigged Skeleton
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:00.0420000
+~SourceHashes:
+    e8687ed99ca250c1ea862178154d1dbb~Demonic Deer - Walk Anim.fbx: 5fb43b1ecd3833c0a03865954f42b417

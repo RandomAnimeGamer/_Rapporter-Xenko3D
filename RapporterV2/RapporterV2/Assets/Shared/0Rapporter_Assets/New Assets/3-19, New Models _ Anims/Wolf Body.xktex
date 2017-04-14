@@ -1,0 +1,7 @@
+!Texture
+Id: efe13d57-f1ec-4f71-b409-e83d1cc38dd6
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: Wolf Body.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+PremultiplyAlpha: false

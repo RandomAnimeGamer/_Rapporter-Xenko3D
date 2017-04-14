@@ -1,0 +1,18 @@
+!Model
+Id: f101a75e-9bcb-4112-be6f-d91c5a9e461e
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Tree2, Short_Skinny2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c59939720ffcc78069debb87c56a5ad7:
+        Name: Short&Skinny,Bark2.2
+        MaterialInstance:
+            Material: 01f639c2-2fea-4295-af38-82b6cdc21578:0Rapporter_Assets/New Assets/4-5, Tree Variations/Short&Skinny,Bark2.2_2
+    955d5cbbb4f44e23bde557a98afca2c0:
+        Name: Short&Skinny,Leaves2.2
+        MaterialInstance:
+            Material: 48d0daec-ca95-44e2-96e1-d8764e2bcd2b:0Rapporter_Assets/New Assets/4-5, Tree Variations/Short&Skinny,Leaves2.2_2
+Skeleton: f8896d69-90b5-4bce-b6ec-f15a49720fd9:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, Short_Skinny2 Skeleton
+~SourceHashes:
+    e981ca560db12054dbb47bc79f906178~Tree2, Short_Skinny2.fbx: 28483d61a7c7ba4d7fe1a5103f3e61c2

@@ -1,0 +1,42 @@
+!Skeleton
+Id: 8b432a74-d756-41ff-867b-247fe3c9caef
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Demonic Deer - Rigged.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    8bc107f2267c9f83c41438242ff9dcbe: {Name: RootNode, Depth: 0}
+    9322af0304f5a91a422778cf43bffa35: {Name: Armature, Depth: 1}
+    b533703c8162b9da4187a7717d8f7704: {Name: Body Last, Depth: 2}
+    585ac8c829cde8df3fadc8d4270ada4f: {Name: Body Mid, Depth: 3}
+    741cb040803ae13c67ef46fd56482288: {Name: Body First, Depth: 4}
+    e07756d75173cfc8bdf5ac2225badf40: {Name: Neck2, Depth: 5}
+    330b79b7c9e72e6d9f5231108e3c0a7f: {Name: Neck1, Depth: 6}
+    14a8224be8690921efa81d6653cd4366: {Name: Head, Depth: 7}
+    66d587020735881aa1cee15dfaeb7c31: {Name: Head_end, Depth: 8}
+    b3a8a7d49937a51f356990a3047d3be9: {Name: UpperLegFront.L, Depth: 5}
+    339de0a2673d5908558548880a1a448d: {Name: LowerLegFront.L, Depth: 6}
+    5555f1fb25e86abaa72ef1be80380bee: {Name: FootFront.L, Depth: 7}
+    d69d334bacecdab8254ec7edf45e6ba6: {Name: FootFront.L_end, Depth: 8}
+    75bcd3e348b21790af357abc36eb587a: {Name: FrontLegIK.L, Depth: 7}
+    d9aff97c6f9edc8eb47d84927c3de203: {Name: FrontLegIK.L_end, Depth: 8}
+    5b6c05041a3911d8b42438f8eac2a6a6: {Name: UpperLegFront.R, Depth: 5}
+    6749c0dc4e3a507b8f8a8600971394e3: {Name: LowerLegFront.R, Depth: 6}
+    1c90946485d2fa8b2f11867ce86c15fd: {Name: FootFront.R, Depth: 7}
+    7c1ba41efb86826b2a6067ff842c19ce: {Name: FootFront.R_end, Depth: 8}
+    e9591c549fba071d06191f3d2ffbf091: {Name: FrontLegIK.R, Depth: 7}
+    bc980390b28cf3e84590856d22066d19: {Name: FrontLegIK.R_end, Depth: 8}
+    96072e18ddd8f8fb64ace1ba8b85f4ed: {Name: UpperLegBack.L, Depth: 3}
+    89c73912cba13d9274f77e3f29de9360: {Name: LowerLegBack.L, Depth: 4}
+    6aaf39e267196bf0489857e5510e8906: {Name: FootBack.L, Depth: 5}
+    a006805e2b28cf3a4f054be4013f35d7: {Name: FootBack.L_end, Depth: 6}
+    24e2430a2b9405a6a9d9abcc60744b65: {Name: UpperLegBack.R, Depth: 3}
+    e27f4b8ada89339b6c9eef8dafa00661: {Name: LowerLegBack.R, Depth: 4}
+    016f1ee5b948943879b25bb390e9e58b: {Name: FootBack.R, Depth: 5}
+    1041c97ebd7a5ad0b971af1119fe8413: {Name: FootBack.R_end, Depth: 6}
+    eab6217f0b2dd732c6083e2871c33d13: {Name: Body, Depth: 1}
+    517c1978f07a5d346e396fd2e1ee7328: {Name: Sun, Depth: 1}
+    1834cb3b5f9e7c0c20dfc1a128ee147a: {Name: Lamp, Depth: 1}
+    00e27a97672c4d63213af33b7d7b5770: {Name: Camera, Depth: 1}
+~SourceHashes:
+    3f87327d32b58c76c468770d5aa71499~Demonic Deer - Rigged.fbx: 61ddd3d650a0f10a0758bd78fb9274c3

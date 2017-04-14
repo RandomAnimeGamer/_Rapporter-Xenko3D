@@ -56,10 +56,10 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         if(doneJumping) jumpForce=-0.2f;
 
         var moveDirection = Vector2.Zero;
-        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX * 2;
-        if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX * 2;
-        if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY * 2;
-        if (KeysDown.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitY * 2;
+        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX * 50;
+        if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX * 50;
+        if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY * 50;
+        if (KeysDown.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitY * 50;
         
         var worldSpeed = (Camera != null)//Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
             ? Utils.LogicDirectionToWorldDirection(moveDirection, Camera, Vector3.UnitY) + new Vector3(0, jumpForce, 0)

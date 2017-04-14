@@ -1,0 +1,13 @@
+!Skeleton
+Id: f5ef536d-948e-4412-8d27-a7200c913db3
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Bear Trap.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    bce43a99c47c1a32226c29b87017b7d8: {Name: RootNode, Depth: 0}
+    88eabcd3d66ea72db819cf47e8e47f00: {Name: Cylinder, Depth: 1}
+    547d5caa92c3201d20697da7b17d8640: {Name: Lamp, Depth: 1}
+    99c63ff086a060eb6069e78a5750dd74: {Name: Camera, Depth: 1}
+~SourceHashes:
+    302940774ada382570886f6ab2f310b3~Bear Trap.fbx: 7ed0d722470a2fe32df9922764546153
