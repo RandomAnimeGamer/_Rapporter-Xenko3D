@@ -1,0 +1,15 @@
+!Skeleton
+Id: e65e5272-b3f9-4c12-9fe0-c0ca077654fb
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Updated, Circle Water.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    f35ae54eba50f1a756f550538ee1e9b7: {Name: RootNode, Depth: 0}
+    d14fece7f32f461e471b524392f9f501: {Name: Circle.001, Depth: 1}
+    b383a93ed968ade096227a77e03005bc: {Name: Circle, Depth: 1}
+    347cfc3c9cdf3f53428f1b3518988d1a: {Name: Sun, Depth: 1}
+    6219b4529ff44f70b48c636adac621f2: {Name: Lamp, Depth: 1}
+    6ad01d2cbddd97dd966e816b607c4c02: {Name: Camera, Depth: 1}
+~SourceHashes:
+    35cc700e5f447b3ceded87731f3fe96a~Updated, Circle Water.fbx: 990c2a5a9724b26489867d274e0cbee7

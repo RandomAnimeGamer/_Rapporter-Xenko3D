@@ -1,0 +1,50 @@
+!Skeleton
+Id: 0aac6bdf-6f38-4ed8-85df-efd3e66fa6f2
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: NPC#4 - Rig.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    58a59511e136629f735d8b9419cdc4a4: {Name: RootNode, Depth: 0}
+    951f908d911122beb7d6755be1e884d5: {Name: Armature, Depth: 1}
+    a841d225adf187eb541573a827f54a35: {Name: Root, Depth: 2}
+    3ed7d31587ec494a1b7ee95391e19605: {Name: Base, Depth: 3}
+    5e63700d57a83cba3704387c81d79903: {Name: Stomach, Depth: 4}
+    b979109babe69af6835682758fb6c81c: {Name: Chest, Depth: 5}
+    e74225bc5515b02e22e79e88d9ef95d9: {Name: Neck, Depth: 6}
+    60d4493604c072cdcd468924024c75f2: {Name: Head, Depth: 7}
+    28f2a83b9b73ec0b485981ade2e4bdc1: {Name: Head_end, Depth: 8}
+    04135f2602f0d3a91e244aed48b1ae84: {Name: Collar.L, Depth: 6}
+    ca0d87af3428dd52842e82a31b0f8b45: {Name: Upper Arm.L, Depth: 7}
+    2429922e7335508731ea884b11653920: {Name: Lower Arm.L, Depth: 8}
+    ecc6d5fed8ce9796f3106144afb19fea: {Name: Palm.L, Depth: 9}
+    d37f23f79c50b0495eaa8db1957330ec: {Name: Fingers.L, Depth: 10}
+    41040d9240cf407466c7100d996ccb15: {Name: Fingers.L_end, Depth: 11}
+    2144cd56625f3922cd08e35b58a2a177: {Name: Collar.R, Depth: 6}
+    de5623418a8c404c8ad002e7b485ecf4: {Name: Upper Arm.R, Depth: 7}
+    161847afa7e84735fe839a9991081d7f: {Name: Lower Arm.R, Depth: 8}
+    98d8c05dcfab41395bb0460e2424e08c: {Name: Palm.R, Depth: 9}
+    81e50609f53a4d50d735bd182c46a2f2: {Name: Fingers.R, Depth: 10}
+    fa68cab6ef7fbddd1dc7268f319f53ad: {Name: Fingers.R_end, Depth: 11}
+    619fcb156c4ae6a20e52068601640dd9: {Name: Pelvis, Depth: 4}
+    38f45953977f17faaa7422f89e281800: {Name: Thigh.L, Depth: 5}
+    835cda68e9dedd67a12ca01afb19ca45: {Name: Lower Leg.L, Depth: 6}
+    b51050573077891ee3a138273b488aee: {Name: Foot.L, Depth: 7}
+    39bd85618205f3022f02c64223fa0d20: {Name: Toe.L, Depth: 8}
+    fda027593e175bae8a3ff8ddd0ac4ea4: {Name: Toe.L_end, Depth: 9}
+    51c761e6879867f38e766f712f7842c7: {Name: Thigh.R, Depth: 5}
+    56564909569c2473613dbadd42fc7689: {Name: Lower Leg.R, Depth: 6}
+    db3643c0a61212f68a26bd3be99aa54f: {Name: Foot.R, Depth: 7}
+    fc3abd324b9a718ad089897528aa1a90: {Name: Toe.R, Depth: 8}
+    20a1696a77351c469df1397f36d6c695: {Name: Toe.R_end, Depth: 9}
+    76a82d6efafe5ccbd43aff0584a8d3d5: {Name: IK Leg.L, Depth: 3}
+    19fca394d9e08219a9ef16f27db6883f: {Name: IK Knee.L, Depth: 4}
+    73f4760db2ff4f3eb6ac291f6d66890e: {Name: IK Knee.L_end, Depth: 5}
+    b1ed009f8a224989b91127e2401ff06c: {Name: IK Leg.R, Depth: 3}
+    24f49775f07f3f524efbc8603c110b21: {Name: IK Knee.R, Depth: 4}
+    87597cb8813c8a3a3b6a8d2328e17abb: {Name: IK Knee.R_end, Depth: 5}
+    93fb2cd0d055f80e9574549f1b4a7553: {Name: Bob, Depth: 1}
+    93bf74298dd38f29a54d688e6b2fbaf1: {Name: Lamp, Depth: 1}
+    a8b0892519611ec943f5df988ff0a56a: {Name: Camera, Depth: 1}
+~SourceHashes:
+    3d5d2fde4075794c933900f07b9db2a0~NPC#4 - Rig.fbx: 7f06e844a6f2bb3be0881070d8e95826

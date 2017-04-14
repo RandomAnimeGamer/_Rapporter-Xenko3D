@@ -1,0 +1,6 @@
+!Texture
+Id: b185b8ff-f364-4bb0-b5cd-f2a985b1f279
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: Health Bar Container.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

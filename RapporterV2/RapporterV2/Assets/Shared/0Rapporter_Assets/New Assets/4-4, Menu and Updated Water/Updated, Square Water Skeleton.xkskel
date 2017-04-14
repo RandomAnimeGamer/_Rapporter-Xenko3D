@@ -1,0 +1,15 @@
+!Skeleton
+Id: 790fa911-ea92-4027-ad3b-38ed9773710b
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Updated, Square Water.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    e42528b13b4c051b00e572524074997f: {Name: RootNode, Depth: 0}
+    d0a8811059b610ab06b01531aee9a89c: {Name: Plane.002, Depth: 1}
+    d966b4dec19f4c6d1e48a9918e1e752a: {Name: Sun, Depth: 1}
+    35dbc991b6e8e2251a7c0d96ab7299e4: {Name: Plane, Depth: 1}
+    e91df9d2223c9ae9cc56a1d541e37c5c: {Name: Lamp, Depth: 1}
+    e8642703d2b231ad238c89899e02a4c6: {Name: Camera, Depth: 1}
+~SourceHashes:
+    837f31d334380ae8f4a55ecb510c5c6e~Updated, Square Water.fbx: 7576f426de49f6aae08b5e201a75f14f

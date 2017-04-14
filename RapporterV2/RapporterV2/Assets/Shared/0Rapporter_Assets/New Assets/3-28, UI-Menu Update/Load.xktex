@@ -1,0 +1,6 @@
+!Texture
+Id: 141eb5f8-e5ef-4487-b1bf-7e0879724b71
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: Load.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

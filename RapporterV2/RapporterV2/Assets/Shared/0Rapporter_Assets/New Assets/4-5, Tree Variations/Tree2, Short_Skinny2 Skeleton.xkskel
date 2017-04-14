@@ -1,0 +1,13 @@
+!Skeleton
+Id: f8896d69-90b5-4bce-b6ec-f15a49720fd9
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Tree2, Short_Skinny2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2ec5586d0fbf070520e4913fdf6d41f6: {Name: RootNode, Depth: 0}
+    de97b983ee9b303171035381d8e49e52: {Name: Tree2, Depth: 1}
+    88d88a9a1656f09b4b64ae3537fd4011: {Name: Lamp, Depth: 1}
+    836ce25e08d49fbd5024456cb7e9a745: {Name: Camera, Depth: 1}
+~SourceHashes:
+    8a1d6855ea3a492efe8d1819f809408b~Tree2, Short_Skinny2.fbx: 28483d61a7c7ba4d7fe1a5103f3e61c2

@@ -3,21 +3,20 @@ Id: 8e426939-a539-42a4-a7fb-35430b29ca6e
 SerializedVersion: {Xenko: 1.4.0-beta}
 Tags: []
 Attributes:
-    MicroSurface: !MaterialGlossinessMapFeature
-        GlossinessMap: !ComputeFloat
-            Value: 0.5
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeTextureColor
-            Texture: 503aa0c8-8fbd-4ffa-94b2-2c0c52d9debd:Textures/CheckerGrid1x1
+            Texture: c455beb8-3cc0-4b4f-9eb8-a7f448621aed:0Rapporter_Assets/Forest Map/grass
             FallbackValue:
                 Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-            Scale: {X: 1.0, Y: 1.0}
+            Scale: {X: 50.0, Y: 50.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}
-    Specular: !MaterialMetalnessMapFeature
-        MetalnessMap: !ComputeFloat
-            Value: 0.5
+    Specular: !MaterialSpecularMapFeature
+        SpecularMap: !ComputeColor
+            Value: {R: 0.0, G: 0.0, B: 0.0, A: 1.0}
+        Intensity: !ComputeFloat
+            Value: 1.0
     SpecularModel: !MaterialSpecularMicrofacetModelFeature
         Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
         Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}

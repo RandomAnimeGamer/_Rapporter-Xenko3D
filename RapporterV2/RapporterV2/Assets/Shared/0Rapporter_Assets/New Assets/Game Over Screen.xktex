@@ -1,0 +1,6 @@
+!Texture
+Id: dd6eb1fd-f461-4d38-ab57-5c0bffe6a7b5
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: Game Over Screen.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,19 @@
+!Animation
+Id: 128093b9-f655-47ad-abb8-54cb75727bd8
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: NPC#4 - Walk Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: null
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.2500000
+~SourceHashes:
+    e531aeb9c8a1ef13396faa050cd6c063~NPC#4 - Walk Anim.fbx: bef4820109e9c19353d9709fcda40dc8

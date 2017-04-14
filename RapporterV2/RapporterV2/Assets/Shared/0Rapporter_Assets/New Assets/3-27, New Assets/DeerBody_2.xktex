@@ -1,0 +1,6 @@
+!Texture
+Id: c9bc04f6-1247-45ac-8387-f1b3b34b67e7
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: DeerBody.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

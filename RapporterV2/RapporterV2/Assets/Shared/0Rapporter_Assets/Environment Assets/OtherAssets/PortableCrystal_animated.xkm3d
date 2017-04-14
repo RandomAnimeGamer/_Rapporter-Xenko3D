@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 4e3c29eb-a198-4dab-8883-39c13f8819cf:0Rapporter_Assets/Environment Assets/OtherAssets/Material.001_3
 Skeleton: 86146f77-ccec-4426-80b9-69f5878aeac5:0Rapporter_Assets/Environment Assets/OtherAssets/PortableCrystal_animated Skeleton
+~SourceHashes:
+    4d3e598d8f8ff02467eb33af19d05e56~PortableCrystal_animated.FBX: 2ec8cba8785ea7676dc4307231f6d28c

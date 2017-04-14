@@ -10,7 +10,7 @@ ClipDuration:
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 RepeatMode: LoopInfinite
 Type: !StandardAnimationAssetType {}
-Skeleton: null
+Skeleton: 60eab2b7-1e15-495e-bdb3-99e6b34f4e09:0Rapporter_Assets/3_3_17/NPC#2 - Rig Skeleton
 RootMotion: false
 PreviewModel: null
 AnimationTimeMinimum: 0:00:00:00.0000000

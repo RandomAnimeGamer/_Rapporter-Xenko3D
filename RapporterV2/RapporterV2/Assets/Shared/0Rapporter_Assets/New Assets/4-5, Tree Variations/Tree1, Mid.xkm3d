@@ -1,0 +1,18 @@
+!Model
+Id: 216ee4ac-1678-475e-845c-5953b35d6ec5
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Tree1, Mid.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    882e213490ee3c1779c5deff1a987761:
+        Name: MidBark
+        MaterialInstance:
+            Material: a9a6610d-264d-4fd6-89eb-4a40fa3bb093:0Rapporter_Assets/New Assets/4-5, Tree Variations/MidBark
+    10ff2817af5c2b2e38cc1da2ce1f91db:
+        Name: MidLeaves
+        MaterialInstance:
+            Material: d96579e9-eece-462f-bf18-66f8e187d89e:0Rapporter_Assets/New Assets/4-5, Tree Variations/MidLeaves
+Skeleton: cc0a234c-742a-4b43-87ff-563bee976277:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree1, Mid Skeleton
+~SourceHashes:
+    01f51c24a786679d7e5687bee58afa63~Tree1, Mid.fbx: ed3493c8aedf5a53e732415cea06a9a1

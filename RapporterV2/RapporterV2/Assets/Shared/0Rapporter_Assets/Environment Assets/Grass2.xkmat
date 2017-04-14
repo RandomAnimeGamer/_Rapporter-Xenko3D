@@ -5,17 +5,47 @@ Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeColor
-            Value: {R: 0.2888703, G: 0.60025, B: 0.349883974, A: 1.0}
-    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+            Value: {R: 0.385537475, G: 0.894, B: 0.415228844, A: 1.0}
+    DiffuseModel: !MaterialDiffuseCelShadingModelFeature
+        FakeNDotL: 0.0
+        RampFunction: !MaterialCelShadingLightDefault
+            IsBlackAndWhite: false
     Specular: !MaterialSpecularMapFeature
+        Enabled: false
         SpecularMap: !ComputeColor
-            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Value: {R: 0.0, G: 1.0, B: 0.0625, A: 1.0}
         Intensity: !ComputeFloat
             Value: 1.0
+        IsEnergyConservative: false
     SpecularModel: !MaterialSpecularMicrofacetModelFeature
         Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
         Visibility: !MaterialSpecularMicrofacetVisibilityImplicit {}
-        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionBlinnPhong {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionBeckmann {}
+    Occlusion: !MaterialOcclusionMapFeature
+        Enabled: false
+        AmbientOcclusionMap: !ComputeTextureScalar
+            Texture: c455beb8-3cc0-4b4f-9eb8-a7f448621aed:0Rapporter_Assets/Forest Map/grass
+            FallbackValue:
+                Value: 1.0
+            Channel: A
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DirectLightingFactor: !ComputeFloat
+            Value: 0.0
+        CavityMap: !ComputeTextureScalar
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DiffuseCavity: !ComputeFloat
+            Value: 1.0
+        SpecularCavity: !ComputeFloat
+            Value: 1.0
+    Emissive: !MaterialEmissiveMapFeature
+        EmissiveMap: !ComputeColor
+            Value: {R: 0.0, G: 0.0, B: 0.0, A: 1.0}
+        Intensity: !ComputeFloat
+            Value: 1.0
     Overrides:
         UVScale: {X: 1.0, Y: 1.0}
 Layers: {}

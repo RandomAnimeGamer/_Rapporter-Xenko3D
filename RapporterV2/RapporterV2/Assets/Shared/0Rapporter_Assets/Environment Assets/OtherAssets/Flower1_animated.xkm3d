@@ -42,3 +42,5 @@ Materials:
         MaterialInstance:
             Material: 24403eff-6ea2-4eb2-bd34-094dc62ca173:0Rapporter_Assets/Environment Assets/OtherAssets/Material.001
 Skeleton: 51c427db-126a-4591-aec1-c9e1b74f3e1b:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1_animated Skeleton
+~SourceHashes:
+    ec23a9b2ef30dfc6cca9c1d60a63f331~Flower1_animated.FBX: f15be7f410c1469f02eaeec187455a50

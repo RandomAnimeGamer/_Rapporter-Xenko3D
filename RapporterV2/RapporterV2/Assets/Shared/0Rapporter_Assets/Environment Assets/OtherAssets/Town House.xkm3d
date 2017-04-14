@@ -46,3 +46,5 @@ Materials:
         MaterialInstance:
             Material: c89621c5-e922-4f97-b4e9-2654e7e5f78b:0Rapporter_Assets/Environment Assets/OtherAssets/Roof
 Skeleton: 8360ccbe-bf09-4878-b613-ae0c15df337b:0Rapporter_Assets/Environment Assets/OtherAssets/Town House Skeleton
+~SourceHashes:
+    81b12939cf15a41636501882e269ce9b~Town House.fbx: 85b2c3eba1cb2c4d8fbc9a1ecdf66e33

@@ -1,0 +1,19 @@
+!Animation
+Id: 5f7e9d55-89df-4577-add1-e2626b1963ad
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: NPC#3 - Talk Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 3c900277-ee43-4fd1-a8ef-ed4269380080:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#3 - Rig Skeleton
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.3330000
+~SourceHashes:
+    263d417e3c10b9b7e3a18bd034787834~NPC#3 - Talk Anim.fbx: 7efb68f0e70d7b38e7e48cf596d24e24

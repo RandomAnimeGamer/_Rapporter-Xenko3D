@@ -1,0 +1,19 @@
+!Animation
+Id: a0b2a440-08f1-4416-a362-6a2ad875148d
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Wolf - Walk Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: null
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.7500000
+~SourceHashes:
+    85682197891a53b95835a18ab6b06aeb~Wolf - Walk Anim.fbx: c3ea42f499792cfb8d98dbf4ec2638ac

@@ -42,8 +42,6 @@ SceneSettings:
 Hierarchy:
     RootPartIds:
         - 54ae5828-6e50-4b94-b578-584c4ec71295
-        - 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
-        - abf0e468-d54f-4237-92b7-c852eb55dc19
         - 09143bb7-f329-43c6-b6d7-386e8c6925e9
         - ab344601-0807-4702-85ad-b93a4cb29df4
         - 0ec0d2ad-3ae5-43df-8dc5-5c9ae47e1556
@@ -57,6 +55,7 @@ Hierarchy:
         - d75effcb-f673-4d17-9b58-182b629c0065
         - e3987bea-5080-4e53-908e-722dcfb059c3
         - 7c55839d-c943-4e44-bb7b-f72c457563a9
+        - dfc5ff56-da55-4b48-81b6-5617a11096c3
         - ce285550-3174-4116-9439-0fc69462a4ec
         - 38c74b38-e242-4828-a36a-0205d83bbff3
         - 568a3e7f-6102-4785-a1b6-fa2549396ec1
@@ -68,9 +67,15 @@ Hierarchy:
         - b2cf1b01-e35a-4647-9a33-3576cbe499ca
         - 273674c7-a23e-488f-aeaa-7bb0541ad674
         - 9f48d668-3c89-4bfc-80f0-18ccbd87063e
+        - c46c7372-2305-4683-be15-1ffab57fecee
         - d18bc381-fb86-495f-8727-f336a8bfdf65
         - 923dc50b-5380-4194-a9cf-b8f2a66109fa
         - 03822c2d-7ea4-44f6-a200-5c06abc99ad5
+        - f72caf4e-ae55-43c3-9cdf-bd01ca274316
+        - 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
+        - 4482291b-7382-4439-9b10-0aa5b535a7ea
+        - 35be88e8-d83a-433b-bbcf-f0fb73be9fa6
+        - ab1f293d-2b4a-43c4-9b97-6372772dc2cc
     Parts:
         -   Folder: Environment
             Entity:
@@ -79,7 +84,7 @@ Hierarchy:
                 Components:
                     3f055b016ffe47d0ae8665732b7180ac: !TransformComponent
                         Id: f635d28b-86c5-48be-9754-d91af6367d5f
-                        Position: {X: -68.27596, Y: 0.380163431, Z: 18.8110027}
+                        Position: {X: -48.0, Y: 0.0, Z: 19.0}
                         Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -327,9 +332,9 @@ Hierarchy:
                 Components:
                     3a7129c6c99fe941872de7346e37fcd1: !TransformComponent
                         Id: c24d791e-85a4-4c26-93d1-f75c24c0c19b
-                        Position*: {X: -25.3613434, Y: -8.116638, Z: -3.42376852}
+                        Position*: {X: -16.2122955, Y: -8.116638, Z: -3.42376852}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale*: {X: 1.48295379, Y: 0.618674, Z: 1.0}
+                        Scale*: {X: 1.160494, Y: 0.618674, Z: 1.0}
                         Children: {}
                     96f8314f96d5543918e98fd684cd5ef6: !ModelComponent
                         Id: 98f0b0d4-436c-433d-aaff-9ea3ff5a93a2
@@ -449,6 +454,31 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: a8032e30-a0f9-4183-b2e1-838220120607
+        -   Entity:
+                Id: 142f1c96-b1cd-44c6-a41c-ca9c0f7c255f
+                Name: collider
+                Components:
+                    36784c813f4f34e90e76abc962fca878: !TransformComponent
+                        Id: cfce02ad-baa2-419d-bd44-5cb438dc39b4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4a0ed7e437bf36adb5228b410d93af5a: !StaticColliderComponent
+                        Id: 751fd336-61ed-4491-b4e1-3ce64430fda2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            75d464ed64c1e3f444095db0fa69a13a: !CapsuleColliderShapeDesc
+                                Length: 5.0
+                                Radius: 5.0
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: 1501d3be-c287-4fa3-97d1-436d44b29d2a
                 Name: Tree1
@@ -673,7 +703,28 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 16b14862-dcd1-41de-aeee-68dd0e82fc0f
-        -   Entity:
+        -   Folder: mainq dup
+            Entity:
+                Id: 1f18c285-288f-4f42-ad86-973e077cf04b
+                Name: QuestBox Text, Defeat Deer
+                Components:
+                    b45c3b8e5c66b5c5080837f335e97865: !TransformComponent
+                        Id: b13e1f83-61d4-486e-864a-e33ac654d6bd
+                        Position: {X: -0.121, Y: 0.028, Z: -0.123}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.007, Y: 0.007, Z: 1.0}
+                        Children: {}
+                    62a9186439f3796df88a65e8c4112300: !SpriteComponent
+                        Id: 0b062fcf-915c-4ccd-8152-f9adc78d40bb
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 503f9d1e-2b2c-4e60-b80f-66da3b054440:0Rapporter_Assets/QuestAssets/QuestBox Text, Defeat Deer
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    c11aa42e68a59cea832f29cfe0e14bfd: !RapporterV2.Quest.ScrollQuestText,RapporterV2.Game
+                        Id: c8ad2bd0-f308-40d6-a74a-78cf6c8517d1
+                        q: 2.0
+        -   Folder: NPCs
+            Entity:
                 Id: 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
                 Name: NPC1 - Rigged
                 Components:
@@ -708,7 +759,7 @@ Hierarchy:
                         ColliderShapes:
                             03f976b6bd68ecf5ba6d85c145491578: !BoxColliderShapeDesc
                                 Is2D: false
-                                Size: {X: 10.0, Y: 15.0, Z: 25.0}
+                                Size: {X: 5.0, Y: 15.0, Z: 15.0}
                                 LocalOffset: {X: 0.0, Y: 5.0, Z: 5.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     70e83e12c54097da430fa0642e3fc3a1: !RapporterV2.Player.NPCTalk,RapporterV2.Game
@@ -792,6 +843,7 @@ Hierarchy:
                         Children: {}
                     4198cc1d926fd047a67ae5f4f8bb2804: !SkyboxComponent
                         Id: 1dcc9841-6f92-47d0-a67a-e5f4f8bb2804
+                        Skybox: ae072483-d7f0-4fe4-bb0e-eafe8f7af41d:0Rapporter_Assets/Environment Assets/Skyboxes/Skybox
                         Intensity: 0.5
                     ac01fe8ecaadef41b216daac5718fc50: !LightComponent
                         Id: 8efe01ac-adca-41ef-b216-daac5718fc50
@@ -900,7 +952,7 @@ Hierarchy:
                 Components:
                     aee3b5d4109797b8d3a07f4b29688f64: !TransformComponent
                         Id: bc191daf-3ead-4eee-ab50-fab878689ce3
-                        Position: {X: -66.2994156, Y: 0.25405243, Z: -3.461751}
+                        Position*: {X: -45.8585663, Y: 0.25405243, Z: -10.78063}
                         Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
                         Scale: {X: 0.1, Y: 0.1, Z: 0.1}
                         Children: {}
@@ -978,6 +1030,48 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: e78b80d1-3741-4e84-9aba-5b8e1acaab57
+        -   Folder: NPCs
+            Entity:
+                Id: 35be88e8-d83a-433b-bbcf-f0fb73be9fa6
+                Name: NPC#3 - Rig
+                Components:
+                    894f5a9ae21d6908a66fb071104075ba: !TransformComponent
+                        Id: 420020bb-ed4a-4fdf-9080-bd785fb26482
+                        Position: {X: -34.688, Y: -0.02, Z: 7.938793}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children:
+                            9e3a54fc17d86f5d7e5dc496b87a6464: 142f1c96-b1cd-44c6-a41c-ca9c0f7c255f/cfce02ad-baa2-419d-bd44-5cb438dc39b4
+                    b693ff34175baed055b47f1c3757942b: !ModelComponent
+                        Id: ebff5b04-4d12-4d97-8ff4-35643619829f
+                        Model: c12b2805-1093-43b4-8d4c-6d829102e7fd:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#3 - Rig
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    2977671e69c1fd7fd408826b197b74e9: !AnimationComponent
+                        Id: 27d7fb9e-36b9-4ec9-81e8-3e49281cbe5d
+                        Animations:
+                            8162ac5b8d099ab15dd58c7cfa1e7a61~idle: e1621cc9-bd65-4952-b032-51597b91f4b3:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#3 - Idle Anim
+                            43a8481ee9f42c5d006e204f5979df39~talk: 5f7e9d55-89df-4577-add1-e2626b1963ad:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#3 - Talk Anim
+                    e46111e52625640b712ec9c0ed128be2: !StaticColliderComponent
+                        Id: 2f342652-5c7f-49a9-ab24-6bd763dcf5f5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            03f976b6bd68ecf5ba6d85c145491578: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 5.0, Y: 15.0, Z: 15.0}
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 5.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    a2beeae4dc245f55b406ac5f8ddde731: !RapporterV2.Player.NPCTalk,RapporterV2.Game
+                        Id: 086428d7-bb09-44f2-a810-89f53ca8021f
+                    e39b4e8cec667ef7d4ed97ef80891522: !RapporterV2.Animations.NPC1_Animations,RapporterV2.Game
+                        Id: 3a44007d-3b2d-4051-aa01-ea428ac7c020
         -   Entity:
                 Id: 36bc8c6c-e8fc-478c-b2a0-2ee48e91d66e
                 Name: Tree1
@@ -1310,6 +1404,48 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: a2ce7822-5b96-4056-8c6e-f7f9e42639e9
+        -   Folder: NPCs
+            Entity:
+                Id: 4482291b-7382-4439-9b10-0aa5b535a7ea
+                Name: NPC#2 - Rig
+                Components:
+                    bedb903109dc2e3f9ec65dba0896b519: !TransformComponent
+                        Id: 635e8284-aec0-45ed-b8fa-ce313cae8ce4
+                        Position: {X: -34.6884956, Y: -0.02, Z: -8.046581}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children:
+                            d3ef354e666585fc8444dca71c9f131e: ce913727-14ca-4ba2-9ea2-e65b960c1116/48dc72ed-8ac2-44fc-8ca7-6651a091a2f0
+                    11d56880d2aab406a7668bbe1be803e7: !ModelComponent
+                        Id: b471f2a6-77af-464b-b57e-dd63efea5b33
+                        Model: 41aea8a7-1f12-4e25-ad1c-75ed8bc1f150:0Rapporter_Assets/3_3_17/NPC#2 - Rig
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    5a00dea717bedaa8f0731a865c61bb1f: !AnimationComponent
+                        Id: a69a885f-8ded-44a8-8a1e-ab12298abcd4
+                        Animations:
+                            912b92dd98670554a998b8c48769005c~idle: f619bfa7-8c96-4e25-b2d7-c0e268517ea9:0Rapporter_Assets/3_3_17/NPC#2 - Idle Anim
+                            d6fa86494383974d03c3c21edb7f7fb4~talk: 9e34c7f9-bc0b-4f14-9e56-8fc7afcd6bb6:0Rapporter_Assets/3_3_17/NPC#2 - Talking Anim
+                    59cc4f8537eb6c0b1d1197cef2a68a99: !StaticColliderComponent
+                        Id: 6fc7b990-b9c6-4a7f-b215-325ad00226d4
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            03f976b6bd68ecf5ba6d85c145491578: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 5.0, Y: 15.0, Z: 15.0}
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 5.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    e0f801424bdca60596909228a92885cd: !RapporterV2.Player.NPCTalk2,RapporterV2.Game
+                        Id: 3a1a1591-288a-4aed-a6df-17f0ab643e9e
+                    40e43a0bfbb26ec90026dec7f655e963: !RapporterV2.Animations.NPC2_Animations,RapporterV2.Game
+                        Id: a3985668-dfc2-4444-abbe-6d3afb791e26
         -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 44f7245d-29ba-430d-bdbd-e230d5f57f49
@@ -1570,7 +1706,7 @@ Hierarchy:
                 Components:
                     458ac2590f953f4fb47242e21b3e420f: !TransformComponent
                         Id: 59c28a45-950f-4f3f-b472-42e21b3e420f
-                        Position: {X: -37.9699249, Y: 2.623771, Z: 0.150197029}
+                        Position: {X: -2.203594, Y: 0.584710658, Z: 0.150197029}
                         Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -1616,6 +1752,8 @@ Hierarchy:
                             2cc7eee4e446e46274bf786c297ff430: Space
                     a3b03f72556f8919de5f0678ee4920fe: !RapporterV2.DebugPhysicsShapes,RapporterV2.Game
                         Id: 34927009-64b8-42d5-9d4c-eebaebfd4e1b
+                    13a50c162c912a54d0caeed56bce6bb9: !RapporterV2.Quest.QuestManager,RapporterV2.Game
+                        Id: ecae009e-7326-40df-8ba1-15f76b665212
         -   Entity:
                 Id: 54faa231-cf60-4977-b438-4d1ef46b4d56
                 Name: Tree1
@@ -1960,7 +2098,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: c5ce81d0-46f9-4b32-9e58-22ca0d75e96e
-        -   Entity:
+        -   Folder: npc1diag
+            Entity:
                 Id: 64b7072e-9801-4186-8af4-afc367c6386e
                 Name: TextBoxText
                 Components:
@@ -1985,7 +2124,7 @@ Hierarchy:
                 Components:
                     a7f2166ed0dc55f765f819952fe98bc9: !TransformComponent
                         Id: fa347f95-0d6d-46a3-8a87-7ec7c3c7505d
-                        Position: {X: -67.6887, Y: 0.0, Z: -3.1313746}
+                        Position*: {X: -47.24785, Y: 0.0, Z: -10.4502544}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.25, Y: 0.25, Z: 0.25}
                         Children: {}
@@ -2376,7 +2515,7 @@ Hierarchy:
                 Components:
                     572041f82d503b5cf780b90ad7799ced: !TransformComponent
                         Id: 9c223310-33bc-4c94-bba1-4a4473bb0e6e
-                        Position: {X: 42.00061, Y: -2.04165339, Z: 19.4695969}
+                        Position*: {X: 22.1233711, Y: -2.04165339, Z: 33.2387962}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -2868,6 +3007,31 @@ Hierarchy:
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: d714795c-c513-4f1c-83be-7c220b7f9f4b
         -   Entity:
+                Id: 8845ad8f-18be-48ac-8401-53a1eb88dae2
+                Name: collider
+                Components:
+                    36784c813f4f34e90e76abc962fca878: !TransformComponent
+                        Id: 252a2a4d-59e7-4028-91d1-d2cd93aed048
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4a0ed7e437bf36adb5228b410d93af5a: !StaticColliderComponent
+                        Id: f209e2c2-380c-4475-9ec0-b163166e3baf
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            75d464ed64c1e3f444095db0fa69a13a: !CapsuleColliderShapeDesc
+                                Length: 5.0
+                                Radius: 5.0
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
                 Id: 8868f6c1-a4f5-4959-bd65-0e547e5c6e1b
                 Name: Bush1_2
                 Components:
@@ -3059,6 +3223,26 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8f7c8af3-b017-4b38-aa1c-6185561ad084
+        -   Folder: mainq
+            Entity:
+                Id: 8e85da0d-1f20-4165-9c05-c497d914b187
+                Name: QuestBox Text, Defeat Deer
+                Components:
+                    b45c3b8e5c66b5c5080837f335e97865: !TransformComponent
+                        Id: fabb6f48-c595-4b03-9d1b-b65fb7da6bcb
+                        Position: {X: -0.121, Y: 0.028, Z: -0.123}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.007, Y: 0.007, Z: 1.0}
+                        Children: {}
+                    62a9186439f3796df88a65e8c4112300: !SpriteComponent
+                        Id: 17bd36f4-ba52-41f2-84eb-b06b2b24114c
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 503f9d1e-2b2c-4e60-b80f-66da3b054440:0Rapporter_Assets/QuestAssets/QuestBox Text, Defeat Deer
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    c11aa42e68a59cea832f29cfe0e14bfd: !RapporterV2.Quest.ScrollQuestText,RapporterV2.Game
+                        Id: 8c435c9a-6350-4566-b5be-1a71a51b6a67
+                        q: 1.0
         -   Folder: Environment
             Entity:
                 Id: 923dc50b-5380-4194-a9cf-b8f2a66109fa
@@ -3066,7 +3250,7 @@ Hierarchy:
                 Components:
                     bdba2364368be819bbb3d209d348381f: !TransformComponent
                         Id: 3fde0561-bcb9-4d5c-a12e-0d7aa0bc05a9
-                        Position*: {X: -76.99388, Y: 0.608276963, Z: -19.0699081}
+                        Position*: {X: -56.42714, Y: 0.38, Z: -19.0699081}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -3220,7 +3404,7 @@ Hierarchy:
                 Components:
                     5795c1508b0a131741031f45c361717d: !TransformComponent
                         Id: 1168116b-ad29-488d-a34f-2833a3b384b4
-                        Position: {X: -64.02681, Y: -1.63427484, Z: -2.29938173}
+                        Position*: {X: -43.58596, Y: -1.63427484, Z: -9.618261}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -3266,6 +3450,28 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: d9654582-3a0c-441d-836f-7c000e558984
+        -   Folder: mainq
+            Entity:
+                Id: 976dcaab-6f1f-49f7-acaf-a8c9dc8ab41a
+                Name: QuestBox
+                Components:
+                    55db1f4d91161832e97e846c148d159f: !TransformComponent
+                        Id: e2ec8a59-14ad-482c-8451-ebc292486399
+                        Position: {X: -0.12, Y: 0.04, Z: -0.124}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.005, Y: 0.002, Z: 0.01}
+                        Children: {}
+                    1c590e1ce008a8b71db0d37edee894c8: !SpriteComponent
+                        Id: f0ce8275-8469-4e51-9bd9-b4f3cf3c3a55
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 0ebfe65f-5c72-44a7-af1d-0ea6b7d93774:0Rapporter_Assets/QuestAssets/QuestBox
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    317f9a8e81cc6a31dc107bb7fd22182f: !RapporterV2.Quest.ScrollQuest,RapporterV2.Game
+                        Id: b5377c6a-b3f5-4082-8e24-b9baff402afb
+                        moving: 0.0
+                        old: 0.0
+                        quest: 1.0
         -   Entity:
                 Id: 97b14324-5a1a-4608-a811-134e701c758b
                 Name: Tree1
@@ -3465,15 +3671,15 @@ Hierarchy:
                 Components:
                     317c2c3fded52066a347f17803b3976f: !TransformComponent
                         Id: fd60b836-81bd-42ba-b914-5d93655028ec
-                        Position: {X: -25.6373749, Y: 0.0, Z: 0.0467562675}
+                        Position: {X: -15.247591, Y: 0.0, Z: 0.0467562675}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 16.8690243, Y: 10.0, Z: 10.0}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
                         Children: {}
                     44115b51d1f09129d1e193a780755561: !ModelComponent
                         Id: c0c68cea-e7f1-44ef-8cc3-5ce1f8b60b8a
                         Model: c66c23e1-94e7-4fbc-85f9-1188a26f1968:Models/GridBase10x10
                         Materials:
-                            856f42b3bdc12ea3cf067cdff22a1c7c~0: 0c3cdea6-8366-4889-b23a-c9042fb58ebe:0Rapporter_Assets/Environment Assets/Grass2
+                            e59a76e9355eda12c865f0a5be0468cb~0: 41d06cb7-64e0-42a6-9a29-4f233ac5b6ae:Materials/GridMTx10
                         IsShadowCaster: false
                         IsShadowReceiver: false
                     30d6050e0245da902285c0b33d8f696b: !StaticColliderComponent
@@ -3598,12 +3804,17 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             363dfd50bc1faf4cb198d55bc4959a6c: decaad78-dacc-4c5c-830b-cc153a9975c1/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
-                            781c44f00eb28243e4f5ec00ad2e50b6: 64b7072e-9801-4186-8af4-afc367c6386e/086904d1-6b27-4517-a07d-9cbf2e386a5f
-                            dad82773875f3e7cd7b7dc8eb60a98fc: cdbc3426-5587-4adb-80ef-24b2f22a873c/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
                             c1081eb1d63c8ce07f04ad16ca6cf991: 50df4ae6-9eed-451a-a8ff-71651d2303ac/080642a3-3b14-4605-9c88-4236796a9622
+                            94f84d4849e24573e714e709d9c836ba: 64b7072e-9801-4186-8af4-afc367c6386e/086904d1-6b27-4517-a07d-9cbf2e386a5f
+                            7b2f25d4d07885310cdf23dea8d8b524: cdbc3426-5587-4adb-80ef-24b2f22a873c/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
+                            ea04fb8223ae1e79b3fdb7b2f2e254ac: 8e85da0d-1f20-4165-9c05-c497d914b187/fabb6f48-c595-4b03-9d1b-b65fb7da6bcb
+                            8a35c216a0af17a50748a9698cce5b0d: 976dcaab-6f1f-49f7-acaf-a8c9dc8ab41a/e2ec8a59-14ad-482c-8451-ebc292486399
+                            b34420aba24cacd7a824add15bbde269: 1f18c285-288f-4f42-ad86-973e077cf04b/b13e1f83-61d4-486e-864a-e33ac654d6bd
+                            52fb30c87ebdb85171e3c179990dcd96: bdb4f1ac-c017-4600-a146-dd64cf584344/23715ace-7168-40ff-b3b7-2a7a10bf6338
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
+                        NearClipPlane: 0.05
                         FarClipPlane: 250.0
                     2eb2688001c3198386a7f98e83551672: !RapporterV2.FpsCamera,RapporterV2.Game
                         Id: ca405849-d93e-45e7-ac87-6e40ddacbcf4
@@ -3737,6 +3948,46 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 9cbff3cf-c379-428e-a42c-e3a27cd2c117
+        -   Folder: NPCs
+            Entity:
+                Id: ab1f293d-2b4a-43c4-9b97-6372772dc2cc
+                Name: NPC#4 - Rig
+                Components:
+                    7b106f839a7f60545aa4ba7bbea526a9: !TransformComponent
+                        Id: 8702c42c-219b-471b-96f4-90b0d6a87c1b
+                        Position: {X: -26.2640686, Y: -0.02, Z: -8.124481}
+                        Rotation: {X: 0.0, Y: -0.382683456, Z: 0.0, W: 0.9238795}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children:
+                            aa4e32ffbf2d25b457c5c38a5013ee51: 8845ad8f-18be-48ac-8401-53a1eb88dae2/252a2a4d-59e7-4028-91d1-d2cd93aed048
+                    c515ab6d798ee981b7fd676f3448471c: !ModelComponent
+                        Id: 605aebc6-f0e2-40e1-92ce-1c92f1c63880
+                        Model: 9d863682-75af-4ef7-9102-3c4fc6222479:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#4 - Rig
+                        Materials: {}
+                    6c0619664832a9526802b3fcd5a23ee1: !AnimationComponent
+                        Id: bc7443ba-1377-40ef-b1fd-05c5d5b77e8f
+                        Animations:
+                            9e1bfcba407ccb3150e666ea66ea6e7a~idle: eb5dc7cb-7455-4208-8044-e1050fe1187f:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#4 - Idle Anim
+                            7620cb3752d7bdc1991c3feef86b08d8~talk: 9a82dc9a-1fd7-4b12-9fcc-4611d4916a25:0Rapporter_Assets/New Assets/3-19, New Models _ Anims/NPC#4 - Talk Anim
+                    eccc890620f709a3ef2c2d75137804f9: !StaticColliderComponent
+                        Id: 0ced5fc8-11b1-4ffb-a535-ea6c05bd6872
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            03f976b6bd68ecf5ba6d85c145491578: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 5.0, Y: 15.0, Z: 15.0}
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 5.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    60f75a52fed383729e1a97ea38b1a789: !RapporterV2.Player.NPCTalk,RapporterV2.Game
+                        Id: f1e8a104-faf8-4397-bf66-3edcda48f17c
+                    b7ad16a4d26585658378e1ef4ea41d65: !RapporterV2.Animations.NPC1_Animations,RapporterV2.Game
+                        Id: b7eb18b5-c021-45e6-921e-850e840c8b98
         -   Entity:
                 Id: ab28383d-0ae8-4961-b430-37711705e8aa
                 Name: Tree1
@@ -3776,7 +4027,7 @@ Hierarchy:
                 Components:
                     4ea3725a7e644d734dbcfaba847097f1: !TransformComponent
                         Id: a9378336-a7f4-4d55-b847-75aefeb0b5fa
-                        Position: {X: -67.48362, Y: 3.12597871, Z: 5.0}
+                        Position*: {X: -55.6973, Y: 3.12597871, Z: 5.0}
                         Rotation: {X: 1.0, Y: 7.54979E-08, Z: 7.54979E-08, W: 5.69993331E-15}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -3802,48 +4053,6 @@ Hierarchy:
                 BasePartAsset: 3cfdee6d-fde2-4005-a155-de38dbe7876c:0Rapporter_Assets/Environment Assets/OtherAssets/Circle Water prefab
                 BasePartId: 4ac4bbb3-d93c-4367-ad82-e784c1d8c540
                 InstanceId: 4a64180e-5d01-41f7-872f-735cd86a0b4c
-        -   Entity:
-                Id: abf0e468-d54f-4237-92b7-c852eb55dc19
-                Name: Demonic Deer
-                Components:
-                    748770b1846d64b136c67b68c1ae9f89: !TransformComponent
-                        Id: 7dc6ed28-6798-4fad-a096-1aaf762a91d5
-                        Position: {X: 0.6283538, Y: 0.0, Z: -0.990265131}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
-                        Children: {}
-                    b4d1fbb826eefcb80144e3e54c10fa57: !ModelComponent
-                        Id: e8b8cea4-b3bf-4e0e-a8b6-d44b587ce06e
-                        Model: c8ec99d9-9f41-43dd-9cf4-acbaedea9eaf:0Rapporter_Assets/Bosses/Demonic Deer - With Crystals
-                        Materials: {}
-                        IsShadowCaster: false
-                        IsShadowReceiver: false
-                    3606b5ddd27e751e912b7f2f8f785a87: !RigidbodyComponent
-                        Id: 68515022-d0c5-4ccb-9394-4c5508319888
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 1.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        IsKinematic: false
-                        Mass: 1.0
-                        LinearDamping: 0.0
-                        AngularDamping: 0.0
-                        OverrideGravity: false
-                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
-                        NodeName: null
-                        ColliderShapes:
-                            1d08fde4068e57b47583e2003ac1c4ca: !CapsuleColliderShapeDesc
-                                Radius: 3.5
-                                LocalOffset: {X: 0.0, Y: 4.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    6507628f9266015b7314c4998ca37bc9: !RapporterV2.Player.Enemy,RapporterV2.Game
-                        Id: 347e542f-f810-4e53-9e78-2d4fc4f6c05a
-                    ecae2ddba944ea3e1e72cd24edadbe46: !AnimationComponent
-                        Id: ff38e834-88f1-48f7-ad46-dd3b9e9e1be3
-                        Animations: {}
         -   Entity:
                 Id: add5d6f5-cfc4-4ad6-b9e5-999de7644030
                 Name: Tree1
@@ -4360,6 +4569,28 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: fbabd3ac-675d-490f-93bd-62a6fc523904
+        -   Folder: mainq dup
+            Entity:
+                Id: bdb4f1ac-c017-4600-a146-dd64cf584344
+                Name: QuestBox
+                Components:
+                    55db1f4d91161832e97e846c148d159f: !TransformComponent
+                        Id: 23715ace-7168-40ff-b3b7-2a7a10bf6338
+                        Position: {X: -0.12, Y: 0.04, Z: -0.124}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.005, Y: 0.002, Z: 0.01}
+                        Children: {}
+                    1c590e1ce008a8b71db0d37edee894c8: !SpriteComponent
+                        Id: 361adf72-2481-452c-93c0-03b634f4f47b
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 0ebfe65f-5c72-44a7-af1d-0ea6b7d93774:0Rapporter_Assets/QuestAssets/QuestBox
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    317f9a8e81cc6a31dc107bb7fd22182f: !RapporterV2.Quest.ScrollQuest,RapporterV2.Game
+                        Id: e83635aa-f6ff-430d-bb02-e73105357139
+                        moving: 0.0
+                        old: 0.0
+                        quest: 2.0
         -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: c091cc5e-59f9-48bf-a45e-d9f6dfac4619
@@ -4411,7 +4642,7 @@ Hierarchy:
                 Components:
                     aee3b5d4109797b8d3a07f4b29688f64: !TransformComponent
                         Id: 863c4299-fc7d-4180-b95c-439b024dee7c
-                        Position*: {X: -64.83161, Y: 0.25405243, Z: -0.168873072}
+                        Position*: {X: -44.3907623, Y: 0.25405243, Z: -7.48775244}
                         Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
                         Scale: {X: 0.1, Y: 0.1, Z: 0.1}
                         Children: {}
@@ -4457,6 +4688,24 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 2bd69441-1390-403f-9017-74f51142856d
+        -   Folder: Environment
+            Entity:
+                Id: c46c7372-2305-4683-be15-1ffab57fecee
+                Name: GridBase10x10UD
+                Components:
+                    317c2c3fded52066a347f17803b3976f: !TransformComponent
+                        Id: b2318304-de59-4a37-9c12-3fba553de1ef
+                        Position: {X: -15.247591, Y: 0.0, Z: 0.0467562675}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 1.0, W: -4.371139E-08}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
+                        Children: {}
+                    44115b51d1f09129d1e193a780755561: !ModelComponent
+                        Id: 7f919da3-5b83-4aa3-9523-8fd58398fe2a
+                        Model: c66c23e1-94e7-4fbc-85f9-1188a26f1968:Models/GridBase10x10
+                        Materials:
+                            e59a76e9355eda12c865f0a5be0468cb~0: 41d06cb7-64e0-42a6-9a29-4f233ac5b6ae:Materials/GridMTx10
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
         -   Entity:
                 Id: c4be241d-e282-405d-ac80-6574bd3dbbd9
                 Name: Tree1
@@ -4713,7 +4962,8 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 9f0aaa04-47a7-4ccc-a08e-19c010846256
-        -   Entity:
+        -   Folder: npc1diag
+            Entity:
                 Id: cdbc3426-5587-4adb-80ef-24b2f22a873c
                 Name: TextBox
                 Components:
@@ -4764,6 +5014,31 @@ Hierarchy:
                 BasePartAsset: c8d542d1-ebfd-4a59-abe3-45328bb4ec1f:0Rapporter_Assets/Environment Assets/Bush1_2 Prefab
                 BasePartId: e0bd4a79-3641-493c-b848-f4ad2c35c976
                 InstanceId: 33be4d8d-9b4b-4e7f-888c-ed7da3b2f55b
+        -   Entity:
+                Id: ce913727-14ca-4ba2-9ea2-e65b960c1116
+                Name: collider
+                Components:
+                    36784c813f4f34e90e76abc962fca878: !TransformComponent
+                        Id: 48dc72ed-8ac2-44fc-8ca7-6651a091a2f0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4a0ed7e437bf36adb5228b410d93af5a: !StaticColliderComponent
+                        Id: 76fbd3d4-194b-4951-8862-8814d34db00e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            75d464ed64c1e3f444095db0fa69a13a: !CapsuleColliderShapeDesc
+                                Length: 5.0
+                                Radius: 5.0
+                                LocalOffset: {X: 0.0, Y: 5.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Entity:
                 Id: cea55e88-4530-4310-8e84-24627249ac98
                 Name: Tree1
@@ -4835,7 +5110,7 @@ Hierarchy:
                 Components:
                     17f01c03077d43ac3ccdf227ed38cb09: !TransformComponent
                         Id: 3f5e709c-8007-4597-a7bf-9955d834b5db
-                        Position: {X: -80.9038544, Y: -0.753999, Z: 25.67897}
+                        Position*: {X: -60.3371124, Y: 0.38, Z: 25.67897}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -5109,12 +5384,30 @@ Hierarchy:
                         Children: {}
                     3db80bf6f7a64d469c3a78e1338ba404: !SpriteComponent
                         Id: f60bb83d-a6f7-464d-9c3a-78e1338ba404
+                        Enabled: false
                         SpriteProvider: !SpriteFromTexture
                             Texture: a5465fbe-63be-46d4-a877-132affab4d8f:Textures/crosshair_2
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                         PremultipliedAlpha: false
                         IgnoreDepth: true
+        -   Folder: Environment/Forest Details
+            Entity:
+                Id: dfc5ff56-da55-4b48-81b6-5617a11096c3
+                Name: Forest Details, Updated 3-3
+                Components:
+                    4b3eb90af0c6c02d51c6618514bdb1b0: !TransformComponent
+                        Id: d3a7a2e5-dfd0-4a32-872b-a93c00808268
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dbc2d6cb2c5217ef0320a068e0a63c1e: !ModelComponent
+                        Id: 41dccd20-e443-4a6b-9ecb-6812646bb997
+                        Model: f01a0b27-3971-44bc-80f2-af920c242a2c:0Rapporter_Assets/3_3_17/Forest Details, Updated 3-3
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
         -   Entity:
                 Id: e1336d4f-68f3-4788-be6a-04732918f241
                 Name: Tree1
@@ -5511,6 +5804,55 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 365c029f-b01b-4bd6-a68f-c08fb661405b
+        -   Entity:
+                Id: f72caf4e-ae55-43c3-9cdf-bd01ca274316
+                Name: Demonic Deer - Rigged
+                Components:
+                    11f54e93e09660f7b08866c6442bfe70: !TransformComponent
+                        Id: cee2eebc-3fc4-4cda-8aea-d630aa07eb63
+                        Position: {X: 0.6283538, Y: 0.893934846, Z: -0.990265131}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.4, Y: 0.4, Z: 0.4}
+                        Children: {}
+                    7cff43c06a13125002683794d8384188: !ModelComponent
+                        Id: 80f732da-5bfb-41e5-a177-bdc8d846aec0
+                        Model: f7bf5182-333b-4e12-a08d-3c57db2eaa6c:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Rigged
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    6a5ed4b97a1b43aa7fa3d1cbdbdf1916: !RigidbodyComponent
+                        Id: 68515022-d0c5-4ccb-9394-4c5508319888
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 1.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            1d08fde4068e57b47583e2003ac1c4ca: !CapsuleColliderShapeDesc
+                                Radius: 3.5
+                                LocalOffset: {X: 0.0, Y: 3.8, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    af0f632f546c223e3f414fc63af79bc8: !RapporterV2.Player.Enemy,RapporterV2.Game
+                        Id: 347e542f-f810-4e53-9e78-2d4fc4f6c05a
+                    99da476c07fd2c8df2a30e2f7476b4b4: !AnimationComponent
+                        Id: 06bc5285-36ea-4955-b9aa-eb9ea39db79d
+                        Animations:
+                            9a42ea46754cac077ecdd2009a53b0a0~Attack1: f169db48-7e5c-4b0a-b974-2ddec6e358c9:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Attack1 Anim
+                            095dbb404a97971866073845531f8442~Attack2: f6320636-9a8a-4464-a21b-e612c51e6e4e:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Attack2 Anim
+                            a0a489c8dc4f76476f1a1488a0a95a5b~Death: a2017bbb-7619-4b36-ad62-7dd30b5f3504:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer -Death Anim
+                            1ce5a310ef729d00c192a328ee98b592~Hurt: 306d0bf3-0f3c-4a6f-bd9c-4d382339dd18:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Hurt Anim
+                            f7baa6430f1e1cac54ceec512fba29ea~Idle: fc53661d-ee67-42c7-8b5e-67c1219ab3ae:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Idle Anim
+                            ce19739da7294584d42f9badad36feac~Run: 870aa8c7-ace4-4bc1-982b-ef0c2754ea28:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Run Anim
+                            d20f75f485b5a950829a755fb2c51185~Walk: 3c0145f6-c359-4ef2-b62c-3fdeb2e5e7ba:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Walk Anim
         -   Entity:
                 Id: f8297eef-68d7-4ed9-8b88-433aaa2b4337
                 Name: Tree1

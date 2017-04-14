@@ -110,6 +110,7 @@
   <ItemGroup>
     <Compile Include="Animation.cs" />
     <Compile Include="Animations\NPC1_Animations.cs" />
+    <Compile Include="Animations\NPC2_Animations.cs" />
     <Compile Include="Core\InputManagerExtensions.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="DebugPhysicsShapes.cs" />
@@ -119,6 +120,7 @@
     <Compile Include="Player\AnimationController.cs" />
     <Compile Include="Player\Enemy.cs" />
     <Compile Include="Player\NPCTalk.cs" />
+    <Compile Include="Player\NPCTalk2.cs" />
     <Compile Include="Player\PlayerController.cs" />
     <Compile Include="Player\PlayerInput.cs" />
     <Compile Include="Player\ScrollText.cs" />
@@ -128,6 +130,9 @@
     <Compile Include="Player\WeaponScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quest\QuestManager.cs" />
+    <Compile Include="Quest\Quests.cs" />
+    <Compile Include="Quest\ScrollQuest.cs" />
+    <Compile Include="Quest\ScrollQuestText.cs" />
     <Compile Include="Sounds\SoundScript.cs" />
     <Compile Include="Trigger\TriggerEvent.cs" />
     <Compile Include="Trigger\TriggerGroup.cs" />

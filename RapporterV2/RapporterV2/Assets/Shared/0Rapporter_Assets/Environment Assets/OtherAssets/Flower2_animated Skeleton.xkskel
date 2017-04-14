@@ -9,3 +9,5 @@ Nodes:
     9108bd5c541ebc52d9c13c974698a6ea: {Name: Sphere, Depth: 1}
     2351a18576478bc21ea62ea5d9564912: {Name: Lamp, Depth: 1}
     ef6bde773e7ba2bee70f0119170344cb: {Name: Camera, Depth: 1}
+~SourceHashes:
+    63d9aa7cb7bc071ec46df5e865fbd232~Flower2_animated.FBX: 7da59cd9c67cd867abc1f0142803d300

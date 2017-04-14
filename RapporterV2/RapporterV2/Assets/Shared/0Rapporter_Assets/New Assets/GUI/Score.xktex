@@ -1,0 +1,6 @@
+!Texture
+Id: 008c13f3-dfaf-4773-98df-9d37ff2e1c70
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: Score.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

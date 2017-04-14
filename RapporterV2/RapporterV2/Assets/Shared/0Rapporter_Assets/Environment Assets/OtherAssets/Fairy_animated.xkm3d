@@ -14,3 +14,5 @@ Materials:
         MaterialInstance:
             Material: 660a192c-4698-411a-b13f-73266c5ab35c:0Rapporter_Assets/Environment Assets/OtherAssets/Body
 Skeleton: 8ad99656-a584-4ec1-925b-74bd188eac57:0Rapporter_Assets/Environment Assets/OtherAssets/Fairy_animated Skeleton
+~SourceHashes:
+    62e4ee34eb5987d13cb140683945d8f1~Fairy_animated.FBX: 101138f254315abbe7f9d66721bfeb87

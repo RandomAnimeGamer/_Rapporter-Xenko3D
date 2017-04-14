@@ -8,3 +8,5 @@ Nodes:
     f38cdfea0b25f50caecba6ec9d1861af: {Name: RootNode, Depth: 0}
     e0517113c200c071529dcfb5848540e3: {Name: Sun, Depth: 1}
     1226e358878777b822db7bb7cabac388: {Name: Cylinder, Depth: 1}
+~SourceHashes:
+    abcd85d4adfbfe45b66d7080e2220ac6~PortableCrystal_animated.FBX: 2ec8cba8785ea7676dc4307231f6d28c

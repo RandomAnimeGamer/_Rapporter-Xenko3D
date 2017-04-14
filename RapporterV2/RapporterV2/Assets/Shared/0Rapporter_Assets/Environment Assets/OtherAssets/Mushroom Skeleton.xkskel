@@ -9,3 +9,5 @@ Nodes:
     fe4db6fbd75b425272978d9dd25a0e11: {Name: Mushroom, Depth: 1}
     fba8d983178d56a05c585ec172bcf780: {Name: Lamp, Depth: 1}
     3f78bce9ecb247213a0600bd2e66f03f: {Name: Camera, Depth: 1}
+~SourceHashes:
+    1caab6efefacb105b6e93b940f17a417~Mushroom.fbx: 7ea43135f82685bca8275a8587dbb9d0

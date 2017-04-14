@@ -1,0 +1,22 @@
+!Model
+Id: f7bf5182-333b-4e12-a08d-3c57db2eaa6c
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Demonic Deer - Rigged.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    08296f1d980b3cb945ecb4a6211357ba:
+        Name: DeerBody
+        MaterialInstance:
+            Material: 30cc6bd5-3532-4fac-abce-5b8603ac59ed:0Rapporter_Assets/New Assets/3-27, New Assets/DeerBody
+    27a28583880d4a4caf449c3d89147f16:
+        Name: Horns
+        MaterialInstance:
+            Material: b9820a14-d28e-47fa-8816-184dc04eebd7:0Rapporter_Assets/New Assets/3-27, New Assets/Horns
+    ba05f211ae1097951260a2584d9a29e7:
+        Name: OrangeCrystal
+        MaterialInstance:
+            Material: 2df88137-4721-4e89-a1d7-c20560251f44:0Rapporter_Assets/New Assets/3-27, New Assets/OrangeCrystal
+Skeleton: 8b432a74-d756-41ff-867b-247fe3c9caef:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Rigged Skeleton
+~SourceHashes:
+    e9475b63f2f2122b5d08441a3069ac91~Demonic Deer - Rigged.fbx: 61ddd3d650a0f10a0758bd78fb9274c3

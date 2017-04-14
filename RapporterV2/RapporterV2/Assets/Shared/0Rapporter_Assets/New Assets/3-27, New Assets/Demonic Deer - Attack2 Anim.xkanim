@@ -1,0 +1,19 @@
+!Animation
+Id: f6320636-9a8a-4464-a21b-e612c51e6e4e
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Demonic Deer - Attack2 Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: PlayOnce
+Type: !StandardAnimationAssetType {}
+Skeleton: 8b432a74-d756-41ff-867b-247fe3c9caef:0Rapporter_Assets/New Assets/3-27, New Assets/Demonic Deer - Rigged Skeleton
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.7500000
+~SourceHashes:
+    2afd8af75bb079dc71ee6e13be8cba6f~Demonic Deer - Attack2 Anim.fbx: f866371ed51a1355b74665a849dd7b84

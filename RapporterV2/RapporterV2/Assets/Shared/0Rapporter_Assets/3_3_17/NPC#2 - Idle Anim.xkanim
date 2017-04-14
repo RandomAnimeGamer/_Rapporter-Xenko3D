@@ -1,0 +1,19 @@
+!Animation
+Id: f619bfa7-8c96-4e25-b2d7-c0e268517ea9
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: NPC#2 - Idle Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 60eab2b7-1e15-495e-bdb3-99e6b34f4e09:0Rapporter_Assets/3_3_17/NPC#2 - Rig Skeleton
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.7500000
+~SourceHashes:
+    d27b03c3ee955e4e9cbba1e769fa3852~NPC#2 - Idle Anim.fbx: 2d7f593dfbeea2a34d8f7ca2a2dee738
