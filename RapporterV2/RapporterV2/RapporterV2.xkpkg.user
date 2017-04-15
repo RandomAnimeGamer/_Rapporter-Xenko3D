@@ -86,8 +86,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: -47.73837, Y: 2.804504, Z: 4.3464427}
-            CamPitchYaw: {X: -0.3164433, Y: 34.6226044}
+            CamPosition: {X: -34.4646873, Y: 3.28098941, Z: 2.00589085}
+            CamPitchYaw: {X: 0.447942346, Y: 38.59409}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -109,6 +109,7 @@ Settings:
             ComponentGizmoSize: 1.0
             FixedSizeGizmos: false
             HiddenGizmos:
+                - Physics
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false

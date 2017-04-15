@@ -27,7 +27,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public List<Keys> KeysUp { get; } = new List<Keys>();
     public List<Keys> KeysDown { get; } = new List<Keys>();
     public List<Keys> KeysJump { get; } = new List<Keys>();
-    private bool jumped=false, doneJumping=true, attacking=false; private int jumpCount=0, combo=0; private float jumpForce;
+    private bool jumped=false, doneJumping=true; private int jumpCount=0, combo=0; private float jumpForce;
 
     public Sound SoundMusic;
     private SoundInstance forest;
@@ -85,7 +85,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         var comp=false; AtkComp.TryReceive(out comp);
         if(Input.HasMouse&&Input.IsMouseButtonPressed(MouseButton.Left)&&comp) {
             combo++; if(combo>3) { combo=1; ResetEvent.Broadcast(true); }
-            ResetTime.Broadcast(true); AtkEventKey.Broadcast(combo); attacking=true;
+            ResetTime.Broadcast(true); AtkEventKey.Broadcast(combo);
         }
     } }
     private void RaycastDown() {

@@ -130,9 +130,9 @@
     <Compile Include="Player\WeaponScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quest\QuestManager.cs" />
-    <Compile Include="Quest\Quests.cs" />
     <Compile Include="Quest\ScrollQuest.cs" />
     <Compile Include="Quest\ScrollQuestText.cs" />
+    <Compile Include="Quest\ScrollQuestText2.cs" />
     <Compile Include="Sounds\SoundScript.cs" />
     <Compile Include="Trigger\TriggerEvent.cs" />
     <Compile Include="Trigger\TriggerGroup.cs" />

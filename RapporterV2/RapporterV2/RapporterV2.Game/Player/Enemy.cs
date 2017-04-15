@@ -17,7 +17,7 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
     public static readonly EventKey<bool> main = new EventKey<bool>();
     public static readonly EventReceiver<bool> damage = new EventReceiver<bool>(WeaponCollide.die);
     public static readonly EventReceiver<bool> valid = new EventReceiver<bool>(WeaponScript.atking);
-    private bool attacking=false; private int HP=100; private float deathTime = 40f;
+    private int HP=100; private float deathTime = 40f; //private bool attacking=false;
 
     public override void Start() {
         simulation = this.GetSimulation(); anim = Entity.Get<AnimationComponent>(); r = Entity.Get<RigidbodyComponent>();

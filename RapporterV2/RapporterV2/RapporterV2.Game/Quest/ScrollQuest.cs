@@ -15,11 +15,13 @@ namespace RapporterV2.Quest { public class ScrollQuest : SyncScript {
     public static readonly EventReceiver<Vector2> move2 = new EventReceiver<Vector2>(QuestManager.swordMove);
     public static readonly EventReceiver<int> move5 = new EventReceiver<int>(QuestManager.completed);//returns quest #
     public static readonly EventKey<Vector3> trans = new EventKey<Vector3>();//X/Y = Transform, Z = Quest
+    public static readonly EventKey<Vector3> trans2 = new EventKey<Vector3>();//X/Y = Transform, Z = Quest
     private Vector3 startAt = new Vector3(-1f,0.04f,-0.123f);
     private Vector3 vect1 = new Vector3(-0.072f,0.04f,-0.123f);
     private Vector3 vect2 = new Vector3(-0.072f,0.02f,-0.123f);
     public override void Update() {
-        trans.Broadcast(new Vector3(Entity.Transform.Position.X, Entity.Transform.Position.Y, quest));
+        if(quest==1) trans.Broadcast(new Vector3(Entity.Transform.Position.X, Entity.Transform.Position.Y, quest));
+        if(quest==2) trans2.Broadcast(new Vector3(Entity.Transform.Position.X, Entity.Transform.Position.Y, quest));
         //receive when quest is accepted
         //receive when quest should be moved down (as int = quest count)
         //if quest is accepted, move to startAt

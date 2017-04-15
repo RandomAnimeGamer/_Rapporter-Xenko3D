@@ -36,7 +36,7 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
         that the class handles.
         */
 
-
+        move=0; jump=0; if(move==0&&jump==0) move=0;
         //Quest Acceptance
         if(main==0) { var maSt = false; mainSt.TryReceive(out maSt);
             if(maSt) {

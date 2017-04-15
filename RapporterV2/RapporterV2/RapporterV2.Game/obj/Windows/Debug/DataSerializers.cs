@@ -33,9 +33,9 @@ namespace SiliconStudio.DataSerializers
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<RapporterV2.Trigger.TriggerEvent>), typeof(System.Collections.Generic.List<RapporterV2.Trigger.TriggerEvent>), DataSerializerGenericMode.None, false, false, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerEventSerializer), typeof(RapporterV2.Trigger.TriggerEvent), DataSerializerGenericMode.None, false, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_QuestManagerSerializer), typeof(RapporterV2.Quest.QuestManager), DataSerializerGenericMode.None, true, true, Profile = "Default")]
-    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_QuestsSerializer), typeof(RapporterV2.Quest.Quests), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestSerializer), typeof(RapporterV2.Quest.ScrollQuest), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestTextSerializer), typeof(RapporterV2.Quest.ScrollQuestText), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestText2Serializer), typeof(RapporterV2.Quest.ScrollQuestText2), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_AnimationControllerSerializer), typeof(RapporterV2.Player.AnimationController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemySerializer), typeof(RapporterV2.Player.Enemy), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_NPCTalkSerializer), typeof(RapporterV2.Player.NPCTalk), DataSerializerGenericMode.None, true, true, Profile = "Default")]
@@ -87,9 +87,9 @@ namespace SiliconStudio.DataSerializers
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xa3255dcc, 0x3c9e3f5d, 0x76156847, 0x4968b4c8), typeof(System.Collections.Generic.List<RapporterV2.Trigger.TriggerEvent>), typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<RapporterV2.Trigger.TriggerEvent>)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xec543b3a, 0x96bb5f76, 0x23ae3f6d, 0x497b982f), typeof(RapporterV2.Trigger.TriggerEvent), typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerEventSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x01634228, 0xb8fa6bcf, 0x4a3c3b66, 0x8c6b4a57), typeof(RapporterV2.Quest.QuestManager), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_QuestManagerSerializer)));
-				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x5e7981c4, 0x9ea06b07, 0x9add8e14, 0x0a98d84d), typeof(RapporterV2.Quest.Quests), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_QuestsSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x974421d3, 0x0006d240, 0x021d493e, 0x373979e3), typeof(RapporterV2.Quest.ScrollQuest), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xafaca863, 0x776458ac, 0x2e5991f3, 0xec5e8e66), typeof(RapporterV2.Quest.ScrollQuestText), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestTextSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd221553b, 0x1a8b76b6, 0x63a1391a, 0xd00dea69), typeof(RapporterV2.Quest.ScrollQuestText2), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestText2Serializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x29609120, 0x7fbd9e9e, 0x5a5c9ebf, 0xcf423a0f), typeof(RapporterV2.Player.AnimationController), typeof(SiliconStudio.DataSerializers.RapporterV2Player_AnimationControllerSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd8692cf0, 0xafee77c1, 0x48f151c6, 0xe6ae5767), typeof(RapporterV2.Player.Enemy), typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemySerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x2847fe42, 0x2b7754f1, 0x556a3d07, 0x9421e296), typeof(RapporterV2.Player.NPCTalk), typeof(SiliconStudio.DataSerializers.RapporterV2Player_NPCTalkSerializer)));
@@ -458,36 +458,6 @@ namespace SiliconStudio.DataSerializers
 
 namespace SiliconStudio.DataSerializers
 {
-	sealed class RapporterV2Quest_QuestsSerializer : ClassDataSerializer<RapporterV2.Quest.Quests>
-	{
-		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
-
-		public override void Initialize(SerializerSelector serializerSelector)
-		{
-			// Get parent serializer
-			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
-			if (parentSerializer == null)
-				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
-			// Cache member serializers
-		}
-
-		public override void Serialize(ref RapporterV2.Quest.Quests obj, ArchiveMode mode, SerializationStream stream)
-		{
-			// Serialize parent (for now we don't copy reference back because it shouldn't change)
-			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
-			parentSerializer.Serialize(ref parentObj, mode, stream);
-			obj = (RapporterV2.Quest.Quests)parentObj;
-
-		}
-
-		internal static void ForceGenericInstantiation()
-		{
-		}
-	}
-}
-
-namespace SiliconStudio.DataSerializers
-{
 	sealed class RapporterV2Quest_ScrollQuestSerializer : ClassDataSerializer<RapporterV2.Quest.ScrollQuest>
 	{
 		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
@@ -528,7 +498,7 @@ namespace SiliconStudio.DataSerializers
 	sealed class RapporterV2Quest_ScrollQuestTextSerializer : ClassDataSerializer<RapporterV2.Quest.ScrollQuestText>
 	{
 		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
-		private DataSerializer<System.Single> qSerializer;
+		private DataSerializer<System.Int32> qSerializer;
 
 		public override void Initialize(SerializerSelector serializerSelector)
 		{
@@ -537,7 +507,7 @@ namespace SiliconStudio.DataSerializers
 			if (parentSerializer == null)
 				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
 			// Cache member serializers
-			qSerializer = MemberSerializer<System.Single>.Create(serializerSelector);
+			qSerializer = MemberSerializer<System.Int32>.Create(serializerSelector);
 		}
 
 		public override void Serialize(ref RapporterV2.Quest.ScrollQuestText obj, ArchiveMode mode, SerializationStream stream)
@@ -546,6 +516,39 @@ namespace SiliconStudio.DataSerializers
 			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
 			parentSerializer.Serialize(ref parentObj, mode, stream);
 			obj = (RapporterV2.Quest.ScrollQuestText)parentObj;
+
+            qSerializer.Serialize(ref obj.q, mode, stream);
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Quest_ScrollQuestText2Serializer : ClassDataSerializer<RapporterV2.Quest.ScrollQuestText2>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<System.Int32> qSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+			qSerializer = MemberSerializer<System.Int32>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref RapporterV2.Quest.ScrollQuestText2 obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Quest.ScrollQuestText2)parentObj;
 
             qSerializer.Serialize(ref obj.q, mode, stream);
 		}
