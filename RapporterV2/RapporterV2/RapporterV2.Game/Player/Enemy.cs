@@ -17,7 +17,7 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
     public static readonly EventKey<bool> main = new EventKey<bool>();
     public static readonly EventReceiver<bool> damage = new EventReceiver<bool>(WeaponCollide.die);
     public static readonly EventReceiver<bool> valid = new EventReceiver<bool>(WeaponScript.atking);
-    private bool attacking=false; private int HP=100;
+    private bool attacking=false; private int HP=100; private float deathTime = 40f;
 
     public override void Start() {
         simulation = this.GetSimulation(); anim = Entity.Get<AnimationComponent>(); r = Entity.Get<RigidbodyComponent>();
@@ -27,6 +27,8 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
         if(!anim.IsPlaying("Idle")&&!anim.IsPlaying("Death")&&!anim.IsPlaying("Hurt")) anim.Play("Idle");
         var moveDirection = Vector2.Zero;
         DamageCheck();
+        if(HP==0&&deathTime>0) deathTime--;
+        if(deathTime<=0) { r.IsTrigger=true; r.ApplyImpulse(new Vector3(0f,-10000f,0f)); }
 //        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX;
 //        if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX;
 //        if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY;
@@ -58,14 +60,13 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
     }
     public void CheckDeath() {
         if(HP<=0) { anim.Play("Death"); main.Broadcast(true);
-        var particles = Content.Load<Prefab>("0Rapporter_Assets/Particles/Death");
+/*        var particles = Content.Load<Prefab>("0Rapporter_Assets/Particles/Death");
         // Instantiate a prefab
         var instance = particles.Instantiate();
         var death = instance[0];
         // Add the bullet to the scene
         SceneSystem.SceneInstance.Scene.Entities.Add(death);
-        death.Transform.Position = Entity.Transform.Position;
-        Entity.Transform.Position -= new Vector3(0f,10f,0f);
+        death.Transform.Position = Entity.Transform.Position;*/
         }
     }
 } }

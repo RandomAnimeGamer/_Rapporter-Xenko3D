@@ -76,6 +76,7 @@ Hierarchy:
         - 4482291b-7382-4439-9b10-0aa5b535a7ea
         - 35be88e8-d83a-433b-bbcf-f0fb73be9fa6
         - ab1f293d-2b4a-43c4-9b97-6372772dc2cc
+        - 8e08eb7d-52fa-4b36-a182-16260b6a469d
     Parts:
         -   Folder: Environment
             Entity:
@@ -3223,6 +3224,44 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8f7c8af3-b017-4b38-aa1c-6185561ad084
+        -   Entity:
+                Id: 8e08eb7d-52fa-4b36-a182-16260b6a469d
+                Name: Scene Dragon Killing Sword
+                Components:
+                    a2a82910d6a581d9c7b9e967489bb7fa: !TransformComponent
+                        Id: 7d70530d-f57b-45c7-a633-bfe7bda3f1c4
+                        Position: {X: 1.69365275, Y: 1.1044302, Z: -26.7772217}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 1.0, W: -4.371139E-08}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children: {}
+                    33039bae1c2c22d680bb5adb8417ad0f: !ModelComponent
+                        Id: 2dddd447-7a99-483f-b783-e4911320b4b3
+                        Model: 484f7904-68d6-42d2-b4a2-7f00df52889a:0Rapporter_Assets/Dragon Killing Sword
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    4496711f6e9ce725771352a4706d039d: !RigidbodyComponent
+                        Id: 4e6fc688-74e0-4d49-bd60-9c7a3f26f261
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            0a90955417a7afb9c61716c536cfb5c4: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 7.0, Y: 7.0, Z: 7.0}
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Folder: mainq
             Entity:
                 Id: 8e85da0d-1f20-4165-9c05-c497d914b187
