@@ -7,7 +7,7 @@ using SiliconStudio.Xenko.Physics;
 
 namespace RapporterV2.Player { public class PlayerController : SyncScript {
     [Display("Run Speed")]
-    public float MaxRunSpeed { get; set; } = 5;
+    public float MaxRunSpeed { get; set; } = 1000;
     public static readonly EventKey<float> RunSpeedEventKey = new EventKey<float>();
     private CharacterComponent character;
     private readonly EventReceiver<Vector3> moveDirectionEvent = new EventReceiver<Vector3>(PlayerInput.MoveDirectionEventKey);

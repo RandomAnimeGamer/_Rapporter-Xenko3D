@@ -1667,7 +1667,8 @@ Hierarchy:
                         Position: {X: 0.6, Y: -0.3, Z: -0.8}
                         Rotation: {X: 0.1736483, Y: -2.79396772E-09, Z: -4.926523E-10, W: -0.9848077}
                         Scale: {X: 0.05, Y: 0.05, Z: 0.05}
-                        Children: {}
+                        Children:
+                            4124cae1156a25c42c0fe935ac2ab9f9: 87407ea5-76d5-410a-b686-cb157c320769/8a64df93-6b0a-492a-8b65-def4a8e0b35e
                     43e6cf26177dc823cf6a49b0c87f7da7: !ModelComponent
                         Id: e917707f-7f00-4951-8fd3-2e9aa64e4f6e
                         Model: fadc7dca-97e4-45f1-b08f-ee342f456116:0Rapporter_Assets/SimpleSword
@@ -2976,6 +2977,95 @@ Hierarchy:
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: adeeef0d-387d-4815-8cc5-cc5a67127579
         -   Entity:
+                Id: 87407ea5-76d5-410a-b686-cb157c320769
+                Name: Smoke Particle System
+                Components:
+                    88857f184f25053e8b47de59d356674e: !TransformComponent
+                        Id: 8a64df93-6b0a-492a-8b65-def4a8e0b35e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e00813b9a2244f81e5cb5b175566fa00: !ParticleSystemComponent
+                        Id: 1fc0562e-187b-4043-a745-36d254d78e87
+                        Control:
+                            ResetSeconds: 5.0
+                            Control: Play
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Speed: 2.6
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                bb81750e090a3f7de9d2d183fea20f22:
+                                    ParticleLifetime: {X: 1.0, Y: 2.0}
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: null
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ComputeColor: !ComputeTextureColor
+                                            FallbackValue:
+                                                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                            Scale: {X: 1.0, Y: 1.0}
+                                            Offset: {X: 0.0, Y: 0.0}
+                                            Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        1f70e220470c24823f6ecbcd2e6d3487: !SpawnerPerSecond
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 20.0
+                                    Initializers:
+                                        fb15788d1c8dfdfc66a57c2e7cc662b2: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize: {X: 0.35, Y: 0.55}
+                                        dae21ec357e47f449d486b75e91b2f83: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: -0.2, Y: 0.0, Z: -0.2}
+                                            PositionMax: {X: 0.2, Y: 0.0, Z: 0.2}
+                                            Interpolate: false
+                                        39bfbde613764e2ac5830c5960e4c9d4: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.5, Y: 1.0, Z: -0.5}
+                                            VelocityMax: {X: 0.5, Y: 3.0, Z: 0.5}
+                                    Updaters: {}
+        -   Entity:
                 Id: 87bce4a9-8dfd-4bc4-ba45-a0e78298cec9
                 Name: Tree1
                 Components:
@@ -3241,7 +3331,7 @@ Hierarchy:
                         IsShadowCaster: false
                         IsShadowReceiver: false
                     4496711f6e9ce725771352a4706d039d: !RigidbodyComponent
-                        Id: 4e6fc688-74e0-4d49-bd60-9c7a3f26f261
+                        Id: ec364f23-d82f-47d6-a84b-807b81b88c83
                         CanSleep: false
                         Restitution: 0.0
                         Friction: 0.5
