@@ -44,8 +44,8 @@ Hierarchy:
         - 54ae5828-6e50-4b94-b578-584c4ec71295
         - 09143bb7-f329-43c6-b6d7-386e8c6925e9
         - ab344601-0807-4702-85ad-b93a4cb29df4
+        - 4ee154e0-43b1-4d55-afb6-fe718ce24600
         - 0ec0d2ad-3ae5-43df-8dc5-5c9ae47e1556
-        - 74f5fde4-c70d-4d62-9068-8e9eb3b4a738
         - c091cc5e-59f9-48bf-a45e-d9f6dfac4619
         - 4fd0b937-0925-4c60-b790-4ea7d9422e11
         - 40ebeb44-2e53-4545-b675-908a175b71f4
@@ -162,6 +162,10 @@ Hierarchy:
                                 Shape: 37708d48-f593-447d-823b-d7eeb64a7edd:0Rapporter_Assets/Environment Assets/OtherAssets/bearTrapCollider
                             6accedd8ec65021de13caf0d81a054d3: !ColliderShapeAssetDesc
                                 Shape: null
+                    63606a2cf4c9bfc278818068b9776365*: !AnimationComponent
+                        Id: a5416b57-2243-4b5f-9e46-38eba1669751
+                        Animations:
+                            df0452fc9ed8e959fd5c44679918e6f2~close: 9666dde3-bd65-4b50-8dd8-be2ac1ffd0fd:0Rapporter_Assets/New Assets/3-31, New Assets/Updated Bear Trap - Close Anim
             Base:
                 BasePartAsset: 615882de-ad29-4676-85a8-cda1de124b6f:0Rapporter_Assets/Environment Assets/OtherAssets/Bear Trap prefab
                 BasePartId: 080e8235-4f60-48a0-91fe-16b07972fad6
@@ -353,8 +357,11 @@ Hierarchy:
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
                         ColliderShapes:
-                            890b4617d046d705db5df51b50ffd60e: !ColliderShapeAssetDesc
-                                Shape: dd75aed8-c0f6-4f50-bdbc-c88a12662ad1:0Rapporter_Assets/Environment Assets/OtherAssets/OceanBoundary Collider
+                            890b4617d046d705db5df51b50ffd60e*: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 130.0, Y: 1.0, Z: 130.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 585acf46-0b1f-4ca8-8ec1-e5f696baac90:0Rapporter_Assets/Environment Assets/OtherAssets/OceanBoundary Prefab
                 BasePartId: d13d0650-e3b0-48d8-bc3a-2de6ecbc4d66
@@ -1619,6 +1626,36 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 495c2121-0c5e-4517-8ae4-7e6ed5ee5c56
+        -   Folder: THE GREAT PAPYRUS
+            Entity:
+                Id: 4ee154e0-43b1-4d55-afb6-fe718ce24600
+                Name: Updated, Square Water
+                Components:
+                    93f39c01bb462a2eb24c6853ebc79578: !TransformComponent
+                        Id: 3a4c2747-cd10-4398-bcb1-4663adf8eaba
+                        Position: {X: 22.1233711, Y: -0.26, Z: 33.2387962}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children: {}
+                    041e2db2fe852b3739dc0aed48826147: !ModelComponent
+                        Id: 8fa954d2-25eb-4cd5-a380-1c4ee590d86a
+                        Model: 9454805f-3dc4-45f3-9e33-6c2f9038032b:0Rapporter_Assets/New Assets/4-4, Menu and Updated Water/Updated, Square Water
+                        Materials: {}
+                    263805a6cbcb282003eebe8e30d344fd: !StaticColliderComponent
+                        Id: b2932ba3-77b4-47f2-9f21-9f2284c84240
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            c220786844fc6f3e70c10fefaf9cf705: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 45.0, Y: 1.0, Z: 45.0}
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 4fd0b937-0925-4c60-b790-4ea7d9422e11
@@ -2510,39 +2547,6 @@ Hierarchy:
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
                         Intensity: 0.1
-        -   Folder: THE GREAT PAPYRUS
-            Entity:
-                Id: 74f5fde4-c70d-4d62-9068-8e9eb3b4a738
-                Name: squareWater
-                Components:
-                    572041f82d503b5cf780b90ad7799ced: !TransformComponent
-                        Id: 9c223310-33bc-4c94-bba1-4a4473bb0e6e
-                        Position*: {X: 22.1233711, Y: -2.04165339, Z: 33.2387962}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    d7941b9db125a44ac60a6f90594dbe14: !ModelComponent
-                        Id: 879aeb4b-ab89-4386-a51a-e952d19e3302
-                        Model: 07abc919-8fc3-440b-92db-c7838b5c3575:0Rapporter_Assets/Environment Assets/OtherAssets/squareWater
-                        Materials: {}
-                        IsShadowCaster*: false
-                        IsShadowReceiver*: false
-                    d8ef78b34ffd1c530d6140347b6f6d84: !StaticColliderComponent
-                        Id: 383859e6-ac28-47d1-a750-a51471cc409c
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        ColliderShapes:
-                            978a67d6bc7963078dbba1ef415d4c3f: !ColliderShapeAssetDesc
-                                Shape: 165ba907-7a41-4728-a049-cb8ffa3ff1fc:0Rapporter_Assets/Environment Assets/OtherAssets/SquareWater Collider
-            Base:
-                BasePartAsset: 93ff1659-78d9-4bc2-821e-b4ad9b9ad47a:0Rapporter_Assets/Environment Assets/OtherAssets/squareWater Prefab
-                BasePartId: 4022d25e-a43b-42cb-8da6-f8d47dbf9d58
-                InstanceId: b336c4b9-3121-4e4c-90d1-22f1577a09fa
         -   Entity:
                 Id: 75550bac-19ae-48ee-8c9b-e63516fce62a
                 Name: Tree1
@@ -2982,7 +2986,7 @@ Hierarchy:
                 Components:
                     88857f184f25053e8b47de59d356674e: !TransformComponent
                         Id: 8a64df93-6b0a-492a-8b65-def4a8e0b35e
-                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Position: {X: 1.08816209E-07, Y: 5.052154, Z: 0.0649077147}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -2991,7 +2995,7 @@ Hierarchy:
                         Control:
                             ResetSeconds: 5.0
                             Control: Play
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Color: {R: 1.0, G: 0.4875, B: 0.0, A: 1.0}
                         Speed: 2.6
                         ParticleSystem:
                             Settings: {}
@@ -2999,12 +3003,19 @@ Hierarchy:
                             Emitters:
                                 bb81750e090a3f7de9d2d183fea20f22:
                                     ParticleLifetime: {X: 1.0, Y: 2.0}
-                                    ShapeBuilder: !ShapeBuilderBillboard
-                                        SamplerPosition: null
-                                        SamplerSize: null
-                                        SamplerRotation: null
+                                    ShapeBuilder: !ShapeBuilderTrail
+                                        SmoothingPolicy: None
+                                        Segments: 0
+                                        EdgePolicy: Center
+                                        TextureCoordinatePolicy: AsIs
+                                        TexCoordsFactor: 0.0
+                                        UVRotate:
+                                            FlipX: false
+                                            FlipY: false
+                                            UVClockwise: Degree0
                                     Material: !ParticleMaterialComputeColor
                                         ComputeColor: !ComputeTextureColor
+                                            Texture: d31acce5-9e6d-4b76-8faa-5bd1b5681d62:Textures/dota
                                             FallbackValue:
                                                 Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                                             Scale: {X: 1.0, Y: 1.0}
@@ -3013,11 +3024,12 @@ Hierarchy:
                                         UVBuilder: null
                                         ForceTexCoords: false
                                     Spawners:
-                                        1f70e220470c24823f6ecbcd2e6d3487: !SpawnerPerSecond
+                                        1f70e220470c24823f6ecbcd2e6d3487: !SpawnerPerFrame
                                             LoopCondition: Looping
                                             Delay: {X: 0.0, Y: 0.0}
                                             Duration: {X: 1.0, Y: 1.0}
-                                            SpawnCount: 20.0
+                                            SpawnCount: 1.0
+                                            Framerate: 60.0
                                     Initializers:
                                         fb15788d1c8dfdfc66a57c2e7cc662b2: !InitialSizeSeed
                                             InheritPosition: true
@@ -4156,7 +4168,7 @@ Hierarchy:
                 Components:
                     4ea3725a7e644d734dbcfaba847097f1: !TransformComponent
                         Id: a9378336-a7f4-4d55-b847-75aefeb0b5fa
-                        Position*: {X: -55.6973, Y: 3.12597871, Z: 5.0}
+                        Position*: {X: -55.6973, Y: 3.10406518, Z: 5.0}
                         Rotation: {X: 1.0, Y: 7.54979E-08, Z: 7.54979E-08, W: 5.69993331E-15}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -4168,6 +4180,7 @@ Hierarchy:
                         IsShadowReceiver*: false
                     a21077db3a443bfcc049968053900763: !StaticColliderComponent
                         Id: 1b4b8eb3-ec0a-455b-818b-ace548c51369
+                        Enabled*: true
                         CanSleep: false
                         Restitution: 0.0
                         Friction: 0.5

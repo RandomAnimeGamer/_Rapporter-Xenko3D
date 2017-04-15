@@ -1,6 +1,6 @@
 !SettingsFile
 Settings:
-    Package/Game/Effect/EffectCompilation: None
+    Package/Game/Effect/EffectCompilation: Local
     Package/Game/Effect/RecordUsedEffects: false
     Package/SceneSettings:
         7f47b0a4-3430-4e87-aa6d-11964d81c086:
@@ -86,8 +86,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: -2.683576, Y: 5.15883875, Z: 5.00769424}
-            CamPitchYaw: {X: 0.215485662, Y: 24.169672}
+            CamPosition: {X: -47.73837, Y: 2.804504, Z: 4.3464427}
+            CamPitchYaw: {X: -0.3164433, Y: 34.6226044}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -282,7 +282,7 @@ Settings:
             NavigationWireframes: false
         82022151-858f-4fb3-81c6-48aaba4d2dd1:
             CamPosition: {X: -3.665454, Y: 3.70296764, Z: -1.56664443}
-            CamPitchYaw: {X: -0.2212455, Y: -1.64241922}
+            CamPitchYaw: {X: 0.101843342, Y: -1.61132252}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0

@@ -22,7 +22,7 @@ namespace RapporterV2.Player { public class PlayerController : SyncScript {
 
     private void Move() {
         Vector3 moveDirection = Vector3.Zero; moveDirectionEvent.TryReceive(out moveDirection);//Character speed
-        character.SetVelocity(moveDirection * MaxRunSpeed);
+        character.SetVelocity(moveDirection * MaxRunSpeed * 2);
         //RunSpeedEventKey.Broadcast(moveDirection.Length());//Broadcast normalized speed
     }
 } }

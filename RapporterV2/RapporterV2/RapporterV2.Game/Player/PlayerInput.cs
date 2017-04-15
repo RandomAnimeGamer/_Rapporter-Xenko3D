@@ -52,7 +52,7 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         jumpForce = 0;
         RaycastDown();
         if(KeysJump.Any(key => Input.IsKeyDown(key)) && jumped) { jumpForce = 2; jumped = false; doneJumping=false; }
-        if(!doneJumping&&!jumped) { jumpCount++; jumpForce=4; if(jumpCount==5) { doneJumping=true; jumpCount=0; } }
+        if(!doneJumping&&!jumped) { jumpCount++; jumpForce=2; if(jumpCount==5) { doneJumping=true; jumpCount=0; } }
         if(doneJumping) jumpForce=-0.2f;
 
         var moveDirection = Vector2.Zero;

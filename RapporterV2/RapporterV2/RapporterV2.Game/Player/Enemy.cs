@@ -29,6 +29,13 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
         DamageCheck();
         if(HP==0&&deathTime>0) deathTime--;
         if(deathTime<=0) { r.IsTrigger=true; r.ApplyImpulse(new Vector3(0f,-10000f,0f)); }
+        if(deathTime==10) {
+            var particles = Content.Load<Prefab>("0Rapporter_Assets/Particles/Death");
+            var instance = particles.Instantiate();
+            var death = instance[0];
+            SceneSystem.SceneInstance.Scene.Entities.Add(death);
+            death.Transform.Position = Entity.Transform.Position;
+        }
 //        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX;
 //        if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX;
 //        if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY;
@@ -60,13 +67,6 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
     }
     public void CheckDeath() {
         if(HP<=0) { anim.Play("Death"); main.Broadcast(true);
-/*        var particles = Content.Load<Prefab>("0Rapporter_Assets/Particles/Death");
-        // Instantiate a prefab
-        var instance = particles.Instantiate();
-        var death = instance[0];
-        // Add the bullet to the scene
-        SceneSystem.SceneInstance.Scene.Entities.Add(death);
-        death.Transform.Position = Entity.Transform.Position;*/
         }
     }
 } }

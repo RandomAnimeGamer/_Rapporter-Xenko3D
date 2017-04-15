@@ -1,0 +1,17 @@
+!Animation
+Id: 9666dde3-bd65-4b50-8dd8-be2ac1ffd0fd
+SerializedVersion: {Xenko: 1.10.0-alpha01}
+Tags: []
+Source: Updated Bear Trap - Close Anim.fbx
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: PlayOnceHold
+Type: !StandardAnimationAssetType {}
+Skeleton: f5ef536d-948e-4412-8d27-a7200c913db3:0Rapporter_Assets/New Assets/3-31, New Assets/Bear Trap Skeleton
+RootMotion: false
+PreviewModel: null
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:00.4170000

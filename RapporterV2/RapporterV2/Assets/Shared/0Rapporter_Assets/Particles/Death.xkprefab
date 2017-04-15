@@ -22,11 +22,10 @@ Hierarchy:
                             ResetSeconds: 5.0
                             Control: Play
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                        Speed: 10.0
+                        Speed: 4.09396
                         ParticleSystem:
                             Settings: {}
-                            BoundingShape: !BoundingSpheretatic
-                                Radius: 1.0
+                            BoundingShape: null
                             Emitters:
                                 7a61ebad62783bf483ee18ba9ccdb877:
                                     ParticleLifetime: {X: 1.0, Y: 2.0}
@@ -36,7 +35,6 @@ Hierarchy:
                                         SamplerSize: null
                                         SamplerRotation: null
                                     Material: !ParticleMaterialComputeColor
-                                        FaceCulling: CullBack
                                         ComputeColor: !ComputeTextureColor
                                             Texture: 17c84ea4-e787-4f2e-9be2-496404da10a2:0Rapporter_Assets/Particles/forest
                                             FallbackValue:
@@ -48,7 +46,7 @@ Hierarchy:
                                         ForceTexCoords: false
                                     Spawners:
                                         b8720e87a830d9348793312b83c5a337: !SpawnerBurst
-                                            LoopCondition: Looping
+                                            LoopCondition: OneShot
                                             Delay: {X: 0.0, Y: 0.0}
                                             Duration: {X: 10.0, Y: 10.0}
                                             SpawnCount: 100
