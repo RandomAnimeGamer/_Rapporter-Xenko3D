@@ -1,6 +1,13 @@
-﻿﻿using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks;
-using SiliconStudio.Core.Mathematics; using SiliconStudio.Xenko.Input; using SiliconStudio.Xenko.Engine;
-using SiliconStudio.Xenko.Engine.Events; using RapporterV2.Player;
+﻿﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SiliconStudio.Core.Mathematics;
+using SiliconStudio.Xenko.Input;
+using SiliconStudio.Xenko.Engine;
+using SiliconStudio.Xenko.Engine.Events;
+using RapporterV2.Player;
 
 namespace RapporterV2.Quest { public class QuestManager : SyncScript {
     int main = 0, sword = 0, move = 0, jump = 0;//0=not taken, 1=taken/incomplete, 2=complete
@@ -11,18 +18,24 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
     public static readonly EventReceiver<bool> jumpSt = new EventReceiver<bool>();*/
 
     public static readonly EventReceiver<bool> mainComp = new EventReceiver<bool>(Enemy.main);
-    public static readonly EventReceiver<bool> swordComp = new EventReceiver<bool>(SwordQ.main);
-/*    public static readonly EventReceiver<bool> moveComp = new EventReceiver<bool>();
+/*    public static readonly EventReceiver<bool> swordComp = new EventReceiver<bool>();
+    public static readonly EventReceiver<bool> moveComp = new EventReceiver<bool>();
     public static readonly EventReceiver<bool> jumpComp = new EventReceiver<bool>();*/
 
     public static readonly EventKey<int> countKey = new EventKey<int>();
     public static readonly EventKey<Vector2> mainMove = new EventKey<Vector2>();//always broadcast (1, count)
     public static readonly EventKey<Vector2> swordMove = new EventKey<Vector2>();//always broadcast (1, count)
     public static readonly EventKey<int> completed = new EventKey<int>();//always quest #
-    public static readonly EventKey<bool> swordQ = new EventKey<bool>();
 
-    public override void Start() { }
+    public override void Start() {
+    }
+
     public override void Update() {
+        /*TO-DO:
+        Add class that handles new quests and transforms. Maybe even convert the list to a list of objects
+        that the class handles.
+        */
+
         move=0; jump=0; if(move==0&&jump==0) move=0;
         //Quest Acceptance
         if(main==0) { var maSt = false; mainSt.TryReceive(out maSt);
@@ -39,8 +52,7 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
                 swordMove.Broadcast(new Vector2(1, count-quests.IndexOf("sword")));
             }
         }
-        if(sword==1) { swordMove.Broadcast(new Vector2(1, count-quests.IndexOf("sword"))); swordQ.Broadcast(true); }
-        
+        if(sword==1) swordMove.Broadcast(new Vector2(1, count-quests.IndexOf("sword")));
 /*        if(move==0) { var moSt = false; moveSt.TryReceive(out moSt);
             if(moSt) {
                 quests.Add("move");
@@ -60,13 +72,13 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
                 quests.Remove("main"); main=2; count--; completed.Broadcast(1);
             }
         }
-        if(sword==1) { var swCo = false; swordComp.TryReceive(out swCo);
+/*        if(sword==1) { var swCo = false; swordComp.TryReceive(out swCo);
             if(swCo) {
                 quests.Remove("sword");
                 sword=2; count--;
             }
         }
-/*        if(move==1) { var moCo = false; moveComp.TryReceive(out moCo);
+        if(move==1) { var moCo = false; moveComp.TryReceive(out moCo);
             if(moCo) {
                 quests.Remove("move");
                 move=2; count--;

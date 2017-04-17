@@ -728,9 +728,6 @@ Hierarchy:
                             Texture: 503f9d1e-2b2c-4e60-b80f-66da3b054440:0Rapporter_Assets/QuestAssets/QuestBox Text, Defeat Deer
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                    6fa0995d22056f005b688365e5699ee8: !RapporterV2.Quest.ScrollQuestText2,RapporterV2.Game
-                        Id: 7d9082fe-22d9-4f5d-9ef7-c41edbc1dbdb
-                        q: 2
         -   Folder: NPCs
             Entity:
                 Id: 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
@@ -928,7 +925,7 @@ Hierarchy:
                 Components:
                     b45c3b8e5c66b5c5080837f335e97865: !TransformComponent
                         Id: 12a2d3da-3a14-4ae7-aa1f-1bddf980f3a1
-                        Position: {X: -0.121, Y: 0.028, Z: -0.125}
+                        Position: {X: -0.072, Y: 0.028, Z: -0.125}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.007, Y: 0.007, Z: 1.0}
                         Children: {}
@@ -3352,7 +3349,7 @@ Hierarchy:
                 Components:
                     a2a82910d6a581d9c7b9e967489bb7fa: !TransformComponent
                         Id: 7d70530d-f57b-45c7-a633-bfe7bda3f1c4
-                        Position: {X: 12.4481487, Y: 1.1044302, Z: -10.3956881}
+                        Position: {X: 1.69365275, Y: 1.1044302, Z: -26.7772217}
                         Rotation: {X: 0.0, Y: 0.0, Z: 1.0, W: -4.371139E-08}
                         Scale: {X: 0.2, Y: 0.2, Z: 0.2}
                         Children: {}
@@ -3902,25 +3899,6 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 56734ad9-ce13-41c8-a441-2e7a024c2c92
-        -   Folder: HP
-            Entity:
-                Id: a0fe36c2-b5f8-458f-98cc-52a406b7bc4d
-                Name: HP inside
-                Components:
-                    54b769b0f51a250b1c3a8b643864f3ec: !TransformComponent
-                        Id: 8a19177c-997b-4d15-8d8c-fcb8bc002512
-                        Position: {X: 0.08, Y: 0.04, Z: -0.15}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.03, Y: 0.03, Z: 0.03}
-                        Children: {}
-                    2f6a78a34df2e2c51685509dfffb33b0: !SpriteComponent
-                        Id: 7f27fff8-fbd6-452e-b441-35c9a67fc2c3
-                        SpriteProvider: !SpriteFromTexture
-                            Texture: 5c2515ea-1eb4-47a9-b1de-d591d2ec6676:0Rapporter_Assets/HP/HP inside
-                            Center: {X: 0.0, Y: 0.0}
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                    5b36cad1036c1b255fa67516527f91d3: !RapporterV2.HPBar,RapporterV2.Game
-                        Id: 10fdcb53-3873-4f40-ab9e-a475e55ac781
         -   Entity:
                 Id: a12942f2-2849-4db5-ac97-25b2627d3254
                 Name: Tree1
@@ -3963,6 +3941,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
+                            363dfd50bc1faf4cb198d55bc4959a6c: decaad78-dacc-4c5c-830b-cc153a9975c1/50fd3d36-1fbc-4caf-b198-d55bc4959a6c
                             c1081eb1d63c8ce07f04ad16ca6cf991: 50df4ae6-9eed-451a-a8ff-71651d2303ac/080642a3-3b14-4605-9c88-4236796a9622
                             94f84d4849e24573e714e709d9c836ba: 64b7072e-9801-4186-8af4-afc367c6386e/086904d1-6b27-4517-a07d-9cbf2e386a5f
                             7b2f25d4d07885310cdf23dea8d8b524: cdbc3426-5587-4adb-80ef-24b2f22a873c/b5c7a79c-3fcc-4027-a4f6-2f7282cbc07b
@@ -3970,8 +3949,6 @@ Hierarchy:
                             8a35c216a0af17a50748a9698cce5b0d: 976dcaab-6f1f-49f7-acaf-a8c9dc8ab41a/e2ec8a59-14ad-482c-8451-ebc292486399
                             b34420aba24cacd7a824add15bbde269: 1f18c285-288f-4f42-ad86-973e077cf04b/b13e1f83-61d4-486e-864a-e33ac654d6bd
                             52fb30c87ebdb85171e3c179990dcd96: bdb4f1ac-c017-4600-a146-dd64cf584344/23715ace-7168-40ff-b3b7-2a7a10bf6338
-                            d92aa03a71a7b2c03263d50cf761e2d6: a0fe36c2-b5f8-458f-98cc-52a406b7bc4d/8a19177c-997b-4d15-8d8c-fcb8bc002512
-                            b2999a22b1d048395500c632fe026c5a: f16fd4bd-b9a9-4449-84f6-6afcc00e55f7/4a84d3d3-afa8-43f5-8d6c-e7d38666b7c2
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
@@ -5534,6 +5511,25 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 67d365d3-a234-44e4-bd4b-7ec60ecc93bd
+        -   Entity:
+                Id: decaad78-dacc-4c5c-830b-cc153a9975c1
+                Name: Crosshair256
+                Components:
+                    363dfd50bc1faf4cb198d55bc4959a6c: !TransformComponent
+                        Id: 50fd3d36-1fbc-4caf-b198-d55bc4959a6c
+                        Position: {X: 0.0, Y: 0.0, Z: -0.121738508}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.005, Y: 0.005, Z: 0.005}
+                        Children: {}
+                    3db80bf6f7a64d469c3a78e1338ba404: !SpriteComponent
+                        Id: f60bb83d-a6f7-464d-9c3a-78e1338ba404
+                        Enabled: false
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: a5465fbe-63be-46d4-a877-132affab4d8f:Textures/crosshair_2
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        PremultipliedAlpha: false
+                        IgnoreDepth: true
         -   Folder: Environment/Forest Details
             Entity:
                 Id: dfc5ff56-da55-4b48-81b6-5617a11096c3
@@ -5819,23 +5815,6 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8b76c485-04aa-4818-9d2d-45f75e4f8e50
-        -   Folder: HP
-            Entity:
-                Id: f16fd4bd-b9a9-4449-84f6-6afcc00e55f7
-                Name: HP outline
-                Components:
-                    28089dfc9070926c71fa1bbcf0bd48e1: !TransformComponent
-                        Id: 4a84d3d3-afa8-43f5-8d6c-e7d38666b7c2
-                        Position: {X: 0.08, Y: 0.04, Z: -0.15}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.03, Y: 0.03, Z: 0.03}
-                        Children: {}
-                    ee1e1b7b9c544c728b0445a24325d2dc: !SpriteComponent
-                        Id: dc747e6f-d365-49b8-9133-c264c562bc82
-                        SpriteProvider: !SpriteFromTexture
-                            Texture: e6d127c7-1e1b-4623-8701-f0a94f701f4e:0Rapporter_Assets/HP/HP outline
-                            Center: {X: 0.0, Y: 0.0}
-                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 1.0}
         -   Entity:
                 Id: f2c3e4df-9789-45d2-80e4-ba1a2e91dd41
                 Name: Tree2

@@ -1,9 +1,18 @@
-﻿﻿using System.Collections.Generic; using System.Linq; using SiliconStudio.Core.Mathematics; using SiliconStudio.Xenko.Graphics;
-using SiliconStudio.Xenko.Audio; using SiliconStudio.Xenko.Physics; using SiliconStudio.Xenko.Engine;
-using SiliconStudio.Xenko.Engine.Events; using SiliconStudio.Xenko.Input; using RapporterV2.Core;
+﻿﻿using System.Collections.Generic;
+using System.Linq;
+using SiliconStudio.Core.Mathematics;
+using SiliconStudio.Xenko.Graphics;
+using SiliconStudio.Xenko.Audio;
+using SiliconStudio.Xenko.Physics;
+using SiliconStudio.Xenko.Engine;
+using SiliconStudio.Xenko.Engine.Events;
+using SiliconStudio.Xenko.Input;
+using RapporterV2.Core;
 
 namespace RapporterV2.Player { public class PlayerInput : SyncScript {
-    private Simulation simulation; public float MouseSensitivity { get; set; } = 100.0f;
+    private Simulation simulation;
+    public float DeadZone { get; set; } = 0.25f;
+    public float MouseSensitivity { get; set; } = 100.0f;
     public CameraComponent Camera { get; set; }
     public static readonly EventKey<Vector3> PlayerPos = new EventKey<Vector3>();
     public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
@@ -13,25 +22,35 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     public static readonly EventKey<bool> ResetEvent = new EventKey<bool>();
     public static readonly EventKey<bool> ResetTime = new EventKey<bool>();
     public static readonly EventReceiver<bool> AtkComp = new EventReceiver<bool>(WeaponScript.completed);
-    public List<Keys> KeysLeft { get; } = new List<Keys>(); public List<Keys> KeysRight { get; } = new List<Keys>();
-    public List<Keys> KeysUp { get; } = new List<Keys>(); public List<Keys> KeysDown { get; } = new List<Keys>();
+    public List<Keys> KeysLeft { get; } = new List<Keys>();
+    public List<Keys> KeysRight { get; } = new List<Keys>();
+    public List<Keys> KeysUp { get; } = new List<Keys>();
+    public List<Keys> KeysDown { get; } = new List<Keys>();
     public List<Keys> KeysJump { get; } = new List<Keys>();
     private bool jumped=false, doneJumping=true; private int jumpCount=0, combo=0; private float jumpForce;
-    public Sound SoundMusic; private SoundInstance forest; public Sound SoundEffect; private SoundInstance move;
-    private int HP=100; public static readonly EventKey<int> HPKey = new EventKey<int>();
+
+    public Sound SoundMusic;
+    private SoundInstance forest;
+    public Sound SoundEffect;
+    private SoundInstance move;
 
     public override void Start() {
         simulation = this.GetSimulation();
         
-        forest = SoundMusic.CreateInstance(); move = SoundEffect.CreateInstance();
-        if (!IsLiveReloading) { forest.IsLooping = true; //forest.Play();
-        } move.Stop();
+        forest = SoundMusic.CreateInstance();
+        move = SoundEffect.CreateInstance();
+        if (!IsLiveReloading) {
+            forest.IsLooping = true;
+//            forest.Play();
+        }
+        move.Stop();
         Input.LockMousePosition(true);
     }
     
     public override void Update() { { //Character movement
-        PlayerPos.Broadcast(Entity.Transform.Position); HPKey.Broadcast(HP);
-        jumpForce = 0; RaycastDown();
+        PlayerPos.Broadcast(Entity.Transform.Position);
+        jumpForce = 0;
+        RaycastDown();
         if(KeysJump.Any(key => Input.IsKeyDown(key)) && jumped) { jumpForce = 2; jumped = false; doneJumping=false; }
         if(!doneJumping&&!jumped) { jumpCount++; jumpForce=2; if(jumpCount==5) { doneJumping=true; jumpCount=0; } }
         if(doneJumping) jumpForce=-0.2f;
@@ -45,9 +64,16 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
         var worldSpeed = (Camera != null)//Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
             ? Utils.LogicDirectionToWorldDirection(moveDirection, Camera, Vector3.UnitY) + new Vector3(0, jumpForce, 0)
             : new Vector3(moveDirection.X, jumpForce, moveDirection.Y);//No camera? No problem!
-        if(worldSpeed!=Vector3.Zero) { if (!IsLiveReloading) { move.IsLooping = true; move.Volume=20; //move.Play();
-        } }
-        else { move.Stop(); }
+        if(worldSpeed!=Vector3.Zero) {
+            if (!IsLiveReloading) {
+                move.IsLooping = true;
+                move.Volume=20;
+//                move.Play();
+            }
+        }
+        else {
+            move.Stop();
+        }
         MoveDirectionEventKey.Broadcast(worldSpeed);
     } { //Camera rotation
         var cameraDirection = Vector2.Zero;

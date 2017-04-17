@@ -116,7 +116,6 @@
     <Compile Include="DebugPhysicsShapes.cs" />
     <Compile Include="EffectController.cs" />
     <Compile Include="FpsCamera.cs" />
-    <Compile Include="HPBar.cs" />
     <Compile Include="loadScene.cs" />
     <Compile Include="Player\AnimationController.cs" />
     <Compile Include="Player\Enemy.cs" />
@@ -134,7 +133,6 @@
     <Compile Include="Quest\ScrollQuest.cs" />
     <Compile Include="Quest\ScrollQuestText.cs" />
     <Compile Include="Quest\ScrollQuestText2.cs" />
-    <Compile Include="Quest\SwordQ.cs" />
     <Compile Include="Sounds\SoundScript.cs" />
     <Compile Include="Trigger\TriggerEvent.cs" />
     <Compile Include="Trigger\TriggerGroup.cs" />
