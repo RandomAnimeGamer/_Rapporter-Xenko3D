@@ -1796,7 +1796,6 @@ Hierarchy:
                         Id: 6b8c8c62-9754-47e4-804a-d3371ab3b0b7
                         SoundMusic: f486c8ca-e028-43f0-9519-52be86c02cd3:0Rapporter_Assets/Sound/Forest
                         SoundEffect: 7fe482dc-f199-4a66-8395-4fe032795ff1:0Rapporter_Assets/Sound/plant-foliage-rustle-foley-moves__by__bathroomcrooner
-                        DeadZone: 0.25
                         MouseSensitivity: 1.0
                         Camera: a2bac0e8-723a-495d-a05f-f239366654d3/79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         KeysLeft:
@@ -3972,6 +3971,7 @@ Hierarchy:
                             52fb30c87ebdb85171e3c179990dcd96: bdb4f1ac-c017-4600-a146-dd64cf584344/23715ace-7168-40ff-b3b7-2a7a10bf6338
                             d92aa03a71a7b2c03263d50cf761e2d6: a0fe36c2-b5f8-458f-98cc-52a406b7bc4d/8a19177c-997b-4d15-8d8c-fcb8bc002512
                             b2999a22b1d048395500c632fe026c5a: f16fd4bd-b9a9-4449-84f6-6afcc00e55f7/4a84d3d3-afa8-43f5-8d6c-e7d38666b7c2
+                            6f05319568d49260e7c1a93fb58cb558: db7a055d-ebe8-488e-b6ec-4b1f89813610/6bd11f8d-ebee-4882-97c2-77471f4a8853
                     bdcec17990d67f4eb9d1d3a9197c95a2: !CameraComponent
                         Id: 79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         Projection: Perspective
@@ -5502,6 +5502,25 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 42f3b315-25ac-4ed5-8d39-3413865c0361
+        -   Folder: HP
+            Entity:
+                Id: db7a055d-ebe8-488e-b6ec-4b1f89813610
+                Name: death fadeout
+                Components:
+                    a6403a750cd41390e70d8ea7b5c3c245: !TransformComponent
+                        Id: 6bd11f8d-ebee-4882-97c2-77471f4a8853
+                        Position: {X: 2.62104578E-08, Y: 0.0, Z: -0.1}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children: {}
+                    3b0ab944c7dfed640f0dd0b281ef5ef5: !SpriteComponent
+                        Id: 8c816842-5dea-4bbe-91aa-cc906b45b90c
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 7c760a47-30e3-4711-8ddb-771eec750d72:0Rapporter_Assets/HP/death fadeout
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 0.0}
+                    7eab5e2d08a0967315877daee0b97e27: !RapporterV2.Player.Death,RapporterV2.Game
+                        Id: d5efdd0c-23ab-4754-905c-a5983232c98a
         -   Entity:
                 Id: deb87f0a-fcc4-4691-851b-c4069765af6c
                 Name: Tree1

@@ -8,5 +8,5 @@ namespace RapporterV2 { public class HPBar : SyncScript {
         SpriteComponent healthComp; int health=100;
         public override void Start() { healthComp = Entity.Get<SpriteComponent>(); }
         public override void Update() {
-            hp.TryReceive(out health); healthComp.Color = new Color(new Vector3(1f, 1f, 1f), health); }
+            hp.TryReceive(out health); healthComp.Color = new Color(new Vector3(1f, 1f, 1f), health/100); }
 } }

@@ -119,6 +119,7 @@
     <Compile Include="HPBar.cs" />
     <Compile Include="loadScene.cs" />
     <Compile Include="Player\AnimationController.cs" />
+    <Compile Include="Player\Death.cs" />
     <Compile Include="Player\Enemy.cs" />
     <Compile Include="Player\NPCTalk.cs" />
     <Compile Include="Player\NPCTalk2.cs" />
