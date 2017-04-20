@@ -42,7 +42,7 @@ SceneSettings:
 Hierarchy:
     RootPartIds:
         - 54ae5828-6e50-4b94-b578-584c4ec71295
-        - 09143bb7-f329-43c6-b6d7-386e8c6925e9
+        - 6fcfbcec-5018-4e6a-85ad-961ab9523798
         - ab344601-0807-4702-85ad-b93a4cb29df4
         - 4ee154e0-43b1-4d55-afb6-fe718ce24600
         - 0ec0d2ad-3ae5-43df-8dc5-5c9ae47e1556
@@ -68,8 +68,6 @@ Hierarchy:
         - 273674c7-a23e-488f-aeaa-7bb0541ad674
         - 9f48d668-3c89-4bfc-80f0-18ccbd87063e
         - c46c7372-2305-4683-be15-1ffab57fecee
-        - d18bc381-fb86-495f-8727-f336a8bfdf65
-        - 923dc50b-5380-4194-a9cf-b8f2a66109fa
         - 03822c2d-7ea4-44f6-a200-5c06abc99ad5
         - f72caf4e-ae55-43c3-9cdf-bd01ca274316
         - 1fbb1f7a-ce96-4403-a5c8-384efdb746c7
@@ -77,6 +75,20 @@ Hierarchy:
         - 35be88e8-d83a-433b-bbcf-f0fb73be9fa6
         - ab1f293d-2b4a-43c4-9b97-6372772dc2cc
         - 8e08eb7d-52fa-4b36-a182-16260b6a469d
+        - f90500d1-7b30-4b4d-8766-f8c74b8387c9
+        - eedbc3ca-a476-45fe-975e-97c7a16fd7e6
+        - b87a2203-19ca-4060-9dae-a4319580ee84
+        - 2cbbb4aa-e165-46f8-9d75-14b04cbe5cee
+        - d18bc381-fb86-495f-8727-f336a8bfdf65
+        - 5e45caac-ff6b-4147-ac48-2b4a2b99f0d2
+        - e7cf2b98-2005-4a42-b963-afca945ba463
+        - 697ee0c5-b347-4778-867d-b5fb42201be7
+        - 923dc50b-5380-4194-a9cf-b8f2a66109fa
+        - 59967194-9ed9-4da1-b42a-4f4ed8ff2535
+        - adc07d87-8f5a-40b5-943f-feb3e6232fe9
+        - 4d66e301-6359-4361-a328-68e4ee311b68
+        - ac95fb88-bfbb-420d-9891-05c906db0698
+        - bf76ccb6-b21a-41d5-9ac2-863339e8b64c
     Parts:
         -   Folder: Environment
             Entity:
@@ -85,7 +97,7 @@ Hierarchy:
                 Components:
                     3f055b016ffe47d0ae8665732b7180ac: !TransformComponent
                         Id: f635d28b-86c5-48be-9754-d91af6367d5f
-                        Position: {X: -48.0, Y: 0.0, Z: 19.0}
+                        Position: {X: -46.5148163, Y: 0.0, Z: -2.55031347}
                         Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -99,6 +111,21 @@ Hierarchy:
                         Id: 6360812d-185a-4eb7-b78a-ac27621eca21
                         Animations:
                             0437855d0fc9de101421d05ad4c1fbd4~Magic: 0b2cd574-5378-447d-99bb-982cb3606675:0Rapporter_Assets/Town Map/_Updated_Town_Teleporter_2
+                    e192de0070832ce7833bacd500fd52a4: !StaticColliderComponent
+                        Id: d8c98040-da90-472f-a7aa-4ccacada38fa
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            4214b4728ab1e52caeba49610cb0ccab: !ConeColliderShapeDesc
+                                Height: 6.0
+                                Radius: 4.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: -2.0}
+                                LocalRotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: -0.707106769}
         -   Entity:
                 Id: 08dc62c7-0920-4a91-96bd-4e9281abc869
                 Name: Tree1
@@ -131,45 +158,6 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 072423d1-9a5e-410f-ad0f-a92e42f88d64
-        -   Folder: THE GREAT PAPYRUS
-            Entity:
-                Id: 09143bb7-f329-43c6-b6d7-386e8c6925e9
-                Name: Bear Trap - Animated
-                Components:
-                    1f0acce3b578595179e587806c244f32: !TransformComponent
-                        Id: 071bb415-a0fa-479a-a1bf-1f34aacabfa4
-                        Position: {X: -63.49521, Y: -0.670580447, Z: 22.0570412}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    5e73b16940175fa2435dde465ea3eff7: !ModelComponent
-                        Id: a055e96a-4034-4429-a20a-a083b6dfbf16
-                        Model: 1550136f-d2d5-4397-b532-240e18643c59:0Rapporter_Assets/Environment Assets/OtherAssets/Bear Trap - Animated
-                        Materials: {}
-                        IsShadowCaster*: false
-                        IsShadowReceiver*: false
-                    e51efe9e880ec527668dd6fd715da16b: !StaticColliderComponent
-                        Id: 13390624-5743-4103-8213-47fd6fd37fea
-                        CanSleep: false
-                        Restitution: 0.0
-                        Friction: 0.5
-                        RollingFriction: 0.0
-                        CcdMotionThreshold: 0.0
-                        CcdSweptSphereRadius: 0.0
-                        IsTrigger: false
-                        ColliderShapes:
-                            351f8edfccf1177a07158237e1d9c7eb: !ColliderShapeAssetDesc
-                                Shape: 37708d48-f593-447d-823b-d7eeb64a7edd:0Rapporter_Assets/Environment Assets/OtherAssets/bearTrapCollider
-                            6accedd8ec65021de13caf0d81a054d3: !ColliderShapeAssetDesc
-                                Shape: null
-                    63606a2cf4c9bfc278818068b9776365*: !AnimationComponent
-                        Id: a5416b57-2243-4b5f-9e46-38eba1669751
-                        Animations:
-                            df0452fc9ed8e959fd5c44679918e6f2~close: 9666dde3-bd65-4b50-8dd8-be2ac1ffd0fd:0Rapporter_Assets/New Assets/3-31, New Assets/Updated Bear Trap - Close Anim
-            Base:
-                BasePartAsset: 615882de-ad29-4676-85a8-cda1de124b6f:0Rapporter_Assets/Environment Assets/OtherAssets/Bear Trap prefab
-                BasePartId: 080e8235-4f60-48a0-91fe-16b07972fad6
-                InstanceId: 4f3ec301-af45-4021-a6cc-5053f2730c6e
         -   Entity:
                 Id: 0b174730-5307-4b06-bb0c-121a0308804b
                 Name: Tree1
@@ -362,6 +350,8 @@ Hierarchy:
                                 Size: {X: 130.0, Y: 1.0, Z: 130.0}
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    ea15975f322fbf43bf8edff9c4126fa9*: !RapporterV2.Player.CollisionDie,RapporterV2.Game
+                        Id: 3dc18df6-ad5e-4fad-88be-88f692b3b61a
             Base:
                 BasePartAsset: 585acf46-0b1f-4ca8-8ec1-e5f696baac90:0Rapporter_Assets/Environment Assets/OtherAssets/OceanBoundary Prefab
                 BasePartId: d13d0650-e3b0-48d8-bc3a-2de6ecbc4d66
@@ -941,6 +931,18 @@ Hierarchy:
                     be9de5742dc4b0806ebee65f12a381b8: !RapporterV2.Quest.ScrollQuestText,RapporterV2.Game
                         Id: f2065100-434c-4336-8c55-f3ca1128fa81
                         q: 1
+        -   Folder: null
+            Entity:
+                Id: 2cbbb4aa-e165-46f8-9d75-14b04cbe5cee
+                Name: Fence prefab
+                Components:
+                    7fd8d6d467b195a0fbab857bed181560: !TransformComponent
+                        Id: e6328478-0fcd-4d3c-86bc-015051d7199d
+                        Position: {X: -23.9232941, Y: 0.0, Z: 49.113}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1def3a956870b5b6b49871ab9dc07fb4: 4d90fb4a-4cd9-4a43-b5ff-f3139aacc861/19e804d8-de83-4c30-938a-66ffd5fcebfd
         -   Entity:
                 Id: 2e8281a3-ff14-4b24-ab65-344ec8bdbea7
                 Name: Tree1
@@ -1582,6 +1584,37 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 3eeac97f-31fd-4cdd-806a-2d110d28a45f
+        -   Folder: Environment/Town Houses
+            Entity:
+                Id: 4d66e301-6359-4361-a328-68e4ee311b68
+                Name: Town House2
+                Components:
+                    bdba2364368be819bbb3d209d348381f: !TransformComponent
+                        Id: 51bfb063-253c-4a94-98d8-787f5e6a1a20
+                        Position*: {X: -39.22153, Y: 0.38, Z: 26.6260872}
+                        Rotation*: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    87bba27b3fa12cb05e5f57909081b69a: !ModelComponent
+                        Id: 5a1992bd-e5e2-466f-9686-677502bd9f8c
+                        Model: 1c190784-69b1-423d-b59a-8b09c409b255:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2
+                        Materials: {}
+                    f8a9685ffaaad0a22f5a67ebdd80b087: !StaticColliderComponent
+                        Id: 9c081001-8a56-42eb-9085-74c8c0438bfe
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2bbf4e454386dda3250beb1a412ae8db: !ColliderShapeAssetDesc
+                                Shape: d16395d4-d084-44ec-894b-3770c3796b24:0Rapporter_Assets/Environment Assets/OtherAssets/TownHouse2 Collider
+            Base:
+                BasePartAsset: d86bbb26-3628-4ae2-914d-7a991e80ea44:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2 Prefab
+                BasePartId: 617a0560-70e4-4975-9452-484e0b9afcfd
+                InstanceId: 8069b97f-f210-43be-9a34-ec376a37e7f4
         -   Entity:
                 Id: 4d8860fb-abf4-484c-a221-964781fdd6a5
                 Name: Tree1
@@ -1614,6 +1647,41 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 72eb5f4f-ced8-4173-91b8-2903462c8430
+        -   Entity:
+                Id: 4d90fb4a-4cd9-4a43-b5ff-f3139aacc861
+                Name: Fence
+                Components:
+                    d6966e7d421a16d9b42764edf0dc46bb: !TransformComponent
+                        Id: 19e804d8-de83-4c30-938a-66ffd5fcebfd
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.93799555, Y: 1.93799555, Z: 1.93799555}
+                        Children: {}
+                    e14b8f98ec0fad38678e57ae8ca99dfd: !ModelComponent
+                        Id: dfc501e4-c5a8-4713-8bb0-ebf622140157
+                        Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
+                        Id: c9174667-1973-44ab-85d3-951dd7e4699e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2230c543193ac8c440325666e72cabf0: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 1.2, Z: 0.5}
+                                LocalOffset: {X: -0.5, Y: 0.6, Z: -0.3}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
+                BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
+                InstanceId: 6c1decb1-3f65-4118-b0a2-a1189a8033ac
         -   Entity:
                 Id: 4df5884d-1e96-437d-966d-fba34c99c9c5
                 Name: Tree1
@@ -1676,6 +1744,8 @@ Hierarchy:
                                 Size: {X: 45.0, Y: 1.0, Z: 45.0}
                                 LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    63021bcb3fb5698e719cff53aba0d3a9: !RapporterV2.Player.CollisionDie,RapporterV2.Game
+                        Id: b614979d-e88b-4ff9-8dae-4d1c3e478669
         -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: 4fd0b937-0925-4c60-b790-4ea7d9422e11
@@ -1932,6 +2002,37 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             9e3c179270a85cd01a28253cb5f24b45: c1f81056-4419-44dc-9914-1f012cb52541/863c4299-fc7d-4180-b95c-439b024dee7c
+        -   Folder: Environment/Town Houses
+            Entity:
+                Id: 59967194-9ed9-4da1-b42a-4f4ed8ff2535
+                Name: Town House2
+                Components:
+                    bdba2364368be819bbb3d209d348381f: !TransformComponent
+                        Id: c00ff8ba-50a5-4ed8-bdfd-c9e4fe3ead2c
+                        Position*: {X: -29.6793137, Y: 0.38, Z: -21.52953}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    87bba27b3fa12cb05e5f57909081b69a: !ModelComponent
+                        Id: 4050788c-4ab1-4906-a7b9-5019ef9c9290
+                        Model: 1c190784-69b1-423d-b59a-8b09c409b255:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2
+                        Materials: {}
+                    f8a9685ffaaad0a22f5a67ebdd80b087: !StaticColliderComponent
+                        Id: 1dfcc884-1bab-43aa-9b41-bb539d0eff5b
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2bbf4e454386dda3250beb1a412ae8db: !ColliderShapeAssetDesc
+                                Shape: d16395d4-d084-44ec-894b-3770c3796b24:0Rapporter_Assets/Environment Assets/OtherAssets/TownHouse2 Collider
+            Base:
+                BasePartAsset: d86bbb26-3628-4ae2-914d-7a991e80ea44:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2 Prefab
+                BasePartId: 617a0560-70e4-4975-9452-484e0b9afcfd
+                InstanceId: 66c801db-43b4-4140-8ee8-ff9ebf8954eb
         -   Entity:
                 Id: 5a06da39-ccd7-4a67-9c91-d8f1487e53cb
                 Name: Tree1
@@ -2060,6 +2161,37 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 56270d28-7f09-4580-86b6-d8aa729701b1
+        -   Folder: Environment/Town Houses
+            Entity:
+                Id: 5e45caac-ff6b-4147-ac48-2b4a2b99f0d2
+                Name: Town House
+                Components:
+                    17f01c03077d43ac3ccdf227ed38cb09: !TransformComponent
+                        Id: 5fe7a887-5a13-4783-aea7-c9264a11dfe2
+                        Position*: {X: -57.5242767, Y: 0.38, Z: 38.50356}
+                        Rotation*: {X: 0.0, Y: -0.9396926, Z: 0.0, W: -0.342020124}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d4f3844d9dc0c012e0b0d8398f35162a: !ModelComponent
+                        Id: d0786084-ff61-4862-b0b2-cff5b06dd7a5
+                        Model: 2d0a3e34-68d7-4e28-80db-e56fb6d33203:0Rapporter_Assets/Environment Assets/OtherAssets/Town House
+                        Materials: {}
+                    1feeb07c068bbadbb26f6c543997df87: !StaticColliderComponent
+                        Id: 4329fb8b-428c-41e8-8f47-08b9ccf3da7c
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            0d86df2a60922079f29591a7cc6e9f44: !ColliderShapeAssetDesc
+                                Shape: b1095be8-6342-44d0-adb5-50d46f05c400:0Rapporter_Assets/Environment Assets/OtherAssets/TownHouse Collider
+            Base:
+                BasePartAsset: e30af60a-bfe7-44dd-8eb5-6dcc77eeae86:0Rapporter_Assets/Environment Assets/OtherAssets/Town House Prefab
+                BasePartId: 0ecea01c-dd8e-49af-aa95-5a574ae5d4d4
+                InstanceId: 4329f115-0b85-4c23-91fc-5cfc036dc637
         -   Entity:
                 Id: 5fe9e0fe-71ac-45d9-a949-32f70d245007
                 Name: Tree1
@@ -2293,6 +2425,72 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 395146e0-7ce0-4d4d-beed-4d7604a26667
+        -   Folder: Environment/Town Houses
+            Entity:
+                Id: 697ee0c5-b347-4778-867d-b5fb42201be7
+                Name: Town House
+                Components:
+                    17f01c03077d43ac3ccdf227ed38cb09: !TransformComponent
+                        Id: 45bdb4e9-5c06-4a90-ad9b-a9e9754b245f
+                        Position*: {X: -44.2442055, Y: 0.38, Z: -44.04011}
+                        Rotation*: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d4f3844d9dc0c012e0b0d8398f35162a: !ModelComponent
+                        Id: 41c87f25-5141-43c1-978a-058fea619ddd
+                        Model: 2d0a3e34-68d7-4e28-80db-e56fb6d33203:0Rapporter_Assets/Environment Assets/OtherAssets/Town House
+                        Materials: {}
+                    1feeb07c068bbadbb26f6c543997df87: !StaticColliderComponent
+                        Id: 88f013be-d149-4088-8e90-9dc2372cee2e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            0d86df2a60922079f29591a7cc6e9f44: !ColliderShapeAssetDesc
+                                Shape: b1095be8-6342-44d0-adb5-50d46f05c400:0Rapporter_Assets/Environment Assets/OtherAssets/TownHouse Collider
+            Base:
+                BasePartAsset: e30af60a-bfe7-44dd-8eb5-6dcc77eeae86:0Rapporter_Assets/Environment Assets/OtherAssets/Town House Prefab
+                BasePartId: 0ecea01c-dd8e-49af-aa95-5a574ae5d4d4
+                InstanceId: bcc423e5-6028-4171-9038-2b6566c6edc5
+        -   Entity:
+                Id: 6b2238a9-3a81-4169-ba45-ef317bdce5f3
+                Name: Fence
+                Components:
+                    d6966e7d421a16d9b42764edf0dc46bb: !TransformComponent
+                        Id: abae5c13-3638-4c43-b0d0-90424dd7f08b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.93799555, Y: 1.93799555, Z: 1.93799555}
+                        Children: {}
+                    e14b8f98ec0fad38678e57ae8ca99dfd: !ModelComponent
+                        Id: 14754fde-01b8-459d-b5df-d641a61b59b5
+                        Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
+                        Id: 2ce69038-3f73-4f75-9178-f7b6c4bf6987
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2230c543193ac8c440325666e72cabf0: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 1.2, Z: 0.5}
+                                LocalOffset: {X: -0.5, Y: 0.6, Z: -0.3}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
+                BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
+                InstanceId: e80069a9-a12a-48e7-b41f-576621846eee
         -   Entity:
                 Id: 6baa7821-20d6-456c-aa21-8de6404b9698
                 Name: Tree1
@@ -2485,6 +2683,48 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 0551bac8-61a1-4d8f-bc05-a0e3bb333648
+        -   Folder: THE GREAT PAPYRUS
+            Entity:
+                Id: 6fcfbcec-5018-4e6a-85ad-961ab9523798
+                Name: Bear Trap
+                Components:
+                    7d3928445ec8ac6f44b8ad3d4d0500f2: !TransformComponent
+                        Id: 84cb5e53-86a2-41d7-804a-c429e2deb3a3
+                        Position: {X: -48.224556, Y: -0.118617296, Z: 26.5420551}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3, Y: 0.3, Z: 0.3}
+                        Children: {}
+                    5154cf20806664620b998f702c85e01a: !ModelComponent
+                        Id: 05d2d105-16b5-4589-a0fe-dc7d16bb9084
+                        Model: 1a5c1c89-eea3-40d5-915b-fc64bc7907d2:0Rapporter_Assets/New Assets/3-31, New Assets/Bear Trap
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    7d5334bd704c06635c1c4c75320fb9f3: !StaticColliderComponent
+                        Id: 13390624-5743-4103-8213-47fd6fd37fea
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            351f8edfccf1177a07158237e1d9c7eb: !ConeColliderShapeDesc
+                                Height: 0.3
+                                Radius: 0.6
+                                LocalOffset: {X: 0.0, Y: 0.1, Z: 0.0}
+                                LocalRotation: {X: 1.0, Y: -4.37113918E-08, Z: -4.37113918E-08, W: -4.37113847E-08}
+                            6accedd8ec65021de13caf0d81a054d3: !ColliderShapeAssetDesc
+                                Shape: null
+                    42e9aba494adb87453fd83eeaf9ad761: !AnimationComponent
+                        Id: 5e785e4a-01e5-418b-925d-372bada3d6b5
+                        Animations:
+                            0357c41ec5d72812bbc27efe4829e83c~close: 9666dde3-bd65-4b50-8dd8-be2ac1ffd0fd:0Rapporter_Assets/New Assets/3-31, New Assets/Updated Bear Trap - Close Anim
+                    b34a3a18cef1d3e3e7bd085cefd1736d: !RapporterV2.Player.CollisionDamage,RapporterV2.Game
+                        Id: e47c171f-a4dc-44ce-a040-879542ed200d
+                    947266e38b287a3595309d3c9123e4ec: !RapporterV2.Player.BearTrapAnim,RapporterV2.Game
+                        Id: dda95653-2662-432b-8bee-bab7880acd19
         -   Entity:
                 Id: 70eac616-38bd-4f14-a8fb-89217d423db6
                 Name: Tree1
@@ -3357,12 +3597,14 @@ Hierarchy:
                         Children: {}
                     33039bae1c2c22d680bb5adb8417ad0f: !ModelComponent
                         Id: 2dddd447-7a99-483f-b783-e4911320b4b3
+                        Enabled: false
                         Model: 484f7904-68d6-42d2-b4a2-7f00df52889a:0Rapporter_Assets/Dragon Killing Sword
                         Materials: {}
                         IsShadowCaster: false
                         IsShadowReceiver: false
                     4496711f6e9ce725771352a4706d039d: !RigidbodyComponent
                         Id: ec364f23-d82f-47d6-a84b-807b81b88c83
+                        Enabled: false
                         CanSleep: false
                         Restitution: 0.0
                         Friction: 0.5
@@ -3383,15 +3625,15 @@ Hierarchy:
                                 Size: {X: 7.0, Y: 7.0, Z: 7.0}
                                 LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-        -   Folder: Environment
+        -   Folder: Environment/Town Houses
             Entity:
                 Id: 923dc50b-5380-4194-a9cf-b8f2a66109fa
                 Name: Town House2
                 Components:
                     bdba2364368be819bbb3d209d348381f: !TransformComponent
                         Id: 3fde0561-bcb9-4d5c-a12e-0d7aa0bc05a9
-                        Position*: {X: -56.42714, Y: 0.38, Z: -19.0699081}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Position*: {X: -28.637146, Y: 0.38, Z: -39.136673}
+                        Rotation*: {X: 0.0, Y: 0.9396926, Z: 0.0, W: -0.342020124}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     87bba27b3fa12cb05e5f57909081b69a: !ModelComponent
@@ -4211,10 +4453,74 @@ Hierarchy:
                         ColliderShapes:
                             42364c2217b36d740e725c5d8f54ee9e: !ColliderShapeAssetDesc
                                 Shape: e71b61d1-d9c9-4e59-9065-c9b1feadd2e2:0Rapporter_Assets/Environment Assets/OtherAssets/circleWater collider
+                    02389b79c6dde68dd49fd982045a2949*: !RapporterV2.Player.CollisionDie,RapporterV2.Game
+                        Id: 71b1e295-f6f9-4636-8056-70b180f83e46
             Base:
                 BasePartAsset: 3cfdee6d-fde2-4005-a155-de38dbe7876c:0Rapporter_Assets/Environment Assets/OtherAssets/Circle Water prefab
                 BasePartId: 4ac4bbb3-d93c-4367-ad82-e784c1d8c540
                 InstanceId: 4a64180e-5d01-41f7-872f-735cd86a0b4c
+        -   Folder: Environment/Town Houses
+            Entity:
+                Id: ac95fb88-bfbb-420d-9891-05c906db0698
+                Name: Town House2
+                Components:
+                    bdba2364368be819bbb3d209d348381f: !TransformComponent
+                        Id: 69c07d95-6aac-410d-b641-55891b90ff17
+                        Position*: {X: -27.7794285, Y: 0.38, Z: 38.183094}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    87bba27b3fa12cb05e5f57909081b69a: !ModelComponent
+                        Id: eaf0e076-c01a-41a1-8aa7-ca01a6b08021
+                        Model: 1c190784-69b1-423d-b59a-8b09c409b255:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2
+                        Materials: {}
+                    f8a9685ffaaad0a22f5a67ebdd80b087: !StaticColliderComponent
+                        Id: 63611fda-e1af-4b8a-9d64-06be2a314b90
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2bbf4e454386dda3250beb1a412ae8db: !ColliderShapeAssetDesc
+                                Shape: d16395d4-d084-44ec-894b-3770c3796b24:0Rapporter_Assets/Environment Assets/OtherAssets/TownHouse2 Collider
+            Base:
+                BasePartAsset: d86bbb26-3628-4ae2-914d-7a991e80ea44:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2 Prefab
+                BasePartId: 617a0560-70e4-4975-9452-484e0b9afcfd
+                InstanceId: 5814c481-a2aa-4cff-a920-815188ef0269
+        -   Folder: Environment/Town Houses
+            Entity:
+                Id: adc07d87-8f5a-40b5-943f-feb3e6232fe9
+                Name: Town House2
+                Components:
+                    bdba2364368be819bbb3d209d348381f: !TransformComponent
+                        Id: 8f4ba78a-2ecf-4439-b3a2-bf06c5d944e3
+                        Position*: {X: -56.0273323, Y: 0.38, Z: -31.2212276}
+                        Rotation*: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    87bba27b3fa12cb05e5f57909081b69a: !ModelComponent
+                        Id: 27d77f3f-5547-4aee-a575-7138197d76df
+                        Model: 1c190784-69b1-423d-b59a-8b09c409b255:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2
+                        Materials: {}
+                    f8a9685ffaaad0a22f5a67ebdd80b087: !StaticColliderComponent
+                        Id: bfb29d3d-5c11-4f55-b27e-538a1a08df56
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2bbf4e454386dda3250beb1a412ae8db: !ColliderShapeAssetDesc
+                                Shape: d16395d4-d084-44ec-894b-3770c3796b24:0Rapporter_Assets/Environment Assets/OtherAssets/TownHouse2 Collider
+            Base:
+                BasePartAsset: d86bbb26-3628-4ae2-914d-7a991e80ea44:0Rapporter_Assets/Environment Assets/OtherAssets/Town House2 Prefab
+                BasePartId: 617a0560-70e4-4975-9452-484e0b9afcfd
+                InstanceId: 6b68f021-a0f6-4b4c-bbae-3085efe87bdc
         -   Entity:
                 Id: add5d6f5-cfc4-4ad6-b9e5-999de7644030
                 Name: Tree1
@@ -4475,6 +4781,18 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: e4319186-5b93-492d-8806-cb7691bc2017
+        -   Folder: null
+            Entity:
+                Id: b87a2203-19ca-4060-9dae-a4319580ee84
+                Name: Fence prefab
+                Components:
+                    7fd8d6d467b195a0fbab857bed181560: !TransformComponent
+                        Id: 27a7e20f-e14f-473f-9a3f-a10258cf21ed
+                        Position: {X: -23.9232941, Y: 0.0, Z: -47.85729}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1def3a956870b5b6b49871ab9dc07fb4: f95b112d-d6a1-48c3-8a29-b1dc2e27dac9/15d272d5-5915-4fb8-82e4-d47209ef01db
         -   Entity:
                 Id: b91b511d-5ce2-4486-b3c8-6901e3d2734f
                 Name: Tree1
@@ -4753,6 +5071,38 @@ Hierarchy:
                         moving: 0.0
                         old: 0.0
                         quest: 2.0
+        -   Entity:
+                Id: bf76ccb6-b21a-41d5-9ac2-863339e8b64c
+                Name: Berries
+                Components:
+                    514ffa6ebe01b1e300c4fad7cda73fe7: !TransformComponent
+                        Id: 8ef55ace-74a2-4d09-83cf-b87ccd14e8b7
+                        Position: {X: 0.0, Y: 0.236968666, Z: 29.7489433}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
+                        Children: {}
+                    48f19a4074d0db188f3536f036913024: !ModelComponent
+                        Id: b53947ee-4e3a-4966-9fcb-cb1913092a21
+                        Model: 1a14d1e7-84f5-4a2c-98aa-5023c9ef98c8:0Rapporter_Assets/Environment Assets/Berries
+                        Materials:
+                            e546aa1f45315b0dca214ca366728133~0: 3816bc68-2b9a-4344-8365-03afee1c9156:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    63af031dfd46fa0a499f2143ffb433e2: !StaticColliderComponent
+                        Id: 7c26f65a-eead-49a5-bbcc-b8ab63a4a704
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            479a559698f0033df44904339b1703f6: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.2, Y: 0.1, Z: 0.05}
+                                LocalOffset: {X: 0.06, Y: 0.01, Z: -0.2}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Folder: Environment/Obstacles/Trees
             Entity:
                 Id: c091cc5e-59f9-48bf-a45e-d9f6dfac4619
@@ -4996,6 +5346,41 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8e80f785-f0a0-41af-a2fe-82e4df361e23
+        -   Entity:
+                Id: c9fb6498-bfff-40a0-bc7f-22fde711cda0
+                Name: Fence
+                Components:
+                    d6966e7d421a16d9b42764edf0dc46bb: !TransformComponent
+                        Id: 07109391-67d2-4ab5-adc7-9ce8725d1914
+                        Position*: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.93799555, Y: 1.93799555, Z: 1.93799555}
+                        Children: {}
+                    e14b8f98ec0fad38678e57ae8ca99dfd: !ModelComponent
+                        Id: 0d1d9db6-3c9d-4052-baac-fe5addf68cdc
+                        Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
+                        Id: 365c9815-7f7d-4096-80f4-d9531afa7437
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2230c543193ac8c440325666e72cabf0: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 1.2, Z: 0.5}
+                                LocalOffset: {X: -0.5, Y: 0.6, Z: -0.3}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
+                BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
+                InstanceId: 566497ac-4ded-4a50-bff9-5048048d5603
         -   Entity:
                 Id: ca8e2740-5a54-44c0-9236-45323a3bec46
                 Name: Tree1
@@ -5265,15 +5650,15 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 6b71acee-6cb1-48e2-9084-f3e37372ee5f
-        -   Folder: Environment
+        -   Folder: Environment/Town Houses
             Entity:
                 Id: d18bc381-fb86-495f-8727-f336a8bfdf65
                 Name: Town House
                 Components:
                     17f01c03077d43ac3ccdf227ed38cb09: !TransformComponent
                         Id: 3f5e709c-8007-4597-a7bf-9955d834b5db
-                        Position*: {X: -60.3371124, Y: 0.38, Z: 25.67897}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Position*: {X: -58.8433571, Y: 0.38, Z: 18.9567871}
+                        Rotation*: {X: 0.0, Y: 0.6946584, Z: 0.0, W: 0.7193398}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     d4f3844d9dc0c012e0b0d8398f35162a: !ModelComponent
@@ -5511,14 +5896,14 @@ Hierarchy:
                         Id: 6bd11f8d-ebee-4882-97c2-77471f4a8853
                         Position: {X: 2.62104578E-08, Y: 0.0, Z: -0.1}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Scale: {X: 0.015, Y: 0.015, Z: 0.015}
                         Children: {}
                     3b0ab944c7dfed640f0dd0b281ef5ef5: !SpriteComponent
                         Id: 8c816842-5dea-4bbe-91aa-cc906b45b90c
                         SpriteProvider: !SpriteFromTexture
-                            Texture: 7c760a47-30e3-4711-8ddb-771eec750d72:0Rapporter_Assets/HP/death fadeout
+                            Texture: dd6eb1fd-f461-4d38-ab57-5c0bffe6a7b5:0Rapporter_Assets/New Assets/Game Over Screen
                             Center: {X: 0.0, Y: 0.0}
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 0.0}
+                        Color: {R: 0.0, G: 0.0, B: 0.0, A: 0.0}
                     7eab5e2d08a0967315877daee0b97e27: !RapporterV2.Player.Death,RapporterV2.Game
                         Id: d5efdd0c-23ab-4754-905c-a5983232c98a
         -   Entity:
@@ -5742,6 +6127,37 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: efe36af5-65fe-40e5-a7db-9dc2a4050768
+        -   Folder: Environment/Town Houses
+            Entity:
+                Id: e7cf2b98-2005-4a42-b963-afca945ba463
+                Name: Town House
+                Components:
+                    17f01c03077d43ac3ccdf227ed38cb09: !TransformComponent
+                        Id: a97b4199-45ee-4292-819c-83472eedfec5
+                        Position*: {X: -57.9490967, Y: 0.38, Z: -11.3800068}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d4f3844d9dc0c012e0b0d8398f35162a: !ModelComponent
+                        Id: 92e973e0-340e-4102-b04c-ceeb16db9759
+                        Model: 2d0a3e34-68d7-4e28-80db-e56fb6d33203:0Rapporter_Assets/Environment Assets/OtherAssets/Town House
+                        Materials: {}
+                    1feeb07c068bbadbb26f6c543997df87: !StaticColliderComponent
+                        Id: 412a99e6-534b-4cbc-b31f-390b5e8927b1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            0d86df2a60922079f29591a7cc6e9f44: !ColliderShapeAssetDesc
+                                Shape: b1095be8-6342-44d0-adb5-50d46f05c400:0Rapporter_Assets/Environment Assets/OtherAssets/TownHouse Collider
+            Base:
+                BasePartAsset: e30af60a-bfe7-44dd-8eb5-6dcc77eeae86:0Rapporter_Assets/Environment Assets/OtherAssets/Town House Prefab
+                BasePartId: 0ecea01c-dd8e-49af-aa95-5a574ae5d4d4
+                InstanceId: 2d187d7a-73d4-42ea-9e5a-ddd57c01e2fb
         -   Entity:
                 Id: ea76361f-1cfe-4d28-97da-ba179ffb9856
                 Name: Tree1
@@ -5806,6 +6222,18 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: c4cfe12e-eae5-4d4c-b00e-713f14fa7120
+        -   Folder: null
+            Entity:
+                Id: eedbc3ca-a476-45fe-975e-97c7a16fd7e6
+                Name: Fence prefab
+                Components:
+                    7fd8d6d467b195a0fbab857bed181560: !TransformComponent
+                        Id: 9a491410-83db-428a-931a-f9d8b0b07242
+                        Position: {X: -61.06627, Y: 0.0, Z: -47.85729}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1def3a956870b5b6b49871ab9dc07fb4: 6b2238a9-3a81-4169-ba45-ef317bdce5f3/abae5c13-3638-4c43-b0d0-90424dd7f08b
         -   Entity:
                 Id: f14edd66-717d-42cb-b173-4fb4eebccae6
                 Name: Tree1
@@ -6064,6 +6492,52 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 26a8476e-39dc-4d7c-83e4-040373c44900
+        -   Entity:
+                Id: f90500d1-7b30-4b4d-8766-f8c74b8387c9
+                Name: Fence prefab
+                Components:
+                    7fd8d6d467b195a0fbab857bed181560: !TransformComponent
+                        Id: 255ff526-5563-4da4-be0d-e46590f0423a
+                        Position: {X: -61.06627, Y: 0.0, Z: 49.1126976}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1def3a956870b5b6b49871ab9dc07fb4: c9fb6498-bfff-40a0-bc7f-22fde711cda0/07109391-67d2-4ab5-adc7-9ce8725d1914
+        -   Entity:
+                Id: f95b112d-d6a1-48c3-8a29-b1dc2e27dac9
+                Name: Fence
+                Components:
+                    d6966e7d421a16d9b42764edf0dc46bb: !TransformComponent
+                        Id: 15d272d5-5915-4fb8-82e4-d47209ef01db
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.93799555, Y: 1.93799555, Z: 1.93799555}
+                        Children: {}
+                    e14b8f98ec0fad38678e57ae8ca99dfd: !ModelComponent
+                        Id: d168c38b-ffc6-4b87-a096-5dc72792678c
+                        Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+                    c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
+                        Id: ee2d8bfc-b3d0-430d-8145-8bf665c6b5f4
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2230c543193ac8c440325666e72cabf0: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 1.2, Z: 0.5}
+                                LocalOffset: {X: -0.5, Y: 0.6, Z: -0.3}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
+                BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
+                InstanceId: 1f5690b8-5bc7-4b9a-bca0-652c4fa060eb
         -   Entity:
                 Id: fa497f44-2457-4236-9919-c306bf6eb2b3
                 Name: Tree1

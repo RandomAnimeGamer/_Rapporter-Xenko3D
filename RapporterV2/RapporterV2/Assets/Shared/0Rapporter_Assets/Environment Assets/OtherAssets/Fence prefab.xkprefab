@@ -12,7 +12,7 @@ Hierarchy:
                 Components:
                     d6966e7d421a16d9b42764edf0dc46bb: !TransformComponent
                         Id: 7d7d5d90-5a8d-405d-a4f1-301b203835d3
-                        Position: {X: -70.13406, Y: 0.21882236, Z: -2.90275288}
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.93799555, Y: 1.93799555, Z: 1.93799555}
                         Children: {}
@@ -20,6 +20,8 @@ Hierarchy:
                         Id: e9b8ae5f-d626-41ab-9e3d-4172412dddc6
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ae1d9e35-a19b-4dc3-af54-b6a657f343d7
                         CanSleep: false
@@ -30,5 +32,8 @@ Hierarchy:
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
                         ColliderShapes:
-                            2230c543193ac8c440325666e72cabf0: !ColliderShapeAssetDesc
-                                Shape: 51b09c03-1616-4429-b496-670851c90d6b:0Rapporter_Assets/Environment Assets/OtherAssets/fenceCollider
+                            2230c543193ac8c440325666e72cabf0: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 1.2, Z: 0.5}
+                                LocalOffset: {X: -0.5, Y: 0.6, Z: -0.3}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

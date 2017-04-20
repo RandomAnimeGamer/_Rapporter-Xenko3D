@@ -29,6 +29,7 @@ namespace SiliconStudio.DataSerializers
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_FpsCameraSerializer), typeof(RapporterV2.FpsCamera), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_HPBarSerializer), typeof(RapporterV2.HPBar), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_loadSceneSerializer), typeof(RapporterV2.loadScene), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_ScriptSerializer), typeof(RapporterV2.Script), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_TriggerScriptSerializer), typeof(RapporterV2.TriggerScript), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerGroupSerializer), typeof(RapporterV2.Trigger.TriggerGroup), DataSerializerGenericMode.None, false, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<RapporterV2.Trigger.TriggerEvent>), typeof(System.Collections.Generic.List<RapporterV2.Trigger.TriggerEvent>), DataSerializerGenericMode.None, false, false, Profile = "Default")]
@@ -39,6 +40,9 @@ namespace SiliconStudio.DataSerializers
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestText2Serializer), typeof(RapporterV2.Quest.ScrollQuestText2), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_SwordQSerializer), typeof(RapporterV2.Quest.SwordQ), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_AnimationControllerSerializer), typeof(RapporterV2.Player.AnimationController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_BearTrapAnimSerializer), typeof(RapporterV2.Player.BearTrapAnim), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_CollisionDamageSerializer), typeof(RapporterV2.Player.CollisionDamage), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_CollisionDieSerializer), typeof(RapporterV2.Player.CollisionDie), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_DeathSerializer), typeof(RapporterV2.Player.Death), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemySerializer), typeof(RapporterV2.Player.Enemy), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_NPCTalkSerializer), typeof(RapporterV2.Player.NPCTalk), DataSerializerGenericMode.None, true, true, Profile = "Default")]
@@ -86,6 +90,7 @@ namespace SiliconStudio.DataSerializers
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb561e011, 0xc6fcfefa, 0xe33fcc13, 0x5d12644b), typeof(RapporterV2.FpsCamera), typeof(SiliconStudio.DataSerializers.RapporterV2_FpsCameraSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xe8259b8d, 0x6acb683a, 0x30a66ac3, 0xe68cb27d), typeof(RapporterV2.HPBar), typeof(SiliconStudio.DataSerializers.RapporterV2_HPBarSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x8c4c1ca7, 0xbab971b7, 0x084a382c, 0xbab3120f), typeof(RapporterV2.loadScene), typeof(SiliconStudio.DataSerializers.RapporterV2_loadSceneSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x6306d3d6, 0x002cb09d, 0x31edd489, 0xec47a1c4), typeof(RapporterV2.Script), typeof(SiliconStudio.DataSerializers.RapporterV2_ScriptSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x3c939d77, 0xf13b65c6, 0x61d39e7a, 0x4a8618cc), typeof(RapporterV2.TriggerScript), typeof(SiliconStudio.DataSerializers.RapporterV2_TriggerScriptSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x28d24634, 0xd72d3da2, 0xf58b93bb, 0xe8172d32), typeof(RapporterV2.Trigger.TriggerGroup), typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerGroupSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xa3255dcc, 0x3c9e3f5d, 0x76156847, 0x4968b4c8), typeof(System.Collections.Generic.List<RapporterV2.Trigger.TriggerEvent>), typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<RapporterV2.Trigger.TriggerEvent>)));
@@ -96,6 +101,9 @@ namespace SiliconStudio.DataSerializers
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd221553b, 0x1a8b76b6, 0x63a1391a, 0xd00dea69), typeof(RapporterV2.Quest.ScrollQuestText2), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestText2Serializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x7f10bc79, 0xb6bcae8d, 0x9d8ab66a, 0xfac070aa), typeof(RapporterV2.Quest.SwordQ), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_SwordQSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x29609120, 0x7fbd9e9e, 0x5a5c9ebf, 0xcf423a0f), typeof(RapporterV2.Player.AnimationController), typeof(SiliconStudio.DataSerializers.RapporterV2Player_AnimationControllerSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xfa15f358, 0x378e05c5, 0xdfcc3a35, 0x995f601f), typeof(RapporterV2.Player.BearTrapAnim), typeof(SiliconStudio.DataSerializers.RapporterV2Player_BearTrapAnimSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x1d439b41, 0xb49922ef, 0x237e2954, 0x08c1d909), typeof(RapporterV2.Player.CollisionDamage), typeof(SiliconStudio.DataSerializers.RapporterV2Player_CollisionDamageSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x95e35f16, 0xff8baa32, 0xed58549f, 0x51aa5efa), typeof(RapporterV2.Player.CollisionDie), typeof(SiliconStudio.DataSerializers.RapporterV2Player_CollisionDieSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xfe3775c3, 0xe4cc3211, 0x5fca5e08, 0x123a2aaf), typeof(RapporterV2.Player.Death), typeof(SiliconStudio.DataSerializers.RapporterV2Player_DeathSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd8692cf0, 0xafee77c1, 0x48f151c6, 0xe6ae5767), typeof(RapporterV2.Player.Enemy), typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemySerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x2847fe42, 0x2b7754f1, 0x556a3d07, 0x9421e296), typeof(RapporterV2.Player.NPCTalk), typeof(SiliconStudio.DataSerializers.RapporterV2Player_NPCTalkSerializer)));
@@ -327,6 +335,36 @@ namespace SiliconStudio.DataSerializers
 			obj = (RapporterV2.loadScene)parentObj;
 
             SoundMusicSerializer.Serialize(ref obj.SoundMusic, mode, stream);
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2_ScriptSerializer : ClassDataSerializer<RapporterV2.Script>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.StartupScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.StartupScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.StartupScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Script obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.StartupScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Script)parentObj;
+
 		}
 
 		internal static void ForceGenericInstantiation()
@@ -670,6 +708,96 @@ namespace SiliconStudio.DataSerializers
             TimeFactorSerializer.Serialize(ref timeFactor, mode, stream);
             if (mode == ArchiveMode.Deserialize)
                 obj.TimeFactor = timeFactor;
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Player_BearTrapAnimSerializer : ClassDataSerializer<RapporterV2.Player.BearTrapAnim>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Player.BearTrapAnim obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Player.BearTrapAnim)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Player_CollisionDamageSerializer : ClassDataSerializer<RapporterV2.Player.CollisionDamage>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Player.CollisionDamage obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Player.CollisionDamage)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Player_CollisionDieSerializer : ClassDataSerializer<RapporterV2.Player.CollisionDie>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Player.CollisionDie obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Player.CollisionDie)parentObj;
+
 		}
 
 		internal static void ForceGenericInstantiation()

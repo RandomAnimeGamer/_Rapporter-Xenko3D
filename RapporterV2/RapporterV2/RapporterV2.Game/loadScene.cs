@@ -20,11 +20,9 @@ namespace RapporterV2 { public class loadScene : SyncScript {
     }
 
     public override void Update() {
-        if(Game.IsRunning) {
-            if(Input.IsKeyPressed(Keys.Space)) {
+        if(Input.IsKeyPressed(Keys.Space)) {
 //                forest.Stop();
-                SceneSystem.SceneInstance.Scene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Forest Scene");
-                }
+            SceneSystem.SceneInstance.Scene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Forest Scene");
         }
     }
 } }

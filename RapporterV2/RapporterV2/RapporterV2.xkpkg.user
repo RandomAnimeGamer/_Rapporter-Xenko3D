@@ -86,8 +86,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: -39.8330841, Y: 5.89216566, Z: -5.040095}
-            CamPitchYaw: {X: -0.305969238, Y: 48.7704964}
+            CamPosition: {X: 1.52918375, Y: 7.40924454, Z: 36.56836}
+            CamPitchYaw: {X: -0.24163422, Y: 70.43799}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -109,7 +109,6 @@ Settings:
             ComponentGizmoSize: 1.0
             FixedSizeGizmos: false
             HiddenGizmos:
-                - Physics
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
@@ -306,6 +305,33 @@ Settings:
             FixedSizeGizmos: false
             HiddenGizmos:
                 - Physics
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:
+            CamPosition: {X: -2.53664279, Y: 5.91095352, Z: 4.497516}
+            CamPitchYaw: {X: -0.8664545, Y: 12.0440617}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false

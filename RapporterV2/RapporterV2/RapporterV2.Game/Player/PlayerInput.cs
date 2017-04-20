@@ -19,6 +19,9 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     private bool jumped=false, doneJumping=true; private int jumpCount=0, combo=0; private float jumpForce;
     public Sound SoundMusic; private SoundInstance forest; public Sound SoundEffect; private SoundInstance move;
     private int HP=100; public static readonly EventKey<int> HPKey = new EventKey<int>();
+    public static readonly EventKey<bool> dead = new EventKey<bool>();
+    public static readonly EventReceiver<bool> ded = new EventReceiver<bool>(CollisionDie.main);
+    public static readonly EventReceiver<int> damage = new EventReceiver<int>(CollisionDamage.main); bool dmg=false;
 
     public override void Start() {
         simulation = this.GetSimulation();
@@ -30,7 +33,12 @@ namespace RapporterV2.Player { public class PlayerInput : SyncScript {
     }
     
     public override void Update() { { //Character movement
+        var damaging=0; damage.TryReceive(out damaging);
+        if(damaging!=0) { if(damaging==1) { dmg=true; } if(damaging==2) { dmg=false; } } if(dmg) HP--;
+        var dying=false; ded.TryReceive(out dying);
+        if(dying) { HP=0; Entity.Get<CharacterComponent>().Teleport(Entity.Transform.Position-new Vector3(0f, 100f, 0f)); }
         PlayerPos.Broadcast(Entity.Transform.Position); HPKey.Broadcast(HP);
+        if(HP<=0) dead.Broadcast(true);
         jumpForce = 0; RaycastDown();
         if(KeysJump.Any(key => Input.IsKeyDown(key)) && jumped) { jumpForce = 2; jumped = false; doneJumping=false; }
         if(!doneJumping&&!jumped) { jumpCount++; jumpForce=2; if(jumpCount==5) { doneJumping=true; jumpCount=0; } }

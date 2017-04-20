@@ -49,7 +49,7 @@ Hierarchy:
                     11541ce0813291b70ad5ded56687dba5: !SpriteComponent
                         Id: 5f70c8ac-3358-48d6-b5c9-0ad33dc423d2
                         SpriteProvider: !SpriteFromTexture
-                            Texture: 56c508a1-12ba-4842-8997-36027e6cc581:Textures/testTitle
+                            Texture: 6155f374-913e-4d20-869e-e25a1d90df06:0Rapporter_Assets/Main menu, V2
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
                     3b1de0a2b3b8624fb723be9623c1bd18: !AudioEmitterComponent
