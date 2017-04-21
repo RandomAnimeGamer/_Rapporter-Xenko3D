@@ -1,0 +1,34 @@
+!PrefabAsset
+Id: db483676-c7e5-4232-be61-17bb3c02040a
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - f326dad2-9299-49eb-b0b2-7ee4a82ded33
+    Parts:
+        -   Entity:
+                Id: f326dad2-9299-49eb-b0b2-7ee4a82ded33
+                Name: Tree2, Mid
+                Components:
+                    9ec650e38689298fd312a36aa4505715: !TransformComponent
+                        Id: f4083dd4-1a4e-496a-bfba-ca4545af6956
+                        Position: {X: 25.708252, Y: 0.0, Z: 41.4133453}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cfb0acc6926bda45803e5bea7fa59503: !ModelComponent
+                        Id: 66bc0a1f-f6af-49d3-8293-be6f06e7de6e
+                        Model: bd21b545-c141-4a03-b922-56974f01a047:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, Mid
+                        Materials: {}
+                    dbfa3e77f6f8fed6b4e1ae4634c6e987: !StaticColliderComponent
+                        Id: 8a67835d-1871-4634-a298-da93b4ba1209
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            b1cfc6d04027e241bfac09d128dfe39d: !ColliderShapeAssetDesc
+                                Shape: a4127e23-1436-45a2-bb83-43f2a8376966:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, mid collider

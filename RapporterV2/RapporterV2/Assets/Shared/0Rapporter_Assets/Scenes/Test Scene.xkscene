@@ -1228,7 +1228,6 @@ Hierarchy:
                         Id: 6b8c8c62-9754-47e4-804a-d3371ab3b0b7
                         SoundMusic: f486c8ca-e028-43f0-9519-52be86c02cd3:0Rapporter_Assets/Sound/Forest
                         SoundEffect: 7fe482dc-f199-4a66-8395-4fe032795ff1:0Rapporter_Assets/Sound/plant-foliage-rustle-foley-moves__by__bathroomcrooner
-                        DeadZone: 0.25
                         MouseSensitivity: 1.0
                         Camera: b59e7409-ffc7-4d46-bb64-c2e63cf90ef0/79c1cebd-d690-4e7f-b9d1-d3a9197c95a2
                         KeysLeft:

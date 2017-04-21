@@ -86,8 +86,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: 1.52918375, Y: 7.40924454, Z: 36.56836}
-            CamPitchYaw: {X: -0.24163422, Y: 70.43799}
+            CamPosition: {X: 34.8549843, Y: 44.07396, Z: -10.4098682}
+            CamPitchYaw: {X: -1.33252931, Y: 63.10894}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -100,7 +100,7 @@ Settings:
             RotationSnapValue: 22.5
             ScaleSnapActive: false
             ScaleSnapValue: 1.1
-            SelectionMaskVisible: false
+            SelectionMaskVisible: true
             GridVisible: true
             CameraPreviewVisible: true
             RenderMode: Lighting
@@ -109,6 +109,7 @@ Settings:
             ComponentGizmoSize: 1.0
             FixedSizeGizmos: false
             HiddenGizmos:
+                - Physics
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
@@ -332,6 +333,34 @@ Settings:
             ComponentGizmoSize: 1.0
             FixedSizeGizmos: false
             HiddenGizmos:
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        e0439416-5479-484a-985c-155f2d5d9007:
+            CamPosition: {X: 15.42075, Y: 52.9673958, Z: 32.8349876}
+            CamPitchYaw: {X: -0.9347676, Y: 0.3900198}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false

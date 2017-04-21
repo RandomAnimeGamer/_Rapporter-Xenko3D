@@ -6,10 +6,11 @@ using SiliconStudio.Xenko.Rendering.Composers; using SiliconStudio.Xenko.Renderi
 using System.Collections.Generic; using System.Threading.Tasks;
 
 namespace RapporterV2 { public class Full : SyncScript {
+         public override void Update() {}
         public Full() {
-            GraphicsDeviceManager.PreferredBackBufferWidth = 1024;
+            /*GraphicsDeviceManager.PreferredBackBufferWidth = 1024;
             GraphicsDeviceManager.PreferredBackBufferHeight = 576;
             GraphicsDeviceManager.IsFullScreen = true;
-            AutoLoadDefaultSettings = false;
+            AutoLoadDefaultSettings = false;*/
         }
 } }

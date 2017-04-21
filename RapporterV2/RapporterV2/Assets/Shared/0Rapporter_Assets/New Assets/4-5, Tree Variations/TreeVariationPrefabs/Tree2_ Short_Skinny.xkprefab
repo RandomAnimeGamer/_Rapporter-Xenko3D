@@ -1,0 +1,34 @@
+!PrefabAsset
+Id: 9af0c1ab-6074-49e4-96bc-29e21047183e
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - 71655b53-babd-492b-8f5f-7f02b2e5f42c
+    Parts:
+        -   Entity:
+                Id: 71655b53-babd-492b-8f5f-7f02b2e5f42c
+                Name: Tree2, Short_Skinny
+                Components:
+                    566a1766b08d597e590dc82e5eb5f9b2: !TransformComponent
+                        Id: d88fbfae-5739-4b3a-a743-80ae0a27ace9
+                        Position: {X: 28.0691833, Y: 0.0, Z: 43.3177528}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a37cc37d8b0a7624fd365cc659b09bfd: !ModelComponent
+                        Id: 8dd1cfd8-3f6f-44ca-b68d-34caf1ee3534
+                        Model: 07ce6347-55d4-4ef0-9e2b-1d1e439cfe9e:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, Short_Skinny
+                        Materials: {}
+                    8335bb4355350a010e098fd613bb87fe: !StaticColliderComponent
+                        Id: 113040bf-984e-44e5-a087-62f5ff1e8d7f
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            b1cfc6d04027e241bfac09d128dfe39d: !ColliderShapeAssetDesc
+                                Shape: c36fa9f6-40d7-4258-9cac-163f9068659a:0Rapporter_Assets/New Assets/4-5, Tree Variations/tree2, short_skinny collider

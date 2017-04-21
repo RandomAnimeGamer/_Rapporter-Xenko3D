@@ -1,0 +1,20 @@
+!ColliderShapeAsset
+Id: c810ba44-e0aa-47c7-b3d8-00bb35e1e3bf
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+ColliderShapes:
+    8e28e058521cedc98be6d6e59d4375b3: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: 6f2adf4c-dc29-4a8c-8634-322758c69825:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree1, Short_Skinny2
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        SimpleWrap: true
+        Scaling: {X: 1.0, Y: 1.0, Z: 1.0}
+        Depth: 10
+        PosSampling: 10
+        AngleSampling: 10
+        PosRefine: 5
+        AngleRefine: 5
+        Alpha: 0.01
+        Threshold: 0.01

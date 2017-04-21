@@ -1,0 +1,36 @@
+!PrefabAsset
+Id: c9fff6ad-c594-44e4-aa8a-174baceeb7f3
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - f9d7019d-ea49-4055-be27-1510d84e49ac
+    Parts:
+        -   Entity:
+                Id: f9d7019d-ea49-4055-be27-1510d84e49ac
+                Name: Tree2
+                Components:
+                    5b482f913a1f45a058417f4258b9b5ff: !TransformComponent
+                        Id: 691adee4-73e1-498a-83bb-78c546b0536b
+                        Position: {X: 13.2187014, Y: 0.0, Z: 33.4026756}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8029f4f367fe0278f5faf8453a1af1ce: !ModelComponent
+                        Id: 414e8eaa-5cf6-49d4-850b-dc5998f116da
+                        Model: 1ba31899-5183-4e6c-bce7-d5672b98389e:0Rapporter_Assets/Environment Assets/Tree2
+                        Materials: {}
+                    af2a19f6c848bd299e5e9ce35d0a030b: !StaticColliderComponent
+                        Id: 87f4b2dc-c258-4890-9f2c-150a7dd9d2e7
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            04df3d9e17aeaa1fe3b1d7c10ffb0d12: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
