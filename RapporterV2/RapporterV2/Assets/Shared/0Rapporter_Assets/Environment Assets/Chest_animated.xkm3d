@@ -1,0 +1,12 @@
+!Model
+Id: 073e549f-dfa0-432b-aa15-3d4372df62ad
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: Chest_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6e2adc0ba7df834125aae866a08fa761:
+        Name: Material
+        MaterialInstance:
+            Material: aec384ff-2821-4fd4-9a04-687b81940791:0Rapporter_Assets/Environment Assets/Material_4
+Skeleton: 8266f7e7-e7d4-444d-b024-a9f2c6492a54:0Rapporter_Assets/Environment Assets/Chest_animated Skeleton_5

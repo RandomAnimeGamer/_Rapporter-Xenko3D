@@ -41,6 +41,36 @@ SceneSettings:
             BackgroundColor: {R: 0.196078435, G: 0.196078435, B: 0.196078435}
 Hierarchy:
     RootPartIds:
+        - f90500d1-7b30-4b4d-8766-f8c74b8387c9
+        - 69926ad4-9096-45ce-ad6b-9add04aa3011
+        - 7cc8b345-26d2-4642-a938-1ba365b5a088
+        - 63906973-31b7-44a6-bee8-4bce36c584ae
+        - 8d811f00-e11d-477d-a599-3673216671f9
+        - 67a5c463-a812-4811-8f68-fb5181bc3b77
+        - 75e13055-c8cb-4d0b-918b-5ad3d69481b2
+        - 262055b5-4955-4cd1-82a8-63e6c91d1cd1
+        - 2cbbb4aa-e165-46f8-9d75-14b04cbe5cee
+        - 95fbc9a2-3a45-4898-9fc2-9cdf27c6e412
+        - b68e5c0d-6d5e-4b3c-b7ee-29f5f8a765cf
+        - b7e03994-e233-4d84-b1fc-fdd652e4fd4b
+        - 32cc9902-47f2-4904-a7b0-de59258c9b58
+        - f436fc1b-020e-4f5a-942c-d5c82ed5ac74
+        - 93268f8f-8475-4ab3-89b2-f461187e9c9d
+        - 2bba4083-0fc5-4542-850d-b1ffd34f32dc
+        - 709f41b5-bcba-436d-a5bd-31636158afde
+        - 87113750-9cb4-4213-8613-7706f843d172
+        - 09db25cb-34a0-4635-8529-961db9821676
+        - 3cf95cdc-648b-4700-8dae-17df5f669572
+        - a212d8c4-59a4-4f41-9f88-32ac644a720b
+        - bed8695f-60b0-4e94-9503-297b0fb4a35d
+        - 7dc7a6dc-ff70-4b43-8bf7-21463e7f72f2
+        - f0895187-1eec-4d0a-ab34-97f3b35f487e
+        - 888359bf-5262-49bf-b190-d581e4122cc7
+        - 4ae9ec90-2cf2-4b57-a2b7-9b1940e08b49
+        - 7224c35c-026b-4667-9bc6-9d70fa9a78a7
+        - 23450be9-4374-42d5-a6e0-a67917e8ae9b
+        - 7f84a4d9-a4ab-4783-a62b-be4c5691ad63
+        - 10fde8cf-30fd-4009-ba4a-024db3e9797a
         - 54ae5828-6e50-4b94-b578-584c4ec71295
         - ce1c871a-83d4-49d5-838f-a1b3b6a52533
         - 6fcfbcec-5018-4e6a-85ad-961ab9523798
@@ -88,6 +118,14 @@ Hierarchy:
         - 35be88e8-d83a-433b-bbcf-f0fb73be9fa6
         - ab1f293d-2b4a-43c4-9b97-6372772dc2cc
         - 8e08eb7d-52fa-4b36-a182-16260b6a469d
+        - db1fe5a5-d6ef-47dd-9bfd-f99c2dd3348f
+        - be6efb43-cc6a-4220-b365-50eb53239c47
+        - e084f96a-172d-41e6-8d2a-8aaea2b8ac94
+        - 705865de-c9d2-4899-9c59-4a4fe7f535d3
+        - ee47f55b-c7b3-41cd-a426-bdba52e86f18
+        - b71942ce-327e-4b69-9ec8-805c60700694
+        - be512d96-4e1f-49a9-bab0-c232bc4946c8
+        - 42652f0f-7f2e-4617-9c65-45dea2d0cba1
         - d18bc381-fb86-495f-8727-f336a8bfdf65
         - 5e45caac-ff6b-4147-ac48-2b4a2b99f0d2
         - e7cf2b98-2005-4a42-b963-afca945ba463
@@ -97,66 +135,6 @@ Hierarchy:
         - adc07d87-8f5a-40b5-943f-feb3e6232fe9
         - 4d66e301-6359-4361-a328-68e4ee311b68
         - ac95fb88-bfbb-420d-9891-05c906db0698
-        - f90500d1-7b30-4b4d-8766-f8c74b8387c9
-        - 69926ad4-9096-45ce-ad6b-9add04aa3011
-        - 7cc8b345-26d2-4642-a938-1ba365b5a088
-        - 63906973-31b7-44a6-bee8-4bce36c584ae
-        - 8d811f00-e11d-477d-a599-3673216671f9
-        - 67a5c463-a812-4811-8f68-fb5181bc3b77
-        - 75e13055-c8cb-4d0b-918b-5ad3d69481b2
-        - 262055b5-4955-4cd1-82a8-63e6c91d1cd1
-        - 2cbbb4aa-e165-46f8-9d75-14b04cbe5cee
-        - 68330e12-8829-493b-86ae-7cb41c2aa2c1
-        - 60ad4e19-aa98-4c28-97e0-0ceac37ddea5
-        - 6e5e314e-3140-4cae-83e9-cdf08e300c0a
-        - c8aec3bd-e421-4f59-af5b-62a600441b85
-        - 48c6b69a-de21-4626-aaac-7ca0c65ea07d
-        - 16e26078-b808-4431-8ab6-9c04917f973b
-        - e6e4be31-6f1a-4dbe-946a-c3a79f7b2fa1
-        - 9c0f4979-34e2-40a3-a929-d58c722ac572
-        - eca3a601-3abb-4ff9-b01e-d64ca47a8937
-        - b1ca275f-d976-442f-90d7-88afccf8b29d
-        - 3c891407-d9bd-4efd-83c5-5fa7a142e2cc
-        - ff882ed5-76fa-4e3c-a660-49e2bb3ad58b
-        - 787887be-a0db-48ad-b04a-83702e011bfe
-        - 517503a1-a35e-4e97-b31a-a4bb2cac0f15
-        - a160cfa8-dc27-483f-89e1-26826dd762ca
-        - 6ff7405a-74ca-4638-8ab4-8c4f5e1724c8
-        - 01a897a8-75a4-46da-9740-e68499417e28
-        - 1eb547af-df9d-4d23-9663-18e07b30c51d
-        - 99dc58f6-de63-4200-b87a-4c350196d9c9
-        - 5251b7d2-7b8f-4ac5-891b-7bf97abdcdfe
-        - c1b2334c-6cd0-4a3e-9d27-123513a4cbf2
-        - b87a2203-19ca-4060-9dae-a4319580ee84
-        - 83a946fa-d5f3-42c0-b44f-b6e080e6983a
-        - 818775b0-6e80-4cab-b8bd-6a7b16e4d501
-        - b7688de9-c6e9-4dc4-b6f4-3fbc064498a7
-        - 2c679e1e-e335-4abc-a7a2-6331a64eaeea
-        - 79709268-4d1d-4710-a6f3-c2365c2c3782
-        - 4aeb23ab-3c46-45a7-9618-2a99230e832b
-        - 682af698-bf09-49bd-bf58-2a51cebe0722
-        - eedbc3ca-a476-45fe-975e-97c7a16fd7e6
-        - 95fbc9a2-3a45-4898-9fc2-9cdf27c6e412
-        - b68e5c0d-6d5e-4b3c-b7ee-29f5f8a765cf
-        - b7e03994-e233-4d84-b1fc-fdd652e4fd4b
-        - 32cc9902-47f2-4904-a7b0-de59258c9b58
-        - f436fc1b-020e-4f5a-942c-d5c82ed5ac74
-        - 93268f8f-8475-4ab3-89b2-f461187e9c9d
-        - 2bba4083-0fc5-4542-850d-b1ffd34f32dc
-        - 709f41b5-bcba-436d-a5bd-31636158afde
-        - 87113750-9cb4-4213-8613-7706f843d172
-        - 09db25cb-34a0-4635-8529-961db9821676
-        - 3cf95cdc-648b-4700-8dae-17df5f669572
-        - a212d8c4-59a4-4f41-9f88-32ac644a720b
-        - bed8695f-60b0-4e94-9503-297b0fb4a35d
-        - 7dc7a6dc-ff70-4b43-8bf7-21463e7f72f2
-        - f0895187-1eec-4d0a-ab34-97f3b35f487e
-        - 888359bf-5262-49bf-b190-d581e4122cc7
-        - 4ae9ec90-2cf2-4b57-a2b7-9b1940e08b49
-        - 7224c35c-026b-4667-9bc6-9d70fa9a78a7
-        - 23450be9-4374-42d5-a6e0-a67917e8ae9b
-        - 7f84a4d9-a4ab-4783-a62b-be4c5691ad63
-        - 10fde8cf-30fd-4009-ba4a-024db3e9797a
         - e2f9ad67-85ba-4df1-914c-8530a9f878de
         - 8a0e4f60-a4b9-4aa1-967e-76eb35616cd8
         - afe34da2-65c5-4753-9a8c-30e95781b238
@@ -385,8 +363,39 @@ Hierarchy:
         - 466a923d-51ce-4d04-a51f-6a3c516bdd09
         - 40c46fa3-7548-4db6-af96-8779ef101afc
         - ae7d0e01-1e01-4950-ac2f-bfe5c426b847
+        - 34bad775-8708-4b5f-91ff-cd26578247c1
+        - 68330e12-8829-493b-86ae-7cb41c2aa2c1
+        - 60ad4e19-aa98-4c28-97e0-0ceac37ddea5
+        - 6e5e314e-3140-4cae-83e9-cdf08e300c0a
+        - c8aec3bd-e421-4f59-af5b-62a600441b85
+        - 48c6b69a-de21-4626-aaac-7ca0c65ea07d
+        - 16e26078-b808-4431-8ab6-9c04917f973b
+        - e6e4be31-6f1a-4dbe-946a-c3a79f7b2fa1
+        - 9c0f4979-34e2-40a3-a929-d58c722ac572
+        - eca3a601-3abb-4ff9-b01e-d64ca47a8937
+        - b1ca275f-d976-442f-90d7-88afccf8b29d
+        - 3c891407-d9bd-4efd-83c5-5fa7a142e2cc
+        - ff882ed5-76fa-4e3c-a660-49e2bb3ad58b
+        - 787887be-a0db-48ad-b04a-83702e011bfe
+        - 517503a1-a35e-4e97-b31a-a4bb2cac0f15
+        - a160cfa8-dc27-483f-89e1-26826dd762ca
+        - 6ff7405a-74ca-4638-8ab4-8c4f5e1724c8
+        - 01a897a8-75a4-46da-9740-e68499417e28
+        - 1eb547af-df9d-4d23-9663-18e07b30c51d
+        - 99dc58f6-de63-4200-b87a-4c350196d9c9
+        - 5251b7d2-7b8f-4ac5-891b-7bf97abdcdfe
+        - c1b2334c-6cd0-4a3e-9d27-123513a4cbf2
+        - b87a2203-19ca-4060-9dae-a4319580ee84
+        - 83a946fa-d5f3-42c0-b44f-b6e080e6983a
+        - 818775b0-6e80-4cab-b8bd-6a7b16e4d501
+        - b7688de9-c6e9-4dc4-b6f4-3fbc064498a7
+        - 2c679e1e-e335-4abc-a7a2-6331a64eaeea
+        - 79709268-4d1d-4710-a6f3-c2365c2c3782
+        - 4aeb23ab-3c46-45a7-9618-2a99230e832b
+        - 682af698-bf09-49bd-bf58-2a51cebe0722
+        - eedbc3ca-a476-45fe-975e-97c7a16fd7e6
     Parts:
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 01a897a8-75a4-46da-9740-e68499417e28
                 Name: Fence prefab
@@ -644,7 +653,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 072423d1-9a5e-410f-ad0f-a92e42f88d64
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 09db25cb-34a0-4635-8529-961db9821676
                 Name: Fence prefab
@@ -1346,7 +1355,7 @@ Hierarchy:
                 BasePartAsset: 587b499b-7a3b-4a6d-a57e-f816e2bc59fc:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1_ Mid
                 BasePartId: 666c3c60-4c60-4a90-94b5-e5031df68607
                 InstanceId: 88599515-a047-4611-97ca-e1ededb7f4ed
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 10fde8cf-30fd-4009-ba4a-024db3e9797a
                 Name: Fence prefab
@@ -1586,7 +1595,7 @@ Hierarchy:
                 BasePartAsset: 3cfdee6d-fde2-4005-a155-de38dbe7876c:0Rapporter_Assets/Environment Assets/OtherAssets/Circle Water prefab
                 BasePartId: 4ac4bbb3-d93c-4367-ad82-e784c1d8c540
                 InstanceId: 90473081-898d-422c-bb29-aa9445b73fab
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 16e26078-b808-4431-8ab6-9c04917f973b
                 Name: Fence prefab
@@ -2069,7 +2078,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 16b14862-dcd1-41de-aeee-68dd0e82fc0f
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 1eb547af-df9d-4d23-9663-18e07b30c51d
                 Name: Fence prefab
@@ -2391,7 +2400,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: eefc62ae-6570-4f2e-9d7d-887462b09810
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 23450be9-4374-42d5-a6e0-a67917e8ae9b
                 Name: Fence prefab
@@ -2579,7 +2588,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: dded2908-1b6b-4b50-86ce-37c76c77de9c
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: 262055b5-4955-4cd1-82a8-63e6c91d1cd1
                 Name: Fence prefab
@@ -2924,7 +2933,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 86c9f052-7f05-4f13-98c3-3154a12c71bc
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 2bba4083-0fc5-4542-850d-b1ffd34f32dc
                 Name: Fence prefab
@@ -2956,7 +2965,7 @@ Hierarchy:
                     be9de5742dc4b0806ebee65f12a381b8: !RapporterV2.Quest.ScrollQuestText,RapporterV2.Game
                         Id: f2065100-434c-4336-8c55-f3ca1128fa81
                         q: 1
-        -   Folder: Environment/WestFence
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: 2c679e1e-e335-4abc-a7a2-6331a64eaeea
                 Name: Fence prefab
@@ -3004,7 +3013,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 00f3e0fb-ad9c-447e-a96a-4caf9f587faa
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: 2cbbb4aa-e165-46f8-9d75-14b04cbe5cee
                 Name: Fence prefab
@@ -3418,7 +3427,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: e78b80d1-3741-4e84-9aba-5b8e1acaab57
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 32cc9902-47f2-4904-a7b0-de59258c9b58
                 Name: Fence prefab
@@ -3538,6 +3547,23 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: bcdd4545-4ab3-4573-b3d7-54a4f387c113
+        -   Entity:
+                Id: 34bad775-8708-4b5f-91ff-cd26578247c1
+                Name: Rock1
+                Components:
+                    528cbe0df4d66cbbb5d3de46a90c3ba3: !TransformComponent
+                        Id: 044cfab1-2b3e-4bc9-86d9-18ac39788ec8
+                        Position: {X: 20.2146339, Y: 0.0, Z: -5.41488028}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a1faced2a94f0d9aa365166cfea07a5d: !ModelComponent
+                        Id: 547b86e3-9b66-431c-acc9-fd6bbe108c42
+                        Model: 4a9788a8-6172-4b13-8e63-32816b66ffb2:0Rapporter_Assets/Environment Assets/OtherAssets/Rock1
+                        Materials:
+                            4a693d421287a5b01e044747fe779847~0: 753e3247-1aa9-453d-876e-fdb69a13e96a:0Rapporter_Assets/Environment Assets/OtherAssets/Rock_2
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
         -   Folder: NPCs
             Entity:
                 Id: 35be88e8-d83a-433b-bbcf-f0fb73be9fa6
@@ -4021,7 +4047,7 @@ Hierarchy:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
                 BasePartId: 3c7b3a01-719c-4ecb-85ed-f47efbc9f412
                 InstanceId: f465c704-880f-47b1-9c49-687503684ba8
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 3c891407-d9bd-4efd-83c5-5fa7a142e2cc
                 Name: Fence prefab
@@ -4132,7 +4158,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 99dd8e75-df5b-411b-82b1-9df834dcd054
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 3cf95cdc-648b-4700-8dae-17df5f669572
                 Name: Fence prefab
@@ -4538,6 +4564,27 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: eb8d97f1-c570-4402-b1ff-ca7bc1f35638
+        -   Folder: null
+            Entity:
+                Id: 42652f0f-7f2e-4617-9c65-45dea2d0cba1
+                Name: Chest_animated
+                Components:
+                    73403713b2a88faf322d98f95d4a7ddf: !TransformComponent
+                        Id: 89a4ee00-2638-4721-8cb3-345b93d83668
+                        Position*: {X: 44.79715, Y: -0.130348235, Z: 46.70432}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Children: {}
+                    bff795c55cb8efd4350ce9e4fcc69130: !ModelComponent
+                        Id: 10223d84-37ab-435b-849b-17fa0edc8a84
+                        Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
+                BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
+                InstanceId: 64c0394a-275e-4545-8c0d-4b8e2c6c5cc2
         -   Entity:
                 Id: 43689f53-ff68-4fe4-91dc-5ea930d27f86
                 Name: Tree1
@@ -4904,7 +4951,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 1fbd8e18-9330-41d6-ab5f-c7e512313ce7
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 48c6b69a-de21-4626-aaac-7ca0c65ea07d
                 Name: Fence prefab
@@ -5091,7 +5138,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 3eeac97f-31fd-4cdd-806a-2d110d28a45f
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 4ae9ec90-2cf2-4b57-a2b7-9b1940e08b49
                 Name: Fence prefab
@@ -5103,7 +5150,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: 3dc45fae-d489-46aa-8a4b-fe1963d293cd/0df6a188-78bb-4a40-ae51-360400a81bfc
-        -   Folder: Environment/WestFence
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: 4aeb23ab-3c46-45a7-9618-2a99230e832b
                 Name: Fence prefab
@@ -5647,7 +5694,7 @@ Hierarchy:
                                             DisplayParticleScaleUniform: true
                                             RandomSize: {X: 10.0, Y: 10.0}
                                     Updaters: {}
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 517503a1-a35e-4e97-b31a-a4bb2cac0f15
                 Name: Fence prefab
@@ -5659,7 +5706,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: 7163a2cd-8d6b-41cc-9bb2-1edec83558b8/178af8b6-d239-4678-9155-aa45cf0b031a
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 5251b7d2-7b8f-4ac5-891b-7bf97abdcdfe
                 Name: Fence prefab
@@ -6600,7 +6647,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 27e36814-d692-4a8e-b231-34b28fd13e6d
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 60ad4e19-aa98-4c28-97e0-0ceac37ddea5
                 Name: Fence prefab
@@ -6791,7 +6838,7 @@ Hierarchy:
                 BasePartAsset: bc60155f-c10c-4772-b711-11806a119ab0:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1_ Tall_Skinny
                 BasePartId: 6d5e7d95-7f70-4b45-a296-28a3b3757bdc
                 InstanceId: 3cb7b85a-5694-44e5-9751-37d32a725787
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: 63906973-31b7-44a6-bee8-4bce36c584ae
                 Name: Fence prefab
@@ -7154,7 +7201,7 @@ Hierarchy:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
                 BasePartId: a60a0dce-a688-475b-a65f-5f481a3a0f4f
                 InstanceId: 5ff4f0ab-d2d2-471e-8068-610c13885333
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: 67a5c463-a812-4811-8f68-fb5181bc3b77
                 Name: Fence prefab
@@ -7166,7 +7213,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: 5065cc6d-415b-4230-ab41-2907bf9787d0/e120ffee-06e7-41ba-be9b-5dd47bf398f9
-        -   Folder: Environment/WestFence
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: 682af698-bf09-49bd-bf58-2a51cebe0722
                 Name: Fence prefab
@@ -7178,7 +7225,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: f1ee9fce-b9c8-4db7-8b7a-bd0d6a98e0b7/629872b0-5a8a-40f0-be55-1df965c385d9
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 68330e12-8829-493b-86ae-7cb41c2aa2c1
                 Name: Fence prefab
@@ -7393,7 +7440,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: f3a69adf-445b-473b-968b-3db5b8f1512f
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: 69926ad4-9096-45ce-ad6b-9add04aa3011
                 Name: Fence prefab
@@ -7818,7 +7865,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 767d9e05-9e52-4c4b-be4a-0f0cf492ee33
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 6e5e314e-3140-4cae-83e9-cdf08e300c0a
                 Name: Fence prefab
@@ -8042,7 +8089,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 8d77d9cc-c489-49c5-b095-c086854b8c0a
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 6ff7405a-74ca-4638-8ab4-8c4f5e1724c8
                 Name: Fence prefab
@@ -8054,7 +8101,28 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: 20ad68f8-9562-4809-8a0e-924907ecbf44/70112f9e-fd16-4972-a3c8-ea747179e724
-        -   Folder: Environment/SouthFence
+        -   Folder: null
+            Entity:
+                Id: 705865de-c9d2-4899-9c59-4a4fe7f535d3
+                Name: Chest_animated
+                Components:
+                    73403713b2a88faf322d98f95d4a7ddf: !TransformComponent
+                        Id: 14258e4b-4792-4319-9089-b931ce592924
+                        Position*: {X: -18.655344, Y: -0.130348235, Z: 38.0288963}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Children: {}
+                    bff795c55cb8efd4350ce9e4fcc69130: !ModelComponent
+                        Id: 3a2a6257-cfbc-40a3-ace9-6b9f8c64dade
+                        Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
+                BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
+                InstanceId: de6eb398-fa3c-4776-91b4-ecd9033ee43e
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 709f41b5-bcba-436d-a5bd-31636158afde
                 Name: Fence prefab
@@ -8169,7 +8237,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 0e2e0300-4c77-4367-b582-fa1daaf896a9
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 7224c35c-026b-4667-9bc6-9d70fa9a78a7
                 Name: Fence prefab
@@ -8406,7 +8474,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 6b2e9ad4-1c33-4ca8-84ab-ddfce8b1169d
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: 75e13055-c8cb-4d0b-918b-5ad3d69481b2
                 Name: Fence prefab
@@ -8550,7 +8618,7 @@ Hierarchy:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
                 BasePartId: ba810544-7ef7-4a4b-98a4-29c2a1206893
                 InstanceId: 6213cf9f-ddc9-4286-9eac-a294a03aca2b
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 787887be-a0db-48ad-b04a-83702e011bfe
                 Name: Fence prefab
@@ -8562,7 +8630,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: 9c4df1e6-29e7-4d21-9326-fd9a93b5d606/ec4c2932-0698-4f1d-b1b7-f7a116f2ca83
-        -   Folder: Environment/WestFence
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: 79709268-4d1d-4710-a6f3-c2365c2c3782
                 Name: Fence prefab
@@ -8759,7 +8827,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: f301d5d2-5391-4bca-8b7a-31e57580fe29
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: 7cc8b345-26d2-4642-a938-1ba365b5a088
                 Name: Fence prefab
@@ -8839,7 +8907,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 2db9fa3f-d9ae-4aaf-a3a4-fd694bbd07c2
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 7dc7a6dc-ff70-4b43-8bf7-21463e7f72f2
                 Name: Fence prefab
@@ -8887,7 +8955,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: ab01d687-9772-4ae0-9c5a-c100332f30a0
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 7f84a4d9-a4ab-4783-a62b-be4c5691ad63
                 Name: Fence prefab
@@ -8967,7 +9035,7 @@ Hierarchy:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
                 BasePartId: a60a0dce-a688-475b-a65f-5f481a3a0f4f
                 InstanceId: 5bb1eef7-009b-486a-affd-591db1dc2cbb
-        -   Folder: Environment/WestFence
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: 818775b0-6e80-4cab-b8bd-6a7b16e4d501
                 Name: Fence prefab
@@ -9083,7 +9151,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 01374568-a53b-4ae0-b285-2ca37f369647
-        -   Folder: Environment/WestFence
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: 83a946fa-d5f3-42c0-b44f-b6e080e6983a
                 Name: Fence prefab
@@ -9299,7 +9367,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 0a692391-da30-4aee-b172-c1aec64afa46
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 87113750-9cb4-4213-8613-7706f843d172
                 Name: Fence prefab
@@ -9436,7 +9504,7 @@ Hierarchy:
                 BasePartAsset: f87d6145-36cd-4974-a8bd-eaace6f9556e:0Rapporter_Assets/Environment Assets/Trees/Bush1_2 Prefab_test
                 BasePartId: 358acbec-71a9-4d94-907f-f1c9c8f78e9e
                 InstanceId: afbc7347-b68a-4c5f-b958-e6c80cb89909
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 888359bf-5262-49bf-b190-d581e4122cc7
                 Name: Fence prefab
@@ -9931,7 +9999,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 8f7c8af3-b017-4b38-aa1c-6185561ad084
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: 8d811f00-e11d-477d-a599-3673216671f9
                 Name: Fence prefab
@@ -9949,15 +10017,18 @@ Hierarchy:
                 Components:
                     a2a82910d6a581d9c7b9e967489bb7fa: !TransformComponent
                         Id: 7d70530d-f57b-45c7-a633-bfe7bda3f1c4
-                        Position: {X: 12.4481487, Y: 1.1044302, Z: -10.3956881}
+                        Position: {X: 20.2708549, Y: 1.37855971, Z: -5.435839}
                         Rotation: {X: 0.0, Y: 0.0, Z: 1.0, W: -4.371139E-08}
                         Scale: {X: 0.2, Y: 0.2, Z: 0.2}
                         Children: {}
                     33039bae1c2c22d680bb5adb8417ad0f: !ModelComponent
                         Id: 2dddd447-7a99-483f-b783-e4911320b4b3
-                        Enabled: false
                         Model: 484f7904-68d6-42d2-b4a2-7f00df52889a:0Rapporter_Assets/Dragon Killing Sword
-                        Materials: {}
+                        Materials:
+                            5cf5a21eb4fd30506927cb6febca018c~0: b0ba2e97-465f-4216-b2fd-30cfbd498dcb:0Rapporter_Assets/Metal
+                            466a1d15b148b017ebed3c0450d3e743~1: 9768afe9-b4fa-4e6a-bd28-efca8120eed4:0Rapporter_Assets/Gold
+                            58ecf3fb78da60c92a90a53c6a9efb43~2: 6f511bd5-09c4-4dd2-beaa-464c41916af7:0Rapporter_Assets/Handle
+                            6ccc41a4e3e0700fd9894a10ae2056b1~3: 9c56ce0e-0f11-479b-83cc-9b6c6ff8fd28:0Rapporter_Assets/SwordInside
                         IsShadowCaster: false
                         IsShadowReceiver: false
                     4496711f6e9ce725771352a4706d039d: !RigidbodyComponent
@@ -10230,7 +10301,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: e3ab1a84-e365-488d-b9ce-610c04bcd7b8
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 93268f8f-8475-4ab3-89b2-f461187e9c9d
                 Name: Fence prefab
@@ -10545,7 +10616,7 @@ Hierarchy:
                 BasePartAsset: 6058e329-6ccd-4d7e-a8c7-41568da2bbf3:0Rapporter_Assets/Environment Assets/OtherAssets/Mushroom prefab
                 BasePartId: dab7618a-98a6-4068-8c8b-fa495cc79b68
                 InstanceId: ca23fcd9-ff10-47db-9047-83cb2912e92e
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: 95fbc9a2-3a45-4898-9fc2-9cdf27c6e412
                 Name: Fence prefab
@@ -10816,7 +10887,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: e67a0413-a1f9-4541-8fd1-2afca2669317
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 99dc58f6-de63-4200-b87a-4c350196d9c9
                 Name: Fence prefab
@@ -10963,7 +11034,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: b47b2595-70fc-4f75-bfa7-5be2bda3a407
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: 9c0f4979-34e2-40a3-a929-d58c722ac572
                 Name: Fence prefab
@@ -11404,7 +11475,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: aafd800b-b4d7-4ddd-8445-4f5d15a4af54
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: a160cfa8-dc27-483f-89e1-26826dd762ca
                 Name: Fence prefab
@@ -11452,7 +11523,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: f2ec8886-0abd-48cb-9045-62791011fea7
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: a212d8c4-59a4-4f41-9f88-32ac644a720b
                 Name: Fence prefab
@@ -12682,7 +12753,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: babc10ea-6c8f-4834-a962-4517658aed34
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: b1ca275f-d976-442f-90d7-88afccf8b29d
                 Name: Fence prefab
@@ -12954,7 +13025,7 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     63021bcb3fb5698e719cff53aba0d3a9: !RapporterV2.Player.CollisionDie,RapporterV2.Game
                         Id: 45065f05-5f07-4745-92e1-3fd6c3c5cbb8
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: b68e5c0d-6d5e-4b3c-b7ee-29f5f8a765cf
                 Name: Fence prefab
@@ -12966,6 +13037,27 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: a4bf276a-7b7b-45f0-a663-ed1f73b559e3/9591e36a-33f5-48aa-b473-5c4ccbe1bfd3
+        -   Folder: null
+            Entity:
+                Id: b71942ce-327e-4b69-9ec8-805c60700694
+                Name: Chest_animated
+                Components:
+                    73403713b2a88faf322d98f95d4a7ddf: !TransformComponent
+                        Id: fe72f4d2-b773-4ec7-abc0-3d5c299ffbbf
+                        Position*: {X: -19.6971645, Y: -0.130348235, Z: -30.9735451}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Children: {}
+                    bff795c55cb8efd4350ce9e4fcc69130: !ModelComponent
+                        Id: 7d6d3ec2-8f30-41a1-8896-8793fe8d773e
+                        Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
+                BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
+                InstanceId: e57b0ca6-6133-4da4-8f19-ef1532bbd905
         -   Entity:
                 Id: b74c481a-9a2c-4953-adcb-756579bb4b9e
                 Name: Fence
@@ -13037,7 +13129,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 965a5d63-2af4-4acd-8bb0-91e42b29b322
-        -   Folder: Environment/WestFence
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: b7688de9-c6e9-4dc4-b6f4-3fbc064498a7
                 Name: Fence prefab
@@ -13049,7 +13141,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: fe307bcf-5a6b-4581-9df4-7f2d98565a09/49d2b5e5-5d30-499d-8cdc-db33f36c5194
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: b7e03994-e233-4d84-b1fc-fdd652e4fd4b
                 Name: Fence prefab
@@ -13097,7 +13189,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 9627eed6-57c2-4dbb-b622-a77f767fef23
-        -   Folder: Environment/WestFence
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: b87a2203-19ca-4060-9dae-a4319580ee84
                 Name: Fence prefab
@@ -13619,7 +13711,49 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: cc1e5ba5-7da2-49e5-ac9b-330250977a5d
-        -   Folder: Environment/SouthFence
+        -   Folder: null
+            Entity:
+                Id: be512d96-4e1f-49a9-bab0-c232bc4946c8
+                Name: Chest_animated
+                Components:
+                    73403713b2a88faf322d98f95d4a7ddf: !TransformComponent
+                        Id: 6fce55d8-0ba8-423c-92e6-6e3f7036e6e1
+                        Position*: {X: 6.65518856, Y: -0.130348235, Z: -13.2890615}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Children: {}
+                    bff795c55cb8efd4350ce9e4fcc69130: !ModelComponent
+                        Id: f7843fd4-aedc-4d19-9f21-2895da8c5763
+                        Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
+                BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
+                InstanceId: 16afb98e-ab2d-41c2-8d32-b469db3fcd3f
+        -   Folder: null
+            Entity:
+                Id: be6efb43-cc6a-4220-b365-50eb53239c47
+                Name: Chest_animated
+                Components:
+                    73403713b2a88faf322d98f95d4a7ddf: !TransformComponent
+                        Id: 2e944e23-1d42-493f-b169-f454ea6baf2a
+                        Position*: {X: -5.70611525, Y: -0.130348235, Z: -17.481123}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Children: {}
+                    bff795c55cb8efd4350ce9e4fcc69130: !ModelComponent
+                        Id: a4311e26-4325-4ffc-b023-60c6daab4fc8
+                        Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
+                BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
+                InstanceId: 1d42ff55-246c-4bbf-a41c-350fb4007ce6
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: bed8695f-60b0-4e94-9503-297b0fb4a35d
                 Name: Fence prefab
@@ -13816,7 +13950,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: 69dab97c-cc68-43c1-bab4-c98ed0dc40b8
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: c1b2334c-6cd0-4a3e-9d27-123513a4cbf2
                 Name: Fence prefab
@@ -14346,7 +14480,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 407a9cd1-d66a-4f6f-a4a7-ef145e603212
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: c8aec3bd-e421-4f59-af5b-62a600441b85
                 Name: Fence prefab
@@ -15708,6 +15842,26 @@ Hierarchy:
                         Materials: {}
                         IsShadowCaster: false
                         IsShadowReceiver: false
+        -   Entity:
+                Id: db1fe5a5-d6ef-47dd-9bfd-f99c2dd3348f
+                Name: Chest_animated
+                Components:
+                    73403713b2a88faf322d98f95d4a7ddf: !TransformComponent
+                        Id: c9d044e5-cd27-446e-9f97-0461158f0edb
+                        Position*: {X: 34.8529739, Y: -0.130348235, Z: 30.3628616}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Children: {}
+                    bff795c55cb8efd4350ce9e4fcc69130: !ModelComponent
+                        Id: b8b70cbd-0323-49ac-8c90-d09ce5e6533c
+                        Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
+                BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
+                InstanceId: bcc51dc8-94e8-4a41-96b9-48d760875723
         -   Folder: HP
             Entity:
                 Id: db7a055d-ebe8-488e-b6ec-4b1f89813610
@@ -15955,6 +16109,27 @@ Hierarchy:
                         Materials: {}
                         IsShadowCaster: false
                         IsShadowReceiver: false
+        -   Folder: null
+            Entity:
+                Id: e084f96a-172d-41e6-8d2a-8aaea2b8ac94
+                Name: Chest_animated
+                Components:
+                    73403713b2a88faf322d98f95d4a7ddf: !TransformComponent
+                        Id: d8025794-b85f-4300-a6ea-b51f651b26da
+                        Position*: {X: 45.1476555, Y: -0.130348235, Z: -32.7129555}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Children: {}
+                    bff795c55cb8efd4350ce9e4fcc69130: !ModelComponent
+                        Id: ecfe5022-d319-43f4-89d7-c3ed73fa7518
+                        Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
+                BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
+                InstanceId: 084aecc5-2be4-47f3-a882-7e1ad6f81666
         -   Entity:
                 Id: e1336d4f-68f3-4788-be6a-04732918f241
                 Name: Tree1
@@ -16520,7 +16695,7 @@ Hierarchy:
                 BasePartAsset: 2018f97a-ab75-4837-bdb0-cee20291fe58:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny
                 BasePartId: 4a8b8e98-ed38-4686-b21b-6908de3da8f0
                 InstanceId: 773753bb-024a-4dc3-a91c-e60b017a0433
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: e6e4be31-6f1a-4dbe-946a-c3a79f7b2fa1
                 Name: Fence prefab
@@ -16810,7 +16985,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 1139114c-d9f2-4f03-b925-16b0a5882bb9
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: eca3a601-3abb-4ff9-b01e-d64ca47a8937
                 Name: Fence prefab
@@ -16890,7 +17065,28 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 3497dac3-70d9-407e-8093-ebbb17b14a8d
-        -   Folder: Environment/WestFence
+        -   Folder: null
+            Entity:
+                Id: ee47f55b-c7b3-41cd-a426-bdba52e86f18
+                Name: Chest_animated
+                Components:
+                    73403713b2a88faf322d98f95d4a7ddf: !TransformComponent
+                        Id: 5ec02c5b-9945-4d31-8eae-c2157d5aa2b9
+                        Position*: {X: 4.575514, Y: -0.130348235, Z: -30.9735451}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 5.0, Z: 5.0}
+                        Children: {}
+                    bff795c55cb8efd4350ce9e4fcc69130: !ModelComponent
+                        Id: 2278245c-e529-4a0d-afd4-da530d246303
+                        Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
+                        Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
+            Base:
+                BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
+                BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
+                InstanceId: ebc4f0e0-a49d-44dd-abf9-833de5d62346
+        -   Folder: Environment/Fences//WestFence
             Entity:
                 Id: eedbc3ca-a476-45fe-975e-97c7a16fd7e6
                 Name: Fence prefab
@@ -16938,7 +17134,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: d85661f5-7c27-453b-ba37-9522958822c0
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: f0895187-1eec-4d0a-ab34-97f3b35f487e
                 Name: Fence prefab
@@ -17170,7 +17366,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 64111508-be78-4463-b0d4-5f9efb317c24
-        -   Folder: Environment/SouthFence
+        -   Folder: Environment/Fences//SouthFence
             Entity:
                 Id: f436fc1b-020e-4f5a-942c-d5c82ed5ac74
                 Name: Fence prefab
@@ -17560,7 +17756,7 @@ Hierarchy:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
                 BasePartId: 3c7b3a01-719c-4ecb-85ed-f47efbc9f412
                 InstanceId: ced6d2fa-fe35-47ce-ace4-c0fbc1c9cfe6
-        -   Folder: Environment/EastFence
+        -   Folder: Environment/Fences////EastFence
             Entity:
                 Id: f90500d1-7b30-4b4d-8766-f8c74b8387c9
                 Name: Fence prefab
@@ -17959,7 +18155,7 @@ Hierarchy:
                 BasePartAsset: 2964ed07-9a1e-4ee9-a691-5bc9ab05b429:Tree1
                 BasePartId: 0b790bd2-e772-4c39-8ff5-b0483cb7ff03
                 InstanceId: 11ed4f73-88fe-4574-8875-ab6412ea4217
-        -   Folder: Environment/NorthFence
+        -   Folder: Environment/Fences//NorthFence
             Entity:
                 Id: ff882ed5-76fa-4e3c-a660-49e2bb3ad58b
                 Name: Fence prefab

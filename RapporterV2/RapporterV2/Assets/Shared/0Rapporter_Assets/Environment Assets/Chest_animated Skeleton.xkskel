@@ -1,0 +1,15 @@
+!Skeleton
+Id: 09a5ec2a-9d62-44ee-b79a-924e1299608d
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: Chest_animated.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    bcbabb63570bb9d5456415b66f40e79d: {Name: RootNode, Depth: 0}
+    a078a4a2c3eea2fe56a5f4ebb334c4b4: {Name: Box, Depth: 1}
+    c09e8b6393929aa537cfa0ca74bd07bb: {Name: Bottom, Depth: 2}
+    229e75d4b78a8de2067e5d625c4c12ba: {Name: sideBack, Depth: 2}
+    58082e020d1273dcb56fcd97f9f056d4: {Name: sideFront, Depth: 2}
+    2624326aa331ddefcf95d1957cf3b5ad: {Name: sideLeft, Depth: 2}
+    4973a37f1e6fb0194806753d23bf23e4: {Name: sideRight, Depth: 2}
+    def74678a102e6ce7cee0296d4290219: {Name: Top, Depth: 2}
