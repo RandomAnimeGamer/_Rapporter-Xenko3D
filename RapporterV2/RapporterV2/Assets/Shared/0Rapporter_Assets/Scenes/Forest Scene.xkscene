@@ -118,14 +118,6 @@ Hierarchy:
         - 35be88e8-d83a-433b-bbcf-f0fb73be9fa6
         - ab1f293d-2b4a-43c4-9b97-6372772dc2cc
         - 8e08eb7d-52fa-4b36-a182-16260b6a469d
-        - db1fe5a5-d6ef-47dd-9bfd-f99c2dd3348f
-        - be6efb43-cc6a-4220-b365-50eb53239c47
-        - e084f96a-172d-41e6-8d2a-8aaea2b8ac94
-        - 705865de-c9d2-4899-9c59-4a4fe7f535d3
-        - ee47f55b-c7b3-41cd-a426-bdba52e86f18
-        - b71942ce-327e-4b69-9ec8-805c60700694
-        - be512d96-4e1f-49a9-bab0-c232bc4946c8
-        - 42652f0f-7f2e-4617-9c65-45dea2d0cba1
         - d18bc381-fb86-495f-8727-f336a8bfdf65
         - 5e45caac-ff6b-4147-ac48-2b4a2b99f0d2
         - e7cf2b98-2005-4a42-b963-afca945ba463
@@ -394,6 +386,14 @@ Hierarchy:
         - 4aeb23ab-3c46-45a7-9618-2a99230e832b
         - 682af698-bf09-49bd-bf58-2a51cebe0722
         - eedbc3ca-a476-45fe-975e-97c7a16fd7e6
+        - db1fe5a5-d6ef-47dd-9bfd-f99c2dd3348f
+        - be6efb43-cc6a-4220-b365-50eb53239c47
+        - e084f96a-172d-41e6-8d2a-8aaea2b8ac94
+        - 705865de-c9d2-4899-9c59-4a4fe7f535d3
+        - ee47f55b-c7b3-41cd-a426-bdba52e86f18
+        - b71942ce-327e-4b69-9ec8-805c60700694
+        - be512d96-4e1f-49a9-bab0-c232bc4946c8
+        - 42652f0f-7f2e-4617-9c65-45dea2d0cba1
     Parts:
         -   Folder: Environment/Fences//NorthFence
             Entity:
@@ -4564,7 +4564,7 @@ Hierarchy:
                 BasePartAsset: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a:0Rapporter_Assets/Environment Assets/OtherAssets/Fence prefab
                 BasePartId: 785f95d3-3b01-4a60-bf60-e4513f7cec52
                 InstanceId: eb8d97f1-c570-4402-b1ff-ca7bc1f35638
-        -   Folder: null
+        -   Folder: Chests
             Entity:
                 Id: 42652f0f-7f2e-4617-9c65-45dea2d0cba1
                 Name: Chest_animated
@@ -8101,7 +8101,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: 20ad68f8-9562-4809-8a0e-924907ecbf44/70112f9e-fd16-4972-a3c8-ea747179e724
-        -   Folder: null
+        -   Folder: Chests
             Entity:
                 Id: 705865de-c9d2-4899-9c59-4a4fe7f535d3
                 Name: Chest_animated
@@ -13037,7 +13037,7 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             1def3a956870b5b6b49871ab9dc07fb4: a4bf276a-7b7b-45f0-a663-ed1f73b559e3/9591e36a-33f5-48aa-b473-5c4ccbe1bfd3
-        -   Folder: null
+        -   Folder: Chests
             Entity:
                 Id: b71942ce-327e-4b69-9ec8-805c60700694
                 Name: Chest_animated
@@ -13711,7 +13711,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: cc1e5ba5-7da2-49e5-ac9b-330250977a5d
-        -   Folder: null
+        -   Folder: Chests
             Entity:
                 Id: be512d96-4e1f-49a9-bab0-c232bc4946c8
                 Name: Chest_animated
@@ -13732,7 +13732,7 @@ Hierarchy:
                 BasePartAsset: eb449519-43bf-41d3-8179-1a86e061d328:0Rapporter_Assets/Scenes/Chest_animated
                 BasePartId: 657429c7-839f-41b2-95d6-6ae53a9a0857
                 InstanceId: 16afb98e-ab2d-41c2-8d32-b469db3fcd3f
-        -   Folder: null
+        -   Folder: Chests
             Entity:
                 Id: be6efb43-cc6a-4220-b365-50eb53239c47
                 Name: Chest_animated
@@ -15842,7 +15842,8 @@ Hierarchy:
                         Materials: {}
                         IsShadowCaster: false
                         IsShadowReceiver: false
-        -   Entity:
+        -   Folder: Chests
+            Entity:
                 Id: db1fe5a5-d6ef-47dd-9bfd-f99c2dd3348f
                 Name: Chest_animated
                 Components:
@@ -16109,7 +16110,7 @@ Hierarchy:
                         Materials: {}
                         IsShadowCaster: false
                         IsShadowReceiver: false
-        -   Folder: null
+        -   Folder: Chests
             Entity:
                 Id: e084f96a-172d-41e6-8d2a-8aaea2b8ac94
                 Name: Chest_animated
@@ -17065,7 +17066,7 @@ Hierarchy:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
                 BasePartId: 6330da65-c28e-4a01-811e-31e27546edc5
                 InstanceId: 3497dac3-70d9-407e-8093-ebbb17b14a8d
-        -   Folder: null
+        -   Folder: Chests
             Entity:
                 Id: ee47f55b-c7b3-41cd-a426-bdba52e86f18
                 Name: Chest_animated
