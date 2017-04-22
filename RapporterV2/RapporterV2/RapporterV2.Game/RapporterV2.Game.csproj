@@ -125,6 +125,7 @@
     <Compile Include="Player\CollisionDie.cs" />
     <Compile Include="Player\Death.cs" />
     <Compile Include="Player\Enemy.cs" />
+    <Compile Include="Player\EnemyCollide.cs" />
     <Compile Include="Player\NPCTalk.cs" />
     <Compile Include="Player\NPCTalk2.cs" />
     <Compile Include="Player\PlayerController.cs" />

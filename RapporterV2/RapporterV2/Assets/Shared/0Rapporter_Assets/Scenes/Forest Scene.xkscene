@@ -427,7 +427,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -462,7 +463,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -568,7 +570,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -682,7 +685,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -717,7 +721,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -783,7 +788,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 45f789f7-ec59-4c01-98dd-deb1b1eace05:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Fat2
@@ -978,7 +985,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -1013,7 +1021,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -1048,7 +1057,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -1082,7 +1092,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
@@ -1155,7 +1167,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -1189,7 +1202,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
@@ -1256,7 +1271,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -1322,6 +1338,8 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             ca16fd6806248835de9a16eb1d1a5457*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
@@ -1368,7 +1386,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             32c407c21d841f4a9587150271260317*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: ff0f037a-d4d7-4212-badf-add29937de80:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1_ Short_Fat
@@ -1460,7 +1480,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -1495,7 +1516,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -1604,7 +1626,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -1837,7 +1861,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2104,7 +2129,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -2249,7 +2276,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2319,7 +2347,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2403,7 +2432,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2470,7 +2500,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2505,7 +2536,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2540,7 +2572,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2587,7 +2620,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2711,7 +2745,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2746,7 +2781,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2781,7 +2817,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -2847,6 +2884,8 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             0c22cf0b419da4fa7df282d4725c04bc*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
@@ -2958,7 +2997,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3040,7 +3080,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3075,7 +3116,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3142,7 +3184,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3177,7 +3220,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3335,7 +3379,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3414,7 +3459,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3449,7 +3495,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3484,7 +3531,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3561,7 +3609,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3748,7 +3797,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3816,8 +3866,6 @@ Hierarchy:
                         Id: 36ebcc25-0c1e-4e2f-b185-83ff1c727d71
                         Model: 21bba9b4-ad7b-4c05-8765-8b737aedc69f:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, Short_Fat2
                         Materials: {}
-                        IsShadowCaster: false
-                        IsShadowReceiver: false
                     f64debdd30d3f7446c25840d3c70f00c: !StaticColliderComponent
                         Id: 7a989f9b-9cd5-4d3f-8d98-f7214ca73c44
                         CanSleep: false
@@ -3828,8 +3876,10 @@ Hierarchy:
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
                         ColliderShapes:
-                            b1cfc6d04027e241bfac09d128dfe39d: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                            b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -3896,7 +3946,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -3962,7 +4013,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
@@ -4009,7 +4062,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4290,7 +4344,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4324,7 +4379,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: ed957877-3463-41d7-b9ae-1800e7ff0bea:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny2
@@ -4359,7 +4416,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4393,7 +4451,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 2018f97a-ab75-4837-bdb0-cee20291fe58:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny
@@ -4517,7 +4577,7 @@ Hierarchy:
                 Components:
                     9a504876b7de58b2fd774df67a55bbc7: !TransformComponent
                         Id: 5d9803a4-a737-439d-9e0e-1aec6db0a30b
-                        Position: {X: -16.5671577, Y: 0.0, Z: 5.17344666}
+                        Position: {X: 15.0338507, Y: 0.0, Z: 45.2844162}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -4539,7 +4599,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4552,7 +4613,7 @@ Hierarchy:
                 Components:
                     4e906deb50b83e06a3e31820ed1c344f: !TransformComponent
                         Id: 9e061f17-743b-43a3-bddc-adce6b5a40a4
-                        Position*: {X: -1.22491693, Y: 0.0, Z: 25.37019}
+                        Position*: {X: -1.37461209, Y: 0.0, Z: 26.5196762}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -4573,7 +4634,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: ed957877-3463-41d7-b9ae-1800e7ff0bea:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny2
@@ -4650,7 +4713,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4761,7 +4825,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4796,7 +4861,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4831,7 +4897,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4878,7 +4945,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -4947,7 +5015,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
@@ -4982,7 +5052,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5073,7 +5144,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5108,7 +5180,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5143,7 +5216,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5309,7 +5383,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5376,7 +5451,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5466,8 +5542,7 @@ Hierarchy:
                         Position: {X: 0.6, Y: -0.3, Z: -0.8}
                         Rotation: {X: 0.1736483, Y: -2.79396772E-09, Z: -4.926523E-10, W: -0.9848077}
                         Scale: {X: 0.05, Y: 0.05, Z: 0.05}
-                        Children:
-                            4124cae1156a25c42c0fe935ac2ab9f9: 87407ea5-76d5-410a-b686-cb157c320769/8a64df93-6b0a-492a-8b65-def4a8e0b35e
+                        Children: {}
                     43e6cf26177dc823cf6a49b0c87f7da7: !ModelComponent
                         Id: e917707f-7f00-4951-8fd3-2e9aa64e4f6e
                         Model: fadc7dca-97e4-45f1-b08f-ee342f456116:0Rapporter_Assets/SimpleSword
@@ -5501,6 +5576,77 @@ Hierarchy:
                         Camera: null
                     30259d48501bb5c9bc7d62a4fc3c05da: !RapporterV2.Player.WeaponCollide,RapporterV2.Game
                         Id: 79465d25-cd06-47e9-9551-34da8d10e5b3
+                    7fa1e3fb6b1505b8acde06378ee85230: !ParticleSystemComponent
+                        Id: 373157c8-4b88-4d2b-b6b5-fe9dd3be4985
+                        Control:
+                            ResetSeconds: 5.0
+                            Control: Play
+                        Color: {R: 0.62525, G: 0.623093247, B: 0.6213422, A: 1.0}
+                        Speed: 10.0
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                f03b4ad1355f412bffc0de346c4ea2f6:
+                                    ParticleLifetime: {X: 1.0, Y: 1.0}
+                                    ShapeBuilder: !ShapeBuilderTrail
+                                        SmoothingPolicy: None
+                                        Segments: 0
+                                        EdgePolicy: Edge
+                                        TextureCoordinatePolicy: AsIs
+                                        TexCoordsFactor: 0.0
+                                        UVRotate:
+                                            FlipX: false
+                                            FlipY: false
+                                            UVClockwise: Degree0
+                                    Material: !ParticleMaterialComputeColor
+                                        AlphaAdditive: 1.0
+                                        ComputeColor: !ComputeTextureColor
+                                            Texture: c6460f45-7f66-4287-b474-b611b13dd417:0Rapporter_Assets/Particles/swoosh
+                                            FallbackValue:
+                                                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                            Scale: {X: 1.0, Y: 1.0}
+                                            Offset: {X: 0.0, Y: 0.0}
+                                            Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        26474d1a9dbaa7c370f953361e5116b0: !SpawnerPerFrame
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 1.0
+                                            Framerate: 60.0
+                                    Initializers:
+                                        2d320a3f8b741a4e50447a7321bd4008: !InitialRotationSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            AngularRotation: {X: -60.0, Y: 60.0}
+                                        612ddde19c70080ed6a0ee039c7a9d4e: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize: {X: 10.0, Y: 10.0}
+                                    Updaters: {}
         -   Folder: Environment/NorthFence
             Entity:
                 Id: 517503a1-a35e-4e97-b31a-a4bb2cac0f15
@@ -5554,7 +5700,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5589,7 +5736,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5602,9 +5750,9 @@ Hierarchy:
                 Components:
                     1e99be6166585ab2ca294cabcfea2a0d: !TransformComponent
                         Id: 2986d373-f686-4921-9b67-85620a6aa48c
-                        Position*: {X: 29.6867657, Y: 0.0, Z: 4.125065}
+                        Position*: {X: 30.68393, Y: 0.0, Z: 4.55834341}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Scale*: {X: 2.0, Y: 2.0, Z: 2.0}
                         Children: {}
                     4aee89a24743493610a0c790117466bd: !ModelComponent
                         Id: fb4cc9d6-0dc0-4387-998c-2b8bdc2ed213
@@ -5623,6 +5771,8 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             2ae13976802b9ddac2593e7352f6d0e1*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 1.0
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
@@ -5711,7 +5861,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -5789,6 +5940,8 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             17cae3c56f4b927b37fa7bc7c16207f5*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
@@ -5856,7 +6009,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6011,7 +6165,7 @@ Hierarchy:
                 Components:
                     25819fa904365a95e12930ffb0f40a7f: !TransformComponent
                         Id: 7dded878-871a-4b06-a801-ef96a1f5f1fa
-                        Position: {X: -1.8619498, Y: 0.0, Z: 26.662487}
+                        Position: {X: 30.3764648, Y: 0.0, Z: 47.3801346}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -6032,7 +6186,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 2018f97a-ab75-4837-bdb0-cee20291fe58:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny
@@ -6099,7 +6255,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6112,7 +6269,7 @@ Hierarchy:
                 Components:
                     469026d25432ec51894f09ec3f601713: !TransformComponent
                         Id: 82c94c31-437a-4d13-917e-af1bd67fcc79
-                        Position: {X: 20.9607677, Y: 0.0, Z: 17.0403557}
+                        Position*: {X: 14.9992371, Y: 0.0, Z: 22.75315}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -6133,7 +6290,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -6298,7 +6457,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6333,7 +6493,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6368,7 +6529,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6479,7 +6641,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6549,7 +6712,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6584,7 +6748,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6618,6 +6783,8 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
@@ -6665,7 +6832,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6678,7 +6846,7 @@ Hierarchy:
                 Components:
                     469026d25432ec51894f09ec3f601713: !TransformComponent
                         Id: 9d0e512e-791c-4558-b19a-e0e485a99e28
-                        Position: {X: 2.94858265, Y: 0.0, Z: 25.7892952}
+                        Position*: {X: 14.9992371, Y: 0.0, Z: 37.5573}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -6686,8 +6854,6 @@ Hierarchy:
                         Id: 56e6ad87-6ec7-4af0-9b59-631d8bb3b7a0
                         Model: 21bba9b4-ad7b-4c05-8765-8b737aedc69f:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, Short_Fat2
                         Materials: {}
-                        IsShadowCaster: false
-                        IsShadowReceiver: false
                     f64debdd30d3f7446c25840d3c70f00c: !StaticColliderComponent
                         Id: 8f4b16f0-6cc2-4c11-89d3-f6ab4b7f6364
                         CanSleep: false
@@ -6698,9 +6864,8 @@ Hierarchy:
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
                         ColliderShapes:
-                            b1cfc6d04027e241bfac09d128dfe39d: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            b1cfc6d04027e241bfac09d128dfe39d: !ColliderShapeAssetDesc
+                                Shape: a4eeca11-711b-483d-825a-1f25c2fed2b5:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, short_fat2 collider
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
                 BasePartId: a60a0dce-a688-475b-a65f-5f481a3a0f4f
@@ -6819,7 +6984,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6876,7 +7042,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6943,7 +7110,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -6976,9 +7144,12 @@ Hierarchy:
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
                         ColliderShapes:
-                            b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                            994ce8c27f97616213e3784fde3df8e0*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            b1cfc6d04027e241bfac09d128dfe39d: ~(Deleted)
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
                 BasePartId: a60a0dce-a688-475b-a65f-5f481a3a0f4f
@@ -7090,7 +7261,7 @@ Hierarchy:
                 Components:
                     25819fa904365a95e12930ffb0f40a7f: !TransformComponent
                         Id: b63c4cb9-8763-4052-a914-da8152a4c3a5
-                        Position: {X: -1.8619498, Y: 0.0, Z: 26.662487}
+                        Position: {X: 30.3764648, Y: 0.0, Z: 47.3801346}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -7111,7 +7282,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 2018f97a-ab75-4837-bdb0-cee20291fe58:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny
@@ -7146,7 +7319,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -7212,7 +7386,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -7259,7 +7434,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -7272,7 +7448,7 @@ Hierarchy:
                 Components:
                     25819fa904365a95e12930ffb0f40a7f: !TransformComponent
                         Id: 3921c0b7-41d2-4fbc-9f4f-83c3a0eccde8
-                        Position: {X: 32.52124, Y: 0.0, Z: 31.092598}
+                        Position: {X: 30.3764648, Y: 0.0, Z: 47.3801346}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -7396,7 +7572,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -7530,7 +7707,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -7597,7 +7775,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -7632,7 +7811,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -7679,7 +7859,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -7946,7 +8127,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8027,7 +8209,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: ed957877-3463-41d7-b9ae-1800e7ff0bea:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny2
@@ -8062,7 +8246,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8097,7 +8282,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8181,7 +8367,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8355,7 +8542,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
@@ -8446,7 +8635,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8530,7 +8720,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8609,7 +8800,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8688,7 +8880,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8766,7 +8959,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -8813,7 +9008,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8848,7 +9044,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8927,7 +9124,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -8961,7 +9159,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 2018f97a-ab75-4837-bdb0-cee20291fe58:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny
@@ -9092,7 +9292,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -9138,109 +9339,14 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: c94ff5e2-bb81-4e69-b3ee-02e46f13584f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Mid2
                 BasePartId: 02c42ca1-b20d-4300-8742-8c3ec9ce7259
                 InstanceId: 1384205c-97e9-4a18-ba77-c70ae6b9acf3
-        -   Entity:
-                Id: 87407ea5-76d5-410a-b686-cb157c320769
-                Name: Smoke Particle System
-                Components:
-                    88857f184f25053e8b47de59d356674e: !TransformComponent
-                        Id: 8a64df93-6b0a-492a-8b65-def4a8e0b35e
-                        Position: {X: 1.08816209E-07, Y: 5.052154, Z: 0.0649077147}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    e00813b9a2244f81e5cb5b175566fa00: !ParticleSystemComponent
-                        Id: 1fc0562e-187b-4043-a745-36d254d78e87
-                        Control:
-                            ResetSeconds: 5.0
-                            Control: Play
-                        Color: {R: 1.0, G: 0.4875, B: 0.0, A: 1.0}
-                        Speed: 2.6
-                        ParticleSystem:
-                            Settings: {}
-                            BoundingShape: null
-                            Emitters:
-                                bb81750e090a3f7de9d2d183fea20f22:
-                                    ParticleLifetime: {X: 1.0, Y: 2.0}
-                                    ShapeBuilder: !ShapeBuilderTrail
-                                        SmoothingPolicy: None
-                                        Segments: 0
-                                        EdgePolicy: Center
-                                        TextureCoordinatePolicy: AsIs
-                                        TexCoordsFactor: 0.0
-                                        UVRotate:
-                                            FlipX: false
-                                            FlipY: false
-                                            UVClockwise: Degree0
-                                    Material: !ParticleMaterialComputeColor
-                                        ComputeColor: !ComputeTextureColor
-                                            Texture: d31acce5-9e6d-4b76-8faa-5bd1b5681d62:Textures/dota
-                                            FallbackValue:
-                                                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                                            Scale: {X: 1.0, Y: 1.0}
-                                            Offset: {X: 0.0, Y: 0.0}
-                                            Swizzle: null
-                                        UVBuilder: null
-                                        ForceTexCoords: false
-                                    Spawners:
-                                        1f70e220470c24823f6ecbcd2e6d3487: !SpawnerPerFrame
-                                            LoopCondition: Looping
-                                            Delay: {X: 0.0, Y: 0.0}
-                                            Duration: {X: 1.0, Y: 1.0}
-                                            SpawnCount: 1.0
-                                            Framerate: 60.0
-                                    Initializers:
-                                        fb15788d1c8dfdfc66a57c2e7cc662b2: !InitialSizeSeed
-                                            InheritPosition: true
-                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                                            InheritRotation: true
-                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                                            InheritScale: true
-                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                                            ScaleUniform: 1.0
-                                            SeedOffset: 0
-                                            DisplayParticlePosition: false
-                                            DisplayParticleRotation: false
-                                            DisplayParticleScale: false
-                                            DisplayParticleScaleUniform: true
-                                            RandomSize: {X: 0.35, Y: 0.55}
-                                        dae21ec357e47f449d486b75e91b2f83: !InitialPositionSeed
-                                            InheritPosition: true
-                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                                            InheritRotation: true
-                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                                            InheritScale: true
-                                            ScaleUniform: 1.0
-                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                                            SeedOffset: 0
-                                            DisplayParticlePosition: false
-                                            DisplayParticleRotation: true
-                                            DisplayParticleScale: false
-                                            DisplayParticleScaleUniform: true
-                                            PositionMin: {X: -0.2, Y: 0.0, Z: -0.2}
-                                            PositionMax: {X: 0.2, Y: 0.0, Z: 0.2}
-                                            Interpolate: false
-                                        39bfbde613764e2ac5830c5960e4c9d4: !InitialVelocitySeed
-                                            InheritPosition: true
-                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                                            InheritRotation: true
-                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                                            InheritScale: true
-                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                                            ScaleUniform: 1.0
-                                            SeedOffset: 0
-                                            DisplayParticlePosition: false
-                                            DisplayParticleRotation: true
-                                            DisplayParticleScale: false
-                                            DisplayParticleScaleUniform: true
-                                            VelocityMin: {X: -0.5, Y: 1.0, Z: -0.5}
-                                            VelocityMax: {X: 0.5, Y: 3.0, Z: 0.5}
-                                    Updaters: {}
         -   Entity:
                 Id: 87bce4a9-8dfd-4bc4-ba45-a0e78298cec9
                 Name: Tree1
@@ -9403,7 +9509,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -9437,7 +9544,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
@@ -9471,7 +9580,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 9af0c1ab-6074-49e4-96bc-29e21047183e:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny
@@ -9570,7 +9681,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -9604,7 +9716,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -9638,7 +9752,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
@@ -9673,7 +9789,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -9742,7 +9859,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
@@ -9893,7 +10012,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -9928,7 +10048,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -9997,7 +10118,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -10065,7 +10187,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -10148,7 +10271,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -10182,6 +10306,8 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
@@ -10241,6 +10367,8 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             61f2c87bff612af7a84c4600d5d1409d*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
@@ -10389,7 +10517,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -10458,7 +10587,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -10611,7 +10741,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -10646,7 +10777,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -10907,7 +11039,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11045,7 +11178,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11231,7 +11365,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11310,7 +11445,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11357,7 +11493,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11391,7 +11528,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
@@ -11455,7 +11594,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11490,7 +11630,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11511,8 +11652,6 @@ Hierarchy:
                         Id: aa145ed3-155c-40ea-bcaa-958751625798
                         Model: 21bba9b4-ad7b-4c05-8765-8b737aedc69f:0Rapporter_Assets/New Assets/4-5, Tree Variations/Tree2, Short_Fat2
                         Materials: {}
-                        IsShadowCaster: false
-                        IsShadowReceiver: false
                     f64debdd30d3f7446c25840d3c70f00c: !StaticColliderComponent
                         Id: 9e384ae9-9ef3-4801-8d22-15112f0e11c3
                         CanSleep: false
@@ -11523,8 +11662,10 @@ Hierarchy:
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
                         ColliderShapes:
-                            b1cfc6d04027e241bfac09d128dfe39d: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                            b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -11559,7 +11700,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11693,7 +11835,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11728,7 +11871,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11762,7 +11906,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: ed957877-3463-41d7-b9ae-1800e7ff0bea:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny2
@@ -11797,7 +11943,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11831,7 +11978,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
@@ -11930,7 +12079,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -11943,7 +12093,7 @@ Hierarchy:
                 Components:
                     c638d0d5c89838c62d06749343fe69da: !TransformComponent
                         Id: 36a9f89b-11c9-4088-b575-5e8ac13107c0
-                        Position*: {X: -13.1667442, Y: 0.0, Z: 22.3845673}
+                        Position*: {X: -12.7930984, Y: 0.0, Z: 23.1157322}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -11964,7 +12114,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: e2ebbc9e-1948-4af2-9bf4-558dbfece70d:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1_ Tall_Skinny2
@@ -12107,7 +12259,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12142,7 +12295,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12208,7 +12362,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12306,7 +12461,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12422,7 +12578,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12518,7 +12675,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12621,7 +12779,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12688,7 +12847,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12755,7 +12915,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12869,7 +13030,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12928,7 +13090,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -12975,7 +13138,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13041,7 +13205,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -13175,7 +13341,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13355,7 +13522,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13444,7 +13612,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13491,7 +13660,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13559,7 +13729,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13686,7 +13857,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13741,7 +13913,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13776,7 +13949,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -13878,7 +14052,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14096,7 +14271,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14131,7 +14307,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14278,7 +14455,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14381,7 +14559,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14511,7 +14690,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
@@ -14732,7 +14913,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14767,7 +14949,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14802,7 +14985,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14837,7 +15021,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -14937,7 +15122,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15068,7 +15254,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15167,7 +15354,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15202,7 +15390,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15236,7 +15425,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
@@ -15271,7 +15462,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15420,7 +15612,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15455,7 +15648,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15490,7 +15684,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15560,7 +15755,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
@@ -15595,7 +15792,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15630,7 +15828,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15643,7 +15842,7 @@ Hierarchy:
                 Components:
                     a405953d86393ce0bbc06e8a100307c5: !TransformComponent
                         Id: eb1d1e72-5913-4187-bb13-dc746cc99939
-                        Position*: {X: 32.1290054, Y: 0.0, Z: -3.7219243}
+                        Position*: {X: 29.6289539, Y: 0.0, Z: -1.8126595}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -15664,7 +15863,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
@@ -15846,7 +16047,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 07eb7961-129c-42b4-90eb-0461b6cdfdb4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat
@@ -15960,7 +16163,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -15995,7 +16199,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16065,7 +16270,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16100,7 +16306,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16170,7 +16377,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16236,7 +16444,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             d71bd8626cf57b2d6dd144c7ee4eada9*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 3c9e5da3-f8af-4b62-9c49-a0010775d42e:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1_ Tall_Fat2
@@ -16302,7 +16512,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 2018f97a-ab75-4837-bdb0-cee20291fe58:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Tall_Skinny
@@ -16349,7 +16561,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16415,7 +16628,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16517,7 +16731,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16552,7 +16767,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16587,7 +16803,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16666,7 +16883,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16713,7 +16931,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16760,7 +16979,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -16911,7 +17131,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17124,7 +17345,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17159,7 +17381,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17204,6 +17427,8 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     af0f632f546c223e3f414fc63af79bc8: !RapporterV2.Player.Enemy,RapporterV2.Game
                         Id: 347e542f-f810-4e53-9e78-2d4fc4f6c05a
+                    bf3d3a430a7a1eb7d646e41ba0848782: !RapporterV2.Player.EnemyCollide,RapporterV2.Game
+                        Id: 12266ec7-debc-4901-8096-580d050353c3
                     99da476c07fd2c8df2a30e2f7476b4b4: !AnimationComponent
                         Id: 06bc5285-36ea-4955-b9aa-eb9ea39db79d
                         Animations:
@@ -17242,7 +17467,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 73bbe47c-5778-45ad-8fc9-113aa775559f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Fat2
@@ -17304,7 +17531,7 @@ Hierarchy:
                 Components:
                     a405953d86393ce0bbc06e8a100307c5: !TransformComponent
                         Id: b9bbce6e-b724-4b22-b93e-c7c1ebe1ecef
-                        Position*: {X: 31.9784851, Y: 0.0, Z: -1.43021834}
+                        Position*: {X: 29.5794926, Y: 0.0, Z: 0.1292945}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -17325,7 +17552,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: f575b933-458b-4180-94a3-31ec204b5fa4:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Short_Skinny2
@@ -17439,7 +17668,9 @@ Hierarchy:
                         IsTrigger: false
                         ColliderShapes:
                             b1cfc6d04027e241bfac09d128dfe39d*: !CylinderColliderShapeDesc
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Height: 5.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: c94ff5e2-bb81-4e69-b3ee-02e46f13584f:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree2_ Mid2
@@ -17474,7 +17705,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17509,7 +17741,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17544,7 +17777,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17579,7 +17813,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17614,7 +17849,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17684,7 +17920,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1
@@ -17763,7 +18000,8 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
             Base:
                 BasePartAsset: 98a001cf-61c7-400c-8a71-9acc94b35ad2:0Rapporter_Assets/New Assets/4-5, Tree Variations/TreeVariationPrefabs/Tree1

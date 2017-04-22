@@ -20,6 +20,8 @@ Hierarchy:
                         Id: 0734b64c-5968-451a-83da-533b1522caf6
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     8858ddc33fdb01593df52404fdb33a2d: !StaticColliderComponent
                         Id: 9595bf6d-31c8-4fdf-82ba-1cb4e0b146fc
                         CanSleep: false
@@ -32,5 +34,6 @@ Hierarchy:
                         ColliderShapes:
                             3e2bf81421281cdbab3fad57cd3a9a70: !CylinderColliderShapeDesc
                                 Height: 5.0
-                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 2.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

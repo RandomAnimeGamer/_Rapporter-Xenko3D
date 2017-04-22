@@ -16,6 +16,7 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
 //    public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
     public static readonly EventKey<bool> main = new EventKey<bool>();
     public static readonly EventReceiver<bool> damage = new EventReceiver<bool>(WeaponCollide.die);
+    public static readonly EventReceiver<bool> ded = new EventReceiver<bool>(EnemyCollide.die);
     public static readonly EventReceiver<bool> valid = new EventReceiver<bool>(WeaponScript.atking);
     private int HP=100; private float deathTime = 40f; //private bool attacking=false;
 
@@ -60,8 +61,8 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
         }*/
     } }
     public void DamageCheck() {
-        var dmg=false; var v=false; damage.TryReceive(out dmg); valid.TryReceive(out v);
-        if(dmg&&v) { //Entity.Transform.Position += new Vector3(0f,1f,0f); anim.Play("damaged");
+        var d = false; ded.TryReceive(out d); var dmg=false; var v=false; damage.TryReceive(out dmg); valid.TryReceive(out v);
+        if(dmg&&v&&d) { //Entity.Transform.Position += new Vector3(0f,1f,0f); anim.Play("damaged");
             anim.Play("Hurt");
             HP-=25; if(HP<0) { HP=0; } CheckDeath(); }
     }

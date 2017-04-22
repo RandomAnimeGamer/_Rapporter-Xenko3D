@@ -2,7 +2,7 @@
 using System.Threading.Tasks; using SiliconStudio.Core.Mathematics; using SiliconStudio.Xenko.Input;
 using SiliconStudio.Xenko.Engine; using SiliconStudio.Xenko.Engine.Events;
 
-namespace RapporterV2.Player { public class WeaponCollide : AsyncScript {
+namespace RapporterV2.Player { public class EnemyCollide : AsyncScript {
     public static readonly EventKey<bool> die = new EventKey<bool>();
 //    public static readonly EventKey<bool> dieDirection = new EventKey<bool>();
     private bool damage = false;
