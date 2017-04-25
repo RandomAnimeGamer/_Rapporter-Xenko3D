@@ -1,7 +1,0 @@
-C:\_Rapporter-Xenko3D\SimpleAudio\SimpleAudio\Bin\Windows-Direct3D11\Debug\SimpleAudio.Game.dll
-C:\_Rapporter-Xenko3D\SimpleAudio\SimpleAudio\Bin\Windows-Direct3D11\Debug\SimpleAudio.Game.pdb
-C:\_Rapporter-Xenko3D\SimpleAudio\SimpleAudio\SimpleAudio.Game\obj\Windows\Debug\SimpleAudio.Game.csprojResolveAssemblyReference.cache
-C:\_Rapporter-Xenko3D\SimpleAudio\SimpleAudio\SimpleAudio.Game\obj\Windows\Debug\SimpleAudio.Game.dll
-C:\_Rapporter-Xenko3D\SimpleAudio\SimpleAudio\SimpleAudio.Game\obj\Windows\Debug\SimpleAudio.Game.pdb
-C:\_Rapporter-Xenko3D\SimpleAudio\SimpleAudio\Bin\Windows\Debug\SimpleAudio.Game.dll
-C:\_Rapporter-Xenko3D\SimpleAudio\SimpleAudio\Bin\Windows\Debug\SimpleAudio.Game.pdb

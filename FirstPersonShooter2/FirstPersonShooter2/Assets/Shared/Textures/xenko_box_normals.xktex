@@ -1,8 +1,0 @@
-!Texture
-Id: 1a7441c2-40dd-4b7c-b08c-8b306bb9e714
-SerializedVersion: {Xenko: 1.4.0-beta}
-Tags: []
-Source: ../../../Resources/Textures/xenko_box_normals.png
-ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
-Hint: NormalMap
-Alpha: None

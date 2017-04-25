@@ -1,8 +1,0 @@
-!ColliderShapeAsset
-Id: 808efb3d-e51e-4dd2-9069-33774b609e04
-SerializedVersion: {Xenko: 1.4.0-beta}
-Tags: []
-ColliderShapes:
-    7107ddc00d8be146887f6c682efdee3e: !StaticPlaneColliderShapeDesc
-        Normal: {X: 0.0, Y: 1.0, Z: 0.0}
-        Offset: 0.0

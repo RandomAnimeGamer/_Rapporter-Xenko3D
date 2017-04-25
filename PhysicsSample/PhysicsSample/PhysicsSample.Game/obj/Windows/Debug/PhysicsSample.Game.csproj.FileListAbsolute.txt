@@ -1,7 +1,0 @@
-C:\_Rapporter-Xenko3D\PhysicsSample\PhysicsSample\Bin\Windows-Direct3D11\Debug\PhysicsSample.Game.dll
-C:\_Rapporter-Xenko3D\PhysicsSample\PhysicsSample\Bin\Windows-Direct3D11\Debug\PhysicsSample.Game.pdb
-C:\_Rapporter-Xenko3D\PhysicsSample\PhysicsSample\PhysicsSample.Game\obj\Windows\Debug\PhysicsSample.Game.csprojResolveAssemblyReference.cache
-C:\_Rapporter-Xenko3D\PhysicsSample\PhysicsSample\PhysicsSample.Game\obj\Windows\Debug\PhysicsSample.Game.dll
-C:\_Rapporter-Xenko3D\PhysicsSample\PhysicsSample\PhysicsSample.Game\obj\Windows\Debug\PhysicsSample.Game.pdb
-C:\_Rapporter-Xenko3D\PhysicsSample\PhysicsSample\Bin\Windows\Debug\PhysicsSample.Game.dll
-C:\_Rapporter-Xenko3D\PhysicsSample\PhysicsSample\Bin\Windows\Debug\PhysicsSample.Game.pdb
