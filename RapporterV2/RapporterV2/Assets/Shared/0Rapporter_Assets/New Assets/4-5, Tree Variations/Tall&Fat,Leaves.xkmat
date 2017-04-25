@@ -11,7 +11,7 @@ Attributes:
         SpecularMap: !ComputeColor
             Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         Intensity: !ComputeFloat
-            Value: 0.201493
+            Value: 0.08209
     SpecularModel: !MaterialSpecularMicrofacetModelFeature
         Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
         Visibility: !MaterialSpecularMicrofacetVisibilityImplicit {}
