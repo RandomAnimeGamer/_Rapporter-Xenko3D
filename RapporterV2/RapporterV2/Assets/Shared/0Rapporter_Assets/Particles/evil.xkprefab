@@ -1,0 +1,138 @@
+!PrefabAsset
+Id: 00950bf5-49bd-44f3-b55d-8a3a971057f3
+SerializedVersion: {Xenko: 1.9.0-beta05}
+Tags: []
+Hierarchy:
+    RootPartIds:
+        - f0621824-5a98-4fc7-8d14-cd808045f984
+    Parts:
+        -   Entity:
+                Id: b1fc7599-d5af-405d-9819-02497dd76870
+                Name: Death
+                Components:
+                    ed8e1198cc41080570d3e421313da91f: !TransformComponent
+                        Id: aa26e685-3ef9-437b-8cc8-8bcb86f38b77
+                        Position: {X: 0.6283538, Y: 1.43682492, Z: -0.990265131}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7932216e4aa2075401d56dbd6cbd39a1: !ParticleSystemComponent
+                        Id: 913addfd-f779-4fd6-a242-6e1ca4eeed04
+                        Control:
+                            ResetSeconds: 5.0
+                            Control: Play
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Speed: 4.09396
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                7a61ebad62783bf483ee18ba9ccdb877:
+                                    ParticleLifetime: {X: 1.0, Y: 2.0}
+                                    RandomSeedMethod: Fixed
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: null
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ComputeColor: !ComputeTextureColor
+                                            Texture: 17c84ea4-e787-4f2e-9be2-496404da10a2:0Rapporter_Assets/Particles/forest
+                                            FallbackValue:
+                                                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                            Scale: {X: 1.0, Y: 1.0}
+                                            Offset: {X: 0.0, Y: 0.0}
+                                            Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        b8720e87a830d9348793312b83c5a337*: !SpawnerPerFrame
+                                            LoopCondition: OneShot
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 10.0, Y: 10.0}
+                                            SpawnCount*: 50.0
+                                            Framerate: 60.0
+                                    Initializers:
+                                        fe6d4fdd3c3868c60229d33f6476c238: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize*: {X: 0.25, Y: 0.5}
+                                        3bfc9949c34547947fd4bba098ec432b: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin*: {X: -35.0, Y: -10.0, Z: -50.0}
+                                            PositionMax*: {X: 35.0, Y: 0.0, Z: 50.0}
+                                            Interpolate: false
+                                        487ee7394ea83e4ed8a659cefee8ddba: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -3.0, Y: -3.0, Z: -3.0}
+                                            VelocityMax: {X: 3.0, Y: 3.0, Z: 3.0}
+                                    Updaters:
+                                        cd266189c42c0cb5b93be053a31acbe9: !UpdaterForceField
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            DisplayParticleRotation: true
+                                            DisplayParticlePosition: true
+                                            FieldShape: null
+                                            DisplayParticleScale: true
+                                            DisplayParticleScaleUniform: false
+                                            FieldFalloff:
+                                                StrengthInside: 1.0
+                                                FalloffStart: 0.1
+                                                StrengthOutside: 1.0
+                                                FalloffEnd: 0.9
+                                            EnergyConservation: 1.0
+                                            ForceDirected: 0.0
+                                            ForceVortex: 0.0
+                                            ForceRepulsive: 0.0
+                                            ForceFixed: {X: 0.0, Y: 0.0, Z: 0.0}
+            Base:
+                BasePartAsset: 82022151-858f-4fb3-81c6-48aaba4d2dd1:0Rapporter_Assets/Particles/Death
+                BasePartId: 28fc55a1-d572-4550-9baf-84fa45066b81
+                InstanceId: f3700583-cc91-41be-9173-83166bb1b5c7
+        -   Entity:
+                Id: f0621824-5a98-4fc7-8d14-cd808045f984
+                Name: Death
+                Components:
+                    149659c91cfe90303a783b2e73dfb96d: !TransformComponent
+                        Id: 66de96f9-7530-4ec8-89fe-7969a84f3d5b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            55440686639503af55e8b97559fbc031: b1fc7599-d5af-405d-9819-02497dd76870/aa26e685-3ef9-437b-8cc8-8bcb86f38b77

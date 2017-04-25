@@ -33,13 +33,13 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
         }
         if(main==1) mainMove.Broadcast(new Vector2(1, count-quests.IndexOf("main")));
         
-        if(sword==0) { var swSt = false; swordSt.TryReceive(out swSt);
+/*        if(sword==0) { var swSt = false; swordSt.TryReceive(out swSt);
             if(swSt) {
                 quests.Add("sword"); sword=1; count++;
                 swordMove.Broadcast(new Vector2(1, count-quests.IndexOf("sword")));
             }
         }
-        if(sword==1) { swordMove.Broadcast(new Vector2(1, count-quests.IndexOf("sword"))); swordQ.Broadcast(true); }
+        if(sword==1) { swordMove.Broadcast(new Vector2(1, count-quests.IndexOf("sword"))); swordQ.Broadcast(true); }*/
         
 /*        if(move==0) { var moSt = false; moveSt.TryReceive(out moSt);
             if(moSt) {
@@ -60,12 +60,12 @@ namespace RapporterV2.Quest { public class QuestManager : SyncScript {
                 quests.Remove("main"); main=2; count--; completed.Broadcast(1);
             }
         }
-        if(sword==1) { var swCo = false; swordComp.TryReceive(out swCo);
+/*        if(sword==1) { var swCo = false; swordComp.TryReceive(out swCo);
             if(swCo) {
                 quests.Remove("sword");
                 sword=2; count--;
             }
-        }
+        }*/
 /*        if(move==1) { var moCo = false; moveComp.TryReceive(out moCo);
             if(moCo) {
                 quests.Remove("move");

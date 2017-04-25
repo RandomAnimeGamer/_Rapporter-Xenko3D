@@ -1,30 +1,21 @@
-﻿﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SiliconStudio.Core.Mathematics;
-using SiliconStudio.Xenko.Input;
-using SiliconStudio.Xenko.Physics;
-using SiliconStudio.Xenko.Engine;
-using SiliconStudio.Xenko.Engine.Events;
+﻿using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks;
+using SiliconStudio.Core.Mathematics; using SiliconStudio.Xenko.Input; using SiliconStudio.Xenko.Physics;
+using SiliconStudio.Xenko.Engine; using SiliconStudio.Xenko.Engine.Events; using RapporterV2.Core;
 
 namespace RapporterV2.Player { public class Enemy : SyncScript {
     private Simulation simulation; AnimationComponent anim; RigidbodyComponent r;
-//    public CameraComponent Camera { get; set; }
-//    public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
-//    public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
+    public CameraComponent Camera { get; set; }
+    public static readonly EventKey<Vector3> MoveDirectionEventKey = new EventKey<Vector3>();
+    public static readonly EventKey<Vector2> CameraDirectionEventKey = new EventKey<Vector2>();
     public static readonly EventKey<bool> main = new EventKey<bool>();
     public static readonly EventReceiver<bool> damage = new EventReceiver<bool>(WeaponCollide.die);
     public static readonly EventReceiver<bool> ded = new EventReceiver<bool>(EnemyCollide.die);
     public static readonly EventReceiver<bool> valid = new EventReceiver<bool>(WeaponScript.atking);
-    private int HP=100; private float deathTime = 40f; //private bool attacking=false;
-
-    public override void Start() {
-        simulation = this.GetSimulation(); anim = Entity.Get<AnimationComponent>(); r = Entity.Get<RigidbodyComponent>();
-    }
-    
-    public override void Update() { { //Character movement
+    private int HP=100; private float deathTime = 40f; bool attacking=false;//is the hitbox "active"?
+    bool completed = true;float time=0;//60f = 1s
+    int state=0;//0=waiting, 1=circling, 2=charging, 3=death
+    public override void Start() { anim = Entity.Get<AnimationComponent>(); r = Entity.Get<RigidbodyComponent>(); }
+    public override void Update() {
         if(!anim.IsPlaying("Idle")&&!anim.IsPlaying("Death")&&!anim.IsPlaying("Hurt")) anim.Play("Idle");
         var moveDirection = Vector2.Zero;
         DamageCheck();
@@ -37,37 +28,40 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
             SceneSystem.SceneInstance.Scene.Entities.Add(death);
             death.Transform.Position = Entity.Transform.Position;
         }
-//        if (KeysLeft.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitX;
-//        if (KeysRight.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitX;
-//        if (KeysUp.Any(key => Input.IsKeyDown(key))) moveDirection += +Vector2.UnitY;
-//        if (KeysDown.Any(key => Input.IsKeyDown(key))) moveDirection += -Vector2.UnitY;
         
-//        var worldSpeed = (Camera != null)//Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
-//            ? Utils.LogicDirectionToWorldDirection(moveDirection, Camera, Vector3.UnitY) + new Vector3(0, jumpForce, 0)
-//            : new Vector3(moveDirection.X, jumpForce, moveDirection.Y);//No camera? No problem!
-//        if(worldSpeed!=Vector3.Zero) {
-//        MoveDirectionEventKey.Broadcast(worldSpeed);
-    } { //Camera rotation
-//        var cameraDirection = Vector2.Zero;
-//        if (Input.IsMouseButtonDown(MouseButton.Left)) Input.LockMousePosition(true);
-//        if (Input.IsKeyPressed(Keys.Escape)) Input.UnlockMousePosition();//Mouse-based camera rotation. Click = Activate, Esc = Cancel
-//        if (Input.IsMousePositionLocked) cameraDirection += new Vector2(Input.MouseDelta.X, -Input.MouseDelta.Y) * MouseSensitivity;
-//        CameraDirectionEventKey.Broadcast(cameraDirection);//Broadcast the camera direction directly, as a screen-space Vector2
-    } {//Attack Code
-/*        var comp=false; AtkComp.TryReceive(out comp);
-        if(Input.HasMouse&&Input.IsMouseButtonDown(MouseButton.Left)&&comp) {
-            combo++; if(combo>3) { combo=1; ResetEvent.Broadcast(true); }
-            ResetTime.Broadcast(true); AtkEventKey.Broadcast(combo); attacking=true;
+        
+/*        if(completed) {
+            state++; completed = false;
+            if(state==1) time=10f;//check how much time is needed to circle a full time around once
+            if(state==2) time=10f;//check how much time is needed to have it charge the radius of the circle
+        } else {
+            if(state==1) Circle();
+            else if(state==2) Charge();
+            time--; if(time<=0) time=0;
         }*/
-    } }
+    }
+    //Camera rotation
+    //        var cameraDirection = Vector2.Zero;
+    //        if (Input.IsMousePositionLocked) cameraDirection += new Vector2(Input.MouseDelta.X, -Input.MouseDelta.Y) * MouseSensitivity;
+    //        CameraDirectionEventKey.Broadcast(cameraDirection);//Broadcast the camera direction directly, as a screen-space Vector2
+    
     public void DamageCheck() {
-        var d = false; ded.TryReceive(out d); var dmg=false; var v=false; damage.TryReceive(out dmg); valid.TryReceive(out v);
-        if(dmg&&v&&d) { //Entity.Transform.Position += new Vector3(0f,1f,0f); anim.Play("damaged");
+        var dmg=false; var v=false; var ec=false; damage.TryReceive(out dmg); valid.TryReceive(out v); ded.TryReceive(out ec);
+        if(dmg&&v&&ec) { //Entity.Transform.Position += new Vector3(0f,1f,0f); anim.Play("damaged");
             anim.Play("Hurt");
             HP-=25; if(HP<0) { HP=0; } CheckDeath(); }
     }
-    public void CheckDeath() {
-        if(HP<=0) { anim.Play("Death"); main.Broadcast(true);
-        }
+    public void CheckDeath() { if(HP<=0) { anim.Play("Death"); main.Broadcast(true); } }
+    public void Circle() { Charge();
+        CameraDirectionEventKey.Broadcast(new Vector2(1f, 0f)); }//Broadcast the camera direction directly, as a screen-space Vector2 }
+    public void Charge() {
+        attacking=true;
+        Vector2 moveDirection = new Vector2(1f, 0f);
+        var worldSpeed = (Camera != null)//Broadcast the movement vector as a world-space Vector3 to allow characters to be controlled
+            ? Utils.LogicDirectionToWorldDirection(moveDirection, Camera, Vector3.UnitY)
+            : new Vector3(moveDirection.X, 0f, moveDirection.Y);//No camera? No problem!
+    //        if(worldSpeed!=Vector3.Zero) {
+    //        MoveDirectionEventKey.Broadcast(worldSpeed);
+        if(time==0) { attacking=false; completed=true; }
     }
 } }
