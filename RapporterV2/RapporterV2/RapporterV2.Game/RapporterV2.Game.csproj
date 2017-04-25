@@ -113,6 +113,7 @@
     <Compile Include="Animations\NPC2_Animations.cs" />
     <Compile Include="Animations\NPC3_Animations.cs" />
     <Compile Include="Animations\NPC4_Animations.cs" />
+    <Compile Include="Back2Title.cs" />
     <Compile Include="Core\InputManagerExtensions.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="DebugPhysicsShapes.cs" />
@@ -122,11 +123,13 @@
     <Compile Include="Full.cs" />
     <Compile Include="HPBar.cs" />
     <Compile Include="loadScene.cs" />
+    <Compile Include="loadScene2.cs" />
     <Compile Include="Player\AnimationController.cs" />
     <Compile Include="Player\BearTrapAnim.cs" />
     <Compile Include="Player\CollisionDamage.cs" />
     <Compile Include="Player\CollisionDie.cs" />
     <Compile Include="Player\Death.cs" />
+    <Compile Include="Player\DeathText.cs" />
     <Compile Include="Player\Enemy.cs" />
     <Compile Include="Player\EnemyCollide.cs" />
     <Compile Include="Player\EnemyController.cs" />
@@ -154,6 +157,12 @@
     <Compile Include="Quest\ScrollQuestText2.cs" />
     <Compile Include="Quest\SwordQ.cs" />
     <Compile Include="Script.cs" />
+    <Compile Include="Sounds\MusicDeer.cs" />
+    <Compile Include="Sounds\MusicDeerSync.cs" />
+    <Compile Include="Sounds\MusicForest.cs" />
+    <Compile Include="Sounds\MusicForestSync.cs" />
+    <Compile Include="Sounds\MusicTown.cs" />
+    <Compile Include="Sounds\MusicTownSync.cs" />
     <Compile Include="Sounds\SoundScript.cs" />
     <Compile Include="Trigger\TriggerEvent.cs" />
     <Compile Include="Trigger\TriggerGroup.cs" />

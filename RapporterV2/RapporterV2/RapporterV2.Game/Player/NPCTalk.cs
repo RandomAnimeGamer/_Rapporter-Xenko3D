@@ -3,7 +3,8 @@ using SiliconStudio.Core.Mathematics; using SiliconStudio.Xenko.Input; using Sil
 using SiliconStudio.Xenko.Engine.Events; using SiliconStudio.Xenko.Physics;
 
 namespace RapporterV2.Player { public class NPCTalk : AsyncScript {
-    public static readonly EventKey<int> ttm = new EventKey<int>(); public static readonly EventKey<bool> main = new EventKey<bool>();
+    public static readonly EventKey<int> ttm = new EventKey<int>();
+    public static readonly EventKey<bool> main = new EventKey<bool>();
     private int talkToMe = 0;
     public override async Task Execute() {
         var trigger = Entity.Get<PhysicsComponent>(); trigger.ProcessCollisions = true;

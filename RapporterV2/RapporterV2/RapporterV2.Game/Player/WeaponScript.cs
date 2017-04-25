@@ -1,11 +1,6 @@
-﻿﻿using System;
-using System.Threading.Tasks;
-using SiliconStudio.Core.Mathematics;
-using SiliconStudio.Xenko.Engine;
-using SiliconStudio.Xenko.Engine.Events;
-using SiliconStudio.Xenko.Physics;
-using SiliconStudio.Xenko.Rendering.Sprites;
-using RapporterV2.Core;
+﻿﻿using System; using System.Threading.Tasks; using SiliconStudio.Core.Mathematics; using SiliconStudio.Xenko.Engine;
+using SiliconStudio.Xenko.Engine.Events; using SiliconStudio.Xenko.Physics; using SiliconStudio.Xenko.Rendering.Sprites;
+using RapporterV2.Core; using SiliconStudio.Xenko.Audio;
 
 namespace RapporterV2.Player { public class WeaponScript : SyncScript {
     private readonly EventReceiver<int> AtkEvent = new EventReceiver<int>(PlayerInput.AtkEventKey);
@@ -14,15 +9,14 @@ namespace RapporterV2.Player { public class WeaponScript : SyncScript {
     public static readonly EventKey<bool> completed = new EventKey<bool>();
     public static readonly EventKey<bool> atking = new EventKey<bool>();
     public CameraComponent Camera { get; set; }
-    private int buffer=0, combo=0;//0 is null state
-    private bool reset=false, T=false;
+    private bool reset=false, T=false; private int buffer=0, combo=0;//0 is null state
     private Vector3 posVect = new Vector3(.6f, -.3f, -.8f);
     private Vector3 rotVect = new Vector3(320, 0, 0);
-    private RigidbodyComponent r;
-
+    private RigidbodyComponent r; public Sound SoundEffect; private SoundInstance w;
     private float cooldownRemaining = 0f;
 
-    public override void Start() { r = Entity.Get<RigidbodyComponent>(); }
+    public override void Start() { r = Entity.Get<RigidbodyComponent>();
+        w = SoundEffect.CreateInstance(); w.Stop(); }
     public override void Update() {
         resetPos.TryReceive(out reset);//try to receive a position reset
         resetT.TryReceive(out T);
@@ -33,6 +27,7 @@ namespace RapporterV2.Player { public class WeaponScript : SyncScript {
         if(buffer!=0) { combo=buffer; }//buffer for a combo number
 
         var pos = Vector3.Zero;//translation vector
+        if(cooldownRemaining==10f) { w.Play(); }
         if(combo==1&&cooldownRemaining > 0f) {//decrement x&y rateX:Y=2:1, move z ^ then V where z is like x^2 graph, rotate y and z
             atking.Broadcast(true);
 //            Entity.Get<AnimationComponent>().Play("slash");

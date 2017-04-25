@@ -20,3 +20,5 @@ Hierarchy:
                         Id: 6053d308-1ce9-49f1-9881-aaf26b9f476e
                         Model: 94f04733-a711-4c94-8d13-1cf6913573ea:0Rapporter_Assets/Environment Assets/OtherAssets/Flower1_animated
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false

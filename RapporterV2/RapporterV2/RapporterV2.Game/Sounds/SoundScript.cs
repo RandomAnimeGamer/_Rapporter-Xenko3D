@@ -1,13 +1,6 @@
-﻿using System.Linq;
-using System.Threading.Tasks;
-using SiliconStudio.Core;
-using SiliconStudio.Core.Mathematics;
-using SiliconStudio.Xenko.Audio;
-using SiliconStudio.Xenko.Engine;
-using SiliconStudio.Xenko.Input;
-using SiliconStudio.Xenko.UI;
-using SiliconStudio.Xenko.UI.Controls;
-using SiliconStudio.Xenko.UI.Panels;
+﻿using System.Linq; using System.Threading.Tasks; using SiliconStudio.Core; using SiliconStudio.Core.Mathematics;
+using SiliconStudio.Xenko.Audio; using SiliconStudio.Xenko.Engine; using SiliconStudio.Xenko.Input;
+using SiliconStudio.Xenko.UI; using SiliconStudio.Xenko.UI.Controls; using SiliconStudio.Xenko.UI.Panels;
 
 namespace Sounds { public class SoundScript : AsyncScript {
     public Sound SoundMusic;

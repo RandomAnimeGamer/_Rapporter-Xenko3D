@@ -38,5 +38,7 @@ ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
 RootAssets:
+    - 329c76fd-a150-4f91-91ce-946145e60232:0Rapporter_Assets/Scenes/Help
+    - 4944d2f5-f066-42e0-89b9-ef96ba4c909f:0Rapporter_Assets/Scenes/Credits
     - 76c4c59d-6079-492e-9d7a-66d4685e5d04:0Rapporter_Assets/Scenes/Forest Scene
     - 82022151-858f-4fb3-81c6-48aaba4d2dd1:0Rapporter_Assets/Particles/Death

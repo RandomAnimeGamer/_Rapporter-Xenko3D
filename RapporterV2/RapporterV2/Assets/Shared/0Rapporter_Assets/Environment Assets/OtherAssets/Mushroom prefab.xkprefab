@@ -20,3 +20,5 @@ Hierarchy:
                         Id: a941c571-532e-4b97-ab4e-ecc02391a03c
                         Model: 426a97f7-52df-4038-90f6-8eb01f779e37:0Rapporter_Assets/Environment Assets/OtherAssets/Mushroom
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false

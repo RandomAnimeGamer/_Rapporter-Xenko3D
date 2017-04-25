@@ -30,6 +30,146 @@ Settings:
                 - Transform
             NavigationVisible: true
             NavigationWireframes: true
+        6058e329-6ccd-4d7e-a8c7-41568da2bbf3:
+            CamPosition: {X: 4.0, Y: 4.0, Z: 4.0}
+            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        c38c8864-2ea0-40fc-b6ce-782f5a63b989:
+            CamPosition: {X: 4.0, Y: 4.0, Z: 4.0}
+            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        45b798bb-875c-40ed-874a-3c65e4c492a4:
+            CamPosition: {X: 4.0, Y: 4.0, Z: 4.0}
+            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        00950bf5-49bd-44f3-b55d-8a3a971057f3:
+            CamPosition: {X: 43.5943832, Y: 37.38902, Z: 43.2345657}
+            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
+        eb449519-43bf-41d3-8179-1a86e061d328:
+            CamPosition: {X: 3.26328921, Y: 1.23291755, Z: -3.04214644}
+            CamPitchYaw: {X: -0.5235988, Y: 0.7898406}
+            CamProjection: Perspective
+            CamVerticalFieldOfView: 45.0
+            CamOrthographicSize: 10.0
+            CamNearClipPlane: 0.1
+            CamFarClipPlane: 1000.0
+            CamAspectRatio: 1.77777779
+            TranslationSnapActive: false
+            TranslationSnapValue: 1.0
+            RotationSnapActive: false
+            RotationSnapValue: 22.5
+            ScaleSnapActive: false
+            ScaleSnapValue: 1.1
+            SelectionMaskVisible: true
+            GridVisible: true
+            CameraPreviewVisible: true
+            RenderMode: Lighting
+            ActiveStream: 
+            TransformationGizmoSize: 1.0
+            ComponentGizmoSize: 1.0
+            FixedSizeGizmos: false
+            HiddenGizmos:
+                - Physics
+                - Transform
+            NavigationVisible: false
+            NavigationWireframes: false
         07eb7961-129c-42b4-90eb-0461b6cdfdb4:
             CamPosition: {X: 15.8417225, Y: 2.32605672, Z: 27.3694725}
             CamPitchYaw: {X: -0.0911888, Y: 3.79293537}
@@ -139,9 +279,9 @@ Settings:
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
-        82022151-858f-4fb3-81c6-48aaba4d2dd1:
-            CamPosition: {X: -3.665454, Y: 3.70296764, Z: -1.56664443}
-            CamPitchYaw: {X: 0.101843342, Y: -1.61132252}
+        4944d2f5-f066-42e0-89b9-ef96ba4c909f:
+            CamPosition: {X: 1.14416313, Y: 3.86877418, Z: 4.718392}
+            CamPitchYaw: {X: -0.240208641, Y: 0.235524133}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -167,9 +307,9 @@ Settings:
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
-        f87d6145-36cd-4974-a8bd-eaace6f9556e:
-            CamPosition: {X: -28.80424, Y: 0.996942759, Z: 13.5426617}
-            CamPitchYaw: {X: -0.565799356, Y: 0.9945184}
+        82022151-858f-4fb3-81c6-48aaba4d2dd1:
+            CamPosition: {X: -3.665454, Y: 3.70296764, Z: -1.56664443}
+            CamPitchYaw: {X: 0.101843342, Y: -1.61132252}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -279,8 +419,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         420df9fa-5ea2-4e45-ba9e-f040e1b7ffff:
-            CamPosition: {X: 2.38829756, Y: 2.73349357, Z: 4.93894863}
-            CamPitchYaw: {X: -0.284356058, Y: -0.165285125}
+            CamPosition: {X: -3.06693888, Y: 4.230645, Z: 3.598685}
+            CamPitchYaw: {X: -0.327422142, Y: -0.5211336}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -335,8 +475,8 @@ Settings:
             NavigationVisible: false
             NavigationWireframes: false
         76c4c59d-6079-492e-9d7a-66d4685e5d04:
-            CamPosition: {X: 14.2906179, Y: 4.88754034, Z: -31.8484783}
-            CamPitchYaw: {X: -0.361134648, Y: 86.93307}
+            CamPosition: {X: 5.944856, Y: 23.50924, Z: 1.95512819}
+            CamPitchYaw: {X: -1.52699769, Y: 100.388809}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -358,7 +498,6 @@ Settings:
             ComponentGizmoSize: 1.0
             FixedSizeGizmos: false
             HiddenGizmos:
-                - Physics
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
@@ -445,9 +584,9 @@ Settings:
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
-        eb449519-43bf-41d3-8179-1a86e061d328:
-            CamPosition: {X: 3.26328921, Y: 1.23291755, Z: -3.04214644}
-            CamPitchYaw: {X: -0.5235988, Y: 0.7898406}
+        f87d6145-36cd-4974-a8bd-eaace6f9556e:
+            CamPosition: {X: -28.80424, Y: 0.996942759, Z: 13.5426617}
+            CamPitchYaw: {X: -0.565799356, Y: 0.9945184}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -473,9 +612,9 @@ Settings:
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
-        00950bf5-49bd-44f3-b55d-8a3a971057f3:
-            CamPosition: {X: 43.5943832, Y: 37.38902, Z: 43.2345657}
-            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
+        329c76fd-a150-4f91-91ce-946145e60232:
+            CamPosition: {X: -0.5352207, Y: 0.715683, Z: 4.718416}
+            CamPitchYaw: {X: -0.181994945, Y: -0.337649941}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0

@@ -25,17 +25,25 @@ namespace SiliconStudio.DataSerializers
     // Assembly attributes that defines supported serializer (only generics one so that other assemblies can do generic instantiations by themselves)
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Sounds_SoundScriptSerializer), typeof(Sounds.SoundScript), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_AnimationSerializer), typeof(RapporterV2.Animation), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_Back2TitleSerializer), typeof(RapporterV2.Back2Title), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_DebugPhysicsShapesSerializer), typeof(RapporterV2.DebugPhysicsShapes), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_EnemyCameraSerializer), typeof(RapporterV2.EnemyCamera), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_FpsCameraSerializer), typeof(RapporterV2.FpsCamera), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_FullSerializer), typeof(RapporterV2.Full), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_HPBarSerializer), typeof(RapporterV2.HPBar), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_loadSceneSerializer), typeof(RapporterV2.loadScene), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_loadScene2Serializer), typeof(RapporterV2.loadScene2), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_ScriptSerializer), typeof(RapporterV2.Script), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2_TriggerScriptSerializer), typeof(RapporterV2.TriggerScript), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerGroupSerializer), typeof(RapporterV2.Trigger.TriggerGroup), DataSerializerGenericMode.None, false, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<RapporterV2.Trigger.TriggerEvent>), typeof(System.Collections.Generic.List<RapporterV2.Trigger.TriggerEvent>), DataSerializerGenericMode.None, false, false, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerEventSerializer), typeof(RapporterV2.Trigger.TriggerEvent), DataSerializerGenericMode.None, false, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicDeerSerializer), typeof(RapporterV2.Sounds.MusicDeer), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicDeerSyncSerializer), typeof(RapporterV2.Sounds.MusicDeerSync), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicForestSerializer), typeof(RapporterV2.Sounds.MusicForest), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicForestSyncSerializer), typeof(RapporterV2.Sounds.MusicForestSync), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicTownSerializer), typeof(RapporterV2.Sounds.MusicTown), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicTownSyncSerializer), typeof(RapporterV2.Sounds.MusicTownSync), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_QuestManagerSerializer), typeof(RapporterV2.Quest.QuestManager), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestSerializer), typeof(RapporterV2.Quest.ScrollQuest), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestTextSerializer), typeof(RapporterV2.Quest.ScrollQuestText), DataSerializerGenericMode.None, true, true, Profile = "Default")]
@@ -46,6 +54,7 @@ namespace SiliconStudio.DataSerializers
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_CollisionDamageSerializer), typeof(RapporterV2.Player.CollisionDamage), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_CollisionDieSerializer), typeof(RapporterV2.Player.CollisionDie), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_DeathSerializer), typeof(RapporterV2.Player.Death), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_DeathTextSerializer), typeof(RapporterV2.Player.DeathText), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemySerializer), typeof(RapporterV2.Player.Enemy), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemyCollideSerializer), typeof(RapporterV2.Player.EnemyCollide), DataSerializerGenericMode.None, true, true, Profile = "Default")]
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemyControllerSerializer), typeof(RapporterV2.Player.EnemyController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
@@ -100,17 +109,25 @@ namespace SiliconStudio.DataSerializers
 
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xef36bdff, 0x8aa4c795, 0x399411e3, 0x6201654a), typeof(Sounds.SoundScript), typeof(SiliconStudio.DataSerializers.Sounds_SoundScriptSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xafda4686, 0xec44df1c, 0x72237e91, 0x8ff34521), typeof(RapporterV2.Animation), typeof(SiliconStudio.DataSerializers.RapporterV2_AnimationSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x35609d4b, 0xfb1a4e03, 0xfb966d0d, 0xac49d083), typeof(RapporterV2.Back2Title), typeof(SiliconStudio.DataSerializers.RapporterV2_Back2TitleSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x51e9a5d0, 0x99b88ce0, 0x7f14096e, 0xe7f43599), typeof(RapporterV2.DebugPhysicsShapes), typeof(SiliconStudio.DataSerializers.RapporterV2_DebugPhysicsShapesSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x0228deeb, 0x8cb39b54, 0x367bcd7d, 0xafe3756d), typeof(RapporterV2.EnemyCamera), typeof(SiliconStudio.DataSerializers.RapporterV2_EnemyCameraSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb561e011, 0xc6fcfefa, 0xe33fcc13, 0x5d12644b), typeof(RapporterV2.FpsCamera), typeof(SiliconStudio.DataSerializers.RapporterV2_FpsCameraSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xb66a9340, 0x1b0bfb50, 0x750ed843, 0x190a27e0), typeof(RapporterV2.Full), typeof(SiliconStudio.DataSerializers.RapporterV2_FullSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xe8259b8d, 0x6acb683a, 0x30a66ac3, 0xe68cb27d), typeof(RapporterV2.HPBar), typeof(SiliconStudio.DataSerializers.RapporterV2_HPBarSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x8c4c1ca7, 0xbab971b7, 0x084a382c, 0xbab3120f), typeof(RapporterV2.loadScene), typeof(SiliconStudio.DataSerializers.RapporterV2_loadSceneSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x65184326, 0xb97a4198, 0xa670b746, 0xf3668438), typeof(RapporterV2.loadScene2), typeof(SiliconStudio.DataSerializers.RapporterV2_loadScene2Serializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x6306d3d6, 0x002cb09d, 0x31edd489, 0xec47a1c4), typeof(RapporterV2.Script), typeof(SiliconStudio.DataSerializers.RapporterV2_ScriptSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x3c939d77, 0xf13b65c6, 0x61d39e7a, 0x4a8618cc), typeof(RapporterV2.TriggerScript), typeof(SiliconStudio.DataSerializers.RapporterV2_TriggerScriptSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x28d24634, 0xd72d3da2, 0xf58b93bb, 0xe8172d32), typeof(RapporterV2.Trigger.TriggerGroup), typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerGroupSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xa3255dcc, 0x3c9e3f5d, 0x76156847, 0x4968b4c8), typeof(System.Collections.Generic.List<RapporterV2.Trigger.TriggerEvent>), typeof(SiliconStudio.Core.Serialization.Serializers.ListSerializer<RapporterV2.Trigger.TriggerEvent>)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xec543b3a, 0x96bb5f76, 0x23ae3f6d, 0x497b982f), typeof(RapporterV2.Trigger.TriggerEvent), typeof(SiliconStudio.DataSerializers.RapporterV2Trigger_TriggerEventSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd99e7774, 0xd0aed26c, 0x8e925096, 0x4bf8492a), typeof(RapporterV2.Sounds.MusicDeer), typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicDeerSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x83a12728, 0x58250b0c, 0x43571755, 0xed257af0), typeof(RapporterV2.Sounds.MusicDeerSync), typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicDeerSyncSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xade39606, 0x0aad56f1, 0x0bd7c9a0, 0xfc6ec178), typeof(RapporterV2.Sounds.MusicForest), typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicForestSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xbfb04064, 0x980af140, 0xd52a271d, 0x2bb408df), typeof(RapporterV2.Sounds.MusicForestSync), typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicForestSyncSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x3aa22582, 0x5d7b9010, 0x6d77b229, 0xe9d75f10), typeof(RapporterV2.Sounds.MusicTown), typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicTownSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x2ff854d3, 0xd0468d35, 0xb2fec7de, 0x8c8c6611), typeof(RapporterV2.Sounds.MusicTownSync), typeof(SiliconStudio.DataSerializers.RapporterV2Sounds_MusicTownSyncSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x01634228, 0xb8fa6bcf, 0x4a3c3b66, 0x8c6b4a57), typeof(RapporterV2.Quest.QuestManager), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_QuestManagerSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x974421d3, 0x0006d240, 0x021d493e, 0x373979e3), typeof(RapporterV2.Quest.ScrollQuest), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xafaca863, 0x776458ac, 0x2e5991f3, 0xec5e8e66), typeof(RapporterV2.Quest.ScrollQuestText), typeof(SiliconStudio.DataSerializers.RapporterV2Quest_ScrollQuestTextSerializer)));
@@ -121,6 +138,7 @@ namespace SiliconStudio.DataSerializers
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x1d439b41, 0xb49922ef, 0x237e2954, 0x08c1d909), typeof(RapporterV2.Player.CollisionDamage), typeof(SiliconStudio.DataSerializers.RapporterV2Player_CollisionDamageSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x95e35f16, 0xff8baa32, 0xed58549f, 0x51aa5efa), typeof(RapporterV2.Player.CollisionDie), typeof(SiliconStudio.DataSerializers.RapporterV2Player_CollisionDieSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xfe3775c3, 0xe4cc3211, 0x5fca5e08, 0x123a2aaf), typeof(RapporterV2.Player.Death), typeof(SiliconStudio.DataSerializers.RapporterV2Player_DeathSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x1dab2b30, 0xc68d7bae, 0x50de399c, 0xff152f45), typeof(RapporterV2.Player.DeathText), typeof(SiliconStudio.DataSerializers.RapporterV2Player_DeathTextSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd8692cf0, 0xafee77c1, 0x48f151c6, 0xe6ae5767), typeof(RapporterV2.Player.Enemy), typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemySerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x9fcda753, 0x80002fe1, 0xe575348e, 0x4e9ae56a), typeof(RapporterV2.Player.EnemyCollide), typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemyCollideSerializer)));
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xe026a648, 0x8b826faa, 0xd85643c3, 0xcb528071), typeof(RapporterV2.Player.EnemyController), typeof(SiliconStudio.DataSerializers.RapporterV2Player_EnemyControllerSerializer)));
@@ -228,6 +246,36 @@ namespace SiliconStudio.DataSerializers
 			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
 			parentSerializer.Serialize(ref parentObj, mode, stream);
 			obj = (RapporterV2.Animation)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2_Back2TitleSerializer : ClassDataSerializer<RapporterV2.Back2Title>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Back2Title obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Back2Title)parentObj;
 
 		}
 
@@ -444,6 +492,39 @@ namespace SiliconStudio.DataSerializers
 
 namespace SiliconStudio.DataSerializers
 {
+	sealed class RapporterV2_loadScene2Serializer : ClassDataSerializer<RapporterV2.loadScene2>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Audio.Sound> SoundMusicSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+			SoundMusicSerializer = MemberSerializer<SiliconStudio.Xenko.Audio.Sound>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref RapporterV2.loadScene2 obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.loadScene2)parentObj;
+
+            SoundMusicSerializer.Serialize(ref obj.SoundMusic, mode, stream);
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
 	sealed class RapporterV2_ScriptSerializer : ClassDataSerializer<RapporterV2.Script>
 	{
 		private DataSerializer<SiliconStudio.Xenko.Engine.StartupScript> parentSerializer;
@@ -591,6 +672,195 @@ namespace SiliconStudio.DataSerializers
             PositionSerializer.Serialize(ref scale, mode, stream);
             if (mode == ArchiveMode.Deserialize)
                 obj.Scale = scale;
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Sounds_MusicDeerSerializer : ClassDataSerializer<RapporterV2.Sounds.MusicDeer>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Sounds.MusicDeer obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Sounds.MusicDeer)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Sounds_MusicDeerSyncSerializer : ClassDataSerializer<RapporterV2.Sounds.MusicDeerSync>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Audio.Sound> SoundMusicSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+			SoundMusicSerializer = MemberSerializer<SiliconStudio.Xenko.Audio.Sound>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref RapporterV2.Sounds.MusicDeerSync obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Sounds.MusicDeerSync)parentObj;
+
+            SoundMusicSerializer.Serialize(ref obj.SoundMusic, mode, stream);
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Sounds_MusicForestSerializer : ClassDataSerializer<RapporterV2.Sounds.MusicForest>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Sounds.MusicForest obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Sounds.MusicForest)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Sounds_MusicForestSyncSerializer : ClassDataSerializer<RapporterV2.Sounds.MusicForestSync>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Audio.Sound> SoundMusicSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+			SoundMusicSerializer = MemberSerializer<SiliconStudio.Xenko.Audio.Sound>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref RapporterV2.Sounds.MusicForestSync obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Sounds.MusicForestSync)parentObj;
+
+            SoundMusicSerializer.Serialize(ref obj.SoundMusic, mode, stream);
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Sounds_MusicTownSerializer : ClassDataSerializer<RapporterV2.Sounds.MusicTown>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.AsyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.AsyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.AsyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Sounds.MusicTown obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.AsyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Sounds.MusicTown)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class RapporterV2Sounds_MusicTownSyncSerializer : ClassDataSerializer<RapporterV2.Sounds.MusicTownSync>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Audio.Sound> SoundMusicSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+			SoundMusicSerializer = MemberSerializer<SiliconStudio.Xenko.Audio.Sound>.Create(serializerSelector);
+		}
+
+		public override void Serialize(ref RapporterV2.Sounds.MusicTownSync obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Sounds.MusicTownSync)parentObj;
+
+            SoundMusicSerializer.Serialize(ref obj.SoundMusic, mode, stream);
 		}
 
 		internal static void ForceGenericInstantiation()
@@ -937,9 +1207,40 @@ namespace SiliconStudio.DataSerializers
 
 namespace SiliconStudio.DataSerializers
 {
+	sealed class RapporterV2Player_DeathTextSerializer : ClassDataSerializer<RapporterV2.Player.DeathText>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref RapporterV2.Player.DeathText obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (RapporterV2.Player.DeathText)parentObj;
+
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
 	sealed class RapporterV2Player_EnemySerializer : ClassDataSerializer<RapporterV2.Player.Enemy>
 	{
 		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Audio.Sound> SoundEffectSerializer;
 		private DataSerializer<SiliconStudio.Xenko.Engine.CameraComponent> CameraSerializer;
 
 		public override void Initialize(SerializerSelector serializerSelector)
@@ -949,6 +1250,7 @@ namespace SiliconStudio.DataSerializers
 			if (parentSerializer == null)
 				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
 			// Cache member serializers
+			SoundEffectSerializer = MemberSerializer<SiliconStudio.Xenko.Audio.Sound>.Create(serializerSelector);
 			CameraSerializer = MemberSerializer<SiliconStudio.Xenko.Engine.CameraComponent>.Create(serializerSelector);
 		}
 
@@ -959,6 +1261,7 @@ namespace SiliconStudio.DataSerializers
 			parentSerializer.Serialize(ref parentObj, mode, stream);
 			obj = (RapporterV2.Player.Enemy)parentObj;
 
+            SoundEffectSerializer.Serialize(ref obj.SoundEffect, mode, stream);
             SiliconStudio.Xenko.Engine.CameraComponent camera = mode == ArchiveMode.Serialize ? obj.Camera : default(SiliconStudio.Xenko.Engine.CameraComponent);
             CameraSerializer.Serialize(ref camera, mode, stream);
             if (mode == ArchiveMode.Deserialize)
@@ -1561,6 +1864,7 @@ namespace SiliconStudio.DataSerializers
 	sealed class RapporterV2Player_WeaponScriptSerializer : ClassDataSerializer<RapporterV2.Player.WeaponScript>
 	{
 		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+		private DataSerializer<SiliconStudio.Xenko.Audio.Sound> SoundEffectSerializer;
 		private DataSerializer<SiliconStudio.Xenko.Engine.CameraComponent> CameraSerializer;
 
 		public override void Initialize(SerializerSelector serializerSelector)
@@ -1570,6 +1874,7 @@ namespace SiliconStudio.DataSerializers
 			if (parentSerializer == null)
 				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
 			// Cache member serializers
+			SoundEffectSerializer = MemberSerializer<SiliconStudio.Xenko.Audio.Sound>.Create(serializerSelector);
 			CameraSerializer = MemberSerializer<SiliconStudio.Xenko.Engine.CameraComponent>.Create(serializerSelector);
 		}
 
@@ -1580,6 +1885,7 @@ namespace SiliconStudio.DataSerializers
 			parentSerializer.Serialize(ref parentObj, mode, stream);
 			obj = (RapporterV2.Player.WeaponScript)parentObj;
 
+            SoundEffectSerializer.Serialize(ref obj.SoundEffect, mode, stream);
             SiliconStudio.Xenko.Engine.CameraComponent camera = mode == ArchiveMode.Serialize ? obj.Camera : default(SiliconStudio.Xenko.Engine.CameraComponent);
             CameraSerializer.Serialize(ref camera, mode, stream);
             if (mode == ArchiveMode.Deserialize)

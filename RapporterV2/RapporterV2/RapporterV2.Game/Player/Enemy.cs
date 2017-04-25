@@ -1,7 +1,7 @@
 ﻿using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks;
 using SiliconStudio.Core.Mathematics; using SiliconStudio.Xenko.Input; using SiliconStudio.Xenko.Physics;
 using SiliconStudio.Xenko.Engine; using SiliconStudio.Xenko.Engine.Events; using RapporterV2.Core;
-
+using SiliconStudio.Xenko.Audio;
 namespace RapporterV2.Player { public class Enemy : SyncScript {
     private Simulation simulation; AnimationComponent anim; RigidbodyComponent r;
     public CameraComponent Camera { get; set; }
@@ -14,13 +14,16 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
     private int HP=100; private float deathTime = 40f; bool attacking=false;//is the hitbox "active"?
     bool completed = true;float time=0;//60f = 1s
     int state=0;//0=waiting, 1=circling, 2=charging, 3=death
-    public override void Start() { anim = Entity.Get<AnimationComponent>(); r = Entity.Get<RigidbodyComponent>(); }
+    public Sound SoundEffect; private SoundInstance move;
+    public override void Start() { anim = Entity.Get<AnimationComponent>(); r = Entity.Get<RigidbodyComponent>();
+        move = SoundEffect.CreateInstance(); move.Stop(); }
     public override void Update() {
         if(!anim.IsPlaying("Idle")&&!anim.IsPlaying("Death")&&!anim.IsPlaying("Hurt")) anim.Play("Idle");
         var moveDirection = Vector2.Zero;
         DamageCheck();
         if(HP==0&&deathTime>0) deathTime--;
-        if(deathTime<=0) { r.IsTrigger=true; r.ApplyImpulse(new Vector3(0f,-10000f,0f)); }
+        if(deathTime<=0) { r.IsTrigger=true; r.ApplyImpulse(new Vector3(0f,-10000f,0f));
+            SceneSystem.SceneInstance.Scene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Credits"); }
         if(deathTime==10) {
             var particles = Content.Load<Prefab>("0Rapporter_Assets/Particles/Death");
             var instance = particles.Instantiate();
@@ -51,7 +54,8 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
             anim.Play("Hurt");
             HP-=25; if(HP<0) { HP=0; } CheckDeath(); }
     }
-    public void CheckDeath() { if(HP<=0) { anim.Play("Death"); main.Broadcast(true); } }
+    public void CheckDeath() { if(HP<=0) { anim.Play("Death"); main.Broadcast(true);
+        move.Play(); } }
     public void Circle() { Charge();
         CameraDirectionEventKey.Broadcast(new Vector2(1f, 0f)); }//Broadcast the camera direction directly, as a screen-space Vector2 }
     public void Charge() {

@@ -1,0 +1,126 @@
+!SceneAsset
+Id: 4944d2f5-f066-42e0-89b9-ef96ba4c909f
+SerializedVersion: {Xenko: 1.9.0-beta06}
+Tags: []
+SceneSettings:
+    Id: 61e36b04-c26f-4281-a3f2-bb6fe7e8f7ab
+    GraphicsCompositor: !SceneGraphicsCompositorLayers
+        Cameras:
+            592f7729af382d1a25efc4503659fab8:
+                Name: null
+                Camera: 241d5315-df0d-46b6-867e-66fcfb8859ee/96b8901d-7ad3-405e-8fbf-de7eb0cb4247
+        Layers: {}
+        Master:
+            Name: SceneGraphicsLayer
+            Output: !MasterRenderFrameProvider {}
+            Renderers:
+                0b3df637d676aef760ec3f74a3617364: !ClearRenderFrameRenderer
+                    Color: {R: 0.392156869, G: 0.58431375, B: 0.929411769, A: 1.0}
+                    Output: !CurrentRenderFrameProvider {}
+                b71b38d9b86599350632cf50d46a9a75: !SceneCameraRenderer
+                    Mode: !CameraRendererModeForward {}
+                    Camera:
+                        Index: 0
+                    Output: !CurrentRenderFrameProvider {}
+                    Viewport: {X: 0.0, Y: 0.0, Width: 100.0, Height: 100.0}
+                    ForceAspectRatio: false
+    EditorSettings:
+        GridColor: {R: 0.7058824, G: 0.7058824, B: 0.7058824}
+        SceneUnit: 1.0
+        Mode: !SceneEditorGraphicsModeLDRSettings
+            BackgroundColor: {R: 0.196078435, G: 0.196078435, B: 0.196078435}
+Hierarchy:
+    RootPartIds:
+        - 241d5315-df0d-46b6-867e-66fcfb8859ee
+        - 9efbefc8-80d9-48c2-9d9a-445d0f345431
+        - 404e7d17-5dc1-4d77-ab22-9c86e9cfae9a
+        - c9dbbbb2-b676-4c3d-969b-7054473d816c
+    Parts:
+        -   Entity:
+                Id: 241d5315-df0d-46b6-867e-66fcfb8859ee
+                Name: Camera
+                Components:
+                    0f4d540456972584de6d376008cea13c: !TransformComponent
+                        Id: 07aa2c15-8c0b-4540-b20a-9dca827894ca
+                        Position: {X: -1.0, Y: 1.2, Z: 2.7}
+                        Rotation: {X: -0.08583164, Y: -0.1729874, Z: -0.0151344351, W: 0.981060266}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            ed908b01d35367228892d14a8d13134b: b7008f57-eefd-497c-9004-fe693d8b807f/2d1dfc94-8331-4db1-b906-e6259f5ea2a1
+                    be978d9ff654365f84eeb02d5a89192f: !CameraComponent
+                        Id: 96b8901d-7ad3-405e-8fbf-de7eb0cb4247
+                        Projection: Perspective
+                    6847bad0962ec84ca04ab9db26dfd490: !RapporterV2.loadScene,RapporterV2.Game
+                        Id: d7709b02-c7cd-4e31-b3db-503d9078907b
+                        SoundMusic: f486c8ca-e028-43f0-9519-52be86c02cd3:0Rapporter_Assets/Sound/Forest
+        -   Entity:
+                Id: 404e7d17-5dc1-4d77-ab22-9c86e9cfae9a
+                Name: Skybox
+                Components:
+                    0b42070ba19caccc2fc826cd17f91a55: !TransformComponent
+                        Id: b85cfb6c-49b5-4d0f-a2b2-bde196ef5617
+                        Position: {X: 0.0, Y: 2.0, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a5d13c25c3e3794152c84af32f6d7690: !SkyboxComponent
+                        Id: 9e2f053f-6479-4fd7-b8a9-75e7d536e6f8
+        -   Entity:
+                Id: 9efbefc8-80d9-48c2-9d9a-445d0f345431
+                Name: Directional light
+                Components:
+                    dffeae0de8779050dfea9e388d744dd4: !TransformComponent
+                        Id: a0d77f5e-ea32-4854-8291-4e472835ae53
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: -0.5540323, Y: 0.212012157, Z: 0.1484525, W: 0.7912401}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5826c12fbfbb3fe59702d4be9f480d46: !LightComponent
+                        Id: ac3fea32-5dd3-408f-b82c-4045fe5a7ee4
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                BiasParameters: {}
+                        Intensity: 0.8
+        -   Entity:
+                Id: b7008f57-eefd-497c-9004-fe693d8b807f
+                Name: testTitle
+                Components:
+                    d74836b0f0ce4861c965cfc94f4c0555: !TransformComponent
+                        Id: 2d1dfc94-8331-4db1-b906-e6259f5ea2a1
+                        Position: {X: 0.0, Y: 0.0, Z: -8.5}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    11541ce0813291b70ad5ded56687dba5: !SpriteComponent
+                        Id: 5f70c8ac-3358-48d6-b5c9-0ad33dc423d2
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: af0fd380-a3ec-413d-9bc9-f41825a7f558:0Rapporter_Assets/New Assets/Credits Page
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3b1de0a2b3b8624fb723be9623c1bd18: !AudioEmitterComponent
+                        Id: 0640fa58-f87a-4a27-970f-cd306d9c91dc
+                        Sounds: {}
+        -   Entity:
+                Id: c9dbbbb2-b676-4c3d-969b-7054473d816c
+                Name: Ambient light
+                Components:
+                    d2430162642f83cb5cf6a64545d2d89d: !TransformComponent
+                        Id: 2d7ddaa1-5b4b-4bd4-b1c6-2a8b1941260e
+                        Position: {X: -2.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e9a38d0b5a708646398e506935369363: !LightComponent
+                        Id: 5e1d3426-d4ee-4dfe-bd41-b2d851c720fa
+                        Type: !LightAmbient
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.768627465, G: 0.843137264, B: 1.0}
+                        Intensity: 0.05

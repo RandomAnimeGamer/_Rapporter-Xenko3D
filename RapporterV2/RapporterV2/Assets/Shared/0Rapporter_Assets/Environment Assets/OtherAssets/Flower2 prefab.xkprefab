@@ -20,6 +20,8 @@ Hierarchy:
                         Id: f4834757-16cd-4d17-8dc7-b63917d60e47
                         Model: 7e45e47c-0712-4652-9869-c42e2bb5bed2:0Rapporter_Assets/Environment Assets/OtherAssets/Flower2_animated
                         Materials: {}
+                        IsShadowCaster: false
+                        IsShadowReceiver: false
                     925a134dd913755ebdf8cfb31b88e670: !StaticColliderComponent
                         Id: 5dfaece9-e85d-412d-a82a-ec8e15194289
                         CanSleep: false

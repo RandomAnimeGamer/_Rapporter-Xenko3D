@@ -37,6 +37,38 @@ Hierarchy:
         - bb9550cc-604c-47b5-ab57-435f67460673
     Parts:
         -   Entity:
+                Id: 00dd6375-4b45-48d4-9682-243cd0544b6d
+                Name: Help
+                Components:
+                    d37d48118f714bb6cdeb51f9fb0c362a: !TransformComponent
+                        Id: 4c89d903-e22a-488a-9ad8-b15a13f08eb7
+                        Position: {X: 3.0, Y: 2.7, Z: -8.4}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d3129641e76f1bbaa2059cadb3c18cbe: !SpriteComponent
+                        Id: c2aba1f8-a09b-4fb7-a168-6c59967b80de
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 1b3db7b1-41de-48cf-b0a5-587539390d13:0Rapporter_Assets/New Assets/3-28, UI-Menu Update/Help
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 558e27c5-89ed-411b-acdc-080de0e2f1cb
+                Name: Press Space
+                Components:
+                    f5bd44daeab8f92da133231a7aa0b02e: !TransformComponent
+                        Id: f01749e7-96b0-40ca-9046-bb965b5eb66b
+                        Position: {X: 3.0, Y: 1.7, Z: -8.4}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7b078bc6ce0c5fdb944725f982e7e7dc: !SpriteComponent
+                        Id: de56d6b5-772a-4388-b1f6-fe604ff34737
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 4ce25f62-a34d-4e15-9969-4cc1ab059816:0Rapporter_Assets/New Assets/3-28, UI-Menu Update/Press Space
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
                 Id: 741b2693-f2f8-4e6f-98f1-ff85e3b78eeb
                 Name: testTitle
                 Components:
@@ -52,9 +84,6 @@ Hierarchy:
                             Texture: 6155f374-913e-4d20-869e-e25a1d90df06:0Rapporter_Assets/Main menu, V2
                             Center: {X: 0.0, Y: 0.0}
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-                    3b1de0a2b3b8624fb723be9623c1bd18: !AudioEmitterComponent
-                        Id: 0640fa58-f87a-4a27-970f-cd306d9c91dc
-                        Sounds: {}
         -   Entity:
                 Id: a4bb813e-5ec2-40df-b86d-5aa2aab56e2e
                 Name: Skybox
@@ -67,6 +96,22 @@ Hierarchy:
                         Children: {}
                     a5d13c25c3e3794152c84af32f6d7690: !SkyboxComponent
                         Id: 9e2f053f-6479-4fd7-b8a9-75e7d536e6f8
+        -   Entity:
+                Id: ae076151-5731-47a8-9024-0ae463121ade
+                Name: Press Start
+                Components:
+                    9d6ca41219f6976df6a38023532c2739: !TransformComponent
+                        Id: b2c0bca1-6188-4477-b766-6caf775ec383
+                        Position: {X: -3.05, Y: -2.5, Z: -8.4}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f3707696d61e16a01df76cdab2c45b44: !SpriteComponent
+                        Id: c5f08e19-3ac4-47e4-a05e-bb3788666ed0
+                        SpriteProvider: !SpriteFromTexture
+                            Texture: 4086efa0-1239-440a-9bc1-f3d1e4b3b76c:0Rapporter_Assets/New Assets/3-28, UI-Menu Update/Press Start
+                            Center: {X: 0.0, Y: 0.0}
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
         -   Entity:
                 Id: bb9550cc-604c-47b5-ab57-435f67460673
                 Name: Ambient light
@@ -117,6 +162,9 @@ Hierarchy:
                         Rotation: {X: -0.08583164, Y: -0.1729874, Z: -0.0151344351, W: 0.981060266}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
+                            16062a7a6c2868c8463f4d9b4f45c4c0: ae076151-5731-47a8-9024-0ae463121ade/b2c0bca1-6188-4477-b766-6caf775ec383
+                            ea5b18969e2acdd753508dadc8d10ca2: 00dd6375-4b45-48d4-9682-243cd0544b6d/4c89d903-e22a-488a-9ad8-b15a13f08eb7
+                            b5f93fe10d4bc9588552d8477977f9c4: 558e27c5-89ed-411b-acdc-080de0e2f1cb/f01749e7-96b0-40ca-9046-bb965b5eb66b
                             ed908b01d35367228892d14a8d13134b: 741b2693-f2f8-4e6f-98f1-ff85e3b78eeb/2d1dfc94-8331-4db1-b906-e6259f5ea2a1
                     be978d9ff654365f84eeb02d5a89192f: !CameraComponent
                         Id: 96b8901d-7ad3-405e-8fbf-de7eb0cb4247
