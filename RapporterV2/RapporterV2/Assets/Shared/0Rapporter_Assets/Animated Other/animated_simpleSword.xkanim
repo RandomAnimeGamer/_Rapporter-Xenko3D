@@ -1,6 +1,6 @@
 !Animation
 Id: a605a7be-6016-47f9-b814-10d0e53f253d
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: animated_simpleSword.FBX
 ClipDuration:

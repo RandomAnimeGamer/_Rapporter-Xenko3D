@@ -1255,67 +1255,6 @@
             The <see cref="N:SiliconStudio.Core.Collections"/> namespace contains classes that define various additional collection types.
             </summary>
         </member>
-        <member name="T:SiliconStudio.Core.Collections.ReadOnlyDictionary`2">
-            <summary>
-            Read-only dictionary wrapper.
-            </summary>
-            <typeparam name="TKey">The type of the key.</typeparam>
-            <typeparam name="TValue">The type of the value.</typeparam>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})">
-            <summary>
-            Initializes a new instance of the <see cref="T:SiliconStudio.Core.Collections.ReadOnlyDictionary`2"/> class.
-            </summary>
-            <param name="dictionary">The dictionary.</param>
-        </member>
-        <member name="P:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Keys">
-            <inheritdoc/>
-        </member>
-        <member name="P:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Values">
-            <inheritdoc/>
-        </member>
-        <member name="P:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Count">
-            <inheritdoc/>
-        </member>
-        <member name="P:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.IsReadOnly">
-            <inheritdoc/>
-        </member>
-        <member name="P:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Item(`0)">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Add(`0,`1)">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.ContainsKey(`0)">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Remove(`0)">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.TryGetValue(`0,`1@)">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Add(System.Collections.Generic.KeyValuePair{`0,`1})">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Clear">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.Remove(System.Collections.Generic.KeyValuePair{`0,`1})">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.GetEnumerator">
-            <inheritdoc/>
-        </member>
-        <member name="M:SiliconStudio.Core.Collections.ReadOnlyDictionary`2.System#Collections#IEnumerable#GetEnumerator">
-            <inheritdoc/>
-        </member>
         <member name="T:SiliconStudio.Core.Collections.ReadOnlySet`1">
             <summary>
             Represents a strongly-typed, read-only set of element.
@@ -3476,6 +3415,14 @@
             <returns>DisplayAttribute.</returns>
             <exception cref="T:System.ArgumentNullException">memberInfo</exception>
         </member>
+        <member name="M:SiliconStudio.Core.DisplayAttribute.GetDisplayName(System.Type)">
+            <summary>
+            Gets the display name of the given type. The display name is the name of the type, or, if the <see cref="T:SiliconStudio.Core.DisplayAttribute"/> is
+            applied on the type, value of the <see cref="P:SiliconStudio.Core.DisplayAttribute.Name"/> property.
+            </summary>
+            <param name="type">The type for which to get the display name.</param>
+            <returns>A string representing the display name of the type.</returns>
+        </member>
         <member name="T:SiliconStudio.Core.DisposeBase">
             <summary>
             Base class for a <see cref="T:System.IDisposable"/> interface.
@@ -3499,6 +3446,37 @@
         </member>
         <member name="M:SiliconStudio.Core.DisposeBase.SiliconStudio#Core#IReferencable#Release">
             <inheritdoc/>
+        </member>
+        <member name="M:SiliconStudio.Core.Native.NativeInvoke.Sleep(System.Int32)">
+            <summary>
+            Suspends current thread for <paramref name="ms"/> milliseconds.
+            </summary>
+            <param name="ms">Number of milliseconds to sleep.</param>
+        </member>
+        <member name="M:SiliconStudio.Core.NativeLibrary.PreloadLibrary(System.String)">
+            <summary>
+            Try to preload the library.
+            This is useful when we want to have AnyCPU .NET and CPU-specific native code.
+            Only available on Windows for now.
+            </summary>
+            <param name="libraryName">Name of the library.</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:SiliconStudio.Core.NativeLibrary.UnLoad(System.String)">
+            <summary>
+            UnLoad a specific native dynamic library loaded previously by <see cref="M:SiliconStudio.Core.NativeLibrary.LoadLibrary(System.String)" />.
+            </summary>
+            <param name="libraryName">Name of the library to unload.</param>
+        </member>
+        <member name="M:SiliconStudio.Core.NativeLibrary.UnLoadAll">
+            <summary>
+            UnLoad all native dynamic library loaded previously by <see cref="M:SiliconStudio.Core.NativeLibrary.LoadLibrary(System.String)"/>.
+            </summary>
+        </member>
+        <member name="T:SiliconStudio.Core.NativeLibraryInternal">
+            <summary>
+            Internally this file is used by the ExecServer project in order to copy native dlls to shadow copy folders.
+            </summary>
         </member>
         <member name="T:SiliconStudio.Core.PropertyContainerClass">
             <summary>
@@ -3584,6 +3562,12 @@
             <inheritdoc />
         </member>
         <member name="M:SiliconStudio.Core.PropertyContainerClass.System#Collections#Generic#IDictionary{SiliconStudio#Core#PropertyKey,System#Object}#Add(SiliconStudio.Core.PropertyKey,System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="P:SiliconStudio.Core.PropertyContainerClass.System#Collections#Generic#IReadOnlyDictionary{SiliconStudio#Core#PropertyKey,System#Object}#Keys">
+            <inheritdoc />
+        </member>
+        <member name="P:SiliconStudio.Core.PropertyContainerClass.System#Collections#Generic#IReadOnlyDictionary{SiliconStudio#Core#PropertyKey,System#Object}#Values">
             <inheritdoc />
         </member>
         <member name="T:SiliconStudio.Core.Reflection.AssemblyScanAttribute">
@@ -4033,6 +4017,11 @@
             <summary>
             The application directory, where assemblies are deployed.
             It could be read-only on some platforms.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.PlatformFolders.ApplicationExecutablePath">
+            <summary>
+            Get the path to the application executable.
             </summary>
         </member>
         <member name="T:SiliconStudio.Core.Serialization.GenericSerializerFactory">
@@ -5046,6 +5035,11 @@
             Specifies that the object has already been serialized previously in the stream, and is only stored as an index.
             </summary>
         </member>
+        <member name="F:SiliconStudio.Core.Serialization.SerializeClassFlags.IsExternalIdentifiable">
+            <summary>
+            Specifies that the object is an <see cref="T:SiliconStudio.Core.IIdentifiable"/> instance has not been serialized, and only its <see cref="P:SiliconStudio.Core.IIdentifiable.Id"/> has been stored.
+            </summary>
+        </member>
         <member name="T:SiliconStudio.Core.Serialization.SerializerExtensions">
             <summary>
             Various useful extension methods on top of SerializationStream for serialization/deserialization of common types.
@@ -5332,7 +5326,7 @@
             The default instance.
             </value>
         </member>
-        <member name="M:SiliconStudio.Core.Serialization.SerializerSelector.#ctor(System.Boolean,System.String[])">
+        <member name="M:SiliconStudio.Core.Serialization.SerializerSelector.#ctor(System.Boolean,System.Boolean,System.String[])">
             <summary>
             Initializes a new instance of the <see cref="T:SiliconStudio.Core.Serialization.SerializerSelector"/> class.
             </summary>
@@ -5348,12 +5342,13 @@
         </member>
         <member name="P:SiliconStudio.Core.Serialization.SerializerSelector.ReuseReferences">
             <summary>
-            Gets or sets a value indicating whether serialization reuses references 
-            (that is, each reference gets assigned an ID and if it is serialized again, same instance will be reused).
+            Gets whether serialization reuses references, where each reference gets assigned an ID and if it is serialized again, same instance will be reused).
             </summary>
-            <value>
-              <c>true</c> if serialization reuses references; otherwise, <c>false</c>.
-            </value>
+        </member>
+        <member name="P:SiliconStudio.Core.Serialization.SerializerSelector.ExternalIdentifiableAsGuid">
+            <summary>
+            Gets whether <see cref="T:SiliconStudio.Core.IIdentifiable"/> instances marked as external will have only their <see cref="T:System.Guid"/> stored.
+            </summary>
         </member>
         <member name="M:SiliconStudio.Core.Serialization.SerializerSelector.GetSerializer(System.Type)">
             <summary>
@@ -5990,13 +5985,6 @@
             <param name="source">The source sequence.</param>
             <returns>Returns true if the sequence is null or empty, false if it is not null and contains at least one element.</returns>
         </member>
-        <member name="M:SiliconStudio.Core.Extensions.EnumerableExtensions.IsNullOrEmpty(System.String)">
-            <summary>
-            Indicates whether the specified string is null or an empty string.
-            </summary>
-            <param name="value">The string to test.</param>
-            <returns><c>true</c> if the value parameter is null or an empty string (""); otherwise, <c>false</c>.</returns>
-        </member>
         <member name="M:SiliconStudio.Core.Extensions.EnumerableExtensions.ForEach``1(System.Collections.IEnumerable,System.Action{``0})">
             <summary>
             Executes an action for each (casted) item of the given enumerable.
@@ -6034,6 +6022,14 @@
             <returns>The index of the last element matching.</returns>
         </member>
         <member name="M:SiliconStudio.Core.Extensions.EnumerableExtensions.NotNull``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Filters out null items from the enumerable.
+            </summary>
+            <typeparam name="T">Generic type parameter.</typeparam>
+            <param name="source">Input enumerable to work on.</param>
+            <returns>An enumeration of all items in <paramref name="source"/> that are not <c>null</c>.</returns>
+        </member>
+        <member name="M:SiliconStudio.Core.Extensions.EnumerableExtensions.NotNull``1(System.Collections.Generic.IEnumerable{System.Nullable{``0}})">
             <summary>
             Filters out null items from the enumerable.
             </summary>
@@ -6953,6 +6949,64 @@
             <summary>
             Consolidates all added items into a single consecutive array. It is an error to access Items after adding elements, but before closing.
             </summary>
+        </member>
+        <member name="T:SiliconStudio.Core.Threading.ConcurrentPool`1">
+            <summary>
+            A concurrent object pool.
+            </summary>
+            <remarks>
+            Circular buffer segments are used as storage. When full, new segments are added as tail. Items are only appended to the tail segment.
+            When the head segment is empty, it will be discarded. After stabilizing, only a single segment exists at a time, causing no further segment allocations or locking.
+            </remarks>
+            <typeparam name="T">The pooled item type</typeparam>
+        </member>
+        <member name="F:SiliconStudio.Core.Threading.ConcurrentPool`1.Segment.Items">
+            <summary>
+            The array of items. Length must be a power of two.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.Threading.ConcurrentPool`1.Segment.Mask">
+            <summary>
+            A bit mask for calculation of (Low % Items.Length) and (High % Items.Length)
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.Threading.ConcurrentPool`1.Segment.Low">
+            <summary>
+            The read index for Release. It is only ever incremented and safe to overflow.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.Threading.ConcurrentPool`1.Segment.High">
+            <summary>
+            The write index for Acquire. It is only ever incremented and safe to overflow.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.Threading.ConcurrentPool`1.Segment.Count">
+            <summary>
+            The current number of stored items, used to check when to change head and tail segments.
+            When it reaches zero, the segment can be safely discarded.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.Threading.ConcurrentPool`1.Segment.Next">
+            <summary>
+            The next segment to draw from, after this one is emptied.
+            </summary>
+        </member>
+        <member name="M:SiliconStudio.Core.Threading.ConcurrentPool`1.#ctor(System.Func{`0})">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="factory">The factory method for creating new items, should the pool be empty.</param>
+        </member>
+        <member name="M:SiliconStudio.Core.Threading.ConcurrentPool`1.Acquire">
+            <summary>
+            Draws an item from the pool.
+            </summary>
+        </member>
+        <member name="M:SiliconStudio.Core.Threading.ConcurrentPool`1.Release(`0)">
+            <summary>
+            Releases an item back to the pool.
+            </summary>
+            <param name="item">The item to release to the pool.</param>
         </member>
         <member name="T:SiliconStudio.Core.Threading.IPooledClosure">
             <summary>

@@ -1,6 +1,6 @@
 !Animation
 Id: d4a9b84c-6267-4939-b373-b23f2afe5f5b
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Animation/Reload.fbx
 ClipDuration:

@@ -1,5 +1,6 @@
 !Sound
 Id: 01950b4f-1dfa-4f95-ab16-e864d9d787ec
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/retro-bonus-pickup-sfx__by__suntemple.wav
 CompressionRatio: 15

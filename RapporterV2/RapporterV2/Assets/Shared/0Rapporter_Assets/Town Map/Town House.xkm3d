@@ -1,6 +1,6 @@
 !Model
 Id: 97d8a782-ec75-4a5c-b906-f30e2b81ef84
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Town House.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

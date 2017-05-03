@@ -1,6 +1,6 @@
 !Model
 Id: 1550136f-d2d5-4397-b532-240e18643c59
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Bear Trap - Animated.fbx
 PivotPosition: {X: 0.0, Y: -0.671, Z: 0.0}

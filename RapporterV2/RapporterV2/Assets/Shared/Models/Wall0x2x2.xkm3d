@@ -1,6 +1,6 @@
 !Model
 Id: ed447284-0af1-454c-80f1-dfe786c165d2
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Models/Wall0x2x2.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

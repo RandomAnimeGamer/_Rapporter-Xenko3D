@@ -1,6 +1,6 @@
 !Animation
 Id: 1411763d-5614-4432-8e4a-fe1eb59e8ae3
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: tree1Bounce_animated.FBX
 ClipDuration:

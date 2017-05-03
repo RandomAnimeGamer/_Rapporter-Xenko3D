@@ -1,6 +1,6 @@
 !Model
 Id: 28dbe668-70e8-47fe-8de5-a2b25cc5008e
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Fence.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

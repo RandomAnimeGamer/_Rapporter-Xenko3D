@@ -1,6 +1,6 @@
 !Animation
 Id: 7b66c91e-5ed1-4b12-8a00-223edc749bb7
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: OpeningBox.FBX
 ClipDuration:

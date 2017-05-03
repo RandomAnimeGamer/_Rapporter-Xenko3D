@@ -1,7 +1,8 @@
 !Texture
 Id: 1b685906-29b7-41fc-b1a9-31795f4df70d
-SerializedVersion: {Xenko: 1.4.0-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../../../../../Users/Jessica/Documents/ASU/Capstone_gaming/Exports/wood_texture.jpg
-ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
-PremultiplyAlpha: false
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,6 +1,6 @@
 !PrefabAsset
 Id: c38c8864-2ea0-40fc-b6ce-782f5a63b989
-SerializedVersion: {Xenko: 1.9.0-beta05}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Hierarchy:
     RootPartIds:
@@ -21,7 +21,6 @@ Hierarchy:
                         Model: 7e45e47c-0712-4652-9869-c42e2bb5bed2:0Rapporter_Assets/Environment Assets/OtherAssets/Flower2_animated
                         Materials: {}
                         IsShadowCaster: false
-                        IsShadowReceiver: false
                     925a134dd913755ebdf8cfb31b88e670: !StaticColliderComponent
                         Id: 5dfaece9-e85d-412d-a82a-ec8e15194289
                         CanSleep: false

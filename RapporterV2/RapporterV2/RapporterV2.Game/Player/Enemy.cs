@@ -23,12 +23,12 @@ namespace RapporterV2.Player { public class Enemy : SyncScript {
         DamageCheck();
         if(HP==0&&deathTime>0) deathTime--;
         if(deathTime<=0) { r.IsTrigger=true; r.ApplyImpulse(new Vector3(0f,-10000f,0f));
-            SceneSystem.SceneInstance.Scene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Credits"); }
+            SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Credits"); }
         if(deathTime==10) {
             var particles = Content.Load<Prefab>("0Rapporter_Assets/Particles/Death");
             var instance = particles.Instantiate();
             var death = instance[0];
-            SceneSystem.SceneInstance.Scene.Entities.Add(death);
+            SceneSystem.SceneInstance.RootScene.Entities.Add(death);
             death.Transform.Position = Entity.Transform.Position;
         }
         

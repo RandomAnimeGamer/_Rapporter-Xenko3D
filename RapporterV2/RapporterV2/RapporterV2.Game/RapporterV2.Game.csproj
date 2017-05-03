@@ -120,7 +120,6 @@
     <Compile Include="EffectController.cs" />
     <Compile Include="EnemyCamera.cs" />
     <Compile Include="FpsCamera.cs" />
-    <Compile Include="Full.cs" />
     <Compile Include="HPBar.cs" />
     <Compile Include="loadScene.cs" />
     <Compile Include="loadScene2.cs" />

@@ -1,6 +1,6 @@
 !Model
 Id: 082b84f8-1b53-4b3a-8100-920dbe3853b0
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Flower1.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

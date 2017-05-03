@@ -1,6 +1,6 @@
 !Model
 Id: bae5ef07-d7e5-4bda-8aa8-31e599e49df4
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: OpeningBox.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

@@ -1,6 +1,6 @@
 !Model
 Id: 6aa67899-2708-4ae6-9999-2910f6d429cd
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Grass.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

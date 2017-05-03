@@ -1,6 +1,6 @@
 !PrefabAsset
 Id: 6058e329-6ccd-4d7e-a8c7-41568da2bbf3
-SerializedVersion: {Xenko: 1.9.0-beta05}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Hierarchy:
     RootPartIds:
@@ -21,4 +21,3 @@ Hierarchy:
                         Model: 426a97f7-52df-4038-90f6-8eb01f779e37:0Rapporter_Assets/Environment Assets/OtherAssets/Mushroom
                         Materials: {}
                         IsShadowCaster: false
-                        IsShadowReceiver: false

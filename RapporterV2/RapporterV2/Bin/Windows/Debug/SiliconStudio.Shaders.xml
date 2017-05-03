@@ -4066,6 +4066,11 @@
               Out modifier, only for method parameters.
             </summary>
         </member>
+        <member name="F:SiliconStudio.Shaders.Ast.ParameterQualifier.Flat">
+            <summary>
+              Flat modifier, only for inputs or outputs.
+            </summary>
+        </member>
         <member name="M:SiliconStudio.Shaders.Ast.ParameterQualifier.Parse(System.String)">
             <summary>
             Parses the specified enum name.
@@ -7791,9 +7796,6 @@
             Update the clone context with the new instanciated classes
             </summary>
             <param name="cloneContext">the CloneContext</param>
-        </member>
-        <member name="M:SiliconStudio.Shaders.Analysis.Hlsl.HlslSemanticAnalysis.FindDeclarations(System.String)">
-            <inheritdoc/>
         </member>
         <member name="T:SiliconStudio.Shaders.Analysis.SemanticAnalysis">
             <summary>

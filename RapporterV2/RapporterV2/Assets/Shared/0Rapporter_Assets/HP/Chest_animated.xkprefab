@@ -1,6 +1,6 @@
 !PrefabAsset
 Id: eb449519-43bf-41d3-8179-1a86e061d328
-SerializedVersion: {Xenko: 1.9.0-beta05}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Hierarchy:
     RootPartIds:
@@ -21,4 +21,3 @@ Hierarchy:
                         Model: 073e549f-dfa0-432b-aa15-3d4372df62ad:0Rapporter_Assets/Environment Assets/Chest_animated
                         Materials: {}
                         IsShadowCaster: false
-                        IsShadowReceiver: false

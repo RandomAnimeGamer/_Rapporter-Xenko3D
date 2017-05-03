@@ -1,6 +1,6 @@
 !Skeleton
 Id: 3d7d0247-53c7-4a76-97a6-36b038d199dd
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Berries.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

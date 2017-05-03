@@ -1,6 +1,6 @@
 !Model
 Id: a9136a3e-fbbd-4774-b4e4-a889f7d7d479
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Fairy_animated.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

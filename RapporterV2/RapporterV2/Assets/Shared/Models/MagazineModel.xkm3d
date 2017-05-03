@@ -1,6 +1,6 @@
 !Model
 Id: cbd9db06-7cbf-4017-a656-b9ac4403e941
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Models/MagazineModel.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

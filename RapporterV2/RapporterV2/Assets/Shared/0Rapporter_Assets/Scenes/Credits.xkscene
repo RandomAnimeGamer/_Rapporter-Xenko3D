@@ -1,34 +1,9 @@
 !SceneAsset
 Id: 4944d2f5-f066-42e0-89b9-ef96ba4c909f
-SerializedVersion: {Xenko: 1.9.0-beta06}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-SceneSettings:
-    Id: 61e36b04-c26f-4281-a3f2-bb6fe7e8f7ab
-    GraphicsCompositor: !SceneGraphicsCompositorLayers
-        Cameras:
-            592f7729af382d1a25efc4503659fab8:
-                Name: null
-                Camera: 241d5315-df0d-46b6-867e-66fcfb8859ee/96b8901d-7ad3-405e-8fbf-de7eb0cb4247
-        Layers: {}
-        Master:
-            Name: SceneGraphicsLayer
-            Output: !MasterRenderFrameProvider {}
-            Renderers:
-                0b3df637d676aef760ec3f74a3617364: !ClearRenderFrameRenderer
-                    Color: {R: 0.392156869, G: 0.58431375, B: 0.929411769, A: 1.0}
-                    Output: !CurrentRenderFrameProvider {}
-                b71b38d9b86599350632cf50d46a9a75: !SceneCameraRenderer
-                    Mode: !CameraRendererModeForward {}
-                    Camera:
-                        Index: 0
-                    Output: !CurrentRenderFrameProvider {}
-                    Viewport: {X: 0.0, Y: 0.0, Width: 100.0, Height: 100.0}
-                    ForceAspectRatio: false
-    EditorSettings:
-        GridColor: {R: 0.7058824, G: 0.7058824, B: 0.7058824}
-        SceneUnit: 1.0
-        Mode: !SceneEditorGraphicsModeLDRSettings
-            BackgroundColor: {R: 0.196078435, G: 0.196078435, B: 0.196078435}
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootPartIds:
         - 241d5315-df0d-46b6-867e-66fcfb8859ee
@@ -46,10 +21,12 @@ Hierarchy:
                         Rotation: {X: -0.08583164, Y: -0.1729874, Z: -0.0151344351, W: 0.981060266}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
-                            ed908b01d35367228892d14a8d13134b: b7008f57-eefd-497c-9004-fe693d8b807f/2d1dfc94-8331-4db1-b906-e6259f5ea2a1
+                            ed908b01d35367228892d14a8d13134b: ref!! 2d1dfc94-8331-4db1-b906-e6259f5ea2a1
                     be978d9ff654365f84eeb02d5a89192f: !CameraComponent
                         Id: 96b8901d-7ad3-405e-8fbf-de7eb0cb4247
+                        Name: null
                         Projection: Perspective
+                        Slot: d0a6bf72-b3cd-4bd4-94ca-69952999d537
                     6847bad0962ec84ca04ab9db26dfd490: !RapporterV2.loadScene,RapporterV2.Game
                         Id: d7709b02-c7cd-4e31-b3db-503d9078907b
                         SoundMusic: f486c8ca-e028-43f0-9519-52be86c02cd3:0Rapporter_Assets/Sound/Forest
@@ -63,8 +40,6 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    a5d13c25c3e3794152c84af32f6d7690: !SkyboxComponent
-                        Id: 9e2f053f-6479-4fd7-b8a9-75e7d536e6f8
         -   Entity:
                 Id: 9efbefc8-80d9-48c2-9d9a-445d0f345431
                 Name: Directional light
@@ -108,6 +83,9 @@ Hierarchy:
                     3b1de0a2b3b8624fb723be9623c1bd18: !AudioEmitterComponent
                         Id: 0640fa58-f87a-4a27-970f-cd306d9c91dc
                         Sounds: {}
+                        UseHRTF: false
+                        DirectionalFactor: 0.0
+                        Environment: Small
         -   Entity:
                 Id: c9dbbbb2-b676-4c3d-969b-7054473d816c
                 Name: Ambient light

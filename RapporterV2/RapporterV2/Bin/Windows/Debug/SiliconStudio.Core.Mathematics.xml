@@ -1641,6 +1641,12 @@
             </summary>
             <returns>A packed integer containing all four color components.</returns>
         </member>
+        <member name="M:SiliconStudio.Core.Mathematics.Color.ToArgb">
+            <summary>
+            Converts the color into a packed integer.
+            </summary>
+            <returns>A packed integer containing all four color components.</returns>
+        </member>
         <member name="M:SiliconStudio.Core.Mathematics.Color.ToAbgr">
             <summary>
             Converts the color into a packed integer.
@@ -2087,34 +2093,6 @@
             <summary>
             Returns a <see cref="T:System.String"/> that represents this instance.
             </summary>
-            <returns>
-            A <see cref="T:System.String"/> that represents this instance.
-            </returns>
-        </member>
-        <member name="M:SiliconStudio.Core.Mathematics.Color.ToString(System.String)">
-            <summary>
-            Returns a <see cref="T:System.String"/> that represents this instance.
-            </summary>
-            <param name="format">The format to apply to each channel element (byte).</param>
-            <returns>
-            A <see cref="T:System.String"/> that represents this instance.
-            </returns>
-        </member>
-        <member name="M:SiliconStudio.Core.Mathematics.Color.ToString(System.IFormatProvider)">
-            <summary>
-            Returns a <see cref="T:System.String"/> that represents this instance.
-            </summary>
-            <param name="formatProvider">The format provider.</param>
-            <returns>
-            A <see cref="T:System.String"/> that represents this instance.
-            </returns>
-        </member>
-        <member name="M:SiliconStudio.Core.Mathematics.Color.ToString(System.String,System.IFormatProvider)">
-            <summary>
-            Returns a <see cref="T:System.String"/> that represents this instance.
-            </summary>
-            <param name="format">The format to apply to each channel element (byte).</param>
-            <param name="formatProvider">The format provider.</param>
             <returns>
             A <see cref="T:System.String"/> that represents this instance.
             </returns>
@@ -3371,6 +3349,12 @@
             The result of the conversion.
             </returns>
         </member>
+        <member name="M:SiliconStudio.Core.Mathematics.Color4.ToColor3">
+            <summary>
+            Converts this color to an equivalent <see cref="T:SiliconStudio.Core.Mathematics.Color3"/>, discarding the alpha channel.
+            </summary>
+            <returns>An equivalent <see cref="T:SiliconStudio.Core.Mathematics.Color3"/>, discarding the alpha channel.</returns>
+        </member>
         <member name="M:SiliconStudio.Core.Mathematics.Color4.ToString">
             <summary>
             Returns a <see cref="T:System.String"/> that represents this instance.
@@ -3852,6 +3836,12 @@
             <returns>
             A <see cref="T:System.String"/> that represents this instance.
             </returns>
+        </member>
+        <member name="M:SiliconStudio.Core.Mathematics.Color3.ToColor4">
+            <summary>
+            Convert this color to an equivalent <see cref="T:SiliconStudio.Core.Mathematics.Color4"/> with an opaque alpha.
+            </summary>
+            <returns>An equivalent <see cref="T:SiliconStudio.Core.Mathematics.Color4"/> with an opaque alpha.</returns>
         </member>
         <member name="M:SiliconStudio.Core.Mathematics.Color3.ToString(System.String)">
             <summary>
@@ -4515,6 +4505,39 @@
             <returns>
             <c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.
             </returns>
+        </member>
+        <member name="T:SiliconStudio.Core.Mathematics.ColorExtensions">
+            <summary>
+            A class containing extension methods for processing colors.
+            </summary>
+        </member>
+        <member name="M:SiliconStudio.Core.Mathematics.ColorExtensions.CanConvertStringToRgba(System.String)">
+            <summary>
+            Indicates if the given string can be converted to an <see cref="T:System.UInt32"/> RGBA value using <see cref="M:SiliconStudio.Core.Mathematics.ColorExtensions.StringToRgba(System.String)"/>.
+            </summary>
+            <param name="stringColor">The string to convert.</param>
+            <returns>True if the string can be converted, false otherwise.</returns>
+        </member>
+        <member name="M:SiliconStudio.Core.Mathematics.ColorExtensions.StringToRgba(System.String)">
+            <summary>
+            Converts the given string to an <see cref="T:System.UInt32"/> RGBA value.
+            </summary>
+            <param name="stringColor">The string to convert.</param>
+            <returns>The converted RGBA value.</returns>
+        </member>
+        <member name="M:SiliconStudio.Core.Mathematics.ColorExtensions.RgbToString(System.Int32)">
+            <summary>
+            Converts the given RGB value to a string.
+            </summary>
+            <param name="value">The RGB value to convert.</param>
+            <returns>The converted string.</returns>
+        </member>
+        <member name="M:SiliconStudio.Core.Mathematics.ColorExtensions.RgbaToString(System.Int32)">
+            <summary>
+            Converts the given RGBA value to a string.
+            </summary>
+            <param name="value">The RGBA value to convert.</param>
+            <returns>The converted string.</returns>
         </member>
         <member name="T:SiliconStudio.Core.Mathematics.ColorHSV">
             <summary>
@@ -5394,6 +5417,11 @@
         <member name="T:SiliconStudio.Core.Mathematics.SphericalHarmonics">
             <summary>
             A spherical harmonics representation of a cubemap.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.Core.Mathematics.SphericalHarmonics.BaseCoefficients">
+            <summary>
+            Base coefficients for SH.
             </summary>
         </member>
         <member name="M:SiliconStudio.Core.Mathematics.SphericalHarmonics.#ctor(System.Int32)">
@@ -12690,6 +12718,14 @@
             <param name="vector">The source vector.</param>
             <param name="transform">The transformation <see cref="T:SiliconStudio.Core.Mathematics.Matrix"/>.</param>
             <param name="result">When the method completes, contains the transformed <see cref="T:SiliconStudio.Core.Mathematics.Vector4"/>.</param>
+        </member>
+        <member name="M:SiliconStudio.Core.Mathematics.Vector3.Transform(SiliconStudio.Core.Mathematics.Vector3@,SiliconStudio.Core.Mathematics.Matrix@,SiliconStudio.Core.Mathematics.Vector3@)">
+            <summary>
+            Transforms a 3D vector by the given <see cref="T:SiliconStudio.Core.Mathematics.Matrix"/>.
+            </summary>
+            <param name="vector">The source vector.</param>
+            <param name="transform">The transformation <see cref="T:SiliconStudio.Core.Mathematics.Matrix"/>.</param>
+            <param name="result">When the method completes, contains the transformed <see cref="T:SiliconStudio.Core.Mathematics.Vector3"/>.</param>
         </member>
         <member name="M:SiliconStudio.Core.Mathematics.Vector3.Transform(SiliconStudio.Core.Mathematics.Vector3,SiliconStudio.Core.Mathematics.Matrix)">
             <summary>

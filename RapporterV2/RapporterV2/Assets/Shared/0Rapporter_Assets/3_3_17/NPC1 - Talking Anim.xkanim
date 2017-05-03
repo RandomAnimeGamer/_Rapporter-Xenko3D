@@ -1,6 +1,6 @@
 !Animation
 Id: b5043d61-1309-4771-8a60-044ac6a4bf87
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: NPC1 - Talking Anim.fbx
 ClipDuration:

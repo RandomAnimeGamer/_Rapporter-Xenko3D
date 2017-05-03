@@ -1,6 +1,6 @@
 !PrefabAsset
 Id: 98a001cf-61c7-400c-8a71-9acc94b35ad2
-SerializedVersion: {Xenko: 1.9.0-beta05}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Hierarchy:
     RootPartIds:
@@ -21,7 +21,6 @@ Hierarchy:
                         Model: 61dd7eed-88da-4f71-a2cf-d64a5d4b9dc7:0Rapporter_Assets/Environment Assets/Tree1
                         Materials: {}
                         IsShadowCaster: false
-                        IsShadowReceiver: false
                     8858ddc33fdb01593df52404fdb33a2d: !StaticColliderComponent
                         Id: 9595bf6d-31c8-4fdf-82ba-1cb4e0b146fc
                         CanSleep: false

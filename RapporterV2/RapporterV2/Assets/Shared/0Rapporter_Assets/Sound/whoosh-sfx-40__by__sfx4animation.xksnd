@@ -1,5 +1,6 @@
 !Sound
 Id: a551f900-a3a9-45a2-bda0-ab8df3beffeb
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/whoosh-sfx-40__by__sfx4animation.wav
 CompressionRatio: 15

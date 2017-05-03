@@ -1,5 +1,6 @@
 !Sound
 Id: 7c07b8c0-69e7-4ec6-ba3c-402a6475706b
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/retro-you-lose-sfx__by__suntemple.wav
 CompressionRatio: 15

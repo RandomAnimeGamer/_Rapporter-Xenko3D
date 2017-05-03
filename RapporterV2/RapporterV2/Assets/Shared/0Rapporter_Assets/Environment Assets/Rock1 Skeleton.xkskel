@@ -1,6 +1,6 @@
 !Skeleton
 Id: db755e99-6362-4314-97b4-58bacb12dd20
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Rock1.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

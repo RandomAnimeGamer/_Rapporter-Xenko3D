@@ -1,6 +1,7 @@
 !Texture
 Id: 0139aa1b-f1f7-4a70-89db-3af5d97ea914
-SerializedVersion: {Xenko: 1.4.0-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: NPC Dialogue 6.png
-ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,6 +1,6 @@
 !Animation
 Id: a0b2a440-08f1-4416-a362-6a2ad875148d
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Wolf - Walk Anim.fbx
 ClipDuration:

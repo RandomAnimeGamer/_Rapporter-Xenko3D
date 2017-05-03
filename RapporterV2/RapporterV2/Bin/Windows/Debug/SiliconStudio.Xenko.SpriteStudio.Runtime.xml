@@ -4,6 +4,11 @@
         <name>SiliconStudio.Xenko.SpriteStudio.Runtime</name>
     </assembly>
     <members>
+        <member name="P:SiliconStudio.Xenko.Engine.SpriteStudioComponent.RenderGroup">
+            <summary>
+            The render group for this component.
+            </summary>
+        </member>
         <member name="M:SiliconStudio.Xenko.SpriteStudio.Runtime.SpriteStudioNodeTransformLink.ComputeMatrix(System.Boolean,SiliconStudio.Core.Mathematics.Matrix@)">
             <inheritdoc/>
         </member>

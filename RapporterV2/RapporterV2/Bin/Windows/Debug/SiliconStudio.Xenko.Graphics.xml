@@ -421,11 +421,6 @@
             </summary>
             <value>The viewport.</value>
         </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.UnsetReadWriteBuffers">
-            <summary>
-                Unsets the read/write buffers.
-            </summary>
-        </member>
         <member name="M:SiliconStudio.Xenko.Graphics.CommandList.UnsetRenderTargets">
             <summary>
             Unsets the render targets.
@@ -471,6 +466,12 @@
             <param name="slot">The slot.</param>
             <param name="unorderedAccessView">The unordered access view.</param>
             <exception cref="T:System.ArgumentException">Invalid stage.;stage</exception>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.CommandList.UnsetUnorderedAccessView(SiliconStudio.Xenko.Graphics.GraphicsResource)">
+            <summary>
+            Unsets an unordered access view from the shader pipeline.
+            </summary>
+            <param name="unorderedAccessView">The unordered access view.</param>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.CommandList.PrepareDraw">
             <summary>
@@ -653,6 +654,13 @@
         <member name="M:SiliconStudio.Xenko.Graphics.SharpDXInterop.GetNativeDevice(SiliconStudio.Xenko.Graphics.GraphicsDevice)">
             <summary>
             Gets the native device (DX11/DX12)
+            </summary>
+            <param name="device">The Xenko GraphicsDevice</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.SharpDXInterop.GetNativeDeviceContext(SiliconStudio.Xenko.Graphics.GraphicsDevice)">
+            <summary>
+            Gets the native device context (DX11)
             </summary>
             <param name="device">The Xenko GraphicsDevice</param>
             <returns></returns>
@@ -3994,11 +4002,6 @@
             Gets the description of this presenter.
             </summary>
         </member>
-        <member name="P:SiliconStudio.Xenko.Graphics.GraphicsPresenter.DefaultViewport">
-            <summary>
-            Default viewport that covers the whole presenter surface.
-            </summary>
-        </member>
         <member name="P:SiliconStudio.Xenko.Graphics.GraphicsPresenter.BackBuffer">
             <summary>
             Gets the default back buffer for this presenter.
@@ -4133,9 +4136,9 @@
             This class gives also features for a particular format, using the operator this[dxgiFormat] on this structure.
             </remarks>
         </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.GraphicsDeviceFeatures.GetMaximumMSAASampleCount(SharpDX.Direct3D11.Device,SharpDX.DXGI.Format)">
+        <member name="M:SiliconStudio.Xenko.Graphics.GraphicsDeviceFeatures.GetMaximumMultisampleCount(SharpDX.Direct3D11.Device,SharpDX.DXGI.Format)">
             <summary>
-            Gets the maximum MSAA sample count for a particular <see cref="T:SiliconStudio.Xenko.Graphics.PixelFormat" />.
+            Gets the maximum multisample count for a particular <see cref="T:SiliconStudio.Xenko.Graphics.PixelFormat" />.
             </summary>
             <param name="device">The device.</param>
             <param name="pixelFormat">The pixelFormat.</param>
@@ -4186,6 +4189,11 @@
             Boolean indicating if the Depth buffer can directly be used as a read only RenderTarget
             </summary>
         </member>
+        <member name="F:SiliconStudio.Xenko.Graphics.GraphicsDeviceFeatures.HasMultisampleDepthAsSRV">
+            <summary>
+            Boolean indicating if the multi-sampled Depth buffer can directly be used as a ShaderResourceView
+            </summary>
+        </member>
         <member name="F:SiliconStudio.Xenko.Graphics.GraphicsDeviceFeatures.HasResourceRenaming">
             <summary>
             Boolean indicating if the graphics API supports resource renaming (with either <see cref="F:SiliconStudio.Xenko.Graphics.MapMode.WriteDiscard"/> or <see cref="M:SiliconStudio.Xenko.Graphics.CommandList.UpdateSubresource(SiliconStudio.Xenko.Graphics.GraphicsResource,System.Int32,SiliconStudio.Xenko.Graphics.DataBox)"/> with full size).
@@ -4208,9 +4216,9 @@
             The <see cref="T:SharpDX.DXGI.Format"/>.
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.GraphicsDeviceFeatures.FeaturesPerFormat.MSAALevelMax">
+        <member name="F:SiliconStudio.Xenko.Graphics.GraphicsDeviceFeatures.FeaturesPerFormat.MultisampleCountMax">
             <summary>
-            Gets the maximum MSAA sample count for a particular <see cref="T:SiliconStudio.Xenko.Graphics.PixelFormat"/>.
+            Gets the maximum multisample count for a particular <see cref="T:SiliconStudio.Xenko.Graphics.PixelFormat"/>.
             </summary>
         </member>
         <member name="F:SiliconStudio.Xenko.Graphics.GraphicsDeviceFeatures.FeaturesPerFormat.FormatSupport">
@@ -5679,7 +5687,7 @@
             </summary>
             <value>The device child.</value>
         </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.Texture.InitializeFrom(SharpDX.Direct3D11.Texture2D,System.Boolean)">
+        <member name="M:SiliconStudio.Xenko.Graphics.Texture.InitializeFromImpl(SharpDX.Direct3D11.Texture2D,System.Boolean)">
             <summary>
             Initializes from a native SharpDX.Texture
             </summary>
@@ -5902,7 +5910,7 @@
             </summary>
             <value>The format.</value>
         </member>
-        <member name="P:SiliconStudio.Xenko.Graphics.Texture.MultiSampleLevel">
+        <member name="P:SiliconStudio.Xenko.Graphics.Texture.MultisampleCount">
             <summary>
             Structure that specifies multisampling parameters for the texture.
             </summary>
@@ -5949,7 +5957,7 @@
             </summary>
             <value><c>true</c> if this instance is a shader resource; otherwise, <c>false</c>.</value>
         </member>
-        <member name="P:SiliconStudio.Xenko.Graphics.Texture.IsMultiSample">
+        <member name="P:SiliconStudio.Xenko.Graphics.Texture.IsMultisample">
             <summary>
             Gets a value indicating whether this instance is a multi sample texture.
             </summary>
@@ -6291,7 +6299,7 @@
             Each value in textureData is a pixel in the destination texture.
             </remarks>
         </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.Texture.New2D(SiliconStudio.Xenko.Graphics.GraphicsDevice,System.Int32,System.Int32,SiliconStudio.Xenko.Graphics.MipMapCount,SiliconStudio.Xenko.Graphics.PixelFormat,SiliconStudio.Xenko.Graphics.DataBox[],SiliconStudio.Xenko.Graphics.TextureFlags,System.Int32,SiliconStudio.Xenko.Graphics.GraphicsResourceUsage)">
+        <member name="M:SiliconStudio.Xenko.Graphics.Texture.New2D(SiliconStudio.Xenko.Graphics.GraphicsDevice,System.Int32,System.Int32,SiliconStudio.Xenko.Graphics.MipMapCount,SiliconStudio.Xenko.Graphics.PixelFormat,SiliconStudio.Xenko.Graphics.DataBox[],SiliconStudio.Xenko.Graphics.TextureFlags,System.Int32,SiliconStudio.Xenko.Graphics.GraphicsResourceUsage,SiliconStudio.Xenko.Graphics.MultisampleCount)">
             <summary>
             Creates a new 2D <see cref="T:SiliconStudio.Xenko.Graphics.Texture" />.
             </summary>
@@ -6304,6 +6312,7 @@
             <param name="textureFlags">true if the texture needs to support unordered read write.</param>
             <param name="arraySize">Size of the texture 2D array, default to 1.</param>
             <param name="usage">The usage.</param>
+            <param name="multisampleCount">The multisample count.</param>
             <returns>A new instance of 2D <see cref="T:SiliconStudio.Xenko.Graphics.Texture" /> class.</returns>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.Texture.New3D(SiliconStudio.Xenko.Graphics.GraphicsDevice,System.Int32,System.Int32,System.Int32,SiliconStudio.Xenko.Graphics.PixelFormat,SiliconStudio.Xenko.Graphics.TextureFlags,SiliconStudio.Xenko.Graphics.GraphicsResourceUsage)">
@@ -6486,7 +6495,7 @@
             <param name="usage">The usage.</param>
             <returns>A new instance of <see cref="T:SiliconStudio.Xenko.Graphics.TextureDescription" /> class.</returns>
         </member>
-        <member name="M:SiliconStudio.Xenko.Graphics.TextureDescription.New2D(System.Int32,System.Int32,SiliconStudio.Xenko.Graphics.MipMapCount,SiliconStudio.Xenko.Graphics.PixelFormat,SiliconStudio.Xenko.Graphics.TextureFlags,System.Int32,SiliconStudio.Xenko.Graphics.GraphicsResourceUsage)">
+        <member name="M:SiliconStudio.Xenko.Graphics.TextureDescription.New2D(System.Int32,System.Int32,SiliconStudio.Xenko.Graphics.MipMapCount,SiliconStudio.Xenko.Graphics.PixelFormat,SiliconStudio.Xenko.Graphics.TextureFlags,System.Int32,SiliconStudio.Xenko.Graphics.GraphicsResourceUsage,SiliconStudio.Xenko.Graphics.MultisampleCount)">
             <summary>
             Creates a new <see cref="T:SiliconStudio.Xenko.Graphics.TextureDescription" />.
             </summary>
@@ -6497,6 +6506,7 @@
             <param name="textureFlags">true if the texture needs to support unordered read write.</param>
             <param name="arraySize">Size of the texture 2D array, default to 1.</param>
             <param name="usage">The usage.</param>
+            <param name="multisampleCount">The multisample count.</param>
             <returns>A new instance of <see cref="T:SiliconStudio.Xenko.Graphics.TextureDescription" /> class.</returns>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.TextureDescription.New1D(System.Int32,SiliconStudio.Xenko.Graphics.PixelFormat,SiliconStudio.Xenko.Graphics.TextureFlags,System.Int32,SiliconStudio.Xenko.Graphics.GraphicsResourceUsage)">
@@ -6583,7 +6593,7 @@
             <dd> <p>Texture format (see <strong><see cref="T:SharpDX.DXGI.Format"/></strong>).</p> </dd>	
             </summary>	
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.TextureDescription.MultiSampleLevel">
+        <member name="F:SiliconStudio.Xenko.Graphics.TextureDescription.MultisampleCount">
             <summary>	
             <dd> <p>Structure that specifies multisampling parameters for the texture. See <strong><see cref="T:SharpDX.DXGI.SampleDescription"/></strong>.</p> </dd>	
             </summary>	
@@ -6625,7 +6635,7 @@
             </summary>
             <value><c>true</c> if this instance is a shader resource; otherwise, <c>false</c>.</value>
         </member>
-        <member name="P:SiliconStudio.Xenko.Graphics.TextureDescription.IsMultiSample">
+        <member name="P:SiliconStudio.Xenko.Graphics.TextureDescription.IsMultisample">
             <summary>
             Gets a value indicating whether this instance is a multi sample texture.
             </summary>
@@ -7454,27 +7464,27 @@
             A texture usable as a readonly depth stencil buffer.
             </summary>
         </member>
-        <member name="T:SiliconStudio.Xenko.Graphics.MSAALevel">
+        <member name="T:SiliconStudio.Xenko.Graphics.MultisampleCount">
             <summary>
             Multisample count level.
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.MSAALevel.None">
+        <member name="F:SiliconStudio.Xenko.Graphics.MultisampleCount.None">
             <summary>
             No multisample.
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.MSAALevel.X2">
+        <member name="F:SiliconStudio.Xenko.Graphics.MultisampleCount.X2">
             <summary>
             Multisample count of 2 pixels.
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.MSAALevel.X4">
+        <member name="F:SiliconStudio.Xenko.Graphics.MultisampleCount.X4">
             <summary>
             Multisample count of 4 pixels.
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.MSAALevel.X8">
+        <member name="F:SiliconStudio.Xenko.Graphics.MultisampleCount.X8">
             <summary>
             Multisample count of 8 pixels.
             </summary>
@@ -7628,12 +7638,12 @@
             Enable scissor-rectangle culling. All pixels ouside an active scissor rectangle are culled.
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.RasterizerStateDescription.MultiSampleLevel">
+        <member name="F:SiliconStudio.Xenko.Graphics.RasterizerStateDescription.MultisampleCount">
             <summary>
             Multisample level.
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.RasterizerStateDescription.MultiSampleAntiAliasLine">
+        <member name="F:SiliconStudio.Xenko.Graphics.RasterizerStateDescription.MultisampleAntiAliasLine">
             <summary>
             Enable line antialiasing; only applies if doing line drawing and MultisampleEnable is false.
             </summary>
@@ -8144,7 +8154,7 @@
               Gets or sets a value indicating whether the application is in full screen mode.
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Graphics.PresentationParameters.MultiSampleLevel">
+        <member name="F:SiliconStudio.Xenko.Graphics.PresentationParameters.MultisampleCount">
             <summary>
               Gets or sets a value indicating the number of sample locations during multisampling.
             </summary>
@@ -8328,13 +8338,7 @@
             </summary>
         </member>
         <member name="M:SiliconStudio.Xenko.Graphics.VertexBufferBinding.#ctor(SiliconStudio.Xenko.Graphics.Buffer,SiliconStudio.Xenko.Graphics.VertexDeclaration,System.Int32,System.Int32,System.Int32)">
-            <summary>
-            Creates an instance of this object.
-            </summary>
-            <param name="vertexBuffer">The vertex buffer</param>
-            <param name="vertexDeclaration">The vertex declaration.</param>
-            <param name="vertexCount">The vertex count.</param>
-            <param name="vertexStride">The vertex stride.</param>
+            <param name="vertexStride">Jump size to the next element. if -1, it gets auto-discovered from the vertexDeclaration</param>
             <param name="vertexOffset">Offset (in Vertex ElementCount) from the beginning of the buffer to the first vertex to use.</param>
         </member>
         <member name="P:SiliconStudio.Xenko.Graphics.VertexBufferBinding.Buffer">
@@ -8757,6 +8761,13 @@
             <param name="width">The width of the viewport in pixels.</param>
             <param name="height">The height of the viewport in pixels.</param>
         </member>
+        <member name="M:SiliconStudio.Xenko.Graphics.Viewport.#ctor(System.Single,System.Single,System.Single,System.Single)">
+            <summary>Creates an instance of this object.</summary>
+            <param name="x">The x coordinate of the upper-left corner of the viewport in pixels.</param>
+            <param name="y">The y coordinate of the upper-left corner of the viewport in pixels.</param>
+            <param name="width">The width of the viewport in pixels.</param>
+            <param name="height">The height of the viewport in pixels.</param>
+        </member>
         <member name="M:SiliconStudio.Xenko.Graphics.Viewport.#ctor(SiliconStudio.Core.Mathematics.Rectangle)">
             <summary>Creates an instance of this object.</summary>
             <param name="bounds">A bounding box that defines the location and size of the viewport in a render target.</param>
@@ -8934,24 +8945,44 @@
             Internal version used to identify Xenko version.
             </summary>
             <remarks>
-            Note: When modifying the version here, it must be modified also in the Xenko.xkpkg 
+            Note: Xenko.xkpkg and PublicVersion versions should match.
+            Also, during package build, PackageUpdateVersionTask is updating that file and expect some specific text regex so be careful if you change any of this.
             </remarks>
         </member>
-        <member name="F:SiliconStudio.XenkoVersion.CurrentAssemblyAsText">
+        <member name="F:SiliconStudio.XenkoVersion.PublicVersion">
             <summary>
-            The .NET current assembly version as text, not including pre-release (alpha, beta...) information.
+            The version used by editor for display purpose. 4th digit needs to be at least 1 if used (due to NuGet special cases).
             </summary>
         </member>
-        <member name="F:SiliconStudio.XenkoVersion.CurrentAsText">
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyVersion">
             <summary>
-            The Store current version as text, including pre-release (alpha, beta...) information
+            The current assembly version as text, currently same as <see cref="F:SiliconStudio.XenkoVersion.PublicVersion"/>.
             </summary>
-            <remarks>
-            Version number as described in http://docs.nuget.org/docs/reference/versioning
-            When using pre-release (alpha, beta, rc...etc.) and because the order of the release is in alphabetical order,
-            please use a double digit like alpha00 alpha01...etc. in order to make sure that we will follow the correct
-            order for the versions.
-            </remarks>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersionSimple">
+            <summary>
+            The NuGet package version without special tags.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersion">
+            <summary>
+            The NuGet package version.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersionSuffix">
+            <summary>
+            The NuGet package suffix (i.e. -beta01). Note: might be replaced during package build.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyInformationalVersion">
+            <summary>
+            The informational assembly version, containing -dev or -g[git_hash] during package.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyInformationalSuffix">
+            <summary>
+            The assembly suffix. Note: replaced by git commit during package build.
+            </summary>
         </member>
     </members>
 </doc>

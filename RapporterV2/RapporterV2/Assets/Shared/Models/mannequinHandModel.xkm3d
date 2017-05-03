@@ -1,6 +1,6 @@
 !Model
 Id: 38269003-6890-4824-8f3b-9066f322e5d3
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Models/mannequinHandModel.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

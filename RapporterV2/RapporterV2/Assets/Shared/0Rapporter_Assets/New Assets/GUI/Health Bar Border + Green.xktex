@@ -1,6 +1,7 @@
 !Texture
 Id: bd698415-bf9c-450f-8d3e-7a033973e13d
-SerializedVersion: {Xenko: 1.4.0-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Health Bar Border + Green.png
-ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

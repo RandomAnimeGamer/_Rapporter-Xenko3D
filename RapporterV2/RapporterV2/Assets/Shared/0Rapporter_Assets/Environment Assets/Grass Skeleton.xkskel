@@ -1,6 +1,6 @@
 !Skeleton
 Id: 87a80819-4eff-4820-aecd-318af5d32708
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Grass.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

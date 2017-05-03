@@ -1,6 +1,7 @@
 !Texture
 Id: 8f0f60ec-44eb-4ee9-a69b-0635064591c7
-SerializedVersion: {Xenko: 1.4.0-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: _UPDATED - Help Screen.png
-ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

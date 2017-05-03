@@ -1,6 +1,6 @@
 !MaterialAsset
 Id: c6019bdb-3c22-42a8-8845-673dac5edb83
-SerializedVersion: {Xenko: 1.4.0-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature

@@ -1,5 +1,6 @@
 !Sound
 Id: 972dddae-3d6e-4337-b664-cc255d627ea3
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/sfx-ui-button-click__by__suntemple.wav
 CompressionRatio: 15

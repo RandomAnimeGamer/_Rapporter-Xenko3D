@@ -1,6 +1,6 @@
 !Animation
 Id: ff5387e2-bd13-4832-a658-b8d45c12ef28
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Wolf -Death Anim.fbx
 ClipDuration:

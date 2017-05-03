@@ -1,5 +1,6 @@
 !Sound
 Id: df750ef6-a004-4861-a5c5-0054fe065404
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/ending-effect-001__by__yottasounds.wav
 CompressionRatio: 15

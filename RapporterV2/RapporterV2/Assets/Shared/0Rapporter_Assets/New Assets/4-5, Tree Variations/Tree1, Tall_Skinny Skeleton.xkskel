@@ -1,6 +1,6 @@
 !Skeleton
 Id: 5fe5c721-1405-47fd-8d14-5514b539a897
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Tree1, Tall_Skinny.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

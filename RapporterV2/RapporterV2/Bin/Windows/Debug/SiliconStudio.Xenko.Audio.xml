@@ -4,30 +4,6 @@
         <name>SiliconStudio.Xenko.Audio</name>
     </assembly>
     <members>
-        <member name="T:SiliconStudio.XenkoVersion">
-            <summary>
-            Internal version used to identify Xenko version.
-            </summary>
-            <remarks>
-            Note: When modifying the version here, it must be modified also in the Xenko.xkpkg 
-            </remarks>
-        </member>
-        <member name="F:SiliconStudio.XenkoVersion.CurrentAssemblyAsText">
-            <summary>
-            The .NET current assembly version as text, not including pre-release (alpha, beta...) information.
-            </summary>
-        </member>
-        <member name="F:SiliconStudio.XenkoVersion.CurrentAsText">
-            <summary>
-            The Store current version as text, including pre-release (alpha, beta...) information
-            </summary>
-            <remarks>
-            Version number as described in http://docs.nuget.org/docs/reference/versioning
-            When using pre-release (alpha, beta, rc...etc.) and because the order of the release is in alphabetical order,
-            please use a double digit like alpha00 alpha01...etc. in order to make sure that we will follow the correct
-            order for the versions.
-            </remarks>
-        </member>
         <member name="T:SiliconStudio.Xenko.Audio.AudioDevice">
             <summary>
             Reprensent an Audio Hardware Device.
@@ -119,7 +95,7 @@
             <param name="sampleRate">The desired sample rate of the audio graph. 0 let the engine choose the best value depending on the hardware.</param>
             <exception cref="T:SiliconStudio.Xenko.Audio.AudioInitializationException">Initialization of the audio engine failed. May be due to memory problems or missing audio hardware.</exception>
         </member>
-        <member name="M:SiliconStudio.Xenko.Audio.AudioEngine.InitializeAudioEngine">
+        <member name="M:SiliconStudio.Xenko.Audio.AudioEngine.InitializeAudioEngine(SiliconStudio.Xenko.Audio.AudioLayer.DeviceFlags)">
             <summary>
             Initialize audio engine
             </summary>
@@ -278,11 +254,79 @@
             Disposes the Listener
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.Audio.AudioEngineFactory.NewAudioEngine(SiliconStudio.Xenko.Audio.AudioDevice)">
+        <member name="M:SiliconStudio.Xenko.Audio.AudioEngineFactory.NewAudioEngine(SiliconStudio.Xenko.Audio.AudioDevice,SiliconStudio.Xenko.Audio.AudioLayer.DeviceFlags)">
             <summary>
             Based on compilation setting, returns the proper instance of sounds.
             </summary>
             <returns>A platform specific instance of <see cref="T:SiliconStudio.Xenko.Audio.AudioEngine"/></returns>
+        </member>
+        <member name="T:SiliconStudio.Xenko.Audio.AudioLayer">
+            <summary>
+            Wrapper around OpenAL
+            </summary>
+        </member>
+        <member name="T:SiliconStudio.Xenko.Audio.Celt">
+            <summary>
+            Wrapper around Celt
+            </summary>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Audio.Celt.#ctor(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Initialize the Celt encoder/decoder
+            </summary>
+            <param name="sampleRate">Required sample rate</param>
+            <param name="bufferSize">Required buffer size</param>
+            <param name="channels">Required channels</param>
+            <param name="decoderOnly">If we desire only to decode set this to true</param>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Audio.Celt.Dispose">
+            <summary>
+            Dispose the Celt encoder/decoder
+            Do not call Encode or Decode after disposal!
+            </summary>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Audio.Celt.Decode(System.Byte[],System.Int32,System.Int16[])">
+            <summary>
+            Decodes compressed celt data into PCM 16 bit shorts
+            </summary>
+            <param name="inputBuffer">The input buffer</param>
+            <param name="inputBufferSize">The size of the valid bytes in the input buffer</param>
+            <param name="outputSamples">The output buffer, the size of frames should be the same amount that is contained in the input buffer</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Audio.Celt.Decode(System.Byte[],System.Int32,System.Int16*)">
+            <summary>
+            Decodes compressed celt data into PCM 16 bit shorts
+            </summary>
+            <param name="inputBuffer">The input buffer</param>
+            <param name="inputBufferSize">The size of the valid bytes in the input buffer</param>
+            <param name="outputSamples">The output buffer, the size of frames should be the same amount that is contained in the input buffer</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Audio.Celt.Encode(System.Int16[],System.Byte[])">
+            <summary>
+            Encode PCM audio into celt compressed format
+            </summary>
+            <param name="audioSamples">A buffer containing interleaved channels (as from constructor channels) and samples (can be any number of samples)</param>
+            <param name="outputBuffer">An array of bytes, the size of the array will be the max possible size of the compressed packet</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Audio.Celt.Decode(System.Byte[],System.Int32,System.Single[])">
+            <summary>
+            Decodes compressed celt data into PCM 32 bit floats
+            </summary>
+            <param name="inputBuffer">The input buffer</param>
+            <param name="inputBufferSize">The size of the valid bytes in the input buffer</param>
+            <param name="outputSamples">The output buffer, the size of frames should be the same amount that is contained in the input buffer</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiliconStudio.Xenko.Audio.Celt.Encode(System.Single[],System.Byte[])">
+            <summary>
+            Encode PCM audio into celt compressed format
+            </summary>
+            <param name="audioSamples">A buffer containing interleaved channels (as from constructor channels) and samples (can be any number of samples)</param>
+            <param name="outputBuffer">An array of bytes, the size of the array will be the max possible size of the compressed packet</param>
+            <returns></returns>
         </member>
         <member name="T:SiliconStudio.Xenko.Audio.CompressedSoundPacket">
             <summary>
@@ -586,7 +630,7 @@
             The number of Instances Created so far by this SoundEffect. Used only to give a unique name to the SoundEffectInstance.
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.Audio.Sound.CreateInstance(SiliconStudio.Xenko.Audio.AudioListener,System.Boolean)">
+        <member name="M:SiliconStudio.Xenko.Audio.Sound.CreateInstance(SiliconStudio.Xenko.Audio.AudioListener,System.Boolean,System.Boolean,System.Single,SiliconStudio.Xenko.Audio.HrtfEnvironment)">
             <summary>
             Create a new sound effect instance of the sound effect. 
             The audio data are shared between the instances so that useless memory copies is avoided. 
@@ -638,7 +682,7 @@
             Base class for sound that creates voices 
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.Audio.SoundInstance.#ctor(SiliconStudio.Xenko.Audio.AudioEngine,SiliconStudio.Xenko.Audio.AudioListener,SiliconStudio.Xenko.Audio.DynamicSoundSource,System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:SiliconStudio.Xenko.Audio.SoundInstance.#ctor(SiliconStudio.Xenko.Audio.AudioEngine,SiliconStudio.Xenko.Audio.AudioListener,SiliconStudio.Xenko.Audio.DynamicSoundSource,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Single,SiliconStudio.Xenko.Audio.HrtfEnvironment)">
             <summary>
             Initializes a new instance of the <see cref="T:SiliconStudio.Xenko.Audio.SoundInstance"/> class using a dynamic sound source.
             </summary>
@@ -648,6 +692,7 @@
             <param name="sampleRate">The sample rate of this audio stream</param>
             <param name="mono">Set to true if the souce is mono, false if stereo</param>
             <param name="spatialized">If the SoundInstance will be used for spatialized audio set to true, if not false, if true mono must also be true</param>
+            <param name="useHrtf">If the engine should use Hrtf for spatialization</param>
         </member>
         <member name="P:SiliconStudio.Xenko.Audio.SoundInstance.IsLooped">
             <summary>
@@ -858,7 +903,7 @@
             Max number of buffers that are going to be queued.
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.Audio.DynamicSoundSource.FillBuffer(System.IntPtr,System.Int32,SiliconStudio.Xenko.Native.AudioLayer.BufferType)">
+        <member name="M:SiliconStudio.Xenko.Audio.DynamicSoundSource.FillBuffer(System.IntPtr,System.Int32,SiliconStudio.Xenko.Audio.AudioLayer.BufferType)">
             <summary>
             If CanFillis true with this method you can fill the next free buffer
             </summary>
@@ -866,7 +911,7 @@
             <param name="bufferSize">The full size in bytes of PCM data</param>
             <param name="type">If this buffer is the last buffer of the stream set to true, if not false</param>
         </member>
-        <member name="M:SiliconStudio.Xenko.Audio.DynamicSoundSource.FillBuffer(System.Int16[],System.Int32,SiliconStudio.Xenko.Native.AudioLayer.BufferType)">
+        <member name="M:SiliconStudio.Xenko.Audio.DynamicSoundSource.FillBuffer(System.Int16[],System.Int32,SiliconStudio.Xenko.Audio.AudioLayer.BufferType)">
             <summary>
             If CanFillis true with this method you can fill the next free buffer
             </summary>
@@ -909,6 +954,50 @@
         <member name="M:SiliconStudio.Xenko.Audio.DynamicSoundSource.Restart">
             <summary>
             Restarts streaming from the beginning.
+            </summary>
+        </member>
+        <member name="T:SiliconStudio.XenkoVersion">
+            <summary>
+            Internal version used to identify Xenko version.
+            </summary>
+            <remarks>
+            Note: Xenko.xkpkg and PublicVersion versions should match.
+            Also, during package build, PackageUpdateVersionTask is updating that file and expect some specific text regex so be careful if you change any of this.
+            </remarks>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.PublicVersion">
+            <summary>
+            The version used by editor for display purpose. 4th digit needs to be at least 1 if used (due to NuGet special cases).
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyVersion">
+            <summary>
+            The current assembly version as text, currently same as <see cref="F:SiliconStudio.XenkoVersion.PublicVersion"/>.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersionSimple">
+            <summary>
+            The NuGet package version without special tags.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersion">
+            <summary>
+            The NuGet package version.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersionSuffix">
+            <summary>
+            The NuGet package suffix (i.e. -beta01). Note: might be replaced during package build.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyInformationalVersion">
+            <summary>
+            The informational assembly version, containing -dev or -g[git_hash] during package.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyInformationalSuffix">
+            <summary>
+            The assembly suffix. Note: replaced by git commit during package build.
             </summary>
         </member>
     </members>

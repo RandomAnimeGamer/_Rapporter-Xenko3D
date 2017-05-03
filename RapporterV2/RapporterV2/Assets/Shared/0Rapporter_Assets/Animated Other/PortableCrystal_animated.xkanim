@@ -1,6 +1,6 @@
 !Animation
 Id: b124ea48-da0a-4c4a-87ac-8f2d706b245c
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: PortableCrystal_animated.FBX
 ClipDuration:

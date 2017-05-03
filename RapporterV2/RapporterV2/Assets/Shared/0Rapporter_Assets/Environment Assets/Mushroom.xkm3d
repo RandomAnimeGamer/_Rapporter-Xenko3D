@@ -1,6 +1,6 @@
 !Model
 Id: 5dc40498-51d6-4c00-aa3b-45e40c4f0432
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Mushroom.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

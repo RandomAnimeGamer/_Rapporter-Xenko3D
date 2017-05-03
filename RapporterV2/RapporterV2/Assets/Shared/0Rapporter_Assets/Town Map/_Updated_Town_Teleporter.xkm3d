@@ -1,6 +1,6 @@
 !Model
 Id: d5a0b7c9-6eeb-47ec-ade5-46a1414fd5a5
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: _Updated_Town_Teleporter.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

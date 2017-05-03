@@ -1,6 +1,6 @@
 !Skeleton
 Id: 3cf34e0a-cf75-4415-b9bf-788dfc071090
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Mushroom.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

@@ -1,6 +1,6 @@
 !Animation
 Id: 39486c74-1b51-4c53-9f98-6b458ea59f0d
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Fairy_animated.FBX
 ClipDuration:

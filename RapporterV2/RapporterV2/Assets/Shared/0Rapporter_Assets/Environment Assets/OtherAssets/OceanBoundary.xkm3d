@@ -1,6 +1,6 @@
 !Model
 Id: e73e7154-86cc-4cde-9698-8d22a317873f
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Square Water - Animated.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

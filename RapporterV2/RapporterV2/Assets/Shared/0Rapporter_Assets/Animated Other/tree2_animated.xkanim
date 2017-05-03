@@ -1,6 +1,6 @@
 !Animation
 Id: 45e612cb-5d5e-4875-98be-7b8201d9fff0
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: tree2_animated.FBX
 ClipDuration:

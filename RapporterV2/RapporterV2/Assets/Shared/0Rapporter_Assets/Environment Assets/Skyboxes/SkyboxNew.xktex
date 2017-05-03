@@ -1,6 +1,7 @@
 !Texture
 Id: 7e90c088-f589-4ae2-a27f-0509841931a9
-SerializedVersion: {Xenko: 1.4.0-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: SkyboxNew.dds
-ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

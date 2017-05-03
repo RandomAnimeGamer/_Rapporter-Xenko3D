@@ -4,30 +4,6 @@
         <name>SiliconStudio.Xenko.UI</name>
     </assembly>
     <members>
-        <member name="T:SiliconStudio.XenkoVersion">
-            <summary>
-            Internal version used to identify Xenko version.
-            </summary>
-            <remarks>
-            Note: When modifying the version here, it must be modified also in the Xenko.xkpkg 
-            </remarks>
-        </member>
-        <member name="F:SiliconStudio.XenkoVersion.CurrentAssemblyAsText">
-            <summary>
-            The .NET current assembly version as text, not including pre-release (alpha, beta...) information.
-            </summary>
-        </member>
-        <member name="F:SiliconStudio.XenkoVersion.CurrentAsText">
-            <summary>
-            The Store current version as text, including pre-release (alpha, beta...) information
-            </summary>
-            <remarks>
-            Version number as described in http://docs.nuget.org/docs/reference/versioning
-            When using pre-release (alpha, beta, rc...etc.) and because the order of the release is in alphabetical order,
-            please use a double digit like alpha00 alpha01...etc. in order to make sure that we will follow the correct
-            order for the versions.
-            </remarks>
-        </member>
         <member name="T:SiliconStudio.Xenko.UI.Controls.Border">
             <summary>
             A border element adds an uniform color border around its content.
@@ -2528,7 +2504,7 @@
             Represents a setter tha sets a property value.
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.UI.Setter.ApplyIfNotSet(SiliconStudio.Core.PropertyContainerClass@)">
+        <member name="M:SiliconStudio.Xenko.UI.Setter.ApplyIfNotSet(SiliconStudio.Core.PropertyContainerClass)">
             <summary>
             Internal helper to apply value (if not already overriden).
             </summary>
@@ -2550,7 +2526,7 @@
             Gets or sets the value to set to the property.
             </summary>
         </member>
-        <member name="M:SiliconStudio.Xenko.UI.Setter`1.ApplyIfNotSet(SiliconStudio.Core.PropertyContainerClass@)">
+        <member name="M:SiliconStudio.Xenko.UI.Setter`1.ApplyIfNotSet(SiliconStudio.Core.PropertyContainerClass)">
             <inheritdoc/>
         </member>
         <member name="T:SiliconStudio.Xenko.UI.StretchDirection">
@@ -2952,7 +2928,7 @@
             </summary>
             <userdoc>A unique ID defining the UI element.</userdoc>
         </member>
-        <member name="F:SiliconStudio.Xenko.UI.UIElement.DependencyProperties">
+        <member name="P:SiliconStudio.Xenko.UI.UIElement.DependencyProperties">
             <summary>
             The list of the dependency properties attached to the UI element.
             </summary>
@@ -3155,6 +3131,12 @@
             </summary>
         </member>
         <member name="P:SiliconStudio.Xenko.UI.UIElement.WorldMatrix">
+            <summary>
+            The world matrix of the UIElement.
+            The origin of the element is the center of the object's bounding box defined by <see cref="P:SiliconStudio.Xenko.UI.UIElement.RenderSize"/>.
+            </summary>
+        </member>
+        <member name="P:SiliconStudio.Xenko.UI.UIElement.WorldMatrixPicking">
             <summary>
             The world matrix of the UIElement.
             The origin of the element is the center of the object's bounding box defined by <see cref="P:SiliconStudio.Xenko.UI.UIElement.RenderSize"/>.
@@ -3368,7 +3350,7 @@
             <summary>
             Method called by <see cref="M:SiliconStudio.Xenko.UI.IUIElementUpdate.Update(SiliconStudio.Xenko.Games.GameTime)"/>.
             This method can be overridden by inherited classes to perform time-based actions.
-            This method is not in charge to recursively call the update on children elements, this is automatically done.
+            This method is not in charge to recursively call the update on child elements, this is automatically done.
             </summary>
             <param name="time">The current time of the game</param>
         </member>
@@ -3979,6 +3961,11 @@
             A fixed size component with a height of 1 unit will be 0.1 of the screen size.
             </userdoc>
         </member>
+        <member name="P:SiliconStudio.Xenko.Engine.UIComponent.RenderGroup">
+            <summary>
+            The render group for this component.
+            </summary>
+        </member>
         <member name="F:SiliconStudio.Xenko.Engine.UIComponent.FixedSizeVerticalUnit">
             <summary>
             A fixed size UI component with height of 1 will be this much of the vertical resolution on screen
@@ -4054,11 +4041,6 @@
             Last element which received a touch/click event
             </summary>
         </member>
-        <member name="T:SiliconStudio.Xenko.Rendering.UI.UIPipelinePlugin">
-            <summary>
-            Automatically registers UI rendering.
-            </summary>
-        </member>
         <member name="M:SiliconStudio.Xenko.Rendering.UI.UIRenderFeature.GetWorldRay(SiliconStudio.Xenko.Graphics.Viewport@,SiliconStudio.Core.Mathematics.Vector2,SiliconStudio.Core.Mathematics.Matrix@)">
             <summary>
             Creates a ray in object space based on a screen position and a previously rendered object's WorldViewProjection matrix
@@ -4121,6 +4103,50 @@
         <member name="M:SiliconStudio.Xenko.Rendering.UI.UIRenderProcessor.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:SiliconStudio.Xenko.Rendering.UI.UIRenderProcessor"/> class.
+            </summary>
+        </member>
+        <member name="T:SiliconStudio.XenkoVersion">
+            <summary>
+            Internal version used to identify Xenko version.
+            </summary>
+            <remarks>
+            Note: Xenko.xkpkg and PublicVersion versions should match.
+            Also, during package build, PackageUpdateVersionTask is updating that file and expect some specific text regex so be careful if you change any of this.
+            </remarks>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.PublicVersion">
+            <summary>
+            The version used by editor for display purpose. 4th digit needs to be at least 1 if used (due to NuGet special cases).
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyVersion">
+            <summary>
+            The current assembly version as text, currently same as <see cref="F:SiliconStudio.XenkoVersion.PublicVersion"/>.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersionSimple">
+            <summary>
+            The NuGet package version without special tags.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersion">
+            <summary>
+            The NuGet package version.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersionSuffix">
+            <summary>
+            The NuGet package suffix (i.e. -beta01). Note: might be replaced during package build.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyInformationalVersion">
+            <summary>
+            The informational assembly version, containing -dev or -g[git_hash] during package.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyInformationalSuffix">
+            <summary>
+            The assembly suffix. Note: replaced by git commit during package build.
             </summary>
         </member>
     </members>

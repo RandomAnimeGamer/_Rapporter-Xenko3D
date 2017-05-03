@@ -1,6 +1,6 @@
 !Model
 Id: cd349759-f38d-4fcb-a4f1-bb25deb87747
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Tree1, Tall_Fat.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

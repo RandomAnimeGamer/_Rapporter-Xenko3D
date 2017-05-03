@@ -1,8 +1,6 @@
 !Texture
 Id: 0524ce87-ed5d-4cd6-bf72-aad855dd5596
-SerializedVersion: {Xenko: 1.4.0-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Textures/xenko_box_normals.png
-ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
-Hint: NormalMap
-Alpha: None
+Type: !NormalMapTextureType {}

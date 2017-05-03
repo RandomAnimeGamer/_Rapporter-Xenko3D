@@ -1,6 +1,6 @@
 !Animation
 Id: 3f383ce8-5a49-4cda-bbd5-59e301d3e3c7
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: NPC1 - Idle Anim, Updated 3-3.fbx
 ClipDuration:

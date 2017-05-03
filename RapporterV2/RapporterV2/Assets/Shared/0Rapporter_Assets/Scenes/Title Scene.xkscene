@@ -1,34 +1,9 @@
 !SceneAsset
 Id: 420df9fa-5ea2-4e45-ba9e-f040e1b7ffff
-SerializedVersion: {Xenko: 1.9.0-beta06}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-SceneSettings:
-    Id: 61e36b04-c26f-4281-a3f2-bb6fe7e8f7ab
-    GraphicsCompositor: !SceneGraphicsCompositorLayers
-        Cameras:
-            592f7729af382d1a25efc4503659fab8:
-                Name: null
-                Camera: d15b9db2-5177-48eb-9112-af014c22496d/96b8901d-7ad3-405e-8fbf-de7eb0cb4247
-        Layers: {}
-        Master:
-            Name: SceneGraphicsLayer
-            Output: !MasterRenderFrameProvider {}
-            Renderers:
-                0b3df637d676aef760ec3f74a3617364: !ClearRenderFrameRenderer
-                    Color: {R: 0.392156869, G: 0.58431375, B: 0.929411769, A: 1.0}
-                    Output: !CurrentRenderFrameProvider {}
-                b71b38d9b86599350632cf50d46a9a75: !SceneCameraRenderer
-                    Mode: !CameraRendererModeForward {}
-                    Camera:
-                        Index: 0
-                    Output: !CurrentRenderFrameProvider {}
-                    Viewport: {X: 0.0, Y: 0.0, Width: 100.0, Height: 100.0}
-                    ForceAspectRatio: false
-    EditorSettings:
-        GridColor: {R: 0.7058824, G: 0.7058824, B: 0.7058824}
-        SceneUnit: 1.0
-        Mode: !SceneEditorGraphicsModeLDRSettings
-            BackgroundColor: {R: 0.196078435, G: 0.196078435, B: 0.196078435}
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootPartIds:
         - d15b9db2-5177-48eb-9112-af014c22496d
@@ -94,8 +69,6 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    a5d13c25c3e3794152c84af32f6d7690: !SkyboxComponent
-                        Id: 9e2f053f-6479-4fd7-b8a9-75e7d536e6f8
         -   Entity:
                 Id: ae076151-5731-47a8-9024-0ae463121ade
                 Name: Press Start
@@ -162,13 +135,15 @@ Hierarchy:
                         Rotation: {X: -0.08583164, Y: -0.1729874, Z: -0.0151344351, W: 0.981060266}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
-                            16062a7a6c2868c8463f4d9b4f45c4c0: ae076151-5731-47a8-9024-0ae463121ade/b2c0bca1-6188-4477-b766-6caf775ec383
-                            ea5b18969e2acdd753508dadc8d10ca2: 00dd6375-4b45-48d4-9682-243cd0544b6d/4c89d903-e22a-488a-9ad8-b15a13f08eb7
-                            b5f93fe10d4bc9588552d8477977f9c4: 558e27c5-89ed-411b-acdc-080de0e2f1cb/f01749e7-96b0-40ca-9046-bb965b5eb66b
-                            ed908b01d35367228892d14a8d13134b: 741b2693-f2f8-4e6f-98f1-ff85e3b78eeb/2d1dfc94-8331-4db1-b906-e6259f5ea2a1
+                            16062a7a6c2868c8463f4d9b4f45c4c0: ref!! b2c0bca1-6188-4477-b766-6caf775ec383
+                            ea5b18969e2acdd753508dadc8d10ca2: ref!! 4c89d903-e22a-488a-9ad8-b15a13f08eb7
+                            b5f93fe10d4bc9588552d8477977f9c4: ref!! f01749e7-96b0-40ca-9046-bb965b5eb66b
+                            ed908b01d35367228892d14a8d13134b: ref!! 2d1dfc94-8331-4db1-b906-e6259f5ea2a1
                     be978d9ff654365f84eeb02d5a89192f: !CameraComponent
                         Id: 96b8901d-7ad3-405e-8fbf-de7eb0cb4247
+                        Name: null
                         Projection: Perspective
+                        Slot: d0a6bf72-b3cd-4bd4-94ca-69952999d537
                     6847bad0962ec84ca04ab9db26dfd490: !RapporterV2.loadScene,RapporterV2.Game
                         Id: d7709b02-c7cd-4e31-b3db-503d9078907b
                         SoundMusic: f486c8ca-e028-43f0-9519-52be86c02cd3:0Rapporter_Assets/Sound/Forest

@@ -1,6 +1,6 @@
 !Model
 Id: efce8264-2a18-4c8d-8df2-db73623ad62f
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Boulder.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

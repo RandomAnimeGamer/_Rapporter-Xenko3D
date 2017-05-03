@@ -1,6 +1,6 @@
 !Skeleton
 Id: 01433eeb-bb8a-465d-b7bf-ac5ac64f18e6
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Campfire.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

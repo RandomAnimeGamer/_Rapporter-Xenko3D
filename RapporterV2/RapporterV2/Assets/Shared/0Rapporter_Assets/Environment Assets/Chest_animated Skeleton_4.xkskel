@@ -1,6 +1,6 @@
 !Skeleton
 Id: c3ebe2c5-f25b-494b-bb7a-e407b9f55f55
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Chest_animated.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

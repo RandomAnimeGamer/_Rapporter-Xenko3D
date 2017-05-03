@@ -1,5 +1,6 @@
 !Sound
 Id: 7cec5f37-5da1-4f34-81f6-7e472870a367
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/weird-string-sfx-02__by__elmo-cookies.wav
 CompressionRatio: 15

@@ -1,6 +1,6 @@
 !Model
 Id: 6fb9ea19-03c0-44dd-ad1f-34d252b7ecba
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Models/XenkoCrate.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

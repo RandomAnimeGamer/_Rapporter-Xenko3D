@@ -1,6 +1,6 @@
 !PrefabAsset
 Id: 00950bf5-49bd-44f3-b55d-8a3a971057f3
-SerializedVersion: {Xenko: 1.9.0-beta05}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Hierarchy:
     RootPartIds:
@@ -135,4 +135,4 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
-                            55440686639503af55e8b97559fbc031: b1fc7599-d5af-405d-9819-02497dd76870/aa26e685-3ef9-437b-8cc8-8bcb86f38b77
+                            55440686639503af55e8b97559fbc031: ref!! aa26e685-3ef9-437b-8cc8-8bcb86f38b77

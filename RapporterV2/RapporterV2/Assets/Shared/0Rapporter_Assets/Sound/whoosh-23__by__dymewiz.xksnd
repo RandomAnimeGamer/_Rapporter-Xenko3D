@@ -1,5 +1,6 @@
 !Sound
 Id: 0d14eee4-62d3-4885-ac8e-6996ab5b165b
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/whoosh-23__by__dymewiz.wav
 CompressionRatio: 15

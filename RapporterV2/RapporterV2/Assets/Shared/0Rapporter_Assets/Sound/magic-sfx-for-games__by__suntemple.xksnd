@@ -1,5 +1,6 @@
 !Sound
 Id: f1b857f4-53f9-4d93-bd9c-f82967cff25c
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/magic-sfx-for-games__by__suntemple.mp3
 CompressionRatio: 15

@@ -1,6 +1,6 @@
 !Model
 Id: c727b234-64d7-4dfc-ac76-9c6b9db76b05
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Models/MachinegunModel.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

@@ -1,6 +1,6 @@
 !Model
 Id: 1ba31899-5183-4e6c-bce7-d5672b98389e
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Tree2.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

@@ -1,6 +1,6 @@
 !Model
 Id: 6f2adf4c-dc29-4a8c-8634-322758c69825
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Tree1, Short_Skinny2.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

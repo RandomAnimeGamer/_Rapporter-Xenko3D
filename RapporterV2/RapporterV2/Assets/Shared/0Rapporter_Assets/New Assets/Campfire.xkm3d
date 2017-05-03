@@ -1,6 +1,6 @@
 !Model
 Id: c18dfa14-6618-492a-b402-5378372c76a6
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Campfire.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

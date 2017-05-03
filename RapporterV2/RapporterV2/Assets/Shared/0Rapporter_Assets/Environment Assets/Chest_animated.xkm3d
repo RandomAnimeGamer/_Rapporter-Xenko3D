@@ -1,6 +1,6 @@
 !Model
 Id: 073e549f-dfa0-432b-aa15-3d4372df62ad
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Chest_animated.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

@@ -1,6 +1,6 @@
 !Model
 Id: b56d32d0-d47c-460c-885c-adfed5ee4692
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Crystals w Simple Material.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

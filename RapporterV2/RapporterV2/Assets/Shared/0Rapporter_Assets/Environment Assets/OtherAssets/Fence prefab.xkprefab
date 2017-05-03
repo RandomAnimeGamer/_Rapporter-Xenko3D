@@ -1,6 +1,6 @@
 !PrefabAsset
 Id: c6b49640-99f8-4297-a6b7-3e1fc84c8b9a
-SerializedVersion: {Xenko: 1.9.0-beta05}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Hierarchy:
     RootPartIds:
@@ -21,7 +21,6 @@ Hierarchy:
                         Model: 28dbe668-70e8-47fe-8de5-a2b25cc5008e:0Rapporter_Assets/Environment Assets/OtherAssets/Fence
                         Materials: {}
                         IsShadowCaster: false
-                        IsShadowReceiver: false
                     c7265a800cf819a4785a5ca855f0304e: !StaticColliderComponent
                         Id: ae1d9e35-a19b-4dc3-af54-b6a657f343d7
                         CanSleep: false

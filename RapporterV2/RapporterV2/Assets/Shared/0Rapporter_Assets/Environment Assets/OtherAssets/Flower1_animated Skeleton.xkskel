@@ -1,6 +1,6 @@
 !Skeleton
 Id: 51c427db-126a-4591-aec1-c9e1b74f3e1b
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Flower1_animated.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

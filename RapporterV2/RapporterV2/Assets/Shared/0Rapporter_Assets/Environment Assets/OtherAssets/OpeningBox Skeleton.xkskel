@@ -1,6 +1,6 @@
 !Skeleton
 Id: e91d27c7-db13-4faa-8aa2-e95abce10fd1
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: OpeningBox.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

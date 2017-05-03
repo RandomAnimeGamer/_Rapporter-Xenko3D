@@ -1,6 +1,6 @@
 !Animation
 Id: f6fdccbc-ee20-4e8a-a113-4a57dfee29bc
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Flower2_animated.FBX
 ClipDuration:

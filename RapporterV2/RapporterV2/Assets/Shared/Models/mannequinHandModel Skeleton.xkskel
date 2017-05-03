@@ -1,6 +1,6 @@
 !Skeleton
 Id: 696ba9c9-19d1-4115-a7e7-193871f0d960
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Models/mannequinHandModel.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

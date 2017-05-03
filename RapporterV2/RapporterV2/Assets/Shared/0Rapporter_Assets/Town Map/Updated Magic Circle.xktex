@@ -1,8 +1,9 @@
 !Texture
 Id: aecd604a-9b9a-458a-9fb7-002f79ffbd05
-SerializedVersion: {Xenko: 1.4.0-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: _Updated_Town_Teleporter.fbm/Updated Magic Circle.png
-ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
-Alpha: Mask
-PremultiplyAlpha: false
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: Mask
+    PremultiplyAlpha: false

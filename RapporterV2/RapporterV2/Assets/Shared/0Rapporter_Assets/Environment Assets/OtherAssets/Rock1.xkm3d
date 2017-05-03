@@ -1,6 +1,6 @@
 !Model
 Id: 4a9788a8-6172-4b13-8e63-32816b66ffb2
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Rock1.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

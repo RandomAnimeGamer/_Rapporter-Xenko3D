@@ -67,6 +67,11 @@
             The speed scale at which this Particle System runs the simulation. Set it to 0 to pause it
             </userdoc>
         </member>
+        <member name="P:SiliconStudio.Xenko.Particles.Components.ParticleSystemComponent.RenderGroup">
+            <summary>
+            The render group for this component.
+            </summary>
+        </member>
         <member name="T:SiliconStudio.Xenko.Particles.Components.ParticleSystemControl">
             <summary>
             Edit-time controls for the <see cref="T:SiliconStudio.Xenko.Particles.Components.ParticleSystemComponent"/>
@@ -778,6 +783,11 @@
             <param name="viewMatrix">The camera's View matrix</param>
             <param name="projMatrix">The camera's Projection matrix</param>
         </member>
+        <member name="M:SiliconStudio.Xenko.Particles.Materials.ParticleMaterial.ForceUpdate">
+            <summary>
+            Forces the material update, potentionally recreating the effect
+            </summary>
+        </member>
         <member name="M:SiliconStudio.Xenko.Particles.Materials.ParticleMaterial.SetupPipeline(SiliconStudio.Xenko.Rendering.RenderContext,SiliconStudio.Xenko.Graphics.PipelineStateDescription)">
             <summary>
             Setup the pipeline state object.
@@ -894,6 +904,9 @@
         <member name="M:SiliconStudio.Xenko.Particles.Materials.ParticleMaterialSimple.PrepareVertexLayout(SiliconStudio.Xenko.Particles.ParticlePoolFieldsList)">
             <inheritdoc />
         </member>
+        <member name="M:SiliconStudio.Xenko.Particles.Materials.ParticleMaterialSimple.ForceUpdate">
+            <inheritdoc/>
+        </member>
         <member name="M:SiliconStudio.Xenko.Particles.Materials.ParticleMaterialSimple.Setup(SiliconStudio.Xenko.Rendering.RenderContext)">
             <inheritdoc />
         </member>
@@ -987,14 +1000,6 @@
             <userdoc>
             Warm-up time is the amount of time the system should spend in background pre-simulation the first time it is started (warming up). So when it is started it will appeas as if it has been running for some time laready
             </userdoc>
-        </member>
-        <member name="T:SiliconStudio.Xenko.Particles.Rendering.ParticleEmitterPipelinePlugin">
-            <summary>
-            Automatically registers particle rendering.
-            </summary>
-        </member>
-        <member name="M:SiliconStudio.Xenko.Particles.Rendering.ParticleEmitterPipelinePlugin.CreateRenderFeature(SiliconStudio.Xenko.Rendering.PipelinePluginContext)">
-            <inheritdoc/>
         </member>
         <member name="T:SiliconStudio.Xenko.Particles.Rendering.ParticleSystemRenderProcessor">
             <summary>

@@ -1,6 +1,6 @@
 !Animation
 Id: 65eea331-8860-4180-b238-3263af16c1a2
-SerializedVersion: {Xenko: 1.10.0-alpha01}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Animation/Gun_Run.fbx
 ClipDuration:

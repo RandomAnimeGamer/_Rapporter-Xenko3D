@@ -1,6 +1,6 @@
 !Skeleton
 Id: 039f07ef-a03a-483f-9cc7-5e755dc8c12f
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Boulder.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

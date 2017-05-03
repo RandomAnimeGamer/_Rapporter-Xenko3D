@@ -1,6 +1,6 @@
 !Model
 Id: 4df8cdfb-8bf5-42ab-bbb6-0ba23d3f6b72
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Circle Water - Animated.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

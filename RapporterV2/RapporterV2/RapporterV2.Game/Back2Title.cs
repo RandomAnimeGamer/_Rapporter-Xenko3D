@@ -5,6 +5,6 @@ using SiliconStudio.Xenko.Audio;
 namespace RapporterV2 { public class Back2Title : SyncScript { public override void Start() { }
     public override void Update() {
         if(Input.IsKeyPressed(Keys.Space)) {
-            SceneSystem.SceneInstance.Scene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Title Scene"); }
+            SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Title Scene"); }
     }
 } }

@@ -1,11 +1,5 @@
-﻿﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SiliconStudio.Core.Mathematics;
-using SiliconStudio.Xenko.Input;
-using SiliconStudio.Xenko.Engine;
+﻿﻿using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks;
+using SiliconStudio.Core.Mathematics; using SiliconStudio.Xenko.Input; using SiliconStudio.Xenko.Engine;
 using SiliconStudio.Xenko.Engine.Events;
 
 namespace RapporterV2.Quest { public class ScrollQuest : SyncScript {

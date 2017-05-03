@@ -4,30 +4,6 @@
         <name>SiliconStudio.Xenko.Games</name>
     </assembly>
     <members>
-        <member name="T:SiliconStudio.XenkoVersion">
-            <summary>
-            Internal version used to identify Xenko version.
-            </summary>
-            <remarks>
-            Note: When modifying the version here, it must be modified also in the Xenko.xkpkg 
-            </remarks>
-        </member>
-        <member name="F:SiliconStudio.XenkoVersion.CurrentAssemblyAsText">
-            <summary>
-            The .NET current assembly version as text, not including pre-release (alpha, beta...) information.
-            </summary>
-        </member>
-        <member name="F:SiliconStudio.XenkoVersion.CurrentAsText">
-            <summary>
-            The Store current version as text, including pre-release (alpha, beta...) information
-            </summary>
-            <remarks>
-            Version number as described in http://docs.nuget.org/docs/reference/versioning
-            When using pre-release (alpha, beta, rc...etc.) and because the order of the release is in alphabetical order,
-            please use a double digit like alpha00 alpha01...etc. in order to make sure that we will follow the correct
-            order for the versions.
-            </remarks>
-        </member>
         <member name="T:SiliconStudio.Xenko.Games.AssemblyDoc">
             <summary>
             The <see cref="A:SiliconStudio.Xenko.Games"/> assembly provides a high level Game API.
@@ -326,11 +302,6 @@
             <value>The play time.</value>
         </member>
         <member name="P:SiliconStudio.Xenko.Games.GameBase.Content">
-            <summary>
-            Gets the <see cref="T:SiliconStudio.Core.Serialization.Contents.ContentManager"/>.
-            </summary>
-        </member>
-        <member name="P:SiliconStudio.Xenko.Games.GameBase.Asset">
             <summary>
             Gets the <see cref="T:SiliconStudio.Core.Serialization.Contents.ContentManager"/>.
             </summary>
@@ -709,7 +680,7 @@
             The preferred refresh rate
             </summary>
         </member>
-        <member name="F:SiliconStudio.Xenko.Games.GameGraphicsParameters.PreferredMultiSampleLevel">
+        <member name="F:SiliconStudio.Xenko.Games.GameGraphicsParameters.PreferredMultisampleCount">
             <summary>
               Gets or sets a value indicating the number of sample locations during multisampling.
             </summary>
@@ -1234,7 +1205,7 @@
             </summary>
             <value><c>true</c> if this instance is full screen; otherwise, <c>false</c>.</value>
         </member>
-        <member name="P:SiliconStudio.Xenko.Games.GraphicsDeviceManager.PreferredMultiSampleLevel">
+        <member name="P:SiliconStudio.Xenko.Games.GraphicsDeviceManager.PreferredMultisampleCount">
             <summary>
             Gets or sets a value indicating whether [prefer multi sampling].
             </summary>
@@ -1835,6 +1806,50 @@
         <member name="P:SiliconStudio.Xenko.Games.Resources.GameResources.Logo">
             <summary>
               Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="T:SiliconStudio.XenkoVersion">
+            <summary>
+            Internal version used to identify Xenko version.
+            </summary>
+            <remarks>
+            Note: Xenko.xkpkg and PublicVersion versions should match.
+            Also, during package build, PackageUpdateVersionTask is updating that file and expect some specific text regex so be careful if you change any of this.
+            </remarks>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.PublicVersion">
+            <summary>
+            The version used by editor for display purpose. 4th digit needs to be at least 1 if used (due to NuGet special cases).
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyVersion">
+            <summary>
+            The current assembly version as text, currently same as <see cref="F:SiliconStudio.XenkoVersion.PublicVersion"/>.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersionSimple">
+            <summary>
+            The NuGet package version without special tags.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersion">
+            <summary>
+            The NuGet package version.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.NuGetVersionSuffix">
+            <summary>
+            The NuGet package suffix (i.e. -beta01). Note: might be replaced during package build.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyInformationalVersion">
+            <summary>
+            The informational assembly version, containing -dev or -g[git_hash] during package.
+            </summary>
+        </member>
+        <member name="F:SiliconStudio.XenkoVersion.AssemblyInformationalSuffix">
+            <summary>
+            The assembly suffix. Note: replaced by git commit during package build.
             </summary>
         </member>
     </members>

@@ -1,6 +1,6 @@
 !Model
 Id: e6fc17f9-ffad-422f-a552-f76c4452bedd
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../Resources/Models/Wall0x2x5Window.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

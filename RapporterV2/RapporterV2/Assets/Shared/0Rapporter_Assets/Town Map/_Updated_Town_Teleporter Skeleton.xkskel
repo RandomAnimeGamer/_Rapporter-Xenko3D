@@ -1,6 +1,6 @@
 !Skeleton
 Id: 14c8c0e2-4e50-4acb-a039-aae3ddb64e0a
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: _Updated_Town_Teleporter.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

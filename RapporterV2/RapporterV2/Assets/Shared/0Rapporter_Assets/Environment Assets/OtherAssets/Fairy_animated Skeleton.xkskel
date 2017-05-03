@@ -1,6 +1,6 @@
 !Skeleton
 Id: 8ad99656-a584-4ec1-925b-74bd188eac57
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Fairy_animated.FBX
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

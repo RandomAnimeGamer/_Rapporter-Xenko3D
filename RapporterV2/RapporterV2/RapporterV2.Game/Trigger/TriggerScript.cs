@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Threading.Tasks;
 using RapporterV2.Trigger;
 using SiliconStudio.Core;
@@ -48,7 +48,7 @@ namespace RapporterV2
                     }
                     else
                     {
-                        SceneSystem.SceneInstance.Scene.Entities.Add(prefabEntity);
+                        SceneSystem.SceneInstance.RootScene.Entities.Add(prefabEntity);
                     }
                 }
 
@@ -69,7 +69,7 @@ namespace RapporterV2
                     }
                     else
                     {
-                        SceneSystem.SceneInstance.Scene.Entities.Remove(clonedEntity);
+                        SceneSystem.SceneInstance.RootScene.Entities.Remove(clonedEntity);
                     }
                 }
 

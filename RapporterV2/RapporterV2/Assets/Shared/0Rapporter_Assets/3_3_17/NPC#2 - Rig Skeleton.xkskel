@@ -1,6 +1,6 @@
 !Skeleton
 Id: 60eab2b7-1e15-495e-bdb3-99e6b34f4e09
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: NPC#2 - Rig.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

@@ -6,10 +6,12 @@ namespace RapporterV2.Sounds { public class MusicDeerSync : SyncScript {
     public Sound SoundMusic; private SoundInstance forest;
     public static readonly EventReceiver<int> m = new EventReceiver<int>(MusicDeer.main);
     public static readonly EventReceiver<bool> m2 = new EventReceiver<bool>(Enemy.main);
+    bool check=false; public static readonly EventReceiver<bool> ded = new EventReceiver<bool>(PlayerInput.dead);
     public override void Start() { forest = SoundMusic.CreateInstance(); }
     public override void Update() {
         var mu = 0; m.TryReceive(out mu); var mu2 = false; m2.TryReceive(out mu2);
         if(mu==1) forest.Play();
         if(mu==2||mu2) forest.Stop();
+        ded.TryReceive(out check); if(check) { forest.Stop(); }
     }
 } }

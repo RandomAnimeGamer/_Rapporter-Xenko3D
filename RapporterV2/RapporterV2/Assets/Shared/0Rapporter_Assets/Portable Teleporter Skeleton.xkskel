@@ -1,6 +1,6 @@
 !Skeleton
 Id: c28b03a1-12ab-4f2f-a15d-349e23beae1d
-SerializedVersion: {Xenko: 1.7.8-beta}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: Portable Teleporter.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

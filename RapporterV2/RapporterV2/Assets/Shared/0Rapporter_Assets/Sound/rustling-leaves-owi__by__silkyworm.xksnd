@@ -1,5 +1,6 @@
 !Sound
 Id: 7c26940e-adae-4972-b444-ea9609c93265
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/rustling-leaves-owi__by__silkyworm.wav
 CompressionRatio: 15

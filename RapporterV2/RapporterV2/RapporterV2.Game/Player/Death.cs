@@ -12,7 +12,7 @@ namespace RapporterV2.Player { public class Death : SyncScript {
         if(check) { count+=0.01f; s.Color = new Color(new Vector3(count, count, count), count); }
         if(count>0.5f) {
             if(Input.IsKeyPressed(Keys.Space)) {
-                SceneSystem.SceneInstance.Scene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Title Scene");
+                SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("0Rapporter_Assets/Scenes/Title Scene");
                 Input.LockMousePosition(false);
             }
         }

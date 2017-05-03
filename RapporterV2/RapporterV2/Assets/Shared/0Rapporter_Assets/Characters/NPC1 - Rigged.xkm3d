@@ -1,6 +1,6 @@
 !Model
 Id: a4ccee5f-3d9a-44aa-a2a2-62a22ecd786b
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: NPC1 - Rigged.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}

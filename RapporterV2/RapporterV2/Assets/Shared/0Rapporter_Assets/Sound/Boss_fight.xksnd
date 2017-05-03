@@ -1,5 +1,6 @@
 !Sound
 Id: 9149eb92-81a7-4366-bd5d-fcb6b431bcc2
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: ../../../../Resources/Music/Boss_fight.wav
 StreamFromDisk: true

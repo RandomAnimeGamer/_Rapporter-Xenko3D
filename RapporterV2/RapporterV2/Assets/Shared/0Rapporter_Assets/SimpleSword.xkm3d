@@ -1,6 +1,6 @@
 !Model
 Id: fadc7dca-97e4-45f1-b08f-ee342f456116
-SerializedVersion: {Xenko: 1.5.0-alpha02}
+SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
 Source: SimpleSword.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
